@@ -198,16 +198,21 @@ export class ImportsService {
       // 3. Import Packs idempotently
       const existingPacks = await this.prisma.medicinePack.findMany({
         select: {
+          id: true,
           brandId: true,
           packQuantity: true,
           packUnits: true,
+          stripUnits: true,
           unitPrice: true,
           packPrice: true,
         },
       });
-      const existingPackKeys = new Set<string>();
+      const existingPackMap = new Map<
+        string,
+        { id: string; stripUnits: number | null }
+      >();
       for (const p of existingPacks) {
-        existingPackKeys.add(
+        existingPackMap.set(
           buildPackFingerprint(
             p.brandId,
             p.packQuantity,
@@ -215,10 +220,12 @@ export class ImportsService {
             formatDecimalFixed(p.unitPrice),
             formatDecimalFixed(p.packPrice),
           ),
+          { id: p.id, stripUnits: p.stripUnits ?? null },
         );
       }
 
       const packRowsToInsert: Prisma.MedicinePackCreateManyInput[] = [];
+      const packStripUpdates: Array<{ id: string; stripUnits: number | null }> = [];
       for (const p of validated.packs) {
         const resolvedBrandId = brandIdMap.get(String(p.brand_id).trim());
         if (!resolvedBrandId) {
@@ -228,6 +235,10 @@ export class ImportsService {
         const packUnits =
           typeof p.pack_units === 'number' && Number.isInteger(p.pack_units) && p.pack_units > 0
             ? p.pack_units
+            : null;
+        const stripUnits =
+          typeof p.strip_units === 'number' && Number.isInteger(p.strip_units) && p.strip_units > 0
+            ? p.strip_units
             : null;
         const unitPrice = parsePositiveDecimal(p.unit_price);
         const packPrice = parsePositiveDecimal(p.pack_price);
@@ -239,15 +250,21 @@ export class ImportsService {
           formatDecimalFixed(unitPrice),
           formatDecimalFixed(packPrice),
         );
-        if (existingPackKeys.has(fingerprint)) {
+        const existingPack = existingPackMap.get(fingerprint);
+        if (existingPack) {
+          if (existingPack.id && existingPack.stripUnits !== stripUnits) {
+            packStripUpdates.push({ id: existingPack.id, stripUnits });
+            existingPack.stripUnits = stripUnits;
+          }
           continue;
         }
-        existingPackKeys.add(fingerprint);
+        existingPackMap.set(fingerprint, { id: '', stripUnits });
 
         packRowsToInsert.push({
           brandId: resolvedBrandId,
           packQuantity,
           packUnits,
+          stripUnits,
           unitPrice,
           packPrice,
           currency: normalizeOptionalText(p.currency) ?? 'BDT',
@@ -266,6 +283,17 @@ export class ImportsService {
           data: chunk,
         });
         packsInserted += res.count;
+      }
+
+      for (const chunk of chunkArray(packStripUpdates, 25)) {
+        await Promise.all(
+          chunk.map((upd) =>
+            this.prisma.medicinePack.update({
+              where: { id: upd.id },
+              data: { stripUnits: upd.stripUnits },
+            }),
+          ),
+        );
       }
 
       // 4. Import Medicine Packaging Images idempotently

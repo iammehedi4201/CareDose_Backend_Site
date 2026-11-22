@@ -23,6 +23,7 @@ export interface SerializedPack {
   id: string;
   packQuantity: string | null;
   packUnits: number | null;
+  stripUnits: number | null;
   unitPrice: string | null;
   packPrice: string | null;
   currency: string;
@@ -186,6 +187,7 @@ export function serializePack(pack: MedicinePack): SerializedPack {
     id: pack.id,
     packQuantity: pack.packQuantity,
     packUnits: pack.packUnits,
+    stripUnits: pack.stripUnits ?? null,
     unitPrice: formatDecimalFixed(pack.unitPrice),
     packPrice: formatDecimalFixed(pack.packPrice),
     currency: pack.currency,

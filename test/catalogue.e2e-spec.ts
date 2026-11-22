@@ -65,6 +65,7 @@ const SAMPLE_BRANDS = [
         brandId: 'bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbb1',
         packQuantity: '5 x 10',
         packUnits: 50,
+        stripUnits: 10,
         unitPrice: new Prisma.Decimal('4.01'),
         packPrice: new Prisma.Decimal('200.50'),
         currency: 'BDT',
@@ -112,6 +113,7 @@ const SAMPLE_BRANDS = [
         brandId: 'bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbb2',
         packQuantity: '500 ml bottle',
         packUnits: null,
+        stripUnits: null,
         unitPrice: null,
         packPrice: new Prisma.Decimal('95.00'),
         currency: 'BDT',
@@ -159,6 +161,7 @@ const SAMPLE_BRANDS = [
         brandId: 'bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbb3',
         packQuantity: "100's pack",
         packUnits: 100,
+        stripUnits: 10,
         unitPrice: new Prisma.Decimal('7.00'),
         packPrice: new Prisma.Decimal('700.00'),
         currency: 'BDT',
@@ -429,6 +432,7 @@ describe('Phase 4 Catalogue Search, Detail & Alternatives API (E2E)', () => {
     expect(brandRes.body.name).toBe('Celofen');
     expect(brandRes.body.primaryPack.unitPrice).toBe('4.01');
     expect(brandRes.body.primaryPack.packPrice).toBe('200.50');
+    expect(brandRes.body.primaryPack.stripUnits).toBe(10);
 
     await request(app.getHttpServer()).get('/api/v1/catalogue/brands/999999').expect(404);
 

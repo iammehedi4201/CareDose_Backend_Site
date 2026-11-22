@@ -48,6 +48,7 @@ function makeSampleBrand(overrides: Partial<BrandWithRelations> = {}): BrandWith
         brandId: '11111111-1111-4111-8111-111111111111',
         packQuantity: '5 x 10',
         packUnits: 50,
+        stripUnits: 10,
         unitPrice: '4.01' as unknown as BrandWithRelations['packs'][number]['unitPrice'],
         packPrice: '200.5' as unknown as BrandWithRelations['packs'][number]['packPrice'],
         currency: 'BDT',
@@ -83,6 +84,7 @@ describe('Catalogue serializers & filters', () => {
     const summary = serializeBrandSummary(makeSampleBrand());
     expect(summary.primaryPack?.unitPrice).toBe('4.01');
     expect(summary.primaryPack?.packPrice).toBe('200.50');
+    expect(summary.primaryPack?.stripUnits).toBe(10);
     expect(summary.primaryImageUrl).toBeNull();
     expect(summary.hasPriceWarning).toBe(false);
 

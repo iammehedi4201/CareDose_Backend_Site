@@ -99,6 +99,17 @@ function createInMemoryImportPrisma() {
         }
         return { count: data.length };
       },
+      update: async ({
+        where,
+        data,
+      }: {
+        where: { id: string };
+        data: Record<string, unknown>;
+      }) => {
+        const found = packs.find((pk) => pk.id === where.id);
+        if (found) Object.assign(found, data);
+        return found;
+      },
     },
     medicineImage: {
       findMany: async () => images,
@@ -285,6 +296,7 @@ describe('ImportsService (batch ingestion & idempotency)', () => {
           brand_id: '1',
           pack_quantity: '5 x 10',
           pack_units: 50,
+          strip_units: 10,
           unit_price: 4.01,
           pack_price: 200.5,
           currency: 'BDT',
@@ -336,5 +348,19 @@ describe('ImportsService (batch ingestion & idempotency)', () => {
     expect(second.imagesInserted).toBe(0);
     expect(second.groupsInserted).toBe(0);
     expect(second.groupLinksInserted).toBe(0);
+
+    // Backfills stripUnits on existing packs cleanly without duplicating rows
+    const celofenPack = prismaMock.packs.find((p) => p.packQuantity === '5 x 10');
+    expect(celofenPack?.stripUnits).toBe(10);
+
+    const updatedDataset: RawCatalogueDataset = {
+      ...sampleDataset,
+      packs: sampleDataset.packs.map((pk) =>
+        pk.brand_id === '1' ? { ...pk, strip_units: 12 } : pk,
+      ),
+    };
+    const third = await service.importDataset(updatedDataset, { batchSize: 2 });
+    expect(third.packsInserted).toBe(0);
+    expect(celofenPack?.stripUnits).toBe(12);
   });
 });

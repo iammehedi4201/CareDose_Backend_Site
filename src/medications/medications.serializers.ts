@@ -93,6 +93,10 @@ export interface SerializedPatientMedicationDetail extends SerializedPatientMedi
 
 export function inferDefaultStockUnit(dosageForm?: string | null): string {
   const norm = (dosageForm ?? '').trim().toLowerCase();
+  if (norm.includes('suppository') || norm.includes('pessary')) return 'pieces';
+  if (norm.includes('sachet') || norm.includes('granules') || norm.includes('oral powder')) {
+    return 'sachets';
+  }
   if (norm.includes('capsule')) return 'capsules';
   if (norm.includes('syrup') || norm.includes('suspension')) return 'ml';
   if (norm.includes('drop')) return 'bottle';

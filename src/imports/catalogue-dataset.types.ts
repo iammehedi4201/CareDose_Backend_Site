@@ -67,6 +67,7 @@ export interface RawDatasetPack {
   brand_id: string;
   pack_quantity?: string | null;
   pack_units?: number | null;
+  strip_units?: number | null;
   unit_price?: number | string | null;
   pack_price?: number | string | null;
   currency?: string | null;

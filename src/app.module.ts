@@ -4,11 +4,13 @@ import { APP_FILTER } from '@nestjs/core';
 import { AuthModule } from './auth/auth.module';
 import { CatalogueModule } from './catalogue/catalogue.module';
 import { HttpExceptionFilter } from './common/filters/http-exception.filter';
+import { DoseLogsModule } from './dose-logs/dose-logs.module';
 import { HealthModule } from './health/health.module';
 import { ImportsModule } from './imports/imports.module';
 import { MedicationsModule } from './medications/medications.module';
 import { PatientsModule } from './patients/patients.module';
 import { PrismaModule } from './prisma/prisma.module';
+import { SchedulesModule } from './schedules/schedules.module';
 import { UsersModule } from './users/users.module';
 
 @Module({
@@ -22,6 +24,8 @@ import { UsersModule } from './users/users.module';
     PatientsModule,
     CatalogueModule,
     MedicationsModule,
+    SchedulesModule,
+    DoseLogsModule,
     ImportsModule,
     HealthModule,
   ],

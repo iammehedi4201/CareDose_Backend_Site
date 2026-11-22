@@ -171,6 +171,7 @@ model MedicinePack {
   brand          MedicineBrand      @relation(fields: [brandId], references: [id], onDelete: Cascade)
   packQuantity   String?
   packUnits      Int?
+  stripUnits     Int?
   unitPrice      Decimal?           @db.Decimal(12, 2)
   packPrice      Decimal?           @db.Decimal(12, 2)
   currency       String             @default("BDT")

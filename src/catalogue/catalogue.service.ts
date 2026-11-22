@@ -84,6 +84,7 @@ interface RawSqlBrandRow {
   pack_id: string | null;
   pack_quantity: string | null;
   pack_units: number | null;
+  pack_strip_units: number | null;
   unit_price: string | null;
   pack_price: string | null;
   pack_currency: string | null;
@@ -132,6 +133,7 @@ interface RawSqlBrandDetailRow {
     id: string;
     packQuantity: string | null;
     packUnits: number | null;
+    stripUnits: number | null;
     unitPrice: string | null;
     packPrice: string | null;
     currency: string;
@@ -182,6 +184,7 @@ function mapSqlRowToBrandSummary(row: RawSqlBrandRow): SerializedBrandSummary {
         id: row.pack_id,
         packQuantity: row.pack_quantity,
         packUnits: row.pack_units,
+        stripUnits: row.pack_strip_units ?? null,
         unitPrice: formatDecimalFixed(row.unit_price),
         packPrice: formatDecimalFixed(row.pack_price),
         currency: row.pack_currency ?? 'BDT',
@@ -524,6 +527,7 @@ export class CatalogueService implements OnApplicationBootstrap {
         pk.id AS pack_id,
         pk."packQuantity" AS pack_quantity,
         pk."packUnits" AS pack_units,
+        pk."stripUnits" AS pack_strip_units,
         pk."unitPrice"::text AS unit_price,
         pk."packPrice"::text AS pack_price,
         pk.currency AS pack_currency,
@@ -714,6 +718,7 @@ export class CatalogueService implements OnApplicationBootstrap {
                 mp.id,
                 mp."packQuantity",
                 mp."packUnits",
+                mp."stripUnits",
                 mp."unitPrice"::text AS "unitPrice",
                 mp."packPrice"::text AS "packPrice",
                 mp.currency,
@@ -762,6 +767,7 @@ export class CatalogueService implements OnApplicationBootstrap {
             id: p.id,
             packQuantity: p.packQuantity,
             packUnits: p.packUnits,
+            stripUnits: p.stripUnits ?? null,
             unitPrice: formatDecimalFixed(p.unitPrice),
             packPrice: formatDecimalFixed(p.packPrice),
             currency: p.currency ?? 'BDT',
@@ -1043,6 +1049,7 @@ export class CatalogueService implements OnApplicationBootstrap {
           pk.id AS pack_id,
           pk."packQuantity" AS pack_quantity,
           pk."packUnits" AS pack_units,
+          pk."stripUnits" AS pack_strip_units,
           pk."unitPrice"::text AS unit_price,
           pk."packPrice"::text AS pack_price,
           pk.currency AS pack_currency,

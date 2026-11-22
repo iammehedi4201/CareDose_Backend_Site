@@ -3,8 +3,11 @@ import { ConflictException, ForbiddenException } from '@nestjs/common';
 import { afterAll, beforeAll, describe, expect, it } from 'vitest';
 import { AuthService } from '../src/auth/auth.service';
 import { TokenService } from '../src/auth/token.service';
+import { DoseLogsService } from '../src/dose-logs/dose-logs.service';
+import { MedicationsService } from '../src/medications/medications.service';
 import { PatientsService } from '../src/patients/patients.service';
 import { PrismaService } from '../src/prisma/prisma.service';
+import { SchedulesService } from '../src/schedules/schedules.service';
 import { UsersService } from '../src/users/users.service';
 
 /**
@@ -17,6 +20,9 @@ describe('PostgreSQL Live Database Integration (TEST_DATABASE_URL)', () => {
   let authService: AuthService;
   let usersService: UsersService;
   let patientsService: PatientsService;
+  let medicationsService: MedicationsService;
+  let schedulesService: SchedulesService;
+  let doseLogsService: DoseLogsService;
   const createdEmails: string[] = [];
 
   beforeAll(async () => {
@@ -47,6 +53,9 @@ describe('PostgreSQL Live Database Integration (TEST_DATABASE_URL)', () => {
     authService = new AuthService(prisma, tokenService);
     usersService = new UsersService(prisma);
     patientsService = new PatientsService(prisma);
+    medicationsService = new MedicationsService(prisma);
+    schedulesService = new SchedulesService(prisma);
+    doseLogsService = new DoseLogsService(prisma);
   });
 
   afterAll(async () => {
@@ -104,5 +113,63 @@ describe('PostgreSQL Live Database Integration (TEST_DATABASE_URL)', () => {
     await expect(
       patientsService.getByIdForUser(regB.user.id, secondProfile.id),
     ).rejects.toThrow(ForbiddenException);
-  }, 30000);
+
+    // Phase 6: create medication + schedule, mark dose taken atomically & verify idempotency
+    const createdMed = await medicationsService.createForPatient(secondProfile.id, {
+      name: 'Napa Phase 6 DB Test',
+      dosageForm: 'Tablet',
+      personalInstructions: '1 tablet twice daily',
+      startingStock: 10,
+      lowStockThreshold: 3,
+    });
+    const createdSched = await schedulesService.createForMedication(createdMed.id, {
+      doseAmount: 2,
+      doseUnit: 'tablet',
+      frequency: 'DAILY',
+      scheduledTimes: ['08:00 AM', '08:00 PM'],
+      startDate: '2026-11-22',
+    });
+    const daily = await doseLogsService.getDailyOrWeekDoses(
+      secondProfile.id,
+      'Asia/Dhaka',
+      { date: '2026-11-22', days: 1 },
+    );
+    expect(daily.days[0].items).toHaveLength(2);
+
+    const firstOccurrence = daily.days[0].items[0];
+    const [r1, r2] = await Promise.all([
+      doseLogsService.recordOccurrenceForPatient(secondProfile.id, {
+        scheduleId: createdSched.id,
+        scheduledFor: firstOccurrence.scheduledFor,
+        action: 'TAKEN',
+      }),
+      doseLogsService.recordOccurrenceForPatient(secondProfile.id, {
+        scheduleId: createdSched.id,
+        scheduledFor: firstOccurrence.scheduledFor,
+        action: 'TAKEN',
+      }),
+    ]);
+
+    const deductedCount = [r1, r2].filter((r) => r.stockDeducted).length;
+    expect(deductedCount).toBe(1);
+
+    const updatedMed = await medicationsService.getById(createdMed.id);
+    expect(updatedMed.stockRemaining).toBe('8.00');
+
+    const skipOccurrence = daily.days[0].items[1];
+    const skipped = await doseLogsService.recordOccurrenceForPatient(secondProfile.id, {
+      scheduleId: createdSched.id,
+      scheduledFor: skipOccurrence.scheduledFor,
+      action: 'SKIPPED',
+    });
+    expect(skipped.stockDeducted).toBe(false);
+    expect(skipped.newStockRemaining).toBe('8.00');
+
+    const history = await doseLogsService.listDoseHistory(
+      secondProfile.id,
+      'Asia/Dhaka',
+      { status: 'ALL', medicationId: createdMed.id },
+    );
+    expect(history.counts).toEqual({ all: 2, taken: 1, skipped: 1 });
+  }, 60000);
 });
