@@ -6,6 +6,7 @@ import { CatalogueModule } from './catalogue/catalogue.module';
 import { HttpExceptionFilter } from './common/filters/http-exception.filter';
 import { HealthModule } from './health/health.module';
 import { ImportsModule } from './imports/imports.module';
+import { MedicationsModule } from './medications/medications.module';
 import { PatientsModule } from './patients/patients.module';
 import { PrismaModule } from './prisma/prisma.module';
 import { UsersModule } from './users/users.module';
@@ -20,6 +21,7 @@ import { UsersModule } from './users/users.module';
     UsersModule,
     PatientsModule,
     CatalogueModule,
+    MedicationsModule,
     ImportsModule,
     HealthModule,
   ],

@@ -16,6 +16,11 @@ export interface RequestWithAuth {
     timezone: string;
     isDefault: boolean;
   };
+  patientMedication?: {
+    id: string;
+    patientId: string;
+    ownerUserId: string;
+  };
 }
 
 export const CurrentUser = createParamDecorator(

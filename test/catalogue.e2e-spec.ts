@@ -407,6 +407,19 @@ describe('Phase 4 Catalogue Search, Detail & Alternatives API (E2E)', () => {
     expect(injectionFilter.body.items[0].name).toBe('Dextrolac');
     expect(injectionFilter.body.items[0].strength).toBeNull();
     expect(injectionFilter.body.items[0].hasPriceWarning).toBe(true);
+
+    const genericSearchPage1 = await request(app.getHttpServer())
+      .get('/api/v1/catalogue/search?q=Aceclofenac&limit=1')
+      .expect(200);
+    expect(genericSearchPage1.body.totalCount).toBe(2);
+    expect(genericSearchPage1.body.items[0].name).toBe('Celofen');
+    expect(genericSearchPage1.body.hasMore).toBe(true);
+
+    const genericSearchPage2 = await request(app.getHttpServer())
+      .get(`/api/v1/catalogue/search?q=Aceclofenac&limit=1&cursor=${genericSearchPage1.body.nextCursor}`)
+      .expect(200);
+    expect(genericSearchPage2.body.items[0].name).toBe('Flexi');
+    expect(genericSearchPage2.body.hasMore).toBe(false);
   });
 
   it('returns full brand details, generic details, and candidate alternative brands with safety warnings', async () => {

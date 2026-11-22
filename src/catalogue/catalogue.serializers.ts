@@ -97,6 +97,53 @@ export type BrandWithRelations = MedicineBrand & {
   images: MedicineImage[];
 };
 
+export function escapeLikePattern(value: string): string {
+  return value.replace(/[\\%_]/g, '\\$&');
+}
+
+export function computeBrandSearchRank(
+  brandNormalizedName: string,
+  normalizedQuery: string,
+): number {
+  if (!normalizedQuery) return 0;
+  if (brandNormalizedName === normalizedQuery) return 0;
+  if (brandNormalizedName.startsWith(normalizedQuery)) return 1;
+  if (brandNormalizedName.includes(normalizedQuery)) return 2;
+  return 3;
+}
+
+export function resolveDosageFormSqlCondition(
+  rawForm?: string | null,
+): Prisma.Sql | null {
+  if (!rawForm) {
+    return null;
+  }
+  const form = normalizeSearchText(rawForm);
+  if (!form || form === 'all') {
+    return null;
+  }
+  if (form === 'tablet') {
+    return Prisma.sql`LOWER(COALESCE(b."dosageFormNorm", '')) LIKE '%tablet%'`;
+  }
+  if (form === 'capsule') {
+    return Prisma.sql`LOWER(COALESCE(b."dosageFormNorm", '')) LIKE '%capsule%'`;
+  }
+  if (form === 'syrup') {
+    return Prisma.sql`(
+      LOWER(COALESCE(b."dosageFormNorm", '')) LIKE '%syrup%'
+      OR LOWER(COALESCE(b."dosageFormNorm", '')) LIKE '%suspension%'
+      OR LOWER(COALESCE(b."dosageFormNorm", '')) LIKE '%drops%'
+    )`;
+  }
+  if (form === 'injection') {
+    return Prisma.sql`(
+      LOWER(COALESCE(b."dosageFormNorm", '')) LIKE '%injection%'
+      OR LOWER(COALESCE(b."dosageFormNorm", '')) LIKE '%infusion%'
+    )`;
+  }
+  return Prisma.sql`LOWER(COALESCE(b."dosageFormNorm", '')) = ${form}`;
+}
+
 export function resolveDosageFormFilter(
   rawForm?: string | null,
 ): Prisma.MedicineBrandWhereInput | null {

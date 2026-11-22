@@ -9,9 +9,7 @@ import {
 } from '@nestjs/common';
 import { PrismaService } from '../../prisma/prisma.service';
 import type { RequestWithAuth } from '../decorators/current-user.decorator';
-
-const UUID_REGEX =
-  /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+import { isValidUuid } from '../utils/uuid.util';
 
 /**
  * Enforces patient-profile ownership before controller handlers run.
@@ -29,7 +27,7 @@ export class PatientOwnershipGuard implements CanActivate {
     }
 
     const patientId = request.params?.patientId;
-    if (!patientId || !UUID_REGEX.test(patientId)) {
+    if (!isValidUuid(patientId)) {
       throw new BadRequestException('Invalid patientId UUID parameter');
     }
 

@@ -1,6 +1,7 @@
-import { Injectable, Logger } from '@nestjs/common';
+import { Injectable, Logger, Optional } from '@nestjs/common';
 import { Prisma, VerificationStatus } from '@prisma/client';
 import { readFile } from 'node:fs/promises';
+import { CatalogueCacheService } from '../catalogue/catalogue-cache';
 import { PrismaService } from '../prisma/prisma.service';
 import {
   formatDecimalFixed,
@@ -65,7 +66,10 @@ function buildPackFingerprint(
 export class ImportsService {
   private readonly logger = new Logger(ImportsService.name);
 
-  constructor(private readonly prisma: PrismaService) {}
+  constructor(
+    private readonly prisma: PrismaService,
+    @Optional() private readonly catalogueCache?: CatalogueCacheService,
+  ) {}
 
   async importFromFile(
     filePath: string,
@@ -382,6 +386,7 @@ export class ImportsService {
           groupsCount: validated.alternative_groups.length,
         },
       });
+      this.catalogueCache?.invalidateAll();
 
       const durationMs = Date.now() - startedAt;
       this.logger.log(

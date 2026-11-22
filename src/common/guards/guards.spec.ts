@@ -12,6 +12,7 @@ import { TokenService } from '../../auth/token.service';
 import { PrismaService } from '../../prisma/prisma.service';
 import type { RequestWithAuth } from '../decorators/current-user.decorator';
 import { JwtAuthGuard } from './jwt-auth.guard';
+import { MedicationOwnershipGuard } from './medication-ownership.guard';
 import { PatientOwnershipGuard } from './patient-ownership.guard';
 
 function makeExecutionContext(
@@ -119,5 +120,62 @@ describe('JwtAuthGuard & PatientOwnershipGuard', () => {
     });
     await expect(guard.canActivate(makeExecutionContext(req))).resolves.toBe(true);
     expect(req.patientProfile?.name).toBe('Karim');
+  });
+
+  it('MedicationOwnershipGuard enforces ownerUserId via linked PatientProfile (400 / 401 / 403 / 404)', async () => {
+    const medId = '22222222-2222-4222-8222-222222222222';
+    const patientId = '11111111-1111-4111-8111-111111111111';
+    const findUnique = vi.fn();
+    const prisma = { patientMedication: { findUnique } } as unknown as PrismaService;
+    const guard = new MedicationOwnershipGuard(prisma);
+
+    await expect(
+      guard.canActivate(makeExecutionContext({ params: { id: medId } })),
+    ).rejects.toThrow(UnauthorizedException);
+
+    await expect(
+      guard.canActivate(
+        makeExecutionContext({
+          user: { userId: 'user-a', email: 'a@example.com' },
+          params: { id: 'bad-id' },
+        }),
+      ),
+    ).rejects.toThrow(BadRequestException);
+
+    findUnique.mockResolvedValueOnce(null);
+    await expect(
+      guard.canActivate(
+        makeExecutionContext({
+          user: { userId: 'user-a', email: 'a@example.com' },
+          params: { id: medId },
+        }),
+      ),
+    ).rejects.toThrow(NotFoundException);
+
+    findUnique.mockResolvedValueOnce({
+      id: medId,
+      patientId,
+      patient: { ownerUserId: 'user-b' },
+    });
+    await expect(
+      guard.canActivate(
+        makeExecutionContext({
+          user: { userId: 'user-a', email: 'a@example.com' },
+          params: { id: medId },
+        }),
+      ),
+    ).rejects.toThrow(ForbiddenException);
+
+    const req: RequestWithAuth = {
+      user: { userId: 'user-a', email: 'a@example.com' },
+      params: { id: medId },
+    };
+    findUnique.mockResolvedValueOnce({
+      id: medId,
+      patientId,
+      patient: { ownerUserId: 'user-a' },
+    });
+    await expect(guard.canActivate(makeExecutionContext(req))).resolves.toBe(true);
+    expect(req.patientMedication?.patientId).toBe(patientId);
   });
 });

@@ -1,6 +1,8 @@
 import { FieldStatus, VerificationStatus } from '@prisma/client';
 import { describe, expect, it } from 'vitest';
 import {
+  computeBrandSearchRank,
+  escapeLikePattern,
   resolveDosageFormFilter,
   serializeBrandDetail,
   serializeBrandSummary,
@@ -105,5 +107,14 @@ describe('Catalogue serializers & filters', () => {
     expect(missingDetail.fieldStatus.strength).toBe(FieldStatus.MISSING);
     expect(missingDetail.hasPriceWarning).toBe(true);
     expect(missingDetail.safetyNotice).toMatch(/unverified/i);
+  });
+
+  it('ranks exact and prefix brand matches before substring and generic matches and escapes LIKE wildcards', () => {
+    expect(computeBrandSearchRank('napa', 'napa')).toBe(0);
+    expect(computeBrandSearchRank('napa extra', 'napa')).toBe(1);
+    expect(computeBrandSearchRank('pranapa', 'napa')).toBe(2);
+    expect(computeBrandSearchRank('aexidal', 'napa')).toBe(3);
+
+    expect(escapeLikePattern('100% pure_test\\x')).toBe('100\\% pure\\_test\\\\x');
   });
 });
