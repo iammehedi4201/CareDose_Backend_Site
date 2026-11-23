@@ -61,10 +61,31 @@ interface MockMedication {
 interface MockInventoryTx {
   id: string;
   patientMedicationId: string;
+  purchaseId: string | null;
+  cataloguePackId: string | null;
   type: InventoryTransactionType;
+  enteredQuantity: Prisma.Decimal | null;
+  enteredUnit: string | null;
+  baseUnit: string | null;
   quantityDelta: Prisma.Decimal;
   balanceAfter: Prisma.Decimal;
   reason: string | null;
+  note: string | null;
+  createdAt: Date;
+}
+
+interface MockPurchase {
+  id: string;
+  patientId: string;
+  patientMedicationId: string;
+  purchaseDate: Date;
+  packCount: number;
+  unitsPerPack: Prisma.Decimal;
+  totalUnitsAdded: Prisma.Decimal;
+  amountPaid: Prisma.Decimal;
+  currency: string;
+  vendor: string | null;
+  note: string | null;
   createdAt: Date;
 }
 
@@ -108,6 +129,7 @@ const SAMPLE_CATALOGUE_BRAND = {
       brandId: 'bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbb1',
       packQuantity: '5 x 10',
       packUnits: 50,
+      stripUnits: 10,
       unitPrice: new Prisma.Decimal('4.01'),
       packPrice: new Prisma.Decimal('200.50'),
       currency: 'BDT',
@@ -128,20 +150,22 @@ function createPhase5PrismaMock() {
   const patients: MockPatient[] = [];
   const medications: MockMedication[] = [];
   const inventoryTxs: MockInventoryTx[] = [];
+  const purchases: MockPurchase[] = [];
 
   const hydrateMed = (med: MockMedication) => {
     const patient = patients.find((p) => p.id === med.patientId);
     const brand = med.catalogueBrandId === SAMPLE_CATALOGUE_BRAND.id ? SAMPLE_CATALOGUE_BRAND : null;
     const txs = inventoryTxs.filter((t) => t.patientMedicationId === med.id);
+    const medPurchases = purchases.filter((pr) => pr.patientMedicationId === med.id);
     return {
       ...med,
       patient: patient ? { ownerUserId: patient.ownerUserId, id: patient.id, name: patient.name } : undefined,
       catalogueBrand: brand,
       schedules: [],
-      purchases: [],
+      purchases: medPurchases,
       doseEvents: [],
       inventoryTransactions: txs,
-      _count: { schedules: 0, purchases: 0 },
+      _count: { schedules: 0, purchases: medPurchases.length },
     };
   };
 
@@ -151,8 +175,10 @@ function createPhase5PrismaMock() {
       patients.length = 0;
       medications.length = 0;
       inventoryTxs.length = 0;
+      purchases.length = 0;
     },
     inventoryTxs,
+    purchases,
     onModuleInit: vi.fn(),
     onModuleDestroy: vi.fn(),
     checkConnection: vi.fn().mockResolvedValue({ connected: true }),
@@ -227,6 +253,17 @@ function createPhase5PrismaMock() {
         return null;
       }),
     },
+    medicinePack: {
+      findFirst: vi.fn(async ({ where }: { where: { id?: string; brandId?: string } }) => {
+        if (
+          where.id === SAMPLE_CATALOGUE_BRAND.packs[0].id &&
+          where.brandId === SAMPLE_CATALOGUE_BRAND.id
+        ) {
+          return { id: SAMPLE_CATALOGUE_BRAND.packs[0].id };
+        }
+        return null;
+      }),
+    },
     patientMedication: {
       findMany: vi.fn(async ({ where }: { where?: Record<string, unknown> }) => {
         const andList = Array.isArray(where?.AND)
@@ -295,6 +332,42 @@ function createPhase5PrismaMock() {
         },
       ),
     },
+    purchase: {
+      create: vi.fn(
+        async ({
+          data,
+        }: {
+          data: {
+            patientId: string;
+            patientMedicationId: string;
+            purchaseDate: Date;
+            packCount: number;
+            unitsPerPack: Prisma.Decimal;
+            totalUnitsAdded: Prisma.Decimal;
+            amountPaid: Prisma.Decimal;
+            vendor?: string | null;
+            note?: string | null;
+          };
+        }) => {
+          const row: MockPurchase = {
+            id: randomUUID(),
+            patientId: data.patientId,
+            patientMedicationId: data.patientMedicationId,
+            purchaseDate: data.purchaseDate,
+            packCount: data.packCount,
+            unitsPerPack: data.unitsPerPack,
+            totalUnitsAdded: data.totalUnitsAdded,
+            amountPaid: data.amountPaid,
+            currency: 'BDT',
+            vendor: data.vendor ?? null,
+            note: data.note ?? null,
+            createdAt: new Date(),
+          };
+          purchases.push(row);
+          return row;
+        },
+      ),
+    },
     inventoryTransaction: {
       create: vi.fn(
         async ({
@@ -302,15 +375,31 @@ function createPhase5PrismaMock() {
         }: {
           data: {
             patientMedicationId: string;
+            purchaseId?: string | null;
+            cataloguePackId?: string | null;
             type: InventoryTransactionType;
+            enteredQuantity?: Prisma.Decimal | null;
+            enteredUnit?: string | null;
+            baseUnit?: string | null;
             quantityDelta: Prisma.Decimal;
             balanceAfter: Prisma.Decimal;
             reason: string | null;
+            note?: string | null;
           };
         }) => {
           const row: MockInventoryTx = {
             id: randomUUID(),
-            ...data,
+            patientMedicationId: data.patientMedicationId,
+            purchaseId: data.purchaseId ?? null,
+            cataloguePackId: data.cataloguePackId ?? null,
+            type: data.type,
+            enteredQuantity: data.enteredQuantity ?? null,
+            enteredUnit: data.enteredUnit ?? null,
+            baseUnit: data.baseUnit ?? null,
+            quantityDelta: data.quantityDelta,
+            balanceAfter: data.balanceAfter,
+            reason: data.reason,
+            note: data.note ?? null,
             createdAt: new Date(),
           };
           inventoryTxs.push(row);
@@ -382,7 +471,7 @@ describe('Phase 5 Medications API (CRUD, Catalogue Link, Low-Stock, Archive/Rest
     const tokenB = regB.body.accessToken as string;
     const patientA = regA.body.defaultPatientProfile.id as string;
 
-    // 1. Require auth & personal instructions
+    // 1. Require auth & valid medicine name when manual; personalInstructions is optional
     await request(app.getHttpServer())
       .get(`/api/v1/patients/${patientA}/medications`)
       .expect(401);
@@ -390,13 +479,13 @@ describe('Phase 5 Medications API (CRUD, Catalogue Link, Low-Stock, Archive/Rest
     await request(app.getHttpServer())
       .post(`/api/v1/patients/${patientA}/medications`)
       .set('Authorization', `Bearer ${tokenA}`)
-      .send({ catalogueBrandId: '1', personalInstructions: '' })
+      .send({ startingStock: 10 })
       .expect(400);
 
     await request(app.getHttpServer())
       .post(`/api/v1/patients/${patientA}/medications`)
       .set('Authorization', `Bearer ${tokenA}`)
-      .send({ catalogueBrandId: '999999', personalInstructions: '1 tablet daily' })
+      .send({ catalogueBrandId: '999999', startingStock: 10 })
       .expect(404);
 
     // 2. Manual medicine add with low stock
@@ -420,23 +509,49 @@ describe('Phase 5 Medications API (CRUD, Catalogue Link, Low-Stock, Archive/Rest
     expect(prismaMock.inventoryTxs).toHaveLength(1);
     expect(prismaMock.inventoryTxs[0].type).toBe(InventoryTransactionType.OPENING_STOCK);
 
-    // 3. Catalogue-linked medicine add (Celofen sourceId: '1')
+    // 3. Catalogue-linked medicine add WITHOUT personalInstructions, WITH strip entry + pack ID + optional purchase
     const catRes = await request(app.getHttpServer())
       .post(`/api/v1/patients/${patientA}/medications`)
       .set('Authorization', `Bearer ${tokenA}`)
       .send({
         catalogueBrandId: '1',
-        personalInstructions: '1 tablet after dinner for pain',
-        startingStock: 20,
+        startingStock: 30,
+        stockUnit: 'tablets',
+        enteredQuantity: 3,
+        enteredUnit: 'strips',
+        selectedPackId: SAMPLE_CATALOGUE_BRAND.packs[0].id,
         lowStockThreshold: 5,
+        purchaseDetails: {
+          amountPaid: 120.3,
+          vendor: 'Local Pharmacy',
+        },
       })
       .expect(201);
 
     expect(catRes.body.name).toBe('Celofen');
     expect(catRes.body.genericName).toBe('Aceclofenac');
     expect(catRes.body.manufacturer).toBe('ACI Limited');
+    expect(catRes.body.personalInstructions).toBe('');
     expect(catRes.body.isLowStock).toBe(false);
     expect(catRes.body.schedulesCount).toBe(0);
+    expect(catRes.body.purchasesCount).toBe(1);
+
+    const catDetail = await request(app.getHttpServer())
+      .get(`/api/v1/patient-medications/${catRes.body.id}`)
+      .set('Authorization', `Bearer ${tokenA}`)
+      .expect(200);
+    expect(catDetail.body.recentPurchases).toHaveLength(1);
+    expect(catDetail.body.recentPurchases[0].amountPaid).toBe('120.30');
+    expect(catDetail.body.recentInventoryTransactions).toHaveLength(1);
+    expect(catDetail.body.recentInventoryTransactions[0]).toMatchObject({
+      type: InventoryTransactionType.OPENING_STOCK,
+      enteredQuantity: '3.00',
+      enteredUnit: 'strips',
+      baseUnit: 'tablets',
+      cataloguePackId: SAMPLE_CATALOGUE_BRAND.packs[0].id,
+      quantityDelta: '30.00',
+      balanceAfter: '30.00',
+    });
 
     // 4. Low-stock filter returns only Glymexa
     const lowStockList = await request(app.getHttpServer())

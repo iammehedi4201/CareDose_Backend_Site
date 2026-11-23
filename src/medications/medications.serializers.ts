@@ -84,9 +84,14 @@ export interface SerializedPatientMedicationDetail extends SerializedPatientMedi
   recentInventoryTransactions: Array<{
     id: string;
     type: string;
+    enteredQuantity: string | null;
+    enteredUnit: string | null;
+    baseUnit: string | null;
+    cataloguePackId: string | null;
     quantityDelta: string;
     balanceAfter: string;
     reason: string | null;
+    note: string | null;
     createdAt: string;
   }>;
 }
@@ -192,9 +197,14 @@ export function serializePatientMedicationDetail(
     recentInventoryTransactions: med.inventoryTransactions.map((t) => ({
       id: t.id,
       type: t.type,
+      enteredQuantity: t.enteredQuantity != null ? formatDecimalFixed(t.enteredQuantity) : null,
+      enteredUnit: t.enteredUnit ?? null,
+      baseUnit: t.baseUnit ?? null,
+      cataloguePackId: t.cataloguePackId ?? null,
       quantityDelta: formatDecimalFixed(t.quantityDelta) ?? '0.00',
       balanceAfter: formatDecimalFixed(t.balanceAfter) ?? '0.00',
       reason: t.reason,
+      note: t.note ?? null,
       createdAt: t.createdAt.toISOString(),
     })),
   };

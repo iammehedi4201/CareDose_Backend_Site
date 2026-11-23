@@ -114,6 +114,31 @@ describe('PostgreSQL Live Database Integration (TEST_DATABASE_URL)', () => {
       patientsService.getByIdForUser(regB.user.id, secondProfile.id),
     ).rejects.toThrow(ForbiddenException);
 
+    // Simplification Phase: add catalogue-free med WITHOUT personalInstructions + entered strip conversion + optional purchase
+    const stripMed = await medicationsService.createForPatient(secondProfile.id, {
+      name: 'Napa Simple Add DB Test',
+      dosageForm: 'Tablet',
+      startingStock: 30,
+      stockUnit: 'tablets',
+      enteredQuantity: 3,
+      enteredUnit: 'strips',
+      purchaseDetails: { amountPaid: 36, vendor: 'Demo Pharmacy' },
+    });
+    expect(stripMed.personalInstructions).toBe('');
+    expect(stripMed.stockRemaining).toBe('30.00');
+    expect(stripMed.schedulesCount).toBe(0);
+    expect(stripMed.purchasesCount).toBe(1);
+
+    const stripDetail = await medicationsService.getById(stripMed.id);
+    expect(stripDetail.recentInventoryTransactions[0]).toMatchObject({
+      type: 'OPENING_STOCK',
+      enteredQuantity: '3.00',
+      enteredUnit: 'strips',
+      baseUnit: 'tablets',
+      quantityDelta: '30.00',
+    });
+    expect(stripDetail.recentPurchases[0].amountPaid).toBe('36.00');
+
     // Phase 6: create medication + schedule, mark dose taken atomically & verify idempotency
     const createdMed = await medicationsService.createForPatient(secondProfile.id, {
       name: 'Napa Phase 6 DB Test',

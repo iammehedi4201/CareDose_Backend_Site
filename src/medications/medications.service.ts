@@ -104,10 +104,7 @@ export class MedicationsService {
     patientId: string,
     dto: CreateMedicationDto,
   ): Promise<SerializedPatientMedication> {
-    const cleanInstructions = dto.personalInstructions.trim();
-    if (!cleanInstructions) {
-      throw new BadRequestException('Personal instructions are required.');
-    }
+    const cleanInstructions = (dto.personalInstructions ?? '').trim();
 
     let resolvedCatalogueBrandId: string | null = null;
     let catalogueBrandRecord = null;
@@ -123,6 +120,16 @@ export class MedicationsService {
         throw new NotFoundException(`Catalogue brand "${rawBrandRef}" not found`);
       }
       resolvedCatalogueBrandId = catalogueBrandRecord.id;
+    }
+
+    let resolvedPackId: string | null = null;
+    const rawPackRef = normalizeOptionalText(dto.selectedPackId);
+    if (rawPackRef && resolvedCatalogueBrandId && isValidUuid(rawPackRef)) {
+      const matchedPack = await this.prisma.medicinePack.findFirst({
+        where: { id: rawPackRef, brandId: resolvedCatalogueBrandId },
+        select: { id: true },
+      });
+      resolvedPackId = matchedPack?.id ?? null;
     }
 
     const resolvedName =
@@ -148,6 +155,16 @@ export class MedicationsService {
     const thresholdDec = new Prisma.Decimal(thresholdVal).toDecimalPlaces(2);
     const resolvedStockUnit =
       normalizeOptionalText(dto.stockUnit) ?? inferDefaultStockUnit(resolvedForm);
+    const resolvedEnteredQty =
+      dto.enteredQuantity !== undefined
+        ? new Prisma.Decimal(dto.enteredQuantity).toDecimalPlaces(2)
+        : stockDec;
+    const resolvedEnteredUnit =
+      normalizeOptionalText(dto.enteredUnit) ?? resolvedStockUnit;
+    const conversionNote =
+      resolvedEnteredUnit !== resolvedStockUnit
+        ? `${resolvedEnteredQty.toString()} ${resolvedEnteredUnit} entered -> ${stockDec.toString()} ${resolvedStockUnit}`
+        : null;
 
     const created = await this.prisma.$transaction(async (tx) => {
       const med = await tx.patientMedication.create({
@@ -168,19 +185,65 @@ export class MedicationsService {
         include: MEDICATION_LIST_INCLUDE,
       });
 
+      let initialPurchaseId: string | null = null;
+      if (dto.purchaseDetails) {
+        const pd = dto.purchaseDetails;
+        const parsedDate = pd.purchaseDate ? new Date(pd.purchaseDate) : new Date();
+        const validDate = Number.isNaN(parsedDate.getTime()) ? new Date() : parsedDate;
+        const packCount =
+          pd.packCount ??
+          (resolvedEnteredQty.gt(0) && resolvedEnteredQty.isInteger()
+            ? Math.max(1, resolvedEnteredQty.toNumber())
+            : 1);
+        const derivedUnitsPerPack =
+          pd.unitsPerPack ??
+          (stockDec.gt(0)
+            ? Number(stockDec.div(packCount).toDecimalPlaces(2).toString())
+            : 1);
+
+        const purchaseRow = await tx.purchase.create({
+          data: {
+            patientId,
+            patientMedicationId: med.id,
+            purchaseDate: validDate,
+            packCount,
+            unitsPerPack: new Prisma.Decimal(derivedUnitsPerPack).toDecimalPlaces(2),
+            totalUnitsAdded: stockDec,
+            amountPaid: new Prisma.Decimal(pd.amountPaid).toDecimalPlaces(2),
+            vendor: normalizeOptionalText(pd.vendor),
+            note: normalizeOptionalText(pd.note),
+          },
+        });
+        initialPurchaseId = purchaseRow.id;
+      }
+
       if (stockDec.gt(0)) {
         await tx.inventoryTransaction.create({
           data: {
             patientMedicationId: med.id,
+            purchaseId: initialPurchaseId,
+            cataloguePackId: resolvedPackId,
             type: InventoryTransactionType.OPENING_STOCK,
+            enteredQuantity: resolvedEnteredQty,
+            enteredUnit: resolvedEnteredUnit,
+            baseUnit: resolvedStockUnit,
             quantityDelta: stockDec,
             balanceAfter: stockDec,
             reason: 'Opening stock',
+            note: conversionNote,
           },
         });
       }
 
-      return med;
+      return initialPurchaseId
+        ? {
+            ...med,
+            _count: {
+              ...med._count,
+              purchases: (med._count?.purchases ?? 0) + 1,
+            },
+          }
+        : med;
     });
 
     return serializePatientMedication(created);
@@ -233,11 +296,7 @@ export class MedicationsService {
     }
 
     if (dto.personalInstructions !== undefined) {
-      const cleanInstr = dto.personalInstructions.trim();
-      if (!cleanInstr) {
-        throw new BadRequestException('Personal instructions cannot be empty.');
-      }
-      data.personalInstructions = cleanInstr;
+      data.personalInstructions = dto.personalInstructions.trim();
     }
 
     if (dto.genericName !== undefined) {

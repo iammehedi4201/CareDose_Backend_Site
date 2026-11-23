@@ -1,14 +1,52 @@
 import { Type } from 'class-transformer';
 import {
   IsIn,
-  IsNotEmpty,
+  IsInt,
   IsNumber,
   IsOptional,
   IsString,
   Max,
   MaxLength,
   Min,
+  ValidateNested,
 } from 'class-validator';
+
+export class CreateInitialPurchaseDto {
+  @IsOptional()
+  @IsString()
+  @MaxLength(40)
+  purchaseDate?: string;
+
+  @IsOptional()
+  @Type(() => Number)
+  @IsInt()
+  @Min(1)
+  @Max(100000)
+  packCount?: number;
+
+  @IsOptional()
+  @Type(() => Number)
+  @IsNumber({ maxDecimalPlaces: 2 })
+  @Min(0.01)
+  @Max(1000000)
+  unitsPerPack?: number;
+
+  @Type(() => Number)
+  @IsNumber({ maxDecimalPlaces: 2 })
+  @Min(0)
+  @Max(10000000)
+  amountPaid!: number;
+
+  @IsOptional()
+  @IsString()
+  @MaxLength(160)
+  vendor?: string;
+
+  @IsOptional()
+  @IsString()
+  @MaxLength(300)
+  note?: string;
+}
 
 export class ListMedicationsQueryDto {
   @IsOptional()
@@ -56,10 +94,10 @@ export class CreateMedicationDto {
   @MaxLength(160)
   manufacturer?: string;
 
+  @IsOptional()
   @IsString()
-  @IsNotEmpty({ message: 'Personal instructions are required.' })
   @MaxLength(500)
-  personalInstructions!: string;
+  personalInstructions?: string;
 
   @IsOptional()
   @Type(() => Number)
@@ -72,6 +110,28 @@ export class CreateMedicationDto {
   @IsString()
   @MaxLength(40)
   stockUnit?: string;
+
+  @IsOptional()
+  @Type(() => Number)
+  @IsNumber({ maxDecimalPlaces: 2 })
+  @Min(0)
+  @Max(1000000)
+  enteredQuantity?: number;
+
+  @IsOptional()
+  @IsString()
+  @MaxLength(40)
+  enteredUnit?: string;
+
+  @IsOptional()
+  @IsString()
+  @MaxLength(80)
+  selectedPackId?: string;
+
+  @IsOptional()
+  @ValidateNested()
+  @Type(() => CreateInitialPurchaseDto)
+  purchaseDetails?: CreateInitialPurchaseDto;
 
   @IsOptional()
   @Type(() => Number)

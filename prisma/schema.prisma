@@ -180,8 +180,9 @@ model MedicinePack {
   sourceUrl      String?
   collectedAt    DateTime?
   verification   VerificationStatus @default(UNVERIFIED)
-  warnings       String[]           @default([])
-  createdAt      DateTime           @default(now())
+  warnings              String[]               @default([])
+  createdAt             DateTime               @default(now())
+  inventoryTransactions InventoryTransaction[]
 
   @@index([brandId])
 }
@@ -299,7 +300,12 @@ model InventoryTransaction {
   doseEvent           DoseEvent?               @relation(fields: [doseEventId], references: [id], onDelete: SetNull)
   purchaseId          String?                  @unique
   purchase            Purchase?                @relation(fields: [purchaseId], references: [id], onDelete: SetNull)
+  cataloguePackId     String?
+  cataloguePack       MedicinePack?            @relation(fields: [cataloguePackId], references: [id], onDelete: SetNull)
   type                InventoryTransactionType
+  enteredQuantity     Decimal?                 @db.Decimal(12, 2)
+  enteredUnit         String?
+  baseUnit            String?
   quantityDelta       Decimal                  @db.Decimal(12, 2)
   balanceAfter        Decimal                  @db.Decimal(12, 2)
   reason              String?
