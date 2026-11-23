@@ -5,6 +5,7 @@ import {
   IsArray,
   IsBoolean,
   IsIn,
+  IsInt,
   IsNumber,
   IsOptional,
   IsString,
@@ -36,6 +37,21 @@ export class CreateScheduleDto {
   @IsString()
   @MaxLength(40)
   frequency?: string;
+
+  @IsOptional()
+  @Type(() => Number)
+  @IsInt()
+  @Min(1)
+  @Max(24)
+  intervalHours?: number | null;
+
+  @IsOptional()
+  @IsArray()
+  @ArrayMaxSize(7)
+  @IsInt({ each: true })
+  @Min(0, { each: true })
+  @Max(6, { each: true })
+  weekdays?: number[];
 
   @IsArray()
   @ArrayMinSize(1)
@@ -80,6 +96,21 @@ export class UpdateScheduleDto {
   @IsString()
   @MaxLength(40)
   frequency?: string;
+
+  @IsOptional()
+  @Type(() => Number)
+  @IsInt()
+  @Min(1)
+  @Max(24)
+  intervalHours?: number | null;
+
+  @IsOptional()
+  @IsArray()
+  @ArrayMaxSize(7)
+  @IsInt({ each: true })
+  @Min(0, { each: true })
+  @Max(6, { each: true })
+  weekdays?: number[];
 
   @IsOptional()
   @IsArray()

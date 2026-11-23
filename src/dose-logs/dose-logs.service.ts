@@ -23,8 +23,7 @@ import {
   formatLocalDateYmd,
   formatLocalTime24,
   getLocalDayRangeUtc,
-  isScheduleActiveOnLocalDate,
-  normalizeScheduledTimeTo24Hour,
+  getScheduleTimesForLocalDate,
   parseYmdDateString,
   zonedDateTimeToUtc,
 } from '../schedules/schedule-time.util';
@@ -173,14 +172,17 @@ export class DoseLogsService {
         if (sched.patientMedication.status !== MedicationStatus.ACTIVE) {
           continue;
         }
-        if (!isScheduleActiveOnLocalDate(sched, ymd, tz)) {
+        const dayTimes = getScheduleTimesForLocalDate(sched, ymd, tz);
+        if (dayTimes.length === 0) {
           continue;
         }
         const doseAmountStr = formatDecimalFixed(sched.doseAmount) ?? '1.00';
-        for (const rawTime of sched.scheduledTimes) {
-          const time24 = normalizeScheduledTimeTo24Hour(rawTime);
+        for (const time24 of dayTimes) {
           const scheduledFor = zonedDateTimeToUtc(ymd, time24, tz);
           const occurrenceKey = `${sched.id}:${scheduledFor.toISOString()}`;
+          if (consumedEventKeys.has(occurrenceKey)) {
+            continue;
+          }
           consumedEventKeys.add(occurrenceKey);
 
           const recorded = eventByOccurrenceKey.get(occurrenceKey);

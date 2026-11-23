@@ -1,4 +1,4 @@
-import { BadRequestException, ForbiddenException } from '@nestjs/common';
+import { BadRequestException, ConflictException, ForbiddenException } from '@nestjs/common';
 import { MedicationStatus, Prisma, ScheduleStatus } from '@prisma/client';
 import { describe, expect, it, vi } from 'vitest';
 import { PrismaService } from '../prisma/prisma.service';
@@ -11,6 +11,7 @@ import {
   DOSE_GRACE_PERIOD_MS,
   format24HourTo12Hour,
   formatLocalDateYmd,
+  getScheduleTimesForLocalDate,
   isScheduleActiveOnLocalDate,
   normalizeScheduledTimesList,
   normalizeScheduleFrequency,
@@ -150,5 +151,106 @@ describe('Phase 6 — Schedule time utilities & SchedulesService', () => {
     await expect(
       svc.updateForUser('other-user', schedId, { remindersEnabled: false }),
     ).rejects.toThrow(ForbiddenException);
+  });
+
+  it('expands Every X hours, Selected weekdays, Three times daily, Custom times & DST timezones without duplicates', async () => {
+    const medId = '11111111-1111-4111-8111-111111111111';
+
+    // Every 8 hours starting 08:00 -> day 1: 08:00, 16:00; day 2: 00:00, 08:00, 16:00
+    const every8Sched = {
+      status: 'ACTIVE',
+      frequency: normalizeScheduleFrequency('Every X hours'),
+      intervalHours: 8,
+      weekdays: [],
+      scheduledTimes: ['08:00'],
+      startDate: zonedDateTimeToUtc('2026-11-23', '00:00', 'America/New_York'),
+      endDate: null,
+    };
+    expect(getScheduleTimesForLocalDate(every8Sched, '2026-11-23', 'America/New_York')).toEqual([
+      '08:00',
+      '16:00',
+    ]);
+    expect(getScheduleTimesForLocalDate(every8Sched, '2026-11-24', 'America/New_York')).toEqual([
+      '00:00',
+      '08:00',
+      '16:00',
+    ]);
+
+    // Selected weekdays Mon/Wed/Fri [1, 3, 5] in Asia/Dhaka
+    const weekdaySched = {
+      status: 'ACTIVE',
+      frequency: normalizeScheduleFrequency('Selected weekdays'),
+      intervalHours: null,
+      weekdays: [1, 3, 5],
+      scheduledTimes: ['09:00', '21:00'],
+      startDate: zonedDateTimeToUtc('2026-11-23', '00:00', 'Asia/Dhaka'), // Monday
+      endDate: null,
+    };
+    expect(getScheduleTimesForLocalDate(weekdaySched, '2026-11-23', 'Asia/Dhaka')).toEqual([
+      '09:00',
+      '21:00',
+    ]); // Mon
+    expect(getScheduleTimesForLocalDate(weekdaySched, '2026-11-24', 'Asia/Dhaka')).toEqual([]); // Tue
+    expect(getScheduleTimesForLocalDate(weekdaySched, '2026-11-25', 'Asia/Dhaka')).toEqual([
+      '09:00',
+      '21:00',
+    ]); // Wed
+
+    expect(normalizeScheduleFrequency('Three times daily')).toBe('THREE_TIMES_DAILY');
+    expect(normalizeScheduleFrequency('Custom times')).toBe('CUSTOM_TIMES');
+
+    // Duplicate active schedule prevention + Selected weekdays empty check
+    const prisma = {
+      patientMedication: {
+        findUnique: vi.fn().mockResolvedValue({
+          id: medId,
+          status: MedicationStatus.ACTIVE,
+          stockUnit: 'tablets',
+          patient: { timezone: 'Asia/Dhaka' },
+        }),
+      },
+      medicationSchedule: {
+        findMany: vi.fn().mockResolvedValue([
+          {
+            id: 'existing-1',
+            patientMedicationId: medId,
+            frequency: 'DAILY',
+            intervalHours: null,
+            weekdays: [],
+            scheduledTimes: ['09:00'],
+            startDate: zonedDateTimeToUtc('2026-11-23', '00:00', 'Asia/Dhaka'),
+            endDate: null,
+            status: ScheduleStatus.ACTIVE,
+          },
+        ]),
+      },
+    } as unknown as PrismaService;
+    const svc = new SchedulesService(prisma);
+
+    await expect(
+      svc.createForMedication(medId, {
+        frequency: 'DAILY',
+        scheduledTimes: ['09:00 AM'],
+        startDate: '2026-11-24',
+      }),
+    ).rejects.toThrow(ConflictException);
+
+    await expect(
+      svc.createForMedication(medId, {
+        frequency: 'SELECTED_WEEKDAYS',
+        weekdays: [],
+        scheduledTimes: ['10:00 AM'],
+        startDate: '2026-11-24',
+      }),
+    ).rejects.toThrow(BadRequestException);
+
+    await expect(
+      svc.createForMedication(medId, {
+        frequency: 'EVERY_X_HOURS',
+        intervalHours: 0,
+        scheduledTimes: ['10:00 AM'],
+        startDate: '2026-11-24',
+      }),
+    ).rejects.toThrow(BadRequestException);
   });
 });

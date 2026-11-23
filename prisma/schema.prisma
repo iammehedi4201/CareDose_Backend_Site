@@ -261,6 +261,8 @@ model MedicationSchedule {
   doseAmount          Decimal           @default(1) @db.Decimal(10, 2)
   doseUnit            String            @default("tablet")
   frequency           String            @default("DAILY")
+  intervalHours       Int?
+  weekdays            Int[]             @default([])
   scheduledTimes      String[]
   startDate           DateTime
   endDate             DateTime?

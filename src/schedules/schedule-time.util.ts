@@ -7,12 +7,24 @@ const FREQUENCY_ALIAS_MAP: Record<string, string> = {
   'once daily': 'DAILY',
   twice_daily: 'TWICE_DAILY',
   'twice daily': 'TWICE_DAILY',
+  three_times_daily: 'THREE_TIMES_DAILY',
+  'three times daily': 'THREE_TIMES_DAILY',
+  '3 times daily': 'THREE_TIMES_DAILY',
+  thrice_daily: 'THREE_TIMES_DAILY',
+  custom_times: 'CUSTOM_TIMES',
+  'custom times': 'CUSTOM_TIMES',
+  custom: 'CUSTOM_TIMES',
+  every_x_hours: 'EVERY_X_HOURS',
+  'every x hours': 'EVERY_X_HOURS',
   every_8_hours: 'EVERY_8_HOURS',
   'every 8 hours': 'EVERY_8_HOURS',
   alternate_days: 'ALTERNATE_DAYS',
   every_2_days: 'ALTERNATE_DAYS',
   'every 2 days': 'ALTERNATE_DAYS',
   'alternate days': 'ALTERNATE_DAYS',
+  selected_weekdays: 'SELECTED_WEEKDAYS',
+  'selected weekdays': 'SELECTED_WEEKDAYS',
+  weekdays: 'SELECTED_WEEKDAYS',
   weekly: 'WEEKLY',
   as_needed: 'AS_NEEDED',
   'as needed': 'AS_NEEDED',
@@ -72,8 +84,43 @@ export function normalizeScheduleFrequency(raw?: string | null): string {
     return direct;
   }
   throw new Error(
-    `Unsupported schedule frequency "${raw}". Use DAILY, TWICE_DAILY, EVERY_8_HOURS, ALTERNATE_DAYS, WEEKLY, or AS_NEEDED.`,
+    `Unsupported schedule frequency "${raw}". Use DAILY, TWICE_DAILY, THREE_TIMES_DAILY, CUSTOM_TIMES, EVERY_X_HOURS, EVERY_8_HOURS, ALTERNATE_DAYS, SELECTED_WEEKDAYS, WEEKLY, or AS_NEEDED.`,
   );
+}
+
+export function normalizeWeekdaysList(weekdays?: number[] | null): number[] {
+  if (!Array.isArray(weekdays)) return [];
+  const unique = new Set<number>();
+  for (const day of weekdays) {
+    if (!Number.isInteger(day) || day < 0 || day > 6) {
+      throw new Error(`Invalid weekday "${day}". Expected integer 0 (Sun) through 6 (Sat).`);
+    }
+    unique.add(day);
+  }
+  return [...unique].sort((a, b) => a - b);
+}
+
+export function resolveIntervalHours(
+  frequency: string,
+  intervalHours?: number | null,
+): number | null {
+  const upper = frequency.toUpperCase();
+  if (upper === 'EVERY_X_HOURS') {
+    if (
+      intervalHours === undefined ||
+      intervalHours === null ||
+      !Number.isInteger(intervalHours) ||
+      intervalHours < 1 ||
+      intervalHours > 24
+    ) {
+      throw new Error('Interval hours must be a whole number between 1 and 24.');
+    }
+    return intervalHours;
+  }
+  if (upper === 'EVERY_8_HOURS') {
+    return intervalHours ?? 8;
+  }
+  return null;
 }
 
 export function normalizeScheduledTimeTo24Hour(raw: string): string {
@@ -282,6 +329,7 @@ export function isScheduleActiveOnLocalDate(
     frequency: string;
     startDate: Date;
     endDate: Date | null;
+    weekdays?: number[] | null;
   },
   targetYmd: string,
   timeZone = 'Asia/Dhaka',
@@ -313,7 +361,67 @@ export function isScheduleActiveOnLocalDate(
   if (freq === 'WEEKLY') {
     return dayDiff % 7 === 0;
   }
+  if (freq === 'SELECTED_WEEKDAYS') {
+    const allowed = Array.isArray(schedule.weekdays) ? schedule.weekdays : [];
+    if (allowed.length === 0) return false;
+    const { year, month, day } = parseYmdDateString(targetYmd);
+    const weekday = new Date(Date.UTC(year, month - 1, day)).getUTCDay();
+    return allowed.includes(weekday);
+  }
   return true;
+}
+
+export function getScheduleTimesForLocalDate(
+  schedule: {
+    status: string;
+    frequency: string;
+    startDate: Date;
+    endDate: Date | null;
+    scheduledTimes: string[];
+    intervalHours?: number | null;
+    weekdays?: number[] | null;
+  },
+  targetYmd: string,
+  timeZone = 'Asia/Dhaka',
+): string[] {
+  if (!isScheduleActiveOnLocalDate(schedule, targetYmd, timeZone)) {
+    return [];
+  }
+  const freq = schedule.frequency.toUpperCase();
+  const baseTimes = [
+    ...new Set(schedule.scheduledTimes.map(normalizeScheduledTimeTo24Hour)),
+  ].sort();
+  if (baseTimes.length === 0) {
+    return [];
+  }
+
+  if (
+    freq === 'EVERY_X_HOURS' ||
+    (freq === 'EVERY_8_HOURS' && baseTimes.length === 1)
+  ) {
+    const stepHours = schedule.intervalHours ?? 8;
+    const stepMins = Math.max(1, stepHours) * 60;
+    const [hStr, mStr] = baseTimes[0].split(':');
+    const firstMin = Number(hStr) * 60 + Number(mStr);
+    const startYmd = formatLocalDateYmd(schedule.startDate, timeZone);
+    const diff = diffYmdDays(startYmd, targetYmd);
+    const dayStartMin = diff * 1440;
+    const dayEndMin = (diff + 1) * 1440;
+    const kStart = Math.max(0, Math.ceil((dayStartMin - firstMin) / stepMins));
+
+    const expanded = new Set<string>();
+    for (let k = kStart; ; k += 1) {
+      const absMin = firstMin + k * stepMins;
+      if (absMin >= dayEndMin) break;
+      const minOfDay = absMin - dayStartMin;
+      const hh = Math.floor(minOfDay / 60);
+      const mm = minOfDay % 60;
+      expanded.add(`${String(hh).padStart(2, '0')}:${String(mm).padStart(2, '0')}`);
+    }
+    return [...expanded].sort();
+  }
+
+  return baseTimes;
 }
 
 export function normalizeStockUnitToken(unit?: string | null): string {

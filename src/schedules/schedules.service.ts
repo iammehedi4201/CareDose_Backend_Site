@@ -1,5 +1,6 @@
 import {
   BadRequestException,
+  ConflictException,
   ForbiddenException,
   Injectable,
   NotFoundException,
@@ -17,7 +18,9 @@ import {
   formatLocalDateYmd,
   normalizeScheduledTimesList,
   normalizeScheduleFrequency,
+  normalizeWeekdaysList,
   parseScheduleDateInputToYmd,
+  resolveIntervalHours,
   zonedDateTimeToUtc,
 } from './schedule-time.util';
 import {
@@ -129,16 +132,56 @@ export class SchedulesService {
     }
 
     const timeZone = med.patient.timezone || 'Asia/Dhaka';
-    const { scheduledTimes, frequency, startDate, endDate } =
-      this.parseAndValidateScheduleFields(
+    const {
+      scheduledTimes,
+      frequency,
+      intervalHours,
+      weekdays,
+      startDate,
+      endDate,
+      startYmd,
+      endYmd,
+    } = this.parseAndValidateScheduleFields(
+      {
+        scheduledTimes: dto.scheduledTimes,
+        frequency: dto.frequency ?? 'DAILY',
+        intervalHours: dto.intervalHours,
+        weekdays: dto.weekdays,
+        startDate: dto.startDate,
+        endDate: dto.endDate,
+      },
+      timeZone,
+    );
+
+    const existingActive =
+      typeof this.prisma.medicationSchedule.findMany === 'function'
+        ? await this.prisma.medicationSchedule.findMany({
+            where: {
+              patientMedicationId: med.id,
+              status: ScheduleStatus.ACTIVE,
+            },
+          })
+        : [];
+
+    const hasDuplicate = existingActive.some((existing) =>
+      this.isDuplicateScheduleDefinition(
+        existing,
         {
-          scheduledTimes: dto.scheduledTimes,
-          frequency: dto.frequency ?? 'DAILY',
-          startDate: dto.startDate,
-          endDate: dto.endDate,
+          frequency,
+          intervalHours,
+          weekdays,
+          scheduledTimes,
+          startYmd,
+          endYmd,
         },
         timeZone,
+      ),
+    );
+    if (hasDuplicate) {
+      throw new ConflictException(
+        'An active schedule for this medicine with matching timing and frequency already exists.',
       );
+    }
 
     const doseAmountDec = new Prisma.Decimal(dto.doseAmount ?? 1).toDecimalPlaces(2);
     const doseUnit =
@@ -150,6 +193,8 @@ export class SchedulesService {
         doseAmount: doseAmountDec,
         doseUnit,
         frequency,
+        intervalHours,
+        weekdays,
         scheduledTimes,
         startDate,
         endDate,
@@ -199,6 +244,34 @@ export class SchedulesService {
       throw new BadRequestException('End date cannot be earlier than start date.');
     }
 
+    const nextFrequency =
+      dto.frequency !== undefined
+        ? this.wrapScheduleParse(() => normalizeScheduleFrequency(dto.frequency))
+        : existing.frequency;
+
+    const nextIntervalHours =
+      dto.frequency !== undefined || dto.intervalHours !== undefined
+        ? this.wrapScheduleParse(() =>
+            resolveIntervalHours(
+              nextFrequency,
+              dto.intervalHours !== undefined ? dto.intervalHours : existing.intervalHours,
+            ),
+          )
+        : existing.intervalHours;
+
+    const nextWeekdays =
+      dto.frequency !== undefined || dto.weekdays !== undefined
+        ? this.wrapScheduleParse(() => {
+            const norm = normalizeWeekdaysList(
+              dto.weekdays !== undefined ? dto.weekdays : existing.weekdays,
+            );
+            if (nextFrequency === 'SELECTED_WEEKDAYS' && norm.length === 0) {
+              throw new Error('Select at least one weekday.');
+            }
+            return nextFrequency === 'SELECTED_WEEKDAYS' ? norm : [];
+          })
+        : existing.weekdays;
+
     const data: Prisma.MedicationScheduleUpdateInput = {
       ...(dto.startDate !== undefined
         ? { startDate: zonedDateTimeToUtc(nextStartYmd, '00:00', timeZone) }
@@ -214,12 +287,12 @@ export class SchedulesService {
               inferDefaultDoseUnit(existing.patientMedication.stockUnit),
           }
         : {}),
-      ...(dto.frequency !== undefined
-        ? {
-            frequency: this.wrapScheduleParse(() =>
-              normalizeScheduleFrequency(dto.frequency),
-            ),
-          }
+      ...(dto.frequency !== undefined ? { frequency: nextFrequency } : {}),
+      ...(dto.frequency !== undefined || dto.intervalHours !== undefined
+        ? { intervalHours: nextIntervalHours }
+        : {}),
+      ...(dto.frequency !== undefined || dto.weekdays !== undefined
+        ? { weekdays: nextWeekdays }
         : {}),
       ...(dto.scheduledTimes !== undefined
         ? {
@@ -286,10 +359,65 @@ export class SchedulesService {
     }
   }
 
+  private isDuplicateScheduleDefinition(
+    existing: {
+      frequency: string;
+      intervalHours?: number | null;
+      weekdays?: number[] | null;
+      scheduledTimes: string[];
+      startDate: Date;
+      endDate: Date | null;
+    },
+    candidate: {
+      frequency: string;
+      intervalHours: number | null;
+      weekdays: number[];
+      scheduledTimes: string[];
+      startYmd: string;
+      endYmd: string | null;
+    },
+    timeZone: string,
+  ): boolean {
+    if (existing.frequency.toUpperCase() !== candidate.frequency.toUpperCase()) {
+      return false;
+    }
+    if ((existing.intervalHours ?? null) !== (candidate.intervalHours ?? null)) {
+      return false;
+    }
+    const existingDays = [...(existing.weekdays ?? [])].sort((a, b) => a - b);
+    if (
+      existingDays.length !== candidate.weekdays.length ||
+      existingDays.some((d, idx) => d !== candidate.weekdays[idx])
+    ) {
+      return false;
+    }
+    const existingTimes = [...existing.scheduledTimes].sort();
+    if (
+      existingTimes.length !== candidate.scheduledTimes.length ||
+      existingTimes.some((t, idx) => t !== candidate.scheduledTimes[idx])
+    ) {
+      return false;
+    }
+
+    const existingStartYmd = formatLocalDateYmd(existing.startDate, timeZone);
+    const existingEndYmd = existing.endDate
+      ? formatLocalDateYmd(existing.endDate, timeZone)
+      : null;
+
+    const startsAfterExistingEnd =
+      existingEndYmd !== null && candidate.startYmd > existingEndYmd;
+    const endsBeforeExistingStart =
+      candidate.endYmd !== null && candidate.endYmd < existingStartYmd;
+
+    return !startsAfterExistingEnd && !endsBeforeExistingStart;
+  }
+
   private parseAndValidateScheduleFields(
     input: {
       scheduledTimes: string[];
       frequency: string;
+      intervalHours?: number | null;
+      weekdays?: number[];
       startDate: string;
       endDate?: string | null;
     },
@@ -297,25 +425,45 @@ export class SchedulesService {
   ): {
     scheduledTimes: string[];
     frequency: string;
+    intervalHours: number | null;
+    weekdays: number[];
     startDate: Date;
     endDate: Date | null;
+    startYmd: string;
+    endYmd: string | null;
   } {
     return this.wrapScheduleParse(() => {
       const scheduledTimes = normalizeScheduledTimesList(input.scheduledTimes);
       const frequency = normalizeScheduleFrequency(input.frequency);
+      const intervalHours = resolveIntervalHours(frequency, input.intervalHours);
+      const normWeekdays = normalizeWeekdaysList(input.weekdays);
+      if (frequency === 'SELECTED_WEEKDAYS' && normWeekdays.length === 0) {
+        throw new Error('Select at least one weekday.');
+      }
+      const weekdays = frequency === 'SELECTED_WEEKDAYS' ? normWeekdays : [];
       const startYmd = parseScheduleDateInputToYmd(input.startDate, timeZone);
       const startDate = zonedDateTimeToUtc(startYmd, '00:00', timeZone);
 
       let endDate: Date | null = null;
+      let endYmd: string | null = null;
       if (input.endDate && input.endDate.trim().length > 0) {
-        const endYmd = parseScheduleDateInputToYmd(input.endDate, timeZone);
+        endYmd = parseScheduleDateInputToYmd(input.endDate, timeZone);
         if (endYmd < startYmd) {
           throw new Error('End date cannot be earlier than start date.');
         }
         endDate = zonedDateTimeToUtc(endYmd, '00:00', timeZone);
       }
 
-      return { scheduledTimes, frequency, startDate, endDate };
+      return {
+        scheduledTimes,
+        frequency,
+        intervalHours,
+        weekdays,
+        startDate,
+        endDate,
+        startYmd,
+        endYmd,
+      };
     });
   }
 }

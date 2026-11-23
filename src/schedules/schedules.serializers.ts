@@ -20,6 +20,8 @@ export interface SerializedMedicationSchedule {
   doseAmount: string;
   doseUnit: string;
   frequency: string;
+  intervalHours: number | null;
+  weekdays: number[];
   scheduledTimes: string[];
   scheduledTimes12h: string[];
   startDate: string;
@@ -64,6 +66,8 @@ export function serializeSchedule(
     doseAmount: formatDecimalFixed(schedule.doseAmount) ?? '1.00',
     doseUnit: schedule.doseUnit,
     frequency: schedule.frequency,
+    intervalHours: schedule.intervalHours ?? null,
+    weekdays: Array.isArray(schedule.weekdays) ? schedule.weekdays : [],
     scheduledTimes,
     scheduledTimes12h: scheduledTimes.map(format24HourTo12Hour),
     startDate: schedule.startDate.toISOString(),

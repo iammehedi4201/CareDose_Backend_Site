@@ -64,6 +64,8 @@ interface MockSchedule {
   doseAmount: Prisma.Decimal;
   doseUnit: string;
   frequency: string;
+  intervalHours: number | null;
+  weekdays: number[];
   scheduledTimes: string[];
   startDate: Date;
   endDate: Date | null;
@@ -324,6 +326,8 @@ function createPhase6PrismaMock() {
           const now = new Date();
           const row: MockSchedule = {
             ...data,
+            intervalHours: data.intervalHours ?? null,
+            weekdays: data.weekdays ?? [],
             id: randomUUID(),
             createdAt: now,
             updatedAt: now,
@@ -668,5 +672,72 @@ describe('Phase 6 — Schedules & DoseLogs API E2E (DTO Validation, Ownership, A
 
     expect(historyRes.body.counts).toEqual({ all: 2, taken: 1, skipped: 1 });
     expect(historyRes.body.items).toHaveLength(2);
+
+    // Duplicate overlapping active schedule returns 409 Conflict
+    await request(app.getHttpServer())
+      .post(`/api/v1/patient-medications/${medId}/schedules`)
+      .set('Authorization', `Bearer ${tokenA}`)
+      .send({
+        doseAmount: 2,
+        doseUnit: 'tablet',
+        frequency: 'TWICE_DAILY',
+        scheduledTimes: ['08:00 AM', '08:00 PM'],
+        startDate: '2026-11-22',
+      })
+      .expect(409);
+
+    // Second medicine tests Every X hours & Selected weekdays + verifies stock is untouched on schedule creation
+    const medRes2 = await request(app.getHttpServer())
+      .post(`/api/v1/patients/${patientA}/medications`)
+      .set('Authorization', `Bearer ${tokenA}`)
+      .send({
+        name: 'Seclo 20 mg',
+        dosageForm: 'Capsule',
+        startingStock: 20,
+        stockUnit: 'capsules',
+        lowStockThreshold: 5,
+      })
+      .expect(201);
+    const med2Id = medRes2.body.id as string;
+
+    const every8Res = await request(app.getHttpServer())
+      .post(`/api/v1/patient-medications/${med2Id}/schedules`)
+      .set('Authorization', `Bearer ${tokenA}`)
+      .send({
+        doseAmount: 1,
+        doseUnit: 'capsules',
+        frequency: 'EVERY_X_HOURS',
+        intervalHours: 8,
+        scheduledTimes: ['08:00 AM'],
+        startDate: '2026-11-23',
+        remindersEnabled: false,
+      })
+      .expect(201);
+
+    expect(every8Res.body.frequency).toBe('EVERY_X_HOURS');
+    expect(every8Res.body.intervalHours).toBe(8);
+
+    // Stock remained 20.00 after creating schedule (never auto-deducted until Taken)
+    const med2Check = await request(app.getHttpServer())
+      .get(`/api/v1/patient-medications/${med2Id}`)
+      .set('Authorization', `Bearer ${tokenA}`)
+      .expect(200);
+    expect(med2Check.body.stockRemaining).toBe('20.00');
+
+    // Week view shows 2 occurrences on Nov 23 (08:00, 16:00) and 3 on Nov 24 (00:00, 08:00, 16:00) for med2Id
+    const med2Week = await request(app.getHttpServer())
+      .get(`/api/v1/patients/${patientA}/doses?date=2026-11-23&days=2`)
+      .set('Authorization', `Bearer ${tokenA}`)
+      .expect(200);
+
+    const nov23Med2Times = med2Week.body.days[0].items
+      .filter((i: { patientMedicationId: string }) => i.patientMedicationId === med2Id)
+      .map((i: { scheduledTime24: string }) => i.scheduledTime24);
+    const nov24Med2Times = med2Week.body.days[1].items
+      .filter((i: { patientMedicationId: string }) => i.patientMedicationId === med2Id)
+      .map((i: { scheduledTime24: string }) => i.scheduledTime24);
+
+    expect(nov23Med2Times).toEqual(['08:00', '16:00']);
+    expect(nov24Med2Times).toEqual(['00:00', '08:00', '16:00']);
   });
 });
