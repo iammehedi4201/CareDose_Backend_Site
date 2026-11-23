@@ -107,6 +107,16 @@ export class ScheduleItemController {
     });
   }
 
+  @Post(':id/archive')
+  @HttpCode(HttpStatus.OK)
+  async archive(
+    @CurrentUser() user: AuthenticatedUser | undefined,
+    @Param('id') id: string,
+  ): Promise<SerializedMedicationSchedule> {
+    if (!user) throw new UnauthorizedException('Authentication is required');
+    return this.schedulesService.archiveForUser(user.userId, id);
+  }
+
   @Delete(':id')
   async remove(
     @CurrentUser() user: AuthenticatedUser | undefined,

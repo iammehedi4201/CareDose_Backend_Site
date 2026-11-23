@@ -275,4 +275,109 @@ describe('Phase 6 — DoseLogsService daily occurrences, atomic stock deduction 
     expect(dropRes.newStockRemaining).toBe('1.00');
     expect(medUpdate).not.toHaveBeenCalled();
   });
+
+  it('computes MISSED dose history strictly past grace period for active schedules only', async () => {
+    const activeSchedId = '11111111-1111-4111-8111-111111111111';
+    const pausedSchedId = '22222222-2222-4222-8222-222222222222';
+    // At 10:30 AM Asia/Dhaka on 2026-11-23:
+    // - 08:00 AM -> past 60m grace -> missed (1)
+    // - 10:00 AM -> within 60m grace (30m) -> NOT missed
+    // - 20:00 PM -> upcoming -> NOT missed
+    // - paused schedule 07:00 AM -> paused -> NOT missed
+    const now = zonedDateTimeToUtc('2026-11-23', '10:30', 'Asia/Dhaka');
+    const takenAtUtc = zonedDateTimeToUtc('2026-11-22', '08:00', 'Asia/Dhaka');
+
+    const prisma = {
+      doseEvent: {
+        findMany: vi.fn().mockResolvedValue([
+          {
+            id: '33333333-3333-4333-8333-333333333333',
+            scheduleId: activeSchedId,
+            patientMedicationId: 'm1',
+            scheduledFor: takenAtUtc,
+            status: DoseEventStatus.TAKEN,
+            recordedAt: zonedDateTimeToUtc('2026-11-22', '08:05', 'Asia/Dhaka'),
+            note: 'After breakfast',
+            schedule: {
+              doseAmount: new Prisma.Decimal('1'),
+              doseUnit: 'tablet',
+            },
+            patientMedication: {
+              name: 'Napa',
+              strength: '500 mg',
+              dosageForm: 'Tablet',
+            },
+          },
+        ]),
+      },
+      medicationSchedule: {
+        findMany: vi.fn().mockResolvedValue([
+          {
+            id: activeSchedId,
+            patientMedicationId: 'm1',
+            doseAmount: new Prisma.Decimal('1'),
+            doseUnit: 'tablet',
+            frequency: 'CUSTOM_TIMES',
+            intervalHours: null,
+            weekdays: [],
+            scheduledTimes: ['08:00', '10:00', '20:00'],
+            startDate: zonedDateTimeToUtc('2026-11-23', '00:00', 'Asia/Dhaka'),
+            endDate: null,
+            status: ScheduleStatus.ACTIVE,
+            patientMedication: {
+              id: 'm1',
+              name: 'Napa',
+              strength: '500 mg',
+              dosageForm: 'Tablet',
+              status: MedicationStatus.ACTIVE,
+            },
+          },
+          {
+            id: pausedSchedId,
+            patientMedicationId: 'm2',
+            doseAmount: new Prisma.Decimal('1'),
+            doseUnit: 'capsule',
+            frequency: 'DAILY',
+            intervalHours: null,
+            weekdays: [],
+            scheduledTimes: ['07:00'],
+            startDate: zonedDateTimeToUtc('2026-11-22', '00:00', 'Asia/Dhaka'),
+            endDate: null,
+            status: ScheduleStatus.PAUSED,
+            patientMedication: {
+              id: 'm2',
+              name: 'Seclo',
+              strength: '20 mg',
+              dosageForm: 'Capsule',
+              status: MedicationStatus.ACTIVE,
+            },
+          },
+        ]),
+      },
+    } as unknown as PrismaService;
+
+    const svc = new DoseLogsService(prisma);
+    const allRes = await svc.listDoseHistory(
+      'patient-1',
+      'Asia/Dhaka',
+      { from: '2026-11-22', to: '2026-11-23', status: 'ALL' },
+      now,
+    );
+
+    expect(allRes.counts).toEqual({ all: 2, taken: 1, skipped: 0, missed: 1 });
+    expect(allRes.items.map((i) => i.status)).toEqual(['missed', 'taken']);
+    expect(allRes.items[0].scheduledTime12).toBe('08:00 AM');
+    expect(allRes.items[1].recordedAt).toBe(
+      zonedDateTimeToUtc('2026-11-22', '08:05', 'Asia/Dhaka').toISOString(),
+    );
+
+    const missedOnly = await svc.listDoseHistory(
+      'patient-1',
+      'Asia/Dhaka',
+      { from: '2026-11-22', to: '2026-11-23', status: 'MISSED' },
+      now,
+    );
+    expect(missedOnly.items).toHaveLength(1);
+    expect(missedOnly.items[0].status).toBe('missed');
+  });
 });

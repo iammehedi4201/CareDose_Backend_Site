@@ -30,6 +30,7 @@ enum ScheduleStatus {
   ACTIVE
   PAUSED
   COMPLETED
+  ARCHIVED
 }
 
 enum DoseEventStatus {

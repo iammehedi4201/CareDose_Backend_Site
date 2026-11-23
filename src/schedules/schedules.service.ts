@@ -319,6 +319,15 @@ export class SchedulesService {
     return serializeSchedule(updated, timeZone);
   }
 
+  async archiveForUser(
+    userId: string,
+    scheduleId: string,
+  ): Promise<SerializedMedicationSchedule> {
+    return this.updateForUser(userId, scheduleId, {
+      status: ScheduleStatus.ARCHIVED,
+    });
+  }
+
   async deleteForUser(
     userId: string,
     scheduleId: string,

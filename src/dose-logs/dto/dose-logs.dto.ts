@@ -60,8 +60,8 @@ export class ListDoseHistoryQueryDto {
   to?: string;
 
   @IsOptional()
-  @IsIn(['ALL', 'TAKEN', 'SKIPPED'])
-  status?: 'ALL' | 'TAKEN' | 'SKIPPED';
+  @IsIn(['ALL', 'TAKEN', 'SKIPPED', 'MISSED'])
+  status?: 'ALL' | 'TAKEN' | 'SKIPPED' | 'MISSED';
 
   @IsOptional()
   @IsUUID()

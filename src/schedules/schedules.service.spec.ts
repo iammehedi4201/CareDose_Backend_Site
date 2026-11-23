@@ -253,4 +253,63 @@ describe('Phase 6 — Schedule time utilities & SchedulesService', () => {
       }),
     ).rejects.toThrow(BadRequestException);
   });
+
+  it('archives an owned schedule without deleting it', async () => {
+    const schedId = '44444444-4444-4444-8444-444444444444';
+    const medId = '11111111-1111-4111-8111-111111111111';
+    const existingRow = {
+      id: schedId,
+      patientMedicationId: medId,
+      doseAmount: new Prisma.Decimal('1'),
+      doseUnit: 'tablet',
+      frequency: 'DAILY',
+      intervalHours: null,
+      weekdays: [],
+      scheduledTimes: ['08:00'],
+      startDate: zonedDateTimeToUtc('2026-11-23', '00:00', 'Asia/Dhaka'),
+      endDate: null,
+      instructions: null,
+      remindersEnabled: true,
+      status: ScheduleStatus.ACTIVE,
+      createdAt: new Date(),
+      updatedAt: new Date(),
+      patientMedication: {
+        id: medId,
+        patientId: 'patient-1',
+        name: 'Napa',
+        strength: '500 mg',
+        dosageForm: 'Tablet',
+        stockUnit: 'tablets',
+        personalInstructions: '',
+        status: MedicationStatus.ACTIVE,
+        patient: {
+          ownerUserId: 'owner-user',
+          timezone: 'Asia/Dhaka',
+        },
+      },
+    };
+    const updateMock = vi.fn().mockResolvedValue({
+      ...existingRow,
+      status: ScheduleStatus.ARCHIVED,
+    });
+    const deleteMock = vi.fn();
+    const prisma = {
+      medicationSchedule: {
+        findUnique: vi.fn().mockResolvedValue(existingRow),
+        update: updateMock,
+        delete: deleteMock,
+      },
+    } as unknown as PrismaService;
+
+    const svc = new SchedulesService(prisma);
+    const archived = await svc.archiveForUser('owner-user', schedId);
+    expect(archived.status).toBe('ARCHIVED');
+    expect(updateMock).toHaveBeenCalledWith(
+      expect.objectContaining({
+        where: { id: schedId },
+        data: { status: ScheduleStatus.ARCHIVED },
+      }),
+    );
+    expect(deleteMock).not.toHaveBeenCalled();
+  });
 });

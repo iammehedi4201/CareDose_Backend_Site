@@ -10,6 +10,7 @@ import {
   InventoryTransactionType,
   MedicationStatus,
   Prisma,
+  ScheduleStatus,
 } from '@prisma/client';
 import { isValidUuid } from '../common/utils/uuid.util';
 import { formatDecimalFixed, normalizeOptionalText } from '../imports/catalogue-dataset.types';
@@ -59,8 +60,8 @@ function decodeHistoryCursor(raw?: string): HistoryCursorPayload | null {
     if (
       typeof parsed.scheduledFor === 'string' &&
       typeof parsed.id === 'string' &&
-      !Number.isNaN(new Date(parsed.scheduledFor).getTime()) &&
-      isValidUuid(parsed.id)
+      parsed.id.trim().length > 0 &&
+      !Number.isNaN(new Date(parsed.scheduledFor).getTime())
     ) {
       return { scheduledFor: parsed.scheduledFor, id: parsed.id };
     }
@@ -121,6 +122,15 @@ export class DoseLogsService {
               dosageForm: true,
               personalInstructions: true,
               status: true,
+              catalogueBrand: {
+                select: {
+                  images: {
+                    orderBy: { checkedAt: 'desc' },
+                    take: 1,
+                    select: { imageUrl: true },
+                  },
+                },
+              },
             },
           },
         },
@@ -149,6 +159,15 @@ export class DoseLogsService {
               strength: true,
               dosageForm: true,
               personalInstructions: true,
+              catalogueBrand: {
+                select: {
+                  images: {
+                    orderBy: { checkedAt: 'desc' },
+                    take: 1,
+                    select: { imageUrl: true },
+                  },
+                },
+              },
             },
           },
         },
@@ -196,6 +215,12 @@ export class DoseLogsService {
             medicineName: sched.patientMedication.name,
             strength: sched.patientMedication.strength,
             dosageForm: sched.patientMedication.dosageForm,
+            imageUrl:
+              (
+                sched.patientMedication as {
+                  catalogueBrand?: { images?: Array<{ imageUrl: string }> } | null;
+                }
+              ).catalogueBrand?.images?.[0]?.imageUrl ?? null,
             doseAmount: doseAmountStr,
             doseUnit: sched.doseUnit,
             doseInstruction: formatDoseInstruction(
@@ -237,6 +262,12 @@ export class DoseLogsService {
           medicineName: ev.patientMedication.name,
           strength: ev.patientMedication.strength,
           dosageForm: ev.patientMedication.dosageForm,
+          imageUrl:
+            (
+              ev.patientMedication as {
+                catalogueBrand?: { images?: Array<{ imageUrl: string }> } | null;
+              }
+            ).catalogueBrand?.images?.[0]?.imageUrl ?? null,
           doseAmount: doseAmountStr,
           doseUnit: ev.schedule.doseUnit,
           doseInstruction: formatDoseInstruction(
@@ -389,10 +420,13 @@ export class DoseLogsService {
     patientId: string,
     timeZone: string,
     query: ListDoseHistoryQueryDto,
+    now: Date = new Date(),
   ): Promise<SerializedDoseHistoryResponse> {
     const tz = timeZone || 'Asia/Dhaka';
     const limit = query.limit ?? 20;
     const cursor = decodeHistoryCursor(query.cursor);
+    const fromYmd = query.from ? this.parseDateOrToday(query.from, tz) : null;
+    const toYmd = query.to ? this.parseDateOrToday(query.to, tz) : null;
 
     const baseConditions: Prisma.DoseEventWhereInput[] = [
       {
@@ -410,45 +444,43 @@ export class DoseLogsService {
     if (query.medicationId) {
       baseConditions.push({ patientMedicationId: query.medicationId });
     }
-
-    if (query.from) {
-      const fromYmd = this.parseDateOrToday(query.from, tz);
+    if (fromYmd) {
       const { startUtc } = getLocalDayRangeUtc(fromYmd, tz);
       baseConditions.push({ scheduledFor: { gte: startUtc } });
     }
-    if (query.to) {
-      const toYmd = this.parseDateOrToday(query.to, tz);
+    if (toYmd) {
       const { endUtc } = getLocalDayRangeUtc(toYmd, tz);
       baseConditions.push({ scheduledFor: { lt: endUtc } });
     }
 
-    const baseWhere: Prisma.DoseEventWhereInput = { AND: baseConditions };
+    const activeSchedulesPromise =
+      typeof this.prisma.medicationSchedule?.findMany === 'function'
+        ? this.prisma.medicationSchedule.findMany({
+            where: {
+              status: ScheduleStatus.ACTIVE,
+              patientMedication: {
+                patientId,
+                status: MedicationStatus.ACTIVE,
+                ...(query.medicationId ? { id: query.medicationId } : {}),
+              },
+            },
+            include: {
+              patientMedication: {
+                select: {
+                  id: true,
+                  name: true,
+                  strength: true,
+                  dosageForm: true,
+                  status: true,
+                },
+              },
+            },
+          })
+        : Promise.resolve([]);
 
-    const pagedConditions: Prisma.DoseEventWhereInput[] = [...baseConditions];
-    if (query.status === 'TAKEN') {
-      pagedConditions.push({ status: DoseEventStatus.TAKEN });
-    } else if (query.status === 'SKIPPED') {
-      pagedConditions.push({ status: DoseEventStatus.SKIPPED });
-    }
-
-    if (cursor) {
-      const cursorDate = new Date(cursor.scheduledFor);
-      pagedConditions.push({
-        OR: [
-          { scheduledFor: { lt: cursorDate } },
-          {
-            AND: [
-              { scheduledFor: cursorDate },
-              { id: { lt: cursor.id } },
-            ],
-          },
-        ],
-      });
-    }
-
-    const [rows, groupedCounts] = await Promise.all([
+    const [recordedRows, activeSchedules] = await Promise.all([
       this.prisma.doseEvent.findMany({
-        where: { AND: pagedConditions },
+        where: { AND: baseConditions },
         include: {
           schedule: {
             select: {
@@ -465,37 +497,19 @@ export class DoseLogsService {
           },
         },
         orderBy: [{ scheduledFor: 'desc' }, { id: 'desc' }],
-        take: limit + 1,
       }),
-      this.prisma.doseEvent.groupBy({
-        by: ['status'],
-        where: baseWhere,
-        _count: { _all: true },
-      }),
+      activeSchedulesPromise,
     ]);
 
-    const hasMore = rows.length > limit;
-    const pageRows = hasMore ? rows.slice(0, limit) : rows;
-    const lastRow = pageRows[pageRows.length - 1];
-    const nextCursor =
-      hasMore && lastRow
-        ? encodeHistoryCursor({
-            scheduledFor: lastRow.scheduledFor.toISOString(),
-            id: lastRow.id,
-          })
-        : null;
-
-    let takenCount = 0;
-    let skippedCount = 0;
-    for (const g of groupedCounts) {
-      if (g.status === DoseEventStatus.TAKEN) takenCount = g._count._all;
-      if (g.status === DoseEventStatus.SKIPPED) skippedCount = g._count._all;
-    }
-
-    const items: SerializedDoseHistoryItem[] = pageRows.map((row) => {
+    const recordedSlotKeys = new Set<string>();
+    const recordedItems: SerializedDoseHistoryItem[] = [];
+    for (const row of recordedRows) {
+      recordedSlotKeys.add(`${row.scheduleId}:${row.scheduledFor.toISOString()}`);
       const ymd = formatLocalDateYmd(row.scheduledFor, tz);
+      if (fromYmd && ymd < fromYmd) continue;
+      if (toYmd && ymd > toYmd) continue;
       const time24 = formatLocalTime24(row.scheduledFor, tz);
-      return {
+      recordedItems.push({
         id: row.id,
         scheduleId: row.scheduleId,
         patientMedicationId: row.patientMedicationId,
@@ -510,19 +524,177 @@ export class DoseLogsService {
         recordedAt: row.recordedAt ? row.recordedAt.toISOString() : null,
         status: row.status === DoseEventStatus.TAKEN ? 'taken' : 'skipped',
         note: row.note,
-      };
+      });
+    }
+
+    const missedItems = this.computeMissedHistoryItems({
+      schedules: activeSchedules,
+      recordedSlotKeys,
+      timeZone: tz,
+      fromYmd,
+      toYmd,
+      medicationId: query.medicationId,
+      now,
     });
+
+    const allItems = [...recordedItems, ...missedItems].sort((a, b) => {
+      const byTime = b.scheduledFor.localeCompare(a.scheduledFor);
+      return byTime !== 0 ? byTime : b.id.localeCompare(a.id);
+    });
+
+    let takenCount = 0;
+    let skippedCount = 0;
+    let missedCount = 0;
+    for (const item of allItems) {
+      if (item.status === 'taken') takenCount += 1;
+      else if (item.status === 'skipped') skippedCount += 1;
+      else missedCount += 1;
+    }
+
+    const statusFilter =
+      query.status === 'TAKEN'
+        ? 'taken'
+        : query.status === 'SKIPPED'
+          ? 'skipped'
+          : query.status === 'MISSED'
+            ? 'missed'
+            : null;
+
+    const statusFiltered = statusFilter
+      ? allItems.filter((item) => item.status === statusFilter)
+      : allItems;
+
+    const pagedPool = cursor
+      ? statusFiltered.filter(
+          (item) =>
+            item.scheduledFor < cursor.scheduledFor ||
+            (item.scheduledFor === cursor.scheduledFor && item.id < cursor.id),
+        )
+      : statusFiltered;
+
+    const hasMore = pagedPool.length > limit;
+    const items = pagedPool.slice(0, limit);
+    const lastItem = items[items.length - 1];
+    const nextCursor =
+      hasMore && lastItem
+        ? encodeHistoryCursor({
+            scheduledFor: lastItem.scheduledFor,
+            id: lastItem.id,
+          })
+        : null;
 
     return {
       items,
       counts: {
-        all: takenCount + skippedCount,
+        all: allItems.length,
         taken: takenCount,
         skipped: skippedCount,
+        missed: missedCount,
       },
       hasMore,
       nextCursor,
     };
+  }
+
+  private computeMissedHistoryItems(input: {
+    schedules: Array<{
+      id: string;
+      patientMedicationId: string;
+      doseAmount: Prisma.Decimal;
+      doseUnit: string;
+      frequency: string;
+      intervalHours: number | null;
+      weekdays: number[];
+      scheduledTimes: string[];
+      startDate: Date;
+      endDate: Date | null;
+      status: ScheduleStatus;
+      patientMedication: {
+        id: string;
+        name: string;
+        strength: string | null;
+        dosageForm: string | null;
+        status: MedicationStatus;
+      };
+    }>;
+    recordedSlotKeys: Set<string>;
+    timeZone: string;
+    fromYmd: string | null;
+    toYmd: string | null;
+    medicationId?: string;
+    now: Date;
+  }): SerializedDoseHistoryItem[] {
+    const todayYmd = formatLocalDateYmd(input.now, input.timeZone);
+    const scanToYmd =
+      input.toYmd && input.toYmd < todayYmd ? input.toYmd : todayYmd;
+    const defaultScanStartYmd = addDaysToYmd(todayYmd, -30);
+    const earliestSafeYmd = addDaysToYmd(scanToYmd, -120);
+    const lowerBoundYmd = input.fromYmd
+      ? input.fromYmd < earliestSafeYmd
+        ? earliestSafeYmd
+        : input.fromYmd
+      : defaultScanStartYmd;
+
+    if (lowerBoundYmd > scanToYmd) {
+      return [];
+    }
+
+    const missed: SerializedDoseHistoryItem[] = [];
+    const seenKeys = new Set<string>();
+
+    for (const sched of input.schedules) {
+      if (sched.status !== ScheduleStatus.ACTIVE) continue;
+      if (sched.patientMedication.status === MedicationStatus.ARCHIVED) continue;
+      if (input.medicationId && sched.patientMedicationId !== input.medicationId) {
+        continue;
+      }
+
+      const schedStartYmd = formatLocalDateYmd(sched.startDate, input.timeZone);
+      const schedEndYmd = sched.endDate
+        ? formatLocalDateYmd(sched.endDate, input.timeZone)
+        : scanToYmd;
+      const endScanYmd = scanToYmd < schedEndYmd ? scanToYmd : schedEndYmd;
+      let cursorYmd = lowerBoundYmd > schedStartYmd ? lowerBoundYmd : schedStartYmd;
+
+      while (cursorYmd <= endScanYmd) {
+        const times = getScheduleTimesForLocalDate(sched, cursorYmd, input.timeZone);
+        for (const time24 of times) {
+          const scheduledDate = zonedDateTimeToUtc(
+            cursorYmd,
+            time24,
+            input.timeZone,
+          );
+          const scheduledIso = scheduledDate.toISOString();
+          const slotKey = `${sched.id}:${scheduledIso}`;
+          if (seenKeys.has(slotKey) || input.recordedSlotKeys.has(slotKey)) {
+            continue;
+          }
+          if (computeDoseDisplayStatus(scheduledDate, null, input.now) !== 'missed') {
+            continue;
+          }
+          seenKeys.add(slotKey);
+          missed.push({
+            id: `missed:${slotKey}`,
+            scheduleId: sched.id,
+            patientMedicationId: sched.patientMedicationId,
+            medicineName: sched.patientMedication.name,
+            strength: sched.patientMedication.strength,
+            dosageForm: sched.patientMedication.dosageForm,
+            doseAmount: formatDecimalFixed(sched.doseAmount) ?? '1.00',
+            doseUnit: sched.doseUnit,
+            scheduledDateYmd: cursorYmd,
+            scheduledTime12: format24HourTo12Hour(time24),
+            scheduledFor: scheduledIso,
+            recordedAt: null,
+            status: 'missed',
+            note: null,
+          });
+        }
+        cursorYmd = addDaysToYmd(cursorYmd, 1);
+      }
+    }
+
+    return missed;
   }
 
   private async ensureDoseEventRow(input: {

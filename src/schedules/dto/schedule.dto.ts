@@ -16,8 +16,8 @@ import {
 
 export class ListSchedulesQueryDto {
   @IsOptional()
-  @IsIn(['ALL', 'ACTIVE', 'PAUSED', 'COMPLETED'])
-  status?: 'ALL' | 'ACTIVE' | 'PAUSED' | 'COMPLETED';
+  @IsIn(['ALL', 'ACTIVE', 'PAUSED', 'COMPLETED', 'ARCHIVED'])
+  status?: 'ALL' | 'ACTIVE' | 'PAUSED' | 'COMPLETED' | 'ARCHIVED';
 }
 
 export class CreateScheduleDto {
@@ -140,6 +140,6 @@ export class UpdateScheduleDto {
   remindersEnabled?: boolean;
 
   @IsOptional()
-  @IsIn(['ACTIVE', 'PAUSED', 'COMPLETED'])
-  status?: 'ACTIVE' | 'PAUSED' | 'COMPLETED';
+  @IsIn(['ACTIVE', 'PAUSED', 'COMPLETED', 'ARCHIVED'])
+  status?: 'ACTIVE' | 'PAUSED' | 'COMPLETED' | 'ARCHIVED';
 }

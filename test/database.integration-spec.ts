@@ -193,8 +193,31 @@ describe('PostgreSQL Live Database Integration (TEST_DATABASE_URL)', () => {
     const history = await doseLogsService.listDoseHistory(
       secondProfile.id,
       'Asia/Dhaka',
-      { status: 'ALL', medicationId: createdMed.id },
+      {
+        status: 'ALL',
+        medicationId: createdMed.id,
+        from: '2026-11-22',
+        to: '2026-11-22',
+      },
     );
-    expect(history.counts).toEqual({ all: 2, taken: 1, skipped: 1 });
+    expect(history.counts).toEqual({ all: 2, taken: 1, skipped: 1, missed: 0 });
+
+    const archivedSched = await schedulesService.archiveForUser(
+      regA.user.id,
+      createdSched.id,
+    );
+    expect(archivedSched.status).toBe('ARCHIVED');
+
+    const historyAfterArchive = await doseLogsService.listDoseHistory(
+      secondProfile.id,
+      'Asia/Dhaka',
+      {
+        status: 'ALL',
+        medicationId: createdMed.id,
+        from: '2026-11-22',
+        to: '2026-11-22',
+      },
+    );
+    expect(historyAfterArchive.counts).toEqual({ all: 2, taken: 1, skipped: 1, missed: 0 });
   }, 60000);
 });

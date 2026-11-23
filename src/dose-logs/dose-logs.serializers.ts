@@ -12,6 +12,7 @@ export interface SerializedScheduledDoseItem {
   medicineName: string;
   strength: string | null;
   dosageForm: string | null;
+  imageUrl?: string | null;
   doseAmount: string;
   doseUnit: string;
   doseInstruction: string;
@@ -55,13 +56,14 @@ export interface SerializedDoseHistoryItem {
   medicineName: string;
   strength: string | null;
   dosageForm: string | null;
+  imageUrl?: string | null;
   doseAmount: string;
   doseUnit: string;
   scheduledDateYmd: string;
   scheduledTime12: string;
   scheduledFor: string;
   recordedAt: string | null;
-  status: 'taken' | 'skipped';
+  status: 'taken' | 'skipped' | 'missed';
   note: string | null;
 }
 
@@ -71,6 +73,7 @@ export interface SerializedDoseHistoryResponse {
     all: number;
     taken: number;
     skipped: number;
+    missed: number;
   };
   hasMore: boolean;
   nextCursor: string | null;

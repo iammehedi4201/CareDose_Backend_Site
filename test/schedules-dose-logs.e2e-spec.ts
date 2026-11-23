@@ -295,16 +295,26 @@ function createPhase6PrismaMock() {
         async ({
           where,
         }: {
-          where?: { patientMedicationId?: string; patientMedication?: { patientId?: string }; status?: ScheduleStatus };
+          where?: {
+            patientMedicationId?: string;
+            patientMedication?: { patientId?: string; id?: string; status?: MedicationStatus };
+            status?: ScheduleStatus;
+          };
         }) => {
           return schedules
             .filter((s) => {
               if (where?.patientMedicationId && s.patientMedicationId !== where.patientMedicationId) {
                 return false;
               }
-              if (where?.patientMedication?.patientId) {
-                const med = medications.find((m) => m.id === s.patientMedicationId);
-                if (!med || med.patientId !== where.patientMedication.patientId) return false;
+              const med = medications.find((m) => m.id === s.patientMedicationId);
+              if (where?.patientMedication?.patientId && med?.patientId !== where.patientMedication.patientId) {
+                return false;
+              }
+              if (where?.patientMedication?.id && med?.id !== where.patientMedication.id) {
+                return false;
+              }
+              if (where?.patientMedication?.status && med?.status !== where.patientMedication.status) {
+                return false;
               }
               if (where?.status && s.status !== where.status) return false;
               return true;
@@ -377,6 +387,11 @@ function createPhase6PrismaMock() {
                   if (cond.status && typeof cond.status === 'object' && 'in' in cond.status) {
                     const allowed = (cond.status as { in: DoseEventStatus[] }).in;
                     if (!allowed.includes(ev.status)) return false;
+                  }
+                  if (cond.scheduledFor && typeof cond.scheduledFor === 'object') {
+                    const range = cond.scheduledFor as { gte?: Date; lt?: Date };
+                    if (range.gte && ev.scheduledFor < range.gte) return false;
+                    if (range.lt && ev.scheduledFor >= range.lt) return false;
                   }
                 }
               }
@@ -666,11 +681,13 @@ describe('Phase 6 — Schedules & DoseLogs API E2E (DTO Validation, Ownership, A
 
     // Dose history returns both events & accurate filter counts
     const historyRes = await request(app.getHttpServer())
-      .get(`/api/v1/patients/${patientA}/dose-history?status=ALL&medicationId=${medId}`)
+      .get(
+        `/api/v1/patients/${patientA}/dose-history?status=ALL&medicationId=${medId}&from=2026-11-22&to=2026-11-22`,
+      )
       .set('Authorization', `Bearer ${tokenA}`)
       .expect(200);
 
-    expect(historyRes.body.counts).toEqual({ all: 2, taken: 1, skipped: 1 });
+    expect(historyRes.body.counts).toEqual({ all: 2, taken: 1, skipped: 1, missed: 0 });
     expect(historyRes.body.items).toHaveLength(2);
 
     // Duplicate overlapping active schedule returns 409 Conflict
@@ -685,6 +702,27 @@ describe('Phase 6 — Schedules & DoseLogs API E2E (DTO Validation, Ownership, A
         startDate: '2026-11-22',
       })
       .expect(409);
+
+    // Archiving a schedule preserves its dose history & removes it from future daily doses
+    const archivedSched = await request(app.getHttpServer())
+      .post(`/api/v1/schedules/${scheduleId}/archive`)
+      .set('Authorization', `Bearer ${tokenA}`)
+      .expect(200);
+    expect(archivedSched.body.status).toBe('ARCHIVED');
+
+    const dailyAfterArchive = await request(app.getHttpServer())
+      .get(`/api/v1/patients/${patientA}/doses?date=2026-11-23&days=1`)
+      .set('Authorization', `Bearer ${tokenA}`)
+      .expect(200);
+    expect(dailyAfterArchive.body.days[0].items).toHaveLength(0);
+
+    const historyAfterArchive = await request(app.getHttpServer())
+      .get(
+        `/api/v1/patients/${patientA}/dose-history?status=ALL&medicationId=${medId}&from=2026-11-22&to=2026-11-22`,
+      )
+      .set('Authorization', `Bearer ${tokenA}`)
+      .expect(200);
+    expect(historyAfterArchive.body.counts).toEqual({ all: 2, taken: 1, skipped: 1, missed: 0 });
 
     // Second medicine tests Every X hours & Selected weekdays + verifies stock is untouched on schedule creation
     const medRes2 = await request(app.getHttpServer())
