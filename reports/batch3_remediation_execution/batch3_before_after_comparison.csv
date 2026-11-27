@@ -1,0 +1,56 @@
+subBatch,packId,brandId,brandName,strength,beforePackQty,afterPackQty,beforePackUnits,afterPackUnits,beforeStripUnits,afterStripUnits,beforeUnitPrice,afterUnitPrice,beforePackPrice,afterPackPrice,warningCleared
+3A,406d9928-29d8-4313-91a8-06eafde14489,5ffb4179-4455-4f90-8b8f-c37b5dd0816d,Sandostatin,50 mcg/ml,1 ml ampoule,1 ml ampoule,,,,,,,1,362.00,false
+3A,74da2ebc-d200-4822-81c4-56983a95c17e,4b21ed78-3b4c-4482-b705-2e1f0562583b,Tasigna,200 mg,28's pack,28's pack,28,28,,,3051.5,475.00,85442,13300.00,false
+3A,d7b6f44a-4688-4aca-8d3a-0c46641de22f,cf070f08-5dda-4f4f-97d8-173f85617a4d,Elmin,400 mg,25 x 1,25 x 1,25,25,,,3.35,4.50,83.75,112.50,false
+3B,0ab02766-3d25-4059-9dd0-4add7c90817c,660fd4b1-1053-49ed-98ec-bf9aaf541274,Co-Axet,500 mg+125 mg,8's pack,8's pack,8,8,7,4,50.15,55.00,401.2,440.00,false
+3B,1594de5e-779e-4683-a5c5-6addc36b6cb6,c88562ea-f38a-4c70-bd37-b2400a04690e,Vildus,50 mg,20's pack,20's pack,20,20,14,10,20,20,400,400,false
+3B,1bdc414e-b76a-4c8a-abba-ab237ead0720,becb2a6b-e922-42f0-9f3d-07b87a15381e,Prexim,200 mg,12's pack,12's pack,12,12,7,4,35,35,420,420,false
+3B,3bb786c0-f4d4-4891-b0f9-04ba661093de,2ceea0b4-7cec-4ab3-8535-3fa80b3085ad,Linarol-M,2.5 mg+500 mg,14's pack,14's pack,14,14,10,7,12,12,168,168,false
+3B,5cee61d7-1a31-41c5-b601-20b01091d1e2,5e5a15c1-3cf0-488f-a182-1e0bc7dfb958,Dialiptin-M,50 mg+500 mg,14's pack,14's pack,14,14,10,7,16,18.00,224,252.00,false
+3C,06677af2-eb48-47c9-ab18-42c62c02ec4d,5c822bc6-79a0-4db5-8162-56e4509a5c74,Emijoy DS,25 mg+10 mg,50's pack,2 x 15,50,30,15,15,7,12.00,350,360.00,false
+3C,07229d03-0670-498f-90e4-bf2664c16e2a,1c2b1ee3-0747-4e9a-aed7-7e5119376de4,Olsart,40 mg,20's pack,2 x 14,20,28,14,14,16,18.00,320,504.00,false
+3C,0b619b00-27e9-4154-87eb-5e6c50fe75e7,34596eed-c02e-47c6-b0f9-303be11cda6a,Cefaclav,500 mg+125 mg,8's pack,2 x 7,8,14,7,7,50,60.00,400,840.00,false
+3C,0c49462e-049a-4ab4-87f7-0667b409b3c4,fb75531d-3c09-44ab-b425-436429d90426,Zofra ODT,4 mg,30's pack,3 x 14,30,42,14,14,5,5.75,150,241.50,false
+3C,15c077de-6495-4597-9d4f-8d53b38e9a9d,d26e152e-0b92-4f7d-a390-4f7fdf547cad,Mensil N,5 mg,56's pack,6 x 10,56,60,10,10,7.5,7.50,420,450.00,false
+3C,187455bb-406e-47b9-9ae0-7c86cef6e66f,de888c4a-e8b8-4764-b2ce-afb56f5fae4f,Dytor,2.5 mg,28's pack,3 x 10,28,30,10,10,6,6.00,168,180.00,false
+3C,2dd6f243-8d1d-4c4c-9778-880310f9e38a,24d54f6e-4fed-48bc-906a-f6bca382ba74,Cefaclav,250 mg+62.5 mg,12's pack,2 x 7,12,14,7,7,30,35.00,360,490.00,false
+3C,32a583e1-3701-46d1-a4e9-3979c3fc5943,8464f715-9059-4a78-8321-7d8d34bb9be0,Cardimet MR,35 mg,30's pack,3 x 14,30,42,14,14,6,8.00,180,336.00,false
+3C,338f1ea8-7da5-455f-b7f9-da6206a78edb,c8a5f7c4-c94d-428e-96e5-f28d7e37819a,Cinalid,500 mg,6's pack,2 x 4,6,8,4,4,34,40.00,204,320.00,false
+3C,3ba50c1e-8173-4f29-9ee5-723444051d1c,23b5b050-6e20-4e4f-928a-093033597bfa,Exalin,10 mg,30's pack,3 x 14,30,42,14,14,10,12.00,300,504.00,false
+3C,3eb1d371-14a1-4246-b600-b000f89a4d15,61d3b2d6-0205-472b-a77a-4edd60deedb8,Anset,8 mg,30's pack,3 x 14,30,42,14,14,11,11.00,330,462.00,false
+3C,3fb17de9-7957-44ff-a298-645fbe801907,3b5d5f4b-6cc3-47b5-901b-0378073e67eb,Nexven MUPS,20 mg,50's pack,6 x 10,50,60,6,10,10,8.00,500,480.00,false
+3C,4a8cce89-36f4-4f17-a347-43f8cab587af,573bee60-a393-40a3-9e44-91f9f3aac7a7,Myrica,75 mg,28's pack,3 x 10,28,30,10,10,16,18.00,448,540.00,false
+3C,4ba520b4-1318-43d2-8810-1de9f79c3915,87ea5b82-be7e-41b7-926d-6ac4deec9234,Reversair,10 mg,30's pack,3 x 14,30,42,14,14,16,17.50,480,735.00,false
+3C,4c091af1-9e1b-49ff-8f19-e31ab6e02164,525321d4-5f3d-4cf3-b000-8d33471e3e10,Stafoxin,500 mg,30's pack,4 x 6,30,24,4,6,10,10.00,300,240.00,false
+3C,4f05ff3e-c5c5-4311-9477-4623135dba55,7e178568-cd13-45a8-911a-864f22857a56,E-coxib,60 mg,30's pack,2 x 14,30,28,14,14,,7.00,210,196.00,false
+3C,5352157d-d0d9-4177-80d2-fba71ce4b512,04836c63-f32d-42cf-aab2-55a089660a38,Omep,10 mg,48's pack,6 x 10,48,60,10,10,2,2.00,96,120.00,false
+3C,5730bfdd-2db7-4f0e-b2cc-83d4a471e08b,80795e85-c038-40fe-a668-344af200af39,Larb Plus,100 mg+25 mg,30's pack,2 x 21,30,42,21,21,12,12.03,360,505.26,false
+3C,5d257fc8-aeda-4c7a-8311-25de527b05e5,f69be8c4-9c3a-4e27-825c-ecb35477b153,Cerox CV,250 mg+62.5 mg,12's pack,2 x 7,12,14,7,7,35,35.00,420,490.00,false
+3C,62f712bc-5f66-4338-920e-902b01bc0ef9,2e21b938-53e8-4f78-bb65-b3cc215a5a3e,Progesic,500 mg+20 mg,28's pack,3 x 10,28,30,10,10,10,15.00,280,450.00,false
+3C,70179d09-3341-40d2-9fdb-a847afd5ffcd,22377169-cdfd-47a5-a3e8-b9d7cd0489ee,Sitadus,50 mg,30's pack,3 x 14,30,42,14,14,15.05,15.05,451.5,632.10,false
+3D,cb31c260-883f-46dd-8886-d1fbc4b8748e,11c588b7-e94d-457a-a4aa-ca50eef7d353,Enyl Extend,665 mg,100's pack,100's pack,100,100,,,1.5,2.00,151,200.00,false
+3D,6264b7a5-32d1-431d-9cf3-2e31972e56e1,19dc2206-9e69-40f8-a2ee-45a349bf4952,Neforex,20 mg/ml,5's pack,5's pack,5,5,,,,,75,400.00,false
+3D,91680d88-a908-4c1a-a5c7-aa22205a9f4e,25e40761-5d67-4db3-9f45-cfa7414b1bbc,Clofenac,25 mg,15's pack,15's pack,15,15,5,5,12.09,16.00,181.35,240.00,false
+3D,7cd53f7e-12cf-4bd0-8d45-657702592b46,629fb73d-156b-4b3a-be56-21a2b03ea8df,Reversair CT,10 mg,30's pack,30's pack,30,30,10,10,8,18.00,180.9,540.00,true
+3D,cb65faa8-610d-48de-adbb-3d2ff2431668,65ed0833-93a4-437a-879c-9dbc276abd8f,Gynomix,,6's pack,6's pack,6,6,,,25.1,26.00,150.6,156.00,false
+3D,8bbc93b2-c12d-4f3b-8b91-fdae5599c814,6b0fa1e9-f39f-49cf-ac97-5b8c32e0489d,Bigatab,90 mg,30's pack,30's pack,30,30,,,1200,350.00,24500,10500.00,true
+3D,436dd1a7-99dd-4b30-aba5-edc9aa8736dd,6ef11e2a-4c31-418d-a153-7556c78c557a,Hypen Max SR,1.5 mg+5 mg,30's pack,30's pack,30,30,10,10,6,15.00,281.8,450.00,true
+3D,5fdb3c7e-0243-46b4-9e8b-17b17f77ec1b,8fbccd5e-ef34-4b77-bfc9-7e38d1e5d50d,Colasa,1 gm,10's pack,10's pack,10,10,5,5,9,60.00,150,600.00,true
+3D,481fcdac-5e79-4b38-a380-c279def459d6,9208eb2e-e01f-4ef2-b89d-10bbb894a3b7,Indula,25 mcg,30's pack,30's pack,30,30,10,10,15,4.00,450,120.00,false
+3D,576912a2-c569-4484-b425-448af693392d,9a29d7d8-e629-4ff1-bbf6-88d9c7020316,Kidopia,0.01%,5 ml drop,5 ml drop,,,,,,,27.98,280.00,false
+3D,2d258873-fa66-4ea6-b3e8-5351440868b4,aba73481-bfe4-4168-8f86-96b98f7b0faf,Dewax,6.5%,10 ml drop,10 ml drop,,,,,,,70.11,300.00,false
+3D,80212167-c3e8-4a8b-987b-179baaaa01ce,b4568369-125b-4593-8528-12bcff2f0ea3,Piloma OSD,2%,10 ml drop,10 ml drop,,,,,,,186.12,580.00,false
+3D,46bbe924-d43d-43d5-858b-942a62c8c2a0,b9f476c8-94f9-4708-8660-6b84a0e0684b,Electro-K,600 mg,100's pack,100's pack,100,100,10,10,0.6,2.00,60,200.00,false
+3D,f8deb6f2-72f9-4d9b-8543-f578b3160486,bbd06f69-89be-4eef-bed1-f008c7b8c5de,Fertinatal,50 mg,30's pack,30's pack,30,30,,,15,53.33,450,1600.00,false
+3E,3b45ef30-ac31-4b25-8c3d-a2976c577de7,05ff3037-fbc0-421d-9025-a13b7c418657,Annova Plus,375 mg+20 mg,30's pack,7 x 6,30,42,6,6,8.02,17.00,241.2,714.00,false
+3E,52daee05-4c67-4d78-b090-8ee3fe7091d1,09cb8cc2-08f1-4ef5-be35-aa391e0e4228,Dephos,500 mg,30's pack,1 x 12,30,12,,12,4,45.00,190,540.00,true
+3E,017952bf-134f-4888-96ad-74a67b8826a2,19e67ae8-c383-476f-a0f6-4d40b211561a,Aproxi EZY,125 mg+80 mg+80 mg,4's pack,3 capsule pack,4,3,,,50,,350.65,350.00,true
+3E,1b97905b-3bf4-46ae-bf45-c1330565aa6a,32885577-783f-4f53-8e89-6fbd2cb0fa6f,Pancreon 10000,150 mg,30's pack,10 x 10,30,100,10,10,7,60.00,350,6000.00,true
+3E,b38372bd-7be1-4693-ac94-707a9bf63252,33cec057-20af-4d01-aea3-adbd2672990a,Biomolipon,600 mg/ampoule,5's pack,600 mg ampoule,5,,,,10.2,,65,820.00,true
+3E,414d55b9-179f-4861-81b1-ef2ecf5fedfb,3b436b84-31fa-4188-be90-7d55a120911c,Prinagel,8%,15's pack,15 gm tube & applicator,15,,,,339,,5085,335.00,false
+3E,c74d78af-fc5b-4d41-a3f3-cbdd5a8540d5,3fceafc8-c4d9-4f42-8a2b-bbc7648520dd,Avas EZ,40 mg+10 mg,30's pack,1 x 14,30,14,,14,14,30.00,420,420.00,false
+3E,59515bb4-6814-40e0-8809-162e95134e96,489ed2c7-16b5-4ada-8d2e-3fa7319b4fec,Mycept-S,180 mg,50's pack,3 x 10,50,30,10,10,5,50.00,250,1500.00,false
+3E,8ec49af4-7b55-4b57-9ff3-3e2446951765,5a8218a4-4252-4e5d-bfe8-9dcb3b6e8e15,Mycept-S,360 mg,50's pack,3 x 10,50,30,10,10,5,90.00,250,2700.00,false
+3E,e9d540d7-0c55-4914-9084-5b34e36d29ef,5d637a94-faf6-48d5-9611-7bf100cef947,Enclot,650 mg,30's pack,2 x 10,30,20,10,10,8.02,25.00,300.5,500.00,true
+3E,69bd7d63-b3b8-43c3-a697-26249d2b4ad5,95868c47-be1f-4743-a23c-099bcf796d11,Ceframax,500 mg,20's pack,3 x 10,20,30,,10,12.5,12.00,300,360.00,true
+3E,c6daeb88-5264-4e42-80c1-89b7ca01dc3c,a79be656-793b-4be8-8eb4-2051f58807a5,Elivier DT,1000 mg,30's pack,4 x 6,30,24,6,6,8,30.00,270,720.00,true

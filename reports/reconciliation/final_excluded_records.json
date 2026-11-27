@@ -1,0 +1,1641 @@
+[
+  {
+    "brandId": "32797",
+    "brandName": "Afrin",
+    "strength": "1%",
+    "dosageForm": "Cream",
+    "generic": "Oxymetazoline Hydrochloride (Cream)",
+    "manufacturer": "Aristopharma Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Oxymetazoline Hydrochloride (Nasal Preparation) [listing:oxymetazoline-hydrochloride-nasal-preparation]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:oxymetazoline-hydrochloride-nasal-preparation",
+        "name": "Oxymetazoline Hydrochloride (Nasal Preparation)"
+      }
+    ]
+  },
+  {
+    "brandId": "16250",
+    "brandName": "Alercon",
+    "strength": "600 mcg/spray",
+    "dosageForm": "Nasal Spray",
+    "generic": "Olopatadine Hydrochloride (Nasal Spray)",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Olopatadine Hydrochloride [listing:olopatadine-hydrochloride]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:olopatadine-hydrochloride",
+        "name": "Olopatadine Hydrochloride"
+      }
+    ]
+  },
+  {
+    "brandId": "9363",
+    "brandName": "Amiquin",
+    "strength": "400 mg",
+    "dosageForm": "Tablet",
+    "generic": "Gatifloxacin (Oral)",
+    "manufacturer": "Amico Laboratories Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Gatifloxacin [listing:gatifloxacin]; Gatifloxacin (Ophthalmic) [listing:gatifloxacin-ophthalmic]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:gatifloxacin",
+        "name": "Gatifloxacin"
+      },
+      {
+        "sourceId": "listing:gatifloxacin-ophthalmic",
+        "name": "Gatifloxacin (Ophthalmic)"
+      }
+    ]
+  },
+  {
+    "brandId": "30659",
+    "brandName": "Aristobet N",
+    "strength": "0.1%+0.5%",
+    "dosageForm": "Ophthalmic Solution",
+    "generic": "Betamethasone + Neomycin Sulphate (E/E)",
+    "manufacturer": "Aristopharma Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Betamethasone + Neomycin Sulphate (Ophthalmic) [listing:betamethasone-neomycin-sulphate-ophthalmic]; Betamethasone + Neomycin Sulphate (Topical) [listing:betamethasone-neomycin-sulphate-topical]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:betamethasone-neomycin-sulphate-ophthalmic",
+        "name": "Betamethasone + Neomycin Sulphate (Ophthalmic)"
+      },
+      {
+        "sourceId": "listing:betamethasone-neomycin-sulphate-topical",
+        "name": "Betamethasone + Neomycin Sulphate (Topical)"
+      }
+    ]
+  },
+  {
+    "brandId": "30660",
+    "brandName": "Aristobet N",
+    "strength": "0.1%+0.5%",
+    "dosageForm": "Ophthalmic Ointment",
+    "generic": "Betamethasone + Neomycin Sulphate (E/E)",
+    "manufacturer": "Aristopharma Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Betamethasone + Neomycin Sulphate (Ophthalmic) [listing:betamethasone-neomycin-sulphate-ophthalmic]; Betamethasone + Neomycin Sulphate (Topical) [listing:betamethasone-neomycin-sulphate-topical]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:betamethasone-neomycin-sulphate-ophthalmic",
+        "name": "Betamethasone + Neomycin Sulphate (Ophthalmic)"
+      },
+      {
+        "sourceId": "listing:betamethasone-neomycin-sulphate-topical",
+        "name": "Betamethasone + Neomycin Sulphate (Topical)"
+      }
+    ]
+  },
+  {
+    "brandId": "16770",
+    "brandName": "Actrapid Penfill",
+    "strength": "100 IU/ml",
+    "dosageForm": "SC Injection",
+    "generic": "Insulin Human [Fast-Acting]",
+    "manufacturer": "Novo Nordisk Pharma (Pvt.) Ltd",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Insulin Human [rDNA] [listing:insulin-human-rdna]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:insulin-human-rdna",
+        "name": "Insulin Human [rDNA]"
+      }
+    ]
+  },
+  {
+    "brandId": "26700",
+    "brandName": "Actrapid",
+    "strength": "40 IU/ml",
+    "dosageForm": "SC Injection",
+    "generic": "Insulin Human [Fast-Acting]",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Insulin Human [rDNA] [listing:insulin-human-rdna]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:insulin-human-rdna",
+        "name": "Insulin Human [rDNA]"
+      }
+    ]
+  },
+  {
+    "brandId": "3443",
+    "brandName": "Azmasol",
+    "strength": "100 mcg/puff",
+    "dosageForm": "Inhaler",
+    "generic": "Salbutamol (Inhaler)",
+    "manufacturer": "Beximco Pharmaceuticals Ltd.",
+    "exclusionCategory": "BORDERLINE_FORM_EQUIVALENT",
+    "reason": "Dosage form \"Inhaler\" likely represents a MedEx label rename of existing DB form \"Metered-Dose Inhaler (MDI)\" (3446)",
+    "relatedDbOrIncomingInfo": {
+      "dbSourceId": "3446",
+      "dbDosageForm": "Metered-Dose Inhaler (MDI)",
+      "dbManufacturer": "Beximco Pharmaceuticals Ltd."
+    }
+  },
+  {
+    "brandId": "30265",
+    "brandName": "Bacilax",
+    "strength": "9 billion",
+    "dosageForm": "Capsule",
+    "generic": "Probiotic Combination [9 Billion]",
+    "manufacturer": "Square Pharmaceuticals Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Probiotic Combination [4 Billion] [listing:probiotic-combination-4-billion]; Probiotic Combination HN019 [10 Billion] [listing:probiotic-combination-hn019-10-billion]; Probiotic Combination [20 Billion] [listing:probiotic-combination-20-billion]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:probiotic-combination-4-billion",
+        "name": "Probiotic Combination [4 Billion]"
+      },
+      {
+        "sourceId": "listing:probiotic-combination-hn019-10-billion",
+        "name": "Probiotic Combination HN019 [10 Billion]"
+      },
+      {
+        "sourceId": "listing:probiotic-combination-20-billion",
+        "name": "Probiotic Combination [20 Billion]"
+      }
+    ]
+  },
+  {
+    "brandId": "30661",
+    "brandName": "Betacin-N",
+    "strength": "0.1%+0.5%",
+    "dosageForm": "Ophthalmic Ointment",
+    "generic": "Betamethasone + Neomycin Sulphate (E/E)",
+    "manufacturer": "Ibn Sina Pharmaceuticals Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Betamethasone + Neomycin Sulphate (Ophthalmic) [listing:betamethasone-neomycin-sulphate-ophthalmic]; Betamethasone + Neomycin Sulphate (Topical) [listing:betamethasone-neomycin-sulphate-topical]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:betamethasone-neomycin-sulphate-ophthalmic",
+        "name": "Betamethasone + Neomycin Sulphate (Ophthalmic)"
+      },
+      {
+        "sourceId": "listing:betamethasone-neomycin-sulphate-topical",
+        "name": "Betamethasone + Neomycin Sulphate (Topical)"
+      }
+    ]
+  },
+  {
+    "brandId": "31003",
+    "brandName": "Bio-Kult",
+    "strength": "",
+    "dosageForm": "Capsule",
+    "generic": "Probiotic Combination [14 strains]",
+    "manufacturer": "ADM Protexin Ltd",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Probiotic Combination [4 Billion] [listing:probiotic-combination-4-billion]; Probiotic Combination HN019 [10 Billion] [listing:probiotic-combination-hn019-10-billion]; Probiotic Combination [20 Billion] [listing:probiotic-combination-20-billion]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:probiotic-combination-4-billion",
+        "name": "Probiotic Combination [4 Billion]"
+      },
+      {
+        "sourceId": "listing:probiotic-combination-hn019-10-billion",
+        "name": "Probiotic Combination HN019 [10 Billion]"
+      },
+      {
+        "sourceId": "listing:probiotic-combination-20-billion",
+        "name": "Probiotic Combination [20 Billion]"
+      }
+    ]
+  },
+  {
+    "brandId": "13012",
+    "brandName": "BN",
+    "strength": "0.1%+0.5%",
+    "dosageForm": "Ophthalmic Solution",
+    "generic": "Betamethasone + Neomycin Sulphate (E/E)",
+    "manufacturer": "Asiatic Laboratories Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Betamethasone + Neomycin Sulphate (Ophthalmic) [listing:betamethasone-neomycin-sulphate-ophthalmic]; Betamethasone + Neomycin Sulphate (Topical) [listing:betamethasone-neomycin-sulphate-topical]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:betamethasone-neomycin-sulphate-ophthalmic",
+        "name": "Betamethasone + Neomycin Sulphate (Ophthalmic)"
+      },
+      {
+        "sourceId": "listing:betamethasone-neomycin-sulphate-topical",
+        "name": "Betamethasone + Neomycin Sulphate (Topical)"
+      }
+    ]
+  },
+  {
+    "brandId": "3457",
+    "brandName": "Brodil",
+    "strength": "100 mcg/puff",
+    "dosageForm": "Inhaler",
+    "generic": "Salbutamol (Inhaler)",
+    "manufacturer": "ACI Limited",
+    "exclusionCategory": "BORDERLINE_FORM_EQUIVALENT",
+    "reason": "Dosage form \"Inhaler\" likely represents a MedEx label rename of existing DB form \"Metered-Dose Inhaler (MDI)\" (3458)",
+    "relatedDbOrIncomingInfo": {
+      "dbSourceId": "3458",
+      "dbDosageForm": "Metered-Dose Inhaler (MDI)",
+      "dbManufacturer": "ACI Limited"
+    }
+  },
+  {
+    "brandId": "15232",
+    "brandName": "Cervarix",
+    "strength": "0.5 ml/dose",
+    "dosageForm": "IM Injection",
+    "generic": "Human Papillomavirus Bivalent (Types 16 & 18)",
+    "manufacturer": "GlaxoSmithKline",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Human Papillomavirus Bivalent [listing:human-papillomavirus-bivalent]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:human-papillomavirus-bivalent",
+        "name": "Human Papillomavirus Bivalent"
+      }
+    ]
+  },
+  {
+    "brandId": "12403",
+    "brandName": "Clotrim",
+    "strength": "200 mg",
+    "dosageForm": "Vaginal Suppository",
+    "generic": "Clotrimazole (Vaginal suppository)",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Clotrimazole (Ear drop) [listing:clotrimazole-ear-drop]; Clotrimazole (Eye ointment) [listing:clotrimazole-eye-ointment]; Clotrimazole (Topical) [listing:clotrimazole-topical]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:clotrimazole-ear-drop",
+        "name": "Clotrimazole (Ear drop)"
+      },
+      {
+        "sourceId": "listing:clotrimazole-eye-ointment",
+        "name": "Clotrimazole (Eye ointment)"
+      },
+      {
+        "sourceId": "listing:clotrimazole-topical",
+        "name": "Clotrimazole (Topical)"
+      },
+      {
+        "sourceId": "listing:clotrimazole-vaginal-tablet",
+        "name": "Clotrimazole (Vaginal tablet)"
+      }
+    ]
+  },
+  {
+    "brandId": "32247",
+    "brandName": "Combair",
+    "strength": "(2.5 mg+500 mcg)/ml",
+    "dosageForm": "Respirator Solution",
+    "generic": "Salbutamol + Ipratropium (Solution for inhalation)",
+    "manufacturer": "ACI Limited",
+    "exclusionCategory": "BORDERLINE_FORM_EQUIVALENT",
+    "reason": "Dosage form \"Respirator Solution\" likely represents a MedEx label rename of existing DB form \"Nebuliser Solution\" (37115)",
+    "relatedDbOrIncomingInfo": {
+      "dbSourceId": "37115",
+      "dbDosageForm": "Nebuliser Solution",
+      "dbManufacturer": "ACI Limited"
+    }
+  },
+  {
+    "brandId": "19923",
+    "brandName": "Dilcontin CR",
+    "strength": "60 mg",
+    "dosageForm": "Tablet (Controlled Release)",
+    "generic": "Diltiazem Hydrochloride (SR tablet)",
+    "manufacturer": "Mundipharma (BD) Pvt. Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Diltiazem Hydrochloride [listing:diltiazem-hydrochloride]; Diltiazem Hydrochloride (FC tablet) [listing:diltiazem-hydrochloride-fc-tablet]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:diltiazem-hydrochloride",
+        "name": "Diltiazem Hydrochloride"
+      },
+      {
+        "sourceId": "listing:diltiazem-hydrochloride-fc-tablet",
+        "name": "Diltiazem Hydrochloride (FC tablet)"
+      }
+    ]
+  },
+  {
+    "brandId": "30389",
+    "brandName": "Dilatin SR",
+    "strength": "120 mg",
+    "dosageForm": "Tablet (Sustained Release)",
+    "generic": "Diltiazem Hydrochloride (SR tablet)",
+    "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Diltiazem Hydrochloride [listing:diltiazem-hydrochloride]; Diltiazem Hydrochloride (FC tablet) [listing:diltiazem-hydrochloride-fc-tablet]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:diltiazem-hydrochloride",
+        "name": "Diltiazem Hydrochloride"
+      },
+      {
+        "sourceId": "listing:diltiazem-hydrochloride-fc-tablet",
+        "name": "Diltiazem Hydrochloride (FC tablet)"
+      }
+    ]
+  },
+  {
+    "brandId": "30388",
+    "brandName": "Dilatin SR",
+    "strength": "90 mg",
+    "dosageForm": "Tablet (Sustained Release)",
+    "generic": "Diltiazem Hydrochloride (SR tablet)",
+    "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Diltiazem Hydrochloride [listing:diltiazem-hydrochloride]; Diltiazem Hydrochloride (FC tablet) [listing:diltiazem-hydrochloride-fc-tablet]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:diltiazem-hydrochloride",
+        "name": "Diltiazem Hydrochloride"
+      },
+      {
+        "sourceId": "listing:diltiazem-hydrochloride-fc-tablet",
+        "name": "Diltiazem Hydrochloride (FC tablet)"
+      }
+    ]
+  },
+  {
+    "brandId": "8319",
+    "brandName": "A-Tetra",
+    "strength": "1%",
+    "dosageForm": "Ophthalmic Ointment",
+    "generic": "Tetracycline Hydrochloride (Ophthalmic)",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Tetracycline Hydrochloride [1060]; Tetracycline Hydrochloride [listing:tetracycline-hydrochloride]; Tetracycline Hydrochloride (Oral) [listing:tetracycline-hydrochloride-oral]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "1060",
+        "name": "Tetracycline Hydrochloride"
+      },
+      {
+        "sourceId": "listing:tetracycline-hydrochloride",
+        "name": "Tetracycline Hydrochloride"
+      },
+      {
+        "sourceId": "listing:tetracycline-hydrochloride-oral",
+        "name": "Tetracycline Hydrochloride (Oral)"
+      }
+    ]
+  },
+  {
+    "brandId": "9656",
+    "brandName": "Flocet",
+    "strength": "200 mg/100 ml",
+    "dosageForm": "IV Infusion",
+    "generic": "Ofloxacin (Oral & Injection)",
+    "manufacturer": "Opsonin Pharma Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Ciprofloxacin [listing:ciprofloxacin]; Ciprofloxacin (Ophthalmic) [listing:ciprofloxacin-ophthalmic]; Levofloxacin (Eye/Ear) [listing:levofloxacin-eye-ear]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:ciprofloxacin",
+        "name": "Ciprofloxacin"
+      },
+      {
+        "sourceId": "listing:ciprofloxacin-ophthalmic",
+        "name": "Ciprofloxacin (Ophthalmic)"
+      },
+      {
+        "sourceId": "listing:levofloxacin-eye-ear",
+        "name": "Levofloxacin (Eye/Ear)"
+      },
+      {
+        "sourceId": "listing:ofloxacin",
+        "name": "Ofloxacin"
+      },
+      {
+        "sourceId": "listing:ofloxacin-ophthalmic",
+        "name": "Ofloxacin (Ophthalmic)"
+      }
+    ]
+  },
+  {
+    "brandId": "16019",
+    "brandName": "G-Atropine",
+    "strength": "1%",
+    "dosageForm": "Ophthalmic Solution",
+    "generic": "Atropine Sulfate",
+    "manufacturer": "Gonoshasthaya Pharma Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Atropine Sulfate (Injection) [listing:atropine-sulfate-injection]; Atropine Sulfate (Ophthalmic) [listing:atropine-sulfate-ophthalmic]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:atropine-sulfate-injection",
+        "name": "Atropine Sulfate (Injection)"
+      },
+      {
+        "sourceId": "listing:atropine-sulfate-ophthalmic",
+        "name": "Atropine Sulfate (Ophthalmic)"
+      }
+    ]
+  },
+  {
+    "brandId": "27115",
+    "brandName": "G-Tetracycline",
+    "strength": "3%",
+    "dosageForm": "Ointment",
+    "generic": "Tetracycline Hydrochloride (Topical)",
+    "manufacturer": "Gonoshasthaya Pharma Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Tetracycline Hydrochloride [1060]; Tetracycline Hydrochloride [listing:tetracycline-hydrochloride]; Tetracycline Hydrochloride (Oral) [listing:tetracycline-hydrochloride-oral]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "1060",
+        "name": "Tetracycline Hydrochloride"
+      },
+      {
+        "sourceId": "listing:tetracycline-hydrochloride",
+        "name": "Tetracycline Hydrochloride"
+      },
+      {
+        "sourceId": "listing:tetracycline-hydrochloride-oral",
+        "name": "Tetracycline Hydrochloride (Oral)"
+      }
+    ]
+  },
+  {
+    "brandId": "8320",
+    "brandName": "G-Tetracycline",
+    "strength": "1%",
+    "dosageForm": "Ophthalmic Ointment",
+    "generic": "Tetracycline Hydrochloride (Ophthalmic)",
+    "manufacturer": "Gonoshasthaya Pharma Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Tetracycline Hydrochloride [1060]; Tetracycline Hydrochloride [listing:tetracycline-hydrochloride]; Tetracycline Hydrochloride (Oral) [listing:tetracycline-hydrochloride-oral]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "1060",
+        "name": "Tetracycline Hydrochloride"
+      },
+      {
+        "sourceId": "listing:tetracycline-hydrochloride",
+        "name": "Tetracycline Hydrochloride"
+      },
+      {
+        "sourceId": "listing:tetracycline-hydrochloride-oral",
+        "name": "Tetracycline Hydrochloride (Oral)"
+      }
+    ]
+  },
+  {
+    "brandId": "9381",
+    "brandName": "Gaticin",
+    "strength": "400 mg",
+    "dosageForm": "Tablet",
+    "generic": "Gatifloxacin (Oral)",
+    "manufacturer": "Drug International Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Gatifloxacin [listing:gatifloxacin]; Gatifloxacin (Ophthalmic) [listing:gatifloxacin-ophthalmic]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:gatifloxacin",
+        "name": "Gatifloxacin"
+      },
+      {
+        "sourceId": "listing:gatifloxacin-ophthalmic",
+        "name": "Gatifloxacin (Ophthalmic)"
+      }
+    ]
+  },
+  {
+    "brandId": "9375",
+    "brandName": "Gatsina",
+    "strength": "400 mg",
+    "dosageForm": "Tablet",
+    "generic": "Gatifloxacin (Oral)",
+    "manufacturer": "Ibn Sina Pharmaceuticals Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Gatifloxacin [listing:gatifloxacin]; Gatifloxacin (Ophthalmic) [listing:gatifloxacin-ophthalmic]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:gatifloxacin",
+        "name": "Gatifloxacin"
+      },
+      {
+        "sourceId": "listing:gatifloxacin-ophthalmic",
+        "name": "Gatifloxacin (Ophthalmic)"
+      }
+    ]
+  },
+  {
+    "brandId": "9374",
+    "brandName": "Gatpro 400",
+    "strength": "400 mg",
+    "dosageForm": "Tablet",
+    "generic": "Gatifloxacin (Oral)",
+    "manufacturer": "Desh Pharmaceuticals Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Gatifloxacin [listing:gatifloxacin]; Gatifloxacin (Ophthalmic) [listing:gatifloxacin-ophthalmic]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:gatifloxacin",
+        "name": "Gatifloxacin"
+      },
+      {
+        "sourceId": "listing:gatifloxacin-ophthalmic",
+        "name": "Gatifloxacin (Ophthalmic)"
+      }
+    ]
+  },
+  {
+    "brandId": "9370",
+    "brandName": "Gatizen",
+    "strength": "400 mg",
+    "dosageForm": "Tablet",
+    "generic": "Gatifloxacin (Oral)",
+    "manufacturer": "Zenith Pharmaceuticals Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Gatifloxacin [listing:gatifloxacin]; Gatifloxacin (Ophthalmic) [listing:gatifloxacin-ophthalmic]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:gatifloxacin",
+        "name": "Gatifloxacin"
+      },
+      {
+        "sourceId": "listing:gatifloxacin-ophthalmic",
+        "name": "Gatifloxacin (Ophthalmic)"
+      }
+    ]
+  },
+  {
+    "brandId": "9369",
+    "brandName": "Gatizen",
+    "strength": "200 mg",
+    "dosageForm": "Tablet",
+    "generic": "Gatifloxacin (Oral)",
+    "manufacturer": "Zenith Pharmaceuticals Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Gatifloxacin [listing:gatifloxacin]; Gatifloxacin (Ophthalmic) [listing:gatifloxacin-ophthalmic]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:gatifloxacin",
+        "name": "Gatifloxacin"
+      },
+      {
+        "sourceId": "listing:gatifloxacin-ophthalmic",
+        "name": "Gatifloxacin (Ophthalmic)"
+      }
+    ]
+  },
+  {
+    "brandId": "29942",
+    "brandName": "Gatinox",
+    "strength": "400 mg",
+    "dosageForm": "Tablet",
+    "generic": "Gatifloxacin (Oral)",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Gatifloxacin [listing:gatifloxacin]; Gatifloxacin (Ophthalmic) [listing:gatifloxacin-ophthalmic]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:gatifloxacin",
+        "name": "Gatifloxacin"
+      },
+      {
+        "sourceId": "listing:gatifloxacin-ophthalmic",
+        "name": "Gatifloxacin (Ophthalmic)"
+      }
+    ]
+  },
+  {
+    "brandId": "9385",
+    "brandName": "Gatimet",
+    "strength": "400 mg",
+    "dosageForm": "Tablet",
+    "generic": "Gatifloxacin (Oral)",
+    "manufacturer": "Medimet Pharmaceuticals Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Gatifloxacin [listing:gatifloxacin]; Gatifloxacin (Ophthalmic) [listing:gatifloxacin-ophthalmic]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:gatifloxacin",
+        "name": "Gatifloxacin"
+      },
+      {
+        "sourceId": "listing:gatifloxacin-ophthalmic",
+        "name": "Gatifloxacin (Ophthalmic)"
+      }
+    ]
+  },
+  {
+    "brandId": "9393",
+    "brandName": "GQ-400",
+    "strength": "400 mg",
+    "dosageForm": "Tablet",
+    "generic": "Gatifloxacin (Oral)",
+    "manufacturer": "Ultra Pharma Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Gatifloxacin [listing:gatifloxacin]; Gatifloxacin (Ophthalmic) [listing:gatifloxacin-ophthalmic]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:gatifloxacin",
+        "name": "Gatifloxacin"
+      },
+      {
+        "sourceId": "listing:gatifloxacin-ophthalmic",
+        "name": "Gatifloxacin (Ophthalmic)"
+      }
+    ]
+  },
+  {
+    "brandId": "9785",
+    "brandName": "Grisovin FP",
+    "strength": "500 mg",
+    "dosageForm": "Tablet",
+    "generic": "Griseofulvin [Microsize]",
+    "manufacturer": "GlaxoSmithKline",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Griseofulvin [Ultra Microsize] [listing:griseofulvin-ultra-microsize]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:griseofulvin-ultra-microsize",
+        "name": "Griseofulvin [Ultra Microsize]"
+      }
+    ]
+  },
+  {
+    "brandId": "15222",
+    "brandName": "Havrix",
+    "strength": "1440 unit/1 ml",
+    "dosageForm": "IM Injection",
+    "generic": "Hepatitis A Vaccine",
+    "manufacturer": "GlaxoSmithKline",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Inactivated Hepatitis A vaccine [listing:inactivated-hepatitis-a-vaccine]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:inactivated-hepatitis-a-vaccine",
+        "name": "Inactivated Hepatitis A vaccine"
+      }
+    ]
+  },
+  {
+    "brandId": "15221",
+    "brandName": "Havrix",
+    "strength": "720 unit/0.5 ml",
+    "dosageForm": "IM Injection",
+    "generic": "Hepatitis A Vaccine",
+    "manufacturer": "GlaxoSmithKline",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Inactivated Hepatitis A vaccine [listing:inactivated-hepatitis-a-vaccine]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:inactivated-hepatitis-a-vaccine",
+        "name": "Inactivated Hepatitis A vaccine"
+      }
+    ]
+  },
+  {
+    "brandId": "16796",
+    "brandName": "Insulatard HM",
+    "strength": "40 IU/ml",
+    "dosageForm": "SC Injection",
+    "generic": "Insulin Human [Long-Acting]",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Insulin Human [rDNA] [listing:insulin-human-rdna]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:insulin-human-rdna",
+        "name": "Insulin Human [rDNA]"
+      }
+    ]
+  },
+  {
+    "brandId": "9561",
+    "brandName": "Leo",
+    "strength": "0.50%",
+    "dosageForm": "Ophthalmic Solution",
+    "generic": "Levofloxacin (Ophthalmic)",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Levofloxacin (Eye/Ear) [listing:levofloxacin-eye-ear]; Ofloxacin [listing:ofloxacin]; Ofloxacin (Ophthalmic) [listing:ofloxacin-ophthalmic]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:levofloxacin-eye-ear",
+        "name": "Levofloxacin (Eye/Ear)"
+      },
+      {
+        "sourceId": "listing:ofloxacin",
+        "name": "Ofloxacin"
+      },
+      {
+        "sourceId": "listing:ofloxacin-ophthalmic",
+        "name": "Ofloxacin (Ophthalmic)"
+      }
+    ]
+  },
+  {
+    "brandId": "9582",
+    "brandName": "Levogen TS",
+    "strength": "1.50%",
+    "dosageForm": "Ophthalmic Solution",
+    "generic": "Levofloxacin (Ophthalmic)",
+    "manufacturer": "General Pharmaceuticals Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Levofloxacin (Eye/Ear) [listing:levofloxacin-eye-ear]; Ofloxacin [listing:ofloxacin]; Ofloxacin (Ophthalmic) [listing:ofloxacin-ophthalmic]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:levofloxacin-eye-ear",
+        "name": "Levofloxacin (Eye/Ear)"
+      },
+      {
+        "sourceId": "listing:ofloxacin",
+        "name": "Ofloxacin"
+      },
+      {
+        "sourceId": "listing:ofloxacin-ophthalmic",
+        "name": "Ofloxacin (Ophthalmic)"
+      }
+    ]
+  },
+  {
+    "brandId": "9565",
+    "brandName": "Levogen",
+    "strength": "0.50%",
+    "dosageForm": "Ophthalmic Solution",
+    "generic": "Levofloxacin (Ophthalmic)",
+    "manufacturer": "General Pharmaceuticals Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Levofloxacin (Eye/Ear) [listing:levofloxacin-eye-ear]; Ofloxacin [listing:ofloxacin]; Ofloxacin (Ophthalmic) [listing:ofloxacin-ophthalmic]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:levofloxacin-eye-ear",
+        "name": "Levofloxacin (Eye/Ear)"
+      },
+      {
+        "sourceId": "listing:ofloxacin",
+        "name": "Ofloxacin"
+      },
+      {
+        "sourceId": "listing:ofloxacin-ophthalmic",
+        "name": "Ofloxacin (Ophthalmic)"
+      }
+    ]
+  },
+  {
+    "brandId": "9567",
+    "brandName": "Levoquin",
+    "strength": "0.50%",
+    "dosageForm": "Ophthalmic Solution",
+    "generic": "Levofloxacin (Ophthalmic)",
+    "manufacturer": "Navana Pharmaceuticals Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Levofloxacin (Eye/Ear) [listing:levofloxacin-eye-ear]; Ofloxacin [listing:ofloxacin]; Ofloxacin (Ophthalmic) [listing:ofloxacin-ophthalmic]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:levofloxacin-eye-ear",
+        "name": "Levofloxacin (Eye/Ear)"
+      },
+      {
+        "sourceId": "listing:ofloxacin",
+        "name": "Ofloxacin"
+      },
+      {
+        "sourceId": "listing:ofloxacin-ophthalmic",
+        "name": "Ofloxacin (Ophthalmic)"
+      }
+    ]
+  },
+  {
+    "brandId": "9586",
+    "brandName": "Lomeflox",
+    "strength": "400 mg",
+    "dosageForm": "Tablet",
+    "generic": "Lomefloxacin (Oral)",
+    "manufacturer": "Aristopharma Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Lomefloxacin [listing:lomefloxacin]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:lomefloxacin",
+        "name": "Lomefloxacin"
+      }
+    ]
+  },
+  {
+    "brandId": "21054",
+    "brandName": "Lopidam",
+    "strength": "370 mg/ml",
+    "dosageForm": "Injection",
+    "generic": "Iopamidol",
+    "manufacturer": "Beximco Pharmaceuticals Ltd.",
+    "exclusionCategory": "INTRA_CSV_SAME_MFR_DUPLICATE",
+    "reason": "Multiple MedEx CSV records share identical brand + strength + dosageForm + manufacturer (differ only by container/device)",
+    "relatedDbOrIncomingInfo": [
+      {
+        "brandId": "21054",
+        "packageContainer": "50 ml vial: ৳ 1,322.55"
+      },
+      {
+        "brandId": "21053",
+        "packageContainer": "100 ml vial: ৳ 2,643.92"
+      }
+    ]
+  },
+  {
+    "brandId": "21053",
+    "brandName": "Lopidam",
+    "strength": "370 mg/ml",
+    "dosageForm": "Injection",
+    "generic": "Iopamidol",
+    "manufacturer": "Beximco Pharmaceuticals Ltd.",
+    "exclusionCategory": "INTRA_CSV_SAME_MFR_DUPLICATE",
+    "reason": "Multiple MedEx CSV records share identical brand + strength + dosageForm + manufacturer (differ only by container/device)",
+    "relatedDbOrIncomingInfo": [
+      {
+        "brandId": "21054",
+        "packageContainer": "50 ml vial: ৳ 1,322.55"
+      },
+      {
+        "brandId": "21053",
+        "packageContainer": "100 ml vial: ৳ 2,643.92"
+      }
+    ]
+  },
+  {
+    "brandId": "26220",
+    "brandName": "Lutisone",
+    "strength": "2 mg/2 ml",
+    "dosageForm": "Nebuliser Suspension",
+    "generic": "Fluticasone Propionate (Nebuliser Suspension)",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Fluticasone Propionate (Inhaler) [listing:fluticasone-propionate-inhaler]; Fluticasone Propionate (Nasal Spray) [listing:fluticasone-propionate-nasal-spray]; Fluticasone Propionate (Topical) [listing:fluticasone-propionate-topical]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:fluticasone-propionate-inhaler",
+        "name": "Fluticasone Propionate (Inhaler)"
+      },
+      {
+        "sourceId": "listing:fluticasone-propionate-nasal-spray",
+        "name": "Fluticasone Propionate (Nasal Spray)"
+      },
+      {
+        "sourceId": "listing:fluticasone-propionate-topical",
+        "name": "Fluticasone Propionate (Topical)"
+      }
+    ]
+  },
+  {
+    "brandId": "20497",
+    "brandName": "Lutisone",
+    "strength": "0.5 mg/2 ml",
+    "dosageForm": "Nebuliser Suspension",
+    "generic": "Fluticasone Propionate (Nebuliser Suspension)",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Fluticasone Propionate (Inhaler) [listing:fluticasone-propionate-inhaler]; Fluticasone Propionate (Nasal Spray) [listing:fluticasone-propionate-nasal-spray]; Fluticasone Propionate (Topical) [listing:fluticasone-propionate-topical]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:fluticasone-propionate-inhaler",
+        "name": "Fluticasone Propionate (Inhaler)"
+      },
+      {
+        "sourceId": "listing:fluticasone-propionate-nasal-spray",
+        "name": "Fluticasone Propionate (Nasal Spray)"
+      },
+      {
+        "sourceId": "listing:fluticasone-propionate-topical",
+        "name": "Fluticasone Propionate (Topical)"
+      }
+    ]
+  },
+  {
+    "brandId": "16820",
+    "brandName": "Mixtard 30",
+    "strength": "30%+70% in 40 IU/ml",
+    "dosageForm": "SC Injection",
+    "generic": "Insulin Human [rDNA] + Isophane Insulin Human",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Regular Insulin Human + Isophane Insulin Human [listing:regular-insulin-human-isophane-insulin-human]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:regular-insulin-human-isophane-insulin-human",
+        "name": "Regular Insulin Human + Isophane Insulin Human"
+      }
+    ]
+  },
+  {
+    "brandId": "3882",
+    "brandName": "Momeson",
+    "strength": "220 mcg",
+    "dosageForm": "Inhalation Capsule",
+    "generic": "Mometasone Furoate (Inhalation Capsule)",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Mometasone Furoate (Nasal Spray) [listing:mometasone-furoate-nasal-spray]; Mometasone Furoate (Topical) [listing:mometasone-furoate-topical]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:mometasone-furoate-nasal-spray",
+        "name": "Mometasone Furoate (Nasal Spray)"
+      },
+      {
+        "sourceId": "listing:mometasone-furoate-topical",
+        "name": "Mometasone Furoate (Topical)"
+      }
+    ]
+  },
+  {
+    "brandId": "16021",
+    "brandName": "Mydripine",
+    "strength": "1%",
+    "dosageForm": "Ophthalmic Ointment",
+    "generic": "Atropine Sulfate",
+    "manufacturer": "Gaco Pharmaceuticals Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Atropine Sulfate (Injection) [listing:atropine-sulfate-injection]; Atropine Sulfate (Ophthalmic) [listing:atropine-sulfate-ophthalmic]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:atropine-sulfate-injection",
+        "name": "Atropine Sulfate (Injection)"
+      },
+      {
+        "sourceId": "listing:atropine-sulfate-ophthalmic",
+        "name": "Atropine Sulfate (Ophthalmic)"
+      }
+    ]
+  },
+  {
+    "brandId": "16020",
+    "brandName": "Mydripine",
+    "strength": "1%",
+    "dosageForm": "Ophthalmic Solution",
+    "generic": "Atropine Sulfate",
+    "manufacturer": "Gaco Pharmaceuticals Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Atropine Sulfate (Injection) [listing:atropine-sulfate-injection]; Atropine Sulfate (Ophthalmic) [listing:atropine-sulfate-ophthalmic]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:atropine-sulfate-injection",
+        "name": "Atropine Sulfate (Injection)"
+      },
+      {
+        "sourceId": "listing:atropine-sulfate-ophthalmic",
+        "name": "Atropine Sulfate (Ophthalmic)"
+      }
+    ]
+  },
+  {
+    "brandId": "28378",
+    "brandName": "Mysulin 50/50",
+    "strength": "100 IU/ml",
+    "dosageForm": "SC Injection",
+    "generic": "Insulin Human [Long-Acting]",
+    "manufacturer": "Drug International Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Insulin Human [rDNA] [listing:insulin-human-rdna]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:insulin-human-rdna",
+        "name": "Insulin Human [rDNA]"
+      }
+    ]
+  },
+  {
+    "brandId": "28377",
+    "brandName": "Mysulin 30/70",
+    "strength": "100 IU/ml",
+    "dosageForm": "SC Injection",
+    "generic": "Insulin Human [Long-Acting]",
+    "manufacturer": "Drug International Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Insulin Human [rDNA] [listing:insulin-human-rdna]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:insulin-human-rdna",
+        "name": "Insulin Human [rDNA]"
+      }
+    ]
+  },
+  {
+    "brandId": "10456",
+    "brandName": "Napa",
+    "strength": "120 mg/5 ml",
+    "dosageForm": "Oral Suspension",
+    "generic": "Paracetamol",
+    "manufacturer": "Beximco Pharmaceuticals Ltd.",
+    "exclusionCategory": "BORDERLINE_FORM_EQUIVALENT",
+    "reason": "Dosage form \"Oral Suspension\" likely represents a MedEx label rename of existing DB form \"Syrup\" (28439)",
+    "relatedDbOrIncomingInfo": {
+      "dbSourceId": "28439",
+      "dbDosageForm": "Syrup",
+      "dbManufacturer": "Beximco Pharmaceuticals Ltd."
+    }
+  },
+  {
+    "brandId": "30022",
+    "brandName": "Nimenrix",
+    "strength": "0.5 ml/prefilled syringe",
+    "dosageForm": "IM Injection",
+    "generic": "Meningococcal Conjugate Vaccine",
+    "manufacturer": "Pfizer",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Meningococcal Vaccine [listing:meningococcal-vaccine]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:meningococcal-vaccine",
+        "name": "Meningococcal Vaccine"
+      }
+    ]
+  },
+  {
+    "brandId": "16828",
+    "brandName": "NovoMix",
+    "strength": "30%+70%",
+    "dosageForm": "SC Injection",
+    "generic": "Biphasic Insulin Aspart [rDNA]",
+    "manufacturer": "Novo Nordisk Pharma (Pvt.) Ltd",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Biphasic Insulin Aspart [listing:biphasic-insulin-aspart]; Insulin Aspart [listing:insulin-aspart]; Insulin Aspart [Protamine Crystallised] [listing:insulin-aspart-protamine-crystallised]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:biphasic-insulin-aspart",
+        "name": "Biphasic Insulin Aspart"
+      },
+      {
+        "sourceId": "listing:insulin-aspart",
+        "name": "Insulin Aspart"
+      },
+      {
+        "sourceId": "listing:insulin-aspart-protamine-crystallised",
+        "name": "Insulin Aspart [Protamine Crystallised]"
+      }
+    ]
+  },
+  {
+    "brandId": "28507",
+    "brandName": "Orabex",
+    "strength": "",
+    "dosageForm": "IM/IV Injection",
+    "generic": "Vitamin B complex",
+    "manufacturer": "Jayson Pharmaceuticals Ltd.",
+    "exclusionCategory": "INTRA_CSV_SAME_MFR_DUPLICATE",
+    "reason": "Multiple MedEx CSV records share identical brand + strength + dosageForm + manufacturer (differ only by container/device)",
+    "relatedDbOrIncomingInfo": [
+      {
+        "brandId": "28507",
+        "packageContainer": "10 ml vial: ৳ 30.09"
+      },
+      {
+        "brandId": "13814",
+        "packageContainer": "2 ml ampoule: ৳ 11.31,(10's pack: ৳ 113.10),"
+      }
+    ]
+  },
+  {
+    "brandId": "13814",
+    "brandName": "Orabex",
+    "strength": "",
+    "dosageForm": "IM/IV Injection",
+    "generic": "Vitamin B complex",
+    "manufacturer": "Jayson Pharmaceuticals Ltd.",
+    "exclusionCategory": "INTRA_CSV_SAME_MFR_DUPLICATE",
+    "reason": "Multiple MedEx CSV records share identical brand + strength + dosageForm + manufacturer (differ only by container/device)",
+    "relatedDbOrIncomingInfo": [
+      {
+        "brandId": "28507",
+        "packageContainer": "10 ml vial: ৳ 30.09"
+      },
+      {
+        "brandId": "13814",
+        "packageContainer": "2 ml ampoule: ৳ 11.31,(10's pack: ৳ 113.10),"
+      }
+    ]
+  },
+  {
+    "brandId": "32798",
+    "brandName": "Oxyface",
+    "strength": "1%",
+    "dosageForm": "Cream",
+    "generic": "Oxymetazoline Hydrochloride (Cream)",
+    "manufacturer": "Navana Pharmaceuticals Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Oxymetazoline Hydrochloride (Nasal Preparation) [listing:oxymetazoline-hydrochloride-nasal-preparation]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:oxymetazoline-hydrochloride-nasal-preparation",
+        "name": "Oxymetazoline Hydrochloride (Nasal Preparation)"
+      }
+    ]
+  },
+  {
+    "brandId": "32404",
+    "brandName": "Prodigest",
+    "strength": "10 billion",
+    "dosageForm": "Capsule",
+    "generic": "Probiotic Combination [10 Billion]",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Probiotic Combination [4 Billion] [listing:probiotic-combination-4-billion]; Probiotic Combination HN019 [10 Billion] [listing:probiotic-combination-hn019-10-billion]; Probiotic Combination [20 Billion] [listing:probiotic-combination-20-billion]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:probiotic-combination-4-billion",
+        "name": "Probiotic Combination [4 Billion]"
+      },
+      {
+        "sourceId": "listing:probiotic-combination-hn019-10-billion",
+        "name": "Probiotic Combination HN019 [10 Billion]"
+      },
+      {
+        "sourceId": "listing:probiotic-combination-20-billion",
+        "name": "Probiotic Combination [20 Billion]"
+      }
+    ]
+  },
+  {
+    "brandId": "26108",
+    "brandName": "PulmoCare",
+    "strength": "100 mcg/puff",
+    "dosageForm": "Inhaler",
+    "generic": "Salbutamol (Inhaler)",
+    "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+    "exclusionCategory": "BORDERLINE_FORM_EQUIVALENT",
+    "reason": "Dosage form \"Inhaler\" likely represents a MedEx label rename of existing DB form \"Metered-Dose Inhaler (MDI)\" (29221)",
+    "relatedDbOrIncomingInfo": {
+      "dbSourceId": "29221",
+      "dbDosageForm": "Metered-Dose Inhaler (MDI)",
+      "dbManufacturer": "Healthcare Pharmaceuticals Ltd."
+    }
+  },
+  {
+    "brandId": "15070",
+    "brandName": "Rescuvolin",
+    "strength": "10 mg/ml",
+    "dosageForm": "IM/IV Injection",
+    "generic": "Calcium Folinate [Folinic Acid]",
+    "manufacturer": "Pharmachemie BV",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Folinic Acid [listing:folinic-acid]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:folinic-acid",
+        "name": "Folinic Acid"
+      }
+    ]
+  },
+  {
+    "brandId": "15069",
+    "brandName": "Rescuvolin",
+    "strength": "15 mg",
+    "dosageForm": "Tablet",
+    "generic": "Calcium Folinate [Folinic Acid]",
+    "manufacturer": "Pharmachemie BV",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Folinic Acid [listing:folinic-acid]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:folinic-acid",
+        "name": "Folinic Acid"
+      }
+    ]
+  },
+  {
+    "brandId": "28306",
+    "brandName": "Risperdal Consta",
+    "strength": "50 mg/vial",
+    "dosageForm": "Long Acting Injection",
+    "generic": "Risperidone (Injection)",
+    "manufacturer": "Janssen-Cilag",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Risperidone [listing:risperidone]; Risperidone (Oral) [listing:risperidone-oral]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:risperidone",
+        "name": "Risperidone"
+      },
+      {
+        "sourceId": "listing:risperidone-oral",
+        "name": "Risperidone (Oral)"
+      }
+    ]
+  },
+  {
+    "brandId": "28305",
+    "brandName": "Risperdal Consta",
+    "strength": "37.5 mg/vial",
+    "dosageForm": "Long Acting Injection",
+    "generic": "Risperidone (Injection)",
+    "manufacturer": "Janssen-Cilag",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Risperidone [listing:risperidone]; Risperidone (Oral) [listing:risperidone-oral]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:risperidone",
+        "name": "Risperidone"
+      },
+      {
+        "sourceId": "listing:risperidone-oral",
+        "name": "Risperidone (Oral)"
+      }
+    ]
+  },
+  {
+    "brandId": "28304",
+    "brandName": "Risperdal Consta",
+    "strength": "25 mg/vial",
+    "dosageForm": "Long Acting Injection",
+    "generic": "Risperidone (Injection)",
+    "manufacturer": "Janssen-Cilag",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Risperidone [listing:risperidone]; Risperidone (Oral) [listing:risperidone-oral]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:risperidone",
+        "name": "Risperidone"
+      },
+      {
+        "sourceId": "listing:risperidone-oral",
+        "name": "Risperidone (Oral)"
+      }
+    ]
+  },
+  {
+    "brandId": "24311",
+    "brandName": "Rofumil",
+    "strength": "500 mcg",
+    "dosageForm": "Tablet",
+    "generic": "Roflumilast",
+    "manufacturer": "Drug International Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Roflumilast (Cream) [listing:roflumilast-cream]; Roflumilast (Tablet) [listing:roflumilast-tablet]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:roflumilast-cream",
+        "name": "Roflumilast (Cream)"
+      },
+      {
+        "sourceId": "listing:roflumilast-tablet",
+        "name": "Roflumilast (Tablet)"
+      }
+    ]
+  },
+  {
+    "brandId": "29974",
+    "brandName": "Roflu",
+    "strength": "500 mcg",
+    "dosageForm": "Tablet",
+    "generic": "Roflumilast",
+    "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Roflumilast (Cream) [listing:roflumilast-cream]; Roflumilast (Tablet) [listing:roflumilast-tablet]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:roflumilast-cream",
+        "name": "Roflumilast (Cream)"
+      },
+      {
+        "sourceId": "listing:roflumilast-tablet",
+        "name": "Roflumilast (Tablet)"
+      }
+    ]
+  },
+  {
+    "brandId": "3967",
+    "brandName": "Roflast",
+    "strength": "500 mcg",
+    "dosageForm": "Tablet",
+    "generic": "Roflumilast",
+    "manufacturer": "Beacon Pharmaceuticals Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Roflumilast (Cream) [listing:roflumilast-cream]; Roflumilast (Tablet) [listing:roflumilast-tablet]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:roflumilast-cream",
+        "name": "Roflumilast (Cream)"
+      },
+      {
+        "sourceId": "listing:roflumilast-tablet",
+        "name": "Roflumilast (Tablet)"
+      }
+    ]
+  },
+  {
+    "brandId": "28692",
+    "brandName": "Romilast",
+    "strength": "500 mcg",
+    "dosageForm": "Tablet",
+    "generic": "Roflumilast",
+    "manufacturer": "Labaid Pharma Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Roflumilast (Cream) [listing:roflumilast-cream]; Roflumilast (Tablet) [listing:roflumilast-tablet]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:roflumilast-cream",
+        "name": "Roflumilast (Cream)"
+      },
+      {
+        "sourceId": "listing:roflumilast-tablet",
+        "name": "Roflumilast (Tablet)"
+      }
+    ]
+  },
+  {
+    "brandId": "20079",
+    "brandName": "Rosen Gold",
+    "strength": "0.02 mg+3 mg",
+    "dosageForm": "Tablet",
+    "generic": "Ethinyl Estradiol + Drospirenone (24 tablet)",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Drospirenone + Estradiol [listing:drospirenone-estradiol]; Drospirenone + Ethinyl Estradiol (0.02 mg) [listing:drospirenone-ethinyl-estradiol-0-02-mg]; Drospirenone + Ethinyl Estradiol (0.03 mg) [listing:drospirenone-ethinyl-estradiol-0-03-mg]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:drospirenone-estradiol",
+        "name": "Drospirenone + Estradiol"
+      },
+      {
+        "sourceId": "listing:drospirenone-ethinyl-estradiol-0-02-mg",
+        "name": "Drospirenone + Ethinyl Estradiol (0.02 mg)"
+      },
+      {
+        "sourceId": "listing:drospirenone-ethinyl-estradiol-0-03-mg",
+        "name": "Drospirenone + Ethinyl Estradiol (0.03 mg)"
+      }
+    ]
+  },
+  {
+    "brandId": "6108",
+    "brandName": "Rosen",
+    "strength": "0.03 mg+3 mg",
+    "dosageForm": "Tablet",
+    "generic": "Ethinyl Estradiol + Drospirenone (21 tablet)",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Drospirenone + Estradiol [listing:drospirenone-estradiol]; Drospirenone + Ethinyl Estradiol (0.02 mg) [listing:drospirenone-ethinyl-estradiol-0-02-mg]; Drospirenone + Ethinyl Estradiol (0.03 mg) [listing:drospirenone-ethinyl-estradiol-0-03-mg]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:drospirenone-estradiol",
+        "name": "Drospirenone + Estradiol"
+      },
+      {
+        "sourceId": "listing:drospirenone-ethinyl-estradiol-0-02-mg",
+        "name": "Drospirenone + Ethinyl Estradiol (0.02 mg)"
+      },
+      {
+        "sourceId": "listing:drospirenone-ethinyl-estradiol-0-03-mg",
+        "name": "Drospirenone + Ethinyl Estradiol (0.03 mg)"
+      }
+    ]
+  },
+  {
+    "brandId": "26240",
+    "brandName": "Rosalin",
+    "strength": "1%",
+    "dosageForm": "Cream",
+    "generic": "Oxymetazoline Hydrochloride (Cream)",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Oxymetazoline Hydrochloride (Nasal Preparation) [listing:oxymetazoline-hydrochloride-nasal-preparation]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:oxymetazoline-hydrochloride-nasal-preparation",
+        "name": "Oxymetazoline Hydrochloride (Nasal Preparation)"
+      }
+    ]
+  },
+  {
+    "brandId": "3968",
+    "brandName": "Roxair",
+    "strength": "500 mcg",
+    "dosageForm": "Tablet",
+    "generic": "Roflumilast",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Roflumilast (Cream) [listing:roflumilast-cream]; Roflumilast (Tablet) [listing:roflumilast-tablet]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:roflumilast-cream",
+        "name": "Roflumilast (Cream)"
+      },
+      {
+        "sourceId": "listing:roflumilast-tablet",
+        "name": "Roflumilast (Tablet)"
+      }
+    ]
+  },
+  {
+    "brandId": "27527",
+    "brandName": "Rozy",
+    "strength": "0.5 mg+0.25 mg",
+    "dosageForm": "Tablet",
+    "generic": "Ethinyl Estradiol + Drospirenone (HRT)",
+    "manufacturer": "Square Pharmaceuticals Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Drospirenone + Estradiol [listing:drospirenone-estradiol]; Drospirenone + Ethinyl Estradiol (0.02 mg) [listing:drospirenone-ethinyl-estradiol-0-02-mg]; Drospirenone + Ethinyl Estradiol (0.03 mg) [listing:drospirenone-ethinyl-estradiol-0-03-mg]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:drospirenone-estradiol",
+        "name": "Drospirenone + Estradiol"
+      },
+      {
+        "sourceId": "listing:drospirenone-ethinyl-estradiol-0-02-mg",
+        "name": "Drospirenone + Ethinyl Estradiol (0.02 mg)"
+      },
+      {
+        "sourceId": "listing:drospirenone-ethinyl-estradiol-0-03-mg",
+        "name": "Drospirenone + Ethinyl Estradiol (0.03 mg)"
+      }
+    ]
+  },
+  {
+    "brandId": "32282",
+    "brandName": "Rulicent",
+    "strength": "10 mg",
+    "dosageForm": "Tablet",
+    "generic": "Ruxolitinib",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Ruxolitinib (Oral) [listing:ruxolitinib-oral]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:ruxolitinib-oral",
+        "name": "Ruxolitinib (Oral)"
+      }
+    ]
+  },
+  {
+    "brandId": "32281",
+    "brandName": "Rulicent",
+    "strength": "5 mg",
+    "dosageForm": "Tablet",
+    "generic": "Ruxolitinib",
+    "manufacturer": "Incepta Pharmaceuticals Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Ruxolitinib (Oral) [listing:ruxolitinib-oral]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:ruxolitinib-oral",
+        "name": "Ruxolitinib (Oral)"
+      }
+    ]
+  },
+  {
+    "brandId": "27526",
+    "brandName": "Rozy DS",
+    "strength": "1 mg+0.5 mg",
+    "dosageForm": "Tablet",
+    "generic": "Ethinyl Estradiol + Drospirenone (HRT)",
+    "manufacturer": "Square Pharmaceuticals Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Drospirenone + Estradiol [listing:drospirenone-estradiol]; Drospirenone + Ethinyl Estradiol (0.02 mg) [listing:drospirenone-ethinyl-estradiol-0-02-mg]; Drospirenone + Ethinyl Estradiol (0.03 mg) [listing:drospirenone-ethinyl-estradiol-0-03-mg]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:drospirenone-estradiol",
+        "name": "Drospirenone + Estradiol"
+      },
+      {
+        "sourceId": "listing:drospirenone-ethinyl-estradiol-0-02-mg",
+        "name": "Drospirenone + Ethinyl Estradiol (0.02 mg)"
+      },
+      {
+        "sourceId": "listing:drospirenone-ethinyl-estradiol-0-03-mg",
+        "name": "Drospirenone + Ethinyl Estradiol (0.03 mg)"
+      }
+    ]
+  },
+  {
+    "brandId": "33110",
+    "brandName": "Rutinib",
+    "strength": "5 mg",
+    "dosageForm": "Tablet",
+    "generic": "Ruxolitinib",
+    "manufacturer": "Drug International Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Ruxolitinib (Oral) [listing:ruxolitinib-oral]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:ruxolitinib-oral",
+        "name": "Ruxolitinib (Oral)"
+      }
+    ]
+  },
+  {
+    "brandId": "33109",
+    "brandName": "Rutinib",
+    "strength": "10 mg",
+    "dosageForm": "Tablet",
+    "generic": "Ruxolitinib",
+    "manufacturer": "Drug International Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Ruxolitinib (Oral) [listing:ruxolitinib-oral]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:ruxolitinib-oral",
+        "name": "Ruxolitinib (Oral)"
+      }
+    ]
+  },
+  {
+    "brandId": "9655",
+    "brandName": "Rutix",
+    "strength": "400 mg",
+    "dosageForm": "Tablet",
+    "generic": "Ofloxacin (Oral & Injection)",
+    "manufacturer": "Square Pharmaceuticals Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Ciprofloxacin [listing:ciprofloxacin]; Ciprofloxacin (Ophthalmic) [listing:ciprofloxacin-ophthalmic]; Levofloxacin (Eye/Ear) [listing:levofloxacin-eye-ear]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:ciprofloxacin",
+        "name": "Ciprofloxacin"
+      },
+      {
+        "sourceId": "listing:ciprofloxacin-ophthalmic",
+        "name": "Ciprofloxacin (Ophthalmic)"
+      },
+      {
+        "sourceId": "listing:levofloxacin-eye-ear",
+        "name": "Levofloxacin (Eye/Ear)"
+      },
+      {
+        "sourceId": "listing:ofloxacin",
+        "name": "Ofloxacin"
+      },
+      {
+        "sourceId": "listing:ofloxacin-ophthalmic",
+        "name": "Ofloxacin (Ophthalmic)"
+      }
+    ]
+  },
+  {
+    "brandId": "9654",
+    "brandName": "Rutix",
+    "strength": "200 mg",
+    "dosageForm": "Tablet",
+    "generic": "Ofloxacin (Oral & Injection)",
+    "manufacturer": "Square Pharmaceuticals Ltd.",
+    "exclusionCategory": "UNCERTAIN_GENERIC_RELATIONSHIP",
+    "reason": "Potential equivalent, route-qualified, salt, or word-order variant of existing DB generic(s): Ciprofloxacin [listing:ciprofloxacin]; Ciprofloxacin (Ophthalmic) [listing:ciprofloxacin-ophthalmic]; Levofloxacin (Eye/Ear) [listing:levofloxacin-eye-ear]",
+    "relatedDbOrIncomingInfo": [
+      {
+        "sourceId": "listing:ciprofloxacin",
+        "name": "Ciprofloxacin"
+      },
+      {
+        "sourceId": "listing:ciprofloxacin-ophthalmic",
+        "name": "Ciprofloxacin (Ophthalmic)"
+      },
+      {
+        "sourceId": "listing:levofloxacin-eye-ear",
+        "name": "Levofloxacin (Eye/Ear)"
+      },
+      {
+        "sourceId": "listing:ofloxacin",
+        "name": "Ofloxacin"
+      },
+      {
+        "sourceId": "listing:ofloxacin-ophthalmic",
+        "name": "Ofloxacin (Ophthalmic)"
+      }
+    ]
+  },
+  {
+    "brandId": "26705",
+    "brandName": "Ryzodeg",
+    "strength": "100 IU/ml",
+    "dosageForm": "SC Injection",
+    "generic": "Insulin Degludec + Insulin Aspart Premixed",
+    "manufacturer": "Novo Nordisk Pharma (Pvt.) Ltd",
+    "exclusionCategory": "INTRA_CSV_SAME_MFR_DUPLICATE",
+    "reason": "Multiple MedEx CSV records share identical brand + strength + dosageForm + manufacturer (differ only by container/device)",
+    "relatedDbOrIncomingInfo": [
+      {
+        "brandId": "26705",
+        "packageContainer": "3 ml PenFill: ৳ 1,704.00,(5's pack: ৳ 8,520.00),"
+      },
+      {
+        "brandId": "26704",
+        "packageContainer": "3 ml FlexTouch: ৳ 1,895.00,(5's pack: ৳ 9,475.00),"
+      }
+    ]
+  },
+  {
+    "brandId": "26704",
+    "brandName": "Ryzodeg",
+    "strength": "100 IU/ml",
+    "dosageForm": "SC Injection",
+    "generic": "Insulin Degludec + Insulin Aspart Premixed",
+    "manufacturer": "Novo Nordisk Pharma (Pvt.) Ltd",
+    "exclusionCategory": "INTRA_CSV_SAME_MFR_DUPLICATE",
+    "reason": "Multiple MedEx CSV records share identical brand + strength + dosageForm + manufacturer (differ only by container/device)",
+    "relatedDbOrIncomingInfo": [
+      {
+        "brandId": "26705",
+        "packageContainer": "3 ml PenFill: ৳ 1,704.00,(5's pack: ৳ 8,520.00),"
+      },
+      {
+        "brandId": "26704",
+        "packageContainer": "3 ml FlexTouch: ৳ 1,895.00,(5's pack: ৳ 9,475.00),"
+      }
+    ]
+  }
+]

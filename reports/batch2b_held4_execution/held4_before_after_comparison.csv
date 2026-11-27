@@ -1,0 +1,5 @@
+subBatch,operation,packId,brandId,brandName,strength,beforeValue,afterValue
+A2_ROCHE_BIOLOGIC,UPDATE_PRICE,b98aec67-7bc5-43cf-a79d-ab5b8d58e97c,fc2444ca-9446-4c56-ba35-79806fe54cab,Actemra,400 mg/20 ml,pack=43,pack=43500.00
+A2_ROCHE_BIOLOGIC,UPDATE_PRICE,c5cc6d1b-8059-49cf-9ce5-9094bf7125d2,b444f9da-931b-44b7-8f07-734188aab9ec,Mabthera,1400 mg/11.7 ml,pack=65,pack=65500.00
+C2_CARVA_OPTION_B,UPDATE_PACK_AND_PRICE,06e61d13-23c9-4c91-9a5b-1f23fc5d213d,246b94f3-145e-4275-8c26-73f0eff8eefb,Carva,75 mg,"pq=200's pack;pu=200;su=15;u=0.63;pp=126","pq=13 x 15;pu=195;su=15;u=0.80;pp=156.00"
+D2_SULTOLIN_3514,INSERT_PACK,68f21b63-377b-408f-97a8-dbf6ce43e8ea,d3186950-0749-4bd1-bec5-9bf554e59c65,Sultolin,100 mcg/puff,NO_PACK,"pq=200 metered doses (Refill);pp=220.00"

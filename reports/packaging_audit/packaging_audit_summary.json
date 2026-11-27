@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-11-24T15:47:49.102Z",
+  "catalogueCounts": {
+    "totalBrandsAudited": 25208,
+    "totalPacksAudited": 27468,
+    "brandsWithPacks": 25171,
+    "brandsWithoutPacks": 37,
+    "distinctCurrencies": [
+      "BDT"
+    ]
+  },
+  "problemCategories": {
+    "A_validConversionPrimaryBrands": 24313,
+    "A_validConversionTotalPacks": 26436,
+    "B_and_D_missingPackageQuantitiesCount": 1750,
+    "C_missingStockMeasurementUnitsCount": 71,
+    "E_inconsistentMultiPackNestingBrandsCount": 57,
+    "F_inconsistentAcrossEquivalentBrandsGroupsCount": 362,
+    "G_invalidOrConflictingPackRecordsCount": 1464,
+    "H_frontendConversionMismatchPacksCount": 555,
+    "H_frontendConversionMismatchBrandsCount": 539,
+    "I_completelyMissingBrandOrPackCount": 37,
+    "J_unverifiedPacksCount": 27468,
+    "J_needsReviewPacksCount": 0,
+    "J_packsWithPriceOrParseWarningsCount": 1101
+  },
+  "missingConversionRulesCount": 212,
+  "manualVerificationRequiredCount": 1101,
+  "section4ConversionVerificationSamples": [
+    {
+      "brand": "Reelife 12.5 mg+5 mg Tablet",
+      "packQuantity": "40's pack",
+      "packId": "9c21f478-0155-4f8e-91c6-8eca15aae495",
+      "dbPackUnits": 40,
+      "dbStripUnits": 14,
+      "dbPackPrice": "320",
+      "frontendHasReliableDefaultPackaging": false,
+      "frontendDefaultMode": "direct",
+      "frontendPackTotalUnits": 40,
+      "frontendHadRejectedStrip": true,
+      "multiplyBy2Stock": 80,
+      "expectedMultiplyBy2Stock": 80
+    },
+    {
+      "brand": "Reelife 12.5 mg+5 mg Tablet",
+      "packQuantity": "56's pack",
+      "packId": "5879011c-3a81-4c4b-a811-2e8c1663bc16",
+      "dbPackUnits": 56,
+      "dbStripUnits": 14,
+      "dbPackPrice": "448",
+      "frontendHasReliableDefaultPackaging": true,
+      "frontendDefaultMode": "strips",
+      "frontendPackTotalUnits": 56,
+      "frontendHadRejectedStrip": false,
+      "multiplyBy2Stock": 112,
+      "expectedMultiplyBy2Stock": 112
+    },
+    {
+      "brand": "Tiny-Z 10 mg/5 ml Syrup",
+      "packQuantity": "100 ml bottle",
+      "packId": "6a1562ea-f1d6-4a11-b877-400cafb7d3be",
+      "frontendHasReliableDefaultPackaging": true,
+      "frontendDefaultMode": "bottles",
+      "frontendBottleVolumeMl": 100,
+      "multiplyBy2Stock": "200 ml"
+    }
+  ],
+  "reelifeRootCauseTrace": "Reelife 12.5 mg + 5 mg Tablet has primary pack \"40's pack\" (packUnits=40, stripUnits=14, packPrice=320). Because 40 % 14 !== 0, stock-calculator.ts sets stripUnits=null and hadRejectedStrip=true, which then blocks hasValidPackCount (line 482) and triggers \"Package information is unavailable\" despite valid packUnits=40."
+}

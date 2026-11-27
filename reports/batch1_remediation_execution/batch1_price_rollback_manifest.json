@@ -1,0 +1,299 @@
+{
+  "generatedAt": "2026-11-25T07:54:55.477Z",
+  "batch": "Batch 1A-1C (15 Price Corrections)",
+  "manifestSource": "F:\\My Projects\\CareDose\\backend\\reports\\consolidated_remediation\\proposed_next_batch.json",
+  "count": 15,
+  "instructions": "Restores ONLY modified MedicinePack price fields (unitPrice and/or packPrice as recorded) back to exact pre-execution raw Decimal/null strings.",
+  "records": [
+    {
+      "packId": "077fec2d-e5ca-4346-b06d-114c39da0701",
+      "brandId": "2bc8e0d8-f9d8-494d-9428-f90ea4632125",
+      "sourceId": "17299",
+      "brandName": "Zoclast",
+      "batchGroup": "BATCH_1A_COMMA_TRUNCATED_WEB_VERIFIED",
+      "packQuantity": "4 mg vial",
+      "packUnits": null,
+      "stripUnits": null,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "packPrice"
+      ],
+      "restoreUnitPrice": null,
+      "restorePackPrice": "6",
+      "appliedUnitPrice": null,
+      "appliedPackPrice": "6500.00"
+    },
+    {
+      "packId": "8f74fef4-77f0-4789-8b20-4fe170790784",
+      "brandId": "c4c186e9-fac6-4f93-bcd8-9c36833cf74f",
+      "sourceId": "14948",
+      "brandName": "Zolenic",
+      "batchGroup": "BATCH_1A_COMMA_TRUNCATED_WEB_VERIFIED",
+      "packQuantity": "100 ml bottle",
+      "packUnits": null,
+      "stripUnits": null,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "packPrice"
+      ],
+      "restoreUnitPrice": null,
+      "restorePackPrice": "6",
+      "appliedUnitPrice": null,
+      "appliedPackPrice": "6000.00"
+    },
+    {
+      "packId": "501f73eb-19fe-4ca7-8c29-7a66037b4068",
+      "brandId": "a5b74f72-9f02-4a15-9cdf-2413f1177e1c",
+      "sourceId": "28948",
+      "brandName": "Trulicity",
+      "batchGroup": "BATCH_1A_COMMA_TRUNCATED_WEB_VERIFIED",
+      "packQuantity": "0.75 mg pre-filled syringe",
+      "packUnits": null,
+      "stripUnits": null,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "packPrice"
+      ],
+      "restoreUnitPrice": null,
+      "restorePackPrice": "3",
+      "appliedUnitPrice": null,
+      "appliedPackPrice": "4000.00"
+    },
+    {
+      "packId": "7c07ae26-1fb5-40dc-965e-69954f080bdb",
+      "brandId": "a5b74f72-9f02-4a15-9cdf-2413f1177e1c",
+      "sourceId": "28948",
+      "brandName": "Trulicity",
+      "batchGroup": "BATCH_1A_COMMA_TRUNCATED_WEB_VERIFIED",
+      "packQuantity": "4's pack",
+      "packUnits": 4,
+      "stripUnits": null,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "packPrice"
+      ],
+      "restoreUnitPrice": null,
+      "restorePackPrice": "13",
+      "appliedUnitPrice": null,
+      "appliedPackPrice": "16000.00"
+    },
+    {
+      "packId": "e33765e9-d6ae-46d3-a2a7-8fe01f4d2d5c",
+      "brandId": "fbfe371b-89c5-4aaa-992a-9bfa3b03327e",
+      "sourceId": "19652",
+      "brandName": "Sporium",
+      "batchGroup": "BATCH_1A_COMMA_TRUNCATED_WEB_VERIFIED",
+      "packQuantity": "50 ml bottle",
+      "packUnits": null,
+      "stripUnits": null,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "packPrice"
+      ],
+      "restoreUnitPrice": null,
+      "restorePackPrice": "2",
+      "appliedUnitPrice": null,
+      "appliedPackPrice": "2385.00"
+    },
+    {
+      "packId": "904352fc-917a-4e79-83f3-c242d901e444",
+      "brandId": "fcd144c9-adb5-4ce4-9fc8-a99dc3bedd3a",
+      "sourceId": "16906",
+      "brandName": "Tericin",
+      "batchGroup": "BATCH_1A_COMMA_TRUNCATED_WEB_VERIFIED",
+      "packQuantity": "50 mg vial",
+      "packUnits": null,
+      "stripUnits": null,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "packPrice"
+      ],
+      "restoreUnitPrice": null,
+      "restorePackPrice": "15",
+      "appliedUnitPrice": null,
+      "appliedPackPrice": "15045.00"
+    },
+    {
+      "packId": "4c764371-c736-41c1-a26d-0ed38e645eff",
+      "brandId": "bb711244-a638-4247-99d4-d3c5fe968273",
+      "sourceId": "31169",
+      "brandName": "Tazumab",
+      "batchGroup": "BATCH_1A_COMMA_TRUNCATED_WEB_VERIFIED",
+      "packQuantity": "440 mg vial",
+      "packUnits": null,
+      "stripUnits": null,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "packPrice"
+      ],
+      "restoreUnitPrice": null,
+      "restorePackPrice": "80",
+      "appliedUnitPrice": null,
+      "appliedPackPrice": "80000.00"
+    },
+    {
+      "packId": "876caae1-bb35-4347-a061-3776a20c96e4",
+      "brandId": "f67601ec-cbc7-45da-9382-402c69a639cc",
+      "sourceId": "15114",
+      "brandName": "Tarceva",
+      "batchGroup": "BATCH_1A_COMMA_TRUNCATED_WEB_VERIFIED",
+      "packQuantity": null,
+      "packUnits": null,
+      "stripUnits": null,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "unitPrice"
+      ],
+      "restoreUnitPrice": "3",
+      "restorePackPrice": null,
+      "appliedUnitPrice": "3599.76",
+      "appliedPackPrice": null
+    },
+    {
+      "packId": "52f60f70-bc36-4fce-81ae-5d5b0d1f4abc",
+      "brandId": "6a0d4f24-91b5-4a38-8b13-f7ed26062c89",
+      "sourceId": "29331",
+      "brandName": "Trepmac",
+      "batchGroup": "BATCH_1A_COMMA_TRUNCATED_WEB_VERIFIED",
+      "packQuantity": null,
+      "packUnits": null,
+      "stripUnits": null,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "unitPrice"
+      ],
+      "restoreUnitPrice": "3",
+      "restorePackPrice": null,
+      "appliedUnitPrice": "1400.00",
+      "appliedPackPrice": null
+    },
+    {
+      "packId": "f4e1b807-648e-4678-b08c-c510d076463f",
+      "brandId": "05f2361d-b34f-4ff8-88b4-0defe51b6312",
+      "sourceId": "31087",
+      "brandName": "Upanib",
+      "batchGroup": "BATCH_1B_WEB_VERIFIED_DELTA_2",
+      "packQuantity": null,
+      "packUnits": null,
+      "stripUnits": null,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "unitPrice"
+      ],
+      "restoreUnitPrice": "280",
+      "restorePackPrice": null,
+      "appliedUnitPrice": "120.00",
+      "appliedPackPrice": null
+    },
+    {
+      "packId": "a5ba1abc-e01c-4545-9760-efd044bc76c0",
+      "brandId": "29775499-821b-49a5-9668-b4e3878390fe",
+      "sourceId": "36792",
+      "brandName": "Renesis",
+      "batchGroup": "BATCH_1B_WEB_VERIFIED_DELTA_2",
+      "packQuantity": "3's pack",
+      "packUnits": 3,
+      "stripUnits": 3,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "restoreUnitPrice": "350",
+      "restorePackPrice": "1050",
+      "appliedUnitPrice": "800.00",
+      "appliedPackPrice": "2400.00"
+    },
+    {
+      "packId": "c59cba3a-9d68-4469-add3-2e658f154328",
+      "brandId": "7a7855ba-bc82-43c5-9ed5-2d10551e76ff",
+      "sourceId": "13457",
+      "brandName": "Folate",
+      "batchGroup": "BATCH_1C_EXCLUDED_61_ROUNDING_VERIFIED_4",
+      "packQuantity": "100's pack",
+      "packUnits": 100,
+      "stripUnits": 10,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "restoreUnitPrice": "0.3",
+      "restorePackPrice": "30",
+      "appliedUnitPrice": "0.34",
+      "appliedPackPrice": "34.00"
+    },
+    {
+      "packId": "a0c41d23-638d-4962-8b00-64d315251520",
+      "brandId": "a1fe43d1-119e-47a0-858a-a045a22527a8",
+      "sourceId": "30165",
+      "brandName": "GastroLax",
+      "batchGroup": "BATCH_1C_EXCLUDED_61_ROUNDING_VERIFIED_4",
+      "packQuantity": "20's pack",
+      "packUnits": 20,
+      "stripUnits": null,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "restoreUnitPrice": "20",
+      "restorePackPrice": "400",
+      "appliedUnitPrice": "25.00",
+      "appliedPackPrice": "500.00"
+    },
+    {
+      "packId": "566b57b1-6334-4031-a792-a376b437fbe5",
+      "brandId": "c2337ef1-c756-46c1-895a-aec4c51001e0",
+      "sourceId": "14802",
+      "brandName": "Neosaline",
+      "batchGroup": "BATCH_1C_EXCLUDED_61_ROUNDING_VERIFIED_4",
+      "packQuantity": "20's pack",
+      "packUnits": 20,
+      "stripUnits": null,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "restoreUnitPrice": "5",
+      "restorePackPrice": "100",
+      "appliedUnitPrice": "6.00",
+      "appliedPackPrice": "120.00"
+    },
+    {
+      "packId": "8cb3e37d-4d69-4684-91eb-1762f551b8df",
+      "brandId": "c2337ef1-c756-46c1-895a-aec4c51001e0",
+      "sourceId": "14802",
+      "brandName": "Neosaline",
+      "batchGroup": "BATCH_1C_EXCLUDED_61_ROUNDING_VERIFIED_4",
+      "packQuantity": "50's pack",
+      "packUnits": 50,
+      "stripUnits": null,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "restoreUnitPrice": "5",
+      "restorePackPrice": "250",
+      "appliedUnitPrice": "6.00",
+      "appliedPackPrice": "300.00"
+    }
+  ]
+}

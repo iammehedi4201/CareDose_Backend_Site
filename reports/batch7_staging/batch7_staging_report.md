@@ -1,0 +1,158 @@
+# CareDose — Staged Batch 7 Wave Review (Read-Only Staging)
+
+Generated: 2026-11-25T13:21:52.825Z | Status: STAGED (0 PostgreSQL mutations)
+
+## Batch 7 Summary
+- **Sub-batch 7A — Corrupted `u=12.04 / pp=300.48` Capsule Template (34):** All verified Capsule template packs (holding only `Carmin 2.5 mg` & `5 mg` which have no official published MRP), incl. `Larocent 25/100`, `Neoral 25/50/100`, `Broncho-Vaxom 3.5/7`, `Linzela 72/290`, `Otes/Otecon/Otezol/Otegal/Otenox`, `Lotenib 100`, `Pomide 2/4`, `BioRenal`, `Ravu 100`, `AREDS`, `Omnia 2.5/5`, `Leroid 25/50`, etc.
+- **Sub-batch 7B — All Remaining `>=25%` Non-(`8/280`) Outliers (107):** Includes the 2 resolved held Batch 5 items (`Goodmet 500`, `Diabest 500`), 17 Coral Calcium+VitD3 (`u=10/pp=400`), 10 Aceclofenac 100 (`u=4/pp=300`), 9 Lenvatinib 4/10 (`Lenvakin/Levagen/Levat/Enatinib/Enva`), 5 Injections (`u=10.2/pp=65` -> `Amiodarone Hameln`, `Dixanol`, `G-Pethidine`, `Opocan`, `Gadosol`), 4 Empagliflozin 25 (`u=40/pp=500`), 5 Empagliflozin 10, 4 Pregabalin CR/ER, 3 Famotidine 40, 3 Nitazoxanide 500, `Olakin`, `Lynparib`, `Afaz 40`, `ALK 90`, `R-Pag 25`, `Olapag 25`, `Dasvir 60`, `Dabigat 150`, `Religox`, `R-Lix`, etc.
+- **Total Verified Batch 7 Updates:** **141** (`70` same pack units + `71` pack migrations), clearing **141** `pack_price_inconsistent_with_unit_price` warnings.
+- **Held From Batch 7 (2):** `Carmin 2.5 mg` & `Carmin 5 mg` (officially unpriced).
+
+## Sub-batch 7A (34)
+- **Larocent 100 mg** [U12_04_PP300_48]: `30's pack (pu=30, su=null, 12.04/300.48)` -> `2 x 6 (pu=12, su=6, 900.00/10800.00)`
+- **Larocent 25 mg** [U12_04_PP300_48]: `30's pack (pu=30, su=null, 12.04/300.48)` -> `2 x 6 (pu=12, su=6, 400.00/4800.00)`
+- **FertilOva 25 mg** [U12_04_PP300_48]: `30's pack (pu=30, su=null, 12.04/300.48)` -> `3 x 10 (pu=30, su=10, 40.00/1200.00)`
+- **Bioflora 10 billion** [U12_04_PP300_48]: `30's pack (pu=30, su=null, 12.04/300.48)` -> `3 x 10 (pu=30, su=10, 25.00/750.00)`
+- **ALA 500 mg** [U12_04_PP300_48]: `30's pack (pu=30, su=null, 12.04/300.48)` -> `2 x 15 (pu=30, su=15, 40.00/1200.00)`
+- **Gynositol 500 mg** [U12_04_PP300_48]: `30's pack (pu=30, su=null, 12.04/300.48)` -> `3 x 10 (pu=30, su=10, 75.00/2250.00)`
+- **Laxicarbon 500 mg** [U12_04_PP300_48]: `30's pack (pu=30, su=null, 12.04/300.48)` -> `3 x 10 (pu=30, su=10, 25.00/750.00)`
+- **Linzela 72 mcg** [U12_04_PP300_48]: `30's pack (pu=30, su=10, 12.04/300.48)` -> `2 x 10 (pu=20, su=10, 40.00/800.00)`
+- **Neoral 100 mg** [U12_04_PP300_48]: `30's pack (pu=30, su=5, 12.04/300.48)` -> `10 x 5 (pu=50, su=5, 380.00/19000.00)`
+- **Neoral 25 mg** [U12_04_PP300_48]: `30's pack (pu=30, su=5, 12.04/300.48)` -> `10 x 5 (pu=50, su=5, 95.00/4750.00)`
+- **Neoral 50 mg** [U12_04_PP300_48]: `30's pack (pu=30, su=5, 12.04/300.48)` -> `10 x 5 (pu=50, su=5, 190.00/9500.00)`
+- **Broncho-Vaxom 7 mg** [U12_04_PP300_48]: `30's pack (pu=30, su=null, 12.04/300.48)` -> `3 x 10 (pu=30, su=10, 185.00/5550.00)`
+- **Linzela 290 mcg** [U12_04_PP300_48]: `30's pack (pu=30, su=null, 12.04/300.48)` -> `1 x 10 (pu=10, su=10, 150.00/1500.00)`
+- **Otes 150 mg** [U12_04_PP300_48]: `30's pack (pu=30, su=null, 12.04/300.48)` -> `1 x 6 (pu=6, su=6, 200.00/1200.00)`
+- **Doset 100 mg** [U12_04_PP300_48]: `30's pack (pu=30, su=null, 12.04/300.48)` -> `3 x 10 (pu=30, su=10, 4.00/120.00)`
+- **Lotenib 100 mg** [U12_04_PP300_48]: `30's pack (pu=30, su=null, 12.04/300.48)` -> `1 x 10 (pu=10, su=10, 1200.00/12000.00)`
+- **AREDS ** [U12_04_PP300_48]: `30's pack (pu=30, su=null, 12.04/300.48)` -> `4 x 7 (pu=28, su=7, 60.00/1680.00)`
+- **Otecon 150 mg** [U12_04_PP300_48]: `30's pack (pu=30, su=10, 12.04/300.48)` -> `1 x 10 (pu=10, su=10, 190.00/1900.00)`
+- **Evatone 1 mg+100 mg** [U12_04_PP300_48]: `30's pack (pu=30, su=null, 12.04/300.48)` -> `3 x 10 (pu=30, su=10, 22.00/660.00)`
+- **Broncho-Vaxom 3.5 mg** [U12_04_PP300_48]: `30's pack (pu=30, su=null, 12.04/300.48)` -> `3 x 10 (pu=30, su=10, 128.00/3840.00)`
+- **Otezol 150 mg** [U12_04_PP300_48]: `30's pack (pu=30, su=6, 12.04/300.48)` -> `2 x 6 (pu=12, su=6, 200.00/2400.00)`
+- **BioRenal 24.5 Billion CFU+100 mg+50 mcg** [U12_04_PP300_48]: `30's pack (pu=30, su=null, 12.04/300.48)` -> `3 x 10 (pu=30, su=10, 150.00/4500.00)`
+- **Ravu 100 mg** [U12_04_PP300_48]: `30's pack (pu=30, su=null, 12.04/300.48)` -> `1 x 10 (pu=10, su=10, 300.00/3000.00)`
+- **Omnia 5 mg** [U12_04_PP300_48]: `30's pack (pu=30, su=null, 12.04/300.48)` -> `3 x 10 (pu=30, su=10, 20.00/600.00)`
+- **Omnia 2.5 mg** [U12_04_PP300_48]: `30's pack (pu=30, su=null, 12.04/300.48)` -> `3 x 10 (pu=30, su=10, 15.00/450.00)`
+- **Otegal 150 mg** [U12_04_PP300_48]: `30's pack (pu=30, su=null, 12.04/300.48)` -> `1 x 10 (pu=10, su=10, 170.00/1700.00)`
+- **Pomide 2 mg** [U12_04_PP300_48]: `30's pack (pu=30, su=null, 12.04/300.48)` -> `3 x 6 (pu=18, su=6, 450.00/8100.00)`
+- **Pomide 4 mg** [U12_04_PP300_48]: `30's pack (pu=30, su=null, 12.04/300.48)` -> `3 x 6 (pu=18, su=6, 800.00/14400.00)`
+- **Icosa 1 gm** [U12_04_PP300_48]: `30's pack (pu=30, su=null, 12.04/300.48)` -> `2 x 10 (pu=20, su=10, 50.00/1000.00)`
+- **Inferin 30 mg** [U12_04_PP300_48]: `30's pack (pu=30, su=null, 12.04/300.48)` -> `3 x 10 (pu=30, su=10, 8.00/240.00)`
+- **Leroid 50 mcg** [U12_04_PP300_48]: `30's pack (pu=30, su=15, 12.04/300.48)` -> `4 x 15 (pu=60, su=15, 3.50/210.00)`
+- **Otenox 150 mg** [U12_04_PP300_48]: `30's pack (pu=30, su=null, 12.04/300.48)` -> `1 x 7 (pu=7, su=7, 200.00/1400.00)`
+- **Maltol 30 mg** [U12_04_PP300_48]: `30's pack (pu=30, su=null, 12.04/300.48)` -> `5 x 6 (pu=30, su=6, 11.00/330.00)`
+- **Leroid 25 mcg** [U12_04_PP300_48]: `30's pack (pu=30, su=15, 12.04/300.48)` -> `4 x 15 (pu=60, su=15, 2.50/150.00)`
+
+## Sub-batch 7B (107)
+- **Goodmet 500 mg** [OTHER_GE25]: `100's pack (pu=100, su=null, 4/200.1)` -> `6 x 10 (pu=60, su=10, 3.00/180.00)`
+- **Diabest 500 mg** [OTHER_GE25]: `100's pack (pu=100, su=null, 4/200.1)` -> `3 x 10 (pu=30, su=10, 5.00/150.00)`
+- **Hemotin Plus 47 mg+0.5 mg+22.5 mg** [OTHER_GE25]: `100's pack (pu=100, su=null, 3.25/177.8)` -> `3 x 10 (pu=30, su=10, 3.00/90.00)`
+- **Imuzin 20 mg** [OTHER_GE25]: `30's pack (pu=30, su=null, 1.75/75.5)` -> `6 x 10 (pu=60, su=10, 2.75/165.00)`
+- **Lenvakin 10 mg** [OTHER_GE25]: `30's pack (pu=30, su=null, 1750/29700)` -> `2 x 7 (pu=14, su=7, 1500.00/21000.00)`
+- **Levagen 10 mg** [OTHER_GE25]: `30's pack (pu=30, su=null, 1750/29700)` -> `30's pack (pu=30, su=null, 900.00/27000.00)`
+- **Enatinib 10 mg** [OTHER_GE25]: `30's pack (pu=30, su=null, 1750/29700)` -> `1 x 10 (pu=10, su=10, 1730.00/17300.00)`
+- **Enva 10 mg** [OTHER_GE25]: `30's pack (pu=30, su=null, 1750/29700)` -> `30's pack (pu=30, su=null, 1550.00/46500.00)`
+- **Hepalola 550 mg** [OTHER_GE25]: `30's pack (pu=30, su=null, 15/645)` -> `3 x 10 (pu=30, su=10, 20.00/600.00)`
+- **Dasvir 60 mg** [OTHER_GE25]: `7's pack (pu=7, su=null, 400/4000)` -> `12's pack (pu=12, su=null, 400.00/4800.00)`
+- **G-Daclatasvir 60 mg** [OTHER_GE25]: `7's pack (pu=7, su=null, 400/4000)` -> `1 x 10 (pu=10, su=10, 200.00/2000.00)`
+- **Dopair 50 mg+12.5 mg** [OTHER_GE25]: `30's pack (pu=30, su=null, 7/300)` -> `3 x 10 (pu=30, su=10, 5.00/150.00)`
+- **D-Fill 2000 IU** [OTHER_GE25]: `30's pack (pu=30, su=null, 5.5/235)` -> `1 x 10 (pu=10, su=10, 4.00/40.00)`
+- **Epicet XR 1500 mg** [OTHER_GE25]: `12's pack (pu=12, su=null, 30/510)` -> `3 x 4 (pu=12, su=4, 50.00/600.00)`
+- **Gastridine 20 mg** [OTHER_GE25]: `100's pack (pu=100, su=null, 4/240)` -> `10 x 10 (pu=100, su=10, 3.50/350.00)`
+- **Dabigat 150 mg** [OTHER_GE25]: `60's pack (pu=60, su=null, 95/3420)` -> `2 x 6 (pu=12, su=6, 130.00/1560.00)`
+- **Afaz 40 mg** [OTHER_GE25]: `30's pack (pu=30, su=null, 925/16750)` -> `4 x 10 (pu=40, su=10, 1100.00/44000.00)`
+- **Linaglip-M 2.5 mg+1000 mg** [OTHER_GE25]: `30's pack (pu=30, su=null, 16/300)` -> `3 x 10 (pu=30, su=10, 16.00/480.00)`
+- **Quiet XR 400 mg** [OTHER_GE25]: `50's pack (pu=50, su=null, 14/440)` -> `2 x 10 (pu=20, su=10, 24.00/480.00)`
+- **G-Metoprolol 50 mg** [OTHER_GE25]: `100's pack (pu=100, su=null, 2/131)` -> `10 x 10 (pu=100, su=10, 1.15/115.00)`
+- **Lenvakin 4 mg** [OTHER_GE25]: `30's pack (pu=30, su=null, 670/13200)` -> `2 x 7 (pu=14, su=7, 650.00/9100.00)`
+- **Levat 4 mg** [OTHER_GE25]: `30's pack (pu=30, su=null, 670/13200)` -> `30's pack (pu=30, su=null, 465.00/13950.00)`
+- **Levagen 4 mg** [OTHER_GE25]: `30's pack (pu=30, su=null, 670/13200)` -> `30's pack (pu=30, su=null, 400.00/12000.00)`
+- **Enatinib 4 mg** [OTHER_GE25]: `30's pack (pu=30, su=null, 670/13200)` -> `1 x 10 (pu=10, su=10, 670.00/6700.00)`
+- **Enva 4 mg** [OTHER_GE25]: `30's pack (pu=30, su=null, 670/13200)` -> `30's pack (pu=30, su=null, 650.00/19500.00)`
+- **Rith 500 mg** [OTHER_GE25]: `6's pack (pu=6, su=null, 40/322.16)` -> `7 x 2 (pu=14, su=2, 38.00/532.00)`
+- **Pneumoclar 500 mg** [OTHER_GE25]: `6's pack (pu=6, su=null, 40/322.16)` -> `1 x 10 (pu=10, su=10, 50.00/500.00)`
+- **Olakin 150 mg** [OTHER_GE25]: `120's pack (pu=120, su=null, 1266.66/100000)` -> `30's pack (pu=30, su=null, 700.00/21000.00)`
+- **Lynparib 150 mg** [OTHER_GE25]: `120's pack (pu=120, su=null, 1266.66/100000)` -> `1 x 10 (pu=10, su=10, 2000.00/20000.00)`
+- **Kingdol 100 mg** [OTHER_GE25]: `20's pack (pu=20, su=null, 15.1/200)` -> `2 x 5 (pu=10, su=5, 15.00/150.00)`
+- **Olida 200 mg** [OTHER_GE25]: `30's pack (pu=30, su=null, 9.54/381.6)` -> `3 x 10 (pu=30, su=10, 10.00/300.00)`
+- **Coralbest-D 500 mg+200 IU** [OTHER_GE25]: `30's pack (pu=30, su=null, 10/400)` -> `3 x 10 (pu=30, su=10, 10.00/300.00)`
+- **Ocenic-D 500 mg+200 IU** [OTHER_GE25]: `30's pack (pu=30, su=null, 10/400)` -> `30's pack (pu=30, su=null, 10.00/300.00)`
+- **Egical-D 500 mg+200 IU** [OTHER_GE25]: `30's pack (pu=30, su=null, 10/400)` -> `30's pack (pu=30, su=null, 10.00/300.00)`
+- **Osticor D 500 mg+200 IU** [OTHER_GE25]: `30's pack (pu=30, su=null, 10/400)` -> `30's pack (pu=30, su=null, 10.00/300.00)`
+- **D-Coral 500 mg+200 IU** [OTHER_GE25]: `30's pack (pu=30, su=null, 10/400)` -> `3 x 10 (pu=30, su=10, 10.00/300.00)`
+- **Corast-D 500 mg+200 IU** [OTHER_GE25]: `30's pack (pu=30, su=null, 10/400)` -> `6 x 10 (pu=60, su=10, 9.00/540.00)`
+- **D-Fozin 10 mg** [OTHER_GE25]: `30's pack (pu=30, su=null, 25/500)` -> `3 x 10 (pu=30, su=10, 23.00/690.00)`
+- **Emglit 10 mg** [OTHER_GE25]: `30's pack (pu=30, su=null, 25/500)` -> `1 x 10 (pu=10, su=10, 25.00/250.00)`
+- **Boncoral 500 mg+200 IU** [OTHER_GE25]: `30's pack (pu=30, su=null, 10/400)` -> `3 x 10 (pu=30, su=10, 11.00/330.00)`
+- **D-Lina M 2.5 mg+850 mg** [OTHER_GE25]: `30's pack (pu=30, su=null, 14/280)` -> `3 x 10 (pu=30, su=10, 14.00/420.00)`
+- **Osto-Coral 500 mg+200 IU** [OTHER_GE25]: `30's pack (pu=30, su=null, 10/400)` -> `3 x 10 (pu=30, su=10, 10.00/300.00)`
+- **Cocavit D 500 mg+200 IU** [OTHER_GE25]: `30's pack (pu=30, su=null, 10/400)` -> `3 x 10 (pu=30, su=10, 10.00/300.00)`
+- **Religox 120 mg** [OTHER_GE25]: `30's pack (pu=30, su=null, 250/5000)` -> `1 x 10 (pu=10, su=10, 250.00/2500.00)`
+- **Febout 80 mg** [OTHER_GE25]: `30's pack (pu=30, su=null, 22/440)` -> `3 x 10 (pu=30, su=10, 22.00/660.00)`
+- **Parafenac TR 100 mg** [OTHER_GE25]: `100's pack (pu=100, su=null, 3/200)` -> `10 x 10 (pu=100, su=10, 3.00/300.00)`
+- **Empastar 10 mg** [OTHER_GE25]: `30's pack (pu=30, su=null, 25/500)` -> `2 x 10 (pu=20, su=10, 25.00/500.00)`
+- **Ostocare D 500 mg+200 IU** [OTHER_GE25]: `30's pack (pu=30, su=null, 10/400)` -> `3 x 10 (pu=30, su=10, 10.00/300.00)`
+- **Nasfen TR 100 mg** [OTHER_GE25]: `100's pack (pu=100, su=null, 3/200)` -> `10 x 10 (pu=100, su=10, 2.50/250.00)`
+- **Aseral-D 500 mg+200 IU** [OTHER_GE25]: `30's pack (pu=30, su=null, 10/400)` -> `3 x 10 (pu=30, su=10, 11.00/330.00)`
+- **R-Lix 120 mg** [OTHER_GE25]: `30's pack (pu=30, su=null, 250/5000)` -> `3 x 10 (pu=30, su=10, 250.00/7500.00)`
+- **Coralbon D 500 mg+200 IU** [OTHER_GE25]: `30's pack (pu=30, su=null, 10/400)` -> `3 x 10 (pu=30, su=10, 10.00/300.00)`
+- **Coral Calcium D 500 mg+200 IU** [OTHER_GE25]: `30's pack (pu=30, su=null, 10/400)` -> `3 x 10 (pu=30, su=10, 9.00/270.00)`
+- **Corarif D 500 mg+200 IU** [OTHER_GE25]: `30's pack (pu=30, su=null, 10/400)` -> `3 x 10 (pu=30, su=10, 11.00/330.00)`
+- **Cicol-D 500 mg+200 IU** [OTHER_GE25]: `30's pack (pu=30, su=null, 10/400)` -> `5 x 10 (pu=50, su=10, 10.00/500.00)`
+- **Citazar XR 500 mg** [OTHER_GE25]: `12's pack (pu=12, su=null, 30/480)` -> `3 x 10 (pu=30, su=10, 30.00/900.00)`
+- **Empoli 10 mg** [OTHER_GE25]: `30's pack (pu=30, su=null, 25/500)` -> `2 x 10 (pu=20, su=10, 25.00/500.00)`
+- **Jakrif 5 mg** [OTHER_GE25]: `30's pack (pu=30, su=null, 48/960)` -> `1 x 14 (pu=14, su=14, 35.00/490.00)`
+- **Conate D 500 mg+200 IU** [OTHER_GE25]: `30's pack (pu=30, su=null, 10/400)` -> `3 x 10 (pu=30, su=10, 10.00/300.00)`
+- **Myrica ER 82.5 mg** [OTHER_GE25]: `30's pack (pu=30, su=null, 25/500)` -> `3 x 10 (pu=30, su=10, 25.00/750.00)`
+- **Myrica ER 165 mg** [OTHER_GE25]: `30's pack (pu=30, su=null, 35/700)` -> `3 x 10 (pu=30, su=10, 35.00/1050.00)`
+- **Epaglin 10 mg** [OTHER_GE25]: `30's pack (pu=30, su=null, 25/500)` -> `2 x 10 (pu=20, su=10, 12.00/240.00)`
+- **Coramin-D 500 mg+200 IU** [OTHER_GE25]: `30's pack (pu=30, su=null, 10/400)` -> `3 x 10 (pu=30, su=10, 10.00/300.00)`
+- **Febutek 80 mg** [OTHER_GE25]: `30's pack (pu=30, su=null, 22/440)` -> `1 x 10 (pu=10, su=10, 20.00/200.00)`
+- **Axidin 40 mg** [OTHER_GE25]: `100's pack (pu=100, su=null, 4/266.7)` -> `5 x 10 (pu=50, su=10, 3.50/175.00)`
+- **Famas 40 mg** [OTHER_GE25]: `100's pack (pu=100, su=null, 4/266.7)` -> `5 x 10 (pu=50, su=10, 4.00/200.00)`
+- **NCR FAST 40 mg** [OTHER_GE25]: `100's pack (pu=100, su=null, 4/266.7)` -> `10 x 10 (pu=100, su=10, 3.80/380.00)`
+- **Albizox 500 mg** [OTHER_GE25]: `30's pack (pu=30, su=null, 10.02/201)` -> `3 x 6 (pu=18, su=6, 9.00/162.00)`
+- **Parazox 500 mg** [OTHER_GE25]: `30's pack (pu=30, su=null, 10.02/201)` -> `3 x 10 (pu=30, su=10, 10.00/300.00)`
+- **NTZ 500 mg** [OTHER_GE25]: `30's pack (pu=30, su=null, 10.02/201)` -> `3 x 6 (pu=18, su=6, 10.00/180.00)`
+- **ALK 90 mg** [OTHER_GE25]: `30's pack (pu=30, su=null, 1200/24500)` -> `7's pack (pu=7, su=null, 1200.00/8400.00)`
+- **R-Pag 25 mg** [OTHER_GE25]: `7's pack (pu=7, su=null, 500/4600)` -> `1 x 10 (pu=10, su=10, 500.00/5000.00)`
+- **Olapag 25 mg** [OTHER_GE25]: `7's pack (pu=7, su=null, 500/4600)` -> `1 x 10 (pu=10, su=10, 500.00/5000.00)`
+- **Risponex 2 mg** [OTHER_GE25]: `50's pack (pu=50, su=null, 5/172.5)` -> `3 x 10 (pu=30, su=10, 4.00/120.00)`
+- **Rislock 2 mg** [OTHER_GE25]: `50's pack (pu=50, su=null, 5/172.5)` -> `5 x 10 (pu=50, su=10, 5.00/250.00)`
+- **Azmasol 200 mcg** [OTHER_GE25]: `30's pack (pu=30, su=null, 2.75/107.75)` -> `3 x 10 (pu=30, su=10, 2.50/75.00)`
+- **Amiodarone Hameln 150 mg/3 ml** [OTHER_GE25]: `5's pack (pu=5, su=null, 10.2/65)` -> `1 x 10 (pu=10, su=null, 240.00/2400.00)`
+- **Dixanol 50 ml/vial** [OTHER_GE25]: `5's pack (pu=5, su=null, 10.2/65)` -> `50 ml vial (pu=null, su=null, null/2500.00)`
+- **G-Pethidine 50 mg/ml** [OTHER_GE25]: `5's pack (pu=5, su=null, 10.2/65)` -> `1 x 5 (pu=5, su=null, 34.50/172.50)`
+- **Opocan 4 mg/4 ml** [OTHER_GE25]: `5's pack (pu=5, su=null, 10.2/65)` -> `4 mg vial (pu=null, su=null, null/9000.00)`
+- **Gadosol 0.5 mmol/ml** [OTHER_GE25]: `5's pack (pu=5, su=null, 10.2/65)` -> `10 ml vial (pu=null, su=null, null/2300.00)`
+- **Amlotol Plus 5 mg+50 mg** [OTHER_GE25]: `30's pack (pu=30, su=null, 6/225.5)` -> `3 x 10 (pu=30, su=10, 5.27/158.10)`
+- **Amdepin AT 5 mg+50 mg** [OTHER_GE25]: `30's pack (pu=30, su=null, 6/225.5)` -> `5 x 10 (pu=50, su=10, 5.00/250.00)`
+- **Fol-Z ** [OTHER_GE25]: `50's pack (pu=50, su=null, 4.76/178)` -> `5 x 10 (pu=50, su=10, 3.50/175.00)`
+- **Ifoliz ** [OTHER_GE25]: `50's pack (pu=50, su=null, 4.76/178)` -> `3 x 10 (pu=30, su=10, 6.00/180.00)`
+- **Carepain 100 mg** [OTHER_GE25]: `100's pack (pu=100, su=null, 4/300)` -> `5 x 10 (pu=50, su=10, 4.00/200.00)`
+- **Alodia 12.5 mg** [OTHER_GE25]: `20's pack (pu=20, su=null, 12/300)` -> `3 x 10 (pu=30, su=10, 12.00/360.00)`
+- **Broklin CR 165 mg** [OTHER_GE25]: `20's pack (pu=20, su=null, 35/875)` -> `2 x 10 (pu=20, su=10, 35.00/700.00)`
+- **D-Fozin 25 mg** [OTHER_GE25]: `10's pack (pu=10, su=null, 40/500)` -> `3 x 10 (pu=30, su=10, 40.00/1200.00)`
+- **Emglit 25 mg** [OTHER_GE25]: `10's pack (pu=10, su=null, 40/500)` -> `1 x 10 (pu=10, su=10, 40.00/400.00)`
+- **Ivtin 12 mg** [OTHER_GE25]: `10's pack (pu=10, su=null, 20/250)` -> `1 x 10 (pu=10, su=10, 20.00/200.00)`
+- **Aceflex 100 mg** [OTHER_GE25]: `100's pack (pu=100, su=null, 4/300)` -> `5 x 10 (pu=50, su=10, 5.00/250.00)`
+- **Myfene 60 mg** [OTHER_GE25]: `20's pack (pu=20, su=null, 30/750)` -> `2 x 10 (pu=20, su=10, 30.00/600.00)`
+- **Ligotin 12.5 mg** [OTHER_GE25]: `20's pack (pu=20, su=null, 12/300)` -> `2 x 14 (pu=28, su=14, 12.00/336.00)`
+- **Aceclofenac 100 mg** [OTHER_GE25]: `100's pack (pu=100, su=10, 4/300)` -> `10 x 10 (pu=100, su=10, 3.00/300.00)`
+- **Empastar 25 mg** [OTHER_GE25]: `10's pack (pu=10, su=null, 40/500)` -> `1 x 10 (pu=10, su=10, 40.00/400.00)`
+- **Lyca CR 165 mg** [OTHER_GE25]: `20's pack (pu=20, su=null, 35/875)` -> `3 x 10 (pu=30, su=10, 20.00/600.00)`
+- **Nepco CR 165 mg** [OTHER_GE25]: `20's pack (pu=20, su=null, 35/875)` -> `1 x 10 (pu=10, su=10, 35.00/350.00)`
+- **Reofen 100 mg** [OTHER_GE25]: `100's pack (pu=100, su=null, 4/300)` -> `6 x 10 (pu=60, su=10, 5.00/300.00)`
+- **Imectin 12 mg** [OTHER_GE25]: `10's pack (pu=10, su=null, 20/250)` -> `1 x 10 (pu=10, su=10, 18.00/180.00)`
+- **Aceclosic 100 mg** [OTHER_GE25]: `100's pack (pu=100, su=null, 4/300)` -> `10 x 10 (pu=100, su=10, 4.50/450.00)`
+- **Painles 100 mg** [OTHER_GE25]: `100's pack (pu=100, su=null, 4/300)` -> `10 x 10 (pu=100, su=10, 4.00/400.00)`
+- **Maclo 100 mg** [OTHER_GE25]: `100's pack (pu=100, su=null, 4/300)` -> `10 x 10 (pu=100, su=10, 3.00/300.00)`
+- **Eflow 25 mg** [OTHER_GE25]: `10's pack (pu=10, su=null, 40/500)` -> `1 x 10 (pu=10, su=10, 30.00/300.00)`
+- **Aceron 100 mg** [OTHER_GE25]: `100's pack (pu=100, su=null, 4/300)` -> `10 x 10 (pu=100, su=10, 4.00/400.00)`
+- **Acxi 100 mg** [OTHER_GE25]: `100's pack (pu=100, su=null, 4/300)` -> `10 x 10 (pu=100, su=10, 4.00/400.00)`
+- **Aceclofenac 100 mg** [OTHER_GE25]: `100's pack (pu=100, su=10, 4/300)` -> `10 x 10 (pu=100, su=10, 4.00/400.00)`
+
+## Held From Batch 7 (2)
+- **Carmin 2.5 mg Capsule (Eskayef)**: Officially marked price unavailable / pending DGDA pricing on MedEx & Arogga (template 30s u=12.04/pp=300.48 retained for manual pricing).
+- **Carmin 5 mg Capsule (Eskayef)**: Officially marked price unavailable / pending DGDA pricing on MedEx & Arogga (template 30s u=12.04/pp=300.48 retained for manual pricing).

@@ -1,0 +1,2229 @@
+{
+  "count": 7,
+  "groups": [
+    {
+      "groupKey": "8f6d8877-1985-4e02-904e-af26a3393d10|500mg|tablet|30's pack",
+      "genericId": "8f6d8877-1985-4e02-904e-af26a3393d10",
+      "genericName": "Ornidazole",
+      "strength": "500 mg",
+      "dosageForm": "Tablet",
+      "packQuantity": "30's pack",
+      "distinctStripUnitsNow": [
+        6,
+        10
+      ],
+      "members": [
+        {
+          "brandId": "22f5498a-58df-4285-896d-c648ba0ea0ff",
+          "sourceId": "10236",
+          "brandName": "OR",
+          "manufacturer": "Zenith Pharmaceuticals Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/10236/or-500-mg-tablet",
+          "packId": "1c80db76-b6ca-4491-803a-328c38e18c83",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": null,
+          "unitPrice": "6.52",
+          "packPrice": "195.6",
+          "wasUpdatedInSync": false,
+          "aroggaId": null,
+          "aroggaName": null,
+          "updateCategory": null
+        },
+        {
+          "brandId": "e7516399-29f6-4ce8-8fd6-a9182a5da2e3",
+          "sourceId": "10239",
+          "brandName": "Ornizol",
+          "manufacturer": "Alco Pharma Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/10239/ornizol-500-mg-tablet",
+          "packId": "0254bd2b-0e3b-4f04-b450-1b7211763941",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": null,
+          "unitPrice": "6.02",
+          "packPrice": "180.6",
+          "wasUpdatedInSync": false,
+          "aroggaId": null,
+          "aroggaName": null,
+          "updateCategory": null
+        },
+        {
+          "brandId": "57ca45eb-5a92-4f9d-af6b-07bfc42e0e87",
+          "sourceId": "10241",
+          "brandName": "Troniz",
+          "manufacturer": "UniMed UniHealth",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/10241/troniztablet500-mg",
+          "packId": "c16334d0-e9df-4871-9171-edb76701a4a7",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": 10,
+          "currentStripUnits": 10,
+          "unitPrice": "6.5",
+          "packPrice": "195",
+          "wasUpdatedInSync": false,
+          "aroggaId": null,
+          "aroggaName": null,
+          "updateCategory": null
+        },
+        {
+          "brandId": "b1c09479-5525-4422-9ae3-917dbacf6e26",
+          "sourceId": "10243",
+          "brandName": "Ulnid",
+          "manufacturer": "Ultra Pharma Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/10243/ulnidtablet500-mg",
+          "packId": "890001ef-3ebd-4918-a7a2-f514c5d0b8b3",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": null,
+          "unitPrice": "4",
+          "packPrice": "120",
+          "wasUpdatedInSync": false,
+          "aroggaId": null,
+          "aroggaName": null,
+          "updateCategory": null
+        },
+        {
+          "brandId": "9299e4ff-fa4d-40e8-ad05-70f2bf1827f7",
+          "sourceId": "31878",
+          "brandName": "Xynor",
+          "manufacturer": "Beximco Pharmaceuticals Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/31878/xynortablet500-mg",
+          "packId": "2270c7e6-9cfe-4301-b9e7-9defce66b353",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": null,
+          "unitPrice": "6.5",
+          "packPrice": "195",
+          "wasUpdatedInSync": false,
+          "aroggaId": null,
+          "aroggaName": null,
+          "updateCategory": null
+        },
+        {
+          "brandId": "467c752e-3f64-4bd7-940d-a69dfe5bd17c",
+          "sourceId": "10240",
+          "brandName": "Robic",
+          "manufacturer": "Square Pharmaceuticals Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/10240/robictablet500-mg",
+          "packId": "f04e6217-0e05-460b-8530-35f04aa3045e",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": 6,
+          "unitPrice": "7.02",
+          "packPrice": "210.6",
+          "wasUpdatedInSync": true,
+          "aroggaId": 16582,
+          "aroggaName": "Robic",
+          "updateCategory": "STRIP",
+          "aroggaEvidence": {
+            "p_name": "Robic",
+            "p_strength": "500mg",
+            "p_form": "Tablet",
+            "p_brand_name": "Square Pharmaceuticals PLC.",
+            "p_generic_name": "Ornidazole",
+            "pv_mrp": 7.02,
+            "pv_b2c_mrp": 42.12,
+            "b2c_sales_unit_label": "Strip",
+            "b2c_base_unit_multiplier": 6,
+            "pu_entries": [
+              {
+                "pu_label": "Tablet",
+                "pu_multiplier": 1,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Strip",
+                "pu_multiplier": 6,
+                "pu_is_b2c_sales_unit": 1
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 30,
+                "pu_is_b2c_sales_unit": 0
+              }
+            ]
+          }
+        }
+      ],
+      "summary": {
+        "totalMembersInGroup": 6,
+        "membersUpdatedWithStrip": 1,
+        "membersWithPreExistingStrip": 1,
+        "distinctUpdatedStripUnits": [
+          6
+        ],
+        "distinctPreExistingStripUnits": [
+          10
+        ]
+      },
+      "assessment": "LEGITIMATE_MANUFACTURER_PACKAGING_DIFFERENCE",
+      "assessmentDetails": "Square Pharmaceuticals packs Robic 500 mg Tablet as 5 x 6's (stripUnits=6 confirmed via Arogga id=16582 pu='Strip:6, Box:30' and squarepharma.com.bd); UniMed UniHealth Troniz uses 3 x 10's (stripUnits=10)."
+    },
+    {
+      "groupKey": "03127166-22f5-457f-9579-4ba44837a0ff|40mg|capsule (delayed release)|30's pack",
+      "genericId": "03127166-22f5-457f-9579-4ba44837a0ff",
+      "genericName": "Undenatured Type II Collagen",
+      "strength": "40 mg",
+      "dosageForm": "Capsule (Delayed Release)",
+      "packQuantity": "30's pack",
+      "distinctStripUnitsNow": [
+        6,
+        10
+      ],
+      "members": [
+        {
+          "brandId": "aaee0c80-f27b-4654-aaf5-fae2c2a7bfd9",
+          "sourceId": "31090",
+          "brandName": "Synogen",
+          "manufacturer": "Incepta Pharmaceuticals Ltd.",
+          "dosageForm": "Capsule (Delayed Release)",
+          "medexUrl": "https://medex.com.bd/brands/31090/synogencapsule-delayed-release40-mg",
+          "packId": "2357a20e-1683-47fd-bcd3-dcab3892027c",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": null,
+          "unitPrice": "30",
+          "packPrice": "900",
+          "wasUpdatedInSync": true,
+          "aroggaId": 31764,
+          "aroggaName": "Synogen 40 Capsule",
+          "updateCategory": "PRICE",
+          "aroggaEvidence": {
+            "p_name": "Synogen 40 Capsule",
+            "p_strength": "40mg",
+            "p_form": "Capsule",
+            "p_brand_name": "Incepta Pharmaceuticals Ltd.",
+            "p_generic_name": "Undenatured Type II Collagen",
+            "pv_mrp": 30,
+            "pv_b2c_mrp": 120,
+            "b2c_sales_unit_label": "Strip",
+            "b2c_base_unit_multiplier": 4,
+            "pu_entries": [
+              {
+                "pu_label": "Capsule",
+                "pu_multiplier": 1,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Strip",
+                "pu_multiplier": 4,
+                "pu_is_b2c_sales_unit": 1
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 20,
+                "pu_is_b2c_sales_unit": 0
+              }
+            ]
+          }
+        },
+        {
+          "brandId": "1f79b654-9cad-4f88-b0e7-49523357e447",
+          "sourceId": "31921",
+          "brandName": "Joinflex",
+          "manufacturer": "Aristopharma Ltd.",
+          "dosageForm": "Capsule (Delayed Release)",
+          "medexUrl": "https://medex.com.bd/brands/31921/joinflexcapsule-delayed-release40-mg",
+          "packId": "2e85fdc6-5cfd-43db-88c7-04cb040aba57",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": 10,
+          "unitPrice": "30",
+          "packPrice": "900",
+          "wasUpdatedInSync": true,
+          "aroggaId": 52901,
+          "aroggaName": "Joinflex",
+          "updateCategory": "PRICE+STRIP",
+          "aroggaEvidence": {
+            "p_name": "Joinflex",
+            "p_strength": "40mg",
+            "p_form": "Capsule",
+            "p_brand_name": "Aristopharma Limited",
+            "p_generic_name": "Undenatured Type II Collagen",
+            "pv_mrp": 30,
+            "pv_b2c_mrp": 300,
+            "b2c_sales_unit_label": "Strip",
+            "b2c_base_unit_multiplier": 10,
+            "pu_entries": [
+              {
+                "pu_label": "Capsule",
+                "pu_multiplier": 1,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 10,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Strip",
+                "pu_multiplier": 10,
+                "pu_is_b2c_sales_unit": 1
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 30,
+                "pu_is_b2c_sales_unit": 0
+              }
+            ]
+          }
+        },
+        {
+          "brandId": "2685dc67-8cb1-4862-a54a-84542839688d",
+          "sourceId": "29151",
+          "brandName": "Flemo",
+          "manufacturer": "Square Pharmaceuticals Ltd.",
+          "dosageForm": "Capsule (Delayed Release)",
+          "medexUrl": "https://medex.com.bd/brands/29151/flemocapsule-delayed-release40-mg",
+          "packId": "d54c2d3a-cbda-4ef7-a54a-a469b08fb3fa",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": 6,
+          "unitPrice": "30",
+          "packPrice": "900",
+          "wasUpdatedInSync": true,
+          "aroggaId": 28772,
+          "aroggaName": "Flemo",
+          "updateCategory": "PRICE+STRIP",
+          "aroggaEvidence": {
+            "p_name": "Flemo",
+            "p_strength": "40mg",
+            "p_form": "capsule",
+            "p_brand_name": "Square Pharmaceuticals PLC.",
+            "p_generic_name": "Undenatured Type II Collagen",
+            "pv_mrp": 30,
+            "pv_b2c_mrp": 180,
+            "b2c_sales_unit_label": "Strip",
+            "b2c_base_unit_multiplier": 6,
+            "pu_entries": [
+              {
+                "pu_label": "Capsule",
+                "pu_multiplier": 1,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Strip",
+                "pu_multiplier": 6,
+                "pu_is_b2c_sales_unit": 1
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 30,
+                "pu_is_b2c_sales_unit": 0
+              }
+            ]
+          }
+        },
+        {
+          "brandId": "8f6d44b6-09fb-4612-a5e2-52969f9bd67e",
+          "sourceId": "27689",
+          "brandName": "Radiflex",
+          "manufacturer": "Radiant Nutraceuticals Ltd.",
+          "dosageForm": "Capsule (Delayed Release)",
+          "medexUrl": "https://medex.com.bd/brands/27689/radiflexcapsule-delayed-release40-mg",
+          "packId": "fceb3e23-27b5-431d-884f-184617541138",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": 10,
+          "unitPrice": "30",
+          "packPrice": "900",
+          "wasUpdatedInSync": true,
+          "aroggaId": 31213,
+          "aroggaName": "Radiflex",
+          "updateCategory": "PRICE+STRIP",
+          "aroggaEvidence": {
+            "p_name": "Radiflex",
+            "p_strength": "40mg",
+            "p_form": "Capsule",
+            "p_brand_name": "Radiant Pharmaceuticals Ltd.",
+            "p_generic_name": "Undenatured Type II Collagen",
+            "pv_mrp": 30,
+            "pv_b2c_mrp": 300,
+            "b2c_sales_unit_label": "Strip",
+            "b2c_base_unit_multiplier": 10,
+            "pu_entries": [
+              {
+                "pu_label": "Capsule",
+                "pu_multiplier": 1,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Strip",
+                "pu_multiplier": 10,
+                "pu_is_b2c_sales_unit": 1
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 30,
+                "pu_is_b2c_sales_unit": 0
+              }
+            ]
+          }
+        }
+      ],
+      "summary": {
+        "totalMembersInGroup": 4,
+        "membersUpdatedWithStrip": 3,
+        "membersWithPreExistingStrip": 0,
+        "distinctUpdatedStripUnits": [
+          6,
+          10
+        ],
+        "distinctPreExistingStripUnits": []
+      },
+      "assessment": "LEGITIMATE_MANUFACTURER_PACKAGING_DIFFERENCE",
+      "assessmentDetails": "Square Flemo 40 mg Capsule is packed as 5 x 6's (stripUnits=6 confirmed via Arogga id=28772 and online pharmacy listings), whereas Aristopharma Joinflex (id=52901) and Radiant Radiflex (id=31213) use 3 x 10's (stripUnits=10)."
+    },
+    {
+      "groupKey": "a9d7cca3-a4de-4d88-9a9d-6bbc4d0ca231|5mg|tablet|30's pack",
+      "genericId": "a9d7cca3-a4de-4d88-9a9d-6bbc4d0ca231",
+      "genericName": "Rosuvastatin",
+      "strength": "5 mg",
+      "dosageForm": "Tablet",
+      "packQuantity": "30's pack",
+      "distinctStripUnitsNow": [
+        10,
+        15
+      ],
+      "members": [
+        {
+          "brandId": "07c3c650-f577-47a8-9c35-03f129bd83b3",
+          "sourceId": "24336",
+          "brandName": "RTV",
+          "manufacturer": "Delta Pharma Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/24336/rtvtablet5-mg",
+          "packId": "4b0e1913-96bc-4e2e-9ff1-4103d2cfbea4",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": 10,
+          "unitPrice": "5",
+          "packPrice": "150",
+          "wasUpdatedInSync": true,
+          "aroggaId": 26676,
+          "aroggaName": "RTV 5",
+          "updateCategory": "STRIP",
+          "aroggaEvidence": {
+            "p_name": "RTV 5",
+            "p_strength": "5mg",
+            "p_form": "Tablet",
+            "p_brand_name": "Delta Pharma Limited",
+            "p_generic_name": "Rosuvastatin",
+            "pv_mrp": 5,
+            "pv_b2c_mrp": 50,
+            "b2c_sales_unit_label": "Strip",
+            "b2c_base_unit_multiplier": 10,
+            "pu_entries": [
+              {
+                "pu_label": "Tablet",
+                "pu_multiplier": 1,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Strip",
+                "pu_multiplier": 10,
+                "pu_is_b2c_sales_unit": 1
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 30,
+                "pu_is_b2c_sales_unit": 0
+              }
+            ]
+          }
+        },
+        {
+          "brandId": "6c0e8d11-70df-493a-9f0a-4427e4ac07a1",
+          "sourceId": "26006",
+          "brandName": "Rovator",
+          "manufacturer": "NIPRO JMI Pharma Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/26006/rovatortablet5-mg",
+          "packId": "aaa43f39-2685-41d8-92b8-c26ff69f308d",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": 10,
+          "unitPrice": "12.5",
+          "packPrice": "375",
+          "wasUpdatedInSync": true,
+          "aroggaId": 16744,
+          "aroggaName": "Rovator 5",
+          "updateCategory": "PRICE+STRIP",
+          "aroggaEvidence": {
+            "p_name": "Rovator 5",
+            "p_strength": "5mg",
+            "p_form": "Tablet",
+            "p_brand_name": "NIPRO JMI Pharma Limited",
+            "p_generic_name": "Rosuvastatin",
+            "pv_mrp": 12.5,
+            "pv_b2c_mrp": 125,
+            "b2c_sales_unit_label": "Strip",
+            "b2c_base_unit_multiplier": 10,
+            "pu_entries": [
+              {
+                "pu_label": "Tablet",
+                "pu_multiplier": 1,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Strip",
+                "pu_multiplier": 10,
+                "pu_is_b2c_sales_unit": 1
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 30,
+                "pu_is_b2c_sales_unit": 0
+              }
+            ]
+          }
+        },
+        {
+          "brandId": "72e59bb0-fc44-4538-a77d-9e6820140c4d",
+          "sourceId": "3411",
+          "brandName": "Ruvastin",
+          "manufacturer": "Aristopharma Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/3411/ruvastintablet5-mg",
+          "packId": "cf06d4b9-7164-4c65-8725-f65c1b04cce5",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": 10,
+          "unitPrice": "13.8",
+          "packPrice": "414",
+          "wasUpdatedInSync": true,
+          "aroggaId": 16870,
+          "aroggaName": "Ruvastin 5",
+          "updateCategory": "PRICE+STRIP",
+          "aroggaEvidence": {
+            "p_name": "Ruvastin 5",
+            "p_strength": "5mg",
+            "p_form": "Tablet",
+            "p_brand_name": "Aristopharma Limited",
+            "p_generic_name": "Rosuvastatin",
+            "pv_mrp": 13.8,
+            "pv_b2c_mrp": 138,
+            "b2c_sales_unit_label": "Strip",
+            "b2c_base_unit_multiplier": 10,
+            "pu_entries": [
+              {
+                "pu_label": "Tablet",
+                "pu_multiplier": 1,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Strip",
+                "pu_multiplier": 10,
+                "pu_is_b2c_sales_unit": 1
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 30,
+                "pu_is_b2c_sales_unit": 0
+              }
+            ]
+          }
+        },
+        {
+          "brandId": "e1468f42-dac3-4050-b0ea-21216a23800d",
+          "sourceId": "3393",
+          "brandName": "Rosetor",
+          "manufacturer": "ACI Limited",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/3393/rosetortablet5-mg",
+          "packId": "76940cda-42bf-41d8-8516-f57c1f4b66fd",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": 10,
+          "unitPrice": "12",
+          "packPrice": "360",
+          "wasUpdatedInSync": true,
+          "aroggaId": 16687,
+          "aroggaName": "Rosetor 5",
+          "updateCategory": "PRICE+STRIP",
+          "aroggaEvidence": {
+            "p_name": "Rosetor 5",
+            "p_strength": "5mg",
+            "p_form": "Tablet",
+            "p_brand_name": "ACI Limited",
+            "p_generic_name": "Rosuvastatin",
+            "pv_mrp": 12,
+            "pv_b2c_mrp": 120,
+            "b2c_sales_unit_label": "Strip",
+            "b2c_base_unit_multiplier": 10,
+            "pu_entries": [
+              {
+                "pu_label": "Tablet",
+                "pu_multiplier": 1,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Strip",
+                "pu_multiplier": 10,
+                "pu_is_b2c_sales_unit": 1
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 30,
+                "pu_is_b2c_sales_unit": 0
+              }
+            ]
+          }
+        },
+        {
+          "brandId": "91b25b46-621e-4c52-9aa1-bed403e0c67f",
+          "sourceId": "24345",
+          "brandName": "Rocovas",
+          "manufacturer": "Incepta Pharmaceuticals Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/24345/rocovastablet5-mg",
+          "packId": "1dc66b67-5651-4d06-8c32-d4be01249024",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": 10,
+          "unitPrice": "10",
+          "packPrice": "300",
+          "wasUpdatedInSync": true,
+          "aroggaId": 16605,
+          "aroggaName": "Rocovas",
+          "updateCategory": "STRIP",
+          "aroggaEvidence": {
+            "p_name": "Rocovas",
+            "p_strength": "5mg",
+            "p_form": "Tablet",
+            "p_brand_name": "Incepta Pharmaceuticals Ltd.",
+            "p_generic_name": "Rosuvastatin",
+            "pv_mrp": 10,
+            "pv_b2c_mrp": 100,
+            "b2c_sales_unit_label": "Strip",
+            "b2c_base_unit_multiplier": 10,
+            "pu_entries": [
+              {
+                "pu_label": "Tablet",
+                "pu_multiplier": 1,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Strip",
+                "pu_multiplier": 10,
+                "pu_is_b2c_sales_unit": 1
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 30,
+                "pu_is_b2c_sales_unit": 0
+              }
+            ]
+          }
+        },
+        {
+          "brandId": "ffcbfc30-36a4-492a-975e-9da2c686449d",
+          "sourceId": "24357",
+          "brandName": "Rolip",
+          "manufacturer": "Renata Limited",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/24357/roliptablet5-mg",
+          "packId": "9ac7b2f4-db8e-4ac0-9d0c-be3d8b9db6cb",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": 10,
+          "unitPrice": "12",
+          "packPrice": "360",
+          "wasUpdatedInSync": true,
+          "aroggaId": 16645,
+          "aroggaName": "Rolip 5",
+          "updateCategory": "PRICE+STRIP",
+          "aroggaEvidence": {
+            "p_name": "Rolip 5",
+            "p_strength": "5mg",
+            "p_form": "Tablet",
+            "p_brand_name": "Renata Limited",
+            "p_generic_name": "Rosuvastatin",
+            "pv_mrp": 12,
+            "pv_b2c_mrp": 120,
+            "b2c_sales_unit_label": "Strip",
+            "b2c_base_unit_multiplier": 10,
+            "pu_entries": [
+              {
+                "pu_label": "Tablet",
+                "pu_multiplier": 1,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Strip",
+                "pu_multiplier": 10,
+                "pu_is_b2c_sales_unit": 1
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 30,
+                "pu_is_b2c_sales_unit": 0
+              }
+            ]
+          }
+        },
+        {
+          "brandId": "f4bcfc54-c791-40ba-bdb6-4abeb7c103a3",
+          "sourceId": "24327",
+          "brandName": "Rosunor",
+          "manufacturer": "Asiatic Laboratories Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/24327/rosunortablet5-mg",
+          "packId": "771f7bab-4273-4720-b1c9-a2b2a8c10ce7",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": null,
+          "unitPrice": "10",
+          "packPrice": "300",
+          "wasUpdatedInSync": false,
+          "aroggaId": null,
+          "aroggaName": null,
+          "updateCategory": null
+        },
+        {
+          "brandId": "8c9dbdd6-75f3-4a51-8e9d-e98bc2f2087f",
+          "sourceId": "29336",
+          "brandName": "Rosumax",
+          "manufacturer": "Labaid Pharma Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/29336/rosumaxtablet5-mg",
+          "packId": "34b20650-123a-4731-996c-d63c82615810",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": 10,
+          "unitPrice": "13",
+          "packPrice": "390",
+          "wasUpdatedInSync": true,
+          "aroggaId": 31046,
+          "aroggaName": "Rosumax 5",
+          "updateCategory": "PRICE+STRIP",
+          "aroggaEvidence": {
+            "p_name": "Rosumax 5",
+            "p_strength": "5mg",
+            "p_form": "Tablet",
+            "p_brand_name": "Labaid Pharmaceuticals Ltd.",
+            "p_generic_name": "Rosuvastatin",
+            "pv_mrp": 13,
+            "pv_b2c_mrp": 130,
+            "b2c_sales_unit_label": "Strip",
+            "b2c_base_unit_multiplier": 10,
+            "pu_entries": [
+              {
+                "pu_label": "Tablet",
+                "pu_multiplier": 1,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Strip",
+                "pu_multiplier": 10,
+                "pu_is_b2c_sales_unit": 1
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 30,
+                "pu_is_b2c_sales_unit": 0
+              }
+            ]
+          }
+        },
+        {
+          "brandId": "95262eac-fdf0-4fb4-ae65-42be6e467cd1",
+          "sourceId": "27933",
+          "brandName": "Rosicard",
+          "manufacturer": "The White Horse Pharma",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/27933/rosicardtablet5-mg",
+          "packId": "136222b4-e8b9-4f5d-a8fd-46c43f1bce9b",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": 10,
+          "unitPrice": "10",
+          "packPrice": "300",
+          "wasUpdatedInSync": true,
+          "aroggaId": 16689,
+          "aroggaName": "Rosicard 5",
+          "updateCategory": "STRIP",
+          "aroggaEvidence": {
+            "p_name": "Rosicard 5",
+            "p_strength": "5mg",
+            "p_form": "Tablet",
+            "p_brand_name": "The White Horse Pharmaceuticals Ltd",
+            "p_generic_name": "Rosuvastatin",
+            "pv_mrp": 10,
+            "pv_b2c_mrp": 100,
+            "b2c_sales_unit_label": "Strip",
+            "b2c_base_unit_multiplier": 10,
+            "pu_entries": [
+              {
+                "pu_label": "Tablet",
+                "pu_multiplier": 1,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Strip",
+                "pu_multiplier": 10,
+                "pu_is_b2c_sales_unit": 1
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 30,
+                "pu_is_b2c_sales_unit": 0
+              }
+            ]
+          }
+        },
+        {
+          "brandId": "f0e47416-9aac-4a68-8263-c6ffe435ef29",
+          "sourceId": "3405",
+          "brandName": "Rosutin",
+          "manufacturer": "Beximco Pharmaceuticals Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/3405/rosutintablet5-mg",
+          "packId": "d6be4f45-8618-453c-9c00-ad94208fa9e2",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": 15,
+          "unitPrice": "12",
+          "packPrice": "360",
+          "wasUpdatedInSync": true,
+          "aroggaId": 16713,
+          "aroggaName": "Rosutin 5",
+          "updateCategory": "PRICE+STRIP",
+          "aroggaEvidence": {
+            "p_name": "Rosutin 5",
+            "p_strength": "5mg",
+            "p_form": "Tablet",
+            "p_brand_name": "Beximco Pharmaceuticals Ltd.",
+            "p_generic_name": "Rosuvastatin",
+            "pv_mrp": 12,
+            "pv_b2c_mrp": 180,
+            "b2c_sales_unit_label": "Strip",
+            "b2c_base_unit_multiplier": 15,
+            "pu_entries": [
+              {
+                "pu_label": "Tablet",
+                "pu_multiplier": 1,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Strip",
+                "pu_multiplier": 15,
+                "pu_is_b2c_sales_unit": 1
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 30,
+                "pu_is_b2c_sales_unit": 0
+              }
+            ]
+          }
+        },
+        {
+          "brandId": "d431cea7-81d0-4714-a36a-04035607e502",
+          "sourceId": "30236",
+          "brandName": "Rosufast",
+          "manufacturer": "Euro Pharma Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/30236/rosufasttablet5-mg",
+          "packId": "1348d4ba-8e52-426f-ae08-2c9a563eb483",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": null,
+          "unitPrice": "10",
+          "packPrice": "300",
+          "wasUpdatedInSync": false,
+          "aroggaId": null,
+          "aroggaName": null,
+          "updateCategory": null
+        },
+        {
+          "brandId": "20b9f954-ee8f-4d27-865a-fe1c2caf1291",
+          "sourceId": "3400",
+          "brandName": "Rosu",
+          "manufacturer": "Popular Pharmaceuticals Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/3400/rosutablet5-mg",
+          "packId": "e899914f-fd98-4fb0-946e-c2257b6ef3ab",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": 10,
+          "unitPrice": "12.5",
+          "packPrice": "375",
+          "wasUpdatedInSync": true,
+          "aroggaId": 16702,
+          "aroggaName": "Rosu 5",
+          "updateCategory": "PRICE+STRIP",
+          "aroggaEvidence": {
+            "p_name": "Rosu 5",
+            "p_strength": "5mg",
+            "p_form": "Tablet",
+            "p_brand_name": "Popular Pharmaceuticals Ltd.",
+            "p_generic_name": "Rosuvastatin",
+            "pv_mrp": 12.5,
+            "pv_b2c_mrp": 125,
+            "b2c_sales_unit_label": "Strip",
+            "b2c_base_unit_multiplier": 10,
+            "pu_entries": [
+              {
+                "pu_label": "Tablet",
+                "pu_multiplier": 1,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Strip",
+                "pu_multiplier": 10,
+                "pu_is_b2c_sales_unit": 1
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 30,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 50,
+                "pu_is_b2c_sales_unit": 0
+              }
+            ]
+          }
+        },
+        {
+          "brandId": "a345e708-ef19-4e02-9146-6669bac500d8",
+          "sourceId": "3403",
+          "brandName": "Rosugen",
+          "manufacturer": "General Pharmaceuticals Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/3403/rosugentablet5-mg",
+          "packId": "d02b9416-522f-48d0-b268-9fba276ebef5",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": 10,
+          "unitPrice": "13",
+          "packPrice": "390",
+          "wasUpdatedInSync": true,
+          "aroggaId": 16707,
+          "aroggaName": "Rosugen 5",
+          "updateCategory": "PRICE+STRIP",
+          "aroggaEvidence": {
+            "p_name": "Rosugen 5",
+            "p_strength": "5mg",
+            "p_form": "Tablet",
+            "p_brand_name": "General Pharmaceuticals Ltd.",
+            "p_generic_name": "Rosuvastatin",
+            "pv_mrp": 13,
+            "pv_b2c_mrp": 130,
+            "b2c_sales_unit_label": "Strip",
+            "b2c_base_unit_multiplier": 10,
+            "pu_entries": [
+              {
+                "pu_label": "Tablet",
+                "pu_multiplier": 1,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Strip",
+                "pu_multiplier": 10,
+                "pu_is_b2c_sales_unit": 1
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 50,
+                "pu_is_b2c_sales_unit": 0
+              }
+            ]
+          }
+        },
+        {
+          "brandId": "c49f6543-3069-4682-8cc5-ec672645c86c",
+          "sourceId": "24340",
+          "brandName": "Rovast",
+          "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/24340/rovasttablet5-mg",
+          "packId": "7c3ad368-4bcc-48e0-b94c-2b4189ae120e",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": 10,
+          "unitPrice": "10",
+          "packPrice": "300",
+          "wasUpdatedInSync": true,
+          "aroggaId": 16741,
+          "aroggaName": "Rovast 5",
+          "updateCategory": "STRIP",
+          "aroggaEvidence": {
+            "p_name": "Rovast 5",
+            "p_strength": "5mg",
+            "p_form": "Tablet",
+            "p_brand_name": "Healthcare Pharmaceuticals Ltd.",
+            "p_generic_name": "Rosuvastatin",
+            "pv_mrp": 10,
+            "pv_b2c_mrp": 100,
+            "b2c_sales_unit_label": "Strip",
+            "b2c_base_unit_multiplier": 10,
+            "pu_entries": [
+              {
+                "pu_label": "Tablet",
+                "pu_multiplier": 1,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Strip",
+                "pu_multiplier": 10,
+                "pu_is_b2c_sales_unit": 1
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 30,
+                "pu_is_b2c_sales_unit": 0
+              }
+            ]
+          }
+        },
+        {
+          "brandId": "4cb6c12f-4efe-44b6-b704-bbd041d2fc27",
+          "sourceId": "33156",
+          "brandName": "Rozenon",
+          "manufacturer": "Synovia pharma plc",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/33156/rozenontablet5-mg",
+          "packId": "10146bfd-f359-42cf-afbf-39e5d5fe122f",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": 10,
+          "unitPrice": "13",
+          "packPrice": "390",
+          "wasUpdatedInSync": true,
+          "aroggaId": 37094,
+          "aroggaName": "Rozenon 5",
+          "updateCategory": "STRIP",
+          "aroggaEvidence": {
+            "p_name": "Rozenon 5",
+            "p_strength": "5mg",
+            "p_form": "Tablet",
+            "p_brand_name": "Synovia Pharma PLC.",
+            "p_generic_name": "Rosuvastatin",
+            "pv_mrp": 13,
+            "pv_b2c_mrp": 130,
+            "b2c_sales_unit_label": "Strip",
+            "b2c_base_unit_multiplier": 10,
+            "pu_entries": [
+              {
+                "pu_label": "Tablet",
+                "pu_multiplier": 1,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Strip",
+                "pu_multiplier": 10,
+                "pu_is_b2c_sales_unit": 1
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 30,
+                "pu_is_b2c_sales_unit": 0
+              }
+            ]
+          }
+        }
+      ],
+      "summary": {
+        "totalMembersInGroup": 15,
+        "membersUpdatedWithStrip": 13,
+        "membersWithPreExistingStrip": 0,
+        "distinctUpdatedStripUnits": [
+          10,
+          15
+        ],
+        "distinctPreExistingStripUnits": []
+      },
+      "assessment": "LEGITIMATE_MANUFACTURER_PACKAGING_DIFFERENCE",
+      "assessmentDetails": "Beximco Rosutin 5 mg is packed in 2 x 15's blisters (stripUnits=15 confirmed via Arogga id=16713 & MedEx/retail listings), while 12 peer brands (RTV, Rovator, Ruvastin, Rosetor, Rocovas, Rolip, etc.) use 3 x 10's (stripUnits=10)."
+    },
+    {
+      "groupKey": "a9d7cca3-a4de-4d88-9a9d-6bbc4d0ca231|10mg|tablet|30's pack",
+      "genericId": "a9d7cca3-a4de-4d88-9a9d-6bbc4d0ca231",
+      "genericName": "Rosuvastatin",
+      "strength": "10 mg",
+      "dosageForm": "Tablet",
+      "packQuantity": "30's pack",
+      "distinctStripUnitsNow": [
+        10,
+        15
+      ],
+      "members": [
+        {
+          "brandId": "08139593-7b97-4f0e-aa1c-738d876aab38",
+          "sourceId": "24358",
+          "brandName": "Rolip",
+          "manufacturer": "Renata Limited",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/24358/roliptablet10-mg",
+          "packId": "7f326b31-8d91-44b0-b088-ac0a25d2223b",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": 10,
+          "unitPrice": "24",
+          "packPrice": "720",
+          "wasUpdatedInSync": true,
+          "aroggaId": 16644,
+          "aroggaName": "Rolip 10",
+          "updateCategory": "PRICE+STRIP",
+          "aroggaEvidence": {
+            "p_name": "Rolip 10",
+            "p_strength": "10mg",
+            "p_form": "Tablet",
+            "p_brand_name": "Renata Limited",
+            "p_generic_name": "Rosuvastatin",
+            "pv_mrp": 24,
+            "pv_b2c_mrp": 240,
+            "b2c_sales_unit_label": "Strip",
+            "b2c_base_unit_multiplier": 10,
+            "pu_entries": [
+              {
+                "pu_label": "Tablet",
+                "pu_multiplier": 1,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Strip",
+                "pu_multiplier": 10,
+                "pu_is_b2c_sales_unit": 1
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 30,
+                "pu_is_b2c_sales_unit": 0
+              }
+            ]
+          }
+        },
+        {
+          "brandId": "594427db-3aae-4b4a-bb6e-f7a46c44d3de",
+          "sourceId": "3412",
+          "brandName": "Ruvastin",
+          "manufacturer": "Aristopharma Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/3412/ruvastintablet10-mg",
+          "packId": "54f414c3-b9c4-441a-9ea4-b6207768c24f",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": 10,
+          "unitPrice": "26",
+          "packPrice": "780",
+          "wasUpdatedInSync": true,
+          "aroggaId": 16868,
+          "aroggaName": "Ruvastin 10",
+          "updateCategory": "PRICE+STRIP",
+          "aroggaEvidence": {
+            "p_name": "Ruvastin 10",
+            "p_strength": "10mg",
+            "p_form": "Tablet",
+            "p_brand_name": "Aristopharma Limited",
+            "p_generic_name": "Rosuvastatin",
+            "pv_mrp": 26,
+            "pv_b2c_mrp": 260,
+            "b2c_sales_unit_label": "Strip",
+            "b2c_base_unit_multiplier": 10,
+            "pu_entries": [
+              {
+                "pu_label": "Tablet",
+                "pu_multiplier": 1,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Strip",
+                "pu_multiplier": 10,
+                "pu_is_b2c_sales_unit": 1
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 30,
+                "pu_is_b2c_sales_unit": 0
+              }
+            ]
+          }
+        },
+        {
+          "brandId": "6dbd26c6-0782-44aa-8967-c2583d928ec6",
+          "sourceId": "33155",
+          "brandName": "Rozenon",
+          "manufacturer": "Synovia pharma plc",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/33155/rozenontablet10-mg",
+          "packId": "26b9060c-dd91-4aac-b1e8-bdf626d96a73",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": 10,
+          "unitPrice": "25",
+          "packPrice": "750",
+          "wasUpdatedInSync": true,
+          "aroggaId": 37093,
+          "aroggaName": "Rozenon 10",
+          "updateCategory": "STRIP",
+          "aroggaEvidence": {
+            "p_name": "Rozenon 10",
+            "p_strength": "10mg",
+            "p_form": "Tablet",
+            "p_brand_name": "Synovia Pharma PLC.",
+            "p_generic_name": "Rosuvastatin",
+            "pv_mrp": 25,
+            "pv_b2c_mrp": 250,
+            "b2c_sales_unit_label": "Strip",
+            "b2c_base_unit_multiplier": 10,
+            "pu_entries": [
+              {
+                "pu_label": "Tablet",
+                "pu_multiplier": 1,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Strip",
+                "pu_multiplier": 10,
+                "pu_is_b2c_sales_unit": 1
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 30,
+                "pu_is_b2c_sales_unit": 0
+              }
+            ]
+          }
+        },
+        {
+          "brandId": "6e109e34-c26f-4878-938c-b13256c3f0db",
+          "sourceId": "3408",
+          "brandName": "Rosuva",
+          "manufacturer": "Square Pharmaceuticals Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/3408/rosuvatablet10-mg",
+          "packId": "5b7dc6ed-d5c9-4adc-9c57-4db5b88dc712",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": 10,
+          "unitPrice": "22",
+          "packPrice": "660",
+          "wasUpdatedInSync": true,
+          "aroggaId": 16714,
+          "aroggaName": "Rosuva 10",
+          "updateCategory": "PRICE+STRIP",
+          "aroggaEvidence": {
+            "p_name": "Rosuva 10",
+            "p_strength": "10mg",
+            "p_form": "Tablet",
+            "p_brand_name": "Square Pharmaceuticals PLC.",
+            "p_generic_name": "Rosuvastatin",
+            "pv_mrp": 22,
+            "pv_b2c_mrp": 220,
+            "b2c_sales_unit_label": "Strip",
+            "b2c_base_unit_multiplier": 10,
+            "pu_entries": [
+              {
+                "pu_label": "Tablet",
+                "pu_multiplier": 1,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Strip",
+                "pu_multiplier": 10,
+                "pu_is_b2c_sales_unit": 1
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 30,
+                "pu_is_b2c_sales_unit": 0
+              }
+            ]
+          }
+        },
+        {
+          "brandId": "5c38a22d-edb1-428e-b4e8-9a0b5587c8c8",
+          "sourceId": "24364",
+          "brandName": "SB-Rostin",
+          "manufacturer": "Sunman-Birdem Pharma Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/24364/sb-rostintablet10-mg",
+          "packId": "99d62fda-b951-4aef-b5ed-55634d42dc49",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": null,
+          "unitPrice": "20",
+          "packPrice": "600",
+          "wasUpdatedInSync": false,
+          "aroggaId": null,
+          "aroggaName": null,
+          "updateCategory": null
+        },
+        {
+          "brandId": "ed54b015-7781-4433-bbaf-47b5debb7632",
+          "sourceId": "3389",
+          "brandName": "Rocovas",
+          "manufacturer": "Incepta Pharmaceuticals Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/3389/rocovastablet10-mg",
+          "packId": "2819d46c-b880-444d-9662-70c9e2368a8b",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": 10,
+          "unitPrice": "20",
+          "packPrice": "600",
+          "wasUpdatedInSync": true,
+          "aroggaId": 16603,
+          "aroggaName": "Rocovas 10",
+          "updateCategory": "STRIP",
+          "aroggaEvidence": {
+            "p_name": "Rocovas 10",
+            "p_strength": "10mg",
+            "p_form": "Tablet",
+            "p_brand_name": "Incepta Pharmaceuticals Ltd.",
+            "p_generic_name": "Rosuvastatin",
+            "pv_mrp": 20,
+            "pv_b2c_mrp": 200,
+            "b2c_sales_unit_label": "Strip",
+            "b2c_base_unit_multiplier": 10,
+            "pu_entries": [
+              {
+                "pu_label": "Tablet",
+                "pu_multiplier": 1,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Strip",
+                "pu_multiplier": 10,
+                "pu_is_b2c_sales_unit": 1
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 30,
+                "pu_is_b2c_sales_unit": 0
+              }
+            ]
+          }
+        },
+        {
+          "brandId": "0ec2045b-b678-4700-9638-78296303ee1b",
+          "sourceId": "3406",
+          "brandName": "Rosutin",
+          "manufacturer": "Beximco Pharmaceuticals Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/3406/rosutintablet10-mg",
+          "packId": "087e1c0f-5d47-4e04-abf4-5142e30740bc",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": 15,
+          "unitPrice": "22",
+          "packPrice": "660",
+          "wasUpdatedInSync": true,
+          "aroggaId": 16710,
+          "aroggaName": "Rosutin 10",
+          "updateCategory": "PRICE+STRIP",
+          "aroggaEvidence": {
+            "p_name": "Rosutin 10",
+            "p_strength": "10mg",
+            "p_form": "Tablet",
+            "p_brand_name": "Beximco Pharmaceuticals Ltd.",
+            "p_generic_name": "Rosuvastatin",
+            "pv_mrp": 22,
+            "pv_b2c_mrp": 330,
+            "b2c_sales_unit_label": "Strip",
+            "b2c_base_unit_multiplier": 15,
+            "pu_entries": [
+              {
+                "pu_label": "Tablet",
+                "pu_multiplier": 1,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Strip",
+                "pu_multiplier": 15,
+                "pu_is_b2c_sales_unit": 1
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 30,
+                "pu_is_b2c_sales_unit": 0
+              }
+            ]
+          }
+        },
+        {
+          "brandId": "57292e89-6420-4a77-99a2-42144c9b695d",
+          "sourceId": "27934",
+          "brandName": "Rosicard",
+          "manufacturer": "The White Horse Pharma",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/27934/rosicardtablet10-mg",
+          "packId": "25012880-2062-4263-bf3c-259c56032a4f",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": 10,
+          "unitPrice": "20",
+          "packPrice": "600",
+          "wasUpdatedInSync": true,
+          "aroggaId": 16688,
+          "aroggaName": "Rosicard 10",
+          "updateCategory": "STRIP",
+          "aroggaEvidence": {
+            "p_name": "Rosicard 10",
+            "p_strength": "10mg",
+            "p_form": "Tablet",
+            "p_brand_name": "The White Horse Pharmaceuticals Ltd",
+            "p_generic_name": "Rosuvastatin",
+            "pv_mrp": 20,
+            "pv_b2c_mrp": 200,
+            "b2c_sales_unit_label": "Strip",
+            "b2c_base_unit_multiplier": 10,
+            "pu_entries": [
+              {
+                "pu_label": "Tablet",
+                "pu_multiplier": 1,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Strip",
+                "pu_multiplier": 10,
+                "pu_is_b2c_sales_unit": 1
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 30,
+                "pu_is_b2c_sales_unit": 0
+              }
+            ]
+          }
+        },
+        {
+          "brandId": "68fda23e-9fc2-4c20-b38b-acb113f1dae1",
+          "sourceId": "24338",
+          "brandName": "Rosulip",
+          "manufacturer": "Globe Pharmaceuticals Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/24338/rosuliptablet10-mg",
+          "packId": "0a9463cc-90f7-468a-b111-b654ea25c1ba",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": 10,
+          "unitPrice": "18",
+          "packPrice": "540",
+          "wasUpdatedInSync": true,
+          "aroggaId": 16708,
+          "aroggaName": "Rosulip 10",
+          "updateCategory": "PRICE+STRIP",
+          "aroggaEvidence": {
+            "p_name": "Rosulip 10",
+            "p_strength": "10mg",
+            "p_form": "Tablet",
+            "p_brand_name": "Globe Pharmaceuticals Ltd.",
+            "p_generic_name": "Rosuvastatin",
+            "pv_mrp": 18,
+            "pv_b2c_mrp": 180,
+            "b2c_sales_unit_label": "Strip",
+            "b2c_base_unit_multiplier": 10,
+            "pu_entries": [
+              {
+                "pu_label": "Tablet",
+                "pu_multiplier": 1,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Strip",
+                "pu_multiplier": 10,
+                "pu_is_b2c_sales_unit": 1
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 30,
+                "pu_is_b2c_sales_unit": 0
+              }
+            ]
+          }
+        },
+        {
+          "brandId": "c2defd7b-ab31-4fb8-9bb3-c7a7c502cd8e",
+          "sourceId": "30237",
+          "brandName": "Rosufast",
+          "manufacturer": "Euro Pharma Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/30237/rosufasttablet10-mg",
+          "packId": "bdced65a-3e6e-4768-8d12-da3012760ae8",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": null,
+          "unitPrice": "20",
+          "packPrice": "600",
+          "wasUpdatedInSync": false,
+          "aroggaId": null,
+          "aroggaName": null,
+          "updateCategory": null
+        },
+        {
+          "brandId": "84a982a6-a356-4b59-a08d-215ea50ce632",
+          "sourceId": "24366",
+          "brandName": "Rosterol",
+          "manufacturer": "United Pharmaceuticals Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/24366/rosteroltablet10-mg",
+          "packId": "47503151-ff89-4bdb-9c3c-835cd449fadc",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": null,
+          "unitPrice": "20.08",
+          "packPrice": "602.3",
+          "wasUpdatedInSync": false,
+          "aroggaId": null,
+          "aroggaName": null,
+          "updateCategory": null
+        },
+        {
+          "brandId": "14227c3d-7078-4e25-bfdb-18b9c3b36155",
+          "sourceId": "24335",
+          "brandName": "Rosucard",
+          "manufacturer": "Concord Pharmaceuticals Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/24335/rosucardtablet10-mg",
+          "packId": "9a975d6a-62d5-4eee-92e7-5f365a2740ae",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": 10,
+          "unitPrice": "15",
+          "packPrice": "450",
+          "wasUpdatedInSync": true,
+          "aroggaId": 16705,
+          "aroggaName": "Rosucard 10",
+          "updateCategory": "STRIP",
+          "aroggaEvidence": {
+            "p_name": "Rosucard 10",
+            "p_strength": "10mg",
+            "p_form": "Tablet",
+            "p_brand_name": "Concord Pharmaceuticals Ltd.",
+            "p_generic_name": "Rosuvastatin",
+            "pv_mrp": 15,
+            "pv_b2c_mrp": 150,
+            "b2c_sales_unit_label": "Strip",
+            "b2c_base_unit_multiplier": 10,
+            "pu_entries": [
+              {
+                "pu_label": "Tablet",
+                "pu_multiplier": 1,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 30,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Strip",
+                "pu_multiplier": 10,
+                "pu_is_b2c_sales_unit": 1
+              }
+            ]
+          }
+        },
+        {
+          "brandId": "65b226e4-7b0d-4f38-85d4-d1488268bb9d",
+          "sourceId": "3395",
+          "brandName": "Rostab",
+          "manufacturer": "ACME Laboratories Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/3395/rostabtablet10-mg",
+          "packId": "fa273845-5630-4b5a-bbde-d4dca2864a66",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": 10,
+          "unitPrice": "26",
+          "packPrice": "780",
+          "wasUpdatedInSync": true,
+          "aroggaId": 16694,
+          "aroggaName": "Rostab 10",
+          "updateCategory": "PRICE+STRIP",
+          "aroggaEvidence": {
+            "p_name": "Rostab 10",
+            "p_strength": "10mg",
+            "p_form": "Tablet",
+            "p_brand_name": "The ACME Laboratories Ltd.",
+            "p_generic_name": "Rosuvastatin",
+            "pv_mrp": 26,
+            "pv_b2c_mrp": 260,
+            "b2c_sales_unit_label": "Strip",
+            "b2c_base_unit_multiplier": 10,
+            "pu_entries": [
+              {
+                "pu_label": "Tablet",
+                "pu_multiplier": 1,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Strip",
+                "pu_multiplier": 10,
+                "pu_is_b2c_sales_unit": 1
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 30,
+                "pu_is_b2c_sales_unit": 0
+              }
+            ]
+          }
+        },
+        {
+          "brandId": "9e312910-f94e-41a2-8bd6-99ef21c8333a",
+          "sourceId": "24341",
+          "brandName": "Rovast",
+          "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/24341/rovasttablet10-mg",
+          "packId": "c69819f3-efd2-4fa4-a85d-e3cdc400228b",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": 10,
+          "unitPrice": "20",
+          "packPrice": "600",
+          "wasUpdatedInSync": true,
+          "aroggaId": 16740,
+          "aroggaName": "Rovast 10",
+          "updateCategory": "STRIP",
+          "aroggaEvidence": {
+            "p_name": "Rovast 10",
+            "p_strength": "10mg",
+            "p_form": "Tablet",
+            "p_brand_name": "Healthcare Pharmaceuticals Ltd.",
+            "p_generic_name": "Rosuvastatin",
+            "pv_mrp": 20,
+            "pv_b2c_mrp": 200,
+            "b2c_sales_unit_label": "Strip",
+            "b2c_base_unit_multiplier": 10,
+            "pu_entries": [
+              {
+                "pu_label": "Tablet",
+                "pu_multiplier": 1,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Strip",
+                "pu_multiplier": 10,
+                "pu_is_b2c_sales_unit": 1
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 30,
+                "pu_is_b2c_sales_unit": 0
+              }
+            ]
+          }
+        },
+        {
+          "brandId": "c269a99e-d464-435f-8c8b-68a6ea05268a",
+          "sourceId": "3401",
+          "brandName": "Rosu",
+          "manufacturer": "Popular Pharmaceuticals Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/3401/rosutablet10-mg",
+          "packId": "0bc4550e-583c-4081-9897-4be57d71ec01",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": 10,
+          "unitPrice": "24",
+          "packPrice": "720",
+          "wasUpdatedInSync": true,
+          "aroggaId": 16703,
+          "aroggaName": "Rosu 10",
+          "updateCategory": "PRICE+STRIP",
+          "aroggaEvidence": {
+            "p_name": "Rosu 10",
+            "p_strength": "10mg",
+            "p_form": "Tablet",
+            "p_brand_name": "Popular Pharmaceuticals Ltd.",
+            "p_generic_name": "Rosuvastatin",
+            "pv_mrp": 24,
+            "pv_b2c_mrp": 240,
+            "b2c_sales_unit_label": "Strip",
+            "b2c_base_unit_multiplier": 10,
+            "pu_entries": [
+              {
+                "pu_label": "Tablet",
+                "pu_multiplier": 1,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Strip",
+                "pu_multiplier": 10,
+                "pu_is_b2c_sales_unit": 1
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 30,
+                "pu_is_b2c_sales_unit": 0
+              }
+            ]
+          }
+        },
+        {
+          "brandId": "ccd895a5-a06b-4d14-aea8-428efb674fe2",
+          "sourceId": "3410",
+          "brandName": "Rozavel",
+          "manufacturer": "Sun Pharmaceutical Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/3410/rozaveltablet10-mg",
+          "packId": "9d71ce65-4b78-467b-b6cc-c656982b86b0",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": 10,
+          "unitPrice": "25.08",
+          "packPrice": "752.4",
+          "wasUpdatedInSync": true,
+          "aroggaId": 16814,
+          "aroggaName": "Rozavel 10",
+          "updateCategory": "STRIP",
+          "aroggaEvidence": {
+            "p_name": "Rozavel 10",
+            "p_strength": "10mg",
+            "p_form": "Tablet",
+            "p_brand_name": "Sun Pharmaceutical (Bangladesh) Ltd.",
+            "p_generic_name": "Rosuvastatin",
+            "pv_mrp": 25.08,
+            "pv_b2c_mrp": 250.8,
+            "b2c_sales_unit_label": "Strip",
+            "b2c_base_unit_multiplier": 10,
+            "pu_entries": [
+              {
+                "pu_label": "Tablet",
+                "pu_multiplier": 1,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Strip",
+                "pu_multiplier": 10,
+                "pu_is_b2c_sales_unit": 1
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 30,
+                "pu_is_b2c_sales_unit": 0
+              }
+            ]
+          }
+        },
+        {
+          "brandId": "caf5fd62-6b27-46e7-99ad-b04abc207f14",
+          "sourceId": "24337",
+          "brandName": "RTV",
+          "manufacturer": "Delta Pharma Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/24337/rtvtablet10-mg",
+          "packId": "f794a892-fb05-40e8-95d4-811c6f4a9d9c",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": 10,
+          "unitPrice": "6",
+          "packPrice": "180",
+          "wasUpdatedInSync": true,
+          "aroggaId": 26677,
+          "aroggaName": "RTV 10",
+          "updateCategory": "STRIP",
+          "aroggaEvidence": {
+            "p_name": "RTV 10",
+            "p_strength": "10mg",
+            "p_form": "Tablet",
+            "p_brand_name": "Delta Pharma Limited",
+            "p_generic_name": "Rosuvastatin",
+            "pv_mrp": 6,
+            "pv_b2c_mrp": 60,
+            "b2c_sales_unit_label": "Strip",
+            "b2c_base_unit_multiplier": 10,
+            "pu_entries": [
+              {
+                "pu_label": "Tablet",
+                "pu_multiplier": 1,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Strip",
+                "pu_multiplier": 10,
+                "pu_is_b2c_sales_unit": 1
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 30,
+                "pu_is_b2c_sales_unit": 0
+              }
+            ]
+          }
+        }
+      ],
+      "summary": {
+        "totalMembersInGroup": 17,
+        "membersUpdatedWithStrip": 14,
+        "membersWithPreExistingStrip": 0,
+        "distinctUpdatedStripUnits": [
+          10,
+          15
+        ],
+        "distinctPreExistingStripUnits": []
+      },
+      "assessment": "LEGITIMATE_MANUFACTURER_PACKAGING_DIFFERENCE",
+      "assessmentDetails": "Beximco Rosutin 10 mg uses 2 x 15's blisters (stripUnits=15, Arogga id=16710), while 13 peer brands (Rolip, Ruvastin, Rosuva, Rocovas, Rozavel, etc.) use 3 x 10's (stripUnits=10)."
+    },
+    {
+      "groupKey": "efa6fe21-a12f-4ea5-a859-6d630746e5f1|2mg|tablet|60's pack",
+      "genericId": "efa6fe21-a12f-4ea5-a859-6d630746e5f1",
+      "genericName": "Clonazepam",
+      "strength": "2 mg",
+      "dosageForm": "Tablet",
+      "packQuantity": "60's pack",
+      "distinctStripUnitsNow": [
+        10,
+        15
+      ],
+      "members": [
+        {
+          "brandId": "1aa8234e-4ed7-4817-a5c1-6514a980e573",
+          "sourceId": "4865",
+          "brandName": "Pase",
+          "manufacturer": "Opsonin Pharma Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/4865/pase-2-mg-tablet",
+          "packId": "419a4f44-3aed-4beb-91c4-6a39542acd38",
+          "packQuantity": "60's pack",
+          "packUnits": 60,
+          "previousStripUnits": 15,
+          "currentStripUnits": 15,
+          "unitPrice": "11.5",
+          "packPrice": "690",
+          "wasUpdatedInSync": true,
+          "aroggaId": 14595,
+          "aroggaName": "Pase 2",
+          "updateCategory": "PRICE",
+          "aroggaEvidence": {
+            "p_name": "Pase 2",
+            "p_strength": "2mg",
+            "p_form": "Tablet",
+            "p_brand_name": "Opsonin Pharma Limited",
+            "p_generic_name": "Clonazepam",
+            "pv_mrp": 11.5,
+            "pv_b2c_mrp": 172.5,
+            "b2c_sales_unit_label": "Strip",
+            "b2c_base_unit_multiplier": 15,
+            "pu_entries": [
+              {
+                "pu_label": "Tablet",
+                "pu_multiplier": 1,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Strip",
+                "pu_multiplier": 15,
+                "pu_is_b2c_sales_unit": 1
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 60,
+                "pu_is_b2c_sales_unit": 0
+              }
+            ]
+          }
+        },
+        {
+          "brandId": "69b7153d-7548-4f19-ab3b-fec57dfa8d0f",
+          "sourceId": "4870",
+          "brandName": "Rivotril",
+          "manufacturer": "Radiant Pharmaceuticals Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/4870/rivotriltablet2-mg",
+          "packId": "75243d79-200e-43c2-af8d-12d4ea21cc63",
+          "packQuantity": "60's pack",
+          "packUnits": 60,
+          "previousStripUnits": null,
+          "currentStripUnits": 10,
+          "unitPrice": "14",
+          "packPrice": "840",
+          "wasUpdatedInSync": true,
+          "aroggaId": 16563,
+          "aroggaName": "Rivotril 2",
+          "updateCategory": "PRICE+STRIP",
+          "aroggaEvidence": {
+            "p_name": "Rivotril 2",
+            "p_strength": "2mg",
+            "p_form": "Tablet",
+            "p_brand_name": "Radiant Pharmaceuticals Ltd.",
+            "p_generic_name": "Clonazepam",
+            "pv_mrp": 14,
+            "pv_b2c_mrp": 140,
+            "b2c_sales_unit_label": "Strip",
+            "b2c_base_unit_multiplier": 10,
+            "pu_entries": [
+              {
+                "pu_label": "Tablet",
+                "pu_multiplier": 1,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Strip",
+                "pu_multiplier": 10,
+                "pu_is_b2c_sales_unit": 1
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 60,
+                "pu_is_b2c_sales_unit": 0
+              }
+            ]
+          }
+        }
+      ],
+      "summary": {
+        "totalMembersInGroup": 2,
+        "membersUpdatedWithStrip": 1,
+        "membersWithPreExistingStrip": 1,
+        "distinctUpdatedStripUnits": [
+          10
+        ],
+        "distinctPreExistingStripUnits": [
+          15
+        ]
+      },
+      "assessment": "LEGITIMATE_MANUFACTURER_PACKAGING_DIFFERENCE",
+      "assessmentDetails": "Opsonin Pase 2 mg uses 4 x 15's blisters (stripUnits=15 pre-existing & confirmed by Arogga id=14595 + opsonin-pharma.com), whereas Radiant Rivotril 2 mg uses 6 x 10's (stripUnits=10, Arogga id=16563 + radiantpharmabd.com)."
+    },
+    {
+      "groupKey": "e494512f-a21c-4a46-98de-e9fff065ea14|250mg|tablet|6's pack",
+      "genericId": "e494512f-a21c-4a46-98de-e9fff065ea14",
+      "genericName": "Azithromycin Dihydrate",
+      "strength": "250 mg",
+      "dosageForm": "Tablet",
+      "packQuantity": "6's pack",
+      "distinctStripUnitsNow": [
+        3,
+        6
+      ],
+      "members": [
+        {
+          "brandId": "3bf47ae4-61b4-4db4-8981-6d95995c2048",
+          "sourceId": "8634",
+          "brandName": "Curazith",
+          "manufacturer": "Synovia Pharma PLC.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/8634/curazith-250-mg-tablet",
+          "packId": "d8e3183d-b5c3-4bc5-a65b-3c1d3769b980",
+          "packQuantity": "6's pack",
+          "packUnits": 6,
+          "previousStripUnits": null,
+          "currentStripUnits": null,
+          "unitPrice": "20.06",
+          "packPrice": "120.36",
+          "wasUpdatedInSync": false,
+          "aroggaId": null,
+          "aroggaName": null,
+          "updateCategory": null
+        },
+        {
+          "brandId": "1f418f95-a69d-46d5-83d8-7a56d515ad27",
+          "sourceId": "8699",
+          "brandName": "Thromax",
+          "manufacturer": "Novo Healthcare and Pharma Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/8699/thromaxtablet250-mg",
+          "packId": "93eabc0b-dd1f-4ebc-b4a5-6d6a05a32254",
+          "packQuantity": "6's pack",
+          "packUnits": 6,
+          "previousStripUnits": null,
+          "currentStripUnits": null,
+          "unitPrice": "20",
+          "packPrice": "120",
+          "wasUpdatedInSync": false,
+          "aroggaId": null,
+          "aroggaName": null,
+          "updateCategory": null
+        },
+        {
+          "brandId": "d110ed91-c825-40ad-8f8c-f7fafeae709c",
+          "sourceId": "8702",
+          "brandName": "Tridosil",
+          "manufacturer": "Incepta Pharmaceuticals Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/8702/tridosiltablet250-mg",
+          "packId": "70628bf4-1f8a-4a06-8702-9d7e40f87cb1",
+          "packQuantity": "6's pack",
+          "packUnits": 6,
+          "previousStripUnits": 3,
+          "currentStripUnits": 3,
+          "unitPrice": "25",
+          "packPrice": "150",
+          "wasUpdatedInSync": false,
+          "aroggaId": null,
+          "aroggaName": null,
+          "updateCategory": null
+        },
+        {
+          "brandId": "c9a4470a-90a8-4d6a-8671-5b5db766b520",
+          "sourceId": "8687",
+          "brandName": "Rozith",
+          "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/8687/rozithtablet250-mg",
+          "packId": "4f37e83c-26fe-4fdd-bd4b-8fe4bc92ff4b",
+          "packQuantity": "6's pack",
+          "packUnits": 6,
+          "previousStripUnits": null,
+          "currentStripUnits": 6,
+          "unitPrice": "30",
+          "packPrice": "180",
+          "wasUpdatedInSync": true,
+          "aroggaId": 16817,
+          "aroggaName": "Rozith",
+          "updateCategory": "PRICE+STRIP",
+          "aroggaEvidence": {
+            "p_name": "Rozith",
+            "p_strength": "250mg",
+            "p_form": "Tablet",
+            "p_brand_name": "Healthcare Pharmaceuticals Ltd.",
+            "p_generic_name": "Azithromycin",
+            "pv_mrp": 30,
+            "pv_b2c_mrp": 180,
+            "b2c_sales_unit_label": "Strip",
+            "b2c_base_unit_multiplier": 6,
+            "pu_entries": [
+              {
+                "pu_label": "Tablet",
+                "pu_multiplier": 1,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Strip",
+                "pu_multiplier": 6,
+                "pu_is_b2c_sales_unit": 1
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 12,
+                "pu_is_b2c_sales_unit": 0
+              }
+            ]
+          }
+        }
+      ],
+      "summary": {
+        "totalMembersInGroup": 4,
+        "membersUpdatedWithStrip": 1,
+        "membersWithPreExistingStrip": 1,
+        "distinctUpdatedStripUnits": [
+          6
+        ],
+        "distinctPreExistingStripUnits": [
+          3
+        ]
+      },
+      "assessment": "LEGITIMATE_MANUFACTURER_PACKAGING_DIFFERENCE",
+      "assessmentDetails": "Incepta Tridosil 250 mg uses 2 x 3's blisters (pre-existing stripUnits=3), whereas Healthcare Rozith 250 mg packs 6 tablets per strip (stripUnits=6 via Arogga id=16817 pu='Strip:6, Box:12')."
+    },
+    {
+      "groupKey": "a9d7cca3-a4de-4d88-9a9d-6bbc4d0ca231|20mg|tablet|30's pack",
+      "genericId": "a9d7cca3-a4de-4d88-9a9d-6bbc4d0ca231",
+      "genericName": "Rosuvastatin",
+      "strength": "20 mg",
+      "dosageForm": "Tablet",
+      "packQuantity": "30's pack",
+      "distinctStripUnitsNow": [
+        10,
+        15
+      ],
+      "members": [
+        {
+          "brandId": "b6bc03d5-0ad3-4f1a-bb41-379006e02477",
+          "sourceId": "24363",
+          "brandName": "SB-Rostin",
+          "manufacturer": "Sunman-Birdem Pharma Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/24363/sb-rostintablet20-mg",
+          "packId": "b4bc5c0d-be9a-4e9d-8be4-31c59c44040c",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": null,
+          "unitPrice": "30",
+          "packPrice": "900",
+          "wasUpdatedInSync": false,
+          "aroggaId": null,
+          "aroggaName": null,
+          "updateCategory": null
+        },
+        {
+          "brandId": "330dd0f8-c9a3-4844-b52c-65523383b81b",
+          "sourceId": "24328",
+          "brandName": "Rosutin",
+          "manufacturer": "Beximco Pharmaceuticals Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/24328/rosutintablet20-mg",
+          "packId": "7075c550-9ef5-49c8-978a-c1fa05b293f9",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": 15,
+          "unitPrice": "32",
+          "packPrice": "960",
+          "wasUpdatedInSync": true,
+          "aroggaId": 16711,
+          "aroggaName": "Rosutin 20",
+          "updateCategory": "PRICE+STRIP",
+          "aroggaEvidence": {
+            "p_name": "Rosutin 20",
+            "p_strength": "20mg",
+            "p_form": "Tablet",
+            "p_brand_name": "Beximco Pharmaceuticals Ltd.",
+            "p_generic_name": "Rosuvastatin",
+            "pv_mrp": 32,
+            "pv_b2c_mrp": 480,
+            "b2c_sales_unit_label": "Strip",
+            "b2c_base_unit_multiplier": 15,
+            "pu_entries": [
+              {
+                "pu_label": "Tablet",
+                "pu_multiplier": 1,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Strip",
+                "pu_multiplier": 15,
+                "pu_is_b2c_sales_unit": 1
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 30,
+                "pu_is_b2c_sales_unit": 0
+              }
+            ]
+          }
+        },
+        {
+          "brandId": "f5fc8eaa-5da7-4322-94b0-7594b25cecaa",
+          "sourceId": "31951",
+          "brandName": "Rozavel",
+          "manufacturer": "Sun Pharmaceutical Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/31951/rozaveltablet20-mg",
+          "packId": "68af0754-18c6-4a99-ab95-b81d74271a0e",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": null,
+          "unitPrice": "30",
+          "packPrice": "900",
+          "wasUpdatedInSync": false,
+          "aroggaId": null,
+          "aroggaName": null,
+          "updateCategory": null
+        },
+        {
+          "brandId": "ac7a1ce9-f210-4993-a9a3-5f89f301e6e4",
+          "sourceId": "31928",
+          "brandName": "RTV",
+          "manufacturer": "Delta Pharma Ltd.",
+          "dosageForm": "Tablet",
+          "medexUrl": "https://medex.com.bd/brands/31928/rtvtablet20-mg",
+          "packId": "f16c7aab-93a0-4bdb-917e-e9f0b5f4a05a",
+          "packQuantity": "30's pack",
+          "packUnits": 30,
+          "previousStripUnits": null,
+          "currentStripUnits": 10,
+          "unitPrice": "8",
+          "packPrice": "240",
+          "wasUpdatedInSync": true,
+          "aroggaId": 28448,
+          "aroggaName": "RTV 20",
+          "updateCategory": "STRIP",
+          "aroggaEvidence": {
+            "p_name": "RTV 20",
+            "p_strength": "20mg",
+            "p_form": "Tablet",
+            "p_brand_name": "Delta Pharma Limited",
+            "p_generic_name": "Rosuvastatin",
+            "pv_mrp": 8,
+            "pv_b2c_mrp": 80,
+            "b2c_sales_unit_label": "Strip",
+            "b2c_base_unit_multiplier": 10,
+            "pu_entries": [
+              {
+                "pu_label": "Tablet",
+                "pu_multiplier": 1,
+                "pu_is_b2c_sales_unit": 0
+              },
+              {
+                "pu_label": "Strip",
+                "pu_multiplier": 10,
+                "pu_is_b2c_sales_unit": 1
+              },
+              {
+                "pu_label": "Box",
+                "pu_multiplier": 30,
+                "pu_is_b2c_sales_unit": 0
+              }
+            ]
+          }
+        }
+      ],
+      "summary": {
+        "totalMembersInGroup": 4,
+        "membersUpdatedWithStrip": 2,
+        "membersWithPreExistingStrip": 0,
+        "distinctUpdatedStripUnits": [
+          10,
+          15
+        ],
+        "distinctPreExistingStripUnits": []
+      },
+      "assessment": "LEGITIMATE_MANUFACTURER_PACKAGING_DIFFERENCE",
+      "assessmentDetails": "Beximco Rosutin 20 mg uses 2 x 15's blisters (stripUnits=15, Arogga id=16711), whereas Delta RTV 20 mg uses 3 x 10's (stripUnits=10, Arogga id=28448)."
+    }
+  ],
+  "generatedAt": "2026-11-25T12:18:00+06:00",
+  "readOnly": true,
+  "verdictCounts": {
+    "LEGITIMATE_MANUFACTURER_PACKAGING_DIFFERENCE": 7
+  }
+}

@@ -6,7 +6,12 @@ import {
   HttpStatus,
   Logger,
 } from '@nestjs/common';
-import type { Request, Response } from 'express';
+import type { Response } from 'express';
+import {
+  formatStructuredLogLine,
+  RequestWithContext,
+  sanitizePathForLog,
+} from '../logging/request-context';
 
 /**
  * Normalizes HTTP and unexpected errors while ensuring secrets, tokens,
@@ -19,7 +24,8 @@ export class HttpExceptionFilter implements ExceptionFilter {
   catch(exception: unknown, host: ArgumentsHost): void {
     const ctx = host.switchToHttp();
     const response = ctx.getResponse<Response>();
-    const request = ctx.getRequest<Request>();
+    const request = ctx.getRequest<RequestWithContext>();
+    const cleanPath = sanitizePathForLog(request?.originalUrl ?? request?.url);
 
     let status = HttpStatus.INTERNAL_SERVER_ERROR;
     let message: string | string[] = 'Internal server error';
@@ -46,7 +52,15 @@ export class HttpExceptionFilter implements ExceptionFilter {
       const safeSummary =
         exception instanceof Error ? exception.name : 'UnknownError';
       this.logger.error(
-        `Unhandled exception (${safeSummary}) on ${request?.method ?? 'UNKNOWN'} ${request?.url ?? ''}`,
+        formatStructuredLogLine({
+          level: 'error',
+          type: 'unhandled_exception',
+          requestId: request?.requestId,
+          method: request?.method ?? 'UNKNOWN',
+          path: cleanPath,
+          statusCode: status,
+          message: `Unhandled exception (${safeSummary})`,
+        }),
       );
     }
 
@@ -54,7 +68,8 @@ export class HttpExceptionFilter implements ExceptionFilter {
       statusCode: status,
       error,
       message,
-      path: request?.url ?? '',
+      path: cleanPath,
+      ...(request?.requestId ? { requestId: request.requestId } : {}),
       timestamp: new Date().toISOString(),
     });
   }

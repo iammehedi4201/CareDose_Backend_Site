@@ -1,0 +1,91 @@
+{
+  "generatedAt": "2026-11-24T07:34:47.152Z",
+  "mode": "EXECUTED",
+  "source": "kaggle",
+  "batchSize": 500,
+  "backupReadiness": {
+    "jsonSnapshotPath": "F:\\My Projects\\CareDose\\backend\\reports\\reconciliation\\pre_import_backup_2026-11-24T07-34-18-078Z.json",
+    "pgDumpRequiredBeforeExecute": true,
+    "pgDumpAvailableLocally": false,
+    "note": "pg_dump binary was not detected on this Windows host; run pg_dump against DIRECT_URL or create a Supabase dashboard backup before running --execute."
+  },
+  "manifestCounts": {
+    "inputCandidates": 1409,
+    "approvedBrandsCount": 1327,
+    "approvedDistinctFormVariationsCount": 31,
+    "approvedBlankStrengthCount": 41,
+    "approvedNewGenericsCount": 53,
+    "approvedExistingExactGenericLinksCount": 1039,
+    "approvedExistingDupGroupSiteLinksCount": 187,
+    "approvedExistingEquivalentMappedLinksCount": 19,
+    "approvedPacksCount": 1476,
+    "brandsWithoutPacksCount": 16,
+    "excludedBrandsCount": 82,
+    "excludedBreakdown": {
+      "UNCERTAIN_GENERIC_RELATIONSHIP": 71,
+      "BORDERLINE_FORM_EQUIVALENT": 5,
+      "INTRA_CSV_SAME_MFR_DUPLICATE": 6
+    },
+    "duplicatePacksSkippedCount": 1,
+    "packWarningsSkippedCount": 0
+  },
+  "beforeDatabaseCounts": {
+    "generics": 1793,
+    "brands": 23881,
+    "packs": 25992,
+    "alternativeGroups": 2241,
+    "alternativeGroupBrands": 21696,
+    "images": 52,
+    "patientMedications": 0
+  },
+  "projectedAfterDatabaseCounts": {
+    "generics": 1846,
+    "brands": 25208,
+    "packs": 27468
+  },
+  "actualSyncOutcome": {
+    "batchId": "a10beeb7-aac9-4efe-8ce1-af5568e41ddd",
+    "insertedGenerics": 53,
+    "insertedBrands": 1327,
+    "insertedPacks": 1476,
+    "insertedAltGroups": 0,
+    "insertedAltLinks": 0,
+    "updatedRecords": 0,
+    "logs": [
+      "Saved pre-import JSON snapshot to F:\\My Projects\\CareDose\\backend\\reports\\reconciliation\\pre_import_backup_2026-11-24T07-34-18-078Z.json",
+      "COMPLETED atomic batch a10beeb7-aac9-4efe-8ce1-af5568e41ddd: +53 generics, +1327 brands, +1476 packs."
+    ],
+    "skippedRecords": 20387,
+    "backupFile": "F:\\My Projects\\CareDose\\backend\\reports\\reconciliation\\pre_import_backup_2026-11-24T07-34-18-078Z.json"
+  },
+  "validation": {
+    "passed": true,
+    "checks": {
+      "noAccidentalDeletions": {
+        "ok": true,
+        "value": 1327,
+        "note": "Net brand delta: 1327"
+      },
+      "missingBrandNames": {
+        "ok": true,
+        "value": 0,
+        "note": "All brands must have non-empty names"
+      },
+      "missingDosageForms": {
+        "ok": true,
+        "value": 0,
+        "note": "All brands should have dosage forms"
+      },
+      "brandsMissingGeneric": {
+        "ok": true,
+        "value": 0,
+        "note": "Brands with null genericId (before=0, after=0)"
+      },
+      "sameManufacturerCanonicalDuplicateGroups": {
+        "ok": true,
+        "value": 16,
+        "note": "Informational count of existing+new same-manufacturer canonical duplicate groups"
+      }
+    }
+  }
+}

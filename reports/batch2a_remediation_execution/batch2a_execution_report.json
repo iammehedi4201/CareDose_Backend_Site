@@ -1,0 +1,1398 @@
+{
+  "status": "EXECUTED_COMMITTED_SINGLE_TRANSACTION",
+  "transactionIsolationLevel": "Serializable",
+  "startedAt": "2026-11-25T08:18:45.832Z",
+  "finishedAt": "2026-11-25T08:19:00.076Z",
+  "backupPath": "F:\\My Projects\\CareDose\\care_dose_pre_batch2a_46_backup.dump",
+  "rollbackManifestPath": "F:\\My Projects\\CareDose\\backend\\reports\\batch2a_remediation_execution\\batch2a_rollback_manifest.json",
+  "preconditionsMatched": 46,
+  "totalUpdated": 46,
+  "tierBreakdown": {
+    "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE": 42,
+    "TIER2_LIVE_MEDEX_MRP_OVERRIDE_PRICE": 4
+  },
+  "fieldsModified": [
+    "unitPrice",
+    "packPrice"
+  ],
+  "fieldsPreserved": [
+    "packQuantity",
+    "packUnits",
+    "stripUnits",
+    "currency",
+    "verification",
+    "warnings",
+    "brandId",
+    "MedicineBrand",
+    "MedicineGeneric"
+  ],
+  "records": [
+    {
+      "packId": "ee18202b-d71a-417f-8f83-bb5124a404b4",
+      "brandId": "068c0421-b777-4e24-8487-a91524c09d2c",
+      "sourceId": "36256",
+      "brandName": "Annova",
+      "genericName": "Naproxen Sodium",
+      "strength": "250 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "50's pack",
+      "packUnits": 50,
+      "stripUnits": 10,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": "4.26",
+      "oldPackPriceRaw": "217.5",
+      "fieldsToUpdate": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "newUnitPrice": "9.00",
+      "newPackPrice": "450.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/36256/annova-250-mg-tablet",
+        "aroggaId": 60665,
+        "verificationNote": "Live MedEx: 9.00/tab, 10's 90.00 -> 50's 450.00; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "fb327448-4c41-48c1-ad9e-7107bdc70ac4",
+      "brandId": "0e87f5a5-5929-4082-8d5f-a1689583b2dd",
+      "sourceId": "37244",
+      "brandName": "Montinex Fast",
+      "genericName": "Montelukast Sodium",
+      "strength": "10 mg",
+      "dosageForm": "Chewable Tablet",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "oldUnitPriceRaw": "8",
+      "oldPackPriceRaw": "180.9",
+      "fieldsToUpdate": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "newUnitPrice": "18.00",
+      "newPackPrice": "540.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/37244/montinex-fast-10-mg-chewable-tablet",
+        "aroggaId": 70493,
+        "verificationNote": "Live MedEx: 18.00/tab, 3x10 540.00; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "b884e230-3080-45c6-9585-45db1cc4a210",
+      "brandId": "1b258d5c-e85f-40e4-b3fd-c8b1d63c919c",
+      "sourceId": "16457",
+      "brandName": "Fixolin",
+      "genericName": "Doxophylline",
+      "strength": "400 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": "5",
+      "oldPackPriceRaw": "150",
+      "fieldsToUpdate": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "newUnitPrice": "12.00",
+      "newPackPrice": "360.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/16457/fixolin-400-mg-tablet",
+        "aroggaId": 26750,
+        "verificationNote": "Live MedEx: 12.00/tab, 3x10 360.00; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "9102e24f-bac5-429d-aeaf-89ce19b29c1f",
+      "brandId": "26d4dd8d-e510-4c28-a2b9-0a4393e5dca5",
+      "sourceId": "2170",
+      "brandName": "Pansos",
+      "genericName": "Pantoprazole Sodium",
+      "strength": "20 mg",
+      "dosageForm": "Tablet (Enteric Coated)",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "50's pack",
+      "packUnits": 50,
+      "stripUnits": 10,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": "3.01",
+      "oldPackPriceRaw": "150.5",
+      "fieldsToUpdate": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "newUnitPrice": "7.00",
+      "newPackPrice": "350.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/2170/pansos-20-mg-tablet",
+        "aroggaId": 14464,
+        "verificationNote": "Live MedEx: 7.00/tab, 5x10 350.00; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "cc3c1cb2-d8fb-447b-a7aa-9d9830a1b263",
+      "brandId": "131151ed-3ccf-46d7-b4ee-9b0d209a731a",
+      "sourceId": "19310",
+      "brandName": "Defrol",
+      "genericName": "Cholecalciferol [Vitamin D3]",
+      "strength": "1000 IU",
+      "dosageForm": "Tablet",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": "2",
+      "oldPackPriceRaw": "60",
+      "fieldsToUpdate": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "newUnitPrice": "6.00",
+      "newPackPrice": "180.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/19310/defrol-1000-iu-tablet",
+        "aroggaId": 5080,
+        "verificationNote": "Live MedEx: 6.00/tab (10's 60, 5x10 300); matches Arogga st=1 30's=180."
+      }
+    },
+    {
+      "packId": "9b369505-dbb9-4ca8-ab0e-eecd66943748",
+      "brandId": "41860757-6658-4b5d-80bc-e16a83cb4f67",
+      "sourceId": "38836",
+      "brandName": "Finmax",
+      "genericName": "Finerenone",
+      "strength": "10 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Delta Pharma Ltd.",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "10's pack",
+      "packUnits": 10,
+      "stripUnits": 10,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": "80",
+      "oldPackPriceRaw": "800",
+      "fieldsToUpdate": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "newUnitPrice": "30.00",
+      "newPackPrice": "300.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/38836/finmax-10-mg-tablet",
+        "aroggaId": 85949,
+        "verificationNote": "Live MedEx: 30.00/tab (30's 900); matches Arogga st=1 10's=300."
+      }
+    },
+    {
+      "packId": "19449923-a8cc-4952-b7b9-6dbc2de87b48",
+      "brandId": "ceac1c93-45fd-4708-ba14-d6d74e70b9c7",
+      "sourceId": "38837",
+      "brandName": "Finmax",
+      "genericName": "Finerenone",
+      "strength": "20 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Delta Pharma Ltd.",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "10's pack",
+      "packUnits": 10,
+      "stripUnits": 10,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": "150",
+      "oldPackPriceRaw": "1500",
+      "fieldsToUpdate": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "newUnitPrice": "50.00",
+      "newPackPrice": "500.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/38837/finmax-20-mg-tablet",
+        "aroggaId": 85948,
+        "verificationNote": "Live MedEx: 50.00/tab (30's 1500); matches Arogga st=1 10's=500."
+      }
+    },
+    {
+      "packId": "85ac7209-cb15-45ff-a022-40bdb02fd9d7",
+      "brandId": "77b2d38a-bb46-447c-a844-022f28514186",
+      "sourceId": "30216",
+      "brandName": "Regocent",
+      "genericName": "Regorafenib Monohydrate",
+      "strength": "40 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "10's pack",
+      "packUnits": 10,
+      "stripUnits": null,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": "700",
+      "oldPackPriceRaw": "7000",
+      "fieldsToUpdate": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "newUnitPrice": "200.00",
+      "newPackPrice": "2000.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/30216/regocent-40-mg-tablet",
+        "aroggaId": 75998,
+        "verificationNote": "Live MedEx: 200.00/tab, 10's 2000.00; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "7a7d75e1-b6fe-4fac-a62f-0bd2312ae870",
+      "brandId": "83b268f8-da02-45b5-8886-4bdb2f9ab82b",
+      "sourceId": "10797",
+      "brandName": "Zomitan",
+      "genericName": "Zolmitriptan",
+      "strength": "2.5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "10's pack",
+      "packUnits": 10,
+      "stripUnits": null,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": "25",
+      "oldPackPriceRaw": "250",
+      "fieldsToUpdate": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "newUnitPrice": "10.00",
+      "newPackPrice": "100.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/10797/zomitantablet25-mg",
+        "aroggaId": 20994,
+        "verificationNote": "Live MedEx: 10.00/tab, 10's 100.00; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "f8eea2b6-fd7a-4f7e-a824-6c8863517fd6",
+      "brandId": "76576ea9-5874-49d0-b84e-233354c0559a",
+      "sourceId": "38441",
+      "brandName": "Fenadin ODT",
+      "genericName": "Fexofenadine Hydrochloride",
+      "strength": "30 mg",
+      "dosageForm": "Dispersible Tablet",
+      "manufacturer": "Renata PLC",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "oldUnitPriceRaw": "8",
+      "oldPackPriceRaw": "270",
+      "fieldsToUpdate": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "newUnitPrice": "3.50",
+      "newPackPrice": "105.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/38441/fenadin-odt-30-mg-tablet",
+        "aroggaId": 26588,
+        "verificationNote": "Live MedEx: 3.50/tab, 30's 105.00; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "003d727f-5b21-4423-b83d-4ec5f121f0a5",
+      "brandId": "3383f481-d7c9-4271-bd34-15f7d0f509de",
+      "sourceId": "14570",
+      "brandName": "Oral-Z",
+      "genericName": "Zinc Sulfate Monohydrate",
+      "strength": "10 mg/5 ml",
+      "dosageForm": "Syrup",
+      "manufacturer": "ACI Limited",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "100 ml bottle",
+      "packUnits": null,
+      "stripUnits": null,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": null,
+      "oldPackPriceRaw": "26.18",
+      "fieldsToUpdate": [
+        "packPrice"
+      ],
+      "newUnitPrice": null,
+      "newPackPrice": "55.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/14570/oral-z-10-mg-syrup",
+        "aroggaId": 13921,
+        "verificationNote": "Live MedEx: 55.00 / 100 ml bottle; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "030b808b-36d5-4d2a-903b-5d7f8f0f7e9d",
+      "brandId": "38034e7d-7657-4f04-b533-be1069cc30d0",
+      "sourceId": "6599",
+      "brandName": "Moxin",
+      "genericName": "Amoxicillin Trihydrate",
+      "strength": "500 mg/vial",
+      "dosageForm": "IM/IV Injection",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "500 mg vial",
+      "packUnits": null,
+      "stripUnits": null,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": null,
+      "oldPackPriceRaw": "26.17",
+      "fieldsToUpdate": [
+        "packPrice"
+      ],
+      "newUnitPrice": null,
+      "newPackPrice": "55.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/6599/moxin-500-mg-injection",
+        "aroggaId": 12204,
+        "verificationNote": "Live MedEx: 55.00 / vial; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "9430dec8-c1d6-480b-8960-dbda92245ee8",
+      "brandId": "38034e7d-7657-4f04-b533-be1069cc30d0",
+      "sourceId": "6599",
+      "brandName": "Moxin",
+      "genericName": "Amoxicillin Trihydrate",
+      "strength": "500 mg/vial",
+      "dosageForm": "IM/IV Injection",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "4's pack",
+      "packUnits": 4,
+      "stripUnits": null,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": null,
+      "oldPackPriceRaw": "104.68",
+      "fieldsToUpdate": [
+        "packPrice"
+      ],
+      "newUnitPrice": null,
+      "newPackPrice": "220.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/6599/moxin-500-mg-injection",
+        "aroggaId": 12204,
+        "verificationNote": "Live MedEx: 55.00/vial x 4 = 220.00; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "b4f77603-5ab0-4d40-875a-998fa4ac8ea8",
+      "brandId": "972c0b83-e912-487c-9162-4be57c1e3792",
+      "sourceId": "33476",
+      "brandName": "Itracon",
+      "genericName": "Itraconazole",
+      "strength": "50 mg/5 ml",
+      "dosageForm": "Oral Solution",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "100 ml bottle",
+      "packUnits": null,
+      "stripUnits": null,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": null,
+      "oldPackPriceRaw": "100",
+      "fieldsToUpdate": [
+        "packPrice"
+      ],
+      "newUnitPrice": null,
+      "newPackPrice": "580.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/33476/itracon-50-mg-oral-solution",
+        "aroggaId": 56375,
+        "verificationNote": "Live BD MedEx/pharmacy: 580.00 / 100 ml bottle; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "8ceb3c8f-136f-455e-b7fb-294c08b44322",
+      "brandId": "9498332c-1c23-4c72-9cb5-f3c062986411",
+      "sourceId": "35255",
+      "brandName": "Natrol",
+      "genericName": "Xylometazoline Hydrochloride",
+      "strength": "0.05%",
+      "dosageForm": "Nasal Spray",
+      "manufacturer": "Drug International Ltd.",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "120 metered sprays",
+      "packUnits": null,
+      "stripUnits": null,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": null,
+      "oldPackPriceRaw": "250",
+      "fieldsToUpdate": [
+        "packPrice"
+      ],
+      "newUnitPrice": null,
+      "newPackPrice": "80.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/35255/natrol-005-nasal-spray",
+        "aroggaId": 62055,
+        "verificationNote": "Live MedEx: 80.00 / 120 metered sprays; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "0e174b1b-f0b3-4960-af80-25897f0aa6ad",
+      "brandId": "f6fcd5c5-c499-4c4c-884c-803c268822ec",
+      "sourceId": "35256",
+      "brandName": "Natrol",
+      "genericName": "Xylometazoline Hydrochloride",
+      "strength": "0.1%",
+      "dosageForm": "Nasal Spray",
+      "manufacturer": "Drug International Ltd.",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "120 metered sprays",
+      "packUnits": null,
+      "stripUnits": null,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": null,
+      "oldPackPriceRaw": "250",
+      "fieldsToUpdate": [
+        "packPrice"
+      ],
+      "newUnitPrice": null,
+      "newPackPrice": "100.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/35256/natrol-01-nasal-spray",
+        "aroggaId": 1261,
+        "verificationNote": "Live MedEx: 100.00 / 120 metered sprays; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "b9443859-7e92-47cc-a901-cd1252bf93eb",
+      "brandId": "274313e8-88c2-4c88-b2f1-a6a511e68341",
+      "sourceId": "35412",
+      "brandName": "Loxodol",
+      "genericName": "Lornoxicam",
+      "strength": "8 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": "6.5",
+      "oldPackPriceRaw": "195",
+      "fieldsToUpdate": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "newUnitPrice": "15.00",
+      "newPackPrice": "450.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/35412/loxodol-8-mg-tablet",
+        "aroggaId": 49190,
+        "verificationNote": "Live MedEx: 15.00/tab, 3x10 450.00; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "8807d7f5-9fad-4008-be18-b351b9999edf",
+      "brandId": "52be2387-646f-4b52-893b-47d804311f67",
+      "sourceId": "34107",
+      "brandName": "Camlor",
+      "genericName": "Lornoxicam",
+      "strength": "4 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Popular Pharmaceuticals Ltd.",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": "6.5",
+      "oldPackPriceRaw": "195",
+      "fieldsToUpdate": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "newUnitPrice": "18.00",
+      "newPackPrice": "540.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/34107/camlor-4-mg-tablet",
+        "aroggaId": 42434,
+        "verificationNote": "Live MedEx: 18.00/tab, 3x10 540.00; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "b736c201-657c-4bba-9240-c0df9d4efc97",
+      "brandId": "96ff668a-f358-4b7a-b0e4-ee60f64c0572",
+      "sourceId": "35536",
+      "brandName": "Camlor",
+      "genericName": "Lornoxicam",
+      "strength": "8 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Popular Pharmaceuticals Ltd.",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": "6.5",
+      "oldPackPriceRaw": "195",
+      "fieldsToUpdate": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "newUnitPrice": "32.00",
+      "newPackPrice": "960.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/35536/camlor-8-mg-tablet",
+        "aroggaId": 64350,
+        "verificationNote": "Live MedEx: 32.00/tab, 3x10 960.00; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "be6c416d-0656-4bed-9d05-ad5c28481ef5",
+      "brandId": "9ab92afe-b24b-4c86-bd12-7ef1fa590e64",
+      "sourceId": "37282",
+      "brandName": "Lorno",
+      "genericName": "Lornoxicam",
+      "strength": "4 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": "6.5",
+      "oldPackPriceRaw": "195",
+      "fieldsToUpdate": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "newUnitPrice": "15.00",
+      "newPackPrice": "450.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/37282/lorno-4-mg-tablet",
+        "aroggaId": 74659,
+        "verificationNote": "Live MedEx: 15.00/tab, 3x10 450.00; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "53ec31b9-6c4f-4ac9-a478-74ddcb69afd4",
+      "brandId": "5ce8848e-32d6-448f-9f75-be88e591ed7d",
+      "sourceId": "37283",
+      "brandName": "Lorno",
+      "genericName": "Lornoxicam",
+      "strength": "8 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": "6.5",
+      "oldPackPriceRaw": "195",
+      "fieldsToUpdate": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "newUnitPrice": "25.00",
+      "newPackPrice": "750.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/37283/lorno-8-mg-tablet",
+        "aroggaId": 74658,
+        "verificationNote": "Live MedEx: 25.00/tab, 3x10 750.00; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "cdb2402d-41b1-4cc1-8f21-780cdd8215c0",
+      "brandId": "81a1b9d3-5a67-4b40-b228-469764a52895",
+      "sourceId": "36091",
+      "brandName": "Loricam",
+      "genericName": "Lornoxicam",
+      "strength": "8 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Orion Pharma Ltd.",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": "6.5",
+      "oldPackPriceRaw": "195",
+      "fieldsToUpdate": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "newUnitPrice": "18.00",
+      "newPackPrice": "540.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/36091/loricam-8-mg-tablet",
+        "aroggaId": 64349,
+        "verificationNote": "Live MedEx: 18.00/tab, 3x10 540.00; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "e113e331-0f2d-4707-953c-cdc217544282",
+      "brandId": "adaf75f0-ad97-4bbf-ac82-5ca7e9f427ac",
+      "sourceId": "36467",
+      "brandName": "Ornopain",
+      "genericName": "Lornoxicam",
+      "strength": "4 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": "6.5",
+      "oldPackPriceRaw": "195",
+      "fieldsToUpdate": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "newUnitPrice": "18.00",
+      "newPackPrice": "540.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/36467/ornopain-4-mg-tablet",
+        "aroggaId": 68021,
+        "verificationNote": "Live MedEx: 18.00/tab, 3x10 540.00; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "b50c9810-bcbd-4179-ad20-ff62f169839c",
+      "brandId": "b5b0a8c1-0fdb-4fbf-a9ef-03df38fbded0",
+      "sourceId": "36468",
+      "brandName": "Ornopain",
+      "genericName": "Lornoxicam",
+      "strength": "8 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": "6.5",
+      "oldPackPriceRaw": "195",
+      "fieldsToUpdate": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "newUnitPrice": "25.00",
+      "newPackPrice": "750.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/36468/ornopain-8-mg-tablet",
+        "aroggaId": 68020,
+        "verificationNote": "Live MedEx: 25.00/tab, 3x10 750.00; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "c151bf74-11c1-4764-86bf-26374f4bac7f",
+      "brandId": "3cf0e2fb-11cc-4ec9-9509-01a5e129811b",
+      "sourceId": "5733",
+      "brandName": "Thyrolar",
+      "genericName": "Levothyroxine Sodium",
+      "strength": "50 mcg",
+      "dosageForm": "Tablet",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "90's pack",
+      "packUnits": 90,
+      "stripUnits": 15,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": "1.2",
+      "oldPackPriceRaw": "108",
+      "fieldsToUpdate": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "newUnitPrice": "3.00",
+      "newPackPrice": "270.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/5733/thyrolartablet50-mcg",
+        "aroggaId": 18648,
+        "verificationNote": "Live MedEx: 3.00/tab, 6x15 = 270.00; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "aad1d4e7-1c33-42dd-a24c-733e55c7a0f8",
+      "brandId": "63e126f2-6562-41d0-acfe-5de482b19858",
+      "sourceId": "35502",
+      "brandName": "Ovocal Plus",
+      "genericName": "Calcium + Vitamin D3 + Multimineral",
+      "strength": "",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": null,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": "5",
+      "oldPackPriceRaw": "150",
+      "fieldsToUpdate": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "newUnitPrice": "18.00",
+      "newPackPrice": "540.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/35502/ovocal-plus-tablet",
+        "aroggaId": 51164,
+        "verificationNote": "Live MedEx: 18.00/tab, 3x10 = 540.00; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "dfaa288f-07f5-4342-9629-b123cd982c28",
+      "brandId": "9c90d93c-5283-47ff-93d4-b855da381789",
+      "sourceId": "3820",
+      "brandName": "Montelon",
+      "genericName": "Montelukast Sodium",
+      "strength": "10 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Apex Pharma Ltd.",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": "7.5",
+      "oldPackPriceRaw": "225",
+      "fieldsToUpdate": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "newUnitPrice": "16.00",
+      "newPackPrice": "480.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/3820/montelon-10-mg-tablet",
+        "aroggaId": 12062,
+        "verificationNote": "Live MedEx: 16.00/tab, 3x10 = 480.00; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "fa7cc9bb-845e-4888-8d1f-c02f35efb38a",
+      "brandId": "b70c9eb1-c407-47df-9a6a-61645d047245",
+      "sourceId": "21778",
+      "brandName": "Litiam ER",
+      "genericName": "Lithium Carbonate",
+      "strength": "400 mg",
+      "dosageForm": "Tablet (Extended Release)",
+      "manufacturer": "ACI Limited",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "40's pack",
+      "packUnits": 40,
+      "stripUnits": 8,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": "4",
+      "oldPackPriceRaw": "160",
+      "fieldsToUpdate": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "newUnitPrice": "12.00",
+      "newPackPrice": "480.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/21778/litiam-er-400-mg-tablet",
+        "aroggaId": 10679,
+        "verificationNote": "Live MedEx: 12.00/tab, 4x10 = 480.00; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "a6a502f9-8592-40ff-87ff-fc4753158621",
+      "brandId": "f9b0d54b-5d75-4d3e-9a4a-514d99c0f113",
+      "sourceId": "34596",
+      "brandName": "Kanopas",
+      "genericName": "Finerenone",
+      "strength": "10 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "10's pack",
+      "packUnits": 10,
+      "stripUnits": 10,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": "80",
+      "oldPackPriceRaw": "800",
+      "fieldsToUpdate": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "newUnitPrice": "30.00",
+      "newPackPrice": "300.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/34596/kanopas-10-mg-tablet",
+        "aroggaId": 47947,
+        "verificationNote": "Live MedEx: 30.00/tab, 1x10 = 300.00; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "2ed4df74-34b8-430f-aec8-6b067ef6b204",
+      "brandId": "fcdb0ed9-9806-40b4-b659-e0075549b06b",
+      "sourceId": "4459",
+      "brandName": "Nortin",
+      "genericName": "Nortriptyline",
+      "strength": "25 mg",
+      "dosageForm": "Capsule",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "100's pack",
+      "packUnits": 100,
+      "stripUnits": 10,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": "1.51",
+      "oldPackPriceRaw": "150.73",
+      "fieldsToUpdate": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "newUnitPrice": "4.00",
+      "newPackPrice": "400.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/4459/nortin-25-mg-capsule",
+        "aroggaId": 13218,
+        "verificationNote": "Live MedEx: 4.00/cap, 10x10 = 400.00; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "1c87bba9-3afa-488b-8d58-ab042bc35168",
+      "brandId": "57cbca8b-ebef-44b4-b95b-7ccd22ce3c6c",
+      "sourceId": "30030",
+      "brandName": "Tamen",
+      "genericName": "Paracetamol",
+      "strength": "120 mg/5 ml",
+      "dosageForm": "Oral Suspension",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "60 ml bottle",
+      "packUnits": null,
+      "stripUnits": null,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": null,
+      "oldPackPriceRaw": "16.28",
+      "fieldsToUpdate": [
+        "packPrice"
+      ],
+      "newUnitPrice": null,
+      "newPackPrice": "35.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/30030/tamenoral-suspension120-mg5-ml",
+        "aroggaId": 18260,
+        "verificationNote": "Live MedEx: 35.00 / 60 ml bottle; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "f97f828a-b28b-4fcf-ae93-0852aa78d2c9",
+      "brandId": "57cbca8b-ebef-44b4-b95b-7ccd22ce3c6c",
+      "sourceId": "30030",
+      "brandName": "Tamen",
+      "genericName": "Paracetamol",
+      "strength": "120 mg/5 ml",
+      "dosageForm": "Oral Suspension",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "100 ml bottle",
+      "packUnits": null,
+      "stripUnits": null,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": null,
+      "oldPackPriceRaw": "24.53",
+      "fieldsToUpdate": [
+        "packPrice"
+      ],
+      "newUnitPrice": null,
+      "newPackPrice": "50.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/30030/tamenoral-suspension120-mg5-ml",
+        "aroggaId": 18261,
+        "verificationNote": "Live MedEx: 50.00 / 100 ml bottle; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "0098b8ec-f30a-48aa-8437-ef09c859ccc7",
+      "brandId": "941c1a91-74e7-4f0c-a5f3-0b8f609b2b22",
+      "sourceId": "10499",
+      "brandName": "Renova",
+      "genericName": "Paracetamol",
+      "strength": "120 mg/5 ml",
+      "dosageForm": "Oral Suspension",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "100 ml bottle",
+      "packUnits": null,
+      "stripUnits": null,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": null,
+      "oldPackPriceRaw": "24.53",
+      "fieldsToUpdate": [
+        "packPrice"
+      ],
+      "newUnitPrice": null,
+      "newPackPrice": "50.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/10499/renova-120-mg-suspension",
+        "aroggaId": 16230,
+        "verificationNote": "Live MedEx: 50.00 / 100 ml bottle; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "4f909b8a-1eae-4302-a93b-ef1bac1cc928",
+      "brandId": "0c1b8e42-f090-4f5d-a9eb-b0c36815a8ea",
+      "sourceId": "36548",
+      "brandName": "Aristopin",
+      "genericName": "Atropine Sulfate (Ophthalmic)",
+      "strength": "0.01%",
+      "dosageForm": "Ophthalmic Solution",
+      "manufacturer": "Aristopharma Ltd.",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "5 ml drop",
+      "packUnits": null,
+      "stripUnits": null,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": null,
+      "oldPackPriceRaw": "27.98",
+      "fieldsToUpdate": [
+        "packPrice"
+      ],
+      "newUnitPrice": null,
+      "newPackPrice": "150.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/36548/aristopin-001-eye-drop",
+        "aroggaId": 63984,
+        "verificationNote": "Live MedEx: 150.00 / 5 ml drop; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "0c523ad5-1dad-4ea9-80da-a752652235ec",
+      "brandId": "d3c9966f-d954-487f-979a-34b51e9bdcfb",
+      "sourceId": "38222",
+      "brandName": "Atrokid",
+      "genericName": "Atropine Sulfate (Ophthalmic)",
+      "strength": "0.01%",
+      "dosageForm": "Ophthalmic Solution",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "5 ml drop",
+      "packUnits": null,
+      "stripUnits": null,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": null,
+      "oldPackPriceRaw": "27.98",
+      "fieldsToUpdate": [
+        "packPrice"
+      ],
+      "newUnitPrice": null,
+      "newPackPrice": "280.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/38222/atrokid-001-eye-drop",
+        "aroggaId": 80737,
+        "verificationNote": "Live MedEx: 280.00 / 5 ml drop; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "e1c095f2-3730-4b41-b9e4-0773820aa071",
+      "brandId": "b76c57cb-f6bc-4830-955c-1513601f35cf",
+      "sourceId": "36750",
+      "brandName": "Aquafresh PF",
+      "genericName": "Carboxymethylcellulose Sodium",
+      "strength": "1%",
+      "dosageForm": "Ophthalmic Solution",
+      "manufacturer": "Popular Pharmaceuticals Ltd.",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "10 ml drop",
+      "packUnits": null,
+      "stripUnits": null,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": null,
+      "oldPackPriceRaw": "275",
+      "fieldsToUpdate": [
+        "packPrice"
+      ],
+      "newUnitPrice": null,
+      "newPackPrice": "650.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/36750/aquafresh-pf-1-eye-drop",
+        "aroggaId": 66547,
+        "verificationNote": "Live MedEx: 650.00 / 10 ml drop; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "2b015582-05e7-4b62-90d7-b3c9acedca94",
+      "brandId": "f1189930-3df9-47a0-af22-a4387c17c255",
+      "sourceId": "16076",
+      "brandName": "Pilorine",
+      "genericName": "Pilocarpine Hydrochloride (Ophthalmic)",
+      "strength": "2%",
+      "dosageForm": "Ophthalmic Solution",
+      "manufacturer": "OSL Pharma Limited",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "10 ml drop",
+      "packUnits": null,
+      "stripUnits": null,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": null,
+      "oldPackPriceRaw": "74.28",
+      "fieldsToUpdate": [
+        "packPrice"
+      ],
+      "newUnitPrice": null,
+      "newPackPrice": "150.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/16076/pilorine-2-eye-drop",
+        "aroggaId": 85194,
+        "verificationNote": "Live MedEx: 150.00 / 10 ml drop; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "8c24dba9-5c5c-43db-994a-60db82fe936e",
+      "brandId": "ed97759a-a01f-438b-a48e-3a8d2b458902",
+      "sourceId": "36122",
+      "brandName": "Itra",
+      "genericName": "Itraconazole",
+      "strength": "50 mg/5 ml",
+      "dosageForm": "Oral Solution",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "100 ml bottle",
+      "packUnits": null,
+      "stripUnits": null,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": null,
+      "oldPackPriceRaw": "100",
+      "fieldsToUpdate": [
+        "packPrice"
+      ],
+      "newUnitPrice": null,
+      "newPackPrice": "580.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/36122/itra-50-mg-oral-solution",
+        "aroggaId": 81405,
+        "verificationNote": "Live MedEx: 580.00 / 100 ml bottle; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "57c0b77e-bcac-4ce6-a559-73c7ae30b0c3",
+      "brandId": "e0df3244-46d9-41c0-a6eb-d8a54cb8ad14",
+      "sourceId": "39161",
+      "brandName": "Itrader",
+      "genericName": "Itraconazole",
+      "strength": "50 mg/5 ml",
+      "dosageForm": "Oral Solution",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "100 ml bottle",
+      "packUnits": null,
+      "stripUnits": null,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": null,
+      "oldPackPriceRaw": "100",
+      "fieldsToUpdate": [
+        "packPrice"
+      ],
+      "newUnitPrice": null,
+      "newPackPrice": "550.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/39161/itrader-50-mg-oral-solution",
+        "aroggaId": 88740,
+        "verificationNote": "Live MedEx: 550.00 / 100 ml bottle; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "d8bd0044-87ef-4b85-ac63-8f5728df9e05",
+      "brandId": "48a35458-7916-45b1-af58-d0770a09d6bb",
+      "sourceId": "34670",
+      "brandName": "Phenergan Plus",
+      "genericName": "Phenylephrine + Promethazine",
+      "strength": "(5 mg+6.25 mg)/5 ml",
+      "dosageForm": "Syrup",
+      "manufacturer": "Synovia Pharma PLC.",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "100 ml bottle",
+      "packUnits": null,
+      "stripUnits": null,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": null,
+      "oldPackPriceRaw": "40.13",
+      "fieldsToUpdate": [
+        "packPrice"
+      ],
+      "newUnitPrice": null,
+      "newPackPrice": "93.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/34670/phenergan-plus-5-mg-syrup",
+        "aroggaId": 89392,
+        "verificationNote": "Live MedEx: 93.00 / 100 ml bottle; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "327fba59-64aa-4d4b-b7ab-cfac113ac6e3",
+      "brandId": "50efe4fa-3b29-48b0-aff7-c0f7cd02168f",
+      "sourceId": "38960",
+      "brandName": "Atofix",
+      "genericName": "Difamilast",
+      "strength": "1% w/w",
+      "dosageForm": "Ointment",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "10 gm tube",
+      "packUnits": null,
+      "stripUnits": null,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": null,
+      "oldPackPriceRaw": "50.19",
+      "fieldsToUpdate": [
+        "packPrice"
+      ],
+      "newUnitPrice": null,
+      "newPackPrice": "650.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/38960/atofix-1-w-ointment",
+        "aroggaId": 87410,
+        "verificationNote": "Live MedEx: 650.00 / 10 gm tube; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "8c974e2a-2523-4d2c-ae8f-e588f0913e92",
+      "brandId": "58ec56a4-90d2-4907-ae36-ebfbaded54b0",
+      "sourceId": "36270",
+      "brandName": "Qupet",
+      "genericName": "Ozenoxacin",
+      "strength": "1% w/w",
+      "dosageForm": "Cream",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "10 gm tube",
+      "packUnits": null,
+      "stripUnits": null,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": null,
+      "oldPackPriceRaw": "48",
+      "fieldsToUpdate": [
+        "packPrice"
+      ],
+      "newUnitPrice": null,
+      "newPackPrice": "250.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/36270/qupet-1-w-cream",
+        "aroggaId": 82066,
+        "verificationNote": "Live MedEx: 250.00 / 10 gm tube; matches Arogga st=1."
+      }
+    },
+    {
+      "packId": "dd3ce390-3966-4b96-bcfa-77b912a421b2",
+      "brandId": "18a386b5-fad2-4ea9-a14d-b02b0bc58303",
+      "sourceId": "5192",
+      "brandName": "Exelon",
+      "genericName": "Rivastigmine Tartrate",
+      "strength": "1.5 mg",
+      "dosageForm": "Capsule",
+      "manufacturer": "Nevian Lifescience PLC",
+      "tierGroup": "TIER2_LIVE_MEDEX_MRP_OVERRIDE_PRICE",
+      "packQuantity": "28's pack",
+      "packUnits": 28,
+      "stripUnits": 14,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": "145.55",
+      "oldPackPriceRaw": "4075.37",
+      "fieldsToUpdate": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "newUnitPrice": "64.00",
+      "newPackPrice": "1792.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/5192/exelon-15-mg-capsule",
+        "aroggaId": 25229,
+        "verificationNote": "Live MedEx Nevian/Novartis: 64.00/cap (1,792.00/28's); supersedes stale DB 145.55/4075.37 and lower Arogga 44/1232."
+      }
+    },
+    {
+      "packId": "e08c17fd-4230-44d3-8c38-9eefb22dfc77",
+      "brandId": "cd4688df-1cd1-4354-a517-45ba7c904b3b",
+      "sourceId": "26678",
+      "brandName": "Cosentyx",
+      "genericName": "Secukinumab",
+      "strength": "150 mg/ml",
+      "dosageForm": "Injection",
+      "manufacturer": "Nevian Lifescience PLC",
+      "tierGroup": "TIER2_LIVE_MEDEX_MRP_OVERRIDE_PRICE",
+      "packQuantity": "150 mg pre-filled pen",
+      "packUnits": null,
+      "stripUnits": null,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": null,
+      "oldPackPriceRaw": "63001.64",
+      "fieldsToUpdate": [
+        "packPrice"
+      ],
+      "newUnitPrice": null,
+      "newPackPrice": "31780.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/26678/cosentyx-150-mg-injection",
+        "aroggaId": 81066,
+        "verificationNote": "Live MedEx Nevian/Novartis: 31,780.00/pen; supersedes stale DB 63,001.64 and Arogga 21,990."
+      }
+    },
+    {
+      "packId": "bf305547-224d-43e0-afa3-0756f3b23b74",
+      "brandId": "53a69440-5e6f-45f6-9268-9c39ac0e824f",
+      "sourceId": "36620",
+      "brandName": "Panzest 25000",
+      "genericName": "Pancreatin [High Lipase]",
+      "strength": "300 mg",
+      "dosageForm": "Capsule (Enteric Coated)",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "tierGroup": "TIER2_LIVE_MEDEX_MRP_OVERRIDE_PRICE",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "oldUnitPriceRaw": "7",
+      "oldPackPriceRaw": "350",
+      "fieldsToUpdate": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "newUnitPrice": "50.00",
+      "newPackPrice": "1500.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/36620/panzest-25000-300-mg-capsule",
+        "aroggaId": 73257,
+        "verificationNote": "Live MedEx Everest: 50.00/cap (1,500.00/30's); supersedes broken DB 7/350 and higher Arogga 70/2100."
+      }
+    },
+    {
+      "packId": "ff5feff1-87f1-465f-b098-6945686ad079",
+      "brandId": "9d562b7b-9979-4466-8544-7635feb45abb",
+      "sourceId": "38969",
+      "brandName": "Diclofix",
+      "genericName": "Diclofenac Sodium",
+      "strength": "50 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Army Pharma Limited",
+      "tierGroup": "TIER2_LIVE_MEDEX_MRP_OVERRIDE_PRICE",
+      "packQuantity": "100's pack",
+      "packUnits": 100,
+      "stripUnits": 10,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": "0.82",
+      "oldPackPriceRaw": "82",
+      "fieldsToUpdate": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "newUnitPrice": "1.00",
+      "newPackPrice": "100.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/38969/diclofix-50-mg-tablet",
+        "aroggaId": 87928,
+        "verificationNote": "Live MedEx Army Pharma: 1.00/tab (100.00/100's); supersedes DB 0.82/82 and higher Arogga 2/200."
+      }
+    }
+  ]
+}

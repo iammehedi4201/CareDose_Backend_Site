@@ -1,0 +1,69 @@
+{
+  "validatedAt": "2026-11-25T10:49:34.819Z",
+  "readOnlyTransaction": true,
+  "isolationLevel": "RepeatableRead",
+  "overallValidationPassed": true,
+  "baselineCounts": {
+    "MedicineGeneric": 1846,
+    "MedicineBrand": 25208,
+    "MedicinePack": 27468,
+    "PatientMedication": 0,
+    "InventoryTransaction": 0,
+    "Purchase": 0,
+    "MedicationSchedule": 0,
+    "DoseEvent": 0
+  },
+  "postExecutionCounts": {
+    "MedicineGeneric": 1846,
+    "MedicineBrand": 25208,
+    "MedicinePack": 27475,
+    "PatientMedication": 0,
+    "InventoryTransaction": 0,
+    "Purchase": 0,
+    "MedicationSchedule": 0,
+    "DoseEvent": 0
+  },
+  "matchedCounts": {
+    "subbatchA1_prices": 16,
+    "subbatchB_warnings": 3,
+    "subbatchC1_strips": 9,
+    "subbatchD1_inserts": 7,
+    "untouchedBaselinePacks": 27440
+  },
+  "brandViolationsCount": 0,
+  "violationsCount": 0,
+  "violations": [],
+  "heldRecordsVerifiedUntouched": {
+    "heldPackSnapshots": [
+      {
+        "id": "06e61d13-23c9-4c91-9a5b-1f23fc5d213d",
+        "unitPrice": "0.63",
+        "packPrice": "126",
+        "stripUnits": 15,
+        "packUnits": 200,
+        "packQuantity": "200's pack"
+      },
+      {
+        "id": "b98aec67-7bc5-43cf-a79d-ab5b8d58e97c",
+        "unitPrice": null,
+        "packPrice": "43",
+        "stripUnits": null,
+        "packUnits": null,
+        "packQuantity": "20 ml vial"
+      },
+      {
+        "id": "c5cc6d1b-8059-49cf-9ce5-9094bf7125d2",
+        "unitPrice": null,
+        "packPrice": "65",
+        "stripUnits": null,
+        "packUnits": null,
+        "packQuantity": "1400 mg vial"
+      }
+    ],
+    "sultolin3514PackCount": 0
+  },
+  "postExecutionGlobalStripHygiene": {
+    "stripUnitsLte1Count": 0,
+    "stripUnitsGt100Count": 0
+  }
+}

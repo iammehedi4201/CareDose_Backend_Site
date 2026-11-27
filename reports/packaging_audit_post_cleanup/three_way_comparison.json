@@ -1,0 +1,109 @@
+{
+  "generatedAt": "2026-11-24T16:40:50.122Z",
+  "baselineDir": "F:/My Projects/CareDose/backend/reports/packaging_audit",
+  "postFixDir": "F:/My Projects/CareDose/backend/reports/packaging_audit_post_fix",
+  "postCleanupDir": "F:/My Projects/CareDose/backend/reports/packaging_audit_post_cleanup",
+  "metrics": {
+    "A_validConversionPrimaryBrands": {
+      "baseline": 24313,
+      "postFixBeforeDbCleanup": 24792,
+      "postHigh40DbCleanup": 24792,
+      "deltaFromPostFix": 0,
+      "deltaFromBaseline": 479
+    },
+    "A_validConversionTotalPacks": {
+      "baseline": 26436,
+      "postFixBeforeDbCleanup": 26945,
+      "postHigh40DbCleanup": 26945,
+      "deltaFromPostFix": 0,
+      "deltaFromBaseline": 509
+    },
+    "B_and_D_missingPackageQuantitiesCount": {
+      "baseline": 1750,
+      "postFixBeforeDbCleanup": 1743,
+      "postHigh40DbCleanup": 1743,
+      "deltaFromPostFix": 0,
+      "deltaFromBaseline": -7
+    },
+    "C_missingStockMeasurementUnitsCount": {
+      "baseline": 71,
+      "postFixBeforeDbCleanup": 48,
+      "postHigh40DbCleanup": 48,
+      "deltaFromPostFix": 0,
+      "deltaFromBaseline": -23
+    },
+    "E_inconsistentMultiPackNestingBrandsCount": {
+      "baseline": 57,
+      "postFixBeforeDbCleanup": 57,
+      "postHigh40DbCleanup": 57,
+      "deltaFromPostFix": 0,
+      "deltaFromBaseline": 0
+    },
+    "F_inconsistentAcrossEquivalentBrandsGroupsCount": {
+      "baseline": 362,
+      "postFixBeforeDbCleanup": 362,
+      "postHigh40DbCleanup": 349,
+      "deltaFromPostFix": -13,
+      "deltaFromBaseline": -13
+    },
+    "G_invalidOrConflictingPackRecordsCount": {
+      "baseline": 1464,
+      "postFixBeforeDbCleanup": 1464,
+      "postHigh40DbCleanup": 1424,
+      "deltaFromPostFix": -40,
+      "deltaFromBaseline": -40
+    },
+    "H_frontendConversionMismatchPacksCount": {
+      "baseline": 555,
+      "postFixBeforeDbCleanup": 50,
+      "postHigh40DbCleanup": 50,
+      "deltaFromPostFix": 0,
+      "deltaFromBaseline": -505
+    },
+    "H_frontendConversionMismatchBrandsCount": {
+      "baseline": 539,
+      "postFixBeforeDbCleanup": 49,
+      "postHigh40DbCleanup": 49,
+      "deltaFromPostFix": 0,
+      "deltaFromBaseline": -490
+    },
+    "I_completelyMissingBrandOrPackCount": {
+      "baseline": 37,
+      "postFixBeforeDbCleanup": 37,
+      "postHigh40DbCleanup": 37,
+      "deltaFromPostFix": 0,
+      "deltaFromBaseline": 0
+    },
+    "J_unverifiedPacksCount": {
+      "baseline": 27468,
+      "postFixBeforeDbCleanup": 27468,
+      "postHigh40DbCleanup": 27468,
+      "deltaFromPostFix": 0,
+      "deltaFromBaseline": 0
+    },
+    "J_needsReviewPacksCount": {
+      "baseline": 0,
+      "postFixBeforeDbCleanup": 0,
+      "postHigh40DbCleanup": 0,
+      "deltaFromPostFix": 0,
+      "deltaFromBaseline": 0
+    },
+    "J_packsWithPriceOrParseWarningsCount": {
+      "baseline": 1101,
+      "postFixBeforeDbCleanup": 1101,
+      "postHigh40DbCleanup": 1101,
+      "deltaFromPostFix": 0,
+      "deltaFromBaseline": 0
+    }
+  },
+  "nonDivisibleStripRecords": {
+    "beforeCleanup": 409,
+    "afterHigh40Cleanup": 369,
+    "delta": -40
+  },
+  "missingConversionRulesCount": {
+    "baseline": 212,
+    "postFix": 113,
+    "postHigh40Cleanup": 113
+  }
+}

@@ -1,0 +1,962 @@
+{
+  "generatedAt": "2026-11-25T08:18:45.830Z",
+  "backupPath": "F:\\My Projects\\CareDose\\care_dose_pre_batch2a_46_backup.dump",
+  "manifestSource": "F:\\My Projects\\CareDose\\backend\\reports\\consolidated_remediation\\proposed_batch2a_review.json",
+  "count": 46,
+  "instructions": "Restores ONLY modified MedicinePack price fields back to exact pre-execution raw Decimal/null strings for all 46 packIds.",
+  "records": [
+    {
+      "packId": "ee18202b-d71a-417f-8f83-bb5124a404b4",
+      "brandId": "068c0421-b777-4e24-8487-a91524c09d2c",
+      "sourceId": "36256",
+      "brandName": "Annova",
+      "strength": "250 mg",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "50's pack",
+      "packUnits": 50,
+      "stripUnits": 10,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "restoreUnitPrice": "4.26",
+      "restorePackPrice": "217.5",
+      "appliedUnitPrice": "9.00",
+      "appliedPackPrice": "450.00"
+    },
+    {
+      "packId": "fb327448-4c41-48c1-ad9e-7107bdc70ac4",
+      "brandId": "0e87f5a5-5929-4082-8d5f-a1689583b2dd",
+      "sourceId": "37244",
+      "brandName": "Montinex Fast",
+      "strength": "10 mg",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "verification": "UNVERIFIED",
+      "warnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "fieldsModified": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "restoreUnitPrice": "8",
+      "restorePackPrice": "180.9",
+      "appliedUnitPrice": "18.00",
+      "appliedPackPrice": "540.00"
+    },
+    {
+      "packId": "b884e230-3080-45c6-9585-45db1cc4a210",
+      "brandId": "1b258d5c-e85f-40e4-b3fd-c8b1d63c919c",
+      "sourceId": "16457",
+      "brandName": "Fixolin",
+      "strength": "400 mg",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "restoreUnitPrice": "5",
+      "restorePackPrice": "150",
+      "appliedUnitPrice": "12.00",
+      "appliedPackPrice": "360.00"
+    },
+    {
+      "packId": "9102e24f-bac5-429d-aeaf-89ce19b29c1f",
+      "brandId": "26d4dd8d-e510-4c28-a2b9-0a4393e5dca5",
+      "sourceId": "2170",
+      "brandName": "Pansos",
+      "strength": "20 mg",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "50's pack",
+      "packUnits": 50,
+      "stripUnits": 10,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "restoreUnitPrice": "3.01",
+      "restorePackPrice": "150.5",
+      "appliedUnitPrice": "7.00",
+      "appliedPackPrice": "350.00"
+    },
+    {
+      "packId": "cc3c1cb2-d8fb-447b-a7aa-9d9830a1b263",
+      "brandId": "131151ed-3ccf-46d7-b4ee-9b0d209a731a",
+      "sourceId": "19310",
+      "brandName": "Defrol",
+      "strength": "1000 IU",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "restoreUnitPrice": "2",
+      "restorePackPrice": "60",
+      "appliedUnitPrice": "6.00",
+      "appliedPackPrice": "180.00"
+    },
+    {
+      "packId": "9b369505-dbb9-4ca8-ab0e-eecd66943748",
+      "brandId": "41860757-6658-4b5d-80bc-e16a83cb4f67",
+      "sourceId": "38836",
+      "brandName": "Finmax",
+      "strength": "10 mg",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "10's pack",
+      "packUnits": 10,
+      "stripUnits": 10,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "restoreUnitPrice": "80",
+      "restorePackPrice": "800",
+      "appliedUnitPrice": "30.00",
+      "appliedPackPrice": "300.00"
+    },
+    {
+      "packId": "19449923-a8cc-4952-b7b9-6dbc2de87b48",
+      "brandId": "ceac1c93-45fd-4708-ba14-d6d74e70b9c7",
+      "sourceId": "38837",
+      "brandName": "Finmax",
+      "strength": "20 mg",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "10's pack",
+      "packUnits": 10,
+      "stripUnits": 10,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "restoreUnitPrice": "150",
+      "restorePackPrice": "1500",
+      "appliedUnitPrice": "50.00",
+      "appliedPackPrice": "500.00"
+    },
+    {
+      "packId": "85ac7209-cb15-45ff-a022-40bdb02fd9d7",
+      "brandId": "77b2d38a-bb46-447c-a844-022f28514186",
+      "sourceId": "30216",
+      "brandName": "Regocent",
+      "strength": "40 mg",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "10's pack",
+      "packUnits": 10,
+      "stripUnits": null,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "restoreUnitPrice": "700",
+      "restorePackPrice": "7000",
+      "appliedUnitPrice": "200.00",
+      "appliedPackPrice": "2000.00"
+    },
+    {
+      "packId": "7a7d75e1-b6fe-4fac-a62f-0bd2312ae870",
+      "brandId": "83b268f8-da02-45b5-8886-4bdb2f9ab82b",
+      "sourceId": "10797",
+      "brandName": "Zomitan",
+      "strength": "2.5 mg",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "10's pack",
+      "packUnits": 10,
+      "stripUnits": null,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "restoreUnitPrice": "25",
+      "restorePackPrice": "250",
+      "appliedUnitPrice": "10.00",
+      "appliedPackPrice": "100.00"
+    },
+    {
+      "packId": "f8eea2b6-fd7a-4f7e-a824-6c8863517fd6",
+      "brandId": "76576ea9-5874-49d0-b84e-233354c0559a",
+      "sourceId": "38441",
+      "brandName": "Fenadin ODT",
+      "strength": "30 mg",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "verification": "UNVERIFIED",
+      "warnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "fieldsModified": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "restoreUnitPrice": "8",
+      "restorePackPrice": "270",
+      "appliedUnitPrice": "3.50",
+      "appliedPackPrice": "105.00"
+    },
+    {
+      "packId": "003d727f-5b21-4423-b83d-4ec5f121f0a5",
+      "brandId": "3383f481-d7c9-4271-bd34-15f7d0f509de",
+      "sourceId": "14570",
+      "brandName": "Oral-Z",
+      "strength": "10 mg/5 ml",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "100 ml bottle",
+      "packUnits": null,
+      "stripUnits": null,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "packPrice"
+      ],
+      "restoreUnitPrice": null,
+      "restorePackPrice": "26.18",
+      "appliedUnitPrice": null,
+      "appliedPackPrice": "55.00"
+    },
+    {
+      "packId": "030b808b-36d5-4d2a-903b-5d7f8f0f7e9d",
+      "brandId": "38034e7d-7657-4f04-b533-be1069cc30d0",
+      "sourceId": "6599",
+      "brandName": "Moxin",
+      "strength": "500 mg/vial",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "500 mg vial",
+      "packUnits": null,
+      "stripUnits": null,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "packPrice"
+      ],
+      "restoreUnitPrice": null,
+      "restorePackPrice": "26.17",
+      "appliedUnitPrice": null,
+      "appliedPackPrice": "55.00"
+    },
+    {
+      "packId": "9430dec8-c1d6-480b-8960-dbda92245ee8",
+      "brandId": "38034e7d-7657-4f04-b533-be1069cc30d0",
+      "sourceId": "6599",
+      "brandName": "Moxin",
+      "strength": "500 mg/vial",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "4's pack",
+      "packUnits": 4,
+      "stripUnits": null,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "packPrice"
+      ],
+      "restoreUnitPrice": null,
+      "restorePackPrice": "104.68",
+      "appliedUnitPrice": null,
+      "appliedPackPrice": "220.00"
+    },
+    {
+      "packId": "b4f77603-5ab0-4d40-875a-998fa4ac8ea8",
+      "brandId": "972c0b83-e912-487c-9162-4be57c1e3792",
+      "sourceId": "33476",
+      "brandName": "Itracon",
+      "strength": "50 mg/5 ml",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "100 ml bottle",
+      "packUnits": null,
+      "stripUnits": null,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "packPrice"
+      ],
+      "restoreUnitPrice": null,
+      "restorePackPrice": "100",
+      "appliedUnitPrice": null,
+      "appliedPackPrice": "580.00"
+    },
+    {
+      "packId": "8ceb3c8f-136f-455e-b7fb-294c08b44322",
+      "brandId": "9498332c-1c23-4c72-9cb5-f3c062986411",
+      "sourceId": "35255",
+      "brandName": "Natrol",
+      "strength": "0.05%",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "120 metered sprays",
+      "packUnits": null,
+      "stripUnits": null,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "packPrice"
+      ],
+      "restoreUnitPrice": null,
+      "restorePackPrice": "250",
+      "appliedUnitPrice": null,
+      "appliedPackPrice": "80.00"
+    },
+    {
+      "packId": "0e174b1b-f0b3-4960-af80-25897f0aa6ad",
+      "brandId": "f6fcd5c5-c499-4c4c-884c-803c268822ec",
+      "sourceId": "35256",
+      "brandName": "Natrol",
+      "strength": "0.1%",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "120 metered sprays",
+      "packUnits": null,
+      "stripUnits": null,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "packPrice"
+      ],
+      "restoreUnitPrice": null,
+      "restorePackPrice": "250",
+      "appliedUnitPrice": null,
+      "appliedPackPrice": "100.00"
+    },
+    {
+      "packId": "b9443859-7e92-47cc-a901-cd1252bf93eb",
+      "brandId": "274313e8-88c2-4c88-b2f1-a6a511e68341",
+      "sourceId": "35412",
+      "brandName": "Loxodol",
+      "strength": "8 mg",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "restoreUnitPrice": "6.5",
+      "restorePackPrice": "195",
+      "appliedUnitPrice": "15.00",
+      "appliedPackPrice": "450.00"
+    },
+    {
+      "packId": "8807d7f5-9fad-4008-be18-b351b9999edf",
+      "brandId": "52be2387-646f-4b52-893b-47d804311f67",
+      "sourceId": "34107",
+      "brandName": "Camlor",
+      "strength": "4 mg",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "restoreUnitPrice": "6.5",
+      "restorePackPrice": "195",
+      "appliedUnitPrice": "18.00",
+      "appliedPackPrice": "540.00"
+    },
+    {
+      "packId": "b736c201-657c-4bba-9240-c0df9d4efc97",
+      "brandId": "96ff668a-f358-4b7a-b0e4-ee60f64c0572",
+      "sourceId": "35536",
+      "brandName": "Camlor",
+      "strength": "8 mg",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "restoreUnitPrice": "6.5",
+      "restorePackPrice": "195",
+      "appliedUnitPrice": "32.00",
+      "appliedPackPrice": "960.00"
+    },
+    {
+      "packId": "be6c416d-0656-4bed-9d05-ad5c28481ef5",
+      "brandId": "9ab92afe-b24b-4c86-bd12-7ef1fa590e64",
+      "sourceId": "37282",
+      "brandName": "Lorno",
+      "strength": "4 mg",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "restoreUnitPrice": "6.5",
+      "restorePackPrice": "195",
+      "appliedUnitPrice": "15.00",
+      "appliedPackPrice": "450.00"
+    },
+    {
+      "packId": "53ec31b9-6c4f-4ac9-a478-74ddcb69afd4",
+      "brandId": "5ce8848e-32d6-448f-9f75-be88e591ed7d",
+      "sourceId": "37283",
+      "brandName": "Lorno",
+      "strength": "8 mg",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "restoreUnitPrice": "6.5",
+      "restorePackPrice": "195",
+      "appliedUnitPrice": "25.00",
+      "appliedPackPrice": "750.00"
+    },
+    {
+      "packId": "cdb2402d-41b1-4cc1-8f21-780cdd8215c0",
+      "brandId": "81a1b9d3-5a67-4b40-b228-469764a52895",
+      "sourceId": "36091",
+      "brandName": "Loricam",
+      "strength": "8 mg",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "restoreUnitPrice": "6.5",
+      "restorePackPrice": "195",
+      "appliedUnitPrice": "18.00",
+      "appliedPackPrice": "540.00"
+    },
+    {
+      "packId": "e113e331-0f2d-4707-953c-cdc217544282",
+      "brandId": "adaf75f0-ad97-4bbf-ac82-5ca7e9f427ac",
+      "sourceId": "36467",
+      "brandName": "Ornopain",
+      "strength": "4 mg",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "restoreUnitPrice": "6.5",
+      "restorePackPrice": "195",
+      "appliedUnitPrice": "18.00",
+      "appliedPackPrice": "540.00"
+    },
+    {
+      "packId": "b50c9810-bcbd-4179-ad20-ff62f169839c",
+      "brandId": "b5b0a8c1-0fdb-4fbf-a9ef-03df38fbded0",
+      "sourceId": "36468",
+      "brandName": "Ornopain",
+      "strength": "8 mg",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "restoreUnitPrice": "6.5",
+      "restorePackPrice": "195",
+      "appliedUnitPrice": "25.00",
+      "appliedPackPrice": "750.00"
+    },
+    {
+      "packId": "c151bf74-11c1-4764-86bf-26374f4bac7f",
+      "brandId": "3cf0e2fb-11cc-4ec9-9509-01a5e129811b",
+      "sourceId": "5733",
+      "brandName": "Thyrolar",
+      "strength": "50 mcg",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "90's pack",
+      "packUnits": 90,
+      "stripUnits": 15,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "restoreUnitPrice": "1.2",
+      "restorePackPrice": "108",
+      "appliedUnitPrice": "3.00",
+      "appliedPackPrice": "270.00"
+    },
+    {
+      "packId": "aad1d4e7-1c33-42dd-a24c-733e55c7a0f8",
+      "brandId": "63e126f2-6562-41d0-acfe-5de482b19858",
+      "sourceId": "35502",
+      "brandName": "Ovocal Plus",
+      "strength": "",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": null,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "restoreUnitPrice": "5",
+      "restorePackPrice": "150",
+      "appliedUnitPrice": "18.00",
+      "appliedPackPrice": "540.00"
+    },
+    {
+      "packId": "dfaa288f-07f5-4342-9629-b123cd982c28",
+      "brandId": "9c90d93c-5283-47ff-93d4-b855da381789",
+      "sourceId": "3820",
+      "brandName": "Montelon",
+      "strength": "10 mg",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "restoreUnitPrice": "7.5",
+      "restorePackPrice": "225",
+      "appliedUnitPrice": "16.00",
+      "appliedPackPrice": "480.00"
+    },
+    {
+      "packId": "fa7cc9bb-845e-4888-8d1f-c02f35efb38a",
+      "brandId": "b70c9eb1-c407-47df-9a6a-61645d047245",
+      "sourceId": "21778",
+      "brandName": "Litiam ER",
+      "strength": "400 mg",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "40's pack",
+      "packUnits": 40,
+      "stripUnits": 8,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "restoreUnitPrice": "4",
+      "restorePackPrice": "160",
+      "appliedUnitPrice": "12.00",
+      "appliedPackPrice": "480.00"
+    },
+    {
+      "packId": "a6a502f9-8592-40ff-87ff-fc4753158621",
+      "brandId": "f9b0d54b-5d75-4d3e-9a4a-514d99c0f113",
+      "sourceId": "34596",
+      "brandName": "Kanopas",
+      "strength": "10 mg",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "10's pack",
+      "packUnits": 10,
+      "stripUnits": 10,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "restoreUnitPrice": "80",
+      "restorePackPrice": "800",
+      "appliedUnitPrice": "30.00",
+      "appliedPackPrice": "300.00"
+    },
+    {
+      "packId": "2ed4df74-34b8-430f-aec8-6b067ef6b204",
+      "brandId": "fcdb0ed9-9806-40b4-b659-e0075549b06b",
+      "sourceId": "4459",
+      "brandName": "Nortin",
+      "strength": "25 mg",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "100's pack",
+      "packUnits": 100,
+      "stripUnits": 10,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "restoreUnitPrice": "1.51",
+      "restorePackPrice": "150.73",
+      "appliedUnitPrice": "4.00",
+      "appliedPackPrice": "400.00"
+    },
+    {
+      "packId": "1c87bba9-3afa-488b-8d58-ab042bc35168",
+      "brandId": "57cbca8b-ebef-44b4-b95b-7ccd22ce3c6c",
+      "sourceId": "30030",
+      "brandName": "Tamen",
+      "strength": "120 mg/5 ml",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "60 ml bottle",
+      "packUnits": null,
+      "stripUnits": null,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "packPrice"
+      ],
+      "restoreUnitPrice": null,
+      "restorePackPrice": "16.28",
+      "appliedUnitPrice": null,
+      "appliedPackPrice": "35.00"
+    },
+    {
+      "packId": "f97f828a-b28b-4fcf-ae93-0852aa78d2c9",
+      "brandId": "57cbca8b-ebef-44b4-b95b-7ccd22ce3c6c",
+      "sourceId": "30030",
+      "brandName": "Tamen",
+      "strength": "120 mg/5 ml",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "100 ml bottle",
+      "packUnits": null,
+      "stripUnits": null,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "packPrice"
+      ],
+      "restoreUnitPrice": null,
+      "restorePackPrice": "24.53",
+      "appliedUnitPrice": null,
+      "appliedPackPrice": "50.00"
+    },
+    {
+      "packId": "0098b8ec-f30a-48aa-8437-ef09c859ccc7",
+      "brandId": "941c1a91-74e7-4f0c-a5f3-0b8f609b2b22",
+      "sourceId": "10499",
+      "brandName": "Renova",
+      "strength": "120 mg/5 ml",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "100 ml bottle",
+      "packUnits": null,
+      "stripUnits": null,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "packPrice"
+      ],
+      "restoreUnitPrice": null,
+      "restorePackPrice": "24.53",
+      "appliedUnitPrice": null,
+      "appliedPackPrice": "50.00"
+    },
+    {
+      "packId": "4f909b8a-1eae-4302-a93b-ef1bac1cc928",
+      "brandId": "0c1b8e42-f090-4f5d-a9eb-b0c36815a8ea",
+      "sourceId": "36548",
+      "brandName": "Aristopin",
+      "strength": "0.01%",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "5 ml drop",
+      "packUnits": null,
+      "stripUnits": null,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "packPrice"
+      ],
+      "restoreUnitPrice": null,
+      "restorePackPrice": "27.98",
+      "appliedUnitPrice": null,
+      "appliedPackPrice": "150.00"
+    },
+    {
+      "packId": "0c523ad5-1dad-4ea9-80da-a752652235ec",
+      "brandId": "d3c9966f-d954-487f-979a-34b51e9bdcfb",
+      "sourceId": "38222",
+      "brandName": "Atrokid",
+      "strength": "0.01%",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "5 ml drop",
+      "packUnits": null,
+      "stripUnits": null,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "packPrice"
+      ],
+      "restoreUnitPrice": null,
+      "restorePackPrice": "27.98",
+      "appliedUnitPrice": null,
+      "appliedPackPrice": "280.00"
+    },
+    {
+      "packId": "e1c095f2-3730-4b41-b9e4-0773820aa071",
+      "brandId": "b76c57cb-f6bc-4830-955c-1513601f35cf",
+      "sourceId": "36750",
+      "brandName": "Aquafresh PF",
+      "strength": "1%",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "10 ml drop",
+      "packUnits": null,
+      "stripUnits": null,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "packPrice"
+      ],
+      "restoreUnitPrice": null,
+      "restorePackPrice": "275",
+      "appliedUnitPrice": null,
+      "appliedPackPrice": "650.00"
+    },
+    {
+      "packId": "2b015582-05e7-4b62-90d7-b3c9acedca94",
+      "brandId": "f1189930-3df9-47a0-af22-a4387c17c255",
+      "sourceId": "16076",
+      "brandName": "Pilorine",
+      "strength": "2%",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "10 ml drop",
+      "packUnits": null,
+      "stripUnits": null,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "packPrice"
+      ],
+      "restoreUnitPrice": null,
+      "restorePackPrice": "74.28",
+      "appliedUnitPrice": null,
+      "appliedPackPrice": "150.00"
+    },
+    {
+      "packId": "8c24dba9-5c5c-43db-994a-60db82fe936e",
+      "brandId": "ed97759a-a01f-438b-a48e-3a8d2b458902",
+      "sourceId": "36122",
+      "brandName": "Itra",
+      "strength": "50 mg/5 ml",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "100 ml bottle",
+      "packUnits": null,
+      "stripUnits": null,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "packPrice"
+      ],
+      "restoreUnitPrice": null,
+      "restorePackPrice": "100",
+      "appliedUnitPrice": null,
+      "appliedPackPrice": "580.00"
+    },
+    {
+      "packId": "57c0b77e-bcac-4ce6-a559-73c7ae30b0c3",
+      "brandId": "e0df3244-46d9-41c0-a6eb-d8a54cb8ad14",
+      "sourceId": "39161",
+      "brandName": "Itrader",
+      "strength": "50 mg/5 ml",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "100 ml bottle",
+      "packUnits": null,
+      "stripUnits": null,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "packPrice"
+      ],
+      "restoreUnitPrice": null,
+      "restorePackPrice": "100",
+      "appliedUnitPrice": null,
+      "appliedPackPrice": "550.00"
+    },
+    {
+      "packId": "d8bd0044-87ef-4b85-ac63-8f5728df9e05",
+      "brandId": "48a35458-7916-45b1-af58-d0770a09d6bb",
+      "sourceId": "34670",
+      "brandName": "Phenergan Plus",
+      "strength": "(5 mg+6.25 mg)/5 ml",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "100 ml bottle",
+      "packUnits": null,
+      "stripUnits": null,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "packPrice"
+      ],
+      "restoreUnitPrice": null,
+      "restorePackPrice": "40.13",
+      "appliedUnitPrice": null,
+      "appliedPackPrice": "93.00"
+    },
+    {
+      "packId": "327fba59-64aa-4d4b-b7ab-cfac113ac6e3",
+      "brandId": "50efe4fa-3b29-48b0-aff7-c0f7cd02168f",
+      "sourceId": "38960",
+      "brandName": "Atofix",
+      "strength": "1% w/w",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "10 gm tube",
+      "packUnits": null,
+      "stripUnits": null,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "packPrice"
+      ],
+      "restoreUnitPrice": null,
+      "restorePackPrice": "50.19",
+      "appliedUnitPrice": null,
+      "appliedPackPrice": "650.00"
+    },
+    {
+      "packId": "8c974e2a-2523-4d2c-ae8f-e588f0913e92",
+      "brandId": "58ec56a4-90d2-4907-ae36-ebfbaded54b0",
+      "sourceId": "36270",
+      "brandName": "Qupet",
+      "strength": "1% w/w",
+      "tierGroup": "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE",
+      "packQuantity": "10 gm tube",
+      "packUnits": null,
+      "stripUnits": null,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "packPrice"
+      ],
+      "restoreUnitPrice": null,
+      "restorePackPrice": "48",
+      "appliedUnitPrice": null,
+      "appliedPackPrice": "250.00"
+    },
+    {
+      "packId": "dd3ce390-3966-4b96-bcfa-77b912a421b2",
+      "brandId": "18a386b5-fad2-4ea9-a14d-b02b0bc58303",
+      "sourceId": "5192",
+      "brandName": "Exelon",
+      "strength": "1.5 mg",
+      "tierGroup": "TIER2_LIVE_MEDEX_MRP_OVERRIDE_PRICE",
+      "packQuantity": "28's pack",
+      "packUnits": 28,
+      "stripUnits": 14,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "restoreUnitPrice": "145.55",
+      "restorePackPrice": "4075.37",
+      "appliedUnitPrice": "64.00",
+      "appliedPackPrice": "1792.00"
+    },
+    {
+      "packId": "e08c17fd-4230-44d3-8c38-9eefb22dfc77",
+      "brandId": "cd4688df-1cd1-4354-a517-45ba7c904b3b",
+      "sourceId": "26678",
+      "brandName": "Cosentyx",
+      "strength": "150 mg/ml",
+      "tierGroup": "TIER2_LIVE_MEDEX_MRP_OVERRIDE_PRICE",
+      "packQuantity": "150 mg pre-filled pen",
+      "packUnits": null,
+      "stripUnits": null,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "packPrice"
+      ],
+      "restoreUnitPrice": null,
+      "restorePackPrice": "63001.64",
+      "appliedUnitPrice": null,
+      "appliedPackPrice": "31780.00"
+    },
+    {
+      "packId": "bf305547-224d-43e0-afa3-0756f3b23b74",
+      "brandId": "53a69440-5e6f-45f6-9268-9c39ac0e824f",
+      "sourceId": "36620",
+      "brandName": "Panzest 25000",
+      "strength": "300 mg",
+      "tierGroup": "TIER2_LIVE_MEDEX_MRP_OVERRIDE_PRICE",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "verification": "UNVERIFIED",
+      "warnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "fieldsModified": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "restoreUnitPrice": "7",
+      "restorePackPrice": "350",
+      "appliedUnitPrice": "50.00",
+      "appliedPackPrice": "1500.00"
+    },
+    {
+      "packId": "ff5feff1-87f1-465f-b098-6945686ad079",
+      "brandId": "9d562b7b-9979-4466-8544-7635feb45abb",
+      "sourceId": "38969",
+      "brandName": "Diclofix",
+      "strength": "50 mg",
+      "tierGroup": "TIER2_LIVE_MEDEX_MRP_OVERRIDE_PRICE",
+      "packQuantity": "100's pack",
+      "packUnits": 100,
+      "stripUnits": 10,
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "fieldsModified": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "restoreUnitPrice": "0.82",
+      "restorePackPrice": "82",
+      "appliedUnitPrice": "1.00",
+      "appliedPackPrice": "100.00"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "validatedAt": "2026-11-25T11:20:36.124Z",
+  "readOnlyTransaction": true,
+  "isolationLevel": "RepeatableRead",
+  "overallValidationPassed": true,
+  "baselineCounts": {
+    "MedicineGeneric": 1846,
+    "MedicineBrand": 25208,
+    "MedicinePack": 27475,
+    "PatientMedication": 0,
+    "InventoryTransaction": 0,
+    "Purchase": 0,
+    "MedicationSchedule": 0,
+    "DoseEvent": 0
+  },
+  "postExecutionCounts": {
+    "MedicineGeneric": 1846,
+    "MedicineBrand": 25208,
+    "MedicinePack": 27476,
+    "PatientMedication": 0,
+    "InventoryTransaction": 0,
+    "Purchase": 0,
+    "MedicationSchedule": 0,
+    "DoseEvent": 0
+  },
+  "matchedCounts": {
+    "a2Prices": 2,
+    "carvaOptionB": 1,
+    "sultolinRefillInsert": 1,
+    "untouchedBaselinePacks": 27472
+  },
+  "brandViolationsCount": 0,
+  "violationsCount": 0,
+  "violations": []
+}

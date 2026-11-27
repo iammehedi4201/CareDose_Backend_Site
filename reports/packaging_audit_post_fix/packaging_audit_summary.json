@@ -1,0 +1,63 @@
+{
+  "generatedAt": "2026-11-24T16:09:28.600Z",
+  "mode": "POST_FIX_PHASE_5_READ_ONLY",
+  "catalogueCounts": {
+    "totalBrandsAudited": 25208,
+    "totalPacksAudited": 27468,
+    "brandsWithPacks": 25171,
+    "brandsWithoutPacks": 37,
+    "distinctCurrencies": [
+      "BDT"
+    ]
+  },
+  "problemCategories": {
+    "A_validConversionPrimaryBrands": 24792,
+    "A_validConversionTotalPacks": 26945,
+    "B_and_D_missingPackageQuantitiesCount": 1743,
+    "C_missingStockMeasurementUnitsCount": 48,
+    "E_inconsistentMultiPackNestingBrandsCount": 57,
+    "F_inconsistentAcrossEquivalentBrandsGroupsCount": 362,
+    "G_invalidOrConflictingPackRecordsCount": 1464,
+    "H_frontendConversionMismatchPacksCount": 50,
+    "H_frontendConversionMismatchBrandsCount": 49,
+    "I_completelyMissingBrandOrPackCount": 37,
+    "J_unverifiedPacksCount": 27468,
+    "J_needsReviewPacksCount": 0,
+    "J_packsWithPriceOrParseWarningsCount": 1101
+  },
+  "missingConversionRulesCount": 113,
+  "manualVerificationRequiredCount": 1101,
+  "newlyIntroducedFailuresCount": 0,
+  "section4ConversionVerificationSamples": [
+    {
+      "brand": "Reelife 12.5 mg+5 mg Tablet",
+      "packQuantity": "40's pack",
+      "packId": "9c21f478-0155-4f8e-91c6-8eca15aae495",
+      "dbPackUnits": 40,
+      "dbStripUnits": 14,
+      "dbPackPrice": "320",
+      "frontendHasReliableDefaultPackaging": true,
+      "frontendDefaultMode": "packs",
+      "frontendPackTotalUnits": 40,
+      "frontendStripUnits": null,
+      "frontendHadRejectedStrip": true,
+      "multiplyBy2Stock": 80,
+      "expectedMultiplyBy2Stock": 80
+    },
+    {
+      "brand": "Reelife 12.5 mg+5 mg Tablet",
+      "packQuantity": "56's pack",
+      "packId": "5879011c-3a81-4c4b-a811-2e8c1663bc16",
+      "dbPackUnits": 56,
+      "dbStripUnits": 14,
+      "dbPackPrice": "448",
+      "frontendHasReliableDefaultPackaging": true,
+      "frontendDefaultMode": "strips",
+      "frontendPackTotalUnits": 56,
+      "frontendStripUnits": 14,
+      "frontendHadRejectedStrip": false,
+      "multiplyBy2Stock": 112,
+      "expectedMultiplyBy2Stock": 112
+    }
+  ]
+}

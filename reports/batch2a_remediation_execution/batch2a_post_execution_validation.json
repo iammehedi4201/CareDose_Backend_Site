@@ -1,0 +1,32 @@
+{
+  "validatedAt": "2026-11-25T08:20:13.099Z",
+  "readOnlyTransaction": true,
+  "isolationLevel": "RepeatableRead",
+  "overallValidationPassed": true,
+  "tableCounts": {
+    "MedicineGeneric": 1846,
+    "MedicineBrand": 25208,
+    "MedicinePack": 27468,
+    "PatientMedication": 0,
+    "InventoryTransaction": 0,
+    "Purchase": 0,
+    "MedicationSchedule": 0,
+    "DoseEvent": 0
+  },
+  "brandFieldViolationsCount": 0,
+  "expectedApprovedCount": 46,
+  "observedUpdatedCount": 46,
+  "mismatchesCount": 0,
+  "expectedUntouchedCount": 27422,
+  "actualUntouchedCount": 27422,
+  "unintendedChangesCount": 0,
+  "loxodol8mgLiveRecord": {
+    "packId": "b9443859-7e92-47cc-a901-cd1252bf93eb",
+    "packQuantity": "30's pack",
+    "packUnits": 30,
+    "stripUnits": 10,
+    "unitPrice": "15",
+    "packPrice": "450",
+    "verification": "UNVERIFIED"
+  }
+}

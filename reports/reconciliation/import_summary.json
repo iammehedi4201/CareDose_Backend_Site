@@ -1,0 +1,76 @@
+{
+  "generatedAt": "2026-11-24T07:34:47.152Z",
+  "dryRun": false,
+  "source": "kaggle",
+  "batchSize": 500,
+  "includeHerbal": false,
+  "totals": {
+    "recordsExamined": 39303,
+    "kaggleExamined": 21714,
+    "dimsExamined": 17589,
+    "exactMatches": 25945,
+    "newlyInsertedGenerics": 53,
+    "newlyInsertedBrands": 1327,
+    "newlyInsertedPacks": 1476,
+    "newlyInsertedAltGroups": 0,
+    "newlyInsertedAltLinks": 0,
+    "updatedRecords": 0,
+    "skippedRecords": 20387,
+    "duplicateRecords": 6538,
+    "conflictingRecords": 158,
+    "unresolvedRecords": 3754
+  },
+  "proposedOrAppliedBatchLogs": [
+    "Saved pre-import JSON snapshot to F:\\My Projects\\CareDose\\backend\\reports\\reconciliation\\pre_import_backup_2026-11-24T07-34-18-078Z.json",
+    "COMPLETED atomic batch a10beeb7-aac9-4efe-8ce1-af5568e41ddd: +53 generics, +1327 brands, +1476 packs."
+  ],
+  "backupFile": "F:\\My Projects\\CareDose\\backend\\reports\\reconciliation\\pre_import_backup_2026-11-24T07-34-18-078Z.json",
+  "beforeCounts": {
+    "generics": 1793,
+    "brands": 23881,
+    "packs": 25992,
+    "alternativeGroups": 2241,
+    "alternativeGroupBrands": 21696,
+    "images": 52,
+    "patientMedications": 0
+  },
+  "afterCounts": {
+    "generics": 1846,
+    "brands": 25208,
+    "packs": 27468,
+    "alternativeGroups": 2241,
+    "alternativeGroupBrands": 21696,
+    "images": 52,
+    "patientMedications": 0
+  },
+  "validation": {
+    "passed": true,
+    "checks": {
+      "noAccidentalDeletions": {
+        "ok": true,
+        "value": 1327,
+        "note": "Net brand delta: 1327"
+      },
+      "missingBrandNames": {
+        "ok": true,
+        "value": 0,
+        "note": "All brands must have non-empty names"
+      },
+      "missingDosageForms": {
+        "ok": true,
+        "value": 0,
+        "note": "All brands should have dosage forms"
+      },
+      "brandsMissingGeneric": {
+        "ok": true,
+        "value": 0,
+        "note": "Brands with null genericId (before=0, after=0)"
+      },
+      "sameManufacturerCanonicalDuplicateGroups": {
+        "ok": true,
+        "value": 16,
+        "note": "Informational count of existing+new same-manufacturer canonical duplicate groups"
+      }
+    }
+  }
+}

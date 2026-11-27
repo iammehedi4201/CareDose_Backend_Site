@@ -18,7 +18,9 @@
     "prisma:generate": "prisma generate",
     "prisma:migrate:dev": "prisma migrate dev",
     "prisma:migrate:deploy": "prisma migrate deploy",
-    "catalogue:import": "npm run build && node dist/imports/run-catalogue-import"
+    "backup:verify": "node scripts/verify-backup-restore.mjs",
+    "catalogue:import": "npm run build && node dist/imports/run-catalogue-import",
+    "catalogue:reconcile": "npm run build && node dist/imports/run-reconciliation"
   },
   "dependencies": {
     "@nestjs/common": "^10.4.15",

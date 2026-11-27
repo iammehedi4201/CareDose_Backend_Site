@@ -1,0 +1,665 @@
+[
+  {
+    "sourceId": "listing:alfacalcidol",
+    "idSource": "listing_text",
+    "name": "Alfacalcidol",
+    "normalizedName": "alfacalcidol",
+    "slug": "alfacalcidol",
+    "isCombination": false,
+    "ingredients": [
+      "Alfacalcidol"
+    ],
+    "referencedByBrandCount": 1
+  },
+  {
+    "sourceId": "listing:antioxidants-and-micronutrients",
+    "idSource": "listing_text",
+    "name": "Antioxidants and Micronutrients",
+    "normalizedName": "antioxidants and micronutrients",
+    "slug": "antioxidants-and-micronutrients",
+    "isCombination": false,
+    "ingredients": [
+      "Antioxidants and Micronutrients"
+    ],
+    "referencedByBrandCount": 1
+  },
+  {
+    "sourceId": "listing:benzathine-penicillin",
+    "idSource": "listing_text",
+    "name": "Benzathine Penicillin",
+    "normalizedName": "benzathine penicillin",
+    "slug": "benzathine-penicillin",
+    "isCombination": false,
+    "ingredients": [
+      "Benzathine Penicillin"
+    ],
+    "referencedByBrandCount": 3
+  },
+  {
+    "sourceId": "listing:benzocaine",
+    "idSource": "listing_text",
+    "name": "Benzocaine",
+    "normalizedName": "benzocaine",
+    "slug": "benzocaine",
+    "isCombination": false,
+    "ingredients": [
+      "Benzocaine"
+    ],
+    "referencedByBrandCount": 2
+  },
+  {
+    "sourceId": "listing:benzyl-penicillin",
+    "idSource": "listing_text",
+    "name": "Benzyl Penicillin",
+    "normalizedName": "benzyl penicillin",
+    "slug": "benzyl-penicillin",
+    "isCombination": false,
+    "ingredients": [
+      "Benzyl Penicillin"
+    ],
+    "referencedByBrandCount": 2
+  },
+  {
+    "sourceId": "listing:bromelain-trypsin",
+    "idSource": "listing_text",
+    "name": "Bromelain + Trypsin",
+    "normalizedName": "bromelain + trypsin",
+    "slug": "bromelain-trypsin",
+    "isCombination": true,
+    "ingredients": [
+      "Bromelain",
+      "Trypsin"
+    ],
+    "referencedByBrandCount": 1
+  },
+  {
+    "sourceId": "listing:busulfan",
+    "idSource": "listing_text",
+    "name": "Busulfan",
+    "normalizedName": "busulfan",
+    "slug": "busulfan",
+    "isCombination": false,
+    "ingredients": [
+      "Busulfan"
+    ],
+    "referencedByBrandCount": 1
+  },
+  {
+    "sourceId": "listing:calcium-vitamin-d3-vitamin-c-vitamin-e-multimineral",
+    "idSource": "listing_text",
+    "name": "Calcium + Vitamin D3 + Vitamin C + Vitamin E + Multimineral",
+    "normalizedName": "calcium + vitamin d3 + vitamin c + vitamin e + multimineral",
+    "slug": "calcium-vitamin-d3-vitamin-c-vitamin-e-multimineral",
+    "isCombination": true,
+    "ingredients": [
+      "Calcium",
+      "Vitamin D3",
+      "Vitamin C",
+      "Vitamin E",
+      "Multimineral"
+    ],
+    "referencedByBrandCount": 3
+  },
+  {
+    "sourceId": "listing:caprylic-capric-triglyceride",
+    "idSource": "listing_text",
+    "name": "Caprylic + Capric Triglyceride",
+    "normalizedName": "caprylic + capric triglyceride",
+    "slug": "caprylic-capric-triglyceride",
+    "isCombination": true,
+    "ingredients": [
+      "Caprylic",
+      "Capric Triglyceride"
+    ],
+    "referencedByBrandCount": 2
+  },
+  {
+    "sourceId": "listing:casirivimab-imdevimab",
+    "idSource": "listing_text",
+    "name": "Casirivimab + Imdevimab",
+    "normalizedName": "casirivimab + imdevimab",
+    "slug": "casirivimab-imdevimab",
+    "isCombination": true,
+    "ingredients": [
+      "Casirivimab",
+      "Imdevimab"
+    ],
+    "referencedByBrandCount": 2
+  },
+  {
+    "sourceId": "listing:celecoxib",
+    "idSource": "listing_text",
+    "name": "Celecoxib",
+    "normalizedName": "celecoxib",
+    "slug": "celecoxib",
+    "isCombination": false,
+    "ingredients": [
+      "Celecoxib"
+    ],
+    "referencedByBrandCount": 10
+  },
+  {
+    "sourceId": "listing:covid-vaccine",
+    "idSource": "listing_text",
+    "name": "COVID Vaccine",
+    "normalizedName": "covid vaccine",
+    "slug": "covid-vaccine",
+    "isCombination": false,
+    "ingredients": [
+      "COVID Vaccine"
+    ],
+    "referencedByBrandCount": 1
+  },
+  {
+    "sourceId": "listing:dextran-dextrose",
+    "idSource": "listing_text",
+    "name": "Dextran + Dextrose",
+    "normalizedName": "dextran + dextrose",
+    "slug": "dextran-dextrose",
+    "isCombination": true,
+    "ingredients": [
+      "Dextran",
+      "Dextrose"
+    ],
+    "referencedByBrandCount": 2
+  },
+  {
+    "sourceId": "listing:dextran-sodium-chloride",
+    "idSource": "listing_text",
+    "name": "Dextran + Sodium Chloride",
+    "normalizedName": "dextran + sodium chloride",
+    "slug": "dextran-sodium-chloride",
+    "isCombination": true,
+    "ingredients": [
+      "Dextran",
+      "Sodium Chloride"
+    ],
+    "referencedByBrandCount": 2
+  },
+  {
+    "sourceId": "listing:diflorasone-diacetate",
+    "idSource": "listing_text",
+    "name": "Diflorasone Diacetate",
+    "normalizedName": "diflorasone diacetate",
+    "slug": "diflorasone-diacetate",
+    "isCombination": false,
+    "ingredients": [
+      "Diflorasone Diacetate"
+    ],
+    "referencedByBrandCount": 2
+  },
+  {
+    "sourceId": "listing:diphtheria-pertussis-tetanus-dpt",
+    "idSource": "listing_text",
+    "name": "Diphtheria + Pertussis + Tetanus [DPT]",
+    "normalizedName": "diphtheria + pertussis + tetanus [dpt]",
+    "slug": "diphtheria-pertussis-tetanus-dpt",
+    "isCombination": true,
+    "ingredients": [
+      "Diphtheria",
+      "Pertussis",
+      "Tetanus [DPT]"
+    ],
+    "referencedByBrandCount": 2
+  },
+  {
+    "sourceId": "listing:disopyramide-phosphate",
+    "idSource": "listing_text",
+    "name": "Disopyramide Phosphate",
+    "normalizedName": "disopyramide phosphate",
+    "slug": "disopyramide-phosphate",
+    "isCombination": false,
+    "ingredients": [
+      "Disopyramide Phosphate"
+    ],
+    "referencedByBrandCount": 1
+  },
+  {
+    "sourceId": "listing:ergotamine-tartrate-caffeine",
+    "idSource": "listing_text",
+    "name": "Ergotamine Tartrate + Caffeine",
+    "normalizedName": "ergotamine tartrate + caffeine",
+    "slug": "ergotamine-tartrate-caffeine",
+    "isCombination": true,
+    "ingredients": [
+      "Ergotamine Tartrate",
+      "Caffeine"
+    ],
+    "referencedByBrandCount": 1
+  },
+  {
+    "sourceId": "listing:eslicarbazepine-acetate",
+    "idSource": "listing_text",
+    "name": "Eslicarbazepine Acetate",
+    "normalizedName": "eslicarbazepine acetate",
+    "slug": "eslicarbazepine-acetate",
+    "isCombination": false,
+    "ingredients": [
+      "Eslicarbazepine Acetate"
+    ],
+    "referencedByBrandCount": 1
+  },
+  {
+    "sourceId": "listing:ethinyl-estradiol-drospirenone-levomefolate",
+    "idSource": "listing_text",
+    "name": "Ethinyl Estradiol + Drospirenone + Levomefolate",
+    "normalizedName": "ethinyl estradiol + drospirenone + levomefolate",
+    "slug": "ethinyl-estradiol-drospirenone-levomefolate",
+    "isCombination": true,
+    "ingredients": [
+      "Ethinyl Estradiol",
+      "Drospirenone",
+      "Levomefolate"
+    ],
+    "referencedByBrandCount": 2
+  },
+  {
+    "sourceId": "listing:famciclovir",
+    "idSource": "listing_text",
+    "name": "Famciclovir",
+    "normalizedName": "famciclovir",
+    "slug": "famciclovir",
+    "isCombination": false,
+    "ingredients": [
+      "Famciclovir"
+    ],
+    "referencedByBrandCount": 1
+  },
+  {
+    "sourceId": "listing:ferrous-ascorbate",
+    "idSource": "listing_text",
+    "name": "Ferrous Ascorbate",
+    "normalizedName": "ferrous ascorbate",
+    "slug": "ferrous-ascorbate",
+    "isCombination": false,
+    "ingredients": [
+      "Ferrous Ascorbate"
+    ],
+    "referencedByBrandCount": 1
+  },
+  {
+    "sourceId": "listing:ferrous-fumarate",
+    "idSource": "listing_text",
+    "name": "Ferrous Fumarate",
+    "normalizedName": "ferrous fumarate",
+    "slug": "ferrous-fumarate",
+    "isCombination": false,
+    "ingredients": [
+      "Ferrous Fumarate"
+    ],
+    "referencedByBrandCount": 1
+  },
+  {
+    "sourceId": "listing:ferrous-gluconate",
+    "idSource": "listing_text",
+    "name": "Ferrous Gluconate",
+    "normalizedName": "ferrous gluconate",
+    "slug": "ferrous-gluconate",
+    "isCombination": false,
+    "ingredients": [
+      "Ferrous Gluconate"
+    ],
+    "referencedByBrandCount": 1
+  },
+  {
+    "sourceId": "listing:fluorescein-sodium",
+    "idSource": "listing_text",
+    "name": "Fluorescein Sodium",
+    "normalizedName": "fluorescein sodium",
+    "slug": "fluorescein-sodium",
+    "isCombination": false,
+    "ingredients": [
+      "Fluorescein Sodium"
+    ],
+    "referencedByBrandCount": 1
+  },
+  {
+    "sourceId": "listing:glucosamine-sulfate-chondroitin-camphor-peppermint-oil",
+    "idSource": "listing_text",
+    "name": "Glucosamine Sulfate + Chondroitin + Camphor + Peppermint oil",
+    "normalizedName": "glucosamine sulfate + chondroitin + camphor + peppermint oil",
+    "slug": "glucosamine-sulfate-chondroitin-camphor-peppermint-oil",
+    "isCombination": true,
+    "ingredients": [
+      "Glucosamine Sulfate",
+      "Chondroitin",
+      "Camphor",
+      "Peppermint oil"
+    ],
+    "referencedByBrandCount": 1
+  },
+  {
+    "sourceId": "listing:human-milk-based-amino-acid",
+    "idSource": "listing_text",
+    "name": "Human Milk based Amino Acid",
+    "normalizedName": "human milk based amino acid",
+    "slug": "human-milk-based-amino-acid",
+    "isCombination": false,
+    "ingredients": [
+      "Human Milk based Amino Acid"
+    ],
+    "referencedByBrandCount": 1
+  },
+  {
+    "sourceId": "listing:idoxuridine",
+    "idSource": "listing_text",
+    "name": "Idoxuridine",
+    "normalizedName": "idoxuridine",
+    "slug": "idoxuridine",
+    "isCombination": false,
+    "ingredients": [
+      "Idoxuridine"
+    ],
+    "referencedByBrandCount": 1
+  },
+  {
+    "sourceId": "listing:ispaghula-husk-ispaghula-seed-tinnevelly-senna-pods",
+    "idSource": "listing_text",
+    "name": "Ispaghula Husk + Ispaghula Seed + Tinnevelly Senna Pods",
+    "normalizedName": "ispaghula husk + ispaghula seed + tinnevelly senna pods",
+    "slug": "ispaghula-husk-ispaghula-seed-tinnevelly-senna-pods",
+    "isCombination": true,
+    "ingredients": [
+      "Ispaghula Husk",
+      "Ispaghula Seed",
+      "Tinnevelly Senna Pods"
+    ],
+    "referencedByBrandCount": 1
+  },
+  {
+    "sourceId": "listing:isradipine",
+    "idSource": "listing_text",
+    "name": "Isradipine",
+    "normalizedName": "isradipine",
+    "slug": "isradipine",
+    "isCombination": false,
+    "ingredients": [
+      "Isradipine"
+    ],
+    "referencedByBrandCount": 1
+  },
+  {
+    "sourceId": "listing:lactic-acid-sodium-pca",
+    "idSource": "listing_text",
+    "name": "Lactic acid + Sodium PCA",
+    "normalizedName": "lactic acid + sodium pca",
+    "slug": "lactic-acid-sodium-pca",
+    "isCombination": true,
+    "ingredients": [
+      "Lactic acid",
+      "Sodium PCA"
+    ],
+    "referencedByBrandCount": 1
+  },
+  {
+    "sourceId": "listing:levobunolol",
+    "idSource": "listing_text",
+    "name": "Levobunolol",
+    "normalizedName": "levobunolol",
+    "slug": "levobunolol",
+    "isCombination": false,
+    "ingredients": [
+      "Levobunolol"
+    ],
+    "referencedByBrandCount": 1
+  },
+  {
+    "sourceId": "listing:menaquinone-7",
+    "idSource": "listing_text",
+    "name": "Menaquinone-7",
+    "normalizedName": "menaquinone-7",
+    "slug": "menaquinone-7",
+    "isCombination": false,
+    "ingredients": [
+      "Menaquinone-7"
+    ],
+    "referencedByBrandCount": 1
+  },
+  {
+    "sourceId": "listing:mepyramine-maleate",
+    "idSource": "listing_text",
+    "name": "Mepyramine Maleate",
+    "normalizedName": "mepyramine maleate",
+    "slug": "mepyramine-maleate",
+    "isCombination": false,
+    "ingredients": [
+      "Mepyramine Maleate"
+    ],
+    "referencedByBrandCount": 1
+  },
+  {
+    "sourceId": "listing:mitomycin-c",
+    "idSource": "listing_text",
+    "name": "Mitomycin C",
+    "normalizedName": "mitomycin c",
+    "slug": "mitomycin-c",
+    "isCombination": false,
+    "ingredients": [
+      "Mitomycin C"
+    ],
+    "referencedByBrandCount": 3
+  },
+  {
+    "sourceId": "listing:naphazoline-pheniramine",
+    "idSource": "listing_text",
+    "name": "Naphazoline + Pheniramine",
+    "normalizedName": "naphazoline + pheniramine",
+    "slug": "naphazoline-pheniramine",
+    "isCombination": true,
+    "ingredients": [
+      "Naphazoline",
+      "Pheniramine"
+    ],
+    "referencedByBrandCount": 1
+  },
+  {
+    "sourceId": "listing:neratinib",
+    "idSource": "listing_text",
+    "name": "Neratinib",
+    "normalizedName": "neratinib",
+    "slug": "neratinib",
+    "isCombination": false,
+    "ingredients": [
+      "Neratinib"
+    ],
+    "referencedByBrandCount": 2
+  },
+  {
+    "sourceId": "listing:nimesulide",
+    "idSource": "listing_text",
+    "name": "Nimesulide",
+    "normalizedName": "nimesulide",
+    "slug": "nimesulide",
+    "isCombination": false,
+    "ingredients": [
+      "Nimesulide"
+    ],
+    "referencedByBrandCount": 1
+  },
+  {
+    "sourceId": "listing:nitrofurazone",
+    "idSource": "listing_text",
+    "name": "Nitrofurazone",
+    "normalizedName": "nitrofurazone",
+    "slug": "nitrofurazone",
+    "isCombination": false,
+    "ingredients": [
+      "Nitrofurazone"
+    ],
+    "referencedByBrandCount": 2
+  },
+  {
+    "sourceId": "listing:oral-polio-vaccine",
+    "idSource": "listing_text",
+    "name": "Oral Polio Vaccine",
+    "normalizedName": "oral polio vaccine",
+    "slug": "oral-polio-vaccine",
+    "isCombination": false,
+    "ingredients": [
+      "Oral Polio Vaccine"
+    ],
+    "referencedByBrandCount": 1
+  },
+  {
+    "sourceId": "listing:oxaprozin",
+    "idSource": "listing_text",
+    "name": "Oxaprozin",
+    "normalizedName": "oxaprozin",
+    "slug": "oxaprozin",
+    "isCombination": false,
+    "ingredients": [
+      "Oxaprozin"
+    ],
+    "referencedByBrandCount": 1
+  },
+  {
+    "sourceId": "listing:pipecuronium-bromide",
+    "idSource": "listing_text",
+    "name": "Pipecuronium Bromide",
+    "normalizedName": "pipecuronium bromide",
+    "slug": "pipecuronium-bromide",
+    "isCombination": false,
+    "ingredients": [
+      "Pipecuronium Bromide"
+    ],
+    "referencedByBrandCount": 1
+  },
+  {
+    "sourceId": "listing:polygeline-electrolytes",
+    "idSource": "listing_text",
+    "name": "Polygeline + Electrolytes",
+    "normalizedName": "polygeline + electrolytes",
+    "slug": "polygeline-electrolytes",
+    "isCombination": true,
+    "ingredients": [
+      "Polygeline",
+      "Electrolytes"
+    ],
+    "referencedByBrandCount": 1
+  },
+  {
+    "sourceId": "listing:procaine-penicillin-benzyl-penicillin",
+    "idSource": "listing_text",
+    "name": "Procaine Penicillin + Benzyl Penicillin",
+    "normalizedName": "procaine penicillin + benzyl penicillin",
+    "slug": "procaine-penicillin-benzyl-penicillin",
+    "isCombination": true,
+    "ingredients": [
+      "Procaine Penicillin",
+      "Benzyl Penicillin"
+    ],
+    "referencedByBrandCount": 1
+  },
+  {
+    "sourceId": "listing:propafenone-hydrochloride",
+    "idSource": "listing_text",
+    "name": "Propafenone Hydrochloride",
+    "normalizedName": "propafenone hydrochloride",
+    "slug": "propafenone-hydrochloride",
+    "isCombination": false,
+    "ingredients": [
+      "Propafenone Hydrochloride"
+    ],
+    "referencedByBrandCount": 1
+  },
+  {
+    "sourceId": "listing:rifampicin-isoniazid-pyrazinamide",
+    "idSource": "listing_text",
+    "name": "Rifampicin + Isoniazid + Pyrazinamide",
+    "normalizedName": "rifampicin + isoniazid + pyrazinamide",
+    "slug": "rifampicin-isoniazid-pyrazinamide",
+    "isCombination": true,
+    "ingredients": [
+      "Rifampicin",
+      "Isoniazid",
+      "Pyrazinamide"
+    ],
+    "referencedByBrandCount": 1
+  },
+  {
+    "sourceId": "listing:risedronate-sodium-calcium",
+    "idSource": "listing_text",
+    "name": "Risedronate Sodium + Calcium",
+    "normalizedName": "risedronate sodium + calcium",
+    "slug": "risedronate-sodium-calcium",
+    "isCombination": true,
+    "ingredients": [
+      "Risedronate Sodium",
+      "Calcium"
+    ],
+    "referencedByBrandCount": 1
+  },
+  {
+    "sourceId": "listing:rizatriptan-benzoate",
+    "idSource": "listing_text",
+    "name": "Rizatriptan Benzoate",
+    "normalizedName": "rizatriptan benzoate",
+    "slug": "rizatriptan-benzoate",
+    "isCombination": false,
+    "ingredients": [
+      "Rizatriptan Benzoate"
+    ],
+    "referencedByBrandCount": 2
+  },
+  {
+    "sourceId": "listing:rosiglitazone-metformin-hydrochloride",
+    "idSource": "listing_text",
+    "name": "Rosiglitazone + Metformin Hydrochloride",
+    "normalizedName": "rosiglitazone + metformin hydrochloride",
+    "slug": "rosiglitazone-metformin-hydrochloride",
+    "isCombination": true,
+    "ingredients": [
+      "Rosiglitazone",
+      "Metformin Hydrochloride"
+    ],
+    "referencedByBrandCount": 1
+  },
+  {
+    "sourceId": "listing:rotavirus-vaccine",
+    "idSource": "listing_text",
+    "name": "Rotavirus Vaccine",
+    "normalizedName": "rotavirus vaccine",
+    "slug": "rotavirus-vaccine",
+    "isCombination": false,
+    "ingredients": [
+      "Rotavirus Vaccine"
+    ],
+    "referencedByBrandCount": 2
+  },
+  {
+    "sourceId": "listing:sennosides",
+    "idSource": "listing_text",
+    "name": "Sennosides",
+    "normalizedName": "sennosides",
+    "slug": "sennosides",
+    "isCombination": false,
+    "ingredients": [
+      "Sennosides"
+    ],
+    "referencedByBrandCount": 1
+  },
+  {
+    "sourceId": "listing:spiramycin",
+    "idSource": "listing_text",
+    "name": "Spiramycin",
+    "normalizedName": "spiramycin",
+    "slug": "spiramycin",
+    "isCombination": false,
+    "ingredients": [
+      "Spiramycin"
+    ],
+    "referencedByBrandCount": 1
+  },
+  {
+    "sourceId": "listing:sulphonated-surfactant",
+    "idSource": "listing_text",
+    "name": "Sulphonated Surfactant",
+    "normalizedName": "sulphonated surfactant",
+    "slug": "sulphonated-surfactant",
+    "isCombination": false,
+    "ingredients": [
+      "Sulphonated Surfactant"
+    ],
+    "referencedByBrandCount": 2
+  }
+]

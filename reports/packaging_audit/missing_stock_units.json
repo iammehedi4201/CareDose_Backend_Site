@@ -1,0 +1,1425 @@
+{
+  "count": 71,
+  "records": [
+    {
+      "medicineBrandId": "01ac06f9-03e9-4626-aacd-6f6b84381bda",
+      "sourceBrandId": "16781",
+      "brandName": "Humalog",
+      "strength": "100 unit/ml",
+      "dosageForm": "SC Injection",
+      "packageId": "3f2a443f-8953-4528-96d5-268ff6aa5be8",
+      "packageDescription": "3 ml KwikPen",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "869.82",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": null,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "05530208-e3f2-4b37-8e8f-ae8032c45e27",
+      "sourceBrandId": "36872",
+      "brandName": "RapiMix",
+      "strength": "30%+70%",
+      "dosageForm": "SC Injection",
+      "packageId": "5f1f635b-3014-4bb5-b069-e6ed7b399ab1",
+      "packageDescription": "3's pack",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "1100",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 3,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "07bc7bc4-5810-451e-a533-0c37e2bc19ce",
+      "sourceBrandId": "16771",
+      "brandName": "Actrapid",
+      "strength": "100 IU/ml",
+      "dosageForm": "SC Injection",
+      "packageId": "5c0e6d9d-9715-45a2-8ea4-3daf3d7afa10",
+      "packageDescription": "5's pack",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "2105",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 5,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "07bc7bc4-5810-451e-a533-0c37e2bc19ce",
+      "sourceBrandId": "16771",
+      "brandName": "Actrapid",
+      "strength": "100 IU/ml",
+      "dosageForm": "SC Injection",
+      "packageId": "0f739ae2-fd79-4c92-a04f-414df882e9e9",
+      "packageDescription": "3 ml flexpen",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "421",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": null,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "0c7362a5-2cd4-4ed7-be0a-e3ebf6a9285e",
+      "sourceBrandId": "34108",
+      "brandName": "Camlor",
+      "strength": "8 mg/2 ml",
+      "dosageForm": "IM/IV Injection",
+      "packageId": "d2616fdb-33e0-447c-94a5-ae3b1d9f06ef",
+      "packageDescription": "5's pack",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "100",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 5,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "19dc2206-9e69-40f8-a2ee-45a349bf4952",
+      "sourceBrandId": "33847",
+      "brandName": "Neforex",
+      "strength": "20 mg/ml",
+      "dosageForm": "IM/IV Injection",
+      "packageId": "6264b7a5-32d1-431d-9cf3-2e31972e56e1",
+      "packageDescription": "5's pack",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "75",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 5,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "1df757c1-d0aa-4346-a52f-a06c74f00d6a",
+      "sourceBrandId": "38298",
+      "brandName": "Lipuro",
+      "strength": "200 mg/20 ml",
+      "dosageForm": "Emulsion for infusion",
+      "packageId": "1493aacc-b983-4d88-8362-f316b3120aaa",
+      "packageDescription": "5's pack",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "704.5",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 5,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "1f75ce5d-8fcb-478d-b1ad-0edaba2fc955",
+      "sourceBrandId": "28940",
+      "brandName": "Pergoveris",
+      "strength": "150 IU+75 IU",
+      "dosageForm": "SC Injection",
+      "packageId": "030cbfd5-3d1a-44e8-95db-fd3163f1d77a",
+      "packageDescription": null,
+      "price": {
+        "unitPrice": "5004",
+        "packPrice": null,
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": null,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "2003346d-a64d-4cb6-a2f3-9c8ea707d241",
+      "sourceBrandId": "30014",
+      "brandName": "Glypressin",
+      "strength": "1 mg/8.5 ml",
+      "dosageForm": "IV Injection",
+      "packageId": "0048489d-d626-4271-bbd4-288b40d0bdb8",
+      "packageDescription": "5's pack",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "11545",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 5,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "2003346d-a64d-4cb6-a2f3-9c8ea707d241",
+      "sourceBrandId": "30014",
+      "brandName": "Glypressin",
+      "strength": "1 mg/8.5 ml",
+      "dosageForm": "IV Injection",
+      "packageId": "80124de9-6ac6-4b0f-8b97-bddcd3aa333e",
+      "packageDescription": "8.5 ml solution",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "2309",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": null,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "223a601a-eb44-4331-b7fd-9a3198501b80",
+      "sourceBrandId": "16832",
+      "brandName": "Levemir Flexpen",
+      "strength": "100 IU/ml",
+      "dosageForm": "SC Injection",
+      "packageId": "30468fb7-1db2-4bff-8dac-5d867f1ae0ec",
+      "packageDescription": "5's pack",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "6915",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 5,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "223a601a-eb44-4331-b7fd-9a3198501b80",
+      "sourceBrandId": "16832",
+      "brandName": "Levemir Flexpen",
+      "strength": "100 IU/ml",
+      "dosageForm": "SC Injection",
+      "packageId": "b2ea5015-1497-4fc6-9a7b-883df304bf58",
+      "packageDescription": "3 ml flexpen",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "1383",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": null,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "27b80cae-1520-4d3e-9d8e-43906a3ee56b",
+      "sourceBrandId": "27536",
+      "brandName": "Acilog Mix",
+      "strength": "30%+70%",
+      "dosageForm": "SC Injection",
+      "packageId": "2f61776d-a2ba-40bc-ac62-64737c7defdb",
+      "packageDescription": "5's pack",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "4125",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 5,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "27b80cae-1520-4d3e-9d8e-43906a3ee56b",
+      "sourceBrandId": "27536",
+      "brandName": "Acilog Mix",
+      "strength": "30%+70%",
+      "dosageForm": "SC Injection",
+      "packageId": "b49afd5b-64eb-49b3-a9b4-ce2385cb3d84",
+      "packageDescription": "3 ml biopen",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "825",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": null,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "28aa87ce-0393-4663-9d2c-c3d8fa54d0fc",
+      "sourceBrandId": "33792",
+      "brandName": "Reladol",
+      "strength": "100 mg/2 ml",
+      "dosageForm": "IM/IV Injection",
+      "packageId": "74e1c40e-2740-4fc8-ab62-5c04f65c0d18",
+      "packageDescription": "5 amps pack",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "100",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 5,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "2f51da55-cd06-4dcf-8fbb-475cbf2593b6",
+      "sourceBrandId": "36610",
+      "brandName": "Androjet",
+      "strength": "250 mg/ml",
+      "dosageForm": "IM Injection",
+      "packageId": "e64d7379-8f58-4ead-9f1d-77afde3314ef",
+      "packageDescription": "10's pack",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "120",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 10,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "33cec057-20af-4d01-aea3-adbd2672990a",
+      "sourceBrandId": "33962",
+      "brandName": "Biomolipon",
+      "strength": "600 mg/ampoule",
+      "dosageForm": "Injection",
+      "packageId": "b38372bd-7be1-4693-ac94-707a9bf63252",
+      "packageDescription": "5's pack",
+      "price": {
+        "unitPrice": "10.2",
+        "packPrice": "65",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 5,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "35ba227d-029c-4958-9e5c-f2e2a2b5aa2c",
+      "sourceBrandId": "37446",
+      "brandName": "Lizox",
+      "strength": "2 mg/ml",
+      "dosageForm": "IV Infusion",
+      "packageId": "2a67f9b0-a0da-4a5d-b2ae-27dabe90a4a7",
+      "packageDescription": "300 ml solution",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "450",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": null,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "361d3c47-9a19-4227-8325-cf611d04ab26",
+      "sourceBrandId": "35456",
+      "brandName": "Fulvestrant SDZ",
+      "strength": "250 mg/5 ml",
+      "dosageForm": "IM Injection",
+      "packageId": "6b295f43-4c99-43e8-8f56-1ce1392880eb",
+      "packageDescription": "10's pack",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "120",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 10,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "3b412583-76f6-4658-bb7a-aa928d71bca1",
+      "sourceBrandId": "16829",
+      "brandName": "NovoMix 30",
+      "strength": "30%+70%",
+      "dosageForm": "SC Injection",
+      "packageId": "2d36697a-e862-4743-a2a8-2038273eb2d1",
+      "packageDescription": "5's pack",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "4325",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 5,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "3b412583-76f6-4658-bb7a-aa928d71bca1",
+      "sourceBrandId": "16829",
+      "brandName": "NovoMix 30",
+      "strength": "30%+70%",
+      "dosageForm": "SC Injection",
+      "packageId": "cc2eff9d-f53b-4405-bfa5-b6d3f0b539c4",
+      "packageDescription": "3 ml flexpen",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "865",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": null,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "3bba3950-6315-4b91-9ebe-7024adf07046",
+      "sourceBrandId": "32398",
+      "brandName": "Eclamag",
+      "strength": "2.5 gm/5 ml",
+      "dosageForm": "IM/IV Injection",
+      "packageId": "7a6e2526-ca81-412f-b108-48ebbade0462",
+      "packageDescription": "5's pack",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "46.53",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 5,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "418a78c9-b8ba-4c64-85a7-863e27e58374",
+      "sourceBrandId": "35194",
+      "brandName": "Faslodex",
+      "strength": "250 mg/5 ml",
+      "dosageForm": "IM Injection",
+      "packageId": "47fc7ca8-9cad-4266-869c-782bdeeb6cd7",
+      "packageDescription": "10's pack",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "120",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 10,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "50ae03fa-5496-4eb9-8884-91531149db50",
+      "sourceBrandId": "21741",
+      "brandName": "Arlin",
+      "strength": "2 mg/ml",
+      "dosageForm": "IV Infusion",
+      "packageId": "f600af00-188c-4d51-b5ad-9bcc3ecb8756",
+      "packageDescription": "300 ml solution",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "450",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": null,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "59b5f2e5-42b5-432e-a8d8-67381968b150",
+      "sourceBrandId": "34367",
+      "brandName": "Dixanol",
+      "strength": "50 ml/vial",
+      "dosageForm": "Injection",
+      "packageId": "8389dcc0-e820-4a8b-88af-0b0b4b8d6195",
+      "packageDescription": "5's pack",
+      "price": {
+        "unitPrice": "10.2",
+        "packPrice": "65",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 5,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "5a473126-23f4-4348-a9e3-ae1ca3d00f40",
+      "sourceBrandId": "34802",
+      "brandName": "Mytus",
+      "strength": "100 IU/ml",
+      "dosageForm": "SC Injection",
+      "packageId": "54b527cd-6ac2-408b-b535-162ea81672e3",
+      "packageDescription": "5's pack",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "895",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 5,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "5b78901d-2a90-485b-8b09-4722aa728b6a",
+      "sourceBrandId": "36812",
+      "brandName": "Ezolid",
+      "strength": "2 mg/ml",
+      "dosageForm": "IV Infusion",
+      "packageId": "4b8944cf-1b5c-4dc2-a07d-be175495c0d7",
+      "packageDescription": "300 ml solution",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "450",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": null,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "5c897c89-35de-456e-886c-75fdbc608439",
+      "sourceBrandId": "16823",
+      "brandName": "Mixtard 50",
+      "strength": "50%+50% in 100 IU/ml",
+      "dosageForm": "SC Injection",
+      "packageId": "966a5094-8793-4bcb-9862-4b8f8bb15965",
+      "packageDescription": "5's pack",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "2095",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 5,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "5c897c89-35de-456e-886c-75fdbc608439",
+      "sourceBrandId": "16823",
+      "brandName": "Mixtard 50",
+      "strength": "50%+50% in 100 IU/ml",
+      "dosageForm": "SC Injection",
+      "packageId": "dd6b8b4c-b709-41f6-adc5-1eb3f32035ff",
+      "packageDescription": "3 ml penfill",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "419",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": null,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "6571bd07-dd69-45a7-b5cf-2a8d7bf9eb9a",
+      "sourceBrandId": "33471",
+      "brandName": "Hypnofast",
+      "strength": "5 mg/5 ml",
+      "dosageForm": "IM/IV Injection",
+      "packageId": "7b707e17-76a9-436b-9355-48de3284e10d",
+      "packageDescription": "1 amps pack",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "90",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 1,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "6636a8f8-ae04-46f8-9c65-2f36b7a52691",
+      "sourceBrandId": "16840",
+      "brandName": "Tresiba",
+      "strength": "100 IU/ml",
+      "dosageForm": "SC Injection",
+      "packageId": "9861f81e-8426-48b6-afa1-486363eefa01",
+      "packageDescription": "5's pack",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "12",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 5,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "6636a8f8-ae04-46f8-9c65-2f36b7a52691",
+      "sourceBrandId": "16840",
+      "brandName": "Tresiba",
+      "strength": "100 IU/ml",
+      "dosageForm": "SC Injection",
+      "packageId": "3e9725e7-41a8-4c8e-828c-fffc5385f590",
+      "packageDescription": "3 ml FlexTouch",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "2",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": null,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "6d6fca2e-039e-4a5b-9f5d-a6f5d53d166f",
+      "sourceBrandId": "33913",
+      "brandName": "Humalog 200",
+      "strength": "200 unit/ml",
+      "dosageForm": "SC Injection",
+      "packageId": "21807cb7-6342-4cc8-8197-fae3761b4523",
+      "packageDescription": "5's pack",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "2354.79",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 5,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "6f469997-50e6-4c5f-af28-8ceff974c7f6",
+      "sourceBrandId": "16775",
+      "brandName": "NovoRapid",
+      "strength": "100 IU/ml",
+      "dosageForm": "SC Injection",
+      "packageId": "4d622ccd-0e61-4a14-ba77-1039af95efd4",
+      "packageDescription": "5's pack",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "3650",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 5,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "6f469997-50e6-4c5f-af28-8ceff974c7f6",
+      "sourceBrandId": "16775",
+      "brandName": "NovoRapid",
+      "strength": "100 IU/ml",
+      "dosageForm": "SC Injection",
+      "packageId": "1dea6855-c426-4689-992f-507780efdedb",
+      "packageDescription": "3 ml penfill",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "730",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": null,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "706b21e4-8469-4467-811a-f7957f156255",
+      "sourceBrandId": "8935",
+      "brandName": "Linzolid",
+      "strength": "2 mg/ml",
+      "dosageForm": "IV Infusion",
+      "packageId": "bc36c5d4-0691-4503-bc84-f47f3ad4351f",
+      "packageDescription": "300 ml solution",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "450",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": null,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "774fcc44-4100-49ef-912d-635b56bf4725",
+      "sourceBrandId": "33424",
+      "brandName": "Dalatic",
+      "strength": "600 mg/4 ml",
+      "dosageForm": "IM/IV Injection",
+      "packageId": "7dc4815a-095f-4bae-994a-2d3909beebec",
+      "packageDescription": "5's pack",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "210.13",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 5,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "77ed91f3-e733-4e50-8111-dde30a563d4f",
+      "sourceBrandId": "37015",
+      "brandName": "Linvox",
+      "strength": "2 mg/ml",
+      "dosageForm": "IV Infusion",
+      "packageId": "ab2fb481-943e-4fa4-804f-4f043b526b00",
+      "packageDescription": "300 ml solution",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "450",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": null,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "79bd19d9-f478-461b-be15-fed71b8e2bf1",
+      "sourceBrandId": "33991",
+      "brandName": "Fulvestrant",
+      "strength": "250 mg/5 ml",
+      "dosageForm": "IM Injection",
+      "packageId": "6bf752d7-b726-4776-bb4f-0a0f796fc51e",
+      "packageDescription": "10's pack",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "120",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 10,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "7b56961d-7f2f-4b4b-ae98-40f195992844",
+      "sourceBrandId": "15208",
+      "brandName": "D.P.T Vaccine",
+      "strength": "0.5 ml",
+      "dosageForm": "Injection",
+      "packageId": "aa6c1e70-e3e3-43f1-8d05-e2814761381f",
+      "packageDescription": "10's pack",
+      "price": {
+        "unitPrice": "17.95",
+        "packPrice": "179.5",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 10,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "7c4af741-ac97-4a2c-add6-c89cc796545f",
+      "sourceBrandId": "23993",
+      "brandName": "Requin",
+      "strength": "300 mg/5 ml",
+      "dosageForm": "Injection",
+      "packageId": "e85eaae0-0fac-4157-9596-04f2e7f9d051",
+      "packageDescription": null,
+      "price": {
+        "unitPrice": "10.2",
+        "packPrice": null,
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": null,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "7eeab175-bd0a-4d96-baec-c9ac2e0529a5",
+      "sourceBrandId": "37986",
+      "brandName": "Renamycin",
+      "strength": "50 mg/ml",
+      "dosageForm": "IM Injection",
+      "packageId": "61db344d-ae0e-4984-85c1-11bdea5dcee9",
+      "packageDescription": "10's pack",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "120",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 10,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "8063611f-8912-4661-811c-f9951d622e2b",
+      "sourceBrandId": "38040",
+      "brandName": "Asiclin",
+      "strength": "300 mg/2 ml",
+      "dosageForm": "IM/IV Injection",
+      "packageId": "e789e0ee-f561-42a4-8f94-83504302766c",
+      "packageDescription": "5's pack",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "120.08",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 5,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "88af9310-dd80-41f7-bedf-60928ec33a7c",
+      "sourceBrandId": "38236",
+      "brandName": "Lizorex",
+      "strength": "2 mg/ml",
+      "dosageForm": "IV Infusion",
+      "packageId": "ac5b2b97-c19e-4ca8-b35f-d3bf665dad46",
+      "packageDescription": "300 ml solution",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "450",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": null,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "94feb469-9c1a-47a7-abb5-c729ca59a396",
+      "sourceBrandId": "34410",
+      "brandName": "Provive MCT-LCT 1%",
+      "strength": "200 mg/20 ml",
+      "dosageForm": "Emulsion for infusion",
+      "packageId": "112aa993-4feb-42a4-9ea5-ed0c4a381a9c",
+      "packageDescription": "5's pack",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "704.5",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 5,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "99e45287-bf3f-4cdb-83ca-145740664e20",
+      "sourceBrandId": "17321",
+      "brandName": "Ifamide & Mesna",
+      "strength": "1 gm & 800 mg",
+      "dosageForm": "IV Infusion",
+      "packageId": "c2a92856-985a-4597-a2ea-5eb3258fed1e",
+      "packageDescription": "800 mg Mesna",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "1850",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": null,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "a0dbace3-0702-411b-9a34-db59c91da149",
+      "sourceBrandId": "8030",
+      "brandName": "Oricef",
+      "strength": "250 mg/vial",
+      "dosageForm": "IV Injection",
+      "packageId": "6107bde6-a7cc-4d51-b0c5-a97d4503f7b8",
+      "packageDescription": "250 mg",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "130",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": null,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "ab2459b0-ecc0-4814-be07-16a27e753a56",
+      "sourceBrandId": "38514",
+      "brandName": "Ornopain",
+      "strength": "8 mg/2 ml",
+      "dosageForm": "IM/IV Injection",
+      "packageId": "f8f34065-a6f8-4712-a03b-5370377f3d30",
+      "packageDescription": "5's pack",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "100",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 5,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "abed1da1-9012-4fe9-b2e2-26a07bbef930",
+      "sourceBrandId": "36880",
+      "brandName": "Gadosol",
+      "strength": "0.5 mmol/ml",
+      "dosageForm": "Injection",
+      "packageId": "9d806911-e487-49ca-998a-4999d9561749",
+      "packageDescription": "5's pack",
+      "price": {
+        "unitPrice": "10.2",
+        "packPrice": "65",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 5,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "ac1f19c7-4f06-41c1-83e3-54d11abc9b73",
+      "sourceBrandId": "8031",
+      "brandName": "Oricef",
+      "strength": "500 mg/vial",
+      "dosageForm": "IV Injection",
+      "packageId": "df2da359-eb9a-467e-b65f-01550f2552d1",
+      "packageDescription": "500 mg",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "200",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": null,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "b0ee2928-2cad-4460-a2db-7b01b947a581",
+      "sourceBrandId": "34553",
+      "brandName": "Hybolin",
+      "strength": "25 mg/ml",
+      "dosageForm": "IM Injection",
+      "packageId": "9c9029a2-1bc1-4db2-9cae-a11af101fa6f",
+      "packageDescription": "5's pack",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "193.58",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 5,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "b6b4e6e2-719f-42b2-b7c4-62415abe9bd4",
+      "sourceBrandId": "34555",
+      "brandName": "Hydeca",
+      "strength": "50 mg/ml",
+      "dosageForm": "IM Injection",
+      "packageId": "918f351b-d724-4742-9e0f-4a0aded894b6",
+      "packageDescription": "1 amps pack",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "110",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 1,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "b8751a54-e648-4e0e-aee0-464666007c16",
+      "sourceBrandId": "34045",
+      "brandName": "L-spar",
+      "strength": "10000 IU/vial",
+      "dosageForm": "IM/IV Injection",
+      "packageId": "71478d26-d2ed-4193-aee4-6b9946c3e0d8",
+      "packageDescription": "5's pack",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "100",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 5,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "bc9c64aa-c682-4310-8c68-6b973ba87f3c",
+      "sourceBrandId": "8027",
+      "brandName": "Oricef",
+      "strength": "250 mg/vial",
+      "dosageForm": "IM Injection",
+      "packageId": "7951303f-ec07-4ad9-8c11-065ddf384444",
+      "packageDescription": "250 mg",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "130",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": null,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "cb341087-e515-4c2c-a52e-30eef4a899b0",
+      "sourceBrandId": "35250",
+      "brandName": "G-Suxamethonium",
+      "strength": "100 mg/2 ml",
+      "dosageForm": "IM/IV Injection",
+      "packageId": "5ff29afe-4753-4bfd-90f2-56eddb878ca3",
+      "packageDescription": "10's pack",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "46.36",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 10,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "cc0f904d-eed7-404a-a37b-b7edb6e1e3f9",
+      "sourceBrandId": "36634",
+      "brandName": "Cetrolix",
+      "strength": "250 mcg/vial",
+      "dosageForm": "SC Injection",
+      "packageId": "fec5d8e1-7be4-46af-bbc5-2a5ad4e2d134",
+      "packageDescription": "7's pack",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "14371.6",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 7,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "cf2ce3b4-8718-4e9c-ad94-4af398606cc3",
+      "sourceBrandId": "21750",
+      "brandName": "Linexil",
+      "strength": "2 mg/ml",
+      "dosageForm": "IV Infusion",
+      "packageId": "53f5df7f-6f01-4911-bb87-40e78109ed7f",
+      "packageDescription": "300 ml solution",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "451.36",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": null,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "d09764e9-5832-429b-b52b-381d402ad8a9",
+      "sourceBrandId": "36354",
+      "brandName": "Fulvest",
+      "strength": "250 mg/5 ml",
+      "dosageForm": "IM Injection",
+      "packageId": "24727191-61eb-412b-8638-9c270653c933",
+      "packageDescription": "10's pack",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "120",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 10,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "d09b886c-5f2e-47ff-84fe-5bb63d956342",
+      "sourceBrandId": "35987",
+      "brandName": "Glyset R",
+      "strength": "100 IU/ml",
+      "dosageForm": "SC Injection",
+      "packageId": "54e1a56a-1695-4b02-90d1-018adf803b80",
+      "packageDescription": "3 ml PenSet",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "550",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": null,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "d9e05bc5-5f7c-4cfa-8c32-e2939ee95021",
+      "sourceBrandId": "36110",
+      "brandName": "Opocan",
+      "strength": "4 mg/4 ml",
+      "dosageForm": "Injection",
+      "packageId": "a84118ef-c904-4273-a831-f8a3e497fd6a",
+      "packageDescription": "5's pack",
+      "price": {
+        "unitPrice": "10.2",
+        "packPrice": "65",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 5,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "db74d383-18bb-46e8-9471-4e7668fa3bdf",
+      "sourceBrandId": "33423",
+      "brandName": "Dalatic",
+      "strength": "300 mg/2 ml",
+      "dosageForm": "IM/IV Injection",
+      "packageId": "d014de59-f91b-44c5-8eff-f4f83798c1c0",
+      "packageDescription": "5's pack",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "120.08",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 5,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "e1989e90-e64d-4e83-a2e1-c53558e056b4",
+      "sourceBrandId": "34044",
+      "brandName": "L-spar",
+      "strength": "5000 IU/vial",
+      "dosageForm": "IM/IV Injection",
+      "packageId": "25c0fd3a-01d2-463e-824f-ad88780e8acc",
+      "packageDescription": "5's pack",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "100",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 5,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "e679ff3c-819c-4c2f-900e-0bae12038bb6",
+      "sourceBrandId": "35247",
+      "brandName": "G-Pethidine",
+      "strength": "50 mg/ml",
+      "dosageForm": "Injection",
+      "packageId": "b4497bd1-890f-4928-a12c-95df579f4cb9",
+      "packageDescription": "5's pack",
+      "price": {
+        "unitPrice": "10.2",
+        "packPrice": "65",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 5,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "e7a04489-f996-4e32-a48f-4c4cc4471f26",
+      "sourceBrandId": "27645",
+      "brandName": "Vibrenta",
+      "strength": "100 IU/ml",
+      "dosageForm": "SC Injection",
+      "packageId": "78cc35ad-294b-429f-92e0-f78a3c033a28",
+      "packageDescription": "3 ml PenSet",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "600",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": null,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "efd3aaf6-aeae-48b2-b0d3-c3c4e0ce05b8",
+      "sourceBrandId": "27636",
+      "brandName": "Proviten JR",
+      "strength": null,
+      "dosageForm": "IV Injection or Infusion",
+      "packageId": "f88b1d9b-eaf2-484f-8326-a7e33aa958cd",
+      "packageDescription": null,
+      "price": {
+        "unitPrice": "300",
+        "packPrice": null,
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": null,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "f220dfa4-1670-44d5-a3fa-d47b6b21b877",
+      "sourceBrandId": "27350",
+      "brandName": "Ifamide & Mesna",
+      "strength": "2 gm & 1600 mg",
+      "dosageForm": "IV Infusion",
+      "packageId": "b68b89c1-a9f6-4fd1-b8a2-f0d5498f646b",
+      "packageDescription": "1600 mg Mesna",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "3255",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": null,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "f48d62ed-1bc1-4ac0-8576-f5d0b1d621a9",
+      "sourceBrandId": "33951",
+      "brandName": "Amiodarone Hameln",
+      "strength": "150 mg/3 ml",
+      "dosageForm": "Injection",
+      "packageId": "1c9078d7-cd4a-4b76-96da-1f2debbf586b",
+      "packageDescription": "5's pack",
+      "price": {
+        "unitPrice": "10.2",
+        "packPrice": "65",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 5,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "f6cb1f65-95b3-4575-82ba-568a674d3eee",
+      "sourceBrandId": "15209",
+      "brandName": "DPT Vaccine",
+      "strength": "0.5 ml",
+      "dosageForm": "Injection",
+      "packageId": "9907254e-a07d-4b14-b439-104ed044a16f",
+      "packageDescription": null,
+      "price": {
+        "unitPrice": "15.35",
+        "packPrice": null,
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": null,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "f80af54e-ab2d-44ab-bf56-59146624779e",
+      "sourceBrandId": "35242",
+      "brandName": "G-Morphine",
+      "strength": "15 mg/ml",
+      "dosageForm": "Injection",
+      "packageId": "c541f071-411e-41dd-b119-b47c98623283",
+      "packageDescription": "5 amps pack",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "200",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 5,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "f8408618-fb74-4065-ac61-a2b8301d6ef9",
+      "sourceBrandId": "16798",
+      "brandName": "Insulatard Flexpen",
+      "strength": "100 IU/ml",
+      "dosageForm": "SC Injection",
+      "packageId": "5b89b15b-a400-400e-8f1e-49df400e158f",
+      "packageDescription": "5's pack",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "2105",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": 5,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    },
+    {
+      "medicineBrandId": "f8408618-fb74-4065-ac61-a2b8301d6ef9",
+      "sourceBrandId": "16798",
+      "brandName": "Insulatard Flexpen",
+      "strength": "100 IU/ml",
+      "dosageForm": "SC Injection",
+      "packageId": "dc35ed4a-6f05-43ca-aa0c-9375b0cbfd5b",
+      "packageDescription": "3 ml flexpen",
+      "price": {
+        "unitPrice": null,
+        "packPrice": "421",
+        "currency": "BDT"
+      },
+      "availableQuantity": {
+        "packUnits": null,
+        "stripUnits": null
+      },
+      "reason": "Category C: Injection pack exists, but container measurement unit (vials/ampoules/syringes/pens/bags) could not be determined from packQuantity or dosageForm.",
+      "category": "C"
+    }
+  ]
+}

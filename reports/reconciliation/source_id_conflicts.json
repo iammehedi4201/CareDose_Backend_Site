@@ -1,0 +1,3640 @@
+{
+  "generatedAt": "2026-11-24T07:34:16.919Z",
+  "totalConflicts": 158,
+  "conflicts": [
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "30871",
+      "existingDbRecord": {
+        "id": "3cf0a9c6-cd29-4987-8419-f78c88c44e7f",
+        "sourceId": "30871",
+        "name": "Acteria (For kids)",
+        "strength": "4 billion/sachet",
+        "dosageForm": "Oral Powder",
+        "generic": "Probiotic Combination [4 Billion]",
+        "manufacturer": "Radiant Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "30871",
+        "name": "Acteria",
+        "strength": "4 billion/sachet",
+        "dosageForm": "Oral Powder",
+        "generic": "Probiotic Combination [4 Billion]",
+        "manufacturer": "Radiant Nutraceuticals Ltd."
+      },
+      "reason": "sourceId \"30871\" maps to \"Acteria (For kids)\" in DB vs \"Acteria\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "29613",
+      "existingDbRecord": {
+        "id": "64cefb36-73c5-45a1-8bc5-01c5b463153d",
+        "sourceId": "29613",
+        "name": "Probio (For kids)",
+        "strength": "4 billion/sachet",
+        "dosageForm": "Oral Powder",
+        "generic": "Probiotic Combination [4 Billion]",
+        "manufacturer": "Square Pharmaceuticals PLC"
+      },
+      "incomingRecord": {
+        "sourceId": "29613",
+        "name": "Probio",
+        "strength": "4 billion/sachet",
+        "dosageForm": "Oral Powder",
+        "generic": "Probiotic Combination [4 Billion]",
+        "manufacturer": "Square Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"29613\" maps to \"Probio (For kids)\" in DB vs \"Probio\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "30608",
+      "existingDbRecord": {
+        "id": "1f011bb4-17bb-496d-8c7c-479efe4b73e1",
+        "sourceId": "30608",
+        "name": "Ambeecal",
+        "strength": "500 mg",
+        "dosageForm": "Tablet",
+        "generic": "Calcium Carbonate",
+        "manufacturer": "Ambee Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "30608",
+        "name": "Anetol",
+        "strength": "50 mg",
+        "dosageForm": "Tablet",
+        "generic": "Atenolol",
+        "manufacturer": "Ambee Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"30608\" maps to \"Ambeecal\" in DB vs \"Anetol\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "32466",
+      "existingDbRecord": {
+        "id": "827d73c0-0775-4031-a53c-1ce6c3bf8b92",
+        "sourceId": "32466",
+        "name": "Arovent ODT",
+        "strength": "4 mg",
+        "dosageForm": "Dispersible Tablet",
+        "generic": "Montelukast Sodium",
+        "manufacturer": "Orion Pharma Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "32466",
+        "name": "Arovent",
+        "strength": "4 mg",
+        "dosageForm": "Dispersible Tablet",
+        "generic": "Montelukast Sodium",
+        "manufacturer": "Orion Pharma Ltd."
+      },
+      "reason": "sourceId \"32466\" maps to \"Arovent ODT\" in DB vs \"Arovent\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "13152",
+      "existingDbRecord": {
+        "id": "f332cd71-744b-46c8-8023-e9e1aaee3fb4",
+        "sourceId": "13152",
+        "name": "Jadenu",
+        "strength": "360 mg",
+        "dosageForm": "Tablet",
+        "generic": "Deferasirox",
+        "manufacturer": "Nevian Lifescience PLC"
+      },
+      "incomingRecord": {
+        "sourceId": "13152",
+        "name": "Asunra",
+        "strength": "400 mg",
+        "dosageForm": "Dispersible Tablet",
+        "generic": "Deferasirox",
+        "manufacturer": "Novartis (Bangladesh) Ltd."
+      },
+      "reason": "sourceId \"13152\" maps to \"Jadenu\" in DB vs \"Asunra\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "13151",
+      "existingDbRecord": {
+        "id": "6c83a551-0d97-4246-aad2-a169a29389a6",
+        "sourceId": "13151",
+        "name": "Jadenu",
+        "strength": "90 mg",
+        "dosageForm": "Tablet",
+        "generic": "Deferasirox",
+        "manufacturer": "Nevian Lifescience PLC"
+      },
+      "incomingRecord": {
+        "sourceId": "13151",
+        "name": "Asunra",
+        "strength": "100 mg",
+        "dosageForm": "Dispersible Tablet",
+        "generic": "Deferasirox",
+        "manufacturer": "Novartis (Bangladesh) Ltd."
+      },
+      "reason": "sourceId \"13151\" maps to \"Jadenu\" in DB vs \"Asunra\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "30624",
+      "existingDbRecord": {
+        "id": "7ccfe4a6-1a4d-4938-a62c-a0aa3043c442",
+        "sourceId": "30624",
+        "name": "Ocupin",
+        "strength": "1%",
+        "dosageForm": "Ophthalmic Ointment",
+        "generic": "Atropine Sulfate (Ophthalmic)",
+        "manufacturer": "OSL Pharma Limited"
+      },
+      "incomingRecord": {
+        "sourceId": "30624",
+        "name": "Atropine OSL",
+        "strength": "1%",
+        "dosageForm": "Ophthalmic Ointment",
+        "generic": "Atropine Sulfate",
+        "manufacturer": "Opso Saline Ltd."
+      },
+      "reason": "sourceId \"30624\" maps to \"Ocupin\" in DB vs \"Atropine OSL\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "30623",
+      "existingDbRecord": {
+        "id": "fbd0051a-3b51-4b4f-976b-6d939743bdec",
+        "sourceId": "30623",
+        "name": "Ocupin",
+        "strength": "1%",
+        "dosageForm": "Ophthalmic Solution",
+        "generic": "Atropine Sulfate (Ophthalmic)",
+        "manufacturer": "OSL Pharma Limited"
+      },
+      "incomingRecord": {
+        "sourceId": "30623",
+        "name": "Atropine OSL",
+        "strength": "1%",
+        "dosageForm": "Ophthalmic Solution",
+        "generic": "Atropine Sulfate",
+        "manufacturer": "Opso Saline Ltd."
+      },
+      "reason": "sourceId \"30623\" maps to \"Ocupin\" in DB vs \"Atropine OSL\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "10407",
+      "existingDbRecord": {
+        "id": "27333e41-677c-469f-8b30-1fde38397b12",
+        "sourceId": "10407",
+        "name": "ATP XR",
+        "strength": "665 mg",
+        "dosageForm": "Tablet (Extended Release)",
+        "generic": "Paracetamol",
+        "manufacturer": "General Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "10407",
+        "name": "ATP",
+        "strength": "500 mg",
+        "dosageForm": "Tablet",
+        "generic": "Paracetamol",
+        "manufacturer": "General Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"10407\" maps to \"ATP XR\" in DB vs \"ATP\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "6220",
+      "existingDbRecord": {
+        "id": "59377a7a-55f3-4674-8585-1a09b3dfa4f4",
+        "sourceId": "6220",
+        "name": "Alphedin",
+        "strength": "120 mg",
+        "dosageForm": "Tablet",
+        "generic": "Fexofenadine Hydrochloride",
+        "manufacturer": "Doctor’s Chemical Works Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "6220",
+        "name": "Auxil",
+        "strength": "125 mg/5 ml",
+        "dosageForm": "Powder for Suspension",
+        "generic": "Flucloxacillin Sodium",
+        "manufacturer": "Doctor’s Chemical Works Ltd."
+      },
+      "reason": "sourceId \"6220\" maps to \"Alphedin\" in DB vs \"Auxil\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "26000",
+      "existingDbRecord": {
+        "id": "acc0bccb-273f-4fb1-b802-eb23a74acb0c",
+        "sourceId": "26000",
+        "name": "Axita",
+        "strength": "5 mg",
+        "dosageForm": "Tablet",
+        "generic": "Axitinib",
+        "manufacturer": "Beacon Pharmaceuticals PLC"
+      },
+      "incomingRecord": {
+        "sourceId": "26000",
+        "name": "Axinix",
+        "strength": "5 mg",
+        "dosageForm": "Tablet",
+        "generic": "Axitinib",
+        "manufacturer": "Beacon Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"26000\" maps to \"Axita\" in DB vs \"Axinix\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "16771",
+      "existingDbRecord": {
+        "id": "07bc7bc4-5810-451e-a533-0c37e2bc19ce",
+        "sourceId": "16771",
+        "name": "Actrapid",
+        "strength": "100 IU/ml",
+        "dosageForm": "SC Injection",
+        "generic": "Insulin Human [rDNA]",
+        "manufacturer": "Novo Nordisk Pharma (Pvt.) Ltd"
+      },
+      "incomingRecord": {
+        "sourceId": "16771",
+        "name": "Actrapid FlexPen",
+        "strength": "100 IU/ml",
+        "dosageForm": "SC Injection",
+        "generic": "Insulin Human [Fast-Acting]",
+        "manufacturer": "Novo Nordisk Pharma (Pvt.) Ltd"
+      },
+      "reason": "sourceId \"16771\" maps to \"Actrapid\" in DB vs \"Actrapid FlexPen\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "27003",
+      "existingDbRecord": {
+        "id": "f08de27f-cba7-4a96-81d9-015d2ae28d96",
+        "sourceId": "27003",
+        "name": "Bisorif",
+        "strength": "2.5 mg",
+        "dosageForm": "Tablet",
+        "generic": "Bisoprolol Fumarate",
+        "manufacturer": "Sharif Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "27003",
+        "name": "B-Prolol",
+        "strength": "2.5 mg",
+        "dosageForm": "Tablet",
+        "generic": "Bisoprolol Hemifumarate",
+        "manufacturer": "Sharif Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"27003\" maps to \"Bisorif\" in DB vs \"B-Prolol\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "23125",
+      "existingDbRecord": {
+        "id": "edf2b1c4-77e2-43b7-98a2-d148cbc39c4c",
+        "sourceId": "23125",
+        "name": "Bacspa",
+        "strength": "10 mg",
+        "dosageForm": "Tablet",
+        "generic": "Baclofen",
+        "manufacturer": "Apex Pharma Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "23125",
+        "name": "Baclofen",
+        "strength": "10 mg",
+        "dosageForm": "Tablet",
+        "generic": "Baclofen",
+        "manufacturer": "Apex Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"23125\" maps to \"Bacspa\" in DB vs \"Baclofen\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "32037",
+      "existingDbRecord": {
+        "id": "f3e26acf-bf45-4250-9034-362ff34198d3",
+        "sourceId": "32037",
+        "name": "Baritab",
+        "strength": "2 mg",
+        "dosageForm": "Tablet",
+        "generic": "Baricitinib",
+        "manufacturer": "Eskayef Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "32037",
+        "name": "Barinib",
+        "strength": "2 mg",
+        "dosageForm": "Tablet",
+        "generic": "Baricitinib",
+        "manufacturer": "Eskayef Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"32037\" maps to \"Baritab\" in DB vs \"Barinib\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "4953",
+      "existingDbRecord": {
+        "id": "4e2da049-38be-4fcf-8bd2-8adce5380b1a",
+        "sourceId": "4953",
+        "name": "Barbit Elixir",
+        "strength": "20 mg/5 ml",
+        "dosageForm": "Oral Solution",
+        "generic": "Phenobarbital",
+        "manufacturer": "Incepta Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "4953",
+        "name": "Barbit",
+        "strength": "20 mg/5 ml",
+        "dosageForm": "Oral Solution",
+        "generic": "Phenobarbital",
+        "manufacturer": "Incepta Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"4953\" maps to \"Barbit Elixir\" in DB vs \"Barbit\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "31607",
+      "existingDbRecord": {
+        "id": "12cb49af-7368-48f7-ba79-0f4d761612f7",
+        "sourceId": "31607",
+        "name": "Bilargo ODT",
+        "strength": "10 mg",
+        "dosageForm": "Dispersible Tablet",
+        "generic": "Bilastine",
+        "manufacturer": "Ziska Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "31607",
+        "name": "Bilargo",
+        "strength": "10 mg",
+        "dosageForm": "Dispersible Tablet",
+        "generic": "Bilastine",
+        "manufacturer": "Ziska Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"31607\" maps to \"Bilargo ODT\" in DB vs \"Bilargo\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "32931",
+      "existingDbRecord": {
+        "id": "9702f4cd-4261-4823-9e1c-959e4b1591ca",
+        "sourceId": "32931",
+        "name": "Brocef CV",
+        "strength": "250 mg+62.5 mg",
+        "dosageForm": "Tablet",
+        "generic": "Cefuroxime Axetil + Clavulanic Acid",
+        "manufacturer": "Gaco Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "32931",
+        "name": "Brocef Plus",
+        "strength": "250 mg+62.5 mg",
+        "dosageForm": "Tablet",
+        "generic": "Cefuroxime Axetil + Clavulanic Acid",
+        "manufacturer": "Gaco Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"32931\" maps to \"Brocef CV\" in DB vs \"Brocef Plus\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "32932",
+      "existingDbRecord": {
+        "id": "48ccc298-6507-4129-b3e2-8e0f3dc111af",
+        "sourceId": "32932",
+        "name": "Brocef CV",
+        "strength": "500 mg+125 mg",
+        "dosageForm": "Tablet",
+        "generic": "Cefuroxime Axetil + Clavulanic Acid",
+        "manufacturer": "Gaco Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "32932",
+        "name": "Brocef Plus",
+        "strength": "500 mg+125 mg",
+        "dosageForm": "Tablet",
+        "generic": "Cefuroxime Axetil + Clavulanic Acid",
+        "manufacturer": "Gaco Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"32932\" maps to \"Brocef CV\" in DB vs \"Brocef Plus\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "4248",
+      "existingDbRecord": {
+        "id": "52d8f871-4183-4c87-8db4-da2451ffec3f",
+        "sourceId": "4248",
+        "name": "Breathair",
+        "strength": "10 mg",
+        "dosageForm": "Tablet",
+        "generic": "Montelukast Sodium",
+        "manufacturer": "Doctor’s Chemical Works Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "4248",
+        "name": "Bronium",
+        "strength": "3 mg",
+        "dosageForm": "Tablet",
+        "generic": "Bromazepam",
+        "manufacturer": "Doctor’s Chemical Works Ltd."
+      },
+      "reason": "sourceId \"4248\" maps to \"Breathair\" in DB vs \"Bronium\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "28675",
+      "existingDbRecord": {
+        "id": "2e1fc08a-0d4f-4f89-888e-ff811512a655",
+        "sourceId": "28675",
+        "name": "Bupec",
+        "strength": "7.5 mg/5 ml",
+        "dosageForm": "Syrup",
+        "generic": "Butamirate Citrate",
+        "manufacturer": "Labaid Pharma Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "28675",
+        "name": "Bupce",
+        "strength": "7.5 mg/5 ml",
+        "dosageForm": "Syrup",
+        "generic": "Butamirate Citrate",
+        "manufacturer": "Labaid Pharma Ltd."
+      },
+      "reason": "sourceId \"28675\" maps to \"Bupec\" in DB vs \"Bupce\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "32223",
+      "existingDbRecord": {
+        "id": "4a6a6506-123e-41d7-8caa-0fe453fd1d96",
+        "sourceId": "32223",
+        "name": "Colik",
+        "strength": "10 mg",
+        "dosageForm": "Tablet",
+        "generic": "Hyoscine Butylbromide",
+        "manufacturer": "ACI Limited"
+      },
+      "incomingRecord": {
+        "sourceId": "32223",
+        "name": "Byspa",
+        "strength": "10 mg",
+        "dosageForm": "Tablet",
+        "generic": "Hyoscine Butylbromide",
+        "manufacturer": "ACI Limited"
+      },
+      "reason": "sourceId \"32223\" maps to \"Colik\" in DB vs \"Byspa\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "17305",
+      "existingDbRecord": {
+        "id": "08b1954d-e802-4922-aa7a-5b1abf05ad94",
+        "sourceId": "17305",
+        "name": "Bendafolin",
+        "strength": "10 mg/ml",
+        "dosageForm": "IM/IV Injection",
+        "generic": "Folinic Acid",
+        "manufacturer": "ZAS Corporation"
+      },
+      "incomingRecord": {
+        "sourceId": "17305",
+        "name": "Calcium Folinate PhaRes",
+        "strength": "10 mg/ml",
+        "dosageForm": "IM/IV Injection",
+        "generic": "Calcium Folinate [Folinic Acid]",
+        "manufacturer": "Pharma Resources"
+      },
+      "reason": "sourceId \"17305\" maps to \"Bendafolin\" in DB vs \"Calcium Folinate PhaRes\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "21944",
+      "existingDbRecord": {
+        "id": "3fdd6c73-2a56-44b2-a3cc-936600fc2b2a",
+        "sourceId": "21944",
+        "name": "Milk of Magnesia",
+        "strength": "400 mg/5 ml",
+        "dosageForm": "Oral Suspension",
+        "generic": "Magnesium Hydroxide",
+        "manufacturer": "ACME Laboratories Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "21944",
+        "name": "Acme's Milk of Magnesia",
+        "strength": "400 mg/5 ml",
+        "dosageForm": "Oral Suspension",
+        "generic": "Magnesium Hydroxide",
+        "manufacturer": "ACME Laboratories Ltd."
+      },
+      "reason": "sourceId \"21944\" maps to \"Milk of Magnesia\" in DB vs \"Acme's Milk of Magnesia\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "17351",
+      "existingDbRecord": {
+        "id": "789fc503-46fb-4e6b-843a-605f0ae1445a",
+        "sourceId": "17351",
+        "name": "Hartmann Solution",
+        "strength": null,
+        "dosageForm": "IV Infusion",
+        "generic": "Hartmann's Solution",
+        "manufacturer": "ACME Laboratories Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "17351",
+        "name": "Acme's Hartmann Solution",
+        "strength": "",
+        "dosageForm": "IV Infusion",
+        "generic": "Hartmann's Solution",
+        "manufacturer": "ACME Laboratories Ltd."
+      },
+      "reason": "sourceId \"17351\" maps to \"Hartmann Solution\" in DB vs \"Acme's Hartmann Solution\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "30846",
+      "existingDbRecord": {
+        "id": "ffaba73b-28f2-4b52-a662-530caedc2234",
+        "sourceId": "30846",
+        "name": "Chelova FCT",
+        "strength": "180 mg",
+        "dosageForm": "Tablet",
+        "generic": "Deferasirox",
+        "manufacturer": "Jenphar Bangladesh Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "30846",
+        "name": "Chelova",
+        "strength": "250 mg",
+        "dosageForm": "Dispersible Tablet",
+        "generic": "Deferasirox",
+        "manufacturer": "Jenphar Bangladesh Ltd."
+      },
+      "reason": "sourceId \"30846\" maps to \"Chelova FCT\" in DB vs \"Chelova\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "30847",
+      "existingDbRecord": {
+        "id": "cf948baa-17f1-47af-960d-3995abdc64a5",
+        "sourceId": "30847",
+        "name": "Chelova FCT",
+        "strength": "360 mg",
+        "dosageForm": "Tablet",
+        "generic": "Deferasirox",
+        "manufacturer": "Jenphar Bangladesh Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "30847",
+        "name": "Chelova",
+        "strength": "500 mg",
+        "dosageForm": "Dispersible Tablet",
+        "generic": "Deferasirox",
+        "manufacturer": "Jenphar Bangladesh Ltd."
+      },
+      "reason": "sourceId \"30847\" maps to \"Chelova FCT\" in DB vs \"Chelova\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "28390",
+      "existingDbRecord": {
+        "id": "b42c7e8b-ebea-4324-a5fd-227026c15a92",
+        "sourceId": "28390",
+        "name": "Ciprogerm",
+        "strength": "500 mg",
+        "dosageForm": "Tablet",
+        "generic": "Ciprofloxacin",
+        "manufacturer": "Biogen Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "28390",
+        "name": "Ciprogen",
+        "strength": "500 mg",
+        "dosageForm": "Tablet",
+        "generic": "Ciprofloxacin",
+        "manufacturer": "Biogen Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"28390\" maps to \"Ciprogerm\" in DB vs \"Ciprogen\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "3197",
+      "existingDbRecord": {
+        "id": "9da1492d-f995-48eb-a7d5-b83d9afae82b",
+        "sourceId": "3197",
+        "name": "Ovenox",
+        "strength": "2000 Anti-Xa IU/0.2 ml",
+        "dosageForm": "SC Injection",
+        "generic": "Enoxaparin Sodium",
+        "manufacturer": "Synovia Pharma PLC."
+      },
+      "incomingRecord": {
+        "sourceId": "3197",
+        "name": "Clexane",
+        "strength": "2000 Anti-Xa IU/0.2 ml",
+        "dosageForm": "SC Injection",
+        "generic": "Enoxaparin Sodium",
+        "manufacturer": "Synovia pharma plc"
+      },
+      "reason": "sourceId \"3197\" maps to \"Ovenox\" in DB vs \"Clexane\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "3200",
+      "existingDbRecord": {
+        "id": "01659f98-2e50-45d8-b3e9-4d1504627b78",
+        "sourceId": "3200",
+        "name": "Ovenox",
+        "strength": "8000 Anti-Xa IU/0.8 ml",
+        "dosageForm": "SC Injection",
+        "generic": "Enoxaparin Sodium",
+        "manufacturer": "Synovia Pharma PLC."
+      },
+      "incomingRecord": {
+        "sourceId": "3200",
+        "name": "Clexane",
+        "strength": "8000 Anti-Xa IU/0.8 ml",
+        "dosageForm": "SC Injection",
+        "generic": "Enoxaparin Sodium",
+        "manufacturer": "Synovia pharma plc"
+      },
+      "reason": "sourceId \"3200\" maps to \"Ovenox\" in DB vs \"Clexane\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "3199",
+      "existingDbRecord": {
+        "id": "35e58d2a-4f17-4524-b1cd-4b2cf78558c8",
+        "sourceId": "3199",
+        "name": "Ovenox",
+        "strength": "6000 Anti-Xa IU/0.6 ml",
+        "dosageForm": "SC Injection",
+        "generic": "Enoxaparin Sodium",
+        "manufacturer": "Synovia Pharma PLC."
+      },
+      "incomingRecord": {
+        "sourceId": "3199",
+        "name": "Clexane",
+        "strength": "6000 Anti-Xa IU/0.6 ml",
+        "dosageForm": "SC Injection",
+        "generic": "Enoxaparin Sodium",
+        "manufacturer": "Synovia pharma plc"
+      },
+      "reason": "sourceId \"3199\" maps to \"Ovenox\" in DB vs \"Clexane\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "3198",
+      "existingDbRecord": {
+        "id": "5d699b16-9365-47ce-89c7-16a8fdba28ea",
+        "sourceId": "3198",
+        "name": "Ovenox",
+        "strength": "4000 Anti-Xa IU/0.4 ml",
+        "dosageForm": "SC Injection",
+        "generic": "Enoxaparin Sodium",
+        "manufacturer": "Synovia Pharma PLC."
+      },
+      "incomingRecord": {
+        "sourceId": "3198",
+        "name": "Clexane",
+        "strength": "4000 Anti-Xa IU/0.4 ml",
+        "dosageForm": "SC Injection",
+        "generic": "Enoxaparin Sodium",
+        "manufacturer": "Synovia pharma plc"
+      },
+      "reason": "sourceId \"3198\" maps to \"Ovenox\" in DB vs \"Clexane\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "28992",
+      "existingDbRecord": {
+        "id": "c3333a06-8d29-4b3d-b701-6bc8da97c70a",
+        "sourceId": "28992",
+        "name": "Cleo 35",
+        "strength": "2 mg+0.035 mg",
+        "dosageForm": "Tablet",
+        "generic": "Cyproterone Acetate + Ethinyl Estradiol",
+        "manufacturer": "Nuvista Pharma Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "28992",
+        "name": "Cleo",
+        "strength": "2 mg+0.035 mg",
+        "dosageForm": "Tablet",
+        "generic": "Cyproterone Acetate + Ethinyl Estradiol",
+        "manufacturer": "Nuvista Pharma Ltd."
+      },
+      "reason": "sourceId \"28992\" maps to \"Cleo 35\" in DB vs \"Cleo\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "30981",
+      "existingDbRecord": {
+        "id": "f1598431-7bfb-46a1-9aa7-8c3ac316ef09",
+        "sourceId": "30981",
+        "name": "Cofcut",
+        "strength": "7.5 mg/5 ml",
+        "dosageForm": "Syrup",
+        "generic": "Butamirate Citrate",
+        "manufacturer": "Pacific Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "30981",
+        "name": "Coughcut",
+        "strength": "7.5 mg/5 ml",
+        "dosageForm": "Syrup",
+        "generic": "Butamirate Citrate",
+        "manufacturer": "Pacific Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"30981\" maps to \"Cofcut\" in DB vs \"Coughcut\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "32692",
+      "existingDbRecord": {
+        "id": "a0373c88-999e-4ab9-b54d-eae92c8b8d6b",
+        "sourceId": "32692",
+        "name": "Emcin",
+        "strength": "2% w/w",
+        "dosageForm": "Ointment",
+        "generic": "Mupirocin",
+        "manufacturer": "Ethical Drugs Limited"
+      },
+      "incomingRecord": {
+        "sourceId": "32692",
+        "name": "Cozid",
+        "strength": "2% w/w",
+        "dosageForm": "Ointment",
+        "generic": "Mupirocin",
+        "manufacturer": "Ethical Drug Ltd."
+      },
+      "reason": "sourceId \"32692\" maps to \"Emcin\" in DB vs \"Cozid\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "25992",
+      "existingDbRecord": {
+        "id": "3b0a4f7c-7c6a-42ee-9783-8748b30b73e5",
+        "sourceId": "25992",
+        "name": "Alkriz",
+        "strength": "250 mg",
+        "dosageForm": "Capsule",
+        "generic": "Crizotinib",
+        "manufacturer": "Beacon Pharmaceuticals PLC"
+      },
+      "incomingRecord": {
+        "sourceId": "25992",
+        "name": "Crizonix",
+        "strength": "250 mg",
+        "dosageForm": "Capsule",
+        "generic": "Crizotinib",
+        "manufacturer": "Beacon Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"25992\" maps to \"Alkriz\" in DB vs \"Crizonix\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "10764",
+      "existingDbRecord": {
+        "id": "1b5b18fc-2f82-4772-b3a1-333088d756e6",
+        "sourceId": "10764",
+        "name": "Anadol Plus",
+        "strength": "325 mg+37.5 mg",
+        "dosageForm": "Tablet",
+        "generic": "Paracetamol + Tramadol Hydrochloride",
+        "manufacturer": "Square Pharmaceuticals PLC"
+      },
+      "incomingRecord": {
+        "sourceId": "10764",
+        "name": "Acetram",
+        "strength": "325 mg+37.5 mg",
+        "dosageForm": "Tablet",
+        "generic": "Paracetamol + Tramadol Hydrochloride",
+        "manufacturer": "Square Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"10764\" maps to \"Anadol Plus\" in DB vs \"Acetram\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "6503",
+      "existingDbRecord": {
+        "id": "e396f9dc-1ffa-4143-b80c-17eb4d58e97c",
+        "sourceId": "6503",
+        "name": "Demox",
+        "strength": "500 mg",
+        "dosageForm": "Capsule",
+        "generic": "Amoxicillin Trihydrate",
+        "manufacturer": "Desh Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "6503",
+        "name": "Demox-500",
+        "strength": "500 mg",
+        "dosageForm": "Capsule",
+        "generic": "Amoxicillin Trihydrate",
+        "manufacturer": "Desh Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"6503\" maps to \"Demox\" in DB vs \"Demox-500\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "10420",
+      "existingDbRecord": {
+        "id": "889d3d2d-26ea-4837-b98c-b765ca589c09",
+        "sourceId": "10420",
+        "name": "Depol Extended",
+        "strength": "665 mg",
+        "dosageForm": "Tablet (Extended Release)",
+        "generic": "Paracetamol",
+        "manufacturer": "Desh Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "10420",
+        "name": "Depol",
+        "strength": "500 mg",
+        "dosageForm": "Tablet",
+        "generic": "Paracetamol",
+        "manufacturer": "Desh Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"10420\" maps to \"Depol Extended\" in DB vs \"Depol\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "22254",
+      "existingDbRecord": {
+        "id": "320fe0e6-2b19-4908-9d37-6cbec7043880",
+        "sourceId": "22254",
+        "name": "Methilon",
+        "strength": "8 mg",
+        "dosageForm": "Tablet",
+        "generic": "Methylprednisolone",
+        "manufacturer": "Opsonin Pharma Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "22254",
+        "name": "Depodrol",
+        "strength": "8 mg",
+        "dosageForm": "Tablet",
+        "generic": "Methylprednisolone",
+        "manufacturer": "Opsonin Pharma Ltd."
+      },
+      "reason": "sourceId \"22254\" maps to \"Methilon\" in DB vs \"Depodrol\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "22253",
+      "existingDbRecord": {
+        "id": "9a2ac4d4-23bb-4581-b734-7c5da96638c3",
+        "sourceId": "22253",
+        "name": "Methilon",
+        "strength": "4 mg",
+        "dosageForm": "Tablet",
+        "generic": "Methylprednisolone",
+        "manufacturer": "Opsonin Pharma Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "22253",
+        "name": "Depodrol",
+        "strength": "4 mg",
+        "dosageForm": "Tablet",
+        "generic": "Methylprednisolone",
+        "manufacturer": "Opsonin Pharma Ltd."
+      },
+      "reason": "sourceId \"22253\" maps to \"Methilon\" in DB vs \"Depodrol\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "22255",
+      "existingDbRecord": {
+        "id": "9a10204d-11a1-4321-ac73-26174fb6cce4",
+        "sourceId": "22255",
+        "name": "Methilon",
+        "strength": "16 mg",
+        "dosageForm": "Tablet",
+        "generic": "Methylprednisolone",
+        "manufacturer": "Opsonin Pharma Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "22255",
+        "name": "Depodrol",
+        "strength": "16 mg",
+        "dosageForm": "Tablet",
+        "generic": "Methylprednisolone",
+        "manufacturer": "Opsonin Pharma Ltd."
+      },
+      "reason": "sourceId \"22255\" maps to \"Methilon\" in DB vs \"Depodrol\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "22252",
+      "existingDbRecord": {
+        "id": "2c501d77-7ab8-4d25-be7c-49340c2ca146",
+        "sourceId": "22252",
+        "name": "Methilon",
+        "strength": "2 mg",
+        "dosageForm": "Tablet",
+        "generic": "Methylprednisolone",
+        "manufacturer": "Opsonin Pharma Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "22252",
+        "name": "Depodrol",
+        "strength": "2 mg",
+        "dosageForm": "Tablet",
+        "generic": "Methylprednisolone",
+        "manufacturer": "Opsonin Pharma Ltd."
+      },
+      "reason": "sourceId \"22252\" maps to \"Methilon\" in DB vs \"Depodrol\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "30356",
+      "existingDbRecord": {
+        "id": "619885f3-44ec-4264-839e-e7ebf5c58b18",
+        "sourceId": "30356",
+        "name": "Dexatab",
+        "strength": "0.5 mg",
+        "dosageForm": "Tablet",
+        "generic": "Dexamethasone",
+        "manufacturer": "Renata PLC"
+      },
+      "incomingRecord": {
+        "sourceId": "30356",
+        "name": "Dexa",
+        "strength": "0.5 mg",
+        "dosageForm": "Tablet",
+        "generic": "Dexamethasone",
+        "manufacturer": "Renata Limited"
+      },
+      "reason": "sourceId \"30356\" maps to \"Dexatab\" in DB vs \"Dexa\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "384",
+      "existingDbRecord": {
+        "id": "ad696536-61f9-4af3-8bef-bd8d96e8a45d",
+        "sourceId": "384",
+        "name": "Dextrosal-Baby",
+        "strength": "0.225%+5%",
+        "dosageForm": "IV Infusion",
+        "generic": "Sodium Chloride + Dextrose",
+        "manufacturer": "Orion Infusion Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "384",
+        "name": "Dextrosal",
+        "strength": "0.225%+5%",
+        "dosageForm": "IV Infusion",
+        "generic": "Sodium Chloride + Dextrose",
+        "manufacturer": "Orion Infusion Ltd."
+      },
+      "reason": "sourceId \"384\" maps to \"Dextrosal-Baby\" in DB vs \"Dextrosal\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "388",
+      "existingDbRecord": {
+        "id": "0afb17ac-2d16-4197-bcaf-1a92b1084803",
+        "sourceId": "388",
+        "name": "Dextrosal-Mini",
+        "strength": "0.45%+5%",
+        "dosageForm": "IV Infusion",
+        "generic": "Sodium Chloride + Dextrose",
+        "manufacturer": "Orion Infusion Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "388",
+        "name": "Dextrosal",
+        "strength": "0.45%+5%",
+        "dosageForm": "IV Infusion",
+        "generic": "Sodium Chloride + Dextrose",
+        "manufacturer": "Orion Infusion Ltd."
+      },
+      "reason": "sourceId \"388\" maps to \"Dextrosal-Mini\" in DB vs \"Dextrosal\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "10558",
+      "existingDbRecord": {
+        "id": "ea69c94f-4eed-45b4-b2b5-eba4be5ab262",
+        "sourceId": "10558",
+        "name": "Acep Extra",
+        "strength": "500 mg+65 mg",
+        "dosageForm": "Tablet",
+        "generic": "Paracetamol + Caffeine",
+        "manufacturer": "Zenith Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "10558",
+        "name": "Acep Plus",
+        "strength": "500 mg+65 mg",
+        "dosageForm": "Tablet",
+        "generic": "Paracetamol + Caffeine",
+        "manufacturer": "Zenith Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"10558\" maps to \"Acep Extra\" in DB vs \"Acep Plus\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "16585",
+      "existingDbRecord": {
+        "id": "f90630f4-3cdc-463d-b108-4a20d379bad6",
+        "sourceId": "16585",
+        "name": "Digecid",
+        "strength": "(480 mg+20 mg)/5 ml",
+        "dosageForm": "Oral Suspension",
+        "generic": "Magaldrate + Simethicone",
+        "manufacturer": "Beximco Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "16585",
+        "name": "Digecid Plus",
+        "strength": "(480 mg+20 mg)/5 ml",
+        "dosageForm": "Oral Suspension",
+        "generic": "Magaldrate + Simethicone",
+        "manufacturer": "Beximco Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"16585\" maps to \"Digecid\" in DB vs \"Digecid Plus\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "722",
+      "existingDbRecord": {
+        "id": "63bceacf-9bdb-4f2c-977b-d3e1f2f9a7b1",
+        "sourceId": "722",
+        "name": "Divastin-E",
+        "strength": "10 mg+10 mg",
+        "dosageForm": "Tablet",
+        "generic": "Atorvastatin + Ezetimibe",
+        "manufacturer": "Drug International Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "722",
+        "name": "Divastin Plus",
+        "strength": "5 mg+10 mg",
+        "dosageForm": "Tablet",
+        "generic": "Amlodipine Besilate + Atorvastatin",
+        "manufacturer": "Drug International Ltd."
+      },
+      "reason": "sourceId \"722\" maps to \"Divastin-E\" in DB vs \"Divastin Plus\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "15030",
+      "existingDbRecord": {
+        "id": "2401cb69-ff54-42e3-ad46-e6baf7a23f79",
+        "sourceId": "15030",
+        "name": "Doxorubicin SDZ",
+        "strength": "2 mg/ml",
+        "dosageForm": "IV Infusion",
+        "generic": "Doxorubicin Hydrochloride",
+        "manufacturer": "SANDOZ (A Novartis Division)"
+      },
+      "incomingRecord": {
+        "sourceId": "15030",
+        "name": "Doxorubicin HEXAL",
+        "strength": "2 mg/ml",
+        "dosageForm": "IV Infusion",
+        "generic": "Doxorubicin Hydrochloride",
+        "manufacturer": "SANDOZ (A Novartis Division)"
+      },
+      "reason": "sourceId \"15030\" maps to \"Doxorubicin SDZ\" in DB vs \"Doxorubicin HEXAL\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "13121",
+      "existingDbRecord": {
+        "id": "69a7575e-e5b0-41e3-8a57-3620b68d3ac4",
+        "sourceId": "13121",
+        "name": "Ditrolac",
+        "strength": "10 mg",
+        "dosageForm": "Tablet",
+        "generic": "Ketorolac Tromethamine",
+        "manufacturer": "Doctor’s Chemical Works Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "13121",
+        "name": "Dyaferon",
+        "strength": "200 mg/5 ml",
+        "dosageForm": "Syrup",
+        "generic": "Ferrous Sulfate",
+        "manufacturer": "Doctor’s Chemical Works Ltd."
+      },
+      "reason": "sourceId \"13121\" maps to \"Ditrolac\" in DB vs \"Dyaferon\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "32509",
+      "existingDbRecord": {
+        "id": "f0c692f2-7e63-4d97-9432-06b70dd79921",
+        "sourceId": "32509",
+        "name": "M-Prazol",
+        "strength": "40 mg",
+        "dosageForm": "Capsule (Enteric Coated)",
+        "generic": "Esomeprazole",
+        "manufacturer": "Doctor TIMS Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "32509",
+        "name": "E-Proton",
+        "strength": "40 mg",
+        "dosageForm": "Capsule (Delayed Release)",
+        "generic": "Esomeprazole",
+        "manufacturer": "Doctor TIMS Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"32509\" maps to \"M-Prazol\" in DB vs \"E-Proton\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "32508",
+      "existingDbRecord": {
+        "id": "c9a4bc28-03e3-4b46-8871-8daa6f2241f4",
+        "sourceId": "32508",
+        "name": "M-Prazol",
+        "strength": "20 mg",
+        "dosageForm": "Capsule (Enteric Coated)",
+        "generic": "Esomeprazole",
+        "manufacturer": "Doctor TIMS Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "32508",
+        "name": "E-Proton",
+        "strength": "20 mg",
+        "dosageForm": "Capsule (Delayed Release)",
+        "generic": "Esomeprazole",
+        "manufacturer": "Doctor TIMS Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"32508\" maps to \"M-Prazol\" in DB vs \"E-Proton\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "2866",
+      "existingDbRecord": {
+        "id": "493c97e9-77a4-42b6-8998-7168fd7d8c7e",
+        "sourceId": "2866",
+        "name": "Edeloss",
+        "strength": "40 mg+50 mg",
+        "dosageForm": "Tablet",
+        "generic": "Furosemide + Spironolactone",
+        "manufacturer": "Incepta Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "2866",
+        "name": "Edeloss Plus",
+        "strength": "40 mg+50 mg",
+        "dosageForm": "Tablet",
+        "generic": "Furosemide + Spironolactone",
+        "manufacturer": "Incepta Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"2866\" maps to \"Edeloss\" in DB vs \"Edeloss Plus\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "4727",
+      "existingDbRecord": {
+        "id": "28c0956e-1671-47e4-93d4-a1df3ff8e6f7",
+        "sourceId": "4727",
+        "name": "Emistat FT",
+        "strength": "4 mg",
+        "dosageForm": "Flash Tablet",
+        "generic": "Ondansetron",
+        "manufacturer": "Healthcare Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "4727",
+        "name": "Emistat",
+        "strength": "4 mg",
+        "dosageForm": "Flash Tablet",
+        "generic": "Ondansetron",
+        "manufacturer": "Healthcare Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"4727\" maps to \"Emistat FT\" in DB vs \"Emistat\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "28729",
+      "existingDbRecord": {
+        "id": "41062a55-6fe8-40d2-89b0-d8e44f99bc78",
+        "sourceId": "28729",
+        "name": "Emirest ODT",
+        "strength": "4 mg",
+        "dosageForm": "Dispersible Tablet",
+        "generic": "Ondansetron",
+        "manufacturer": "Pharmasia Limited"
+      },
+      "incomingRecord": {
+        "sourceId": "28729",
+        "name": "Emirest",
+        "strength": "4 mg",
+        "dosageForm": "Dispersible Tablet",
+        "generic": "Ondansetron",
+        "manufacturer": "Pharmasia Limited"
+      },
+      "reason": "sourceId \"28729\" maps to \"Emirest ODT\" in DB vs \"Emirest\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "31038",
+      "existingDbRecord": {
+        "id": "10d136a7-ad82-48ea-942b-7d3862e38496",
+        "sourceId": "31038",
+        "name": "Esonor",
+        "strength": "20 mg",
+        "dosageForm": "Tablet (Enteric Coated)",
+        "generic": "Esomeprazole",
+        "manufacturer": "RN Pharmaceuticals"
+      },
+      "incomingRecord": {
+        "sourceId": "31038",
+        "name": "Esonor-20",
+        "strength": "20 mg",
+        "dosageForm": "Tablet (Enteric Coated)",
+        "generic": "Esomeprazole",
+        "manufacturer": "RN Pharmaceuticals"
+      },
+      "reason": "sourceId \"31038\" maps to \"Esonor\" in DB vs \"Esonor-20\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "5196",
+      "existingDbRecord": {
+        "id": "cd73401d-cf1e-43d0-902f-eb63e676438f",
+        "sourceId": "5196",
+        "name": "Exelon Patch 5",
+        "strength": "4.6 mg/24 hr",
+        "dosageForm": "Transdermal Patch",
+        "generic": "Rivastigmine Tartrate",
+        "manufacturer": "Nevian Lifescience PLC"
+      },
+      "incomingRecord": {
+        "sourceId": "5196",
+        "name": "Exelon",
+        "strength": "4.6 mg/24 h (5 cm)",
+        "dosageForm": "Transdermal Patch",
+        "generic": "Rivastigmine Tartrate",
+        "manufacturer": "Novartis (Bangladesh) Ltd."
+      },
+      "reason": "sourceId \"5196\" maps to \"Exelon Patch 5\" in DB vs \"Exelon\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "5195",
+      "existingDbRecord": {
+        "id": "6d454cca-e3c1-44c4-b8a9-d9ba424ef16c",
+        "sourceId": "5195",
+        "name": "Exelon Patch 10",
+        "strength": "9.5 mg/24 hr",
+        "dosageForm": "Transdermal Patch",
+        "generic": "Rivastigmine Tartrate",
+        "manufacturer": "Nevian Lifescience PLC"
+      },
+      "incomingRecord": {
+        "sourceId": "5195",
+        "name": "Exelon",
+        "strength": "9.5 mg/24 h (10 cm)",
+        "dosageForm": "Transdermal Patch",
+        "generic": "Rivastigmine Tartrate",
+        "manufacturer": "Novartis (Bangladesh) Ltd."
+      },
+      "reason": "sourceId \"5195\" maps to \"Exelon Patch 10\" in DB vs \"Exelon\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "2065",
+      "existingDbRecord": {
+        "id": "6ce79d0b-e324-469e-8251-57f314d23a3a",
+        "sourceId": "2065",
+        "name": "Exmart",
+        "strength": "20 mg",
+        "dosageForm": "Tablet (Enteric Coated)",
+        "generic": "Esomeprazole",
+        "manufacturer": "MST Pharma"
+      },
+      "incomingRecord": {
+        "sourceId": "2065",
+        "name": "Exmart-20",
+        "strength": "20 mg",
+        "dosageForm": "Tablet (Enteric Coated)",
+        "generic": "Esomeprazole",
+        "manufacturer": "MST Pharma"
+      },
+      "reason": "sourceId \"2065\" maps to \"Exmart\" in DB vs \"Exmart-20\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "29578",
+      "existingDbRecord": {
+        "id": "2c722260-dc89-4d4c-b5eb-3fdcd7cb5a35",
+        "sourceId": "29578",
+        "name": "Ferover-Z",
+        "strength": "48 mg+0.5 mg+22.5 mg",
+        "dosageForm": "Tablet",
+        "generic": "Ferrous Ascorbate + Folic Acid + Zinc Sulfate",
+        "manufacturer": "Veritas Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "29578",
+        "name": "Ferotab",
+        "strength": "188 mg+0.50 mg+61.8 mg",
+        "dosageForm": "Tablet",
+        "generic": "Iron Hydroxide Polymaltose + Folic acid + Zinc Sulfate Monohydrate",
+        "manufacturer": "Veritas Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"29578\" maps to \"Ferover-Z\" in DB vs \"Ferotab\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "31476",
+      "existingDbRecord": {
+        "id": "4688f3fd-ab3a-431a-9340-04d246c2ffab",
+        "sourceId": "31476",
+        "name": "Flutracen",
+        "strength": "0.5 mg+10 mg",
+        "dosageForm": "Tablet",
+        "generic": "Flupentixol + Melitracen",
+        "manufacturer": "Silco Pharmaceutical Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "31476",
+        "name": "Fexsil",
+        "strength": "0.5 mg+10 mg",
+        "dosageForm": "Tablet",
+        "generic": "Flupentixol + Melitracen",
+        "manufacturer": "Silco Pharmaceutical Ltd."
+      },
+      "reason": "sourceId \"31476\" maps to \"Flutracen\" in DB vs \"Fexsil\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "4301",
+      "existingDbRecord": {
+        "id": "e63e41f5-ef07-4e1f-866c-00087bd4b4b2",
+        "sourceId": "4301",
+        "name": "Fluphenazine Panpharma",
+        "strength": "25 mg/ml",
+        "dosageForm": "IM/SC Injection",
+        "generic": "Fluphenazine Decanoate",
+        "manufacturer": "City Overseas Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "4301",
+        "name": "Fluphenazine",
+        "strength": "25 mg/ml",
+        "dosageForm": "IM/SC Injection",
+        "generic": "Fluphenazine Decanoate",
+        "manufacturer": "Rotexmedica GmbH, Germany"
+      },
+      "reason": "sourceId \"4301\" maps to \"Fluphenazine Panpharma\" in DB vs \"Fluphenazine\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "27215",
+      "existingDbRecord": {
+        "id": "ccf502cc-7839-465b-ac7a-b0a4edd48112",
+        "sourceId": "27215",
+        "name": "Richcon",
+        "strength": "50 mg/5 ml",
+        "dosageForm": "Powder for Suspension",
+        "generic": "Fluconazole",
+        "manufacturer": "Novatek Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "27215",
+        "name": "Flutinex",
+        "strength": "50 mg/5 ml",
+        "dosageForm": "Powder for Suspension",
+        "generic": "Fluconazole",
+        "manufacturer": "Organic Health Care Ltd."
+      },
+      "reason": "sourceId \"27215\" maps to \"Richcon\" in DB vs \"Flutinex\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "9902",
+      "existingDbRecord": {
+        "id": "69a9be99-1759-405d-8b1f-c5fad06bc49c",
+        "sourceId": "9902",
+        "name": "Richcon",
+        "strength": "50 mg",
+        "dosageForm": "Capsule",
+        "generic": "Fluconazole",
+        "manufacturer": "Novatek Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "9902",
+        "name": "Flutinex",
+        "strength": "50 mg",
+        "dosageForm": "Capsule",
+        "generic": "Fluconazole",
+        "manufacturer": "Organic Health Care Ltd."
+      },
+      "reason": "sourceId \"9902\" maps to \"Richcon\" in DB vs \"Flutinex\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "9903",
+      "existingDbRecord": {
+        "id": "792f330e-b450-45b0-b480-547038271683",
+        "sourceId": "9903",
+        "name": "Richcon",
+        "strength": "150 mg",
+        "dosageForm": "Capsule",
+        "generic": "Fluconazole",
+        "manufacturer": "Novatek Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "9903",
+        "name": "Flutinex",
+        "strength": "150 mg",
+        "dosageForm": "Capsule",
+        "generic": "Fluconazole",
+        "manufacturer": "Organic Health Care Ltd."
+      },
+      "reason": "sourceId \"9903\" maps to \"Richcon\" in DB vs \"Flutinex\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "8921",
+      "existingDbRecord": {
+        "id": "f3336626-f1df-4b96-b04e-1511c9b81ae1",
+        "sourceId": "8921",
+        "name": "Fucidin",
+        "strength": "2%",
+        "dosageForm": "Cream",
+        "generic": "Sodium Fusidate (Topical)",
+        "manufacturer": "Leo Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "8921",
+        "name": "Fucidin Leo",
+        "strength": "2%",
+        "dosageForm": "Cream",
+        "generic": "Sodium Fusidate (Topical)",
+        "manufacturer": "Leo Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"8921\" maps to \"Fucidin\" in DB vs \"Fucidin Leo\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "18745",
+      "existingDbRecord": {
+        "id": "a6d21a31-9382-461e-b10f-1345cb68746e",
+        "sourceId": "18745",
+        "name": "Cefivic",
+        "strength": "100 mg/5 ml",
+        "dosageForm": "Powder for Suspension",
+        "generic": "Cefixime Trihydrate",
+        "manufacturer": "Goodman Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "18745",
+        "name": "G-Cefixime",
+        "strength": "100 mg/5 ml",
+        "dosageForm": "Powder for Suspension",
+        "generic": "Cefixime Trihydrate",
+        "manufacturer": "Goodman Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"18745\" maps to \"Cefivic\" in DB vs \"G-Cefixime\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "30223",
+      "existingDbRecord": {
+        "id": "d46cd68f-ce16-49b2-ae98-f51f964d9b35",
+        "sourceId": "30223",
+        "name": "Gavilac (Anised)",
+        "strength": "(500 mg+213 mg+325 mg)/10 ml",
+        "dosageForm": "Oral Suspension",
+        "generic": "Sodium Alginate + Sodium Bicarbonate + Calcium Carbonate",
+        "manufacturer": "ACI Limited"
+      },
+      "incomingRecord": {
+        "sourceId": "30223",
+        "name": "Gavilac",
+        "strength": "(500 mg+213 mg+325 mg)/10 ml",
+        "dosageForm": "Oral Suspension",
+        "generic": "Sodium Alginate + Sodium Bicarbonate + Calcium Carbonate",
+        "manufacturer": "ACI Limited"
+      },
+      "reason": "sourceId \"30223\" maps to \"Gavilac (Anised)\" in DB vs \"Gavilac\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "15051",
+      "existingDbRecord": {
+        "id": "c2c57162-9bb6-45a2-8bdd-e0b6b4472c40",
+        "sourceId": "15051",
+        "name": "Gemoxen Aqua",
+        "strength": "200 mg/5.26 ml",
+        "dosageForm": "IV Infusion",
+        "generic": "Gemcitabine",
+        "manufacturer": "Beacon Pharmaceuticals PLC"
+      },
+      "incomingRecord": {
+        "sourceId": "15051",
+        "name": "Gemoxen",
+        "strength": "200 mg/vial",
+        "dosageForm": "IV Infusion",
+        "generic": "Gemcitabine",
+        "manufacturer": "Beacon Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"15051\" maps to \"Gemoxen Aqua\" in DB vs \"Gemoxen\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "26694",
+      "existingDbRecord": {
+        "id": "b6007328-a9a6-4a36-a06f-ce9fe9da1100",
+        "sourceId": "26694",
+        "name": "Gemoxen Aqua",
+        "strength": "1 gm/26.3 ml",
+        "dosageForm": "IV Infusion",
+        "generic": "Gemcitabine",
+        "manufacturer": "Beacon Pharmaceuticals PLC"
+      },
+      "incomingRecord": {
+        "sourceId": "26694",
+        "name": "Gemoxen",
+        "strength": "1 gm/vial",
+        "dosageForm": "IV Infusion",
+        "generic": "Gemcitabine",
+        "manufacturer": "Beacon Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"26694\" maps to \"Gemoxen Aqua\" in DB vs \"Gemoxen\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "13045",
+      "existingDbRecord": {
+        "id": "f19d683f-dba0-460f-9961-304f15884f49",
+        "sourceId": "13045",
+        "name": "Genmax HC",
+        "strength": "0.3%+1%",
+        "dosageForm": "Ear Drop",
+        "generic": "Gentamicin + Hydrocortisone Acetate",
+        "manufacturer": "OSL Pharma Limited"
+      },
+      "incomingRecord": {
+        "sourceId": "13045",
+        "name": "Gentin HC",
+        "strength": "0.3%+1%",
+        "dosageForm": "Ear Drop",
+        "generic": "Gentamicin + Hydrocortisone Acetate",
+        "manufacturer": "Opso Saline Ltd."
+      },
+      "reason": "sourceId \"13045\" maps to \"Genmax HC\" in DB vs \"Gentin HC\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "8404",
+      "existingDbRecord": {
+        "id": "de6d3965-a376-4cff-8b7d-aaa18a7866b7",
+        "sourceId": "8404",
+        "name": "Genmax",
+        "strength": "0.3%",
+        "dosageForm": "Ophthalmic Solution",
+        "generic": "Gentamicin Sulfate (Ophthalmic)",
+        "manufacturer": "OSL Pharma Limited"
+      },
+      "incomingRecord": {
+        "sourceId": "8404",
+        "name": "Gentin",
+        "strength": "0.30%",
+        "dosageForm": "Ophthalmic Solution",
+        "generic": "Gentamicin Sulfate (Ophthalmic)",
+        "manufacturer": "Opso Saline Ltd."
+      },
+      "reason": "sourceId \"8404\" maps to \"Genmax\" in DB vs \"Gentin\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "8405",
+      "existingDbRecord": {
+        "id": "adc724c6-60da-4ec2-9abd-48418b1f4fa7",
+        "sourceId": "8405",
+        "name": "Genmax",
+        "strength": "0.3%",
+        "dosageForm": "Ophthalmic Ointment",
+        "generic": "Gentamicin Sulfate (Ophthalmic)",
+        "manufacturer": "OSL Pharma Limited"
+      },
+      "incomingRecord": {
+        "sourceId": "8405",
+        "name": "Gentin",
+        "strength": "0.30%",
+        "dosageForm": "Ophthalmic Ointment",
+        "generic": "Gentamicin Sulfate (Ophthalmic)",
+        "manufacturer": "Opso Saline Ltd."
+      },
+      "reason": "sourceId \"8405\" maps to \"Genmax\" in DB vs \"Gentin\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "32455",
+      "existingDbRecord": {
+        "id": "1e44b81c-779a-4a30-b5bd-305a0612fbd3",
+        "sourceId": "32455",
+        "name": "Glims M XR",
+        "strength": "2 mg+500 mg",
+        "dosageForm": "Tablet (Extended Release)",
+        "generic": "Glimepiride + Metformin",
+        "manufacturer": "Opsonin Pharma Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "32455",
+        "name": "Glims M",
+        "strength": "2 mg+500 mg",
+        "dosageForm": "Tablet (Extended Release)",
+        "generic": "Glimepiride + Metformin",
+        "manufacturer": "Opsonin Pharma Ltd."
+      },
+      "reason": "sourceId \"32455\" maps to \"Glims M XR\" in DB vs \"Glims M\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "32454",
+      "existingDbRecord": {
+        "id": "89dcdb2d-12d0-4256-bf47-19df10c215f4",
+        "sourceId": "32454",
+        "name": "Glims M XR",
+        "strength": "1 mg+500 mg",
+        "dosageForm": "Tablet (Extended Release)",
+        "generic": "Glimepiride + Metformin",
+        "manufacturer": "Opsonin Pharma Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "32454",
+        "name": "Glims M",
+        "strength": "1 mg+500 mg",
+        "dosageForm": "Tablet (Extended Release)",
+        "generic": "Glimepiride + Metformin",
+        "manufacturer": "Opsonin Pharma Ltd."
+      },
+      "reason": "sourceId \"32454\" maps to \"Glims M XR\" in DB vs \"Glims M\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "16777",
+      "existingDbRecord": {
+        "id": "ce3fca44-dffa-4e15-b180-a05f2eae1170",
+        "sourceId": "16777",
+        "name": "Glyset Vita",
+        "strength": "100 IU/ml",
+        "dosageForm": "SC Injection",
+        "generic": "Insulin Aspart [Protamine Crystallised]",
+        "manufacturer": "Incepta Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "16777",
+        "name": "Glyset R",
+        "strength": "100 IU/ml",
+        "dosageForm": "SC Injection",
+        "generic": "Protamine Crystallised Insulin Aspart",
+        "manufacturer": "Incepta Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"16777\" maps to \"Glyset Vita\" in DB vs \"Glyset R\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "19726",
+      "existingDbRecord": {
+        "id": "0a157d3a-9fb0-4456-bb24-28287c1808fb",
+        "sourceId": "19726",
+        "name": "Hapytab",
+        "strength": "50 mg",
+        "dosageForm": "Tablet (Extended Release)",
+        "generic": "Desvenlafaxine Succinate",
+        "manufacturer": "Eskayef Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "19726",
+        "name": "Hapytab ER",
+        "strength": "50 mg",
+        "dosageForm": "Tablet (Extended Release)",
+        "generic": "Desvenlafaxine",
+        "manufacturer": "Eskayef Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"19726\" maps to \"Hapytab\" in DB vs \"Hapytab ER\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "14895",
+      "existingDbRecord": {
+        "id": "4ad28c53-0d34-4958-8b71-64b14f9dea2e",
+        "sourceId": "14895",
+        "name": "HS",
+        "strength": null,
+        "dosageForm": "IV Infusion",
+        "generic": "Hartmann's Solution",
+        "manufacturer": "OSL Pharma Limited"
+      },
+      "incomingRecord": {
+        "sourceId": "14895",
+        "name": "Hartmann",
+        "strength": "",
+        "dosageForm": "IV Infusion",
+        "generic": "Hartmann's Solution",
+        "manufacturer": "Opso Saline Ltd."
+      },
+      "reason": "sourceId \"14895\" maps to \"HS\" in DB vs \"Hartmann\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "3185",
+      "existingDbRecord": {
+        "id": "49482929-06ca-46f2-89ab-b4955fc6a774",
+        "sourceId": "3185",
+        "name": "Heparin Panpharma",
+        "strength": "25000 IU/5 ml",
+        "dosageForm": "Injection",
+        "generic": "Heparin Sodium",
+        "manufacturer": "City Overseas Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "3185",
+        "name": "Heparin-Rotex",
+        "strength": "25000 IU/5 ml",
+        "dosageForm": "Injection",
+        "generic": "Heparin Sodium",
+        "manufacturer": "Rotexmedica GmbH, Germany"
+      },
+      "reason": "sourceId \"3185\" maps to \"Heparin Panpharma\" in DB vs \"Heparin-Rotex\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "26942",
+      "existingDbRecord": {
+        "id": "7e3b71fd-b9f7-4540-9496-196b3e0abe23",
+        "sourceId": "26942",
+        "name": "Humalog 100",
+        "strength": "100 unit/ml",
+        "dosageForm": "SC Injection",
+        "generic": "Insulin Lispro",
+        "manufacturer": "Healthcare Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "26942",
+        "name": "Humalog",
+        "strength": "100 unit/ml",
+        "dosageForm": "SC Injection",
+        "generic": "Insulin Lispro",
+        "manufacturer": "Eli Lilly and Company"
+      },
+      "reason": "sourceId \"26942\" maps to \"Humalog 100\" in DB vs \"Humalog\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "32532",
+      "existingDbRecord": {
+        "id": "6607af56-8160-40f2-9dc6-26f4c9cbd5c2",
+        "sourceId": "32532",
+        "name": "Omegel",
+        "strength": "20 mg",
+        "dosageForm": "Capsule (Enteric Coated)",
+        "generic": "Omeprazole",
+        "manufacturer": "Doctor TIMS Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "32532",
+        "name": "I-Proton",
+        "strength": "20 mg",
+        "dosageForm": "Capsule (Delayed Release)",
+        "generic": "Omeprazole",
+        "manufacturer": "Doctor TIMS Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"32532\" maps to \"Omegel\" in DB vs \"I-Proton\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "29369",
+      "existingDbRecord": {
+        "id": "f41fbeb5-bacc-4754-addf-c3d6fd472827",
+        "sourceId": "29369",
+        "name": "Indarol",
+        "strength": "150 mcg",
+        "dosageForm": "Dry Powder Inhalation Capsule (DPI)",
+        "generic": "Indacaterol Maleate",
+        "manufacturer": "Healthcare Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "29369",
+        "name": "Indarol Easycap",
+        "strength": "150 mcg",
+        "dosageForm": "Inhalation Capsule",
+        "generic": "Indacaterol Maleate",
+        "manufacturer": "Healthcare Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"29369\" maps to \"Indarol\" in DB vs \"Indarol Easycap\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "29370",
+      "existingDbRecord": {
+        "id": "f2173fe6-7ae3-41bf-bef2-09f8d0a25bff",
+        "sourceId": "29370",
+        "name": "Indarol",
+        "strength": "300 mcg",
+        "dosageForm": "Dry Powder Inhalation Capsule (DPI)",
+        "generic": "Indacaterol Maleate",
+        "manufacturer": "Healthcare Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "29370",
+        "name": "Indarol Easycap",
+        "strength": "300 mcg",
+        "dosageForm": "Inhalation Capsule",
+        "generic": "Indacaterol Maleate",
+        "manufacturer": "Healthcare Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"29370\" maps to \"Indarol\" in DB vs \"Indarol Easycap\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "26215",
+      "existingDbRecord": {
+        "id": "86404fdb-11d6-434f-89ab-f342841037aa",
+        "sourceId": "26215",
+        "name": "Nebipro",
+        "strength": "2.5 mg",
+        "dosageForm": "Tablet",
+        "generic": "Nebivolol Hydrochloride",
+        "manufacturer": "Incepta Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "26215",
+        "name": "Ivolol",
+        "strength": "2.5 mg",
+        "dosageForm": "Tablet",
+        "generic": "Nebivolol Hydrochloride",
+        "manufacturer": "Incepta Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"26215\" maps to \"Nebipro\" in DB vs \"Ivolol\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "22818",
+      "existingDbRecord": {
+        "id": "11105edb-93c6-4a5b-91f7-4cf24d23c2e6",
+        "sourceId": "22818",
+        "name": "Nebipro",
+        "strength": "5 mg",
+        "dosageForm": "Tablet",
+        "generic": "Nebivolol Hydrochloride",
+        "manufacturer": "Incepta Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "22818",
+        "name": "Ivolol",
+        "strength": "5 mg",
+        "dosageForm": "Tablet",
+        "generic": "Nebivolol Hydrochloride",
+        "manufacturer": "Incepta Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"22818\" maps to \"Nebipro\" in DB vs \"Ivolol\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "31117",
+      "existingDbRecord": {
+        "id": "b7863752-bbe4-4272-8109-42a680b0d357",
+        "sourceId": "31117",
+        "name": "Kabiven Central",
+        "strength": "1026 ml/bag",
+        "dosageForm": "Emulsion for infusion",
+        "generic": "Glucose 19% + Vamin 18 Novum + Intralipid 20%",
+        "manufacturer": "Radiant Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "31117",
+        "name": "Kabiven",
+        "strength": "1026 ml/bag",
+        "dosageForm": "Emulsion for infusion",
+        "generic": "Glucose 19% + Vamin 18 Novum + Intralipid 20%",
+        "manufacturer": "Fresenius Kabi"
+      },
+      "reason": "sourceId \"31117\" maps to \"Kabiven Central\" in DB vs \"Kabiven\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "33165",
+      "existingDbRecord": {
+        "id": "16fca22c-8c9e-4aa0-bfbe-b13f59f64398",
+        "sourceId": "33165",
+        "name": "Glowderma",
+        "strength": "2%",
+        "dosageForm": "Lotion",
+        "generic": "Salicylic Acid",
+        "manufacturer": "Incepta Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "33165",
+        "name": "Kerasol FCL",
+        "strength": "2%",
+        "dosageForm": "Lotion",
+        "generic": "Salicylic Acid",
+        "manufacturer": "Incepta Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"33165\" maps to \"Glowderma\" in DB vs \"Kerasol FCL\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "32535",
+      "existingDbRecord": {
+        "id": "60fc3cd5-4953-4df2-9581-e5a3e984ff0e",
+        "sourceId": "32535",
+        "name": "Korola",
+        "strength": "30 mg/ml",
+        "dosageForm": "IM/IV Injection",
+        "generic": "Ketorolac Tromethamine",
+        "manufacturer": "Doctor TIMS Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "32535",
+        "name": "Ketofenac",
+        "strength": "30 mg/ml",
+        "dosageForm": "IM/IV Injection",
+        "generic": "Ketorolac Tromethamine",
+        "manufacturer": "Doctor TIMS Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"32535\" maps to \"Korola\" in DB vs \"Ketofenac\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "32534",
+      "existingDbRecord": {
+        "id": "27e5e67e-7729-4a7e-9a3d-5fc8f3f4ad9f",
+        "sourceId": "32534",
+        "name": "Korola",
+        "strength": "10 mg",
+        "dosageForm": "Tablet",
+        "generic": "Ketorolac Tromethamine",
+        "manufacturer": "Doctor TIMS Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "32534",
+        "name": "Ketofenac",
+        "strength": "10 mg",
+        "dosageForm": "Tablet",
+        "generic": "Ketorolac Tromethamine",
+        "manufacturer": "Doctor TIMS Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"32534\" maps to \"Korola\" in DB vs \"Ketofenac\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "21255",
+      "existingDbRecord": {
+        "id": "7ed6af87-1090-48b3-9abc-a64b994719ad",
+        "sourceId": "21255",
+        "name": "Painrel",
+        "strength": "10 mg",
+        "dosageForm": "Tablet",
+        "generic": "Ketorolac Tromethamine",
+        "manufacturer": "Guardian Healthcare Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "21255",
+        "name": "Ketoxguard",
+        "strength": "10 mg",
+        "dosageForm": "Tablet",
+        "generic": "Ketorolac Tromethamine",
+        "manufacturer": "Guardian Healthcare Ltd."
+      },
+      "reason": "sourceId \"21255\" maps to \"Painrel\" in DB vs \"Ketoxguard\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "2134",
+      "existingDbRecord": {
+        "id": "ca861ec0-febb-4759-9506-bf52f17d92f8",
+        "sourceId": "2134",
+        "name": "Lazo",
+        "strength": "30 mg",
+        "dosageForm": "Capsule (Enteric Coated)",
+        "generic": "Lansoprazole",
+        "manufacturer": "Desh Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "2134",
+        "name": "Lazo 30",
+        "strength": "30 mg",
+        "dosageForm": "Capsule (Delayed Release)",
+        "generic": "Lansoprazole",
+        "manufacturer": "Desh Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"2134\" maps to \"Lazo\" in DB vs \"Lazo 30\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "16695",
+      "existingDbRecord": {
+        "id": "f3b9544a-79f0-460e-970e-39b4b43ef66a",
+        "sourceId": "16695",
+        "name": "Listacare Whitening Plus",
+        "strength": "0.022%",
+        "dosageForm": "Mouthwash",
+        "generic": "Sodium Fluoride",
+        "manufacturer": "General Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "16695",
+        "name": "Listacare Plus",
+        "strength": "0.02%",
+        "dosageForm": "Mouthwash",
+        "generic": "Sodium Fluoride (Mouthwash)",
+        "manufacturer": "General Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"16695\" maps to \"Listacare Whitening Plus\" in DB vs \"Listacare Plus\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "2718",
+      "existingDbRecord": {
+        "id": "0c02e3f2-f861-4a19-b7f5-06bcd6aac4c6",
+        "sourceId": "2718",
+        "name": "Lok",
+        "strength": "50 mg",
+        "dosageForm": "Tablet",
+        "generic": "Losartan Potassium",
+        "manufacturer": "Globe Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "2718",
+        "name": "Lok-50",
+        "strength": "50 mg",
+        "dosageForm": "Tablet",
+        "generic": "Losartan Potassium",
+        "manufacturer": "Globe Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"2718\" maps to \"Lok\" in DB vs \"Lok-50\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "2959",
+      "existingDbRecord": {
+        "id": "d7af2cef-89d7-46f6-92c1-10de8535684c",
+        "sourceId": "2959",
+        "name": "Losardil 100/25",
+        "strength": "100 mg+25 mg",
+        "dosageForm": "Tablet",
+        "generic": "Losartan Potassium + Hydrochlorothiazide",
+        "manufacturer": "Drug International Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "2959",
+        "name": "Losardil",
+        "strength": "100 mg+25 mg",
+        "dosageForm": "Tablet",
+        "generic": "Losartan Potassium + Hydrochlorothiazide",
+        "manufacturer": "Drug International Ltd."
+      },
+      "reason": "sourceId \"2959\" maps to \"Losardil 100/25\" in DB vs \"Losardil\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "2958",
+      "existingDbRecord": {
+        "id": "5c522a63-8f72-4fac-aa4d-128f0dc121ef",
+        "sourceId": "2958",
+        "name": "Losardil 100/12.5",
+        "strength": "100 mg+12.5 mg",
+        "dosageForm": "Tablet",
+        "generic": "Losartan Potassium + Hydrochlorothiazide",
+        "manufacturer": "Drug International Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "2958",
+        "name": "Losardil",
+        "strength": "100 mg+12.5 mg",
+        "dosageForm": "Tablet",
+        "generic": "Losartan Potassium + Hydrochlorothiazide",
+        "manufacturer": "Drug International Ltd."
+      },
+      "reason": "sourceId \"2958\" maps to \"Losardil 100/12.5\" in DB vs \"Losardil\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "2957",
+      "existingDbRecord": {
+        "id": "ca456c08-8efa-4286-97a6-a9ea06620e84",
+        "sourceId": "2957",
+        "name": "Losardil 50/12.5",
+        "strength": "50 mg+12.5 mg",
+        "dosageForm": "Tablet",
+        "generic": "Losartan Potassium + Hydrochlorothiazide",
+        "manufacturer": "Drug International Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "2957",
+        "name": "Losardil",
+        "strength": "50 mg+12.5 mg",
+        "dosageForm": "Tablet",
+        "generic": "Losartan Potassium + Hydrochlorothiazide",
+        "manufacturer": "Drug International Ltd."
+      },
+      "reason": "sourceId \"2957\" maps to \"Losardil 50/12.5\" in DB vs \"Losardil\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "2956",
+      "existingDbRecord": {
+        "id": "651f1773-2b07-48af-91da-428ede2efeb0",
+        "sourceId": "2956",
+        "name": "Losardil 25/12.5",
+        "strength": "25 mg+12.5 mg",
+        "dosageForm": "Tablet",
+        "generic": "Losartan Potassium + Hydrochlorothiazide",
+        "manufacturer": "Drug International Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "2956",
+        "name": "Losardil",
+        "strength": "25 mg+12.5 mg",
+        "dosageForm": "Tablet",
+        "generic": "Losartan Potassium + Hydrochlorothiazide",
+        "manufacturer": "Drug International Ltd."
+      },
+      "reason": "sourceId \"2956\" maps to \"Losardil 25/12.5\" in DB vs \"Losardil\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "12278",
+      "existingDbRecord": {
+        "id": "f3581441-5bb2-4df5-8e89-5d4be5e44cd2",
+        "sourceId": "12278",
+        "name": "Mastel",
+        "strength": "10 mg",
+        "dosageForm": "Tablet (Modified Release)",
+        "generic": "Mizolastine",
+        "manufacturer": "ACI Limited"
+      },
+      "incomingRecord": {
+        "sourceId": "12278",
+        "name": "Mastel MR",
+        "strength": "10 mg",
+        "dosageForm": "Tablet (Modified Release)",
+        "generic": "Mizolastine",
+        "manufacturer": "ACI Limited"
+      },
+      "reason": "sourceId \"12278\" maps to \"Mastel\" in DB vs \"Mastel MR\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "13095",
+      "existingDbRecord": {
+        "id": "3f7eea50-a061-40b9-b61b-ddaf5c568162",
+        "sourceId": "13095",
+        "name": "Mederma (Scars)",
+        "strength": "20 gm",
+        "dosageForm": "Gel",
+        "generic": "Cepalin + Allantoin",
+        "manufacturer": "Mundipharma (BD) Pvt. Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "13095",
+        "name": "Mederma",
+        "strength": "20 gm",
+        "dosageForm": "Gel",
+        "generic": "Emollient [Cepalin+Allantoin]",
+        "manufacturer": "MERZ Pharma GmbH & Co."
+      },
+      "reason": "sourceId \"13095\" maps to \"Mederma (Scars)\" in DB vs \"Mederma\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "22546",
+      "existingDbRecord": {
+        "id": "f51d6847-de2c-40e7-8c69-d0d402454997",
+        "sourceId": "22546",
+        "name": "Miragon",
+        "strength": "25 mg",
+        "dosageForm": "Tablet (Prolonged Release)",
+        "generic": "Mirabegron",
+        "manufacturer": "ACI Limited"
+      },
+      "incomingRecord": {
+        "sourceId": "22546",
+        "name": "Miragon PR",
+        "strength": "25 mg",
+        "dosageForm": "Tablet (Prolonged Release)",
+        "generic": "Mirabegron",
+        "manufacturer": "ACI Limited"
+      },
+      "reason": "sourceId \"22546\" maps to \"Miragon\" in DB vs \"Miragon PR\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "32370",
+      "existingDbRecord": {
+        "id": "64a0cd60-157c-449b-a4a3-647b3c4bd518",
+        "sourceId": "32370",
+        "name": "Mitadip",
+        "strength": "7.5 mg",
+        "dosageForm": "Tablet",
+        "generic": "Mirtazapine",
+        "manufacturer": "Renata PLC"
+      },
+      "incomingRecord": {
+        "sourceId": "32370",
+        "name": "Mitapro",
+        "strength": "7.5 mg",
+        "dosageForm": "Tablet",
+        "generic": "Mirtazapine",
+        "manufacturer": "Renata Limited"
+      },
+      "reason": "sourceId \"32370\" maps to \"Mitadip\" in DB vs \"Mitapro\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "32369",
+      "existingDbRecord": {
+        "id": "355e503e-c9b7-460d-872a-e9782394de2c",
+        "sourceId": "32369",
+        "name": "Mitadip",
+        "strength": "30 mg",
+        "dosageForm": "Tablet",
+        "generic": "Mirtazapine",
+        "manufacturer": "Renata PLC"
+      },
+      "incomingRecord": {
+        "sourceId": "32369",
+        "name": "Mitapro",
+        "strength": "30 mg",
+        "dosageForm": "Tablet",
+        "generic": "Mirtazapine",
+        "manufacturer": "Renata Limited"
+      },
+      "reason": "sourceId \"32369\" maps to \"Mitadip\" in DB vs \"Mitapro\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "32368",
+      "existingDbRecord": {
+        "id": "80575a5e-6eca-4c10-b77b-a0fdccc0ced7",
+        "sourceId": "32368",
+        "name": "Mitadip",
+        "strength": "15 mg",
+        "dosageForm": "Tablet",
+        "generic": "Mirtazapine",
+        "manufacturer": "Renata PLC"
+      },
+      "incomingRecord": {
+        "sourceId": "32368",
+        "name": "Mitapro",
+        "strength": "15 mg",
+        "dosageForm": "Tablet",
+        "generic": "Mirtazapine",
+        "manufacturer": "Renata Limited"
+      },
+      "reason": "sourceId \"32368\" maps to \"Mitadip\" in DB vs \"Mitapro\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "32541",
+      "existingDbRecord": {
+        "id": "41baf119-ed27-499d-bf86-71cc1a425ec5",
+        "sourceId": "32541",
+        "name": "Asthmacare",
+        "strength": "5 mg",
+        "dosageForm": "Dispersible Tablet",
+        "generic": "Montelukast Sodium",
+        "manufacturer": "Doctor TIMS Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "32541",
+        "name": "Montemax",
+        "strength": "5 mg",
+        "dosageForm": "Dispersible Tablet",
+        "generic": "Montelukast Sodium",
+        "manufacturer": "Doctor TIMS Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"32541\" maps to \"Asthmacare\" in DB vs \"Montemax\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "32540",
+      "existingDbRecord": {
+        "id": "2bf15d27-f4df-4851-9799-899464ab521e",
+        "sourceId": "32540",
+        "name": "Asthmacare",
+        "strength": "10 mg",
+        "dosageForm": "Tablet",
+        "generic": "Montelukast Sodium",
+        "manufacturer": "Doctor TIMS Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "32540",
+        "name": "Montemax",
+        "strength": "10 mg",
+        "dosageForm": "Tablet",
+        "generic": "Montelukast Sodium",
+        "manufacturer": "Doctor TIMS Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"32540\" maps to \"Asthmacare\" in DB vs \"Montemax\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "1613",
+      "existingDbRecord": {
+        "id": "3c612dcf-3c39-4cfe-a20f-e5a90caf4d33",
+        "sourceId": "1613",
+        "name": "D-Peridone",
+        "strength": "10 mg",
+        "dosageForm": "Tablet",
+        "generic": "Domperidone Maleate",
+        "manufacturer": "Sharif Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "1613",
+        "name": "Motinorm",
+        "strength": "10 mg",
+        "dosageForm": "Tablet",
+        "generic": "Domperidone Maleate",
+        "manufacturer": "Sharif Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"1613\" maps to \"D-Peridone\" in DB vs \"Motinorm\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "32544",
+      "existingDbRecord": {
+        "id": "38b0ea01-c57f-4006-9480-2ea372c7e568",
+        "sourceId": "32544",
+        "name": "Azi Mx",
+        "strength": "200 mg/5 ml",
+        "dosageForm": "Powder for Suspension",
+        "generic": "Azithromycin Dihydrate",
+        "manufacturer": "Doctor TIMS Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "32544",
+        "name": "My-Azi",
+        "strength": "200 mg/5 ml",
+        "dosageForm": "Powder for Suspension",
+        "generic": "Azithromycin Dihydrate",
+        "manufacturer": "Doctor TIMS Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"32544\" maps to \"Azi Mx\" in DB vs \"My-Azi\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "32543",
+      "existingDbRecord": {
+        "id": "4a5bfd7c-2311-4f56-b782-1271eb32906d",
+        "sourceId": "32543",
+        "name": "Azi Mx",
+        "strength": "500 mg",
+        "dosageForm": "Tablet",
+        "generic": "Azithromycin Dihydrate",
+        "manufacturer": "Doctor TIMS Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "32543",
+        "name": "My-Azi",
+        "strength": "500 mg",
+        "dosageForm": "Tablet",
+        "generic": "Azithromycin Dihydrate",
+        "manufacturer": "Doctor TIMS Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"32543\" maps to \"Azi Mx\" in DB vs \"My-Azi\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "28379",
+      "existingDbRecord": {
+        "id": "84e82e33-60bd-4a17-8257-b6a008d20fe4",
+        "sourceId": "28379",
+        "name": "Mysulin",
+        "strength": "50%+50% in 100 IU/ml",
+        "dosageForm": "SC Injection",
+        "generic": "Regular Insulin Human + Isophane Insulin Human",
+        "manufacturer": "Drug International Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "28379",
+        "name": "Mysulin 50/50",
+        "strength": "100 IU/ml",
+        "dosageForm": "SC Injection",
+        "generic": "Insulin Human [Long-Acting]",
+        "manufacturer": "Drug International Ltd."
+      },
+      "reason": "sourceId \"28379\" maps to \"Mysulin\" in DB vs \"Mysulin 50/50\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "24683",
+      "existingDbRecord": {
+        "id": "3ba80db6-4720-4c40-b66b-204bf98ddaa1",
+        "sourceId": "24683",
+        "name": "Mysulin",
+        "strength": "30%+70% in 100 IU/ml",
+        "dosageForm": "SC Injection",
+        "generic": "Regular Insulin Human + Isophane Insulin Human",
+        "manufacturer": "Drug International Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "24683",
+        "name": "Mysulin 30/70",
+        "strength": "100 IU/ml",
+        "dosageForm": "SC Injection",
+        "generic": "Insulin Human [Long-Acting]",
+        "manufacturer": "Drug International Ltd."
+      },
+      "reason": "sourceId \"24683\" maps to \"Mysulin\" in DB vs \"Mysulin 30/70\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "11548",
+      "existingDbRecord": {
+        "id": "f0aead9e-e0ca-42af-8535-88a3458fb670",
+        "sourceId": "11548",
+        "name": "Naxin Plus",
+        "strength": "500 mg+20 mg",
+        "dosageForm": "Tablet (Delayed Release)",
+        "generic": "Naproxen Sodium + Esomeprazole Magnesium",
+        "manufacturer": "Opsonin Pharma Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "11548",
+        "name": "Nameso",
+        "strength": "500 mg+20 mg",
+        "dosageForm": "Tablet (Delayed Release)",
+        "generic": "Naproxen Sodium + Esomeprazole Magnesium",
+        "manufacturer": "Opsonin Pharma Ltd."
+      },
+      "reason": "sourceId \"11548\" maps to \"Naxin Plus\" in DB vs \"Nameso\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "11547",
+      "existingDbRecord": {
+        "id": "5a596094-65bf-4e54-ac68-6f8fed1776d6",
+        "sourceId": "11547",
+        "name": "Naxin Plus",
+        "strength": "375 mg+20 mg",
+        "dosageForm": "Tablet (Delayed Release)",
+        "generic": "Naproxen Sodium + Esomeprazole Magnesium",
+        "manufacturer": "Opsonin Pharma Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "11547",
+        "name": "Nameso",
+        "strength": "375 mg+20 mg",
+        "dosageForm": "Tablet (Delayed Release)",
+        "generic": "Naproxen Sodium + Esomeprazole Magnesium",
+        "manufacturer": "Opsonin Pharma Ltd."
+      },
+      "reason": "sourceId \"11547\" maps to \"Naxin Plus\" in DB vs \"Nameso\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "23405",
+      "existingDbRecord": {
+        "id": "039142ef-47f7-45ec-a637-764f2078eaf5",
+        "sourceId": "23405",
+        "name": "Napa Rapid (Actizorb)",
+        "strength": "500 mg",
+        "dosageForm": "Tablet",
+        "generic": "Paracetamol",
+        "manufacturer": "Beximco Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "23405",
+        "name": "Napa Rapid",
+        "strength": "500 mg",
+        "dosageForm": "Tablet",
+        "generic": "Paracetamol",
+        "manufacturer": "Beximco Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"23405\" maps to \"Napa Rapid (Actizorb)\" in DB vs \"Napa Rapid\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "27869",
+      "existingDbRecord": {
+        "id": "ebab8fb2-2570-4353-9318-519b558d18fb",
+        "sourceId": "27869",
+        "name": "Napren ES",
+        "strength": "500 mg+20 mg",
+        "dosageForm": "Tablet (Delayed Release)",
+        "generic": "Naproxen Sodium + Esomeprazole Magnesium",
+        "manufacturer": "Alco Pharma Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "27869",
+        "name": "Napren",
+        "strength": "250 mg",
+        "dosageForm": "Tablet",
+        "generic": "Naproxen Sodium",
+        "manufacturer": "Alco Pharma Ltd."
+      },
+      "reason": "sourceId \"27869\" maps to \"Napren ES\" in DB vs \"Napren\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "9085",
+      "existingDbRecord": {
+        "id": "c61dfcc7-ef97-4441-8be2-515bf9daaade",
+        "sourceId": "9085",
+        "name": "Naftin",
+        "strength": "2%",
+        "dosageForm": "Cream",
+        "generic": "Naftifine Hydrochloride",
+        "manufacturer": "Medicon Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "9085",
+        "name": "Neotrim",
+        "strength": "(200 mg+40 mg)/5 ml",
+        "dosageForm": "Oral Suspension",
+        "generic": "Sulphamethoxazole + Trimethoprim",
+        "manufacturer": "Medicon Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"9085\" maps to \"Naftin\" in DB vs \"Neotrim\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "14874",
+      "existingDbRecord": {
+        "id": "d4ee66a8-e4a5-43a9-89bc-2f1f784b70f5",
+        "sourceId": "14874",
+        "name": "ACME's Normal Saline",
+        "strength": "0.9%",
+        "dosageForm": "IV Infusion",
+        "generic": "Sodium Chloride",
+        "manufacturer": "ACME Laboratories Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "14874",
+        "name": "Normal Saline",
+        "strength": "0.90%",
+        "dosageForm": "IV Infusion",
+        "generic": "Sodium Chloride (Intravenous Solution)",
+        "manufacturer": "ACME Laboratories Ltd."
+      },
+      "reason": "sourceId \"14874\" maps to \"ACME's Normal Saline\" in DB vs \"Normal Saline\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "16829",
+      "existingDbRecord": {
+        "id": "3b412583-76f6-4658-bb7a-aa928d71bca1",
+        "sourceId": "16829",
+        "name": "NovoMix 30",
+        "strength": "30%+70%",
+        "dosageForm": "SC Injection",
+        "generic": "Biphasic Insulin Aspart",
+        "manufacturer": "Novo Nordisk Pharma (Pvt.) Ltd"
+      },
+      "incomingRecord": {
+        "sourceId": "16829",
+        "name": "NovoMix",
+        "strength": "30%+70%",
+        "dosageForm": "SC Injection",
+        "generic": "Biphasic Insulin Aspart [rDNA]",
+        "manufacturer": "Novo Nordisk Pharma (Pvt.) Ltd"
+      },
+      "reason": "sourceId \"16829\" maps to \"NovoMix 30\" in DB vs \"NovoMix\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "27165",
+      "existingDbRecord": {
+        "id": "776a5c56-f7c1-45f3-b985-e0e8d080abd5",
+        "sourceId": "27165",
+        "name": "Ocoral DX",
+        "strength": "600 mg+400 IU",
+        "dosageForm": "Tablet",
+        "generic": "Coral Calcium + Vitamin D3",
+        "manufacturer": "Kumudini Pharma Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "27165",
+        "name": "Ocoral",
+        "strength": "500 mg+200 IU",
+        "dosageForm": "Tablet",
+        "generic": "Calcium Carbonate [Coral source] + Vitamin D3",
+        "manufacturer": "Kumudini Pharma Ltd."
+      },
+      "reason": "sourceId \"27165\" maps to \"Ocoral DX\" in DB vs \"Ocoral\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "31426",
+      "existingDbRecord": {
+        "id": "dae287ca-dcbe-4379-81f0-11a9fa82ee86",
+        "sourceId": "31426",
+        "name": "Olmenor AM",
+        "strength": "5 mg+40 mg",
+        "dosageForm": "Tablet",
+        "generic": "Amlodipine Besilate + Olmesartan Medoxomil",
+        "manufacturer": "Delta Pharma Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "31426",
+        "name": "Olmenor Plus",
+        "strength": "5 mg+40 mg",
+        "dosageForm": "Tablet",
+        "generic": "Amlodipine Besilate + Olmesartan Medoxomil",
+        "manufacturer": "Delta Pharma Ltd."
+      },
+      "reason": "sourceId \"31426\" maps to \"Olmenor AM\" in DB vs \"Olmenor Plus\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "31425",
+      "existingDbRecord": {
+        "id": "30025d2c-42f6-462b-b087-66a766e6b4ab",
+        "sourceId": "31425",
+        "name": "Olmenor AM",
+        "strength": "5 mg+20 mg",
+        "dosageForm": "Tablet",
+        "generic": "Amlodipine Besilate + Olmesartan Medoxomil",
+        "manufacturer": "Delta Pharma Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "31425",
+        "name": "Olmenor Plus",
+        "strength": "5 mg+20 mg",
+        "dosageForm": "Tablet",
+        "generic": "Amlodipine Besilate + Olmesartan Medoxomil",
+        "manufacturer": "Delta Pharma Ltd."
+      },
+      "reason": "sourceId \"31425\" maps to \"Olmenor AM\" in DB vs \"Olmenor Plus\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "1874",
+      "existingDbRecord": {
+        "id": "3e7a6668-b900-4900-8ea6-668b006f34ec",
+        "sourceId": "1874",
+        "name": "Omesil Fast",
+        "strength": "40 mg/sachet",
+        "dosageForm": "Oral Powder",
+        "generic": "Omeprazole",
+        "manufacturer": "Silva Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "1874",
+        "name": "Omesil",
+        "strength": "40 mg",
+        "dosageForm": "Capsule (Delayed Release)",
+        "generic": "Omeprazole",
+        "manufacturer": "Silva Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"1874\" maps to \"Omesil Fast\" in DB vs \"Omesil\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "3623",
+      "existingDbRecord": {
+        "id": "330f9d90-07a1-4b2c-98a8-44157e0b17ba",
+        "sourceId": "3623",
+        "name": "Onbrez",
+        "strength": "150 mcg",
+        "dosageForm": "Dry Powder Inhalation Capsule (DPI)",
+        "generic": "Indacaterol Maleate",
+        "manufacturer": "Nevian Lifescience PLC"
+      },
+      "incomingRecord": {
+        "sourceId": "3623",
+        "name": "Onbrez Breezhaler",
+        "strength": "150 mcg",
+        "dosageForm": "Inhalation Capsule",
+        "generic": "Indacaterol Maleate",
+        "manufacturer": "Novartis (Bangladesh) Ltd."
+      },
+      "reason": "sourceId \"3623\" maps to \"Onbrez\" in DB vs \"Onbrez Breezhaler\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "9956",
+      "existingDbRecord": {
+        "id": "b72ef7e7-82f6-41eb-8674-40f6ad5ada29",
+        "sourceId": "9956",
+        "name": "Fluconazole",
+        "strength": "50 mg/5 ml",
+        "dosageForm": "Powder for Suspension",
+        "generic": "Fluconazole",
+        "manufacturer": "Zenith Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "9956",
+        "name": "Onicon",
+        "strength": "50 mg/5 ml",
+        "dosageForm": "Powder for Suspension",
+        "generic": "Fluconazole",
+        "manufacturer": "Zenith Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"9956\" maps to \"Fluconazole\" in DB vs \"Onicon\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "9955",
+      "existingDbRecord": {
+        "id": "31333e96-a841-4ad1-b033-af23febb807f",
+        "sourceId": "9955",
+        "name": "Fluconazole",
+        "strength": "50 mg",
+        "dosageForm": "Tablet",
+        "generic": "Fluconazole",
+        "manufacturer": "Zenith Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "9955",
+        "name": "Onicon",
+        "strength": "50 mg",
+        "dosageForm": "Tablet",
+        "generic": "Fluconazole",
+        "manufacturer": "Zenith Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"9955\" maps to \"Fluconazole\" in DB vs \"Onicon\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "29518",
+      "existingDbRecord": {
+        "id": "97fafeda-a021-4841-9770-fccef0777007",
+        "sourceId": "29518",
+        "name": "Oralis Cavicare",
+        "strength": null,
+        "dosageForm": "Mouthwash",
+        "generic": "Menthol + Thymol + Eucalyptol + Methyl Salicylate",
+        "manufacturer": "Opsonin Pharma Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "29518",
+        "name": "Oralis",
+        "strength": "",
+        "dosageForm": "Mouthwash",
+        "generic": "Menthol + Thymol + Eucalyptol + Methyl Salicylate",
+        "manufacturer": "Opsonin Pharma Ltd."
+      },
+      "reason": "sourceId \"29518\" maps to \"Oralis Cavicare\" in DB vs \"Oralis\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "29432",
+      "existingDbRecord": {
+        "id": "e5ee2022-c8a7-4bf5-a88c-65dc720ed598",
+        "sourceId": "29432",
+        "name": "Oralis TTO Thermal",
+        "strength": null,
+        "dosageForm": "Oral Paste",
+        "generic": "TTO Thermal Toothpaste",
+        "manufacturer": "Opsonin Pharma Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "29432",
+        "name": "Oralis",
+        "strength": "",
+        "dosageForm": "Oral Paste",
+        "generic": "TTO Thermal Toothpaste",
+        "manufacturer": "JEO MED, Turkey"
+      },
+      "reason": "sourceId \"29432\" maps to \"Oralis TTO Thermal\" in DB vs \"Oralis\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "12841",
+      "existingDbRecord": {
+        "id": "3ed46495-545d-4bd0-b73b-cfceacd94658",
+        "sourceId": "12841",
+        "name": "Oral-C Advanced",
+        "strength": "0.2%",
+        "dosageForm": "Mouthwash",
+        "generic": "Chlorhexidine Gluconate [0.2%]",
+        "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "12841",
+        "name": "Oral-C",
+        "strength": "0.20%",
+        "dosageForm": "Mouthwash",
+        "generic": "Chlorhexidine Gluconate [0.2%]",
+        "manufacturer": "UniMed UniHealth"
+      },
+      "reason": "sourceId \"12841\" maps to \"Oral-C Advanced\" in DB vs \"Oral-C\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "32765",
+      "existingDbRecord": {
+        "id": "efb40953-b811-4eaa-90d1-4507d89cea0f",
+        "sourceId": "32765",
+        "name": "Osto Coral DX",
+        "strength": "600 mg+400 IU",
+        "dosageForm": "Tablet",
+        "generic": "Coral Calcium + Vitamin D3",
+        "manufacturer": "Desh Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "32765",
+        "name": "Ostoplus-Coral DX",
+        "strength": "600 mg+400 IU",
+        "dosageForm": "Tablet",
+        "generic": "Calcium Carbonate [Coral source] + Vitamin D3",
+        "manufacturer": "Desh Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"32765\" maps to \"Osto Coral DX\" in DB vs \"Ostoplus-Coral DX\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "3033",
+      "existingDbRecord": {
+        "id": "f1ccfec2-351a-4c8e-9417-89939f2b26c4",
+        "sourceId": "3033",
+        "name": "Pactorin",
+        "strength": "2.6 mg",
+        "dosageForm": "Retard Tablet",
+        "generic": "Nitroglycerin",
+        "manufacturer": "ACI Limited"
+      },
+      "incomingRecord": {
+        "sourceId": "3033",
+        "name": "Pactorin Retard",
+        "strength": "2.6 mg",
+        "dosageForm": "Retard Tablet",
+        "generic": "Nitroglycerin (Oral preparation)",
+        "manufacturer": "ACI Limited"
+      },
+      "reason": "sourceId \"3033\" maps to \"Pactorin\" in DB vs \"Pactorin Retard\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "28138",
+      "existingDbRecord": {
+        "id": "1f5776ac-f77f-456c-a975-356cb7bd137b",
+        "sourceId": "28138",
+        "name": "PediaSure (Chocolate Flavour)",
+        "strength": null,
+        "dosageForm": "Oral Powder",
+        "generic": "Protein, Fat, Carbohydrate, Vitamin & Mineral",
+        "manufacturer": "Future Distribution & Network Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "28138",
+        "name": "Pediasure Premium",
+        "strength": "",
+        "dosageForm": "Oral Powder",
+        "generic": "Protein, Fat, Carbohydrate, Vitamin & Mineral",
+        "manufacturer": "Abbott Laboratories"
+      },
+      "reason": "sourceId \"28138\" maps to \"PediaSure (Chocolate Flavour)\" in DB vs \"Pediasure Premium\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "28137",
+      "existingDbRecord": {
+        "id": "cb5446c0-ac5d-46ec-bfe5-90cfcc0b8b43",
+        "sourceId": "28137",
+        "name": "PediaSure (Vanilla Delight)",
+        "strength": null,
+        "dosageForm": "Oral Powder",
+        "generic": "Protein, Fat, Carbohydrate, Vitamin & Mineral",
+        "manufacturer": "Future Distribution & Network Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "28137",
+        "name": "Pediasure Delight",
+        "strength": "",
+        "dosageForm": "Oral Powder",
+        "generic": "Protein, Fat, Carbohydrate, Vitamin & Mineral",
+        "manufacturer": "Abbott Laboratories"
+      },
+      "reason": "sourceId \"28137\" maps to \"PediaSure (Vanilla Delight)\" in DB vs \"Pediasure Delight\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "17098",
+      "existingDbRecord": {
+        "id": "e5eea158-62a9-4009-98ab-5f5eea94b1e5",
+        "sourceId": "17098",
+        "name": "PediaSure (Classic Vanilla)",
+        "strength": null,
+        "dosageForm": "Oral Powder",
+        "generic": "Protein, Fat, Carbohydrate, Vitamin & Mineral",
+        "manufacturer": "Future Distribution & Network Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "17098",
+        "name": "Pediasure Classic",
+        "strength": "",
+        "dosageForm": "Oral Powder",
+        "generic": "Protein, Fat, Carbohydrate, Vitamin & Mineral",
+        "manufacturer": "Abbott Laboratories"
+      },
+      "reason": "sourceId \"17098\" maps to \"PediaSure (Classic Vanilla)\" in DB vs \"Pediasure Classic\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "1634",
+      "existingDbRecord": {
+        "id": "59f662f8-93c8-4d89-8c80-93f6de6d9e97",
+        "sourceId": "1634",
+        "name": "Domperon",
+        "strength": "10 mg",
+        "dosageForm": "Tablet",
+        "generic": "Domperidone Maleate",
+        "manufacturer": "Astra Biopharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "1634",
+        "name": "Peridone",
+        "strength": "10 mg",
+        "dosageForm": "Tablet",
+        "generic": "Domperidone Maleate",
+        "manufacturer": "Astra Biopharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"1634\" maps to \"Domperon\" in DB vs \"Peridone\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "2924",
+      "existingDbRecord": {
+        "id": "91d3b518-4976-4ca1-8ee1-f6a657c28b15",
+        "sourceId": "2924",
+        "name": "Hypen Plus",
+        "strength": "4 mg+1.25 mg",
+        "dosageForm": "Tablet",
+        "generic": "Perindopril + Indapamide",
+        "manufacturer": "Opsonin Pharma Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "2924",
+        "name": "Perindal 4 Plus",
+        "strength": "1.25 mg+4 mg",
+        "dosageForm": "Tablet",
+        "generic": "Indapamide + Perindopril Arginine",
+        "manufacturer": "Opsonin Pharma Ltd."
+      },
+      "reason": "sourceId \"2924\" maps to \"Hypen Plus\" in DB vs \"Perindal 4 Plus\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "2923",
+      "existingDbRecord": {
+        "id": "e775091e-a0b6-49db-a42f-8e723a633f86",
+        "sourceId": "2923",
+        "name": "Hypen Plus",
+        "strength": "2 mg+0.625 mg",
+        "dosageForm": "Tablet",
+        "generic": "Perindopril + Indapamide",
+        "manufacturer": "Opsonin Pharma Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "2923",
+        "name": "Perindal 2 Plus",
+        "strength": "0.625 mg+2 mg",
+        "dosageForm": "Tablet",
+        "generic": "Indapamide + Perindopril Arginine",
+        "manufacturer": "Opsonin Pharma Ltd."
+      },
+      "reason": "sourceId \"2923\" maps to \"Hypen Plus\" in DB vs \"Perindal 2 Plus\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "6373",
+      "existingDbRecord": {
+        "id": "1b58af89-5747-4295-b9bd-da05f67dfedc",
+        "sourceId": "6373",
+        "name": "Flox R",
+        "strength": "125 mg/5 ml",
+        "dosageForm": "Powder for Suspension",
+        "generic": "Flucloxacillin Sodium",
+        "manufacturer": "Rangs Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "6373",
+        "name": "Perpen",
+        "strength": "125 mg/5 ml",
+        "dosageForm": "Powder for Suspension",
+        "generic": "Flucloxacillin Sodium",
+        "manufacturer": "Rangs Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"6373\" maps to \"Flox R\" in DB vs \"Perpen\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "6372",
+      "existingDbRecord": {
+        "id": "0e87d84e-8651-42d0-a686-d6d20a346850",
+        "sourceId": "6372",
+        "name": "Flox R",
+        "strength": "500 mg",
+        "dosageForm": "Capsule",
+        "generic": "Flucloxacillin Sodium",
+        "manufacturer": "Rangs Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "6372",
+        "name": "Perpen",
+        "strength": "500 mg",
+        "dosageForm": "Capsule",
+        "generic": "Flucloxacillin Sodium",
+        "manufacturer": "Rangs Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"6372\" maps to \"Flox R\" in DB vs \"Perpen\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "6371",
+      "existingDbRecord": {
+        "id": "02d5b8be-d828-402e-b055-69fb0984a8b5",
+        "sourceId": "6371",
+        "name": "Flox R",
+        "strength": "250 mg",
+        "dosageForm": "Capsule",
+        "generic": "Flucloxacillin Sodium",
+        "manufacturer": "Rangs Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "6371",
+        "name": "Perpen",
+        "strength": "250 mg",
+        "dosageForm": "Capsule",
+        "generic": "Flucloxacillin Sodium",
+        "manufacturer": "Rangs Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"6371\" maps to \"Flox R\" in DB vs \"Perpen\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "16076",
+      "existingDbRecord": {
+        "id": "f1189930-3df9-47a0-af22-a4387c17c255",
+        "sourceId": "16076",
+        "name": "Pilorine",
+        "strength": "2%",
+        "dosageForm": "Ophthalmic Solution",
+        "generic": "Pilocarpine Hydrochloride (Ophthalmic)",
+        "manufacturer": "OSL Pharma Limited"
+      },
+      "incomingRecord": {
+        "sourceId": "16076",
+        "name": "Pilocarpine",
+        "strength": "2%",
+        "dosageForm": "Ophthalmic Solution",
+        "generic": "Pilocarpine Hydrochloride (Ophthalmic)",
+        "manufacturer": "Opso Saline Ltd."
+      },
+      "reason": "sourceId \"16076\" maps to \"Pilorine\" in DB vs \"Pilocarpine\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "2975",
+      "existingDbRecord": {
+        "id": "f09738f1-ad90-4c80-9288-885039aa9e4d",
+        "sourceId": "2975",
+        "name": "Preslow Plus",
+        "strength": "50 mg+12.5 mg",
+        "dosageForm": "Tablet",
+        "generic": "Losartan Potassium + Hydrochlorothiazide",
+        "manufacturer": "Labaid Pharma Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "2975",
+        "name": "Preslo-H",
+        "strength": "50 mg+12.5 mg",
+        "dosageForm": "Tablet",
+        "generic": "Losartan Potassium + Hydrochlorothiazide",
+        "manufacturer": "Labaid Pharma Ltd."
+      },
+      "reason": "sourceId \"2975\" maps to \"Preslow Plus\" in DB vs \"Preslo-H\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "27638",
+      "existingDbRecord": {
+        "id": "2502eaa8-893e-4d13-8430-f2bdfb1710b0",
+        "sourceId": "27638",
+        "name": "PrevaHAV (For child)",
+        "strength": "250 unit/0.5 ml",
+        "dosageForm": "SC Injection",
+        "generic": "Inactivated Hepatitis A vaccine",
+        "manufacturer": "Incepta Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "27638",
+        "name": "PrevaHAV",
+        "strength": "250 unit/0.5 ml",
+        "dosageForm": "SC Injection",
+        "generic": "Inactivated Hepatitis A vaccine",
+        "manufacturer": "Incepta Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"27638\" maps to \"PrevaHAV (For child)\" in DB vs \"PrevaHAV\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "27637",
+      "existingDbRecord": {
+        "id": "13e5c73c-25f2-456e-9d0d-66af012505cf",
+        "sourceId": "27637",
+        "name": "PrevaHAV (For adult)",
+        "strength": "500 unit/1 ml",
+        "dosageForm": "SC Injection",
+        "generic": "Inactivated Hepatitis A vaccine",
+        "manufacturer": "Incepta Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "27637",
+        "name": "PrevaHAV",
+        "strength": "500 unit/ml",
+        "dosageForm": "SC Injection",
+        "generic": "Inactivated Hepatitis A vaccine",
+        "manufacturer": "Incepta Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"27637\" maps to \"PrevaHAV (For adult)\" in DB vs \"PrevaHAV\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "2279",
+      "existingDbRecord": {
+        "id": "94cee77b-2366-4c18-8817-f2a73ee886ef",
+        "sourceId": "2279",
+        "name": "Finix HP",
+        "strength": "20 mg+1000 mg+500 mg",
+        "dosageForm": "Tablet",
+        "generic": "Rabeprazole + Amoxicillin + Clarithromycin",
+        "manufacturer": "Opsonin Pharma Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "2279",
+        "name": "Pylocure",
+        "strength": "20 mg+500 mg+1000 mg",
+        "dosageForm": "Tablet",
+        "generic": "Rabeprazole + Amoxicillin + Clarithromycin",
+        "manufacturer": "Opsonin Pharma Ltd."
+      },
+      "reason": "sourceId \"2279\" maps to \"Finix HP\" in DB vs \"Pylocure\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "10678",
+      "existingDbRecord": {
+        "id": "914456a4-12fa-47b1-85cd-1f3e2605ec07",
+        "sourceId": "10678",
+        "name": "Newbain",
+        "strength": "20 mg/2 ml",
+        "dosageForm": "IM/IV Injection",
+        "generic": "Nalbuphine Hydrochloride",
+        "manufacturer": "Square Pharmaceuticals PLC"
+      },
+      "incomingRecord": {
+        "sourceId": "10678",
+        "name": "Radirif",
+        "strength": "20 mg/2 ml",
+        "dosageForm": "IM/IV Injection",
+        "generic": "Nalbuphine",
+        "manufacturer": "Square Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"10678\" maps to \"Newbain\" in DB vs \"Radirif\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "25253",
+      "existingDbRecord": {
+        "id": "ce10493b-83d6-4281-8421-75c8b7f4812e",
+        "sourceId": "25253",
+        "name": "Edvila-M",
+        "strength": "50 mg+850 mg",
+        "dosageForm": "Tablet",
+        "generic": "Vildagliptin + Metformin Hydrochloride",
+        "manufacturer": "Healthcare Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "25253",
+        "name": "Redia M",
+        "strength": "50 mg+850 mg",
+        "dosageForm": "Tablet",
+        "generic": "Vildagliptin + Metformin Hydrochloride",
+        "manufacturer": "Healthcare Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"25253\" maps to \"Edvila-M\" in DB vs \"Redia M\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "25252",
+      "existingDbRecord": {
+        "id": "cd62fcfa-3ce9-41c2-b2d5-55e3a79700c2",
+        "sourceId": "25252",
+        "name": "Edvila-M",
+        "strength": "50 mg+500 mg",
+        "dosageForm": "Tablet",
+        "generic": "Vildagliptin + Metformin Hydrochloride",
+        "manufacturer": "Healthcare Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "25252",
+        "name": "Redia M",
+        "strength": "50 mg+500 mg",
+        "dosageForm": "Tablet",
+        "generic": "Vildagliptin + Metformin Hydrochloride",
+        "manufacturer": "Healthcare Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"25252\" maps to \"Edvila-M\" in DB vs \"Redia M\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "5539",
+      "existingDbRecord": {
+        "id": "3ebb7de4-e850-4ae4-8a30-8f7eda495c55",
+        "sourceId": "5539",
+        "name": "Edvila",
+        "strength": "50 mg",
+        "dosageForm": "Tablet",
+        "generic": "Vildagliptin",
+        "manufacturer": "Healthcare Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "5539",
+        "name": "Redia",
+        "strength": "50 mg",
+        "dosageForm": "Tablet",
+        "generic": "Vildagliptin",
+        "manufacturer": "Healthcare Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"5539\" maps to \"Edvila\" in DB vs \"Redia\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "13396",
+      "existingDbRecord": {
+        "id": "a181e48c-8fc8-4acd-8dcc-434bc6c4b23a",
+        "sourceId": "13396",
+        "name": "Red Plus-CI",
+        "strength": "50 mg+0.50 mg+61.80 mg",
+        "dosageForm": "Capsule (Timed Release)",
+        "generic": "Carbonyl Iron + Folic Acid + Zinc Sulfate",
+        "manufacturer": "Ad-din Pharmaceuticals Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "13396",
+        "name": "Red Plus Extra",
+        "strength": "",
+        "dosageForm": "Capsule",
+        "generic": "Iron Polymaltose Complex + Folic Acid + Zinc + Vitamin B-Complex",
+        "manufacturer": "Ad-din Pharmaceuticals Ltd."
+      },
+      "reason": "sourceId \"13396\" maps to \"Red Plus-CI\" in DB vs \"Red Plus Extra\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "28347",
+      "existingDbRecord": {
+        "id": "9c8dff27-2026-4f4a-b4d4-67ef6f4852f2",
+        "sourceId": "28347",
+        "name": "Rilutek",
+        "strength": "50 mg",
+        "dosageForm": "Tablet",
+        "generic": "Riluzole",
+        "manufacturer": "Synovia Pharma PLC."
+      },
+      "incomingRecord": {
+        "sourceId": "28347",
+        "name": "Riluket",
+        "strength": "50 mg",
+        "dosageForm": "Tablet",
+        "generic": "Riluzole",
+        "manufacturer": "Synovia pharma plc"
+      },
+      "reason": "sourceId \"28347\" maps to \"Rilutek\" in DB vs \"Riluket\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "17229",
+      "existingDbRecord": {
+        "id": "d8b230ce-7e57-4fee-8c52-089c02564f74",
+        "sourceId": "17229",
+        "name": "Anxit",
+        "strength": "0.5 mg+10 mg",
+        "dosageForm": "Tablet",
+        "generic": "Flupentixol + Melitracen",
+        "manufacturer": "NIPRO JMI Pharma Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "17229",
+        "name": "Thixtra",
+        "strength": "0.5 mg+10 mg",
+        "dosageForm": "Tablet",
+        "generic": "Flupentixol + Melitracen",
+        "manufacturer": "NIPRO JMI Pharma Ltd."
+      },
+      "reason": "sourceId \"17229\" maps to \"Anxit\" in DB vs \"Thixtra\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "30371",
+      "existingDbRecord": {
+        "id": "97ace603-9989-479c-b670-e165bcb0336e",
+        "sourceId": "30371",
+        "name": "Anzidon MR",
+        "strength": "35 mg",
+        "dosageForm": "Tablet (Modified Release)",
+        "generic": "Trimetazidine Dihydrochloride",
+        "manufacturer": "Renata PLC"
+      },
+      "incomingRecord": {
+        "sourceId": "30371",
+        "name": "Trizedon MR",
+        "strength": "35 mg",
+        "dosageForm": "Tablet (Modified Release)",
+        "generic": "Trimetazidine Dihydrochloride",
+        "manufacturer": "Renata Limited"
+      },
+      "reason": "sourceId \"30371\" maps to \"Anzidon MR\" in DB vs \"Trizedon MR\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "16037",
+      "existingDbRecord": {
+        "id": "298095d0-0b18-4d09-a28f-86fa49239c31",
+        "sourceId": "16037",
+        "name": "Ocutrop",
+        "strength": "1%",
+        "dosageForm": "Ophthalmic Solution",
+        "generic": "Tropicamide",
+        "manufacturer": "OSL Pharma Limited"
+      },
+      "incomingRecord": {
+        "sourceId": "16037",
+        "name": "Tropicamide",
+        "strength": "1%",
+        "dosageForm": "Ophthalmic Solution",
+        "generic": "Tropicamide",
+        "manufacturer": "Opso Saline Ltd."
+      },
+      "reason": "sourceId \"16037\" maps to \"Ocutrop\" in DB vs \"Tropicamide\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "16036",
+      "existingDbRecord": {
+        "id": "25c49cfe-c89a-4c3f-bfb4-b5dad0c106de",
+        "sourceId": "16036",
+        "name": "Ocutrop",
+        "strength": "0.5%",
+        "dosageForm": "Ophthalmic Solution",
+        "generic": "Tropicamide",
+        "manufacturer": "OSL Pharma Limited"
+      },
+      "incomingRecord": {
+        "sourceId": "16036",
+        "name": "Tropicamide",
+        "strength": "0.50%",
+        "dosageForm": "Ophthalmic Solution",
+        "generic": "Tropicamide",
+        "manufacturer": "Opso Saline Ltd."
+      },
+      "reason": "sourceId \"16036\" maps to \"Ocutrop\" in DB vs \"Tropicamide\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "28126",
+      "existingDbRecord": {
+        "id": "aa4e4a15-4c44-4c5a-99e7-a4d12852d0d2",
+        "sourceId": "28126",
+        "name": "Esozyme",
+        "strength": "20 mg",
+        "dosageForm": "Capsule (Enteric Coated)",
+        "generic": "Esomeprazole",
+        "manufacturer": "Cosmic Pharma Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "28126",
+        "name": "Versal",
+        "strength": "20 mg",
+        "dosageForm": "Capsule (Delayed Release)",
+        "generic": "Esomeprazole",
+        "manufacturer": "Cosmic Pharma Ltd."
+      },
+      "reason": "sourceId \"28126\" maps to \"Esozyme\" in DB vs \"Versal\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "2113",
+      "existingDbRecord": {
+        "id": "2308f924-3d62-46b0-a1ce-78a1338db931",
+        "sourceId": "2113",
+        "name": "Esozyme",
+        "strength": "20 mg",
+        "dosageForm": "Tablet (Enteric Coated)",
+        "generic": "Esomeprazole",
+        "manufacturer": "Cosmic Pharma Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "2113",
+        "name": "Versal",
+        "strength": "20 mg",
+        "dosageForm": "Tablet (Enteric Coated)",
+        "generic": "Esomeprazole",
+        "manufacturer": "Cosmic Pharma Ltd."
+      },
+      "reason": "sourceId \"2113\" maps to \"Esozyme\" in DB vs \"Versal\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "31154",
+      "existingDbRecord": {
+        "id": "6975c72a-bbec-430f-8e55-e9e8442d6e25",
+        "sourceId": "31154",
+        "name": "Clavucure",
+        "strength": "500 mg+125 mg",
+        "dosageForm": "Tablet",
+        "generic": "Cefuroxime Axetil + Clavulanic Acid",
+        "manufacturer": "Kumudini Pharma Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "31154",
+        "name": "Ximoclav",
+        "strength": "500 mg+125 mg",
+        "dosageForm": "Tablet",
+        "generic": "Cefuroxime Axetil + Clavulanic Acid",
+        "manufacturer": "Kumudini Pharma Ltd."
+      },
+      "reason": "sourceId \"31154\" maps to \"Clavucure\" in DB vs \"Ximoclav\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    },
+    {
+      "source": "kaggle_medicine_csv",
+      "sourceId": "31153",
+      "existingDbRecord": {
+        "id": "758a35ee-4239-4cde-84d9-80a61d9151ef",
+        "sourceId": "31153",
+        "name": "Clavucure",
+        "strength": "250 mg+62.5 mg",
+        "dosageForm": "Tablet",
+        "generic": "Cefuroxime Axetil + Clavulanic Acid",
+        "manufacturer": "Kumudini Pharma Ltd."
+      },
+      "incomingRecord": {
+        "sourceId": "31153",
+        "name": "Ximoclav",
+        "strength": "250 mg+62.5 mg",
+        "dosageForm": "Tablet",
+        "generic": "Cefuroxime Axetil + Clavulanic Acid",
+        "manufacturer": "Kumudini Pharma Ltd."
+      },
+      "reason": "sourceId \"31153\" maps to \"Clavucure\" in DB vs \"Ximoclav\" in kaggle_medicine_csv",
+      "recommendedAction": "DO_NOT_OVERWRITE_AND_DO_NOT_IMPORT_WITHOUT_REASSIGNED_PROVENANCE"
+    }
+  ]
+}

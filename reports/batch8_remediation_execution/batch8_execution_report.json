@@ -1,0 +1,2766 @@
+{
+  "executedAt": "2026-11-25T15:16:52.442Z",
+  "backupPath": "F:\\My Projects\\CareDose\\care_dose_pre_batch8_backup.dump",
+  "updatedCount": 89,
+  "updates": [
+    {
+      "packId": "c48d2f4f-0734-41c1-ad56-c1e6a5531459",
+      "brandId": "19bfcf81-6c87-4261-9c2a-0a19e082d706",
+      "sourceId": "33229",
+      "brandName": "Rehanzil",
+      "strength": "40 mg+1 mg+0.5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "1 x 10",
+        "packUnits": 10,
+        "stripUnits": 10,
+        "unitPrice": "100.00",
+        "packPrice": "1000.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Rehanzil 40+1+0.5 ৳100.00 (1 x 10: ৳1,000.00)."
+    },
+    {
+      "packId": "5d010783-12f7-4995-8b8c-28c682568e15",
+      "brandId": "c1f2b597-f3d1-4669-b0f1-78e8958ae1e4",
+      "sourceId": "33619",
+      "brandName": "Preneu",
+      "strength": "50 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Goodman Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "SAME_PACK_UNITS",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "3 x 10",
+        "packUnits": 30,
+        "stripUnits": 10,
+        "unitPrice": "10.00",
+        "packPrice": "300.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Preneu 50 mg ৳10.00 (3 x 10: ৳300.00)."
+    },
+    {
+      "packId": "c083197e-eb7a-4644-9dc3-9858501a95b4",
+      "brandId": "776e46ec-1b20-46b0-8c0c-44aaeee19f2e",
+      "sourceId": "33620",
+      "brandName": "Preneu",
+      "strength": "75 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Goodman Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "SAME_PACK_UNITS",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "3 x 10",
+        "packUnits": 30,
+        "stripUnits": 10,
+        "unitPrice": "15.00",
+        "packPrice": "450.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Preneu 75 mg ৳15.00 (3 x 10: ৳450.00)."
+    },
+    {
+      "packId": "6fdfb066-078b-4d18-91db-6afff1758e09",
+      "brandId": "3cbddd19-e088-4fba-85fc-f8c2657131c0",
+      "sourceId": "33730",
+      "brandName": "Mulina",
+      "strength": "600 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "1 x 10",
+        "packUnits": 10,
+        "stripUnits": 10,
+        "unitPrice": "850.00",
+        "packPrice": "8500.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Mulina 600 mg ৳850.00 (1 x 10: ৳8,500.00)."
+    },
+    {
+      "packId": "bc7c8285-6421-441b-a56a-115240d3e0a1",
+      "brandId": "7460a949-d204-4ee7-8b70-88d77f82f8a1",
+      "sourceId": "34059",
+      "brandName": "Ribolib",
+      "strength": "200 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "21's pack",
+        "packUnits": 21,
+        "stripUnits": null,
+        "unitPrice": "952.00",
+        "packPrice": "19992.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Ribolib 200 mg ৳952.00 (1 x 21: ৳19,992.00)."
+    },
+    {
+      "packId": "541d48b8-8752-4049-801e-29e2a8afcea7",
+      "brandId": "83fc29dd-9589-4a30-a666-4fd18ff2bcb0",
+      "sourceId": "34060",
+      "brandName": "HER-2N",
+      "strength": "200 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "21's pack",
+        "packUnits": 21,
+        "stripUnits": null,
+        "unitPrice": "750.00",
+        "packPrice": "15750.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: HER-2N 200 mg ৳750.00 (1 x 21: ৳15,750.00)."
+    },
+    {
+      "packId": "6a210709-8683-4318-a603-041e471ba2d8",
+      "brandId": "85fefd18-2e2d-4292-be2c-112b7f9e2332",
+      "sourceId": "34116",
+      "brandName": "FullCare",
+      "strength": null,
+      "dosageForm": "Tablet",
+      "manufacturer": "SMC Enterprise Ltd",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "SAME_PACK_UNITS",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "3 x 10",
+        "packUnits": 30,
+        "stripUnits": 10,
+        "unitPrice": "6.00",
+        "packPrice": "180.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: FullCare MMS Tablet ৳6.00 (3 x 10: ৳180.00)."
+    },
+    {
+      "packId": "cd5242e1-bb4a-4bd8-8ec2-51f95a558f89",
+      "brandId": "551ea026-f01b-4610-aa2a-d75fd0b2dc9a",
+      "sourceId": "34697",
+      "brandName": "Champix",
+      "strength": "0.5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Janata Traders",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "11 & 14 tablet pack",
+        "packUnits": 25,
+        "stripUnits": null,
+        "unitPrice": null,
+        "packPrice": "2050.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Champix 0.5 mg 11 & 14 tablet pack: ৳2,050.00."
+    },
+    {
+      "packId": "07dae26e-00da-4d9f-bd6d-6645174921fe",
+      "brandId": "9bd9306b-bff2-4d2d-9325-f21efa00726e",
+      "sourceId": "34698",
+      "brandName": "Champix",
+      "strength": "1 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Janata Traders",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "14 & 14 tablet pack",
+        "packUnits": 28,
+        "stripUnits": 14,
+        "unitPrice": null,
+        "packPrice": "2044.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Champix 1 mg 14 & 14 tablet pack: ৳2,044.00."
+    },
+    {
+      "packId": "0a569051-3567-4f3d-b6c7-59424a05b1c1",
+      "brandId": "a25a9d32-243e-4808-8722-4aa8276c0253",
+      "sourceId": "34848",
+      "brandName": "Apaluda",
+      "strength": "60 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "SAME_PACK_UNITS",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "3 x 10",
+        "packUnits": 30,
+        "stripUnits": 10,
+        "unitPrice": "500.00",
+        "packPrice": "15000.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Apaluda 60 mg ৳500.00 (3 x 10: ৳15,000.00)."
+    },
+    {
+      "packId": "a992da5f-ed8d-45bc-86ca-b8140e334262",
+      "brandId": "95acc229-ea8f-4a13-985c-101781f7dc8b",
+      "sourceId": "35023",
+      "brandName": "Kisqali",
+      "strength": "200 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Nevian Lifescience PLC",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "3 x 21",
+        "packUnits": 63,
+        "stripUnits": 21,
+        "unitPrice": "1060.00",
+        "packPrice": "66780.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Kisqali 200 mg ৳1,060.00 (3 x 21: ৳66,780.00)."
+    },
+    {
+      "packId": "bafc9f31-685f-44c5-b23a-161f873e172f",
+      "brandId": "309f234e-3bdc-492c-a61c-b60a61941caa",
+      "sourceId": "35346",
+      "brandName": "Daprosis",
+      "strength": "2 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "2 x 7",
+        "packUnits": 14,
+        "stripUnits": 7,
+        "unitPrice": "100.00",
+        "packPrice": "1400.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Daprosis 2 mg ৳100.00 (2 x 7: ৳1,400.00)."
+    },
+    {
+      "packId": "a31b3610-912d-40bf-9d85-a9e32c3e6cc3",
+      "brandId": "e546213b-e3d0-44dd-96f8-1191c852f42b",
+      "sourceId": "35384",
+      "brandName": "Omarol",
+      "strength": "12.5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Drug International Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "1 x 4",
+        "packUnits": 4,
+        "stripUnits": 4,
+        "unitPrice": "75.00",
+        "packPrice": "300.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Omarol 12.5 mg ৳75.00 (1 x 4: ৳300.00)."
+    },
+    {
+      "packId": "5820ef1a-490e-4f14-a386-a91bdc316fa0",
+      "brandId": "6e5477ce-1405-4450-8606-2d6658e78795",
+      "sourceId": "35385",
+      "brandName": "Omarol",
+      "strength": "25 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Drug International Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "1 x 4",
+        "packUnits": 4,
+        "stripUnits": 4,
+        "unitPrice": "135.00",
+        "packPrice": "540.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Omarol 25 mg ৳135.00 (1 x 4: ৳540.00)."
+    },
+    {
+      "packId": "2e2beff9-f3ee-46c5-b825-e93e4c1a0592",
+      "brandId": "f78fd709-4adf-4d5d-b600-db862476abad",
+      "sourceId": "35589",
+      "brandName": "Enurex",
+      "strength": "200 mcg",
+      "dosageForm": "Tablet",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "1 x 10",
+        "packUnits": 10,
+        "stripUnits": 10,
+        "unitPrice": "45.00",
+        "packPrice": "450.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Enurex 200 mcg ৳45.00 (1 x 10: ৳450.00)."
+    },
+    {
+      "packId": "8966f4e2-bb1b-422c-9719-5afbd9fc6618",
+      "brandId": "0fb8cfc0-c55f-4bf5-95b3-027b49321185",
+      "sourceId": "35594",
+      "brandName": "Nytenso",
+      "strength": "20 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "SAME_PACK_UNITS",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "3 x 10",
+        "packUnits": 30,
+        "stripUnits": 10,
+        "unitPrice": "35.00",
+        "packPrice": "1050.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Nytenso 20 mg ৳35.00 (3 x 10: ৳1,050.00)."
+    },
+    {
+      "packId": "dbb2a27c-b9ae-4f7a-b62f-116fe258be47",
+      "brandId": "01b67baa-8012-41a6-9c6f-6b8bbdc47f89",
+      "sourceId": "35653",
+      "brandName": "Pidonex",
+      "strength": "800 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "1 x 10",
+        "packUnits": 10,
+        "stripUnits": 10,
+        "unitPrice": "85.00",
+        "packPrice": "850.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Pidonex 800 mg ৳85.00 (1 x 10: ৳850.00)."
+    },
+    {
+      "packId": "377801bd-944a-4d19-a0b8-c16556d2296f",
+      "brandId": "1885da5f-0577-4409-9b04-57fcb0bc9bfa",
+      "sourceId": "36142",
+      "brandName": "Migalin",
+      "strength": "15 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Popular Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "1 x 15",
+        "packUnits": 15,
+        "stripUnits": 15,
+        "unitPrice": "45.00",
+        "packPrice": "675.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Migalin 15 mg ৳45.00 (1 x 15: ৳675.00)."
+    },
+    {
+      "packId": "1c706271-d7c0-45f5-8f52-71a706b7d51f",
+      "brandId": "bbd7826e-5b37-49f3-9fda-0f99b3971b54",
+      "sourceId": "36538",
+      "brandName": "Omariglip",
+      "strength": "12.5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Orion Pharma Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "1 x 4",
+        "packUnits": 4,
+        "stripUnits": 4,
+        "unitPrice": "75.00",
+        "packPrice": "300.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Omariglip 12.5 mg ৳75.00 (1 x 4: ৳300.00)."
+    },
+    {
+      "packId": "81b62d5f-3ec2-4530-9aae-b7e1b8e7c5fa",
+      "brandId": "c86b3c78-3199-4c45-a1ef-60a9220b7b8d",
+      "sourceId": "36539",
+      "brandName": "Omariglip",
+      "strength": "25 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Orion Pharma Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "1 x 4",
+        "packUnits": 4,
+        "stripUnits": 4,
+        "unitPrice": "135.00",
+        "packPrice": "540.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Omariglip 25 mg ৳135.00 (1 x 4: ৳540.00)."
+    },
+    {
+      "packId": "693ba43a-0fae-49a4-8fdf-95e8b0040570",
+      "brandId": "c0d58664-0b9f-4047-a500-2ad94e3c752b",
+      "sourceId": "36720",
+      "brandName": "Hercent",
+      "strength": "40 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "SAME_PACK_UNITS",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "3 x 10",
+        "packUnits": 30,
+        "stripUnits": 10,
+        "unitPrice": "120.00",
+        "packPrice": "3600.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Hercent 40 mg ৳120.00 (3 x 10: ৳3,600.00)."
+    },
+    {
+      "packId": "a3ec9c19-4206-4341-a8dc-5b26f92f3a95",
+      "brandId": "79a5d1e2-08fc-4237-b639-f4e4b047ac85",
+      "sourceId": "36727",
+      "brandName": "Loncil",
+      "strength": "15 mg + 6.14 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "2 x 10",
+        "packUnits": 20,
+        "stripUnits": 10,
+        "unitPrice": "670.00",
+        "packPrice": "13400.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Loncil 15+6.14 ৳670.00 (2 x 10: ৳13,400.00)."
+    },
+    {
+      "packId": "07f02963-87b5-49ce-99fb-d7332cf4d941",
+      "brandId": "7c77dad8-3ec1-4951-9590-9a69124fe6ed",
+      "sourceId": "36728",
+      "brandName": "Loncil",
+      "strength": "20 mg + 8.19 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "4 x 10",
+        "packUnits": 40,
+        "stripUnits": 10,
+        "unitPrice": "800.00",
+        "packPrice": "32000.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Loncil 20+8.19 ৳800.00 (4 x 10: ৳32,000.00)."
+    },
+    {
+      "packId": "93543c3b-7dfb-4501-acdb-a7e439b4ae00",
+      "brandId": "1ceddb0d-fde9-4ea4-a9d8-e4b953006366",
+      "sourceId": "36782",
+      "brandName": "Azacitid",
+      "strength": "300 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "4 x 4",
+        "packUnits": 16,
+        "stripUnits": 4,
+        "unitPrice": "1400.00",
+        "packPrice": "22400.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Azacitid 300 mg ৳1,400.00 (4 x 4: ৳22,400.00)."
+    },
+    {
+      "packId": "c0613829-2e11-45ba-b804-02b1d1af075c",
+      "brandId": "7db0234a-c621-4100-9734-c09dae3dcd4e",
+      "sourceId": "36942",
+      "brandName": "Damid",
+      "strength": "300 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "SAME_PACK_UNITS",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "3 x 10",
+        "packUnits": 30,
+        "stripUnits": 10,
+        "unitPrice": "1400.00",
+        "packPrice": "42000.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Damid 300 mg ৳1,400.00 (3 x 10: ৳42,000.00)."
+    },
+    {
+      "packId": "67fd912e-1cc0-4138-a3f5-bbb1cfd84436",
+      "brandId": "c9f0a1d7-79bc-4632-b112-ea23042db7ae",
+      "sourceId": "36992",
+      "brandName": "Nadox",
+      "strength": "100 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "National Drug Co. Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "10 x 10",
+        "packUnits": 100,
+        "stripUnits": 10,
+        "unitPrice": "2.50",
+        "packPrice": "250.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Nadox 100 mg ৳2.50 (10 x 10: ৳250.00)."
+    },
+    {
+      "packId": "664de375-459a-4c0d-9887-2ad234a07a95",
+      "brandId": "0f56759d-2eb6-437d-991f-de8f3743d6f2",
+      "sourceId": "37304",
+      "brandName": "Farobest",
+      "strength": "150 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Orion Pharma Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "3 x 7",
+        "packUnits": 21,
+        "stripUnits": 7,
+        "unitPrice": "70.00",
+        "packPrice": "1470.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Farobest 150 mg ৳70.00 (3 x 7: ৳1,470.00)."
+    },
+    {
+      "packId": "872e29b6-3ad9-4c78-88c8-8e1bb0a8aa54",
+      "brandId": "7eeebab0-b3a3-47a2-839b-8ba5708b4dfe",
+      "sourceId": "37305",
+      "brandName": "Farobest",
+      "strength": "200 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Orion Pharma Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "3 x 7",
+        "packUnits": 21,
+        "stripUnits": 7,
+        "unitPrice": "70.00",
+        "packPrice": "1470.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Farobest 200 mg ৳70.00 (3 x 7: ৳1,470.00)."
+    },
+    {
+      "packId": "644c8b05-020b-4671-b876-89e424d8a916",
+      "brandId": "accb8251-5ae0-4d3a-a7a6-249dff63e85f",
+      "sourceId": "37552",
+      "brandName": "Gestcare",
+      "strength": null,
+      "dosageForm": "Tablet",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "SAME_PACK_UNITS",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "3 x 10",
+        "packUnits": 30,
+        "stripUnits": 10,
+        "unitPrice": "4.00",
+        "packPrice": "120.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Gestcare MMS Tablet ৳4.00 (3 x 10: ৳120.00)."
+    },
+    {
+      "packId": "09c9040c-ac88-4089-a8cc-15ebfe4bce39",
+      "brandId": "5ae1f114-1900-4d27-983b-76cde6dc2e7b",
+      "sourceId": "37660",
+      "brandName": "Maxgalin",
+      "strength": "10 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Pharmik Laboratories Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "1 x 10",
+        "packUnits": 10,
+        "stripUnits": 10,
+        "unitPrice": "35.00",
+        "packPrice": "350.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Maxgalin 10 mg ৳35.00 (1 x 10: ৳350.00)."
+    },
+    {
+      "packId": "550f9447-70d9-4ee5-8fb6-390573d813ab",
+      "brandId": "6d443474-2884-4c43-b768-2f98703815d3",
+      "sourceId": "37661",
+      "brandName": "Maxgalin",
+      "strength": "5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Pharmik Laboratories Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "2 x 10",
+        "packUnits": 20,
+        "stripUnits": 10,
+        "unitPrice": "20.00",
+        "packPrice": "400.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Maxgalin 5 mg ৳20.00 (2 x 10: ৳400.00)."
+    },
+    {
+      "packId": "324a5752-fbf3-475c-8259-bd6eb82be148",
+      "brandId": "eee8c64d-935a-4e5c-af75-9dc8f6dbd1c4",
+      "sourceId": "37831",
+      "brandName": "Marcus",
+      "strength": "10 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "1 x 10",
+        "packUnits": 10,
+        "stripUnits": 10,
+        "unitPrice": "35.00",
+        "packPrice": "350.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Marcus 10 mg ৳35.00 (1 x 10: ৳350.00)."
+    },
+    {
+      "packId": "20656033-cdf0-4eb4-8711-4b22bf8595ea",
+      "brandId": "797c9ff4-ab13-4138-86f8-edde871dad66",
+      "sourceId": "37886",
+      "brandName": "Isozine",
+      "strength": "20 mg + 37.5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "ACI Limited",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "SAME_PACK_UNITS",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "3 x 10",
+        "packUnits": 30,
+        "stripUnits": 10,
+        "unitPrice": "15.00",
+        "packPrice": "450.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Isozine 20+37.5 ৳15.00 (3 x 10: ৳450.00)."
+    },
+    {
+      "packId": "ec95b14d-08f9-4ed7-b670-15ff40a66158",
+      "brandId": "2baaa13f-6ccd-41ea-a63b-24cfc80c7ab5",
+      "sourceId": "37938",
+      "brandName": "Avatrom",
+      "strength": "20 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "1 x 10",
+        "packUnits": 10,
+        "stripUnits": 10,
+        "unitPrice": "260.00",
+        "packPrice": "2600.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Avatrom 20 mg ৳260.00 (1 x 10: ৳2,600.00)."
+    },
+    {
+      "packId": "67d131cb-08c2-4fed-8fe7-63e89d646dfe",
+      "brandId": "0384a71f-265b-45ec-8b15-32cc897a31e0",
+      "sourceId": "37939",
+      "brandName": "Cazar FCT",
+      "strength": "60 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "1 x 7",
+        "packUnits": 7,
+        "stripUnits": 7,
+        "unitPrice": "700.00",
+        "packPrice": "4900.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Cazar FCT 60 mg ৳700.00 (1 x 7: ৳4,900.00)."
+    },
+    {
+      "packId": "6d15e559-7b25-4c6d-aeca-0f5bd4541f21",
+      "brandId": "98b16460-a45f-4593-b6a9-291555f937a8",
+      "sourceId": "38123",
+      "brandName": "Alpesib",
+      "strength": "150 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "28's pack",
+        "packUnits": 28,
+        "stripUnits": null,
+        "unitPrice": "1500.00",
+        "packPrice": "42000.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Alpesib 150 mg ৳1,500.00 (1 x 28 pack: ৳42,000.00)."
+    },
+    {
+      "packId": "b1970c51-61c7-41ee-af47-9a9ad3302b4b",
+      "brandId": "1407a16f-e68c-46ce-b238-aea36f226039",
+      "sourceId": "38124",
+      "brandName": "Ascimib",
+      "strength": "40 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "SAME_PACK_UNITS",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "1200.00",
+        "packPrice": "36000.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Ascimib 40 mg ৳1,200.00 (1 x 30 pack: ৳36,000.00)."
+    },
+    {
+      "packId": "0ee19eb0-7136-4052-9ff9-40d16fee1396",
+      "brandId": "14f436ef-5ae0-47be-b75a-a2c8fb9a1dd8",
+      "sourceId": "38125",
+      "brandName": "Capmaxen",
+      "strength": "200 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "28's pack",
+        "packUnits": 28,
+        "stripUnits": null,
+        "unitPrice": "1500.00",
+        "packPrice": "42000.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Capmaxen 200 mg ৳1,500.00 (1 x 28 pack: ৳42,000.00)."
+    },
+    {
+      "packId": "7568b0ac-17f1-4647-a37f-727c0512c2fd",
+      "brandId": "d23bddcb-08e1-4cec-9fbc-cd4429b361e7",
+      "sourceId": "38126",
+      "brandName": "Erdafixen",
+      "strength": "4 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "28's pack",
+        "packUnits": 28,
+        "stripUnits": null,
+        "unitPrice": "700.00",
+        "packPrice": "19600.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Erdafixen 4 mg ৳700.00 (1 x 28 pack: ৳19,600.00)."
+    },
+    {
+      "packId": "41d18405-82fa-4271-b837-df9499525ffb",
+      "brandId": "7607e800-5d45-4594-b0e8-d0ee7d1df2c9",
+      "sourceId": "38127",
+      "brandName": "Gilternib",
+      "strength": "40 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "SAME_PACK_UNITS",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "670.00",
+        "packPrice": "20100.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Gilternib 40 mg ৳670.00 (1 x 30 pack: ৳20,100.00)."
+    },
+    {
+      "packId": "5ac8d803-0aad-421f-9919-44f216d6100b",
+      "brandId": "24e8fc3f-2d99-467d-a1ac-61c58d71f745",
+      "sourceId": "38128",
+      "brandName": "Ivosenib",
+      "strength": "250 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "SAME_PACK_UNITS",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "1500.00",
+        "packPrice": "45000.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Ivosenib 250 mg ৳1,500.00 (1 x 30 pack: ৳45,000.00)."
+    },
+    {
+      "packId": "1dabdacf-f732-4877-941c-93d3ac5bd81e",
+      "brandId": "7896f147-d498-4de3-b877-feda1f9ac590",
+      "sourceId": "38157",
+      "brandName": "Darota",
+      "strength": "300 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "7 x 4",
+        "packUnits": 28,
+        "stripUnits": 4,
+        "unitPrice": "1400.00",
+        "packPrice": "39200.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Darota 300 mg ৳1,400.00 (7 x 4: ৳39,200.00)."
+    },
+    {
+      "packId": "7ee9a3d7-796f-4de4-9345-f8f351932f4e",
+      "brandId": "e1fba425-67bf-481d-bff3-30ecc539de96",
+      "sourceId": "38182",
+      "brandName": "Provon",
+      "strength": "10 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "C2C Pharma Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "2 x 10",
+        "packUnits": 20,
+        "stripUnits": 10,
+        "unitPrice": "5.00",
+        "packPrice": "100.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Provon 10 mg ৳5.00 (2 x 10: ৳100.00)."
+    },
+    {
+      "packId": "bbd298cc-111e-4810-b8ae-79c744228427",
+      "brandId": "fc6894db-aecd-469d-9d73-6fc9b4791325",
+      "sourceId": "38245",
+      "brandName": "Nytenso",
+      "strength": "5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "SAME_PACK_UNITS",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "3 x 10",
+        "packUnits": 30,
+        "stripUnits": 10,
+        "unitPrice": "12.00",
+        "packPrice": "360.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Nytenso 5 mg ৳12.00 (3 x 10: ৳360.00)."
+    },
+    {
+      "packId": "e0c34969-8e5b-45ad-8c66-821ffcab7f12",
+      "brandId": "58e90efb-9f57-433c-b501-a38191f2b69f",
+      "sourceId": "38270",
+      "brandName": "Lefenta",
+      "strength": "600 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Drug International Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "1 x 10",
+        "packUnits": 10,
+        "stripUnits": 10,
+        "unitPrice": "850.00",
+        "packPrice": "8500.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Lefenta 600 mg ৳850.00 (1 x 10: ৳8,500.00)."
+    },
+    {
+      "packId": "8c20044d-64b8-4ffc-a097-f82ef3023f25",
+      "brandId": "7a3df409-488d-40ff-81ff-7e647d04bf37",
+      "sourceId": "38339",
+      "brandName": "Makario",
+      "strength": "12.5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "2 x 4",
+        "packUnits": 8,
+        "stripUnits": 4,
+        "unitPrice": "80.00",
+        "packPrice": "640.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Makario 12.5 mg ৳80.00 (2 x 4: ৳640.00)."
+    },
+    {
+      "packId": "83340cd3-4888-4967-b47b-87cdd3b23efa",
+      "brandId": "76fd6b72-0bdd-460a-94ae-5cb0d88a4093",
+      "sourceId": "38340",
+      "brandName": "Makario",
+      "strength": "25 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "2 x 4",
+        "packUnits": 8,
+        "stripUnits": 4,
+        "unitPrice": "140.00",
+        "packPrice": "1120.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Makario 25 mg ৳140.00 (2 x 4: ৳1,120.00)."
+    },
+    {
+      "packId": "30db42db-4b5f-42c8-b8fa-f0f5d4690de1",
+      "brandId": "dd4e0989-8db7-4b1f-b0d7-f8600f88e298",
+      "sourceId": "38471",
+      "brandName": "Riboxen",
+      "strength": "200 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "3 x 7",
+        "packUnits": 21,
+        "stripUnits": 7,
+        "unitPrice": "700.00",
+        "packPrice": "14700.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Riboxen 200 mg ৳700.00 (3 x 7: ৳14,700.00)."
+    },
+    {
+      "packId": "1a940232-3b43-4808-a3d7-df96af00628e",
+      "brandId": "266aa5a6-5f6d-4186-9dd4-d068338f9672",
+      "sourceId": "38473",
+      "brandName": "Magolin",
+      "strength": "2.5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Drug International Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "2 x 14",
+        "packUnits": 28,
+        "stripUnits": 14,
+        "unitPrice": "12.00",
+        "packPrice": "336.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Magolin 2.5 mg ৳12.00 (2 x 14: ৳336.00)."
+    },
+    {
+      "packId": "565d3602-a29b-4de3-b5a8-a961fcc5fdaa",
+      "brandId": "b1f14050-9d86-4a18-bcd8-92a9ba7104c6",
+      "sourceId": "38523",
+      "brandName": "Herlyn",
+      "strength": "40 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "SAME_PACK_UNITS",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "120.00",
+        "packPrice": "3600.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Herlyn 40 mg ৳120.00 (1 x 30 pack: ৳3,600.00)."
+    },
+    {
+      "packId": "596d8e31-d099-42ef-9efc-3d11f890006b",
+      "brandId": "4c0871bd-f633-4500-952d-e78268aa6585",
+      "sourceId": "38891",
+      "brandName": "Migaba",
+      "strength": "2.5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "SAME_PACK_UNITS",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "2 x 15",
+        "packUnits": 30,
+        "stripUnits": 15,
+        "unitPrice": "11.00",
+        "packPrice": "330.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Migaba 2.5 mg ৳11.00 (2 x 15: ৳330.00)."
+    },
+    {
+      "packId": "1591b28c-e5b7-4c16-8192-f94db50ca0af",
+      "brandId": "cd1df073-3b4f-44e9-8420-cc0a41efa1f6",
+      "sourceId": "38892",
+      "brandName": "Migaba",
+      "strength": "5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "SAME_PACK_UNITS",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "2 x 15",
+        "packUnits": 30,
+        "stripUnits": 15,
+        "unitPrice": "18.00",
+        "packPrice": "540.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Migaba 5 mg ৳18.00 (2 x 15: ৳540.00)."
+    },
+    {
+      "packId": "4b1a87a4-7373-4cbc-b1de-5168d0a3f032",
+      "brandId": "da91f7fc-fd10-482a-8d34-5df419d7a27c",
+      "sourceId": "38931",
+      "brandName": "Combogic",
+      "strength": "200 mg+500 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 10,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "12 x 10",
+        "packUnits": 120,
+        "stripUnits": 10,
+        "unitPrice": "2.08",
+        "packPrice": "249.60",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Combogic 200+500 ৳2.08 (12 x 10: ৳249.60)."
+    },
+    {
+      "packId": "95b34b62-6d06-4410-9281-19fc1c301453",
+      "brandId": "6d53c7d0-d887-41f7-86b2-611bc631dde3",
+      "sourceId": "38941",
+      "brandName": "Metafen",
+      "strength": "200 mg+500 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "5 x 10",
+        "packUnits": 50,
+        "stripUnits": 10,
+        "unitPrice": "2.08",
+        "packPrice": "104.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Metafen 200+500 ৳2.08 (5 x 10: ৳104.00)."
+    },
+    {
+      "packId": "58764e21-25f6-447a-bdbe-ea85a3b7d638",
+      "brandId": "7499c9a0-5ee9-4c6c-ab46-72a43a98218b",
+      "sourceId": "38951",
+      "brandName": "Exipid",
+      "strength": "50 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Team Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "5 x 10",
+        "packUnits": 50,
+        "stripUnits": 10,
+        "unitPrice": "4.50",
+        "packPrice": "225.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Exipid 50 mg ৳4.50 (5 x 10: ৳225.00)."
+    },
+    {
+      "packId": "83a70fdc-c37a-4acb-b20d-7821930642cc",
+      "brandId": "4c44cd54-f8e9-4d21-83c8-f3c5c06fae8c",
+      "sourceId": "38955",
+      "brandName": "Pemafate",
+      "strength": "0.1 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "5 x 10",
+        "packUnits": 50,
+        "stripUnits": 10,
+        "unitPrice": "10.00",
+        "packPrice": "500.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Pemafate 0.1 mg ৳10.00 (5 x 10: ৳500.00)."
+    },
+    {
+      "packId": "fa9bcf30-abc6-4642-a06b-5053f5abae28",
+      "brandId": "2ca7000a-951e-4bd5-bbe0-920d88cc703d",
+      "sourceId": "39077",
+      "brandName": "Resiliva",
+      "strength": "60 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "SAME_PACK_UNITS",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "3 x 10",
+        "packUnits": 30,
+        "stripUnits": 10,
+        "unitPrice": "35.00",
+        "packPrice": "1050.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Resiliva 60 mg ৳35.00 (3 x 10: ৳1,050.00)."
+    },
+    {
+      "packId": "afd77d66-5e58-4ea6-80ad-e70fa71089dc",
+      "brandId": "7c4cc6e3-c130-4e14-ac20-aebb113dbf2a",
+      "sourceId": "39079",
+      "brandName": "Resiliva",
+      "strength": "100 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "SAME_PACK_UNITS",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "3 x 10",
+        "packUnits": 30,
+        "stripUnits": 10,
+        "unitPrice": "55.00",
+        "packPrice": "1650.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Resiliva 100 mg ৳55.00 (3 x 10: ৳1,650.00)."
+    },
+    {
+      "packId": "4d378936-0647-46c0-83f4-e4afc99d5bb9",
+      "brandId": "6710d98d-bc23-4802-8ee9-e5cfd396c565",
+      "sourceId": "39085",
+      "brandName": "Renash",
+      "strength": "100 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Popular Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "1 x 10",
+        "packUnits": 10,
+        "stripUnits": 10,
+        "unitPrice": "55.00",
+        "packPrice": "550.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Renash 100 mg ৳55.00 (1 x 10: ৳550.00)."
+    },
+    {
+      "packId": "09f62565-e345-4640-b1b4-7016e9defa60",
+      "brandId": "5f2f5e4f-038c-48e1-b65b-6ebdcdad3756",
+      "sourceId": "39088",
+      "brandName": "Rezim",
+      "strength": "60 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "1 x 10",
+        "packUnits": 10,
+        "stripUnits": 10,
+        "unitPrice": "35.00",
+        "packPrice": "350.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Rezim 60 mg ৳35.00 (1 x 10: ৳350.00)."
+    },
+    {
+      "packId": "9fb910c8-87db-4261-8bf0-bf7eefa1837e",
+      "brandId": "e32ae856-dbba-4cce-9c1e-6145c9557e29",
+      "sourceId": "39126",
+      "brandName": "Fibrocon",
+      "strength": "80 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "SAME_PACK_UNITS",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "3 x 10",
+        "packUnits": 30,
+        "stripUnits": 10,
+        "unitPrice": "45.00",
+        "packPrice": "1350.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Fibrocon 80 mg ৳45.00 (3 x 10: ৳1,350.00)."
+    },
+    {
+      "packId": "e283fb06-75a8-42d6-838d-842ceec1448d",
+      "brandId": "8fc5c60a-9f05-4b5f-a452-8969f8aa28b4",
+      "sourceId": "39156",
+      "brandName": "Methiroid",
+      "strength": "10 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "3 x 20",
+        "packUnits": 60,
+        "stripUnits": 20,
+        "unitPrice": "10.00",
+        "packPrice": "600.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Methiroid 10 mg ৳10.00 (3 x 20: ৳600.00)."
+    },
+    {
+      "packId": "e918c131-7239-46c8-8c80-4314ba23d13b",
+      "brandId": "833ae2a4-10f8-46cf-b3a1-841dbedec022",
+      "sourceId": "39157",
+      "brandName": "Methiroid",
+      "strength": "5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "The White Horse Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "5 x 20",
+        "packUnits": 100,
+        "stripUnits": 20,
+        "unitPrice": "6.00",
+        "packPrice": "600.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Methiroid 5 mg ৳6.00 (5 x 20: ৳600.00)."
+    },
+    {
+      "packId": "ed01be23-f72e-42ca-90e6-e93dd942e08d",
+      "brandId": "87ccdbdb-70ff-4761-9b90-4af129800e4c",
+      "sourceId": "39172",
+      "brandName": "Orfanem",
+      "strength": "150 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "2 x 7",
+        "packUnits": 14,
+        "stripUnits": 7,
+        "unitPrice": "75.00",
+        "packPrice": "1050.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Orfanem 150 mg ৳75.00 (2 x 7: ৳1,050.00)."
+    },
+    {
+      "packId": "425c5922-1aeb-42e5-80fc-7cec964285b3",
+      "brandId": "93f3c66a-82c8-4122-8030-ed760f5e9c16",
+      "sourceId": "39197",
+      "brandName": "Prozenza",
+      "strength": "40 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "28's pack",
+        "packUnits": 28,
+        "stripUnits": null,
+        "unitPrice": "600.00",
+        "packPrice": "16800.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Prozenza 40 mg ৳600.00 (28s pack: ৳16,800.00)."
+    },
+    {
+      "packId": "fc312401-c550-4235-bcde-8ba4baf0079c",
+      "brandId": "fe1411b4-820e-4f61-8da6-97cba0c70ede",
+      "sourceId": "39245",
+      "brandName": "Paltab",
+      "strength": "125 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Renata PLC",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "1 x 7",
+        "packUnits": 7,
+        "stripUnits": 7,
+        "unitPrice": "400.00",
+        "packPrice": "2800.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Paltab 125 mg ৳400.00 (1 x 7: ৳2,800.00)."
+    },
+    {
+      "packId": "24f78564-bde8-4ad8-bec4-180999d346c6",
+      "brandId": "e4d21c08-40ca-4164-bb65-585a4b894c3d",
+      "sourceId": "39247",
+      "brandName": "Cabotab",
+      "strength": "20 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Renata PLC",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "2 x 5",
+        "packUnits": 10,
+        "stripUnits": 5,
+        "unitPrice": "450.00",
+        "packPrice": "4500.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Cabotab 20 mg ৳450.00 (2 x 5: ৳4,500.00)."
+    },
+    {
+      "packId": "1272a4a9-dc6b-4263-93e6-80bac012042e",
+      "brandId": "c095ad07-05a0-44b8-87af-49a2a6b373cd",
+      "sourceId": "39248",
+      "brandName": "Cabotab",
+      "strength": "40 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Renata PLC",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "2 x 5",
+        "packUnits": 10,
+        "stripUnits": 5,
+        "unitPrice": "900.00",
+        "packPrice": "9000.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Cabotab 40 mg ৳900.00 (2 x 5: ৳9,000.00)."
+    },
+    {
+      "packId": "cad0a4e3-a144-43b7-805b-781e4cec8876",
+      "brandId": "0dc7afbb-fc40-4cd3-97af-74f5d9e4609a",
+      "sourceId": "39249",
+      "brandName": "Cabotab",
+      "strength": "60 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Renata PLC",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "2 x 5",
+        "packUnits": 10,
+        "stripUnits": 5,
+        "unitPrice": "1400.00",
+        "packPrice": "14000.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Cabotab 60 mg ৳1,400.00 (2 x 5: ৳14,000.00)."
+    },
+    {
+      "packId": "905be693-4acd-4192-ae1d-a12e2c6fea1d",
+      "brandId": "c84b0fd5-bb00-4d39-8a5c-b88d4f9ad32e",
+      "sourceId": "39272",
+      "brandName": "Knito",
+      "strength": "50 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "6 x 10",
+        "packUnits": 60,
+        "stripUnits": 10,
+        "unitPrice": "5.00",
+        "packPrice": "300.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Knito 50 mg ৳5.00 (6 x 10: ৳300.00)."
+    },
+    {
+      "packId": "8b73723d-fd11-4a65-95d2-a7268f229ac5",
+      "brandId": "9154bfb7-66aa-48fd-91c5-8e8a5ea84283",
+      "sourceId": "39273",
+      "brandName": "Itogest",
+      "strength": "50 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "One Pharma Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "6 x 10",
+        "packUnits": 60,
+        "stripUnits": 10,
+        "unitPrice": "5.00",
+        "packPrice": "300.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Itogest 50 mg ৳5.00 (6 x 10: ৳300.00)."
+    },
+    {
+      "packId": "16df3858-d563-4bf0-816c-036ad3df7c68",
+      "brandId": "5f6a4cb9-d331-45e1-8f41-31ce9556d638",
+      "sourceId": "39293",
+      "brandName": "Avanix",
+      "strength": "20 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "1 x 5",
+        "packUnits": 5,
+        "stripUnits": 5,
+        "unitPrice": "260.00",
+        "packPrice": "1300.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Avanix 20 mg ৳260.00 (1 x 5: ৳1,300.00)."
+    },
+    {
+      "packId": "565234b2-d888-45d2-81e0-7e17fb45babb",
+      "brandId": "64165ca2-cce5-4049-9b95-d00d604ef8e2",
+      "sourceId": "39294",
+      "brandName": "Elacentra",
+      "strength": "345 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "4 x 7",
+        "packUnits": 28,
+        "stripUnits": 7,
+        "unitPrice": "1600.00",
+        "packPrice": "44800.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Elacentra 345 mg (sid=39294) ৳1,600.00 (4 x 7: ৳44,800.00)."
+    },
+    {
+      "packId": "752a3900-4dfd-456c-8c02-672150e1d7ce",
+      "brandId": "7eadfec8-3949-467f-8d65-502a59e25fa0",
+      "sourceId": "39295",
+      "brandName": "Elacentra",
+      "strength": "345 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "4 x 7",
+        "packUnits": 28,
+        "stripUnits": 7,
+        "unitPrice": "1600.00",
+        "packPrice": "44800.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Elacentra 345 mg (sid=39295) ৳1,600.00 (4 x 7: ৳44,800.00)."
+    },
+    {
+      "packId": "2762114f-db19-4dd5-9c46-3b20377bac7a",
+      "brandId": "e663a598-91f7-482e-a2d1-b5d270f57312",
+      "sourceId": "39296",
+      "brandName": "Elacentra",
+      "strength": "345 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "4 x 7",
+        "packUnits": 28,
+        "stripUnits": 7,
+        "unitPrice": "1600.00",
+        "packPrice": "44800.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Elacentra 345 mg (sid=39296) ৳1,600.00 (4 x 7: ৳44,800.00)."
+    },
+    {
+      "packId": "6a728f8a-173c-43d5-a771-873f9f7d195b",
+      "brandId": "ac6d65a0-9f55-40be-bc60-f6b9720e33e0",
+      "sourceId": "39337",
+      "brandName": "Ipride",
+      "strength": "50 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Salton Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "6 x 10",
+        "packUnits": 60,
+        "stripUnits": 10,
+        "unitPrice": "5.00",
+        "packPrice": "300.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Ipride 50 mg ৳5.00 (6 x 10: ৳300.00)."
+    },
+    {
+      "packId": "81ddc014-4c50-4a20-b194-d996b0a66812",
+      "brandId": "b952ca96-af83-4e9d-b4e9-8a42ae04db58",
+      "sourceId": "39370",
+      "brandName": "Glucofast",
+      "strength": "4 gm",
+      "dosageForm": "Tablet",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "1 x 10",
+        "packUnits": 10,
+        "stripUnits": 10,
+        "unitPrice": "7.00",
+        "packPrice": "70.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Glucofast 4 gm Chewable ৳7.00 (1 x 10: ৳70.00)."
+    },
+    {
+      "packId": "eb896d51-5296-46ec-8b31-75eff8c352b9",
+      "brandId": "d286a61e-4c5f-46fe-91b2-c32ee8bd2b7b",
+      "sourceId": "39435",
+      "brandName": "Gefomag",
+      "strength": "97 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "SAME_PACK_UNITS",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "3 x 10",
+        "packUnits": 30,
+        "stripUnits": 10,
+        "unitPrice": "10.00",
+        "packPrice": "300.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Gefomag 97 mg Chewable ৳10.00 (3 x 10: ৳300.00)."
+    },
+    {
+      "packId": "dca329e9-5d50-49fb-b37f-39d7742d8b89",
+      "brandId": "32dd771c-fa66-4e0f-9561-4f02f7b0e266",
+      "sourceId": "39438",
+      "brandName": "Lopera-S",
+      "strength": "2 mg+125 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "SAME_PACK_UNITS",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "3 x 10",
+        "packUnits": 30,
+        "stripUnits": 10,
+        "unitPrice": "5.00",
+        "packPrice": "150.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Lopera-S 2+125 ৳5.00 (3 x 10: ৳150.00)."
+    },
+    {
+      "packId": "b8191da4-86ad-46b0-b0b6-fd2913837120",
+      "brandId": "fa59b8e2-45a6-4139-a1ed-1b97d78df285",
+      "sourceId": "39441",
+      "brandName": "Danemia",
+      "strength": "4 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "1 x 10",
+        "packUnits": 10,
+        "stripUnits": 10,
+        "unitPrice": "90.00",
+        "packPrice": "900.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Danemia 4 mg ৳90.00 (1 x 10: ৳900.00)."
+    },
+    {
+      "packId": "6b0f6d1b-4bd4-42e3-aea3-8171e5018085",
+      "brandId": "cb26261a-c3d6-4bf2-b77d-6099a33795d5",
+      "sourceId": "39442",
+      "brandName": "Danemia",
+      "strength": "6 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "1 x 10",
+        "packUnits": 10,
+        "stripUnits": 10,
+        "unitPrice": "150.00",
+        "packPrice": "1500.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Danemia 6 mg ৳150.00 (1 x 10: ৳1,500.00)."
+    },
+    {
+      "packId": "203bdf91-9d14-4a64-9bcb-029673dc8902",
+      "brandId": "5c1fb86f-f8b4-4034-b17c-aef96267e2d2",
+      "sourceId": "39454",
+      "brandName": "Duport",
+      "strength": "200 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "ACI Limited",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "1 x 10",
+        "packUnits": 10,
+        "stripUnits": 10,
+        "unitPrice": "150.00",
+        "packPrice": "1500.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Duport 200 mg ৳150.00 (1 x 10: ৳1,500.00)."
+    },
+    {
+      "packId": "6ec85e9e-56f9-4e4f-a811-b114192d9e46",
+      "brandId": "728a10b3-b12d-4b1d-998e-a5d826940e66",
+      "sourceId": "39488",
+      "brandName": "Livora",
+      "strength": "80 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "2 x 10",
+        "packUnits": 20,
+        "stripUnits": 10,
+        "unitPrice": "45.00",
+        "packPrice": "900.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Livora 80 mg ৳45.00 (2 x 10: ৳900.00)."
+    },
+    {
+      "packId": "53905d07-32e1-4f1d-899c-62e1a9c72c2a",
+      "brandId": "87c643e0-ae51-4999-8a89-192d55ccbd6f",
+      "sourceId": "39489",
+      "brandName": "Livora",
+      "strength": "100 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "2 x 10",
+        "packUnits": 20,
+        "stripUnits": 10,
+        "unitPrice": "55.00",
+        "packPrice": "1100.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Livora 100 mg ৳55.00 (2 x 10: ৳1,100.00)."
+    },
+    {
+      "packId": "5e754cac-41a1-4d4f-9f85-5f5eb8b11cf2",
+      "brandId": "13000862-3216-42a0-a25e-46b15dd5c63e",
+      "sourceId": "39506",
+      "brandName": "Ricofix",
+      "strength": "45 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "1 x 14",
+        "packUnits": 14,
+        "stripUnits": 14,
+        "unitPrice": "35.00",
+        "packPrice": "490.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Ricofix 45 mg ৳35.00 (1 x 14: ৳490.00)."
+    },
+    {
+      "packId": "a5f94115-00c6-468d-a02a-4b60ef9aedf3",
+      "brandId": "dbaea99b-266b-4cea-9a82-8dda5fe2fd84",
+      "sourceId": "39556",
+      "brandName": "Cofixa",
+      "strength": "45 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Salton Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "2 x 10",
+        "packUnits": 20,
+        "stripUnits": 10,
+        "unitPrice": "35.00",
+        "packPrice": "700.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Cofixa 45 mg ৳35.00 (2 x 10: ৳700.00)."
+    },
+    {
+      "packId": "d3162b15-0f8d-4b63-ae3c-3736e9fe6427",
+      "brandId": "13067747-702d-4a7d-8273-cfed3ae4bb81",
+      "sourceId": "39602",
+      "brandName": "Clexta",
+      "strength": "100 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "SAME_PACK_UNITS",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "590.00",
+        "packPrice": "17700.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Clexta 100 mg ৳590.00 (1 x 30 HDPE container: ৳17,700.00)."
+    },
+    {
+      "packId": "8eadf29b-2c3a-42a2-bfaa-93443f0d1297",
+      "brandId": "980fc2d7-b67a-4d17-97be-c69a02f640c3",
+      "sourceId": "39603",
+      "brandName": "Giltela",
+      "strength": "40 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "21's pack",
+        "packUnits": 21,
+        "stripUnits": null,
+        "unitPrice": "500.00",
+        "packPrice": "10500.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Giltela 40 mg ৳500.00 (1 x 21 pack: ৳10,500.00)."
+    },
+    {
+      "packId": "f264fcf3-8d30-41a0-b600-f8f83646668b",
+      "brandId": "4a06711c-c656-47f4-9701-8262e8c68a5a",
+      "sourceId": "37830",
+      "brandName": "Marcus",
+      "strength": "5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "subKind": "U8_PP280_WAVE3",
+      "migrationKind": "PACK_MIGRATION",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 10,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "2 x 10",
+        "packUnits": 20,
+        "stripUnits": 10,
+        "unitPrice": "20.00",
+        "packPrice": "400.00",
+        "warnings": []
+      },
+      "clearsWarning": true,
+      "evidence": "MedEx search: Marcus 5 mg ৳20.00 (2 x 10: ৳400.00)."
+    }
+  ]
+}

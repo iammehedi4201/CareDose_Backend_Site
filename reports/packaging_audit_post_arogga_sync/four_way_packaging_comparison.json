@@ -1,0 +1,80 @@
+{
+  "generatedAt": "2026-11-24T19:44:06.391Z",
+  "stages": {
+    "baseline": {
+      "A_validConversionPrimaryBrands": 24313,
+      "A_validConversionTotalPacks": 26436,
+      "B_and_D_missingPackageQuantitiesCount": 1750,
+      "C_missingStockMeasurementUnitsCount": 71,
+      "E_inconsistentMultiPackNestingBrandsCount": 57,
+      "F_inconsistentAcrossEquivalentBrandsGroupsCount": 362,
+      "G_invalidOrConflictingPackRecordsCount": 1464,
+      "H_frontendConversionMismatchPacksCount": 555,
+      "H_frontendConversionMismatchBrandsCount": 539,
+      "I_completelyMissingBrandOrPackCount": 37,
+      "J_unverifiedPacksCount": 27468,
+      "J_needsReviewPacksCount": 0,
+      "J_packsWithPriceOrParseWarningsCount": 1101
+    },
+    "postMobileFix": {
+      "A_validConversionPrimaryBrands": 24792,
+      "A_validConversionTotalPacks": 26945,
+      "B_and_D_missingPackageQuantitiesCount": 1743,
+      "C_missingStockMeasurementUnitsCount": 48,
+      "E_inconsistentMultiPackNestingBrandsCount": 57,
+      "F_inconsistentAcrossEquivalentBrandsGroupsCount": 362,
+      "G_invalidOrConflictingPackRecordsCount": 1464,
+      "H_frontendConversionMismatchPacksCount": 50,
+      "H_frontendConversionMismatchBrandsCount": 49,
+      "I_completelyMissingBrandOrPackCount": 37,
+      "J_unverifiedPacksCount": 27468,
+      "J_needsReviewPacksCount": 0,
+      "J_packsWithPriceOrParseWarningsCount": 1101
+    },
+    "postHigh40Cleanup": {
+      "A_validConversionPrimaryBrands": 24792,
+      "A_validConversionTotalPacks": 26945,
+      "B_and_D_missingPackageQuantitiesCount": 1743,
+      "C_missingStockMeasurementUnitsCount": 48,
+      "E_inconsistentMultiPackNestingBrandsCount": 57,
+      "F_inconsistentAcrossEquivalentBrandsGroupsCount": 349,
+      "G_invalidOrConflictingPackRecordsCount": 1424,
+      "H_frontendConversionMismatchPacksCount": 50,
+      "H_frontendConversionMismatchBrandsCount": 49,
+      "I_completelyMissingBrandOrPackCount": 37,
+      "J_unverifiedPacksCount": 27468,
+      "J_needsReviewPacksCount": 0,
+      "J_packsWithPriceOrParseWarningsCount": 1101
+    },
+    "postAroggaQaSync": {
+      "A_validConversionPrimaryBrands": 24794,
+      "A_validConversionTotalPacks": 26952,
+      "B_and_D_missingPackageQuantitiesCount": 1736,
+      "C_missingStockMeasurementUnitsCount": 48,
+      "E_inconsistentMultiPackNestingBrandsCount": 61,
+      "F_inconsistentAcrossEquivalentBrandsGroupsCount": 356,
+      "G_invalidOrConflictingPackRecordsCount": 1076,
+      "H_frontendConversionMismatchPacksCount": 50,
+      "H_frontendConversionMismatchBrandsCount": 49,
+      "I_completelyMissingBrandOrPackCount": 37,
+      "J_unverifiedPacksCount": 27468,
+      "J_needsReviewPacksCount": 0,
+      "J_packsWithPriceOrParseWarningsCount": 733
+    }
+  },
+  "packsWithNonNullStripUnits": {
+    "postHigh40Cleanup": 7175,
+    "postAroggaQaSync": 7462,
+    "netAddedStripUnits": 287
+  },
+  "categoryGSubtypesComparison": {
+    "postHigh40Cleanup": {
+      "unit_vs_pack_price_mismatch": 1055,
+      "non_divisible_strip": 369
+    },
+    "postAroggaQaSync": {
+      "unit_vs_pack_price_mismatch": 708,
+      "non_divisible_strip": 368
+    }
+  }
+}

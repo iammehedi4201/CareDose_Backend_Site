@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-11-24T07:34:16.919Z",
+  "mode": "SYNCHRONIZED",
+  "databaseSnapshot": {
+    "counts": {
+      "generics": 1793,
+      "brands": 23881,
+      "packs": 25992,
+      "alternativeGroups": 2241,
+      "alternativeGroupBrands": 21696,
+      "images": 52,
+      "patientMedications": 0
+    },
+    "dataQuality": {
+      "brandsMissingGeneric": 0,
+      "brandsMissingStrength": 831,
+      "brandsMissingForm": 0,
+      "brandsMissingManufacturer": 0,
+      "internalBrandDuplicateGroupsSameManufacturer": 16,
+      "internalBrandDifferentManufacturerGroups": 46,
+      "internalGenericDuplicateGroups": 77
+    }
+  },
+  "kaggleMedicineCsv": {
+    "totalExamined": 21714,
+    "exactSourceIdMatches": 19653,
+    "sourceIdCollisions": 158,
+    "exactAttributeMatches": 107,
+    "normalizedAttributeMatches": 5,
+    "dosageFormEquivalentReview": 10,
+    "legitimateFormVariationsMissingFromDb": 39,
+    "fuzzyPotentialDuplicates": 75,
+    "genuinelyMissingAllopathic": 1409,
+    "genuinelyMissingHerbal": 296,
+    "missingGenericOnIncomingCsv": 1
+  },
+  "dimsJsonSummary": {
+    "totalExamined": 17589,
+    "exactFormattingMatches": 6185,
+    "potentialSpellingVariations": 191,
+    "differentStrengthOrForm": 3989,
+    "genuinelyMissingCount": 7686,
+    "ambiguousManualReview": 3718
+  }
+}

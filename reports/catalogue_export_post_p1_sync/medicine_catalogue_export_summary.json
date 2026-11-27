@@ -1,0 +1,11 @@
+{
+  "exportedAt": "2026-11-25T07:21:06.533Z",
+  "readOnlyTransaction": true,
+  "isolationLevel": "RepeatableRead",
+  "counts": {
+    "generics": 1846,
+    "brands": 25208,
+    "packs": 27468
+  },
+  "outDir": "F:\\My Projects\\CareDose\\backend\\reports\\catalogue_export_post_p1_sync"
+}

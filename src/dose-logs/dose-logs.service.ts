@@ -752,6 +752,36 @@ export class DoseLogsService {
   ): Promise<SerializedRecordDoseResult> {
     const ensured = await this.ensureDoseEventRow(input);
 
+    if (ensured.status === DoseEventStatus.TAKEN) {
+      if (input.action === 'SKIPPED') {
+        throw new ConflictException(
+          'Dose is already recorded as taken and cannot be skipped.',
+        );
+      }
+
+      if (typeof this.prisma.patientMedication?.findUnique === 'function') {
+        const med = await this.prisma.patientMedication.findUnique({
+          where: { id: input.patientMedicationId },
+          select: { id: true, stockRemaining: true, stockUnit: true },
+        });
+        if (med) {
+          return {
+            doseEventId: ensured.id,
+            scheduleId: input.scheduleId,
+            patientMedicationId: input.patientMedicationId,
+            scheduledFor: input.scheduledFor.toISOString(),
+            status: DoseEventStatus.TAKEN,
+            recordedAt: (ensured.recordedAt ?? now).toISOString(),
+            stockDeducted: false,
+            deductedQuantity: '0.00',
+            newStockRemaining: formatDecimalFixed(med.stockRemaining) ?? '0.00',
+            stockUnit: med.stockUnit,
+            idempotentReplay: true,
+          };
+        }
+      }
+    }
+
     return this.prisma.$transaction(
       async (tx) => {
         if (input.action === 'SKIPPED') {
@@ -821,22 +851,11 @@ export class DoseLogsService {
           },
         });
 
-        const [schedule, med, existingTx] = await Promise.all([
-          tx.medicationSchedule.findUniqueOrThrow({
-            where: { id: input.scheduleId },
-            select: { id: true, doseAmount: true, doseUnit: true },
-          }),
-          tx.patientMedication.findUniqueOrThrow({
+        if (claimed.count === 0) {
+          const med = await tx.patientMedication.findUniqueOrThrow({
             where: { id: input.patientMedicationId },
             select: { id: true, stockRemaining: true, stockUnit: true },
-          }),
-          tx.inventoryTransaction.findUnique({
-            where: { doseEventId: ensured.id },
-            select: { id: true },
-          }),
-        ]);
-
-        if (claimed.count === 0) {
+          });
           return {
             doseEventId: ensured.id,
             scheduleId: input.scheduleId,
@@ -851,6 +870,21 @@ export class DoseLogsService {
             idempotentReplay: true,
           };
         }
+
+        const [schedule, med, existingTx] = await Promise.all([
+          tx.medicationSchedule.findUniqueOrThrow({
+            where: { id: input.scheduleId },
+            select: { id: true, doseAmount: true, doseUnit: true },
+          }),
+          tx.patientMedication.findUniqueOrThrow({
+            where: { id: input.patientMedicationId },
+            select: { id: true, stockRemaining: true, stockUnit: true },
+          }),
+          tx.inventoryTransaction.findUnique({
+            where: { doseEventId: ensured.id },
+            select: { id: true },
+          }),
+        ]);
 
         let stockDeducted = false;
         let deductedDec = new Prisma.Decimal('0').toDecimalPlaces(2);
@@ -905,7 +939,7 @@ export class DoseLogsService {
           idempotentReplay: false,
         };
       },
-      { maxWait: 10000, timeout: 15000 },
+      { maxWait: 20000, timeout: 45000 },
     );
   }
 

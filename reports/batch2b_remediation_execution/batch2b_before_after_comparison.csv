@@ -1,0 +1,36 @@
+subBatch,operation,packId,brandId,brandName,strength,packQuantity,beforeValue,afterValue
+A_PRICE,UPDATE_PRICE,1d05c010-8033-4f39-a85b-c1fbcda41328,97cd5ede-760f-4f2b-b7f1-b7bb38505bbb,Trastunix,440 mg/20 ml,440 mg vial,unit=;pack=80,unit=;pack=58005.00
+A_PRICE,UPDATE_PRICE,235c06ac-1b2c-49aa-98b1-9bd53b27b36b,c3fe679d-5644-44e8-95c2-9111e7ca255b,Solu-Medrol,1 gm/vial,1 gm vial,unit=;pack=2,unit=;pack=3028.00
+A_PRICE,UPDATE_PRICE,3f8c8c05-5006-4b78-9fdb-d93df9ca99ef,f9316166-1e53-4d09-b62c-092e2c047cf0,Zoledron,5 mg/100 ml,100 ml bottle,unit=;pack=5,unit=;pack=5950.00
+A_PRICE,UPDATE_PRICE,57f1158b-1641-4ada-8882-0307fbfdfb7e,beb50185-3b71-4e5b-bbc1-ce27537940f2,Tocoban,37.5 mg/5 ml,5 ml vial,unit=;pack=2,unit=;pack=2500.00
+A_PRICE,UPDATE_PRICE,5d0ea507-c469-40a4-ba6d-9c2b231421ba,7699617c-ce3e-48cd-a6aa-46ea09f202a5,Zavicefta,(2 gm+0.5 gm)/vial,2.5 gm vial,unit=;pack=6,unit=;pack=9285.00
+A_PRICE,UPDATE_PRICE,75285c7a-6a23-4499-995e-3e443108da58,7699617c-ce3e-48cd-a6aa-46ea09f202a5,Zavicefta,(2 gm+0.5 gm)/vial,10's pack,unit=;pack=64,unit=;pack=92850.00
+A_PRICE,UPDATE_PRICE,79d09fdd-067f-4bbf-9597-0a92625574f1,612009e8-57c5-45df-ad80-9f4c41912746,Diapamiro,370 mg/ml,100 ml vial,unit=;pack=2,unit=;pack=2410.00
+A_PRICE,UPDATE_PRICE,7a3c76f4-da30-4919-9a14-79122dc972b4,f335ea3b-d9d2-4763-bc60-f1737b0990cd,Tolosa,80 mg/4 ml,4 ml vial,unit=;pack=8,unit=;pack=8500.00
+A_PRICE,UPDATE_PRICE,882b6259-a0a4-44a5-ad62-664b6bc6034e,5ffb4179-4455-4f90-8b8f-c37b5dd0816d,Sandostatin,50 mcg/ml,5's pack,unit=;pack=7,unit=;pack=1810.00
+A_PRICE,UPDATE_PRICE,8fb9f807-eae5-4515-afe0-7b2373d2b130,868b999c-ad78-4b50-9046-48683496802a,Zerlinda,4 mg/5 ml,4 mg vial,unit=;pack=7,unit=;pack=7800.00
+A_PRICE,UPDATE_PRICE,a8d1816e-e81c-45fa-9634-2f603c5757d4,2b033aa2-a5ef-4c8a-b0be-2d6c15bcbe70,Simulect,20 mg/vial,20 mg vial,unit=;pack=103,unit=;pack=143195.00
+A_PRICE,UPDATE_PRICE,ac2fd04a-f109-486f-9bc2-cb314a05d226,4b21ed78-3b4c-4482-b705-2e1f0562583b,Tasigna,200 mg,,unit=3;pack=,unit=475.00;pack=
+A_PRICE,UPDATE_PRICE,ac84743b-ac1c-4821-a276-7d1d62c75b72,f08f6de6-2af3-4a01-a08c-7413ee7c1591,Amidol,370 mg/ml,100 ml vial,unit=;pack=2,unit=;pack=2636.00
+A_PRICE,UPDATE_PRICE,c4d0923b-d557-4108-a69c-772c84dfd4bf,42afd5ad-ff92-43b6-8934-67cdbd700040,Zoltero,5 mg/100 ml,100 ml bottle,unit=;pack=7,unit=;pack=7000.00
+A_PRICE,UPDATE_PRICE,d1499929-fedf-4f25-bc31-0f300c5c8236,e5037963-638b-4ae0-81ba-b3ef0004428f,Xoleron,4 mg/5 ml,4 mg vial,unit=;pack=5,unit=;pack=6000.00
+A_PRICE,UPDATE_PRICE,fa72a730-3016-406a-8ee2-50e2df6ad9a7,29ca448b-fc21-4e1b-9d33-e8e7d588fc21,Zometa,4 mg/5 ml,4 mg vial,unit=;pack=30,unit=;pack=10182.92
+B_WARNING,CLEAR_STALE_WARNING,fb327448-4c41-48c1-ad9e-7107bdc70ac4,0e87f5a5-5929-4082-8d5f-a1689583b2dd,Montinex Fast,10 mg,30's pack,"[""pack_price_inconsistent_with_unit_price""]",[]
+B_WARNING,CLEAR_STALE_WARNING,f8eea2b6-fd7a-4f7e-a824-6c8863517fd6,76576ea9-5874-49d0-b84e-233354c0559a,Fenadin ODT,30 mg,30's pack,"[""pack_price_inconsistent_with_unit_price""]",[]
+B_WARNING,CLEAR_STALE_WARNING,bf305547-224d-43e0-afa3-0756f3b23b74,53a69440-5e6f-45f6-9268-9c39ac0e824f,Panzest 25000,300 mg,30's pack,"[""pack_price_inconsistent_with_unit_price""]",[]
+C1_STRIP,UPDATE_STRIP_UNITS,0493326d-ce7d-4dbe-8791-25733fd79657,88efc22c-56ff-4da2-9854-b6cfd701c406,Linamide,25 mg,18's pack,7,6
+C1_STRIP,UPDATE_STRIP_UNITS,46e2b822-87fb-4bdc-88c5-df93de4a11bd,7573a73b-6701-4ef2-b791-62202f039f8c,Albamax DS,400 mg,25 x 1,1,null
+C1_STRIP,UPDATE_STRIP_UNITS,496da6df-df74-461f-afca-949fba59393e,e8c410a5-f506-4fd4-9303-d959b7e4d41e,Ben-A,400 mg,25 x 1,1,null
+C1_STRIP,UPDATE_STRIP_UNITS,8af3d2d8-dfa5-4ccb-894d-a4d061a74d85,1ed0ad28-16c0-4c0c-a09b-55aa44a48576,Alphin DS,400 mg,50 x 1,1,null
+C1_STRIP,UPDATE_STRIP_UNITS,991def77-b06d-443b-9628-538030ae8d01,fb6ab951-4e0f-4fc3-a36f-c14b4403e39c,Aldes DS,400 mg,25 x 1,1,null
+C1_STRIP,UPDATE_STRIP_UNITS,d2c195bf-7144-43d4-8dbf-9c37989c77df,b5818793-f1d7-4c29-a22c-606ff126e120,Aldaben-DS,400 mg,25 x 1,1,null
+C1_STRIP,UPDATE_STRIP_UNITS,d7b6f44a-4688-4aca-8d3a-0c46641de22f,cf070f08-5dda-4f4f-97d8-173f85617a4d,Elmin,400 mg,25 x 1,1,null
+C1_STRIP,UPDATE_STRIP_UNITS,e847ab4a-22c4-4a83-a179-f1c56abe43a1,339ddd22-e88a-4799-9584-92e0834f9623,Alba,400 mg,48 x 1,1,null
+C1_STRIP,UPDATE_STRIP_UNITS,d0ce48a4-9c0a-485e-94b3-6fbfeb419fcb,460324b6-f019-4455-a85a-c91953955a05,B-Vit 4,5 mg+2 mg+2 mg+20 mg,200 tablet strip,200,null
+D1_ZERO_PACK,INSERT_PACK,ee634826-4230-4cb1-8ba9-442a75a164a8,6d37b544-d880-4a77-9741-0512b488eb09,Sanityza Clear,0.5%+70%,250 ml bottle (with dispenser),NO_PACK,pu=;su=;u=;pp=150.00
+D1_ZERO_PACK,INSERT_PACK,eb7795f4-474d-4f6b-bd23-2fe5b09095c5,75f5e741-a439-487e-b4cc-0cf8416eadf2,Turmeric,1000 mg,3 x 10,NO_PACK,pu=30;su=10;u=20.00;pp=600.00
+D1_ZERO_PACK,INSERT_PACK,b4cf8048-3c8b-401b-bba4-55158b952560,9f02bd88-2f65-4ff0-aaf6-7a48ef3a9a3c,Urican,400 mg,8 x 4,NO_PACK,pu=32;su=4;u=18.00;pp=576.00
+D1_ZERO_PACK,INSERT_PACK,e85d3e0f-820b-4a9b-a7fc-12d6e9b609a3,f476f611-d8e2-4fb9-aa34-ebdc0633c3e9,Veneta,50 mg,3 x 10,NO_PACK,pu=30;su=10;u=210.00;pp=6300.00
+D1_ZERO_PACK,INSERT_PACK,5f8a943c-9607-46bf-b427-ed0a10cac829,df58acdc-48f3-4e2f-bd08-4e577542b1fd,Veneta,100 mg,3 x 10,NO_PACK,pu=30;su=10;u=410.00;pp=12300.00
+D1_ZERO_PACK,INSERT_PACK,f95be307-aee1-45c2-9bc8-025b8627629d,818fbf6a-9033-4df5-adce-37d837647b48,Viera,50 mg,1 x 10,NO_PACK,pu=10;su=10;u=50.00;pp=500.00
+D1_ZERO_PACK,INSERT_PACK,28ecd9bc-120b-4969-93f1-52683b667326,de4a18a0-374b-49a8-a3fd-ae6b2bd0a4ce,Viera,200 mg,1 x 8,NO_PACK,pu=8;su=8;u=130.00;pp=1040.00

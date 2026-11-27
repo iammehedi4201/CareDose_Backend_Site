@@ -5,6 +5,7 @@ export interface HealthCheckResult {
   status: 'ok' | 'degraded';
   service: 'caredose-backend';
   version: string;
+  uptimeSeconds: number;
   timestamp: string;
   database: {
     connected: boolean;
@@ -12,9 +13,27 @@ export interface HealthCheckResult {
   };
 }
 
+export interface LivenessCheckResult {
+  status: 'alive';
+  service: 'caredose-backend';
+  version: string;
+  uptimeSeconds: number;
+  timestamp: string;
+}
+
 @Injectable()
 export class HealthService {
   constructor(private readonly prisma: PrismaService) {}
+
+  getLivenessStatus(): LivenessCheckResult {
+    return {
+      status: 'alive',
+      service: 'caredose-backend',
+      version: '0.1.0',
+      uptimeSeconds: Math.round(process.uptime()),
+      timestamp: new Date().toISOString(),
+    };
+  }
 
   async getHealthStatus(): Promise<HealthCheckResult> {
     const dbStatus = await this.prisma.checkConnection();
@@ -22,6 +41,7 @@ export class HealthService {
       status: dbStatus.connected ? 'ok' : 'degraded',
       service: 'caredose-backend',
       version: '0.1.0',
+      uptimeSeconds: Math.round(process.uptime()),
       timestamp: new Date().toISOString(),
       database: dbStatus,
     };

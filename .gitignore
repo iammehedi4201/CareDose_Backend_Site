@@ -5,3 +5,8 @@ coverage/
 .env.local
 .env.*.local
 *.log
+*.sqlite
+*.dump
+reports/**/pre_*snapshot*.json
+reports/**/pre_import_backup_*.json
+reports/**/pre_execution_snapshot.json

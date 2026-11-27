@@ -1,0 +1,171 @@
+# CareDose — Staged Batch 11 Wave Review (Read-Only Staging)
+
+Generated: 2026-11-26T05:28:28.927Z | Status: STAGED (0 PostgreSQL mutations)
+
+## Batch 11 Summary
+- **Coverage:** All **156** remaining non-divisible strip packs post-Batch-10 (`151` divisible `N x M` updates + `4` verified container packs with stale `stripUnits` cleared to `null` + `1` optional obsolete second-pack delete).
+- **Sub-batch 11A — Verified Divisible `N x M` Strips (151):** Aligned via individual MedEx search across every brand (catching live MedEx MRPs/pack changes such as `Afix 200 Cap ৳45`, `Alagra 180 ৳10`, `Beklo 25 ৳20.14`, `Cefstar 500 1x8`, `Cosec 40 Cap ৳8.05`, `Dalatic 300 ৳15.05`, `Itracare SB 100 ৳20`, `Kilbac 250/500`, `Kilmax 125/250`, `Midita 50 1x4`, `Ngcef 200 ৳42`, `Piozena 15 5x10`, `Vigorex 25/50/100`, `Zoana 500 3x4`).
+- **Sub-batch 11B — Container Packs Clearing Stale `stripUnits` (4):** `Coralcin-DX 15's` & `30's`, `Greatnap 28's`, and `Thyrox 25 mcg 100's` are active container packs on MedEx; clears `stripUnits -> null` while keeping verified unit/pack prices.
+- **Optional Obsolete Second-Pack Delete (1):** `Deltasone 5 mg 250's` (`874311ac`, `0` `InventoryTransaction` refs; MedEx lists only `17 x 30`). Passing `--delete-obsolete-deltasone250` reduces remaining non-divisible strips to **0**!
+
+## Sub-batch 11A — Divisible N x M Strip Updates (151)
+- **Acepril 10 mg (Tablet)** [STRIP_DIVISIBLE]: `30's pack (pu=30, su=14, 7/210)` -> `2 x 14 (pu=28, su=14, 7.05/197.40)`
+- **Acepril 5 mg (Tablet)** [STRIP_DIVISIBLE]: `50's pack (pu=50, su=14, 4/200)` -> `4 x 14 (pu=56, su=14, 4.05/226.80)`
+- **Aegis 200 mg (Capsule)** [STRIP_DIVISIBLE]: `12's pack (pu=12, su=7, 35/420)` -> `2 x 7 (pu=14, su=7, 35.00/490.00)`
+- **Aegis 400 mg (Capsule)** [STRIP_DIVISIBLE]: `8's pack (pu=8, su=7, 50/400)` -> `2 x 7 (pu=14, su=7, 50.00/700.00)`
+- **Afix 200 mg (Capsule)** [STRIP_DIVISIBLE]: `12's pack (pu=12, su=7, 35/420)` -> `2 x 7 (pu=14, su=7, 45.00/630.00)`
+- **Afix 200 mg (Tablet)** [STRIP_DIVISIBLE]: `12's pack (pu=12, su=7, 35/420)` -> `2 x 7 (pu=14, su=7, 35.00/490.00)`
+- **Alagra 180 mg (Tablet)** [STRIP_DIVISIBLE]: `30's pack (pu=30, su=12, 8.53/255.9)` -> `3 x 10 (pu=30, su=10, 10.00/300.00)`
+- **Alzacare 28 mg+10 mg (Capsule (Extended Release))** [STRIP_DIVISIBLE]: `32's pack (pu=32, su=6, 35/1120)` -> `3 x 6 (pu=18, su=6, 35.00/630.00)`
+- **Anacare 1 mg (Tablet)** [STRIP_DIVISIBLE]: `28's pack (pu=28, su=10, 40/1120)` -> `2 x 14 (pu=28, su=14, 40.00/1120.00)`
+- **Anset 4 mg (Tablet)** [STRIP_DIVISIBLE]: `30's pack (pu=30, su=14, 4.54/136.2)` -> `3 x 14 (pu=42, su=14, 4.54/190.68)`
+- **Antogin ER 500 mg (Tablet (Extended Release))** [STRIP_DIVISIBLE]: `20's pack (pu=20, su=6, 16/320)` -> `5 x 6 (pu=30, su=6, 16.00/480.00)`
+- **Anulid 600 mg (Tablet)** [STRIP_DIVISIBLE]: `10's pack (pu=10, su=6, 85/850)` -> `2 x 6 (pu=12, su=6, 85.00/1020.00)`
+- **Arbitel 20 mg (Tablet)** [STRIP_DIVISIBLE]: `30's pack (pu=30, su=14, 7/210)` -> `4 x 14 (pu=56, su=14, 7.00/392.00)`
+- **Arbitel 40 mg (Tablet)** [STRIP_DIVISIBLE]: `30's pack (pu=30, su=14, 12.5/375)` -> `4 x 14 (pu=56, su=14, 12.50/700.00)`
+- **Avas EZ 10 mg+10 mg (Tablet)** [STRIP_DIVISIBLE]: `30's pack (pu=30, su=14, 14/420)` -> `3 x 14 (pu=42, su=14, 14.00/588.00)`
+- **Beklo 25 mg (Tablet)** [STRIP_DIVISIBLE]: `20's pack (pu=20, su=14, 20.08/401.6)` -> `2 x 14 (pu=28, su=14, 20.14/563.92)`
+- **Beltas 20 mg (Tablet)** [STRIP_DIVISIBLE]: `30's pack (pu=30, su=14, 15/450)` -> `3 x 14 (pu=42, su=14, 15.00/630.00)`
+- **Benadip 5 mg+10 mg (Capsule)** [STRIP_DIVISIBLE]: `30's pack (pu=30, su=4, 6.04/181.2)` -> `7 x 4 (pu=28, su=4, 6.00/168.00)`
+- **Bilaten 20 mg (Tablet)** [STRIP_DIVISIBLE]: `30's pack (pu=30, su=14, 15/450)` -> `3 x 14 (pu=42, su=14, 15.00/630.00)`
+- **Butaret SR 50 mg (Tablet (Sustained Release))** [STRIP_DIVISIBLE]: `30's pack (pu=30, su=21, 10/300)` -> `2 x 21 (pu=42, su=21, 10.03/421.26)`
+- **Calgi-D 500 mg+200 IU (Tablet)** [STRIP_DIVISIBLE]: `30's pack (pu=30, su=8, 10/300)` -> `4 x 8 (pu=32, su=8, 10.00/320.00)`
+- **Calnor 10 mg+20 mg (Tablet)** [STRIP_DIVISIBLE]: `30's pack (pu=30, su=14, 15/450)` -> `2 x 14 (pu=28, su=14, 15.00/420.00)`
+- **Calnor 10 mg+40 mg (Tablet)** [STRIP_DIVISIBLE]: `30's pack (pu=30, su=14, 22/660)` -> `2 x 14 (pu=28, su=14, 22.00/616.00)`
+- **Cardotel 5 mg+80 mg (Tablet)** [STRIP_DIVISIBLE]: `30's pack (pu=30, su=14, 20/600)` -> `2 x 14 (pu=28, su=14, 20.00/560.00)`
+- **Cefadyl 400 mg (Capsule)** [STRIP_DIVISIBLE]: `8's pack (pu=8, su=6, 48/384)` -> `2 x 6 (pu=12, su=6, 48.00/576.00)`
+- **Cefstar 500 mg (Tablet)** [STRIP_DIVISIBLE]: `8's pack (pu=8, su=7, 45.16/361.28)` -> `1 x 8 (pu=8, su=8, 45.16/361.28)`
+- **Cephran 500 mg (Capsule)** [STRIP_DIVISIBLE]: `30's pack (pu=30, su=7, 15.05/451.5)` -> `4 x 7 (pu=28, su=7, 15.05/421.40)`
+- **Ciko 500 mg (Tablet)** [STRIP_DIVISIBLE]: `10's pack (pu=10, su=6, 50/500)` -> `2 x 6 (pu=12, su=6, 50.00/600.00)`
+- **Citofer 210 mg (Tablet)** [STRIP_DIVISIBLE]: `20's pack (pu=20, su=8, 25/500)` -> `4 x 8 (pu=32, su=8, 25.00/800.00)`
+- **Clont 75 mg (Tablet)** [STRIP_DIVISIBLE]: `30's pack (pu=30, su=21, 12.03/360.9)` -> `2 x 21 (pu=42, su=21, 12.03/505.26)`
+- **Clontas 75 mg+75 mg (Tablet)** [STRIP_DIVISIBLE]: `30's pack (pu=30, su=21, 12/360)` -> `2 x 21 (pu=42, su=21, 12.50/525.00)`
+- **Clonzy 0.5 mg (Tablet)** [STRIP_DIVISIBLE]: `50's pack (pu=50, su=15, 6/300)` -> `3 x 15 (pu=45, su=15, 6.00/270.00)`
+- **Closid 0.5 mg (Tablet)** [STRIP_DIVISIBLE]: `50's pack (pu=50, su=15, 6/300)` -> `5 x 15 (pu=75, su=15, 6.00/450.00)`
+- **Closid 1 mg (Tablet)** [STRIP_DIVISIBLE]: `50's pack (pu=50, su=15, 8/400)` -> `4 x 15 (pu=60, su=15, 8.00/480.00)`
+- **Cogniz 500 mg (Tablet)** [STRIP_DIVISIBLE]: `12's pack (pu=12, su=10, 50/600)` -> `3 x 10 (pu=30, su=10, 50.00/1500.00)`
+- **Cortan 5 mg (Tablet)** [STRIP_DIVISIBLE]: `200's pack (pu=200, su=14, 1.72/344)` -> `15 x 14 (pu=210, su=14, 1.72/361.20)`
+- **Cosec 40 mg (Capsule (Enteric Coated))** [STRIP_DIVISIBLE]: `40's pack (pu=40, su=7, 8/320)` -> `6 x 7 (pu=42, su=7, 8.05/338.10)`
+- **Cosec-MUPS 20 mg (MUPS Tablet)** [STRIP_DIVISIBLE]: `28's pack (pu=28, su=10, 7/196)` -> `3 x 10 (pu=30, su=10, 7.00/210.00)`
+- **Dabiren 75 mg (Capsule)** [STRIP_DIVISIBLE]: `10's pack (pu=10, su=6, 75/750)` -> `2 x 6 (pu=12, su=6, 75.00/900.00)`
+- **Dalatic 300 mg (Capsule)** [STRIP_DIVISIBLE]: `30's pack (pu=30, su=7, 15/450)` -> `2 x 7 (pu=14, su=7, 15.05/210.70)`
+- **Delanix 60 mg (Capsule (Enteric Coated))** [STRIP_DIVISIBLE]: `28's pack (pu=28, su=10, 16/448)` -> `3 x 10 (pu=30, su=10, 16.00/480.00)`
+- **Delight 40000 IU (Capsule)** [STRIP_DIVISIBLE]: `10's pack (pu=10, su=6, 35/350)` -> `2 x 6 (pu=12, su=6, 35.00/420.00)`
+- **Deltasone 5 mg (Tablet)** [STRIP_DIVISIBLE]: `500's pack (pu=500, su=30, 1.72/860)` -> `17 x 30 (pu=510, su=30, 1.72/877.20)`
+- **Delzo 30 mg (Capsule (Enteric Coated))** [STRIP_DIVISIBLE]: `30's pack (pu=30, su=12, 10/300)` -> `4 x 12 (pu=48, su=12, 10.00/480.00)`
+- **Demelon 3 mg (Capsule)** [STRIP_DIVISIBLE]: `14's pack (pu=14, su=10, 40/560)` -> `3 x 10 (pu=30, su=10, 40.00/1200.00)`
+- **Des 5 mg (Tablet)** [STRIP_DIVISIBLE]: `50's pack (pu=50, su=15, 4/200)` -> `4 x 15 (pu=60, su=15, 4.00/240.00)`
+- **Dytor 5 mg (Tablet)** [STRIP_DIVISIBLE]: `28's pack (pu=28, su=10, 11/308)` -> `3 x 10 (pu=30, su=10, 11.00/330.00)`
+- **Emaglin-L 10 mg+5 mg (Tablet)** [STRIP_DIVISIBLE]: `20's pack (pu=20, su=7, 30/600)` -> `3 x 7 (pu=21, su=7, 30.00/630.00)`
+- **Emaglin-L 25 mg+5 mg (Tablet)** [STRIP_DIVISIBLE]: `10's pack (pu=10, su=7, 40/400)` -> `2 x 7 (pu=14, su=7, 40.00/560.00)`
+- **Emixef 200 mg (Capsule)** [STRIP_DIVISIBLE]: `12's pack (pu=12, su=7, 35/420)` -> `2 x 6 (pu=12, su=6, 35.00/420.00)`
+- **Emixef 200 mg (Tablet)** [STRIP_DIVISIBLE]: `12's pack (pu=12, su=7, 35/420)` -> `2 x 6 (pu=12, su=6, 35.00/420.00)`
+- **Epastat 50 mg (Tablet)** [STRIP_DIVISIBLE]: `30's pack (pu=30, su=14, 10/300)` -> `3 x 14 (pu=42, su=14, 10.00/420.00)`
+- **Epicet 500 mg (Tablet)** [STRIP_DIVISIBLE]: `10's pack (pu=10, su=6, 30/300)` -> `1 x 10 (pu=10, su=10, 30.00/300.00)`
+- **Eso MUPS 20 mg (MUPS Tablet)** [STRIP_DIVISIBLE]: `50's pack (pu=50, su=6, 10/500)` -> `6 x 10 (pu=60, su=10, 10.00/600.00)`
+- **Esoral 40 mg (Tablet (Enteric Coated))** [STRIP_DIVISIBLE]: `30's pack (pu=30, su=14, 8/240)` -> `3 x 14 (pu=42, su=14, 8.00/336.00)`
+- **Esoral MUPS 20 mg (MUPS Tablet)** [STRIP_DIVISIBLE]: `50's pack (pu=50, su=14, 10/500)` -> `5 x 14 (pu=70, su=14, 10.00/700.00)`
+- **Famotid 20 mg (Tablet)** [STRIP_DIVISIBLE]: `100's pack (pu=100, su=14, 3/300)` -> `4 x 14 (pu=56, su=14, 3.00/168.00)`
+- **Febuxit 40 mg (Tablet)** [STRIP_DIVISIBLE]: `30's pack (pu=30, su=14, 12/360)` -> `3 x 14 (pu=42, su=14, 12.00/504.00)`
+- **Flamfix 750 mg (Tablet)** [STRIP_DIVISIBLE]: `20's pack (pu=20, su=6, 22/440)` -> `4 x 6 (pu=24, su=6, 22.00/528.00)`
+- **Flubex 250 mg (Capsule)** [STRIP_DIVISIBLE]: `50's pack (pu=50, su=6, 5.5/275)` -> `10 x 6 (pu=60, su=6, 5.50/330.00)`
+- **Flunol 50 mg (Capsule)** [STRIP_DIVISIBLE]: `32's pack (pu=32, su=10, 8/256)` -> `4 x 10 (pu=40, su=10, 8.00/320.00)`
+- **Foly 5 mg (Tablet)** [STRIP_DIVISIBLE]: `30's pack (pu=30, su=14, 9/270)` -> `2 x 14 (pu=28, su=14, 9.00/252.00)`
+- **Fungitrol 50 mg (Capsule)** [STRIP_DIVISIBLE]: `20's pack (pu=20, su=6, 8.03/160.6)` -> `5 x 4 (pu=20, su=4, 8.03/160.60)`
+- **Furotil Plus 125 mg+31.25 mg (Tablet)** [STRIP_DIVISIBLE]: `16's pack (pu=16, su=6, 21/336)` -> `3 x 6 (pu=18, su=6, 21.00/378.00)`
+- **Gaba-P CR 330 mg (Tablet (Controlled Release))** [STRIP_DIVISIBLE]: `10's pack (pu=10, su=6, 45/450)` -> `5 x 6 (pu=30, su=6, 45.00/1350.00)`
+- **Glucotin Plus 250 mg+200 mg (Tablet)** [STRIP_DIVISIBLE]: `30's pack (pu=30, su=7, 8/240)` -> `3 x 7 (pu=21, su=7, 8.00/168.00)`
+- **Glymax 1 mg (Tablet)** [STRIP_DIVISIBLE]: `30's pack (pu=30, su=7, 6/180)` -> `4 x 7 (pu=28, su=7, 6.00/168.00)`
+- **Glymax 3 mg (Tablet)** [STRIP_DIVISIBLE]: `30's pack (pu=30, su=7, 12/360)` -> `4 x 7 (pu=28, su=7, 12.00/336.00)`
+- **Glymax 4 mg (Tablet)** [STRIP_DIVISIBLE]: `30's pack (pu=30, su=7, 15/450)` -> `4 x 7 (pu=28, su=7, 15.00/420.00)`
+- **Hematin FZ 48 mg+0.5 mg+22.5 mg (Tablet)** [STRIP_DIVISIBLE]: `60's pack (pu=60, su=8, 5/300)` -> `7 x 8 (pu=56, su=8, 5.00/280.00)`
+- **Hypen Plus 2 mg+0.625 mg (Tablet)** [STRIP_DIVISIBLE]: `30's pack (pu=30, su=14, 7.03/210.9)` -> `3 x 14 (pu=42, su=14, 7.06/296.52)`
+- **Hypen Plus 4 mg+1.25 mg (Tablet)** [STRIP_DIVISIBLE]: `20's pack (pu=20, su=14, 12.05/241)` -> `2 x 14 (pu=28, su=14, 12.09/338.52)`
+- **Itra 200 mg (Tablet)** [STRIP_DIVISIBLE]: `20's pack (pu=20, su=6, 28/560)` -> `3 x 6 (pu=18, su=6, 28.00/504.00)`
+- **Itracare SB 100 mg (Capsule)** [STRIP_DIVISIBLE]: `24's pack (pu=24, su=10, 15/360)` -> `3 x 10 (pu=30, su=10, 20.00/600.00)`
+- **Itracare SB 65 mg (Capsule)** [STRIP_DIVISIBLE]: `24's pack (pu=24, su=10, 15/360)` -> `3 x 10 (pu=30, su=10, 15.00/450.00)`
+- **Itrafun 200 mg (Tablet)** [STRIP_DIVISIBLE]: `20's pack (pu=20, su=6, 28/560)` -> `2 x 6 (pu=12, su=6, 28.00/336.00)`
+- **Itrasuba 65 mg (Capsule)** [STRIP_DIVISIBLE]: `24's pack (pu=24, su=10, 15/360)` -> `3 x 10 (pu=30, su=10, 15.00/450.00)`
+- **Kilbac 250 mg (Tablet)** [STRIP_DIVISIBLE]: `18's pack (pu=18, su=7, 25/450)` -> `3 x 6 (pu=18, su=6, 25.00/450.00)`
+- **Kilbac 500 mg (Tablet)** [STRIP_DIVISIBLE]: `12's pack (pu=12, su=7, 45/540)` -> `3 x 4 (pu=12, su=4, 45.00/540.00)`
+- **Kilmax 125 mg (Tablet)** [STRIP_DIVISIBLE]: `14's pack (pu=14, su=10, 15/210)` -> `2 x 7 (pu=14, su=7, 15.00/210.00)`
+- **Kilmax 250 mg (Tablet)** [STRIP_DIVISIBLE]: `14's pack (pu=14, su=8, 25/350)` -> `2 x 8 (pu=16, su=8, 25.00/400.00)`
+- **Letrozol 2.5 mg (Tablet)** [STRIP_DIVISIBLE]: `28's pack (pu=28, su=5, 40/1120)` -> `2 x 5 (pu=10, su=5, 40.00/400.00)`
+- **Losita 10 mg (Tablet)** [STRIP_DIVISIBLE]: `20's pack (pu=20, su=14, 12/240)` -> `2 x 14 (pu=28, su=14, 12.00/336.00)`
+- **Lumexit 0.5 mg+10 mg (Tablet)** [STRIP_DIVISIBLE]: `50's pack (pu=50, su=14, 4/200)` -> `5 x 14 (pu=70, su=14, 4.00/280.00)`
+- **Lyric CR 330 mg (Tablet (Controlled Release))** [STRIP_DIVISIBLE]: `10's pack (pu=10, su=6, 45/450)` -> `2 x 6 (pu=12, su=6, 45.00/540.00)`
+- **Meglu ER 1000 mg (Tablet (Extended Release))** [STRIP_DIVISIBLE]: `28's pack (pu=28, su=10, 9/252)` -> `3 x 10 (pu=30, su=10, 9.00/270.00)`
+- **Mepred 4 mg (Tablet)** [STRIP_DIVISIBLE]: `50's pack (pu=50, su=15, 5/250)` -> `3 x 15 (pu=45, su=15, 5.00/225.00)`
+- **Methilon 2 mg (Tablet)** [STRIP_DIVISIBLE]: `50's pack (pu=50, su=14, 3/150)` -> `4 x 14 (pu=56, su=14, 3.00/168.00)`
+- **Methilon 4 mg (Tablet)** [STRIP_DIVISIBLE]: `56's pack (pu=56, su=10, 5/280)` -> `4 x 14 (pu=56, su=14, 5.00/280.00)`
+- **Midita 50 mg (Tablet)** [STRIP_DIVISIBLE]: `10's pack (pu=10, su=4, 40/400)` -> `1 x 4 (pu=4, su=4, 42.00/168.00)`
+- **Nabufen 500 mg (Tablet)** [STRIP_DIVISIBLE]: `30's pack (pu=30, su=8, 15/450)` -> `4 x 8 (pu=32, su=8, 15.00/480.00)`
+- **Nabufen 750 mg (Tablet)** [STRIP_DIVISIBLE]: `20's pack (pu=20, su=8, 22/440)` -> `4 x 8 (pu=32, su=8, 22.00/704.00)`
+- **Nabumet 750 mg (Tablet)** [STRIP_DIVISIBLE]: `24's pack (pu=24, su=10, 22/528)` -> `3 x 10 (pu=30, su=10, 22.00/660.00)`
+- **Nabunil 750 mg (Tablet)** [STRIP_DIVISIBLE]: `20's pack (pu=20, su=6, 22/440)` -> `4 x 6 (pu=24, su=6, 22.00/528.00)`
+- **Nabuton 750 mg (Tablet)** [STRIP_DIVISIBLE]: `20's pack (pu=20, su=6, 22/440)` -> `4 x 6 (pu=24, su=6, 22.00/528.00)`
+- **NapExa 375 mg+20 mg (Tablet (Delayed Release))** [STRIP_DIVISIBLE]: `28's pack (pu=28, su=10, 12/336)` -> `7 x 4 (pu=28, su=4, 12.00/336.00)`
+- **NapExa 500 mg+20 mg (Tablet (Delayed Release))** [STRIP_DIVISIBLE]: `28's pack (pu=28, su=10, 16/448)` -> `7 x 4 (pu=28, su=4, 16.00/448.00)`
+- **Nebilol Plus 5 mg+12.5 mg (Tablet)** [STRIP_DIVISIBLE]: `30's pack (pu=30, su=14, 12/360)` -> `2 x 14 (pu=28, su=14, 12.00/336.00)`
+- **Nebinex 2.5 mg (Tablet)** [STRIP_DIVISIBLE]: `30's pack (pu=30, su=7, 7/210)` -> `4 x 7 (pu=28, su=7, 7.02/196.56)`
+- **NexCap 20 mg (Capsule (Enteric Coated))** [STRIP_DIVISIBLE]: `56's pack (pu=56, su=10, 7/392)` -> `10 x 10 (pu=100, su=10, 7.00/700.00)`
+- **Ngcef 200 mg (Capsule)** [STRIP_DIVISIBLE]: `12's pack (pu=12, su=7, 35/420)` -> `2 x 7 (pu=14, su=7, 42.00/588.00)`
+- **Nidocard Retard 6.4 mg (Retard Tablet)** [STRIP_DIVISIBLE]: `56's pack (pu=56, su=10, 7.05/394.8)` -> `3 x 14 (pu=42, su=14, 7.00/294.00)`
+- **Nivoloc 500 mg (Tablet)** [STRIP_DIVISIBLE]: `20's pack (pu=20, su=6, 15/300)` -> `5 x 4 (pu=20, su=4, 15.00/300.00)`
+- **Nocandia 200 mg (Tablet)** [STRIP_DIVISIBLE]: `20's pack (pu=20, su=8, 28/560)` -> `3 x 8 (pu=24, su=8, 28.00/672.00)`
+- **Obecol 5 mg (Tablet)** [STRIP_DIVISIBLE]: `20's pack (pu=20, su=15, 30/600)` -> `3 x 10 (pu=30, su=10, 30.00/900.00)`
+- **Olsart Plus 20 mg+12.5 mg (Tablet)** [STRIP_DIVISIBLE]: `30's pack (pu=30, su=14, 9/270)` -> `3 x 14 (pu=42, su=14, 9.00/378.00)`
+- **Olsart Plus 40 mg+12.5 mg (Tablet)** [STRIP_DIVISIBLE]: `30's pack (pu=30, su=14, 15.06/451.8)` -> `3 x 14 (pu=42, su=14, 15.10/634.20)`
+- **Omep 40 mg (Capsule (Enteric Coated))** [STRIP_DIVISIBLE]: `30's pack (pu=30, su=7, 8/240)` -> `4 x 7 (pu=28, su=7, 8.00/224.00)`
+- **Omeprol 20 mg (Capsule (Enteric Coated))** [STRIP_DIVISIBLE]: `56's pack (pu=56, su=10, 5/280)` -> `6 x 10 (pu=60, su=10, 5.00/300.00)`
+- **Orgy 10 mg (Tablet)** [STRIP_DIVISIBLE]: `100's pack (pu=100, su=14, 3/300)` -> `10 x 14 (pu=140, su=14, 3.00/420.00)`
+- **Peptex 20 mg (Capsule (Enteric Coated))** [STRIP_DIVISIBLE]: `28's pack (pu=28, su=10, 8/224)` -> `4 x 10 (pu=40, su=10, 8.00/320.00)`
+- **Piozena 15 mg (Tablet)** [STRIP_DIVISIBLE]: `50's pack (pu=50, su=14, 8/400)` -> `5 x 10 (pu=50, su=10, 8.00/400.00)`
+- **Pirfedone 534 mg (Tablet)** [STRIP_DIVISIBLE]: `20's pack (pu=20, su=6, 80/1600)` -> `3 x 6 (pu=18, su=6, 80.00/1440.00)`
+- **Pirfedone 801 mg (Tablet)** [STRIP_DIVISIBLE]: `10's pack (pu=10, su=6, 125/1250)` -> `2 x 6 (pu=12, su=6, 125.00/1500.00)`
+- **Prelizer-HTZ 2.5 mg+6.25 mg (Tablet)** [STRIP_DIVISIBLE]: `30's pack (pu=30, su=14, 6/180)` -> `3 x 14 (pu=42, su=14, 6.00/252.00)`
+- **Presnor Plus 20 mg+12.5 mg (Tablet)** [STRIP_DIVISIBLE]: `30's pack (pu=30, su=7, 8.27/247.95)` -> `3 x 7 (pu=21, su=7, 8.00/168.00)`
+- **Protium 20 mg (Tablet (Enteric Coated))** [STRIP_DIVISIBLE]: `28's pack (pu=28, su=10, 5/140)` -> `3 x 10 (pu=30, su=10, 5.00/150.00)`
+- **Queta 100 mg (Tablet)** [STRIP_DIVISIBLE]: `50's pack (pu=50, su=21, 10/500)` -> `3 x 21 (pu=63, su=21, 10.00/630.00)`
+- **Queta 25 mg (Tablet)** [STRIP_DIVISIBLE]: `50's pack (pu=50, su=14, 3/150)` -> `5 x 14 (pu=70, su=14, 3.00/210.00)`
+- **Rabenta 20 mg (Capsule (Enteric Coated))** [STRIP_DIVISIBLE]: `28's pack (pu=28, su=10, 8/224)` -> `4 x 10 (pu=40, su=10, 8.00/320.00)`
+- **Rapasin 4 mg (Capsule)** [STRIP_DIVISIBLE]: `16's pack (pu=16, su=10, 12/192)` -> `3 x 10 (pu=30, su=10, 12.00/360.00)`
+- **Rapasin 8 mg (Capsule)** [STRIP_DIVISIBLE]: `16's pack (pu=16, su=10, 24/384)` -> `3 x 10 (pu=30, su=10, 25.00/750.00)`
+- **Relanab 750 mg (Tablet)** [STRIP_DIVISIBLE]: `20's pack (pu=20, su=6, 22/440)` -> `3 x 6 (pu=18, su=6, 22.00/396.00)`
+- **Renolife 600 mg (Tablet)** [STRIP_DIVISIBLE]: `60's pack (pu=60, su=8, 40/2400)` -> `5 x 8 (pu=40, su=8, 40.00/1600.00)`
+- **Resolax 2 mg (Tablet)** [STRIP_DIVISIBLE]: `14's pack (pu=14, su=10, 24/336)` -> `1 x 14 (pu=14, su=14, 24.00/336.00)`
+- **Rivadem 1.5 mg (Capsule)** [STRIP_DIVISIBLE]: `28's pack (pu=28, su=10, 23/644)` -> `2 x 10 (pu=20, su=10, 23.00/460.00)`
+- **Sefacin 250 mg (Capsule)** [STRIP_DIVISIBLE]: `20's pack (pu=20, su=6, 7.75/155)` -> `4 x 6 (pu=24, su=6, 7.75/186.00)`
+- **Sefacin 500 mg (Capsule)** [STRIP_DIVISIBLE]: `20's pack (pu=20, su=6, 12.5/250)` -> `4 x 6 (pu=24, su=6, 12.50/300.00)`
+- **Sinaflox 500 mg (Capsule)** [STRIP_DIVISIBLE]: `50's pack (pu=50, su=4, 10.5/525)` -> `12 x 4 (pu=48, su=4, 10.50/504.00)`
+- **Solicare 5 mg (Tablet)** [STRIP_DIVISIBLE]: `14's pack (pu=14, su=10, 15/210)` -> `3 x 10 (pu=30, su=10, 15.00/450.00)`
+- **Supraxim 200 mg (Capsule)** [STRIP_DIVISIBLE]: `8's pack (pu=8, su=6, 35/280)` -> `2 x 6 (pu=12, su=6, 35.00/420.00)`
+- **Tamsin 0.4 mg (Capsule (Modified Release))** [STRIP_DIVISIBLE]: `12's pack (pu=12, su=10, 10/120)` -> `3 x 10 (pu=30, su=10, 10.00/300.00)`
+- **TelAmlo 5 mg+40 mg (Tablet)** [STRIP_DIVISIBLE]: `14's pack (pu=14, su=10, 12.5/175)` -> `3 x 10 (pu=30, su=10, 12.50/375.00)`
+- **Telcardis 40 mg (Tablet)** [STRIP_DIVISIBLE]: `14's pack (pu=14, su=10, 12.5/175)` -> `3 x 10 (pu=30, su=10, 12.50/375.00)`
+- **Telcardis 80 mg (Tablet)** [STRIP_DIVISIBLE]: `14's pack (pu=14, su=10, 20/280)` -> `3 x 10 (pu=30, su=10, 20.00/600.00)`
+- **Telcardis Plus 40 mg+12.5 mg (Tablet)** [STRIP_DIVISIBLE]: `14's pack (pu=14, su=10, 12.5/175)` -> `3 x 10 (pu=30, su=10, 12.50/375.00)`
+- **Telcardis Plus 80 mg+12.5 mg (Tablet)** [STRIP_DIVISIBLE]: `14's pack (pu=14, su=10, 20/280)` -> `3 x 10 (pu=30, su=10, 20.00/600.00)`
+- **Telmipres 80 mg (Tablet)** [STRIP_DIVISIBLE]: `28's pack (pu=28, su=10, 11/308)` -> `3 x 10 (pu=30, su=10, 11.00/330.00)`
+- **Tenobis Plus 2.5 mg+6.25 mg (Tablet)** [STRIP_DIVISIBLE]: `30's pack (pu=30, su=14, 6/180)` -> `2 x 14 (pu=28, su=14, 6.05/169.40)`
+- **Tenobis Plus 5 mg+6.25 mg (Tablet)** [STRIP_DIVISIBLE]: `20's pack (pu=20, su=14, 10/200)` -> `2 x 14 (pu=28, su=14, 10.05/281.40)`
+- **Tritace 2.5 mg (Tablet)** [STRIP_DIVISIBLE]: `28's pack (pu=28, su=15, 9.53/266.84)` -> `2 x 14 (pu=28, su=14, 9.53/266.84)`
+- **Veripel SR 200 mg (Capsule (Sustained Release))** [STRIP_DIVISIBLE]: `32's pack (pu=32, su=10, 9.03/288.96)` -> `4 x 8 (pu=32, su=8, 9.03/288.96)`
+- **Vigorex 100 mg (Tablet)** [STRIP_DIVISIBLE]: `8's pack (pu=8, su=6, 50.15/401.2)` -> `2 x 6 (pu=12, su=6, 50.15/601.80)`
+- **Vigorex 25 mg (Tablet)** [STRIP_DIVISIBLE]: `8's pack (pu=8, su=5, 20.06/160.48)` -> `2 x 5 (pu=10, su=5, 20.06/200.60)`
+- **Vigorex 50 mg (Tablet)** [STRIP_DIVISIBLE]: `8's pack (pu=8, su=5, 30.1/240.8)` -> `2 x 6 (pu=12, su=6, 30.10/361.20)`
+- **Xelmet 500 mg (Tablet)** [STRIP_DIVISIBLE]: `60's pack (pu=60, su=7, 6/360)` -> `6 x 10 (pu=60, su=10, 6.00/360.00)`
+- **Xfin 250 mg (Tablet)** [STRIP_DIVISIBLE]: `12's pack (pu=12, su=7, 40/480)` -> `2 x 7 (pu=14, su=7, 40.00/560.00)`
+- **Xidolac 10 mg (Tablet)** [STRIP_DIVISIBLE]: `20's pack (pu=20, su=15, 10/200)` -> `2 x 15 (pu=30, su=15, 10.00/300.00)`
+- **Ximorox 500 mg (Tablet)** [STRIP_DIVISIBLE]: `8's pack (pu=8, su=6, 45/360)` -> `2 x 6 (pu=12, su=6, 45.00/540.00)`
+- **Zoana 500 mg (Tablet)** [STRIP_DIVISIBLE]: `12's pack (pu=12, su=10, 10.07/120.84)` -> `3 x 4 (pu=12, su=4, 10.07/120.84)`
+- **Zoxan 500 mg (Tablet)** [STRIP_DIVISIBLE]: `18's pack (pu=18, su=10, 10.07/181.26)` -> `5 x 10 (pu=50, su=10, 10.07/503.50)`
+
+## Sub-batch 11B — Container Strip-Metadata Clears (4)
+- **Coralcin-DX 600 mg+400 IU (Tablet)** [CONTAINER_STRIP_CLEAR]: `15's pack (pu=15, su=8, 15/225)` -> `15's pack (pu=15, su=null, 15.00/225.00)`
+- **Coralcin-DX 600 mg+400 IU (Tablet)** [CONTAINER_STRIP_CLEAR]: `30's pack (pu=30, su=8, 15/450)` -> `30's pack (pu=30, su=null, 15.00/450.00)`
+- **Greatnap 500 mg+20 mg (Tablet (Delayed Release))** [CONTAINER_STRIP_CLEAR]: `28's pack (pu=28, su=10, 10/280)` -> `28's pack (pu=28, su=null, 10.00/280.00)`
+- **Thyrox 25 mcg (Tablet)** [CONTAINER_STRIP_CLEAR]: `100's pack (pu=100, su=30, 1.11/111)` -> `100's pack (pu=100, su=null, 1.11/111.00)`
+
+## Optional Obsolete Second-Pack Delete (1)
+- **Deltasone 5 mg** (`874311ac-03a4-4b64-9e5b-81fce0cc9e17`, `250's pack` @ `1.72/430`, `inventoryTransactions=0`): Kaggle imported both 250s (৳1.72/430) and 500s (৳1.72/860); MedEx now lists only 17 x 30 (510 tabs @ ৳1.72 = ৳877.20) mapped onto sibling 266be55c. 0 InventoryTransaction rows reference this pack.

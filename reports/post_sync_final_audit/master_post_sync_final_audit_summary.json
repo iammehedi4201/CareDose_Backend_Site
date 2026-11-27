@@ -1,0 +1,272 @@
+{
+  "generatedAt": "2026-11-25T12:18:00+06:00",
+  "readOnlyAuditVerified": true,
+  "reconciledUpdates": {
+    "generatedAt": "2026-11-25T12:15:00+06:00",
+    "readOnly": true,
+    "recordCounts": {
+      "originalStagedCount": 4807,
+      "finalApprovedCount": 4746,
+      "excludedRolledBackCount": 61,
+      "sumApprovedPlusExcluded": 4807
+    },
+    "packIdSetChecks": {
+      "stagedDuplicatePackIds": 0,
+      "approvedDuplicatePackIds": 0,
+      "excludedDuplicatePackIds": 0,
+      "approvedIntersectExcludedCount": 0,
+      "missingFromUnionCount": 0,
+      "extraOutsideStagedCount": 0,
+      "exactPartitionVerified": true,
+      "approvedMatchesStagedRecordIdentically": true,
+      "excludedCategoryMatchesStaged": true
+    },
+    "categoryReconciliation": {
+      "PRICE": {
+        "staged": 3470,
+        "approved": 3424,
+        "excluded": 46,
+        "approvedPlusExcludedEqualsStaged": true,
+        "excludedBreakdownByReason": {
+          "WRONG_STRENGTH_CATALOG_MATCH": 2,
+          "UNVERIFIED_MANUFACTURER_MISMATCH": 38,
+          "UNRESOLVED_GENERIC_CONFLICT": 2,
+          "NEW_CAT_G_PARTIAL_PRICE_MISMATCH": 2,
+          "KIT_UNIT_SCALING_ERROR": 2
+        }
+      },
+      "CONTAINER_PRICE": {
+        "staged": 1047,
+        "approved": 1034,
+        "excluded": 13,
+        "approvedPlusExcludedEqualsStaged": true,
+        "excludedBreakdownByReason": {
+          "UNVERIFIED_MANUFACTURER_MISMATCH": 9,
+          "NEW_CAT_G_PARTIAL_PRICE_MISMATCH": 3,
+          "UNRESOLVED_GENERIC_CONFLICT": 1
+        }
+      },
+      "STRIP": {
+        "staged": 171,
+        "approved": 169,
+        "excluded": 2,
+        "approvedPlusExcludedEqualsStaged": true,
+        "excludedBreakdownByReason": {
+          "UNRESOLVED_GENERIC_CONFLICT": 2
+        }
+      },
+      "PRICE+STRIP": {
+        "staged": 119,
+        "approved": 119,
+        "excluded": 0,
+        "approvedPlusExcludedEqualsStaged": true,
+        "excludedBreakdownByReason": {}
+      }
+    },
+    "exclusionReasonByCategoryMatrix": {
+      "WRONG_STRENGTH_CATALOG_MATCH": {
+        "PRICE": 2
+      },
+      "UNVERIFIED_MANUFACTURER_MISMATCH": {
+        "CONTAINER_PRICE": 9,
+        "PRICE": 38
+      },
+      "UNRESOLVED_GENERIC_CONFLICT": {
+        "STRIP": 2,
+        "PRICE": 2,
+        "CONTAINER_PRICE": 1
+      },
+      "NEW_CAT_G_PARTIAL_PRICE_MISMATCH": {
+        "PRICE": 2,
+        "CONTAINER_PRICE": 3
+      },
+      "KIT_UNIT_SCALING_ERROR": {
+        "PRICE": 2
+      }
+    },
+    "discrepancyExplanationNote": "Ground-truth manifest counts in excluded_updates_report.json are PRICE=46, CONTAINER_PRICE=13, STRIP=2 (total=61). Within the 47 UNVERIFIED_MANUFACTURER_MISMATCH exclusions, 38 are PRICE (tablets/capsules/suppositories) and 9 are CONTAINER_PRICE (liquids/injections/topicals/drops), which combined with UNRESOLVED_GENERIC_CONFLICT (2 PRICE, 1 CONTAINER_PRICE, 2 STRIP), NEW_CAT_G_PARTIAL_PRICE_MISMATCH (2 PRICE, 3 CONTAINER_PRICE), WRONG_STRENGTH_CATALOG_MATCH (2 PRICE), and KIT_UNIT_SCALING_ERROR (2 PRICE) sums exactly to 46 PRICE + 13 CONTAINER_PRICE + 2 STRIP = 61. A narrative summary in the prior turn mistakenly split UNVERIFIED_MANUFACTURER_MISMATCH as 34+13 instead of 38+9; the JSON/CSV manifests themselves are exact."
+  },
+  "categoryFInvestigationSummary": {
+    "previousPostCleanupCount": 349,
+    "postSyncCount": 356,
+    "addedCount": 7,
+    "removedCount": 0,
+    "verdictCounts": {
+      "LEGITIMATE_MANUFACTURER_PACKAGING_DIFFERENCE": 7
+    },
+    "groupKeys": [
+      "8f6d8877-1985-4e02-904e-af26a3393d10|500mg|tablet|30's pack",
+      "03127166-22f5-457f-9579-4ba44837a0ff|40mg|capsule (delayed release)|30's pack",
+      "a9d7cca3-a4de-4d88-9a9d-6bbc4d0ca231|5mg|tablet|30's pack",
+      "a9d7cca3-a4de-4d88-9a9d-6bbc4d0ca231|10mg|tablet|30's pack",
+      "efa6fe21-a12f-4ea5-a859-6d630746e5f1|2mg|tablet|60's pack",
+      "e494512f-a21c-4a46-98de-e9fff065ea14|250mg|tablet|6's pack",
+      "a9d7cca3-a4de-4d88-9a9d-6bbc4d0ca231|20mg|tablet|30's pack"
+    ]
+  },
+  "postSyncIntegrity": {
+    "verifiedAt": "2026-11-25T06:14:12.882Z",
+    "readOnlyIsolationVerified": "REPEATABLE READ, READ ONLY",
+    "catalogueCounts": {
+      "generics": 1846,
+      "brands": 25208,
+      "packs": 27468,
+      "zeroPackBrandsCount": 37
+    },
+    "updateIntegrity": {
+      "expectedApproved": 4746,
+      "verifiedApprovedInPostgres": 4746,
+      "approvedMismatches": [],
+      "expectedExcludedRolledBack": 61,
+      "verifiedExcludedRolledBackInPostgres": 61,
+      "excludedMismatches": [],
+      "expectedRemainingUntouched": 22661,
+      "verifiedRemainingUntouchedInPostgres": 22661,
+      "remainingUntouchedMismatches": [],
+      "brandMismatches": 0
+    },
+    "verificationStatusSummary": {
+      "genericsUnverified": 1846,
+      "brandsUnverified": 25208,
+      "packsUnverified": 27468,
+      "packsBdtCurrency": 27468
+    },
+    "duplicateFingerprintCheck": {
+      "dup_full_fingerprint_groups": 3,
+      "dup_brand_qty_units_groups": 3,
+      "import_batches_cnt": 5,
+      "alt_groups_cnt": 2241,
+      "alt_group_brands_cnt": 21696,
+      "med_images_cnt": 52,
+      "users_cnt": 0,
+      "profiles_cnt": 0,
+      "pat_meds_cnt": 0,
+      "schedules_cnt": 0,
+      "dose_events_cnt": 0,
+      "inv_tx_cnt": 0,
+      "purchases_cnt": 0,
+      "readings_cnt": 0
+    },
+    "catFCounts": {
+      "previousPostCleanupCatF": 349,
+      "currentPostSyncCatF": 356,
+      "addedCatFCount": 7,
+      "removedCatFCount": 0,
+      "netChange": 7
+    }
+  },
+  "remainingCatalogueIssuesSummary": {
+    "unresolvedConflicts_792": {
+      "count": 792,
+      "verifiedUnchanged": 792,
+      "byBucket": {
+        "STALE_SYNTHETIC_BENCHMARK_280_300": 243,
+        "NON_DIVISIBLE_STRIP_CONFLICT": 325,
+        "UNIT_PRICE_STORED_AS_STRIP_PRICE_SWAP": 3,
+        "LARGE_PRICE_DELTA_OR_PACK_MISMATCH": 178,
+        "OTHER_CONFLICT": 9,
+        "CORRUPT_DB_PRICE_1_BDT": 34
+      },
+      "reportFile": "F:\\My Projects\\CareDose\\backend\\reports\\post_sync_final_audit\\conflicts_792_post_sync_report.json"
+    },
+    "frontendBackendMismatches_50": {
+      "count": 50,
+      "affectedBrands": 49,
+      "byRootCause": {
+        "INJECTION_PACK_COUNT_WITHOUT_CONTAINER_NOUN": 31,
+        "LIQUID_PACK_COUNT_WITHOUT_ML_VOLUME": 10,
+        "INJECTION_VOLUME_SOLUTION_WITHOUT_CONTAINER_NOUN": 8,
+        "NASAL_SPRAY_VOLUME_WITHOUT_METERED_DOSES": 1
+      },
+      "reportFile": "F:\\My Projects\\CareDose\\backend\\reports\\post_sync_final_audit\\frontend_backend_mismatches_50_post_sync_report.json"
+    },
+    "unmatchedPackageVariants_895": {
+      "summaryBucketCount": 895,
+      "loggedRecordsCount": 866,
+      "distinctBrands": 821,
+      "byVariantPattern": {
+        "LIQUID_OR_DROPS_VOLUME_PACK_DIFF": 227,
+        "TOPICAL_TUBE_WEIGHT_DIFF": 136,
+        "INJECTION_INFUSION_VOLUME_OR_PACK_SIZE_MISMATCH": 473,
+        "OTHER_SOLID_OR_DEVICE_VARIANT": 22,
+        "SACHET_OR_POWDER_VARIANT": 6,
+        "EMPTY_PACK_QUANTITY_OR_SIZE": 2
+      },
+      "reportFile": "F:\\My Projects\\CareDose\\backend\\reports\\post_sync_final_audit\\unmatched_variants_895_post_sync_report.json"
+    },
+    "noLiveAroggaMatch_9110": {
+      "packsCount": 9110,
+      "brandsCount": 8202,
+      "byFailureReason": {
+        "NO_STEM_CANDIDATE": 4993,
+        "FORM_OR_STRENGTH_MISMATCH": 4080,
+        "AMBIGUOUS_MFR_CONFLICT": 37
+      },
+      "topForms": {
+        "Tablet": 2220,
+        "IV Infusion": 605,
+        "Capsule": 482,
+        "Ophthalmic Solution": 461,
+        "IM/IV Injection": 447,
+        "Powder for Suspension": 336,
+        "IV Injection": 335,
+        "Syrup": 299,
+        "IM Injection": 266,
+        "Cream": 251,
+        "Oral Suspension": 197,
+        "SC Injection": 187,
+        "Hand Rub": 173,
+        "Oral Powder": 172,
+        "Injection": 167
+      },
+      "reportFile": "F:\\My Projects\\CareDose\\backend\\reports\\post_sync_final_audit\\no_live_match_9110_post_sync_report.json"
+    },
+    "zeroPackBrands_37": {
+      "count": 37,
+      "aroggaPresenceSummary": {
+        "EXACT_MATCH|hasCandidates=True": 15,
+        "NO_STEM_CANDIDATE|hasCandidates=False": 16,
+        "FORM_OR_STRENGTH_MISMATCH|hasCandidates=False": 3,
+        "MFR_VARIANT_MATCH|hasCandidates=False": 2,
+        "EXACT_MATCH|hasCandidates=False": 1
+      },
+      "reportFile": "F:\\My Projects\\CareDose\\backend\\reports\\post_sync_final_audit\\zero_pack_brands_37_post_sync_report.json"
+    },
+    "aroggaOutOfStockDummyMrp_738": {
+      "count": 738,
+      "unchangedInDb": true
+    }
+  },
+  "recommendedNextVerificationPriorities": [
+    {
+      "priority": "P1",
+      "title": "Resolve 792 Price & Packaging Conflicts (starting with 243 synthetic 280/300 benchmarks, 34 1-BDT corrupt prices, and 3 unit/strip price swaps)",
+      "scopeCount": 792,
+      "rationale": "Highest immediate user-facing accuracy ROI: 280/300 benchmark rows, 1-BDT rows, and strip-swap rows already have matched live Arogga SKUs and MedEx reference pages, while the 325 non-divisible strip conflicts prevent strip-level stock calculation."
+    },
+    {
+      "priority": "P2",
+      "title": "Resolve 61 QA-Excluded Updates via Direct MedEx / Manufacturer Verification",
+      "scopeCount": 61,
+      "rationale": "Low-effort cleanup of clear actionable cases: map R-Pag 25 mg -> Arogga id=42655, fix 5 partial >5% price-rounding sync gaps (Folate, Brodil, GastroLax, Neosaline x2), verify 2 kit unit definitions (Triokit 7's, Cytomis Kit), confirm 5 generic conflicts (Metirox x2, Sefro, Abac, Folicare), and verify 47 competing-manufacturer matches."
+    },
+    {
+      "priority": "P3",
+      "title": "Backfill 37 Zero-Pack Brands (especially the 15 brands already present live on Arogga)",
+      "scopeCount": 37,
+      "rationale": "Restores package pricing and stock unit conversion for completely unpopulated brands (15 of 37 already have live Arogga package/MRP records)."
+    },
+    {
+      "priority": "P4",
+      "title": "Reconcile Remaining 368 Non-Divisible Strip Records & 113 Category B/H Container Parsing Gaps",
+      "scopeCount": 418,
+      "rationale": "Covers the 368 remaining Category G non-divisible strips and 50 Category H mismatches (39 injections without container nouns, 10 liquid solid-count packs, 1 nasal spray volume without metered doses) without inferring unverified multipliers."
+    },
+    {
+      "priority": "P5",
+      "title": "Schedule Manufacturer / Alternate-Source Verification for 895 Unmatched Variants, 738 Out-of-Stock Items, and 9,110 Unmatched Live Brands/Packs",
+      "scopeCount": 10743,
+      "rationale": "Requires secondary verified Bangladeshi pharmacy/DGDA/manufacturer price lists where Arogga either carries a different pack size (895), reports dummy MRP at 0 stock (738), or lacks the legacy brand/strength/form altogether (9,110)."
+    }
+  ]
+}

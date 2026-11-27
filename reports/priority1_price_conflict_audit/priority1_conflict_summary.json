@@ -1,0 +1,130 @@
+{
+  "generatedAt": "2026-11-25T06:43:40.201940+00:00",
+  "postgresqlModified": false,
+  "scope": {
+    "totalPriority1Records": 280,
+    "buckets": {
+      "STALE_SYNTHETIC_BENCHMARK_280_300": 243,
+      "UNIT_PRICE_STORED_AS_STRIP_PRICE_SWAP": 3,
+      "CORRUPT_DB_PRICE_1_BDT": 34
+    }
+  },
+  "classificationCounts": {
+    "WRONG_PACKAGE_VARIANT": 166,
+    "VERIFIED_CORRECTION_CANDIDATE": 104,
+    "EXISTING_VALUE_CORRECT": 4,
+    "SOURCE_CONFLICT": 6
+  },
+  "crossTabBucketByClassification": {
+    "STALE_SYNTHETIC_BENCHMARK_280_300": {
+      "WRONG_PACKAGE_VARIANT": 165,
+      "VERIFIED_CORRECTION_CANDIDATE": 75,
+      "SOURCE_CONFLICT": 1,
+      "EXISTING_VALUE_CORRECT": 2
+    },
+    "UNIT_PRICE_STORED_AS_STRIP_PRICE_SWAP": {
+      "EXISTING_VALUE_CORRECT": 2,
+      "VERIFIED_CORRECTION_CANDIDATE": 1
+    },
+    "CORRUPT_DB_PRICE_1_BDT": {
+      "VERIFIED_CORRECTION_CANDIDATE": 28,
+      "SOURCE_CONFLICT": 5,
+      "WRONG_PACKAGE_VARIANT": 1
+    }
+  },
+  "crossTabPatternByClassification": {
+    "BENCHMARK_8_280": {
+      "WRONG_PACKAGE_VARIANT": 124,
+      "VERIFIED_CORRECTION_CANDIDATE": 69,
+      "SOURCE_CONFLICT": 1
+    },
+    "AROGGA_PV_MRP_STRIP_DIVISOR_BUG": {
+      "EXISTING_VALUE_CORRECT": 2
+    },
+    "BENCHMARK_10_300": {
+      "WRONG_PACKAGE_VARIANT": 27,
+      "VERIFIED_CORRECTION_CANDIDATE": 5,
+      "EXISTING_VALUE_CORRECT": 2
+    },
+    "BENCHMARK_12.04_300.48": {
+      "WRONG_PACKAGE_VARIANT": 14,
+      "VERIFIED_CORRECTION_CANDIDATE": 1
+    },
+    "COMMA_TRUNCATED_UNIT_PRICE_ROW": {
+      "VERIFIED_CORRECTION_CANDIDATE": 14
+    },
+    "PRICE_1_BDT_WITH_SOURCE_CONFLICT": {
+      "SOURCE_CONFLICT": 5
+    },
+    "LEGACY_1_BDT_100_PACK_VERIFIED": {
+      "VERIFIED_CORRECTION_CANDIDATE": 3
+    },
+    "COMMA_TRUNCATED_CONTAINER_PACK_PRICE": {
+      "VERIFIED_CORRECTION_CANDIDATE": 11
+    },
+    "LEGACY_1_BDT_NONEXISTENT_100_PACK": {
+      "WRONG_PACKAGE_VARIANT": 1
+    },
+    "MEDEX_UPSTREAM_10X_ERROR": {
+      "VERIFIED_CORRECTION_CANDIDATE": 1
+    }
+  },
+  "forensicFindings": {
+    "unitVsStripSwapInvestigation": {
+      "totalFlagged": 3,
+      "genuineCareDoseFieldSwaps": 0,
+      "findings": [
+        "Ventonix 10 mg (sourceId=33099) -> EXISTING_VALUE_CORRECT: DB unitPrice=75 came verbatim from Kaggle 'Unit Price: 75.00' and matches live BD pharmacies and Arogga web retail (BDT 71.96-75.00); Arogga API pv_mrp=7.5 has an internal Strip=10 scaling error.",
+        "Ventonix 50 mg (sourceId=33100) -> EXISTING_VALUE_CORRECT: DB unitPrice=350 came verbatim from Kaggle 'Unit Price: 350.00' and matches live BD pharmacies and Arogga web retail (BDT 335.83-350.00); Arogga API pv_mrp=35 has the same Strip=10 scaling error.",
+        "Diazox 500 mg (sourceId=27152) -> VERIFIED_CORRECTION_CANDIDATE (100/1200 -> 10/120): NOT a strip swap (stripUnits=None, packUnits=12). Legacy medex.db/Kaggle carried an upstream 10x error (100/1200); live MedEx and Arogga both confirm 10.00/tab and 120.00/12-pack."
+      ]
+    },
+    "benchmark243OriginAnalysis": {
+      "total": 243,
+      "confirmedArtificialDefaults": 239,
+      "authentic10BdtUnitPricesFlaggedDueToStripDivisibility": 4,
+      "subPatterns": {
+        "8.00_per_unit_30_pack_280.00": {
+          "count": 194,
+          "inMedexDb": 194,
+          "arithmeticValid": false,
+          "explanation": "All 194 came verbatim from medex.db placeholder 'Unit Price: 8.00 (30s pack: 280.00)' (8 * 30 = 240 != 280). Zero match live Arogga."
+        },
+        "12.04_per_unit_30_pack_300.48": {
+          "count": 15,
+          "inMedexDb": 15,
+          "arithmeticValid": false,
+          "explanation": "All 15 came verbatim from medex.db placeholder 'Unit Price: 12.04 (30s pack: 300.48)' (12.04 * 30 = 361.20 != 300.48). Zero match live Arogga."
+        },
+        "10.00_per_unit_30_pack_300.00": {
+          "count": 34,
+          "artificialDefaultCount": 30,
+          "genuineUnitPrice10Count": 4,
+          "explanation": "30 rows carried artificial 10.00/300.00 defaults (e.g., Rematib 15 = 250/tab, Coltinib 15 = 130/tab, Emjard M XR 25 = 50/tab). The other 4 (Stafoxin 500, Delzo 30, Epastat 50, Calgi-D) truly cost BDT 10/unit per MedEx & Arogga and entered conflicts due to strip divisibility against 30."
+        }
+      },
+      "packageVariantIntegrityCatch": {
+        "countWrongPackageVariantIn243": 165,
+        "examples": [
+          "Aleena 4 mg & Dancy 4 mg: Arogga pv_mrp=400 is for one 28-tab ('24 white+4 Green') pack, NOT per-tablet (avoided bogus 12,000 packPrice).",
+          "Biocal Kit: Arogga Box(31)=1,700 is a heterogeneous kit (1 Ibandronate + 30 Calcium/D3); cannot price synthetic 30's pack.",
+          "Liana, Estellis, Femoston (3 strengths): 28-day contraceptive/HRT calendar packs; no 30's pack exists.",
+          "Epastat 50 (14's/42's) & Calgi-D (8's/32's): BDT 10 unit price is real, but synthetic 30's pack violates strip divisibility.",
+          "156 uniform tablet/capsule brands (4's, 6's, 7's, 8's, 10's, 14's, 15's, 20's, 28's, 50's): Arogga pu lacks Box(30); replacement 30's packPrice is NOT calculated without explicit source 30's box support (Evadol 2 mg noted separately where live MedEx lists 3x10=540 while Arogga lists only Box(10))."
+        ]
+      }
+    },
+    "corrupt1BdtRootCauseAnalysis": {
+      "total": 34,
+      "commaTruncationFrom1xxxBdt": 30,
+      "legacy1BdtListings": 4,
+      "verifiedCorrections": 28,
+      "sourceConflictsHeld": 5,
+      "wrongPackageVariantsHeld": 1
+    }
+  },
+  "proposedCorrectionsSummary": {
+    "count": 104,
+    "executed": false
+  }
+}

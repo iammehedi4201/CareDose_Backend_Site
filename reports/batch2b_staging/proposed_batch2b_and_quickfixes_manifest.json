@@ -1,0 +1,1259 @@
+{
+  "generatedAt": "2026-11-25T08:44:05.914Z",
+  "databaseBaselineCounts": {
+    "generics": 1846,
+    "brands": 25208,
+    "packs": 27468
+  },
+  "summary": {
+    "subbatchA1_liveMedex200PricesCount": 16,
+    "subbatchA2_multiPharmacyMedex404BiologicsCount": 2,
+    "subbatchB_staleWarningCleanupsCount": 3,
+    "subbatchC1_verifiedStripHygieneCount": 9,
+    "heldC2_carvaMigrationDecisionCount": 1,
+    "subbatchD1_verifiedZeroPackBackfillsCount": 7,
+    "heldD2_sultolinRefillDuplicateDecisionCount": 1,
+    "defaultReadyExecutableTotal": 35,
+    "optionalWithA2BiologicsTotal": 37
+  },
+  "subbatchA1_liveMedex200Prices_16": [
+    {
+      "priorityRank": 47,
+      "packId": "1d05c010-8033-4f39-a85b-c1fbcda41328",
+      "brandId": "97cd5ede-760f-4f2b-b7f1-b7bb38505bbb",
+      "sourceId": "15150",
+      "brandName": "Trastunix",
+      "genericName": "Trastuzumab",
+      "strength": "440 mg/20 ml",
+      "dosageForm": "IV Infusion",
+      "manufacturer": "Beacon Pharmaceuticals Ltd.",
+      "packQuantity": "440 mg vial",
+      "packUnits": null,
+      "stripUnits": null,
+      "currentValues": {
+        "unitPrice": null,
+        "packPrice": "80",
+        "currency": "BDT",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "proposedValues": {
+        "packPrice": "58005.00"
+      },
+      "confidence": "HIGH_LIVE_MEDEX_HTTP_200_VERIFIED",
+      "evidence": {
+        "liveMedexUrl": "https://medex.com.bd/brands/15150/trastunix-440-mg-iv-infusion",
+        "liveMedexText": "440 mg vial: ৳ 58,005.00",
+        "kaggleContainerString": "440 mg vial: ৳ 80,000.00",
+        "aroggaExpectedPackPrice": 80000,
+        "note": "Live MedEx revised MRP down from historical Kaggle/Arogga 80,000.00."
+      }
+    },
+    {
+      "priorityRank": 48,
+      "packId": "235c06ac-1b2c-49aa-98b1-9bd53b27b36b",
+      "brandId": "c3fe679d-5644-44e8-95c2-9111e7ca255b",
+      "sourceId": "5868",
+      "brandName": "Solu-Medrol",
+      "genericName": "Methylprednisolone Sodium Succcinate",
+      "strength": "1 gm/vial",
+      "dosageForm": "IM/IV Injection",
+      "manufacturer": "Pfizer",
+      "packQuantity": "1 gm vial",
+      "packUnits": null,
+      "stripUnits": null,
+      "currentValues": {
+        "unitPrice": null,
+        "packPrice": "2",
+        "currency": "BDT",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "proposedValues": {
+        "packPrice": "3028.00"
+      },
+      "confidence": "HIGH_LIVE_MEDEX_HTTP_200_VERIFIED",
+      "evidence": {
+        "liveMedexUrl": "https://medex.com.bd/brands/5868/solu-medrol-1-gm-imiv-injection",
+        "liveMedexText": "1 gm vial: ৳ 3,028.00",
+        "kaggleContainerString": "1 gm vial: ৳ 2,050.00",
+        "aroggaExpectedPackPrice": 3360.36,
+        "note": "Live MedEx current MRP (between historical Kaggle 2,050 and Arogga 3,360.36)."
+      }
+    },
+    {
+      "priorityRank": 49,
+      "packId": "3f8c8c05-5006-4b78-9fdb-d93df9ca99ef",
+      "brandId": "f9316166-1e53-4d09-b62c-092e2c047cf0",
+      "sourceId": "14952",
+      "brandName": "Zoledron",
+      "genericName": "Zoledronic Acid [For osteoporosis]",
+      "strength": "5 mg/100 ml",
+      "dosageForm": "IV Infusion",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "packQuantity": "100 ml bottle",
+      "packUnits": null,
+      "stripUnits": null,
+      "currentValues": {
+        "unitPrice": null,
+        "packPrice": "5",
+        "currency": "BDT",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "proposedValues": {
+        "packPrice": "5950.00"
+      },
+      "confidence": "HIGH_LIVE_MEDEX_HTTP_200_VERIFIED",
+      "evidence": {
+        "liveMedexUrl": "https://medex.com.bd/brands/14952/zoledron-5-mg-iv-infusion",
+        "liveMedexText": "100 ml bottle: ৳ 5,950.00",
+        "kaggleContainerString": "100 ml bottle: ৳ 5,950.00",
+        "aroggaExpectedPackPrice": 5967.89,
+        "note": "Live MedEx matches historical Kaggle 5,950.00 (Arogga 5,967.89)."
+      }
+    },
+    {
+      "priorityRank": 50,
+      "packId": "57f1158b-1641-4ada-8882-0307fbfdfb7e",
+      "brandId": "beb50185-3b71-4e5b-bbc1-ce27537940f2",
+      "sourceId": "30204",
+      "brandName": "Tocoban",
+      "genericName": "Atosiban Acetate",
+      "strength": "37.5 mg/5 ml",
+      "dosageForm": "IV Infusion",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "packQuantity": "5 ml vial",
+      "packUnits": null,
+      "stripUnits": null,
+      "currentValues": {
+        "unitPrice": null,
+        "packPrice": "2",
+        "currency": "BDT",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "proposedValues": {
+        "packPrice": "2500.00"
+      },
+      "confidence": "HIGH_LIVE_MEDEX_HTTP_200_VERIFIED",
+      "evidence": {
+        "liveMedexUrl": "https://medex.com.bd/brands/30204/tocoban-375-mg-iv-infusion",
+        "liveMedexText": "5 ml vial: ৳ 2,500.00",
+        "kaggleContainerString": "5 ml vial: ৳ 2,500.00",
+        "aroggaExpectedPackPrice": 2500,
+        "note": "3-way exact match: Live MedEx 2,500 == Arogga #44656 2,500 == Kaggle 2,500."
+      }
+    },
+    {
+      "priorityRank": 51,
+      "packId": "5d0ea507-c469-40a4-ba6d-9c2b231421ba",
+      "brandId": "7699617c-ce3e-48cd-a6aa-46ea09f202a5",
+      "sourceId": "32012",
+      "brandName": "Zavicefta",
+      "genericName": "Ceftazidime + Avibactam",
+      "strength": "(2 gm+0.5 gm)/vial",
+      "dosageForm": "IV Infusion",
+      "manufacturer": "Pfizer",
+      "packQuantity": "2.5 gm vial",
+      "packUnits": null,
+      "stripUnits": null,
+      "currentValues": {
+        "unitPrice": null,
+        "packPrice": "6",
+        "currency": "BDT",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "proposedValues": {
+        "packPrice": "9285.00"
+      },
+      "confidence": "HIGH_LIVE_MEDEX_HTTP_200_VERIFIED",
+      "evidence": {
+        "liveMedexUrl": "https://medex.com.bd/brands/32012/zavicefta-2-gm-iv-infusion",
+        "liveMedexText": "2.5 gm vial: ৳ 9,285.00 (1 x 10: ৳ 92,850.00)",
+        "kaggleContainerString": "2.5 gm vial: ৳ 6,460.00,(10's pack: ৳ 64,600.00),",
+        "aroggaExpectedPackPrice": 6460,
+        "note": "Live MedEx revised MRP up from historical Kaggle/Arogga 6,460.00."
+      }
+    },
+    {
+      "priorityRank": 52,
+      "packId": "75285c7a-6a23-4499-995e-3e443108da58",
+      "brandId": "7699617c-ce3e-48cd-a6aa-46ea09f202a5",
+      "sourceId": "32012",
+      "brandName": "Zavicefta",
+      "genericName": "Ceftazidime + Avibactam",
+      "strength": "(2 gm+0.5 gm)/vial",
+      "dosageForm": "IV Infusion",
+      "manufacturer": "Pfizer",
+      "packQuantity": "10's pack",
+      "packUnits": 10,
+      "stripUnits": null,
+      "currentValues": {
+        "unitPrice": null,
+        "packPrice": "64",
+        "currency": "BDT",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "proposedValues": {
+        "packPrice": "92850.00"
+      },
+      "confidence": "HIGH_LIVE_MEDEX_HTTP_200_VERIFIED",
+      "evidence": {
+        "liveMedexUrl": "https://medex.com.bd/brands/32012/zavicefta-2-gm-iv-infusion",
+        "liveMedexText": "2.5 gm vial: ৳ 9,285.00 (1 x 10: ৳ 92,850.00)",
+        "kaggleContainerString": "2.5 gm vial: ৳ 6,460.00,(10's pack: ৳ 64,600.00),",
+        "aroggaExpectedPackPrice": 6460,
+        "note": "Live MedEx 1x10 pack MRP 92,850.00 (10 * 9,285.00); preserves unitPrice=null to match Moxin pattern."
+      }
+    },
+    {
+      "priorityRank": 53,
+      "packId": "79d09fdd-067f-4bbf-9597-0a92625574f1",
+      "brandId": "612009e8-57c5-45df-ad80-9f4c41912746",
+      "sourceId": "21062",
+      "brandName": "Diapamiro",
+      "genericName": "Iopamidol",
+      "strength": "370 mg/ml",
+      "dosageForm": "Injection",
+      "manufacturer": "Techno Drugs Ltd.",
+      "packQuantity": "100 ml vial",
+      "packUnits": null,
+      "stripUnits": null,
+      "currentValues": {
+        "unitPrice": null,
+        "packPrice": "2",
+        "currency": "BDT",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "proposedValues": {
+        "packPrice": "2410.00"
+      },
+      "confidence": "HIGH_LIVE_MEDEX_HTTP_200_VERIFIED",
+      "evidence": {
+        "liveMedexUrl": "https://medex.com.bd/brands/34200/diapamiro-370-mg-injection",
+        "liveMedexText": "100 ml vial: ৳ 2,410.00",
+        "kaggleContainerString": "100 ml vial: ৳ 2,100.00",
+        "aroggaExpectedPackPrice": 2410,
+        "note": "Old /brands/21062 slug 404s; canonical MedEx 100 ml page /brands/34200 & Arogga #43848 (stock=1) confirm 2,410.00."
+      }
+    },
+    {
+      "priorityRank": 54,
+      "packId": "7a3c76f4-da30-4919-9a14-79122dc972b4",
+      "brandId": "f335ea3b-d9d2-4763-bc60-f1737b0990cd",
+      "sourceId": "31899",
+      "brandName": "Tolosa",
+      "genericName": "Tocilizumab",
+      "strength": "80 mg/4 ml",
+      "dosageForm": "IV Infusion",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "packQuantity": "4 ml vial",
+      "packUnits": null,
+      "stripUnits": null,
+      "currentValues": {
+        "unitPrice": null,
+        "packPrice": "8",
+        "currency": "BDT",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "proposedValues": {
+        "packPrice": "8500.00"
+      },
+      "confidence": "HIGH_LIVE_MEDEX_HTTP_200_VERIFIED",
+      "evidence": {
+        "liveMedexUrl": "https://medex.com.bd/brands/31899/tolosa-80-mg-iv-infusion",
+        "liveMedexText": "4 ml vial: ৳ 8,500.00",
+        "kaggleContainerString": "4 ml vial: ৳ 8,500.00",
+        "aroggaExpectedPackPrice": 8500,
+        "note": "3-way exact match: Live MedEx 8,500 == Arogga 8,500 == Kaggle 8,500."
+      }
+    },
+    {
+      "priorityRank": 55,
+      "packId": "882b6259-a0a4-44a5-ad62-664b6bc6034e",
+      "brandId": "5ffb4179-4455-4f90-8b8f-c37b5dd0816d",
+      "sourceId": "15196",
+      "brandName": "Sandostatin",
+      "genericName": "Octreotide Acetate",
+      "strength": "50 mcg/ml",
+      "dosageForm": "Injection",
+      "manufacturer": "Novartis (Bangladesh) Ltd.",
+      "packQuantity": "5's pack",
+      "packUnits": 5,
+      "stripUnits": null,
+      "currentValues": {
+        "unitPrice": null,
+        "packPrice": "7",
+        "currency": "BDT",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "proposedValues": {
+        "packPrice": "1810.00"
+      },
+      "confidence": "HIGH_LIVE_MEDEX_HTTP_200_VERIFIED",
+      "evidence": {
+        "liveMedexUrl": "https://medex.com.bd/brands/15196/sandostatin-50-mcg-injection",
+        "liveMedexText": "1 ml ampoule: ৳ 362.00 (1 x 5: ৳ 1,810.00)",
+        "kaggleContainerString": "1 ml ampoule: ৳ 1,405.13,(5's pack: ৳ 7,025.66),",
+        "aroggaExpectedPackPrice": 7000,
+        "note": "Live MedEx Novartis revised MRP down to 362/amp (1,810/5's box vs old 7,025.66); preserves unitPrice=null."
+      }
+    },
+    {
+      "priorityRank": 56,
+      "packId": "8fb9f807-eae5-4515-afe0-7b2373d2b130",
+      "brandId": "868b999c-ad78-4b50-9046-48683496802a",
+      "sourceId": "17283",
+      "brandName": "Zerlinda",
+      "genericName": "Zoledronic Acid [For hypercalcemia]",
+      "strength": "4 mg/5 ml",
+      "dosageForm": "IV Infusion",
+      "manufacturer": "BOTS Pvt. Limited",
+      "packQuantity": "4 mg vial",
+      "packUnits": null,
+      "stripUnits": null,
+      "currentValues": {
+        "unitPrice": null,
+        "packPrice": "7",
+        "currency": "BDT",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "proposedValues": {
+        "packPrice": "7800.00"
+      },
+      "confidence": "HIGH_LIVE_MEDEX_HTTP_200_VERIFIED",
+      "evidence": {
+        "liveMedexUrl": "https://medex.com.bd/brands/17283/zerlinda-4-mg-iv-infusion",
+        "liveMedexText": "4 mg vial: ৳ 7,800.00",
+        "kaggleContainerString": "4 mg vial: ৳ 7,800.00",
+        "aroggaExpectedPackPrice": 7800,
+        "note": "3-way exact match: Live MedEx 7,800 == Arogga 7,800 == Kaggle 7,800."
+      }
+    },
+    {
+      "priorityRank": 57,
+      "packId": "a8d1816e-e81c-45fa-9634-2f603c5757d4",
+      "brandId": "2b033aa2-a5ef-4c8a-b0be-2d6c15bcbe70",
+      "sourceId": "15164",
+      "brandName": "Simulect",
+      "genericName": "Basiliximab",
+      "strength": "20 mg/vial",
+      "dosageForm": "IV Infusion",
+      "manufacturer": "Novartis (Bangladesh) Ltd.",
+      "packQuantity": "20 mg vial",
+      "packUnits": null,
+      "stripUnits": null,
+      "currentValues": {
+        "unitPrice": null,
+        "packPrice": "103",
+        "currency": "BDT",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "proposedValues": {
+        "packPrice": "143195.00"
+      },
+      "confidence": "HIGH_LIVE_MEDEX_HTTP_200_VERIFIED",
+      "evidence": {
+        "liveMedexUrl": "https://medex.com.bd/brands/15164/simulect-20-mg-iv-infusion",
+        "liveMedexText": "20 mg vial: ৳ 143,195.00",
+        "kaggleContainerString": "20 mg vial: ৳ 103,273.56",
+        "aroggaExpectedPackPrice": 103273,
+        "note": "Live MedEx Novartis revised MRP up from historical 103,273.56 / 103,273."
+      }
+    },
+    {
+      "priorityRank": 58,
+      "packId": "ac2fd04a-f109-486f-9bc2-cb314a05d226",
+      "brandId": "4b21ed78-3b4c-4482-b705-2e1f0562583b",
+      "sourceId": "15127",
+      "brandName": "Tasigna",
+      "genericName": "Nilotinib",
+      "strength": "200 mg",
+      "dosageForm": "Capsule",
+      "manufacturer": "Novartis (Bangladesh) Ltd.",
+      "packQuantity": null,
+      "packUnits": null,
+      "stripUnits": null,
+      "currentValues": {
+        "unitPrice": "3",
+        "packPrice": null,
+        "currency": "BDT",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "proposedValues": {
+        "unitPrice": "475.00"
+      },
+      "confidence": "HIGH_LIVE_MEDEX_HTTP_200_VERIFIED",
+      "evidence": {
+        "liveMedexUrl": "https://medex.com.bd/brands/15127/tasigna-200-mg-capsule",
+        "liveMedexText": "Unit Price: ৳ 475.00 (2 x 14: ৳ 13,300.00) Strip Price: ৳ 6,650.00",
+        "kaggleContainerString": "Unit Price: ৳ 3,051.50,(28's pack: ৳ 85,441.90),",
+        "aroggaExpectedPackPrice": null,
+        "note": "Live MedEx Novartis revised unit MRP down from historical 3,051.50 to 475.00; DB comma-truncated 3,051.50 to 3."
+      }
+    },
+    {
+      "priorityRank": 59,
+      "packId": "ac84743b-ac1c-4821-a276-7d1d62c75b72",
+      "brandId": "f08f6de6-2af3-4a01-a08c-7413ee7c1591",
+      "sourceId": "28431",
+      "brandName": "Amidol",
+      "genericName": "Iopamidol",
+      "strength": "370 mg/ml",
+      "dosageForm": "Injection",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "packQuantity": "100 ml vial",
+      "packUnits": null,
+      "stripUnits": null,
+      "currentValues": {
+        "unitPrice": null,
+        "packPrice": "2",
+        "currency": "BDT",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "proposedValues": {
+        "packPrice": "2636.00"
+      },
+      "confidence": "HIGH_LIVE_MEDEX_HTTP_200_VERIFIED",
+      "evidence": {
+        "liveMedexUrl": "https://medex.com.bd/brands/34198/amidol-370-mg-injection",
+        "liveMedexText": "100 ml vial: ৳ 2,636.00",
+        "kaggleContainerString": "100 ml vial: ৳ 2,636.00",
+        "aroggaExpectedPackPrice": 2636,
+        "note": "Old /brands/28431 slug 404s; canonical MedEx 100 ml page /brands/34198 == Arogga #27390 == Kaggle 2,636.00."
+      }
+    },
+    {
+      "priorityRank": 61,
+      "packId": "c4d0923b-d557-4108-a69c-772c84dfd4bf",
+      "brandId": "42afd5ad-ff92-43b6-8934-67cdbd700040",
+      "sourceId": "25437",
+      "brandName": "Zoltero",
+      "genericName": "Zoledronic Acid [For osteoporosis]",
+      "strength": "5 mg/100 ml",
+      "dosageForm": "IV Infusion",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "packQuantity": "100 ml bottle",
+      "packUnits": null,
+      "stripUnits": null,
+      "currentValues": {
+        "unitPrice": null,
+        "packPrice": "7",
+        "currency": "BDT",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "proposedValues": {
+        "packPrice": "7000.00"
+      },
+      "confidence": "HIGH_LIVE_MEDEX_HTTP_200_VERIFIED",
+      "evidence": {
+        "liveMedexUrl": "https://medex.com.bd/brands/25437/zoltero-5-mg-iv-infusion",
+        "liveMedexText": "100 ml bottle: ৳ 7,000.00",
+        "kaggleContainerString": "100 ml bottle: ৳ 7,000.00",
+        "aroggaExpectedPackPrice": 7000,
+        "note": "3-way exact match: Live MedEx 7,000 == Arogga 7,000 == Kaggle 7,000."
+      }
+    },
+    {
+      "priorityRank": 63,
+      "packId": "d1499929-fedf-4f25-bc31-0f300c5c8236",
+      "brandId": "e5037963-638b-4ae0-81ba-b3ef0004428f",
+      "sourceId": "17269",
+      "brandName": "Xoleron",
+      "genericName": "Zoledronic Acid [For hypercalcemia]",
+      "strength": "4 mg/5 ml",
+      "dosageForm": "IV Infusion",
+      "manufacturer": "Beacon Pharmaceuticals Ltd.",
+      "packQuantity": "4 mg vial",
+      "packUnits": null,
+      "stripUnits": null,
+      "currentValues": {
+        "unitPrice": null,
+        "packPrice": "5",
+        "currency": "BDT",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "proposedValues": {
+        "packPrice": "6000.00"
+      },
+      "confidence": "HIGH_LIVE_MEDEX_HTTP_200_VERIFIED",
+      "evidence": {
+        "liveMedexUrl": "https://medex.com.bd/brands/17269/xoleron-4-mg-iv-infusion",
+        "liveMedexText": "4 mg vial: ৳ 6,000.00",
+        "kaggleContainerString": "4 mg vial: ৳ 5,000.00",
+        "aroggaExpectedPackPrice": 6000,
+        "note": "2-way live match: Live MedEx 6,000 == Live Arogga 6,000 (revised up from Kaggle 5,000)."
+      }
+    },
+    {
+      "priorityRank": 64,
+      "packId": "fa72a730-3016-406a-8ee2-50e2df6ad9a7",
+      "brandId": "29ca448b-fc21-4e1b-9d33-e8e7d588fc21",
+      "sourceId": "14949",
+      "brandName": "Zometa",
+      "genericName": "Zoledronic Acid [For hypercalcemia]",
+      "strength": "4 mg/5 ml",
+      "dosageForm": "IV Infusion",
+      "manufacturer": "Novartis (Bangladesh) Ltd.",
+      "packQuantity": "4 mg vial",
+      "packUnits": null,
+      "stripUnits": null,
+      "currentValues": {
+        "unitPrice": null,
+        "packPrice": "30",
+        "currency": "BDT",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "proposedValues": {
+        "packPrice": "10182.92"
+      },
+      "confidence": "HIGH_LIVE_MEDEX_HTTP_200_VERIFIED",
+      "evidence": {
+        "liveMedexUrl": "https://medex.com.bd/brands/14949/zometa-4-mg-iv-infusion",
+        "liveMedexText": "4 mg vial: ৳ 10,182.92",
+        "kaggleContainerString": "4 mg vial: ৳ 30,113.60",
+        "aroggaExpectedPackPrice": 26122,
+        "note": "Live MedEx Novartis revised MRP down to 10,182.92 (vs historical Kaggle 30,113.60 / Arogga 26,122)."
+      }
+    }
+  ],
+  "subbatchA2_rocheBiologicsMultiPharmacyConfirmed_2": [
+    {
+      "priorityRank": 60,
+      "packId": "b98aec67-7bc5-43cf-a79d-ab5b8d58e97c",
+      "brandId": "fc2444ca-9446-4c56-ba35-79806fe54cab",
+      "sourceId": "29458",
+      "brandName": "Actemra",
+      "genericName": "Tocilizumab",
+      "strength": "400 mg/20 ml",
+      "dosageForm": "IV Infusion",
+      "manufacturer": "Roche Bangladesh Ltd.",
+      "packQuantity": "20 ml vial",
+      "packUnits": null,
+      "stripUnits": null,
+      "currentValues": {
+        "unitPrice": null,
+        "packPrice": "43",
+        "currency": "BDT",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "proposedValues": {
+        "packPrice": "43500.00"
+      },
+      "confidence": "MEDIUM_HIGH_MULTI_PHARMACY_CONFIRMED_MEDEX_404",
+      "holdReason": "HTTP 404 on /brands/29458 (cold-chain distributor SKU unlisted on public MedEx)",
+      "confirmingSources": [
+        "Kaggle MedEx export: 20 ml vial: ৳ 43,500.00",
+        "Arogga #32383: 43,500",
+        "MedEasy: ৳ 43,500 MRP"
+      ]
+    },
+    {
+      "priorityRank": 62,
+      "packId": "c5cc6d1b-8059-49cf-9ce5-9094bf7125d2",
+      "brandId": "b444f9da-931b-44b7-8f07-734188aab9ec",
+      "sourceId": "26086",
+      "brandName": "Mabthera",
+      "genericName": "Rituximab",
+      "strength": "1400 mg/11.7 ml",
+      "dosageForm": "SC Injection",
+      "manufacturer": "Roche Bangladesh Ltd.",
+      "packQuantity": "1400 mg vial",
+      "packUnits": null,
+      "stripUnits": null,
+      "currentValues": {
+        "unitPrice": null,
+        "packPrice": "65",
+        "currency": "BDT",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "proposedValues": {
+        "packPrice": "65500.00"
+      },
+      "confidence": "MEDIUM_HIGH_MULTI_PHARMACY_CONFIRMED_MEDEX_404",
+      "holdReason": "HTTP 404 on /brands/26086 (cold-chain Radiant distributor SKU unlisted on public MedEx)",
+      "confirmingSources": [
+        "Kaggle MedEx export: 1400 mg vial: ৳ 65,500.00",
+        "Arogga #36110: 65,500",
+        "OsudPotro: ৳ 62,225 (exact 5% off 65,500)"
+      ]
+    }
+  ],
+  "subbatchB_staleWarningCleanups_3": [
+    {
+      "packId": "fb327448-4c41-48c1-ad9e-7107bdc70ac4",
+      "brandId": "0e87f5a5-5929-4082-8d5f-a1689583b2dd",
+      "sourceId": "37244",
+      "brandName": "Montinex Fast",
+      "genericName": "Montelukast Sodium",
+      "strength": "10 mg",
+      "dosageForm": "Chewable Tablet",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "currentValues": {
+        "unitPrice": "18",
+        "packPrice": "540",
+        "currency": "BDT",
+        "verification": "UNVERIFIED",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "warnings": []
+      },
+      "decimalVerification": "18 * 30 = 540 (exact)",
+      "confidence": "HIGH_METADATA_HYGIENE"
+    },
+    {
+      "packId": "f8eea2b6-fd7a-4f7e-a824-6c8863517fd6",
+      "brandId": "76576ea9-5874-49d0-b84e-233354c0559a",
+      "sourceId": "38441",
+      "brandName": "Fenadin ODT",
+      "genericName": "Fexofenadine Hydrochloride",
+      "strength": "30 mg",
+      "dosageForm": "Dispersible Tablet",
+      "manufacturer": "Renata PLC",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "currentValues": {
+        "unitPrice": "3.5",
+        "packPrice": "105",
+        "currency": "BDT",
+        "verification": "UNVERIFIED",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "warnings": []
+      },
+      "decimalVerification": "3.5 * 30 = 105 (exact)",
+      "confidence": "HIGH_METADATA_HYGIENE"
+    },
+    {
+      "packId": "bf305547-224d-43e0-afa3-0756f3b23b74",
+      "brandId": "53a69440-5e6f-45f6-9268-9c39ac0e824f",
+      "sourceId": "36620",
+      "brandName": "Panzest 25000",
+      "genericName": "Pancreatin [High Lipase]",
+      "strength": "300 mg",
+      "dosageForm": "Capsule (Enteric Coated)",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "currentValues": {
+        "unitPrice": "50",
+        "packPrice": "1500",
+        "currency": "BDT",
+        "verification": "UNVERIFIED",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "warnings": []
+      },
+      "decimalVerification": "50 * 30 = 1500 (exact)",
+      "confidence": "HIGH_METADATA_HYGIENE"
+    }
+  ],
+  "subbatchC1_verifiedStripHygiene_9": [
+    {
+      "priorityRank": 73,
+      "packId": "0493326d-ce7d-4dbe-8791-25733fd79657",
+      "brandId": "88efc22c-56ff-4da2-9854-b6cfd701c406",
+      "sourceId": "17259",
+      "brandName": "Linamide",
+      "genericName": "Lenalidomide",
+      "strength": "25 mg",
+      "dosageForm": "Capsule",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "packQuantity": "18's pack",
+      "packUnits": 18,
+      "currentValues": {
+        "stripUnits": 7,
+        "unitPrice": "400",
+        "packPrice": "7200",
+        "currency": "BDT",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "proposedValues": {
+        "stripUnits": 6
+      },
+      "confidence": "HIGH_LIVE_MEDEX_VERIFIED_PACKAGING",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/17259/linamide-25-mg-capsule",
+        "liveMedexText": "Unit Price: ৳ 400.00 (3 x 6: ৳ 7,200.00) Strip Price: ৳ 2,400.00",
+        "rationale": "Live MedEx /brands/17259 ('3 x 6: ৳ 7,200.00', Strip ৳2,400) & Arogga confirm Linamide 25 mg 18's pack is 3x6; stripUnits=7 was inherited from 21's pack."
+      }
+    },
+    {
+      "priorityRank": 65,
+      "packId": "46e2b822-87fb-4bdc-88c5-df93de4a11bd",
+      "brandId": "7573a73b-6701-4ef2-b791-62202f039f8c",
+      "sourceId": "253",
+      "brandName": "Albamax DS",
+      "genericName": "Albendazole",
+      "strength": "400 mg",
+      "dosageForm": "Chewable Tablet",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "packQuantity": "25 x 1",
+      "packUnits": 25,
+      "currentValues": {
+        "stripUnits": 1,
+        "unitPrice": "5",
+        "packPrice": "125",
+        "currency": "BDT",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "proposedValues": {
+        "stripUnits": null
+      },
+      "confidence": "HIGH_LIVE_MEDEX_VERIFIED_PACKAGING",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/253/albamax-ds-400-mg-chewable-tablet",
+        "liveMedexText": "Unit Price: ৳ 5.00 (25 x 1: ৳ 125.00) Strip Price: ৳ 5.00",
+        "rationale": "Live MedEx /brands/253 confirms single-blister 25 x 1 box (Strip Price ৳5.00 = Unit Price); clear stripUnits=1 to NULL per stock-calculator >1 rule."
+      }
+    },
+    {
+      "priorityRank": 66,
+      "packId": "496da6df-df74-461f-afca-949fba59393e",
+      "brandId": "e8c410a5-f506-4fd4-9303-d959b7e4d41e",
+      "sourceId": "297",
+      "brandName": "Ben-A",
+      "genericName": "Albendazole",
+      "strength": "400 mg",
+      "dosageForm": "Chewable Tablet",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "packQuantity": "25 x 1",
+      "packUnits": 25,
+      "currentValues": {
+        "stripUnits": 1,
+        "unitPrice": "5.01",
+        "packPrice": "125.25",
+        "currency": "BDT",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "proposedValues": {
+        "stripUnits": null
+      },
+      "confidence": "HIGH_LIVE_MEDEX_VERIFIED_PACKAGING",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/297/ben-a-400-mg-chewable-tablet",
+        "liveMedexText": "Unit Price: ৳ 5.01 (25 x 1: ৳ 125.25) Strip Price: ৳ 5.01",
+        "rationale": "Live MedEx /brands/297 confirms single-blister 25 x 1 box (Strip Price ৳5.01 = Unit Price); clear stripUnits=1 to NULL."
+      }
+    },
+    {
+      "priorityRank": 67,
+      "packId": "8af3d2d8-dfa5-4ccb-894d-a4d061a74d85",
+      "brandId": "1ed0ad28-16c0-4c0c-a09b-55aa44a48576",
+      "sourceId": "286",
+      "brandName": "Alphin DS",
+      "genericName": "Albendazole",
+      "strength": "400 mg",
+      "dosageForm": "Chewable Tablet",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "packQuantity": "50 x 1",
+      "packUnits": 50,
+      "currentValues": {
+        "stripUnits": 1,
+        "unitPrice": "5",
+        "packPrice": "250",
+        "currency": "BDT",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "proposedValues": {
+        "stripUnits": null
+      },
+      "confidence": "HIGH_LIVE_MEDEX_VERIFIED_PACKAGING",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/286/alphin-ds-400-mg-chewable-tablet",
+        "liveMedexText": "Unit Price: ৳ 5.00 (50 x 1: ৳ 250.00) Strip Price: ৳ 5.00",
+        "rationale": "Live MedEx /brands/286 confirms single-blister 50 x 1 box (Strip Price ৳5.00 = Unit Price); clear stripUnits=1 to NULL."
+      }
+    },
+    {
+      "priorityRank": 68,
+      "packId": "991def77-b06d-443b-9628-538030ae8d01",
+      "brandId": "fb6ab951-4e0f-4fc3-a36f-c14b4403e39c",
+      "sourceId": "274",
+      "brandName": "Aldes DS",
+      "genericName": "Albendazole",
+      "strength": "400 mg",
+      "dosageForm": "Chewable Tablet",
+      "manufacturer": "Desh Pharmaceuticals Ltd.",
+      "packQuantity": "25 x 1",
+      "packUnits": 25,
+      "currentValues": {
+        "stripUnits": 1,
+        "unitPrice": "4",
+        "packPrice": "100",
+        "currency": "BDT",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "proposedValues": {
+        "stripUnits": null
+      },
+      "confidence": "HIGH_LIVE_MEDEX_VERIFIED_PACKAGING",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/274/aldes-ds-400-mg-chewable-tablet",
+        "liveMedexText": "Unit Price: ৳ 4.00 (25 x 1: ৳ 100.00) Strip Price: ৳ 4.00",
+        "rationale": "Live MedEx /brands/274 confirms single-blister 25 x 1 box (Strip Price ৳4.00 = Unit Price); clear stripUnits=1 to NULL."
+      }
+    },
+    {
+      "priorityRank": 70,
+      "packId": "d2c195bf-7144-43d4-8dbf-9c37989c77df",
+      "brandId": "b5818793-f1d7-4c29-a22c-606ff126e120",
+      "sourceId": "272",
+      "brandName": "Aldaben-DS",
+      "genericName": "Albendazole",
+      "strength": "400 mg",
+      "dosageForm": "Chewable Tablet",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "packQuantity": "25 x 1",
+      "packUnits": 25,
+      "currentValues": {
+        "stripUnits": 1,
+        "unitPrice": "5",
+        "packPrice": "125",
+        "currency": "BDT",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "proposedValues": {
+        "stripUnits": null
+      },
+      "confidence": "HIGH_LIVE_MEDEX_VERIFIED_PACKAGING",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/272/aldaben-ds-400-mg-chewable-tablet",
+        "liveMedexText": "Unit Price: ৳ 5.00 (25 x 1: ৳ 125.00) Strip Price: ৳ 5.00",
+        "rationale": "Live MedEx /brands/272 confirms single-blister 25 x 1 box (Strip Price ৳5.00 = Unit Price); clear stripUnits=1 to NULL."
+      }
+    },
+    {
+      "priorityRank": 71,
+      "packId": "d7b6f44a-4688-4aca-8d3a-0c46641de22f",
+      "brandId": "cf070f08-5dda-4f4f-97d8-173f85617a4d",
+      "sourceId": "312",
+      "brandName": "Elmin",
+      "genericName": "Albendazole",
+      "strength": "400 mg",
+      "dosageForm": "Chewable Tablet",
+      "manufacturer": "Jayson Pharmaceutical Ltd.",
+      "packQuantity": "25 x 1",
+      "packUnits": 25,
+      "currentValues": {
+        "stripUnits": 1,
+        "unitPrice": "3.35",
+        "packPrice": "83.75",
+        "currency": "BDT",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "proposedValues": {
+        "stripUnits": null
+      },
+      "confidence": "HIGH_LIVE_MEDEX_VERIFIED_PACKAGING",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/312/elmin-400-mg-chewable-tablet",
+        "liveMedexText": "Unit Price: ৳ 4.50 (25 x 1: ৳ 112.50) Strip Price: ৳ 4.50",
+        "rationale": "Live MedEx /brands/312 confirms single-blister 25 x 1 box; clear stripUnits=1 to NULL. (Separate follow-up price note: DB 3.35/83.75 vs Live MedEx 4.50/112.50.)"
+      }
+    },
+    {
+      "priorityRank": 72,
+      "packId": "e847ab4a-22c4-4a83-a179-f1c56abe43a1",
+      "brandId": "339ddd22-e88a-4799-9584-92e0834f9623",
+      "sourceId": "252",
+      "brandName": "Alba",
+      "genericName": "Albendazole",
+      "strength": "400 mg",
+      "dosageForm": "Chewable Tablet",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "packQuantity": "48 x 1",
+      "packUnits": 48,
+      "currentValues": {
+        "stripUnits": 1,
+        "unitPrice": "4.5",
+        "packPrice": "216",
+        "currency": "BDT",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "proposedValues": {
+        "stripUnits": null
+      },
+      "confidence": "HIGH_LIVE_MEDEX_VERIFIED_PACKAGING",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/252/alba-400-mg-chewable-tablet",
+        "liveMedexText": "Unit Price: ৳ 4.50 (48 x 1: ৳ 216.00) Strip Price: ৳ 4.50",
+        "rationale": "Live MedEx /brands/252 confirms single-blister 48 x 1 box (Strip Price ৳4.50 = Unit Price); clear stripUnits=1 to NULL."
+      }
+    },
+    {
+      "priorityRank": 69,
+      "packId": "d0ce48a4-9c0a-485e-94b3-6fbfeb419fcb",
+      "brandId": "460324b6-f019-4455-a85a-c91953955a05",
+      "sourceId": "13766",
+      "brandName": "B-Vit 4",
+      "genericName": "Vitamin B complex",
+      "strength": "5 mg+2 mg+2 mg+20 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Cosmic Pharma Ltd.",
+      "packQuantity": "200 tablet strip",
+      "packUnits": 200,
+      "currentValues": {
+        "stripUnits": 200,
+        "unitPrice": null,
+        "packPrice": "86",
+        "currency": "BDT",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "proposedValues": {
+        "stripUnits": null
+      },
+      "confidence": "HIGH_LIVE_MEDEX_VERIFIED_PACKAGING",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/13766/b-vit-4-5-mg-tablet",
+        "liveMedexText": "200 tablet strip: ৳ 86.00 45 tablet pot: ৳ 27.00",
+        "rationale": "Per reviewed bVit4Investigation & stock-calculator stripUnits<=100 cap: Live MedEx /brands/13766 confirms '200 tablet strip: ৳ 86.00' vs '45 tablet pot: ৳ 27.00'; clearing stripUnits 200->NULL treats it safely as 200-tab bulk dispenser pack."
+      }
+    }
+  ],
+  "heldC2_carvaPackMigrationDecision_1": {
+    "priorityRank": 74,
+    "packId": "06e61d13-23c9-4c91-9a5b-1f23fc5d213d",
+    "brandId": "246b94f3-145e-4275-8c26-73f0eff8eefb",
+    "sourceId": "3358",
+    "brandName": "Carva",
+    "genericName": "Aspirin",
+    "strength": "75 mg",
+    "dosageForm": "Tablet (Enteric Coated)",
+    "manufacturer": "Square Pharmaceuticals PLC",
+    "currentValues": {
+      "packQuantity": "200's pack",
+      "packUnits": 200,
+      "stripUnits": 15,
+      "unitPrice": "0.63",
+      "packPrice": "126",
+      "warnings": []
+    },
+    "confidence": "HOLD_PACK_MIGRATION_DECISION",
+    "liveMedexObservation": "Unit Price: ৳ 0.80 (13 x 15: ৳ 156.00) Strip Price: ৳ 12.00",
+    "aroggaObservation": "Arogga #3349 holds both historical 200 Box (20x10) and active 195 Box (13x15 @ ৳0.80).",
+    "options": {
+      "optionA_structuralOnlyOnLegacy200Pack": {
+        "stripUnits": 10
+      },
+      "optionB_fullLiveMedexMigration": {
+        "packQuantity": "13 x 15",
+        "packUnits": 195,
+        "stripUnits": 15,
+        "unitPrice": "0.80",
+        "packPrice": "156.00"
+      }
+    }
+  },
+  "subbatchD1_verifiedZeroPackBackfills_7": [
+    {
+      "brandId": "6d37b544-d880-4a77-9741-0512b488eb09",
+      "sourceId": "28858",
+      "brandName": "Sanityza Clear",
+      "genericName": "Chlorhexidine Gluconate + Isopropyl alcohol",
+      "strength": "0.5%+70%",
+      "dosageForm": "Hand Rub",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "existingPackCount": 0,
+      "proposedInsertPack": {
+        "brandId": "6d37b544-d880-4a77-9741-0512b488eb09",
+        "packQuantity": "250 ml bottle (with dispenser)",
+        "packUnits": null,
+        "stripUnits": null,
+        "unitPrice": null,
+        "packPrice": "150.00",
+        "currency": "BDT",
+        "unitPriceLabel": null,
+        "priceSource": "brand_page",
+        "sourceUrl": "https://medex.com.bd/brands/28858/sanityza-clear-05-70-hand-rub",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "confidence": "HIGH_LIVE_MEDEX_AND_AROGGA_CONFIRMED",
+      "evidence": {
+        "liveMedexUrl": "https://medex.com.bd/brands/28858/sanityza-clear-05-70-hand-rub",
+        "liveMedexText": "250 ml bottle (with dispenser): ৳ 150.00",
+        "aroggaConfirm": "Arogga #47952 (stock=1, mrp=150)"
+      }
+    },
+    {
+      "brandId": "75f5e741-a439-487e-b4cc-0cf8416eadf2",
+      "sourceId": "33106",
+      "brandName": "Turmeric",
+      "genericName": "Curcuma Longa [Turmeric Extract]",
+      "strength": "1000 mg",
+      "dosageForm": "Capsule",
+      "manufacturer": "Drug International Ltd.",
+      "existingPackCount": 0,
+      "proposedInsertPack": {
+        "brandId": "75f5e741-a439-487e-b4cc-0cf8416eadf2",
+        "packQuantity": "3 x 10",
+        "packUnits": 30,
+        "stripUnits": 10,
+        "unitPrice": "20.00",
+        "packPrice": "600.00",
+        "currency": "BDT",
+        "unitPriceLabel": "Unit Price",
+        "priceSource": "brand_page",
+        "sourceUrl": "https://medex.com.bd/brands/33106/turmeric-1000-mg-capsule",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "confidence": "HIGH_LIVE_MEDEX_AND_AROGGA_CONFIRMED",
+      "evidence": {
+        "liveMedexUrl": "https://medex.com.bd/brands/33106/turmeric-1000-mg-capsule",
+        "liveMedexText": "Unit Price: ৳ 20.00 (3 x 10: ৳ 600.00) Strip Price: ৳ 200.00",
+        "aroggaConfirm": "Arogga #39716 (stock=1, mrp=20, multipliers=[1,10,30])"
+      }
+    },
+    {
+      "brandId": "9f02bd88-2f65-4ff0-aaf6-7a48ef3a9a3c",
+      "sourceId": "33129",
+      "brandName": "Urican",
+      "genericName": "Cranberry [Vaccinium macrocarpon]",
+      "strength": "400 mg",
+      "dosageForm": "Capsule",
+      "manufacturer": "Drug International Ltd.",
+      "existingPackCount": 0,
+      "proposedInsertPack": {
+        "brandId": "9f02bd88-2f65-4ff0-aaf6-7a48ef3a9a3c",
+        "packQuantity": "8 x 4",
+        "packUnits": 32,
+        "stripUnits": 4,
+        "unitPrice": "18.00",
+        "packPrice": "576.00",
+        "currency": "BDT",
+        "unitPriceLabel": "Unit Price",
+        "priceSource": "brand_page",
+        "sourceUrl": "https://medex.com.bd/brands/33129/urican-400-mg-capsule",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "confidence": "HIGH_LIVE_MEDEX_AND_AROGGA_CONFIRMED",
+      "evidence": {
+        "liveMedexUrl": "https://medex.com.bd/brands/33129/urican-400-mg-capsule",
+        "liveMedexText": "Unit Price: ৳ 18.00 (8 x 4: ৳ 576.00) Strip Price: ৳ 72.00",
+        "aroggaConfirm": "Arogga #39740 (stock=1, mrp=18, multipliers=[1,4,32])"
+      }
+    },
+    {
+      "brandId": "f476f611-d8e2-4fb9-aa34-ebdc0633c3e9",
+      "sourceId": "33103",
+      "brandName": "Veneta",
+      "genericName": "Venetoclax",
+      "strength": "50 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Drug International Ltd.",
+      "existingPackCount": 0,
+      "proposedInsertPack": {
+        "brandId": "f476f611-d8e2-4fb9-aa34-ebdc0633c3e9",
+        "packQuantity": "3 x 10",
+        "packUnits": 30,
+        "stripUnits": 10,
+        "unitPrice": "210.00",
+        "packPrice": "6300.00",
+        "currency": "BDT",
+        "unitPriceLabel": "Unit Price",
+        "priceSource": "brand_page",
+        "sourceUrl": "https://medex.com.bd/brands/33103/veneta-50-mg-tablet",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "confidence": "HIGH_LIVE_MEDEX_AND_AROGGA_CONFIRMED",
+      "evidence": {
+        "liveMedexUrl": "https://medex.com.bd/brands/33103/veneta-50-mg-tablet",
+        "liveMedexText": "Unit Price: ৳ 210.00 (3 x 10: ৳ 6,300.00) Strip Price: ৳ 2,100.00",
+        "aroggaConfirm": "Arogga #34038 (stock=1, mrp=210, multipliers=[1,10,30])"
+      }
+    },
+    {
+      "brandId": "df58acdc-48f3-4e2f-bd08-4e577542b1fd",
+      "sourceId": "33102",
+      "brandName": "Veneta",
+      "genericName": "Venetoclax",
+      "strength": "100 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Drug International Ltd.",
+      "existingPackCount": 0,
+      "proposedInsertPack": {
+        "brandId": "df58acdc-48f3-4e2f-bd08-4e577542b1fd",
+        "packQuantity": "3 x 10",
+        "packUnits": 30,
+        "stripUnits": 10,
+        "unitPrice": "410.00",
+        "packPrice": "12300.00",
+        "currency": "BDT",
+        "unitPriceLabel": "Unit Price",
+        "priceSource": "brand_page",
+        "sourceUrl": "https://medex.com.bd/brands/33102/veneta-100-mg-tablet",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "confidence": "HIGH_LIVE_MEDEX_AND_AROGGA_CONFIRMED",
+      "evidence": {
+        "liveMedexUrl": "https://medex.com.bd/brands/33102/veneta-100-mg-tablet",
+        "liveMedexText": "Unit Price: ৳ 410.00 (3 x 10: ৳ 12,300.00) Strip Price: ৳ 4,100.00",
+        "aroggaConfirm": "Arogga #39004 (stock=1, mrp=410, multipliers=[1,10,30])"
+      }
+    },
+    {
+      "brandId": "818fbf6a-9033-4df5-adce-37d837647b48",
+      "sourceId": "32783",
+      "brandName": "Viera",
+      "genericName": "Voriconazole",
+      "strength": "50 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beacon Pharmaceuticals Ltd.",
+      "existingPackCount": 0,
+      "proposedInsertPack": {
+        "brandId": "818fbf6a-9033-4df5-adce-37d837647b48",
+        "packQuantity": "1 x 10",
+        "packUnits": 10,
+        "stripUnits": 10,
+        "unitPrice": "50.00",
+        "packPrice": "500.00",
+        "currency": "BDT",
+        "unitPriceLabel": "Unit Price",
+        "priceSource": "brand_page",
+        "sourceUrl": "https://medex.com.bd/brands/32783/viera-50-mg-tablet",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "confidence": "HIGH_LIVE_MEDEX_AND_AROGGA_CONFIRMED",
+      "evidence": {
+        "liveMedexUrl": "https://medex.com.bd/brands/32783/viera-50-mg-tablet",
+        "liveMedexText": "Unit Price: ৳ 50.00 (1 x 10: ৳ 500.00) Strip Price: ৳ 500.00",
+        "aroggaConfirm": "Arogga #33922 (stock=1, mrp=50, multipliers=[1,10])"
+      }
+    },
+    {
+      "brandId": "de4a18a0-374b-49a8-a3fd-ae6b2bd0a4ce",
+      "sourceId": "32782",
+      "brandName": "Viera",
+      "genericName": "Voriconazole",
+      "strength": "200 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beacon Pharmaceuticals Ltd.",
+      "existingPackCount": 0,
+      "proposedInsertPack": {
+        "brandId": "de4a18a0-374b-49a8-a3fd-ae6b2bd0a4ce",
+        "packQuantity": "1 x 8",
+        "packUnits": 8,
+        "stripUnits": 8,
+        "unitPrice": "130.00",
+        "packPrice": "1040.00",
+        "currency": "BDT",
+        "unitPriceLabel": "Unit Price",
+        "priceSource": "brand_page",
+        "sourceUrl": "https://medex.com.bd/brands/32782/viera-200-mg-tablet",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "confidence": "HIGH_LIVE_MEDEX_AND_AROGGA_CONFIRMED",
+      "evidence": {
+        "liveMedexUrl": "https://medex.com.bd/brands/32782/viera-200-mg-tablet",
+        "liveMedexText": "Unit Price: ৳ 130.00 (1 x 8: ৳ 1,040.00) Strip Price: ৳ 1,040.00",
+        "aroggaConfirm": "Arogga #33921 (stock=1, mrp=130, multipliers=[1,8])"
+      }
+    }
+  ],
+  "heldD2_sultolinRefillOrDuplicateDecision_1": {
+    "brandId": "d3186950-0749-4bd1-bec5-9bf554e59c65",
+    "sourceId": "3514",
+    "brandName": "Sultolin",
+    "strength": "100 mcg/puff",
+    "dosageForm": "Inhaler",
+    "manufacturer": "Square Pharmaceuticals Ltd.",
+    "existingPackCount": 0,
+    "confidence": "HOLD_DUPLICATE_BRAND_OR_REFILL_DECISION",
+    "finding": "Duplicate sibling MedicineBrand 0804bf0f-69bb-43b1-9197-a2cf6089c6bb (sourceId 3513) already has 200 metered doses @ ৳250.00. Live MedEx /brands/3514 returns 404 because Refill (৳220.00) is now listed under /brands/3513/sultolin-100-mcg-inhaler alongside Arogga #29018 Sultolin Refill.",
+    "options": {
+      "optionA_backfillRefillOn3514": {
+        "packQuantity": "200 metered doses (Refill)",
+        "packPrice": "220.00",
+        "sourceUrl": "https://medex.com.bd/brands/3513/sultolin-100-mcg-inhaler"
+      },
+      "optionB_keep3514EmptyOrAddRefillTo3513": "Add Refill pack to active brand #3513 and leave/retire deprecated #3514 separately."
+    }
+  },
+  "adjacentOutOfScopeObservations": [
+    {
+      "packId": "3e5f0bda-df07-4c57-b87b-025a045d41ed",
+      "brandName": "Amidol 370 mg/100 ml",
+      "packQuantity": "50 ml vial",
+      "currentUnitPrice": null,
+      "currentPackPrice": "1203",
+      "note": "Separate 370 mg/100 ml contrast brand row holds 50 ml vial = 1203; queue for contrast SKU deduplication review."
+    },
+    {
+      "packId": "406d9928-29d8-4313-91a8-06eafde14489",
+      "brandName": "Sandostatin 50 mcg/ml",
+      "packQuantity": "1 ml ampoule",
+      "currentUnitPrice": null,
+      "currentPackPrice": "1",
+      "note": "Sibling Sandostatin 1 ml ampoule currently has packPrice=1 vs Live MedEx ৳362.00 (comma-truncated from historical 1,405.13)."
+    },
+    {
+      "packId": "74da2ebc-d200-4822-81c4-56983a95c17e",
+      "brandName": "Tasigna 200 mg",
+      "packQuantity": "28's pack",
+      "currentUnitPrice": "3051.5",
+      "currentPackPrice": "85442",
+      "note": "Sibling Tasigna 28's pack currently has 3051.50 / 85442.00 vs Live MedEx 475.00 / 13300.00."
+    },
+    {
+      "packId": "8309197e-59a9-4304-b151-dc34becb012f",
+      "brandName": "Diapamiro 370 mg/100 ml",
+      "packQuantity": "50 ml vial",
+      "currentUnitPrice": null,
+      "currentPackPrice": "1203",
+      "note": "Separate 370 mg/100 ml contrast brand row holds 50 ml vial = 1203; queue for contrast SKU deduplication review."
+    },
+    {
+      "packId": "d7b6f44a-4688-4aca-8d3a-0c46641de22f",
+      "brandName": "Elmin 400 mg",
+      "packQuantity": "25 x 1",
+      "currentUnitPrice": "3.35",
+      "currentPackPrice": "83.75",
+      "note": "Sub-batch C1 clears only stripUnits 1->NULL; Live MedEx /brands/312 now shows ৳4.50 / ৳112.50 (future price revision candidate)."
+    }
+  ]
+}

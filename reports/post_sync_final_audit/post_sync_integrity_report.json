@@ -1,0 +1,51 @@
+{
+  "verifiedAt": "2026-11-25T06:14:12.882Z",
+  "readOnlyIsolationVerified": "REPEATABLE READ, READ ONLY",
+  "catalogueCounts": {
+    "generics": 1846,
+    "brands": 25208,
+    "packs": 27468,
+    "zeroPackBrandsCount": 37
+  },
+  "updateIntegrity": {
+    "expectedApproved": 4746,
+    "verifiedApprovedInPostgres": 4746,
+    "approvedMismatches": [],
+    "expectedExcludedRolledBack": 61,
+    "verifiedExcludedRolledBackInPostgres": 61,
+    "excludedMismatches": [],
+    "expectedRemainingUntouched": 22661,
+    "verifiedRemainingUntouchedInPostgres": 22661,
+    "remainingUntouchedMismatches": [],
+    "brandMismatches": 0
+  },
+  "verificationStatusSummary": {
+    "genericsUnverified": 1846,
+    "brandsUnverified": 25208,
+    "packsUnverified": 27468,
+    "packsBdtCurrency": 27468
+  },
+  "duplicateFingerprintCheck": {
+    "dup_full_fingerprint_groups": 3,
+    "dup_brand_qty_units_groups": 3,
+    "import_batches_cnt": 5,
+    "alt_groups_cnt": 2241,
+    "alt_group_brands_cnt": 21696,
+    "med_images_cnt": 52,
+    "users_cnt": 0,
+    "profiles_cnt": 0,
+    "pat_meds_cnt": 0,
+    "schedules_cnt": 0,
+    "dose_events_cnt": 0,
+    "inv_tx_cnt": 0,
+    "purchases_cnt": 0,
+    "readings_cnt": 0
+  },
+  "catFCounts": {
+    "previousPostCleanupCatF": 349,
+    "currentPostSyncCatF": 356,
+    "addedCatFCount": 7,
+    "removedCatFCount": 0,
+    "netChange": 7
+  }
+}

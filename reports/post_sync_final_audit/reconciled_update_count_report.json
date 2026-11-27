@@ -1,0 +1,85 @@
+{
+  "generatedAt": "2026-11-25T12:15:00+06:00",
+  "readOnly": true,
+  "recordCounts": {
+    "originalStagedCount": 4807,
+    "finalApprovedCount": 4746,
+    "excludedRolledBackCount": 61,
+    "sumApprovedPlusExcluded": 4807
+  },
+  "packIdSetChecks": {
+    "stagedDuplicatePackIds": 0,
+    "approvedDuplicatePackIds": 0,
+    "excludedDuplicatePackIds": 0,
+    "approvedIntersectExcludedCount": 0,
+    "missingFromUnionCount": 0,
+    "extraOutsideStagedCount": 0,
+    "exactPartitionVerified": true,
+    "approvedMatchesStagedRecordIdentically": true,
+    "excludedCategoryMatchesStaged": true
+  },
+  "categoryReconciliation": {
+    "PRICE": {
+      "staged": 3470,
+      "approved": 3424,
+      "excluded": 46,
+      "approvedPlusExcludedEqualsStaged": true,
+      "excludedBreakdownByReason": {
+        "WRONG_STRENGTH_CATALOG_MATCH": 2,
+        "UNVERIFIED_MANUFACTURER_MISMATCH": 38,
+        "UNRESOLVED_GENERIC_CONFLICT": 2,
+        "NEW_CAT_G_PARTIAL_PRICE_MISMATCH": 2,
+        "KIT_UNIT_SCALING_ERROR": 2
+      }
+    },
+    "CONTAINER_PRICE": {
+      "staged": 1047,
+      "approved": 1034,
+      "excluded": 13,
+      "approvedPlusExcludedEqualsStaged": true,
+      "excludedBreakdownByReason": {
+        "UNVERIFIED_MANUFACTURER_MISMATCH": 9,
+        "NEW_CAT_G_PARTIAL_PRICE_MISMATCH": 3,
+        "UNRESOLVED_GENERIC_CONFLICT": 1
+      }
+    },
+    "STRIP": {
+      "staged": 171,
+      "approved": 169,
+      "excluded": 2,
+      "approvedPlusExcludedEqualsStaged": true,
+      "excludedBreakdownByReason": {
+        "UNRESOLVED_GENERIC_CONFLICT": 2
+      }
+    },
+    "PRICE+STRIP": {
+      "staged": 119,
+      "approved": 119,
+      "excluded": 0,
+      "approvedPlusExcludedEqualsStaged": true,
+      "excludedBreakdownByReason": {}
+    }
+  },
+  "exclusionReasonByCategoryMatrix": {
+    "WRONG_STRENGTH_CATALOG_MATCH": {
+      "PRICE": 2
+    },
+    "UNVERIFIED_MANUFACTURER_MISMATCH": {
+      "CONTAINER_PRICE": 9,
+      "PRICE": 38
+    },
+    "UNRESOLVED_GENERIC_CONFLICT": {
+      "STRIP": 2,
+      "PRICE": 2,
+      "CONTAINER_PRICE": 1
+    },
+    "NEW_CAT_G_PARTIAL_PRICE_MISMATCH": {
+      "PRICE": 2,
+      "CONTAINER_PRICE": 3
+    },
+    "KIT_UNIT_SCALING_ERROR": {
+      "PRICE": 2
+    }
+  },
+  "discrepancyExplanationNote": "Ground-truth manifest counts in excluded_updates_report.json are PRICE=46, CONTAINER_PRICE=13, STRIP=2 (total=61). Within the 47 UNVERIFIED_MANUFACTURER_MISMATCH exclusions, 38 are PRICE (tablets/capsules/suppositories) and 9 are CONTAINER_PRICE (liquids/injections/topicals/drops), which combined with UNRESOLVED_GENERIC_CONFLICT (2 PRICE, 1 CONTAINER_PRICE, 2 STRIP), NEW_CAT_G_PARTIAL_PRICE_MISMATCH (2 PRICE, 3 CONTAINER_PRICE), WRONG_STRENGTH_CATALOG_MATCH (2 PRICE), and KIT_UNIT_SCALING_ERROR (2 PRICE) sums exactly to 46 PRICE + 13 CONTAINER_PRICE + 2 STRIP = 61. A narrative summary in the prior turn mistakenly split UNVERIFIED_MANUFACTURER_MISMATCH as 34+13 instead of 38+9; the JSON/CSV manifests themselves are exact."
+}

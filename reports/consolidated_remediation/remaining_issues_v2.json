@@ -1,0 +1,358 @@
+{
+  "generatedAt": "2026-11-25T08:05:53.987886+00:00",
+  "readOnlyVerified": true,
+  "resolvedRecordsRemovedFromActiveBatches": {
+    "batch1PriceCorrected_15": [
+      "077fec2d-e5ca-4346-b06d-114c39da0701",
+      "4c764371-c736-41c1-a26d-0ed38e645eff",
+      "501f73eb-19fe-4ca7-8c29-7a66037b4068",
+      "52f60f70-bc36-4fce-81ae-5d5b0d1f4abc",
+      "566b57b1-6334-4031-a792-a376b437fbe5",
+      "7c07ae26-1fb5-40dc-965e-69954f080bdb",
+      "876caae1-bb35-4347-a061-3776a20c96e4",
+      "8cb3e37d-4d69-4684-91eb-1762f551b8df",
+      "8f74fef4-77f0-4789-8b20-4fe170790784",
+      "904352fc-917a-4e79-83f3-c242d901e444",
+      "a0c41d23-638d-4962-8b00-64d315251520",
+      "a5ba1abc-e01c-4545-9760-efd044bc76c0",
+      "c59cba3a-9d68-4469-add3-2e658f154328",
+      "e33765e9-d6ae-46d3-a2a7-8fe01f4d2d5c",
+      "f4e1b807-648e-4678-b08c-c510d076463f"
+    ],
+    "batch1WarningCleaned_70": [
+      "00519ce4-ef59-4c7f-87c3-12582965948e",
+      "0075b21e-9e25-4854-90bc-7574b770f263",
+      "01954a22-16cf-4b92-8ed0-ac249d874acd",
+      "05f5bf33-3267-4e2a-9e17-b8cdefd07106",
+      "08a1dfba-cd5e-4578-8a05-5e89ca8b7e91",
+      "0a7117b1-558b-4ad9-9af9-4702a6e0da56",
+      "0eb9ca8c-c6a2-4964-b788-5b6b6823583f",
+      "136e2f50-89d0-4090-825b-5ad993d860e9",
+      "1ad19ecf-5046-4e71-9f38-a45171221eb2",
+      "1d8ecb94-d2b6-4305-88d3-5beab43a57c0",
+      "27cc17e8-0a89-46f8-88c3-f1f7b679cc4d",
+      "2a4d35c4-eec0-4311-bf0f-16a25c303a03",
+      "2a7858d7-abd6-4084-ae3d-0619723e0f7d",
+      "2ad28873-220d-47ac-8dac-4f46fe412018",
+      "2b3023f0-d796-4f11-80da-2ab1af9c2e8e",
+      "324397e4-01f2-4c2b-8a3a-6db62c09cc30",
+      "33d5f125-56f3-4e8c-aee0-a5d2f193fb9c",
+      "387b54ce-cb6a-4628-8879-52a662f8bd6d",
+      "38dbd468-a5af-411a-87a0-4edda71788ef",
+      "40660d41-a5d5-49c4-b75d-ba74d77e6276",
+      "40b7dc1b-b318-4805-aa04-538ac4716ba5",
+      "4259b105-eb26-4bef-95f5-379ce711191f",
+      "431cbf6c-5a1b-44a1-98b2-e6721004e68b",
+      "4a10c045-fdd7-4a11-a3f6-25959c7d2cf2",
+      "554c541c-21e8-426d-b289-3a816190e83f",
+      "5819c268-6747-4e60-b19d-62a72a057b1a",
+      "60a407e5-7179-407a-988b-07094bd3a6a7",
+      "62897991-5a9f-4cb0-b5f9-fcf7066e1a55",
+      "6597ac97-c9c3-41ba-8dc3-266fd33e778b",
+      "65c69dfa-57ed-4805-a290-49d7897620a3",
+      "6b26fdbf-4ca8-4f5b-86f4-41a98e5c2559",
+      "70b11695-36fe-4584-8e89-1e36b9c5b866",
+      "73101665-c511-4786-a8b4-479c98181ef8",
+      "74182632-7a7f-4780-9c79-bb6a6565fb95",
+      "7c8f089b-aa1d-4570-bd03-659b3f0040da",
+      "88a02757-ba0d-4703-b7b1-f6267edbbc0c",
+      "8bbc2eac-2176-4b9b-b7be-723409abc859",
+      "8bd6b103-0124-4889-9703-ad1183ade4bc",
+      "8c0144b0-d877-4e28-a925-33059d54f64a",
+      "9729414e-493a-4c41-a339-e1c22e8af8cd",
+      "9bfac8a2-2000-4f7d-8c38-c21fbe7a836a",
+      "a2e6ea87-9280-43c8-90f3-9de7a2e149ee",
+      "a6337787-e4b5-4e27-b421-1c38fcee0b2c",
+      "ae574f04-6717-45c2-afd1-76024edd1099",
+      "b048a7a6-6d36-408d-b3f7-74d663cd30ff",
+      "b36431af-9c9b-4abf-b0d7-a7315543ba25",
+      "b587b48d-c514-49c4-a0fb-1e9390f05c21",
+      "b5f6a18d-5ad0-49c2-892a-803aeda1e0f6",
+      "ba1c38a7-e69d-4213-aaef-e90014153135",
+      "bbc45cf7-fbf8-472c-a031-2c68bd784d09",
+      "bbc4c5f2-a126-41a9-bbb3-6a8ce555dd94",
+      "bc4454c5-6251-4649-adb5-91b6eb2189c1",
+      "bc73e2ec-28cf-4d69-a79a-570df2aaa3e6",
+      "be0f6ae9-56ad-4ece-a580-a6f177039d99",
+      "c42c4f30-0afa-48af-a0ba-337847030561",
+      "c5e1a580-cb4c-4d1f-b96d-416099e4fe28",
+      "c79e9c76-daff-426b-b017-d2c3e414f8f4",
+      "c7cb84b8-3b97-4b4c-91f4-ae19d0ecdf39",
+      "cd395d2c-fa82-4fbe-a4e7-953e329d1377",
+      "cfb0bd8f-6479-4a27-be89-dd8b8be258ab",
+      "d7598717-e791-4241-9bfe-de3ee28f908b",
+      "d8625a8c-80be-4a91-8255-13c71d620ec2",
+      "dc07de3c-b819-481c-8074-ee5804761bae",
+      "df8b2560-7688-40ba-b23c-396bea15a755",
+      "e86d2936-3938-4968-8407-1c3f3d0f9d1f",
+      "e88b011d-fd3d-46da-bf01-cd0d2d2a53ff",
+      "f2cbed7f-cd12-47ab-9302-af1c35bb2197",
+      "f8099f0a-9a9d-4d58-9a62-7142311dce0a",
+      "f9125d3d-ff92-4292-99e0-a0b0e72cccc3",
+      "fcb62d0c-d091-40ac-8e5b-556461b4b78e"
+    ]
+  },
+  "remainingGroupsV2": {
+    "group1_nonDivisibleStripConflicts": {
+      "primaryLiveTotal": {
+        "groupName": "Live Strip & Calculation Conflicts",
+        "uniquePacks": 376,
+        "uniqueBrands": 372,
+        "note": "368 pu % su != 0 (325 in conf792) + 8 live anomalies (7 su=1 + 1 B-Vit 4 su=200)."
+      },
+      "v1Count": 376,
+      "v2Count": 376,
+      "deltaFromBatch1": 0,
+      "subScopes": [
+        {
+          "groupName": "Non-divisible strip (pu % su != 0)",
+          "uniquePacks": 368,
+          "uniqueBrands": 364,
+          "note": ""
+        },
+        {
+          "groupName": "Subset flagged in conflicts_792",
+          "uniquePacks": 325,
+          "uniqueBrands": 321,
+          "note": ""
+        },
+        {
+          "groupName": "Extra live anomalies (7 su=1 + 1 B-Vit 4 su=200)",
+          "uniquePacks": 8,
+          "uniqueBrands": 8,
+          "note": ""
+        }
+      ]
+    },
+    "group2_largePriceDifferences": {
+      "combinedDistinctPacksAndBrands": {
+        "groupName": "Remaining Price Conflict & Arithmetic Mismatch (176 | 638)",
+        "uniquePacks": 794,
+        "uniqueBrands": 786,
+        "note": "Reduced from 805 in v1 to 794: Batch 1A-1B resolved 11 from REM_187 (187 -> 176), while Batch 1C's 4 rolled-back rounding updates were already arithmetically consistent pre-Batch-1 (leaving Live_Arith at 638; 20 packs overlap 176 & 638)."
+      },
+      "v1Count": 805,
+      "v2Count": 794,
+      "deltaFromBatch1": -11,
+      "subScopes": [
+        {
+          "groupName": "Remaining conf792 large price delta (167 LARGE_PRICE_DELTA + 9 OTHER_CONFLICT minus 2 resolved OTHER_CONFLICT = Upanib & Tarceva)",
+          "uniquePacks": 176,
+          "uniqueBrands": 168,
+          "note": ""
+        },
+        {
+          "groupName": "Remaining live >5% unitPrice*packUnits != packPrice mismatches",
+          "uniquePacks": 638,
+          "uniqueBrands": 638,
+          "note": ""
+        },
+        {
+          "groupName": "Minor 2%-5% legacy rounding deltas (outside >5% Cat G)",
+          "uniquePacks": 37,
+          "uniqueBrands": 37,
+          "note": ""
+        }
+      ]
+    },
+    "group3_remainingP1PackageVariants": {
+      "groupName": "Priority-1 WRONG_PACKAGE_VARIANT",
+      "uniquePacks": 166,
+      "uniqueBrands": 166,
+      "note": "",
+      "v1Count": 166,
+      "v2Count": 166,
+      "deltaFromBatch1": 0
+    },
+    "group4_sourceConflicts": {
+      "combinedRemaining": {
+        "groupName": "Priority-1 SOURCE_CONFLICT (6) + Remaining Excluded QA (57)",
+        "uniquePacks": 63,
+        "uniqueBrands": 62,
+        "note": "Reduced from 67 in v1: 4 rounding exclusions resolved in Batch 1C. Note Brodil 2 mg confirmed DB-correct (56 true entity/generic/strength/kit conflicts remain in excluded + 6 P1 = 62)."
+      },
+      "v1Count": 67,
+      "v2Count": 63,
+      "deltaFromBatch1": -4,
+      "subScopes": [
+        {
+          "groupName": "Priority-1 SOURCE_CONFLICT",
+          "uniquePacks": 6,
+          "uniqueBrands": 6,
+          "note": ""
+        },
+        {
+          "groupName": "Remaining excluded_updates_report (57 = 61 - 4 Batch 1C)",
+          "uniquePacks": 57,
+          "uniqueBrands": 56,
+          "note": ""
+        },
+        {
+          "groupName": "Remaining true entity/generic/strength/kit conflicts in excluded (56)",
+          "uniquePacks": 56,
+          "uniqueBrands": 55,
+          "note": ""
+        }
+      ]
+    },
+    "group5_zeroPackageBrands": {
+      "groupName": "Brands with zero MedicinePack records",
+      "uniquePacks": 0,
+      "uniqueBrands": 37,
+      "brandsWithLiveAroggaCandidateNames": 15,
+      "deltaFromBatch1": 0
+    },
+    "group6_frontendConversionMismatches": {
+      "groupName": "Category H Frontend vs Backend Stock Conversion Mismatches",
+      "uniquePacks": 50,
+      "uniqueBrands": 49,
+      "note": "",
+      "v1Count": 50,
+      "v2Count": 50,
+      "deltaFromBatch1": 0
+    },
+    "group7_unmatchedPackageVariants": {
+      "groupName": "Unmatched Arogga Package Variants (866 logged + 29 DPI recovered)",
+      "uniquePacks": 895,
+      "uniqueBrands": 850,
+      "note": "",
+      "v1Count": 895,
+      "v2Count": 895,
+      "deltaFromBatch1": 0
+    },
+    "group8_brandsWithoutLiveSourceMatch": {
+      "groupName": "No Live Arogga Match",
+      "uniquePacks": 9110,
+      "uniqueBrands": 8202,
+      "note": "",
+      "v1Count": 9110,
+      "v2Count": 9110,
+      "deltaFromBatch1": 0
+    },
+    "supplementaryLiveHygieneGroups": {
+      "aroggaOutOfStockDummyMrp": {
+        "groupName": "Arogga stock=0 dummy MRP",
+        "uniquePacks": 738,
+        "uniqueBrands": 711,
+        "note": ""
+      },
+      "stalePriceWarningsRemainingAfterBatch1": {
+        "groupName": "Stale P1 price warnings left after Batch 1D",
+        "uniquePacks": 0,
+        "uniqueBrands": 0,
+        "deltaFromBatch1": -70
+      },
+      "allLiveNonEmptyWarningsRemaining": {
+        "groupName": "All MedicinePack records with non-empty warnings (733 - 70)",
+        "uniquePacks": 663,
+        "uniqueBrands": 663,
+        "note": ""
+      },
+      "liveMissingPackageQuantities_CatBD": {
+        "groupName": "Category B/D Missing parseable quantities",
+        "uniquePacks": 1736,
+        "uniqueBrands": 1665,
+        "note": ""
+      },
+      "liveMissingStockMeasurementUnits_CatC": {
+        "groupName": "Category C Injection missing container noun",
+        "uniquePacks": 48,
+        "uniqueBrands": 47,
+        "note": ""
+      },
+      "liveInconsistentMultiPackNesting_CatE": {
+        "groupName": "Category E Brands with multi-pack strip nesting conflict",
+        "uniquePacks": 126,
+        "uniqueBrands": 61
+      },
+      "liveEquivalentGenericStripGroups_CatF": {
+        "groupName": "Category F Equivalent generic-pack strip variance groups (informational)",
+        "groupCount": 356
+      }
+    }
+  },
+  "duplicateMembershipReconciliationV2": {
+    "membershipSetsEvaluated": {
+      "G1_NonDivisibleStrip_Live376": 376,
+      "G2a_LargePriceDelta_Conf792_Remaining176": 176,
+      "G2b_ArithPriceMismatch_Live638": 638,
+      "G3_P1WrongPkgVariant_166": 166,
+      "G4a_P1SourceConflict_6": 6,
+      "G4b_ExcludedUpdatesQA_Remaining57": 57,
+      "G6_FrontendMismatch_50": 50,
+      "G7_UnmatchedVariant_895": 895,
+      "G8_NoLiveSourceMatch_9110": 9110,
+      "Hygiene_AroggaStock0Dummy_738": 738,
+      "Hygiene_CatB_MissingPackQty_1736": 1736,
+      "Hygiene_CatC_MissingStockUnit_48": 48
+    },
+    "membershipCountDistribution": {
+      "0": 4780,
+      "1": 10025,
+      "2": 1885,
+      "3": 59,
+      "4": 6
+    },
+    "totalPacksInMultipleOpenCategories": 1950,
+    "pairwiseNonEmptyIntersections": {
+      "G8_NoLiveSourceMatch_9110 & Hygiene_CatB_MissingPackQty_1736": 1181,
+      "G2b_ArithPriceMismatch_Live638 & G8_NoLiveSourceMatch_9110": 438,
+      "G2b_ArithPriceMismatch_Live638 & G3_P1WrongPkgVariant_166": 138,
+      "G1_NonDivisibleStrip_Live376 & G2b_ArithPriceMismatch_Live638": 45,
+      "G6_FrontendMismatch_50 & Hygiene_CatC_MissingStockUnit_48": 39,
+      "G8_NoLiveSourceMatch_9110 & Hygiene_CatC_MissingStockUnit_48": 38,
+      "G7_UnmatchedVariant_895 & Hygiene_CatB_MissingPackQty_1736": 38,
+      "G6_FrontendMismatch_50 & G8_NoLiveSourceMatch_9110": 36,
+      "G1_NonDivisibleStrip_Live376 & G3_P1WrongPkgVariant_166": 32,
+      "G2a_LargePriceDelta_Conf792_Remaining176 & G2b_ArithPriceMismatch_Live638": 20,
+      "G2a_LargePriceDelta_Conf792_Remaining176 & Hygiene_CatB_MissingPackQty_1736": 17,
+      "Hygiene_CatB_MissingPackQty_1736 & Hygiene_CatC_MissingStockUnit_48": 9,
+      "Hygiene_AroggaStock0Dummy_738 & Hygiene_CatB_MissingPackQty_1736": 8,
+      "G6_FrontendMismatch_50 & G7_UnmatchedVariant_895": 8,
+      "G2b_ArithPriceMismatch_Live638 & G4b_ExcludedUpdatesQA_Remaining57": 7,
+      "G7_UnmatchedVariant_895 & Hygiene_CatC_MissingStockUnit_48": 7,
+      "G1_NonDivisibleStrip_Live376 & G8_NoLiveSourceMatch_9110": 7,
+      "G2b_ArithPriceMismatch_Live638 & G6_FrontendMismatch_50": 6,
+      "G2b_ArithPriceMismatch_Live638 & Hygiene_CatC_MissingStockUnit_48": 6,
+      "G2b_ArithPriceMismatch_Live638 & Hygiene_AroggaStock0Dummy_738": 5,
+      "G4a_P1SourceConflict_6 & Hygiene_CatB_MissingPackQty_1736": 3,
+      "G2b_ArithPriceMismatch_Live638 & G7_UnmatchedVariant_895": 2,
+      "G2a_LargePriceDelta_Conf792_Remaining176 & G6_FrontendMismatch_50": 2,
+      "G2a_LargePriceDelta_Conf792_Remaining176 & Hygiene_CatC_MissingStockUnit_48": 2,
+      "G4b_ExcludedUpdatesQA_Remaining57 & Hygiene_CatB_MissingPackQty_1736": 1,
+      "G1_NonDivisibleStrip_Live376 & G4a_P1SourceConflict_6": 1,
+      "G2b_ArithPriceMismatch_Live638 & G4a_P1SourceConflict_6": 1,
+      "G1_NonDivisibleStrip_Live376 & G7_UnmatchedVariant_895": 1
+    },
+    "multiGroupCombinationBreakdown": {
+      "G8_NoLiveSourceMatch_9110 + Hygiene_CatB_MissingPackQty_1736": 1172,
+      "G2b_ArithPriceMismatch_Live638 + G8_NoLiveSourceMatch_9110": 435,
+      "G2b_ArithPriceMismatch_Live638 + G3_P1WrongPkgVariant_166": 120,
+      "G7_UnmatchedVariant_895 + Hygiene_CatB_MissingPackQty_1736": 38,
+      "G1_NonDivisibleStrip_Live376 + G2b_ArithPriceMismatch_Live638": 27,
+      "G6_FrontendMismatch_50 + G8_NoLiveSourceMatch_9110 + Hygiene_CatC_MissingStockUnit_48": 26,
+      "G2a_LargePriceDelta_Conf792_Remaining176 + G2b_ArithPriceMismatch_Live638": 19,
+      "G1_NonDivisibleStrip_Live376 + G2b_ArithPriceMismatch_Live638 + G3_P1WrongPkgVariant_166": 18,
+      "G2a_LargePriceDelta_Conf792_Remaining176 + Hygiene_CatB_MissingPackQty_1736": 17,
+      "G1_NonDivisibleStrip_Live376 + G3_P1WrongPkgVariant_166": 14,
+      "G8_NoLiveSourceMatch_9110 + Hygiene_CatB_MissingPackQty_1736 + Hygiene_CatC_MissingStockUnit_48": 9,
+      "Hygiene_AroggaStock0Dummy_738 + Hygiene_CatB_MissingPackQty_1736": 8,
+      "G2b_ArithPriceMismatch_Live638 + G4b_ExcludedUpdatesQA_Remaining57": 7,
+      "G6_FrontendMismatch_50 + G8_NoLiveSourceMatch_9110": 7,
+      "G1_NonDivisibleStrip_Live376 + G8_NoLiveSourceMatch_9110": 7,
+      "G2b_ArithPriceMismatch_Live638 + Hygiene_AroggaStock0Dummy_738": 5,
+      "G6_FrontendMismatch_50 + G7_UnmatchedVariant_895 + Hygiene_CatC_MissingStockUnit_48": 5,
+      "G4a_P1SourceConflict_6 + Hygiene_CatB_MissingPackQty_1736": 3,
+      "G2b_ArithPriceMismatch_Live638 + G6_FrontendMismatch_50 + G8_NoLiveSourceMatch_9110 + Hygiene_CatC_MissingStockUnit_48": 3,
+      "G2b_ArithPriceMismatch_Live638 + G6_FrontendMismatch_50 + G7_UnmatchedVariant_895 + Hygiene_CatC_MissingStockUnit_48": 2,
+      "G6_FrontendMismatch_50 + Hygiene_CatC_MissingStockUnit_48": 1,
+      "G4b_ExcludedUpdatesQA_Remaining57 + Hygiene_CatB_MissingPackQty_1736": 1,
+      "G1_NonDivisibleStrip_Live376 + G4a_P1SourceConflict_6": 1,
+      "G2a_LargePriceDelta_Conf792_Remaining176 + G6_FrontendMismatch_50 + Hygiene_CatC_MissingStockUnit_48": 1,
+      "G2a_LargePriceDelta_Conf792_Remaining176 + G2b_ArithPriceMismatch_Live638 + G6_FrontendMismatch_50 + Hygiene_CatC_MissingStockUnit_48": 1,
+      "G2b_ArithPriceMismatch_Live638 + G4a_P1SourceConflict_6": 1,
+      "G6_FrontendMismatch_50 + G7_UnmatchedVariant_895": 1,
+      "G1_NonDivisibleStrip_Live376 + G7_UnmatchedVariant_895": 1
+    }
+  }
+}

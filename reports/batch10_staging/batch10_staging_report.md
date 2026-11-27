@@ -1,0 +1,173 @@
+# CareDose — Staged Batch 10 Wave Review (Read-Only Staging)
+
+Generated: 2026-11-25T19:44:24.073Z | Status: STAGED (0 PostgreSQL mutations)
+
+## Batch 10 Summary
+- **Sub-batch 10A — `ar_divBox_AND_priceDiff` Non-Divisible Strips (113 updates + 2 optional duplicate-pack deletes):** Verified MedEx pack sizes and MRPs for all 115 packs in this slice (clearing corrupted `sid >= 33xxx` box guesses and migrated legacy box sizes). `Detonix 20 mg` `50's` and `Ecosprin 75 mg` `100's` are staged separately for optional deletion because MedEx now lists only `10 x 15` and `20 x 14`.
+- **Sub-batch 10B — `noAr` Non-Divisible Strips (15 updates):** Clears 100% of remaining non-divisible strip packs lacking an Arogga match (15 -> 0).
+- **Sub-batch 10C — Remaining Zero-Pack Brands Audit (3 verified inserts + 21 documented exclusions = 24):** Creates verified MedEx packs (and sets `brand.priceFieldStatus = PRESENT`) for `Semaglut 3 mg`, `Semaglut 7 mg`, and `Tamsulin 0.4 mg`; documents all 21 unpriced / institutional / Seema Pharma exclusions.
+- **Deferred Batch 11 Slice (`ar_divBox_samePrice`, 156 packs):** Reduces total non-divisible strip packs from **286** to **156** (if optional duplicate deletes approved) or **158** (if kept).
+
+## Sub-batch 10A (113)
+- **Cefadyl 200 mg** [AR_PRICE_DIFF]: `8's pack (pu=8, su=6, 30/240)` -> `3 x 6 (pu=18, su=6, 40.00/720.00)`
+- **Cefixime-A 400 mg** [AR_PRICE_DIFF]: `8's pack (pu=8, su=7, 50/400)` -> `2 x 7 (pu=14, su=7, 65.00/910.00)`
+- **Starcef 400 mg** [AR_PRICE_DIFF]: `8's pack (pu=8, su=7, 50/400)` -> `2 x 7 (pu=14, su=7, 60.00/840.00)`
+- **Starcef 200 mg** [AR_PRICE_DIFF]: `8's pack (pu=8, su=7, 35.11/280.88)` -> `2 x 7 (pu=14, su=7, 45.00/630.00)`
+- **Tocef 400 mg** [AR_PRICE_DIFF]: `8's pack (pu=8, su=7, 50.34/402.72)` -> `2 x 7 (pu=14, su=7, 60.00/840.00)`
+- **D-up 40000 IU** [AR_PRICE_DIFF]: `10's pack (pu=10, su=6, 35/350)` -> `1 x 6 (pu=6, su=6, 33.00/198.00)`
+- **Ceficap 200 mg** [AR_PRICE_DIFF]: `12's pack (pu=12, su=7, 35/420)` -> `2 x 6 (pu=12, su=6, 44.00/528.00)`
+- **Orgaxim 200 mg** [AR_PRICE_DIFF]: `12's pack (pu=12, su=7, 35/420)` -> `2 x 7 (pu=14, su=7, 38.00/532.00)`
+- **Tocef 200 mg** [AR_PRICE_DIFF]: `12's pack (pu=12, su=7, 35/420)` -> `2 x 7 (pu=14, su=7, 45.00/630.00)`
+- **Truso 200 mg** [AR_PRICE_DIFF]: `16's pack (pu=16, su=7, 35.11/561.76)` -> `2 x 7 (pu=14, su=7, 40.00/560.00)`
+- **Itrafun 100 mg** [AR_PRICE_DIFF]: `20's pack (pu=20, su=6, 14/280)` -> `5 x 6 (pu=30, su=6, 15.00/450.00)`
+- **Asta King 2 mg** [AR_PRICE_DIFF]: `20's pack (pu=20, su=15, 10.05/201)` -> `1 x 15 (pu=15, su=15, 10.05/150.75)`
+- **Azonox Ultra 65 mg** [AR_PRICE_DIFF]: `24's pack (pu=24, su=7, 15/360)` -> `3 x 7 (pu=21, su=7, 20.00/420.00)`
+- **Candifast 50 mg** [AR_PRICE_DIFF]: `24's pack (pu=24, su=10, 15/360)` -> `3 x 10 (pu=30, su=10, 10.00/300.00)`
+- **Candifast SB 65 mg** [AR_PRICE_DIFF]: `24's pack (pu=24, su=10, 15/360)` -> `5 x 10 (pu=50, su=10, 20.00/1000.00)`
+- **Eloza SB 65 mg** [AR_PRICE_DIFF]: `24's pack (pu=24, su=10, 15/360)` -> `3 x 10 (pu=30, su=10, 17.00/510.00)`
+- **Itazol 100 mg** [AR_PRICE_DIFF]: `24's pack (pu=24, su=10, 15/360)` -> `2 x 10 (pu=20, su=10, 16.00/320.00)`
+- **Itcon 100 mg** [AR_PRICE_DIFF]: `24's pack (pu=24, su=10, 15/360)` -> `2 x 10 (pu=20, su=10, 14.00/280.00)`
+- **Itra Nova 65 mg** [AR_PRICE_DIFF]: `24's pack (pu=24, su=10, 15/360)` -> `3 x 10 (pu=30, su=10, 20.00/600.00)`
+- **Itracon 100 mg** [AR_PRICE_DIFF]: `24's pack (pu=24, su=10, 15.06/361.44)` -> `3 x 10 (pu=30, su=10, 17.00/510.00)`
+- **Itracon SUBA 65 mg** [AR_PRICE_DIFF]: `24's pack (pu=24, su=10, 15/360)` -> `3 x 10 (pu=30, su=10, 20.00/600.00)`
+- **Itrader SB 65 mg** [AR_PRICE_DIFF]: `24's pack (pu=24, su=10, 15/360)` -> `3 x 10 (pu=30, su=10, 20.00/600.00)`
+- **Itrakill SB 65 mg** [AR_PRICE_DIFF]: `24's pack (pu=24, su=10, 15/360)` -> `3 x 10 (pu=30, su=10, 20.00/600.00)`
+- **Itrazen SB 65 mg** [AR_PRICE_DIFF]: `24's pack (pu=24, su=10, 15/360)` -> `3 x 10 (pu=30, su=10, 20.00/600.00)`
+- **Nocandia 100 mg** [AR_PRICE_DIFF]: `24's pack (pu=24, su=10, 15/360)` -> `3 x 10 (pu=30, su=10, 17.00/510.00)`
+- **Nocandia SB 65 mg** [AR_PRICE_DIFF]: `24's pack (pu=24, su=10, 15/360)` -> `3 x 10 (pu=30, su=10, 20.00/600.00)`
+- **Uromax-D 0.4 mg+0.5 mg** [AR_PRICE_DIFF]: `28's pack (pu=28, su=5, 20/560)` -> `6 x 5 (pu=30, su=5, 23.00/690.00)`
+- **Luf 250 mg** [AR_PRICE_DIFF]: `28's pack (pu=28, su=6, 5.5/154)` -> `5 x 6 (pu=30, su=6, 6.50/195.00)`
+- **Demelon 1.5 mg** [AR_PRICE_DIFF]: `28's pack (pu=28, su=10, 20/560)` -> `3 x 10 (pu=30, su=10, 23.00/690.00)`
+- **Myrica 25 mg** [AR_PRICE_DIFF]: `28's pack (pu=28, su=10, 9/252)` -> `3 x 10 (pu=30, su=10, 10.00/300.00)`
+- **Myrica 50 mg** [AR_PRICE_DIFF]: `28's pack (pu=28, su=10, 12/336)` -> `3 x 10 (pu=30, su=10, 13.50/405.00)`
+- **Myrica 100 mg** [AR_PRICE_DIFF]: `28's pack (pu=28, su=10, 20/560)` -> `4 x 7 (pu=28, su=7, 22.00/616.00)`
+- **Nervica 50 mg** [AR_PRICE_DIFF]: `30's pack (pu=30, su=8, 13/390)` -> `3 x 10 (pu=30, su=10, 14.00/420.00)`
+- **GABA-P 75 mg** [AR_PRICE_DIFF]: `30's pack (pu=30, su=12, 16.07/482.1)` -> `3 x 12 (pu=36, su=12, 19.00/684.00)`
+- **GABA-P 50 mg** [AR_PRICE_DIFF]: `30's pack (pu=30, su=14, 12/360)` -> `3 x 14 (pu=42, su=14, 15.00/630.00)`
+- **Azecol 60 mg+30 mg+6 mg+2 mg+15 mg** [AR_PRICE_DIFF]: `32's pack (pu=32, su=10, 10/320)` -> `5 x 10 (pu=50, su=10, 12.00/600.00)`
+- **Optagold 60 mg+30 mg+6 mg+2 mg+15 mg** [AR_PRICE_DIFF]: `32's pack (pu=32, su=10, 10/320)` -> `6 x 10 (pu=60, su=10, 11.50/690.00)`
+- **Flupen 500 mg** [AR_PRICE_DIFF]: `40's pack (pu=40, su=7, 10/400)` -> `3 x 7 (pu=21, su=7, 11.50/241.50)`
+- **Peptex 40 mg** [AR_PRICE_DIFF]: `28's pack (pu=28, su=10, 10/280)` -> `4 x 10 (pu=40, su=10, 12.00/480.00)`
+- **Luminus 4 mg** [AR_PRICE_DIFF]: `30's pack (pu=30, su=7, 6/180)` -> `5 x 7 (pu=35, su=7, 6.50/227.50)`
+- **Luminus 5 mg** [AR_PRICE_DIFF]: `30's pack (pu=30, su=7, 8/240)` -> `5 x 7 (pu=35, su=7, 8.50/297.50)`
+- **Exium MUPS 40 mg** [AR_PRICE_DIFF]: `28's pack (pu=28, su=10, 14/392)` -> `4 x 10 (pu=40, su=10, 16.50/660.00)`
+- **Zo-MUPS 20 mg** [AR_PRICE_DIFF]: `50's pack (pu=50, su=14, 10/500)` -> `5 x 14 (pu=70, su=14, 11.00/770.00)`
+- **Adrox CV 500 mg+125 mg** [AR_PRICE_DIFF]: `8's pack (pu=8, su=7, 50/400)` -> `2 x 7 (pu=14, su=7, 85.00/1190.00)`
+- **Athexim CV 500 mg+125 mg** [AR_PRICE_DIFF]: `8's pack (pu=8, su=7, 50/400)` -> `2 x 7 (pu=14, su=7, 60.00/840.00)`
+- **Axim CV 500 mg+125 mg** [AR_PRICE_DIFF]: `8's pack (pu=8, su=7, 50/400)` -> `2 x 7 (pu=14, su=7, 65.00/910.00)`
+- **Claricin 500 mg** [AR_PRICE_DIFF]: `8's pack (pu=8, su=7, 40.27/322.16)` -> `2 x 7 (pu=14, su=7, 45.00/630.00)`
+- **Furex 500 mg** [AR_PRICE_DIFF]: `8's pack (pu=8, su=7, 45/360)` -> `2 x 7 (pu=14, su=7, 50.00/700.00)`
+- **Secoclav 500 mg+125 mg** [AR_PRICE_DIFF]: `8's pack (pu=8, su=7, 50/400)` -> `2 x 7 (pu=14, su=7, 65.00/910.00)`
+- **Pazoren 200 mg** [AR_PRICE_DIFF]: `10's pack (pu=10, su=6, 250/2500)` -> `2 x 6 (pu=12, su=6, 350.00/4200.00)`
+- **Axim CV 250 mg+62.5 mg** [AR_PRICE_DIFF]: `12's pack (pu=12, su=7, 30/360)` -> `2 x 7 (pu=14, su=7, 35.00/490.00)`
+- **Duo-5 200 mg+125 mg** [AR_PRICE_DIFF]: `12's pack (pu=12, su=7, 40/480)` -> `3 x 4 (pu=12, su=4, 50.00/600.00)`
+- **Thiza 500 mg** [AR_PRICE_DIFF]: `16's pack (pu=16, su=6, 30/480)` -> `3 x 6 (pu=18, su=6, 50.00/900.00)`
+- **Ceforan 200 mg** [AR_PRICE_DIFF]: `16's pack (pu=16, su=7, 28/448)` -> `2 x 7 (pu=14, su=7, 32.00/448.00)`
+- **Axita 200 mg** [AR_PRICE_DIFF]: `20's pack (pu=20, su=6, 28/560)` -> `3 x 6 (pu=18, su=6, 25.00/450.00)`
+- **Myosit 750 mg** [AR_PRICE_DIFF]: `20's pack (pu=20, su=6, 7/140)` -> `5 x 6 (pu=30, su=6, 12.00/360.00)`
+- **Siglimet 50 mg+1000 mg** [AR_PRICE_DIFF]: `20's pack (pu=20, su=6, 16/320)` -> `5 x 6 (pu=30, su=6, 18.00/540.00)`
+- **Co-Axet 250 mg+62.5 mg** [AR_PRICE_DIFF]: `20's pack (pu=20, su=7, 30.09/601.8)` -> `5 x 4 (pu=20, su=4, 35.00/700.00)`
+- **Caparen 500 mg** [AR_PRICE_DIFF]: `24's pack (pu=24, su=7, 150/3600)` -> `4 x 6 (pu=24, su=6, 125.00/3000.00)`
+- **Tiginor 20 mg** [AR_PRICE_DIFF]: `24's pack (pu=24, su=10, 18/432)` -> `3 x 10 (pu=30, su=10, 20.00/600.00)`
+- **Tenicar 20 mg** [AR_PRICE_DIFF]: `28's pack (pu=28, su=10, 8/224)` -> `3 x 10 (pu=30, su=10, 10.00/300.00)`
+- **Tenivasc 5 mg+20 mg** [AR_PRICE_DIFF]: `28's pack (pu=28, su=10, 8/224)` -> `3 x 10 (pu=30, su=10, 10.00/300.00)`
+- **Belsar Plus 20 mg+12.5 mg** [AR_PRICE_DIFF]: `30's pack (pu=30, su=7, 8.27/247.95)` -> `4 x 7 (pu=28, su=7, 11.04/309.12)`
+- **Belsar Plus 40 mg+12.5 mg** [AR_PRICE_DIFF]: `30's pack (pu=30, su=7, 15/450)` -> `4 x 7 (pu=28, su=7, 17.00/476.00)`
+- **Belsar-M 5 mg+20 mg** [AR_PRICE_DIFF]: `30's pack (pu=30, su=7, 10/300)` -> `4 x 7 (pu=28, su=7, 12.00/336.00)`
+- **Belsar-M 5 mg+40 mg** [AR_PRICE_DIFF]: `30's pack (pu=30, su=7, 15/450)` -> `4 x 7 (pu=28, su=7, 20.00/560.00)`
+- **Cardisan 50 mg** [AR_PRICE_DIFF]: `30's pack (pu=30, su=7, 8.02/240.6)` -> `4 x 7 (pu=28, su=7, 9.00/252.00)`
+- **Nebinex 5 mg** [AR_PRICE_DIFF]: `30's pack (pu=30, su=7, 10/300)` -> `4 x 7 (pu=28, su=7, 12.00/336.00)`
+- **Presnor 40 mg** [AR_PRICE_DIFF]: `30's pack (pu=30, su=7, 15.04/450)` -> `3 x 7 (pu=21, su=7, 17.00/357.00)`
+- **Calgi-DX 600 mg+400 IU** [AR_PRICE_DIFF]: `30's pack (pu=30, su=8, 15/450)` -> `4 x 8 (pu=32, su=8, 16.00/512.00)`
+- **EmpaMet 5 mg+1000 mg** [AR_PRICE_DIFF]: `30's pack (pu=30, su=8, 15/450)` -> `4 x 8 (pu=32, su=8, 23.00/736.00)`
+- **EmpaMet 12.5 mg+850 mg** [AR_PRICE_DIFF]: `30's pack (pu=30, su=8, 15/450)` -> `4 x 8 (pu=32, su=8, 30.00/960.00)`
+- **EmpaMet 5 mg+850 mg** [AR_PRICE_DIFF]: `30's pack (pu=30, su=8, 15/450)` -> `4 x 8 (pu=32, su=8, 22.00/704.00)`
+- **Azoren 5 mg+40 mg** [AR_PRICE_DIFF]: `30's pack (pu=30, su=14, 15/450)` -> `2 x 14 (pu=28, su=14, 20.00/560.00)`
+- **Azoren 5 mg+20 mg** [AR_PRICE_DIFF]: `30's pack (pu=30, su=14, 10/300)` -> `2 x 14 (pu=28, su=14, 12.50/350.00)`
+- **Cardicil 10 mg** [AR_PRICE_DIFF]: `30's pack (pu=30, su=14, 9/270)` -> `2 x 14 (pu=28, su=14, 10.00/280.00)`
+- **Cardicil 5 mg** [AR_PRICE_DIFF]: `30's pack (pu=30, su=14, 7/210)` -> `3 x 14 (pu=42, su=14, 8.00/336.00)`
+- **Disartan 5 mg+40 mg** [AR_PRICE_DIFF]: `30's pack (pu=30, su=14, 15/450)` -> `2 x 14 (pu=28, su=14, 16.00/448.00)`
+- **Ebanil 10 mg** [AR_PRICE_DIFF]: `30's pack (pu=30, su=14, 6/180)` -> `3 x 14 (pu=42, su=14, 7.00/294.00)`
+- **Loctril 10 mg** [AR_PRICE_DIFF]: `30's pack (pu=30, su=14, 15/450)` -> `3 x 14 (pu=42, su=14, 16.00/672.00)`
+- **Olsart 10 mg** [AR_PRICE_DIFF]: `30's pack (pu=30, su=14, 5/150)` -> `3 x 14 (pu=42, su=14, 6.00/252.00)`
+- **Olsart 20 mg** [AR_PRICE_DIFF]: `30's pack (pu=30, su=14, 9/270)` -> `3 x 14 (pu=42, su=14, 10.00/420.00)`
+- **Prestorin 10 mg** [AR_PRICE_DIFF]: `30's pack (pu=30, su=14, 20/600)` -> `2 x 14 (pu=28, su=14, 22.00/616.00)`
+- **Prestorin 5 mg** [AR_PRICE_DIFF]: `30's pack (pu=30, su=14, 10/300)` -> `2 x 14 (pu=28, su=14, 11.00/308.00)`
+- **Torosic 10 mg** [AR_PRICE_DIFF]: `30's pack (pu=30, su=14, 10.04/301.2)` -> `3 x 14 (pu=42, su=14, 12.00/504.00)`
+- **Losita 5 mg** [AR_PRICE_DIFF]: `40's pack (pu=40, su=14, 6/240)` -> `3 x 14 (pu=42, su=14, 7.00/294.00)`
+- **Bisoren 1.25 mg** [AR_PRICE_DIFF]: `42's pack (pu=42, su=10, 3.5/147)` -> `3 x 10 (pu=30, su=10, 4.00/120.00)`
+- **Ethinor 5 mg** [AR_PRICE_DIFF]: `45's pack (pu=45, su=10, 5/225)` -> `3 x 15 (pu=45, su=15, 6.00/270.00)`
+- **Amilin Max 25 mg+10 mg** [AR_PRICE_DIFF]: `50's pack (pu=50, su=14, 7/350)` -> `2 x 14 (pu=28, su=14, 12.00/336.00)`
+- **Extals 50 mg** [AR_PRICE_DIFF]: `56's pack (pu=56, su=10, 312.5/17500)` -> `3 x 10 (pu=30, su=10, 150.00/4500.00)`
+- **Riluzol 50 mg** [AR_PRICE_DIFF]: `56's pack (pu=56, su=10, 312.5/17500)` -> `3 x 10 (pu=30, su=10, 150.00/4500.00)`
+- **Dudon 10 mg** [AR_PRICE_DIFF]: `100's pack (pu=100, su=14, 2/200)` -> `10 x 14 (pu=140, su=14, 4.00/560.00)`
+- **Griso Ultra 125 mg** [AR_PRICE_DIFF]: `100's pack (pu=100, su=14, 5.32/525)` -> `2 x 14 (pu=28, su=14, 15.00/420.00)`
+- **Domfix 10 mg** [AR_PRICE_DIFF]: `100's pack (pu=100, su=15, 2/200)` -> `10 x 15 (pu=150, su=15, 2.50/375.00)`
+- **Famodin 20 mg** [AR_PRICE_DIFF]: `100's pack (pu=100, su=15, 2/200)` -> `10 x 15 (pu=150, su=15, 3.50/525.00)`
+- **Leroid 25 mcg** [AR_PRICE_DIFF]: `100's pack (pu=100, su=15, 1.2/120)` -> `6 x 15 (pu=90, su=15, 1.10/99.00)`
+- **Omidon 10 mg** [AR_PRICE_DIFF]: `100's pack (pu=100, su=15, 3/300)` -> `10 x 15 (pu=150, su=15, 4.00/600.00)`
+- **Carvista 3.125 mg** [AR_PRICE_DIFF]: `112's pack (pu=112, su=10, 1.52/170.24)` -> `10 x 10 (pu=100, su=10, 2.00/200.00)`
+- **Famomax 20 mg** [AR_PRICE_DIFF]: `200's pack (pu=200, su=15, 1.9/380)` -> `10 x 15 (pu=150, su=15, 3.00/450.00)`
+- **Valex CR 500 mg** [AR_PRICE_DIFF]: `28's pack (pu=28, su=10, 12/336)` -> `3 x 10 (pu=30, su=10, 13.00/390.00)`
+- **Pantoprazole 20 mg** [AR_PRICE_DIFF]: `50's pack (pu=50, su=14, 4.26/213)` -> `5 x 10 (pu=50, su=10, 5.00/250.00)`
+- **Detonix 20 mg** [AR_PRICE_DIFF]: `100's pack (pu=100, su=15, 5/500)` -> `10 x 15 (pu=150, su=15, 4.00/600.00)`
+- **Esoral 20 mg** [AR_PRICE_DIFF]: `80's pack (pu=80, su=14, 5/400)` -> `8 x 14 (pu=112, su=14, 7.00/784.00)`
+- **Ecosprin 75 mg** [AR_PRICE_DIFF]: `200's pack (pu=200, su=14, 0.63/126)` -> `20 x 14 (pu=280, su=14, 0.80/224.00)`
+- **Emjard M XR 10 mg+1000 mg** [AR_PRICE_DIFF]: `30's pack (pu=30, su=4, 10/300)` -> `5 x 4 (pu=20, su=4, 30.00/600.00)`
+- **Emjard M XR 25 mg+1000 mg** [AR_PRICE_DIFF]: `30's pack (pu=30, su=4, 10/300)` -> `5 x 4 (pu=20, su=4, 50.00/1000.00)`
+- **Emjard M XR 5 mg+1000 mg** [AR_PRICE_DIFF]: `30's pack (pu=30, su=4, 10/300)` -> `5 x 4 (pu=20, su=4, 25.00/500.00)`
+- **EmpaMet XR 10 mg+1000 mg** [AR_PRICE_DIFF]: `30's pack (pu=30, su=8, 10/300)` -> `2 x 8 (pu=16, su=8, 35.00/560.00)`
+- **EmpaMet XR 25 mg+1000 mg** [AR_PRICE_DIFF]: `30's pack (pu=30, su=8, 10/300)` -> `2 x 8 (pu=16, su=8, 55.00/880.00)`
+- **EmpaMet XR 5 mg+1000 mg** [AR_PRICE_DIFF]: `30's pack (pu=30, su=8, 10/300)` -> `2 x 8 (pu=16, su=8, 25.00/400.00)`
+- **Antoris MR 35 mg** [AR_PRICE_DIFF]: `30's pack (pu=30, su=21, 6.02/180.6)` -> `2 x 21 (pu=42, su=21, 7.00/294.00)`
+- **Nitrofix SR 2.6 mg** [AR_PRICE_DIFF]: `30's pack (pu=30, su=14, 4/120)` -> `3 x 14 (pu=42, su=14, 5.00/210.00)`
+- **Indapa-SR 1.5 mg** [AR_PRICE_DIFF]: `50's pack (pu=50, su=14, 5.05/252.5)` -> `3 x 14 (pu=42, su=14, 6.00/252.00)`
+
+## Optional Obsolete Second-Pack Deletes (2)
+- **Detonix 20 mg** (`9aa9ff80-1456-43e1-979b-a6abc8275588`, `50's pack` @ `5/250`, `inventoryTransactions=0`): Kaggle imported both 50s (৳5/250) and 100s (৳5/500); MedEx now sells only 10 x 15 (৳4.00 / ৳600.00) mapped onto pack f9c6027a. 0 InventoryTransaction rows reference this pack.
+- **Ecosprin 75 mg** (`024deba8-4dc3-44d1-8bd0-e0bda390845e`, `100's pack` @ `0.63/63`, `inventoryTransactions=0`): Kaggle imported both 100s (৳0.63/63) and 200s (৳0.63/126); MedEx now lists 20 x 14 (৳0.80 / ৳224.00) mapped onto pack 508701bc. 0 InventoryTransaction rows reference this pack.
+
+## Sub-batch 10B (15)
+- **Benkinson 100 mg+25 mg** [NO_AR_STRIP]: `32's pack (pu=32, su=10, 12/384)` -> `3 x 10 (pu=30, su=10, 12.00/360.00)`
+- **Benkinson 200 mg+50 mg** [NO_AR_STRIP]: `32's pack (pu=32, su=10, 18/576)` -> `2 x 10 (pu=20, su=10, 18.00/360.00)`
+- **Esogel 40 mg** [NO_AR_STRIP]: `28's pack (pu=28, su=10, 9/252)` -> `5 x 10 (pu=50, su=10, 9.00/450.00)`
+- **D-Zole 1000 mg** [NO_AR_STRIP]: `8's pack (pu=8, su=5, 16.11/128.88)` -> `2 x 5 (pu=10, su=5, 17.00/170.00)`
+- **Moxilin-CV 875 mg+125 mg** [NO_AR_STRIP]: `12's pack (pu=12, su=7, 45/540)` -> `2 x 7 (pu=14, su=7, 45.00/630.00)`
+- **Emparol-M 5 mg+500 mg** [NO_AR_STRIP]: `14's pack (pu=14, su=10, 15/210)` -> `2 x 7 (pu=14, su=7, 15.00/210.00)`
+- **Moxilin-CV 250 mg+125 mg** [NO_AR_STRIP]: `18's pack (pu=18, su=7, 22/396)` -> `3 x 7 (pu=21, su=7, 25.00/525.00)`
+- **Emjard M 5 mg+500 mg** [NO_AR_STRIP]: `18's pack (pu=18, su=10, 15/270)` -> `3 x 10 (pu=30, su=10, 18.00/540.00)`
+- **Ligazid M 2.5 mg+1000 mg** [NO_AR_STRIP]: `18's pack (pu=18, su=10, 16/288)` -> `2 x 10 (pu=20, su=10, 16.00/320.00)`
+- **Liglimet 2.5 mg+500 mg** [NO_AR_STRIP]: `18's pack (pu=18, su=10, 12/216)` -> `3 x 10 (pu=30, su=10, 13.00/390.00)`
+- **Demoxiclave 500 mg+125 mg** [NO_AR_STRIP]: `20's pack (pu=20, su=7, 24/480)` -> `3 x 7 (pu=21, su=7, 32.00/672.00)`
+- **Demoxiclave 250 mg+125 mg** [NO_AR_STRIP]: `20's pack (pu=20, su=7, 16/320)` -> `3 x 7 (pu=21, su=7, 25.00/525.00)`
+- **Carticare Max 750 mg+50 mg** [NO_AR_STRIP]: `30's pack (pu=30, su=9, 20/600)` -> `4 x 9 (pu=36, su=9, 22.00/792.00)`
+- **Leroid 50 mcg** [NO_AR_STRIP]: `100's pack (pu=100, su=15, 1.2/120)` -> `6 x 15 (pu=90, su=15, 2.00/180.00)`
+- **Reset ER 665 mg** [NO_AR_STRIP]: `100's pack (pu=100, su=15, 1.5/150)` -> `10 x 15 (pu=150, su=15, 2.00/300.00)`
+
+## Sub-batch 10C — Verified Zero-Pack Inserts (3)
+- **Semaglut 3 mg** (Tablet, NIPRO JMI Pharma Ltd., `priceFieldStatus: UNAVAILABLE -> PRESENT`): INSERT `1 x 10 (pu=10, su=10, 450.00/4500.00)`
+- **Semaglut 7 mg** (Tablet, NIPRO JMI Pharma Ltd., `priceFieldStatus: UNAVAILABLE -> PRESENT`): INSERT `1 x 10 (pu=10, su=10, 800.00/8000.00)`
+- **Tamsulin 0.4 mg** (Capsule (Modified Release), Team Pharmaceuticals Ltd., `priceFieldStatus: UNAVAILABLE -> PRESENT`): INSERT `3 x 10 (pu=30, su=10, 9.00/270.00)`
+
+## Documented Unpriced / Excluded Zero-Pack Brands (21)
+- **Baloflu 20 mg Tablet (Navana)** [`OFFICIALLY_UNPRICED`]: MedEx/retail listings show Price Unavailable (unpriced specialty antiviral).
+- **Baloflu 40 mg Tablet (Navana)** [`OFFICIALLY_UNPRICED`]: MedEx lists Price Unavailable.
+- **Cholera Fluid IV Infusion (IPH)** [`GOVERNMENT_IPH_NOT_FOR_SALE`]: Government Institute of Public Health supply (Not for sale / unpriced on MedEx).
+- **Covishield IM Injection (Serum Institute)** [`GOVERNMENT_INSTITUTIONAL_VACCINE`]: Public immunization vaccine (Price Unavailable on MedEx).
+- **Dextran 10%+5% IV Infusion (IPH)** [`GOVERNMENT_IPH_NOT_FOR_SALE`]: Government IPH institutional IV infusion (Not for sale / unpriced).
+- **Dextran 6%+5% IV Infusion (IPH)** [`GOVERNMENT_IPH_NOT_FOR_SALE`]: Government IPH institutional IV infusion (Not for sale / unpriced).
+- **Dextran 40 10%+0.9% IV Infusion (IPH)** [`GOVERNMENT_IPH_NOT_FOR_SALE`]: Government IPH institutional IV infusion (Not for sale / unpriced).
+- **Dextran 70 6%+0.9% IV Infusion (IPH)** [`GOVERNMENT_IPH_NOT_FOR_SALE`]: Government IPH institutional IV infusion (Not for sale / unpriced).
+- **Glucose Saline 0.9%+5% IV Infusion (IPH)** [`GOVERNMENT_IPH_NOT_FOR_SALE`]: Government IPH institutional IV infusion (Not for sale / unpriced).
+- **Hertinib 40 mg Tablet (Drug International)** [`OFFICIALLY_UNPRICED`]: MedEx lists Price Unavailable (specialist oncology).
+- **Ketoseem 10 mg Tablet (Seema Pharma)** [`SEEMA_PHARMA_UNPRICED`]: Discontinued/inactive Seema SKU; MedEx lists Price Unavailable.
+- **Nilonib 200 mg Capsule (Drug International)** [`OFFICIALLY_UNPRICED_ON_MEDEX`]: MedEx lists Price Unavailable for Nilonib 200 mg (Arogga #39689 stock=0 lists ৳800 Box=30; kept held pending official MedEx MRP).
+- **Panto SP 40 mg EC Tablet (Seema Pharma)** [`SEEMA_PHARMA_UNPRICED`]: MedEx only prices 20 mg; 40 mg SKU has no published MRP.
+- **Paramol 500 mg Tablet (Seema Pharma)** [`SEEMA_PHARMA_UNPRICED`]: MedEx only prices Oral Suspension; 500 mg tablet is Price Unavailable.
+- **Prostalex 250 mg Tablet (Beacon)** [`OFFICIALLY_UNPRICED`]: MedEx lists Price Unavailable (Arogga #15574 dummy pv_mrp=1).
+- **Riboseem 5 mg Tablet (Seema Pharma)** [`SEEMA_PHARMA_UNPRICED`]: MedEx lists Price Unavailable.
+- **Seema-C 250 mg Chewable Tablet (Seema Pharma)** [`SEEMA_PHARMA_UNPRICED`]: MedEx lists Price Unavailable.
+- **Seemagyl 400 mg Tablet (Seema Pharma)** [`SEEMA_PHARMA_UNPRICED`]: MedEx only prices Suspension; 400 mg tablet is Price Unavailable.
+- **Seemaldrat 400 mg/5 ml Oral Suspension (Seema Pharma)** [`SEEMA_PHARMA_UNPRICED`]: MedEx lists Price Unavailable.
+- **Seematrin DS 800+160 Tablet (Seema Pharma)** [`SEEMA_PHARMA_UNPRICED`]: MedEx only prices Suspension; DS tablet is Price Unavailable.
+- **Soto 250 mg Tablet (Hudson)** [`OFFICIALLY_UNPRICED`]: MedEx explicitly shows price not officially listed / Price Unavailable.

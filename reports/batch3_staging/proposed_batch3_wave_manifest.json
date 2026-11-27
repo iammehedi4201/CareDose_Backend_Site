@@ -1,0 +1,1538 @@
+{
+  "generatedAt": "2026-11-25T11:14:41.186Z",
+  "status": "STAGED_READ_ONLY_NOT_EXECUTED",
+  "summary": {
+    "subbatch3A_adjacentPriceSync_count": 3,
+    "subbatch3B_tier5SameBoxFixes_count": 5,
+    "subbatch3C_tier5BoxMigrations_count": 21,
+    "subbatch3D_rem187SameBoxPriceFixes_count": 14,
+    "subbatch3E_rem187PackMigrations_count": 12,
+    "totalVerifiedStagedBatch3": 55,
+    "excludedFalsePositivesAlreadyCorrect": 7,
+    "heldPendingMedexCaptchaStoppedSafely": 13,
+    "held66St0AlreadyMatchingKaggle": 66
+  },
+  "subbatch3A_adjacentVerifiedPrices": [
+    {
+      "packId": "406d9928-29d8-4313-91a8-06eafde14489",
+      "brandId": "5ffb4179-4455-4f90-8b8f-c37b5dd0816d",
+      "brandName": "Sandostatin",
+      "strength": "50 mcg/ml",
+      "dosageForm": "Injection",
+      "packQuantity": "1 ml ampoule",
+      "packUnits": null,
+      "stripUnits": null,
+      "currentValues": {
+        "unitPrice": null,
+        "packPrice": "1",
+        "warnings": []
+      },
+      "proposedValues": {
+        "packPrice": "362.00"
+      },
+      "evidence": {
+        "liveMedexUrl": "https://medex.com.bd/brands/15196/sandostatin-50-mcg-injection",
+        "liveMedexText": "1 ml ampoule: ৳ 362.00 (1 x 5: ৳ 1,810.00)",
+        "note": "Sibling of Batch 2B #55; fixes comma-truncated packPrice 1 -> live MedEx ৳362.00/ampoule."
+      }
+    },
+    {
+      "packId": "74da2ebc-d200-4822-81c4-56983a95c17e",
+      "brandId": "4b21ed78-3b4c-4482-b705-2e1f0562583b",
+      "brandName": "Tasigna",
+      "strength": "200 mg",
+      "dosageForm": "Capsule",
+      "packQuantity": "28's pack",
+      "packUnits": 28,
+      "stripUnits": null,
+      "currentValues": {
+        "unitPrice": "3051.5",
+        "packPrice": "85442",
+        "warnings": []
+      },
+      "proposedValues": {
+        "unitPrice": "475.00",
+        "packPrice": "13300.00"
+      },
+      "evidence": {
+        "liveMedexUrl": "https://medex.com.bd/brands/15127/tasigna-200-mg-capsule",
+        "liveMedexText": "Unit Price: ৳ 475.00 (2 x 14: ৳ 13,300.00) Strip Price: ৳ 6,650.00",
+        "note": "Sibling of Batch 2B #58; aligns 28-cap pack to Novartis live MedEx MRP reduction (3,051.50/85,442 -> 475/13,300)."
+      }
+    },
+    {
+      "packId": "d7b6f44a-4688-4aca-8d3a-0c46641de22f",
+      "brandId": "cf070f08-5dda-4f4f-97d8-173f85617a4d",
+      "brandName": "Elmin",
+      "strength": "400 mg",
+      "dosageForm": "Chewable Tablet",
+      "packQuantity": "25 x 1",
+      "packUnits": 25,
+      "stripUnits": null,
+      "currentValues": {
+        "unitPrice": "3.35",
+        "packPrice": "83.75",
+        "warnings": []
+      },
+      "proposedValues": {
+        "unitPrice": "4.50",
+        "packPrice": "112.50"
+      },
+      "evidence": {
+        "liveMedexUrl": "https://medex.com.bd/brands/312/elmin-400-mg-chewable-tablet",
+        "liveMedexText": "Unit Price: ৳ 4.50 (25 x 1: ৳ 112.50) Strip Price: ৳ 4.50",
+        "note": "Follow-up price sync after Batch 2B strip cleanup; aligns 25x1 pack to live MedEx 4.50/112.50."
+      }
+    }
+  ],
+  "subbatch3B_tier5SameBoxFixes": [
+    {
+      "priorityRank": 77,
+      "packId": "0ab02766-3d25-4059-9dd0-4add7c90817c",
+      "brandId": "660fd4b1-1053-49ed-98ec-bf9aaf541274",
+      "brandName": "Co-Axet",
+      "strength": "500 mg+125 mg",
+      "dosageForm": "Tablet",
+      "currentValues": {
+        "packQuantity": "8's pack",
+        "packUnits": 8,
+        "stripUnits": 7,
+        "unitPrice": "50.15",
+        "packPrice": "401.2",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/7415/co-axet-500-mg-tablet",
+      "liveMedexText": "Unit Price: ৳ 55.00 (2 x 4: ৳ 440.00) Strip Price: ৳ 220.00",
+      "proposedValues": {
+        "stripUnits": 4,
+        "unitPrice": "55.00",
+        "packPrice": "440.00"
+      },
+      "pricesAlreadyMatchedLiveMedex": false
+    },
+    {
+      "priorityRank": 80,
+      "packId": "1594de5e-779e-4683-a5c5-6addc36b6cb6",
+      "brandId": "c88562ea-f38a-4c70-bd37-b2400a04690e",
+      "brandName": "Vildus",
+      "strength": "50 mg",
+      "dosageForm": "Tablet",
+      "currentValues": {
+        "packQuantity": "20's pack",
+        "packUnits": 20,
+        "stripUnits": 14,
+        "unitPrice": "20",
+        "packPrice": "400",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/5535/vildus-50-mg-tablet",
+      "liveMedexText": "Unit Price: ৳ 20.00 (2 x 10: ৳ 400.00) Strip Price: ৳ 200.00",
+      "proposedValues": {
+        "stripUnits": 10
+      },
+      "pricesAlreadyMatchedLiveMedex": true
+    },
+    {
+      "priorityRank": 83,
+      "packId": "1bdc414e-b76a-4c8a-abba-ab237ead0720",
+      "brandId": "becb2a6b-e922-42f0-9f3d-07b87a15381e",
+      "brandName": "Prexim",
+      "strength": "200 mg",
+      "dosageForm": "Capsule",
+      "currentValues": {
+        "packQuantity": "12's pack",
+        "packUnits": 12,
+        "stripUnits": 7,
+        "unitPrice": "35",
+        "packPrice": "420",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/7623/prexim-200-mg-capsule",
+      "liveMedexText": "Unit Price: ৳ 35.00 (3 x 4: ৳ 420.00) Strip Price: ৳ 140.00",
+      "proposedValues": {
+        "stripUnits": 4
+      },
+      "pricesAlreadyMatchedLiveMedex": true
+    },
+    {
+      "priorityRank": 88,
+      "packId": "3bb786c0-f4d4-4891-b0f9-04ba661093de",
+      "brandId": "2ceea0b4-7cec-4ab3-8535-3fa80b3085ad",
+      "brandName": "Linarol-M",
+      "strength": "2.5 mg+500 mg",
+      "dosageForm": "Tablet",
+      "currentValues": {
+        "packQuantity": "14's pack",
+        "packUnits": 14,
+        "stripUnits": 10,
+        "unitPrice": "12",
+        "packPrice": "168",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/17207/linarol-m-25-mg-tablet",
+      "liveMedexText": "Unit Price: ৳ 12.00 (2 x 7: ৳ 168.00) Strip Price: ৳ 84.00",
+      "proposedValues": {
+        "stripUnits": 7
+      },
+      "pricesAlreadyMatchedLiveMedex": true
+    },
+    {
+      "priorityRank": 97,
+      "packId": "5cee61d7-1a31-41c5-b601-20b01091d1e2",
+      "brandId": "5e5a15c1-3cf0-488f-a182-1e0bc7dfb958",
+      "brandName": "Dialiptin-M",
+      "strength": "50 mg+500 mg",
+      "dosageForm": "Tablet",
+      "currentValues": {
+        "packQuantity": "14's pack",
+        "packUnits": 14,
+        "stripUnits": 10,
+        "unitPrice": "16",
+        "packPrice": "224",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/5704/dialiptin-m-50-mg-tablet",
+      "liveMedexText": "Unit Price: ৳ 18.00 (2 x 7: ৳ 252.00) Strip Price: ৳ 126.00",
+      "proposedValues": {
+        "stripUnits": 7,
+        "unitPrice": "18.00",
+        "packPrice": "252.00"
+      },
+      "pricesAlreadyMatchedLiveMedex": false
+    }
+  ],
+  "subbatch3C_tier5CommercialBoxMigrations": [
+    {
+      "priorityRank": 75,
+      "packId": "06677af2-eb48-47c9-ab18-42c62c02ec4d",
+      "brandId": "5c822bc6-79a0-4db5-8162-56e4509a5c74",
+      "brandName": "Emijoy DS",
+      "strength": "25 mg+10 mg",
+      "dosageForm": "Tablet",
+      "currentValues": {
+        "packQuantity": "50's pack",
+        "packUnits": 50,
+        "stripUnits": 15,
+        "unitPrice": "7",
+        "packPrice": "350",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/35063/emijoy-ds-25-mg-tablet",
+      "liveMedexText": "Unit Price: ৳ 12.00 (2 x 15: ৳ 360.00) Strip Price: ৳ 180.00",
+      "proposedValues": {
+        "packQuantity": "2 x 15",
+        "packUnits": 30,
+        "stripUnits": 15,
+        "unitPrice": "12.00",
+        "packPrice": "360.00"
+      }
+    },
+    {
+      "priorityRank": 76,
+      "packId": "07229d03-0670-498f-90e4-bf2664c16e2a",
+      "brandId": "1c2b1ee3-0747-4e9a-aed7-7e5119376de4",
+      "brandName": "Olsart",
+      "strength": "40 mg",
+      "dosageForm": "Tablet",
+      "currentValues": {
+        "packQuantity": "20's pack",
+        "packUnits": 20,
+        "stripUnits": 14,
+        "unitPrice": "16",
+        "packPrice": "320",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/2790/olsart-40-mg-tablet",
+      "liveMedexText": "Unit Price: ৳ 18.00 (2 x 14: ৳ 504.00) Strip Price: ৳ 252.00",
+      "proposedValues": {
+        "packQuantity": "2 x 14",
+        "packUnits": 28,
+        "stripUnits": 14,
+        "unitPrice": "18.00",
+        "packPrice": "504.00"
+      }
+    },
+    {
+      "priorityRank": 78,
+      "packId": "0b619b00-27e9-4154-87eb-5e6c50fe75e7",
+      "brandId": "34596eed-c02e-47c6-b0f9-303be11cda6a",
+      "brandName": "Cefaclav",
+      "strength": "500 mg+125 mg",
+      "dosageForm": "Tablet",
+      "currentValues": {
+        "packQuantity": "8's pack",
+        "packUnits": 8,
+        "stripUnits": 7,
+        "unitPrice": "50",
+        "packPrice": "400",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/7386/cefaclav-500-mg-tablet",
+      "liveMedexText": "Unit Price: ৳ 60.00 (2 x 7: ৳ 840.00) Strip Price: ৳ 420.00",
+      "proposedValues": {
+        "packQuantity": "2 x 7",
+        "packUnits": 14,
+        "stripUnits": 7,
+        "unitPrice": "60.00",
+        "packPrice": "840.00"
+      }
+    },
+    {
+      "priorityRank": 79,
+      "packId": "0c49462e-049a-4ab4-87f7-0667b409b3c4",
+      "brandId": "fb75531d-3c09-44ab-b425-436429d90426",
+      "brandName": "Zofra ODT",
+      "strength": "4 mg",
+      "dosageForm": "Dispersible Tablet",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 14,
+        "unitPrice": "5",
+        "packPrice": "150",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/4766/zofra-odt-4-mg-dispersible-tablet",
+      "liveMedexText": "Unit Price: ৳ 5.75 (3 x 14: ৳ 241.50) Strip Price: ৳ 80.50",
+      "proposedValues": {
+        "packQuantity": "3 x 14",
+        "packUnits": 42,
+        "stripUnits": 14,
+        "unitPrice": "5.75",
+        "packPrice": "241.50"
+      }
+    },
+    {
+      "priorityRank": 81,
+      "packId": "15c077de-6495-4597-9d4f-8d53b38e9a9d",
+      "brandId": "d26e152e-0b92-4f7d-a390-4f7fdf547cad",
+      "brandName": "Mensil N",
+      "strength": "5 mg",
+      "dosageForm": "Tablet",
+      "currentValues": {
+        "packQuantity": "56's pack",
+        "packUnits": 56,
+        "stripUnits": 10,
+        "unitPrice": "7.5",
+        "packPrice": "420",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/29883/mensil-n-5-mg-tablet",
+      "liveMedexText": "Unit Price: ৳ 7.50 (6 x 10: ৳ 450.00) Strip Price: ৳ 75.00",
+      "proposedValues": {
+        "packQuantity": "6 x 10",
+        "packUnits": 60,
+        "stripUnits": 10,
+        "unitPrice": "7.50",
+        "packPrice": "450.00"
+      }
+    },
+    {
+      "priorityRank": 82,
+      "packId": "187455bb-406e-47b9-9ae0-7c86cef6e66f",
+      "brandId": "de888c4a-e8b8-4764-b2ce-afb56f5fae4f",
+      "brandName": "Dytor",
+      "strength": "2.5 mg",
+      "dosageForm": "Tablet",
+      "currentValues": {
+        "packQuantity": "28's pack",
+        "packUnits": 28,
+        "stripUnits": 10,
+        "unitPrice": "6",
+        "packPrice": "168",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/2850/dytor-25-mg-tablet",
+      "liveMedexText": "Unit Price: ৳ 6.00 (3 x 10: ৳ 180.00) Strip Price: ৳ 60.00",
+      "proposedValues": {
+        "packQuantity": "3 x 10",
+        "packUnits": 30,
+        "stripUnits": 10,
+        "unitPrice": "6.00",
+        "packPrice": "180.00"
+      }
+    },
+    {
+      "priorityRank": 84,
+      "packId": "2dd6f243-8d1d-4c4c-9778-880310f9e38a",
+      "brandId": "24d54f6e-4fed-48bc-906a-f6bca382ba74",
+      "brandName": "Cefaclav",
+      "strength": "250 mg+62.5 mg",
+      "dosageForm": "Tablet",
+      "currentValues": {
+        "packQuantity": "12's pack",
+        "packUnits": 12,
+        "stripUnits": 7,
+        "unitPrice": "30",
+        "packPrice": "360",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/7385/cefaclav-250-mg-tablet",
+      "liveMedexText": "Unit Price: ৳ 35.00 (2 x 7: ৳ 490.00) Strip Price: ৳ 245.00",
+      "proposedValues": {
+        "packQuantity": "2 x 7",
+        "packUnits": 14,
+        "stripUnits": 7,
+        "unitPrice": "35.00",
+        "packPrice": "490.00"
+      }
+    },
+    {
+      "priorityRank": 85,
+      "packId": "32a583e1-3701-46d1-a4e9-3979c3fc5943",
+      "brandId": "8464f715-9059-4a78-8321-7d8d34bb9be0",
+      "brandName": "Cardimet MR",
+      "strength": "35 mg",
+      "dosageForm": "Tablet (Modified Release)",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 14,
+        "unitPrice": "6",
+        "packPrice": "180",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/26748/cardimet-mr-35-mg-mr-tablet",
+      "liveMedexText": "Unit Price: ৳ 8.00 (3 x 14: ৳ 336.00) Strip Price: ৳ 112.00",
+      "proposedValues": {
+        "packQuantity": "3 x 14",
+        "packUnits": 42,
+        "stripUnits": 14,
+        "unitPrice": "8.00",
+        "packPrice": "336.00"
+      }
+    },
+    {
+      "priorityRank": 86,
+      "packId": "338f1ea8-7da5-455f-b7f9-da6206a78edb",
+      "brandId": "c8a5f7c4-c94d-428e-96e5-f28d7e37819a",
+      "brandName": "Cinalid",
+      "strength": "500 mg",
+      "dosageForm": "Tablet",
+      "currentValues": {
+        "packQuantity": "6's pack",
+        "packUnits": 6,
+        "stripUnits": 4,
+        "unitPrice": "34",
+        "packPrice": "204",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/8632/cinalid-500-mg-tablet",
+      "liveMedexText": "Unit Price: ৳ 40.00 (2 x 4: ৳ 320.00) Strip Price: ৳ 160.00",
+      "proposedValues": {
+        "packQuantity": "2 x 4",
+        "packUnits": 8,
+        "stripUnits": 4,
+        "unitPrice": "40.00",
+        "packPrice": "320.00"
+      }
+    },
+    {
+      "priorityRank": 87,
+      "packId": "3ba50c1e-8173-4f29-9ee5-723444051d1c",
+      "brandId": "23b5b050-6e20-4e4f-928a-093033597bfa",
+      "brandName": "Exalin",
+      "strength": "10 mg",
+      "dosageForm": "Tablet",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 14,
+        "unitPrice": "10",
+        "packPrice": "300",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/26980/exalin-10-mg-tablet",
+      "liveMedexText": "Unit Price: ৳ 12.00 (3 x 14: ৳ 504.00) Strip Price: ৳ 168.00",
+      "proposedValues": {
+        "packQuantity": "3 x 14",
+        "packUnits": 42,
+        "stripUnits": 14,
+        "unitPrice": "12.00",
+        "packPrice": "504.00"
+      }
+    },
+    {
+      "priorityRank": 89,
+      "packId": "3eb1d371-14a1-4246-b600-b000f89a4d15",
+      "brandId": "61d3b2d6-0205-472b-a77a-4edd60deedb8",
+      "brandName": "Anset",
+      "strength": "8 mg",
+      "dosageForm": "Tablet",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 14,
+        "unitPrice": "11",
+        "packPrice": "330",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/4716/anset-8-mg-tablet",
+      "liveMedexText": "Unit Price: ৳ 11.00 (3 x 14: ৳ 462.00) Strip Price: ৳ 154.00",
+      "proposedValues": {
+        "packQuantity": "3 x 14",
+        "packUnits": 42,
+        "stripUnits": 14,
+        "unitPrice": "11.00",
+        "packPrice": "462.00"
+      }
+    },
+    {
+      "priorityRank": 90,
+      "packId": "3fb17de9-7957-44ff-a298-645fbe801907",
+      "brandId": "3b5d5f4b-6cc3-47b5-901b-0378073e67eb",
+      "brandName": "Nexven MUPS",
+      "strength": "20 mg",
+      "dosageForm": "MUPS Tablet",
+      "currentValues": {
+        "packQuantity": "50's pack",
+        "packUnits": 50,
+        "stripUnits": 6,
+        "unitPrice": "10",
+        "packPrice": "500",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/38593/nexven-mups-20-mg-mups-table",
+      "liveMedexText": "Unit Price: ৳ 8.00 (6 x 10: ৳ 480.00) Strip Price: ৳ 80.00",
+      "proposedValues": {
+        "packQuantity": "6 x 10",
+        "packUnits": 60,
+        "stripUnits": 10,
+        "unitPrice": "8.00",
+        "packPrice": "480.00"
+      }
+    },
+    {
+      "priorityRank": 91,
+      "packId": "4a8cce89-36f4-4f17-a347-43f8cab587af",
+      "brandId": "573bee60-a393-40a3-9e44-91f9f3aac7a7",
+      "brandName": "Myrica",
+      "strength": "75 mg",
+      "dosageForm": "Capsule",
+      "currentValues": {
+        "packQuantity": "28's pack",
+        "packUnits": 28,
+        "stripUnits": 10,
+        "unitPrice": "16",
+        "packPrice": "448",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/4988/myrica-75-mg-capsule",
+      "liveMedexText": "Unit Price: ৳ 18.00 (3 x 10: ৳ 540.00) Strip Price: ৳ 180.00",
+      "proposedValues": {
+        "packQuantity": "3 x 10",
+        "packUnits": 30,
+        "stripUnits": 10,
+        "unitPrice": "18.00",
+        "packPrice": "540.00"
+      }
+    },
+    {
+      "priorityRank": 92,
+      "packId": "4ba520b4-1318-43d2-8810-1de9f79c3915",
+      "brandId": "87ea5b82-be7e-41b7-926d-6ac4deec9234",
+      "brandName": "Reversair",
+      "strength": "10 mg",
+      "dosageForm": "Tablet",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 14,
+        "unitPrice": "16",
+        "packPrice": "480",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/3848/reversair-10-mg-tablet",
+      "liveMedexText": "Unit Price: ৳ 17.50 (3 x 14: ৳ 735.00) Strip Price: ৳ 245.00",
+      "proposedValues": {
+        "packQuantity": "3 x 14",
+        "packUnits": 42,
+        "stripUnits": 14,
+        "unitPrice": "17.50",
+        "packPrice": "735.00"
+      }
+    },
+    {
+      "priorityRank": 93,
+      "packId": "4c091af1-9e1b-49ff-8f19-e31ab6e02164",
+      "brandId": "525321d4-5f3d-4cf3-b000-8d33471e3e10",
+      "brandName": "Stafoxin",
+      "strength": "500 mg",
+      "dosageForm": "Capsule",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 4,
+        "unitPrice": "10",
+        "packPrice": "300",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/6399/stafoxin-500-mg-capsule",
+      "liveMedexText": "Unit Price: ৳ 10.00 (4 x 6: ৳ 240.00) Strip Price: ৳ 60.00",
+      "proposedValues": {
+        "packQuantity": "4 x 6",
+        "packUnits": 24,
+        "stripUnits": 6,
+        "unitPrice": "10.00",
+        "packPrice": "240.00"
+      }
+    },
+    {
+      "priorityRank": 94,
+      "packId": "4f05ff3e-c5c5-4311-9477-4623135dba55",
+      "brandId": "7e178568-cd13-45a8-911a-864f22857a56",
+      "brandName": "E-coxib",
+      "strength": "60 mg",
+      "dosageForm": "Tablet",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 14,
+        "unitPrice": null,
+        "packPrice": "210",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/33566/e-coxib-60-mg-tablet",
+      "liveMedexText": "Unit Price: ৳ 7.00 (2 x 14: ৳ 196.00) Strip Price: ৳ 98.00",
+      "proposedValues": {
+        "packQuantity": "2 x 14",
+        "packUnits": 28,
+        "stripUnits": 14,
+        "unitPrice": "7.00",
+        "packPrice": "196.00"
+      }
+    },
+    {
+      "priorityRank": 95,
+      "packId": "5352157d-d0d9-4177-80d2-fba71ce4b512",
+      "brandId": "04836c63-f32d-42cf-aab2-55a089660a38",
+      "brandName": "Omep",
+      "strength": "10 mg",
+      "dosageForm": "Capsule (Enteric Coated)",
+      "currentValues": {
+        "packQuantity": "48's pack",
+        "packUnits": 48,
+        "stripUnits": 10,
+        "unitPrice": "2",
+        "packPrice": "96",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/1863/omep-10-mg-ec-capsule",
+      "liveMedexText": "Unit Price: ৳ 2.00 (6 x 10: ৳ 120.00) Strip Price: ৳ 20.00",
+      "proposedValues": {
+        "packQuantity": "6 x 10",
+        "packUnits": 60,
+        "stripUnits": 10,
+        "unitPrice": "2.00",
+        "packPrice": "120.00"
+      }
+    },
+    {
+      "priorityRank": 96,
+      "packId": "5730bfdd-2db7-4f0e-b2cc-83d4a471e08b",
+      "brandId": "80795e85-c038-40fe-a668-344af200af39",
+      "brandName": "Larb Plus",
+      "strength": "100 mg+25 mg",
+      "dosageForm": "Tablet",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 21,
+        "unitPrice": "12",
+        "packPrice": "360",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/28319/larb-plus-100-mg-tablet",
+      "liveMedexText": "Unit Price: ৳ 12.03 (2 x 21: ৳ 505.26) Strip Price: ৳ 252.63",
+      "proposedValues": {
+        "packQuantity": "2 x 21",
+        "packUnits": 42,
+        "stripUnits": 21,
+        "unitPrice": "12.03",
+        "packPrice": "505.26"
+      }
+    },
+    {
+      "priorityRank": 98,
+      "packId": "5d257fc8-aeda-4c7a-8311-25de527b05e5",
+      "brandId": "f69be8c4-9c3a-4e27-825c-ecb35477b153",
+      "brandName": "Cerox CV",
+      "strength": "250 mg+62.5 mg",
+      "dosageForm": "Tablet",
+      "currentValues": {
+        "packQuantity": "12's pack",
+        "packUnits": 12,
+        "stripUnits": 7,
+        "unitPrice": "35",
+        "packPrice": "420",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/7406/cerox-cv-250-mg-tablet",
+      "liveMedexText": "Unit Price: ৳ 35.00 (2 x 7: ৳ 490.00) Strip Price: ৳ 245.00",
+      "proposedValues": {
+        "packQuantity": "2 x 7",
+        "packUnits": 14,
+        "stripUnits": 7,
+        "unitPrice": "35.00",
+        "packPrice": "490.00"
+      }
+    },
+    {
+      "priorityRank": 99,
+      "packId": "62f712bc-5f66-4338-920e-902b01bc0ef9",
+      "brandId": "2e21b938-53e8-4f78-bb65-b3cc215a5a3e",
+      "brandName": "Progesic",
+      "strength": "500 mg+20 mg",
+      "dosageForm": "Tablet (Delayed Release)",
+      "currentValues": {
+        "packQuantity": "28's pack",
+        "packUnits": 28,
+        "stripUnits": 10,
+        "unitPrice": "10",
+        "packPrice": "280",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/11574/progesic-500-mg-dr-tablet",
+      "liveMedexText": "Unit Price: ৳ 15.00 (3 x 10: ৳ 450.00) Strip Price: ৳ 150.00",
+      "proposedValues": {
+        "packQuantity": "3 x 10",
+        "packUnits": 30,
+        "stripUnits": 10,
+        "unitPrice": "15.00",
+        "packPrice": "450.00"
+      }
+    },
+    {
+      "priorityRank": 100,
+      "packId": "70179d09-3341-40d2-9fdb-a847afd5ffcd",
+      "brandId": "22377169-cdfd-47a5-a3e8-b9d7cd0489ee",
+      "brandName": "Sitadus",
+      "strength": "50 mg",
+      "dosageForm": "Tablet",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 14,
+        "unitPrice": "15.05",
+        "packPrice": "451.5",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/27073/sitadus-50-mg-tablet",
+      "liveMedexText": "Unit Price: ৳ 15.05 (3 x 14: ৳ 632.10) Strip Price: ৳ 210.70",
+      "proposedValues": {
+        "packQuantity": "3 x 14",
+        "packUnits": 42,
+        "stripUnits": 14,
+        "unitPrice": "15.05",
+        "packPrice": "632.10"
+      }
+    }
+  ],
+  "subbatch3D_rem187SameBoxPriceFixes": [
+    {
+      "packId": "cb31c260-883f-46dd-8886-d1fbc4b8748e",
+      "brandId": "11c588b7-e94d-457a-a4aa-ca50eef7d353",
+      "brandName": "Enyl Extend",
+      "strength": "665 mg",
+      "dosageForm": "Tablet (Extended Release)",
+      "currentValues": {
+        "packQuantity": "100's pack",
+        "packUnits": 100,
+        "stripUnits": null,
+        "unitPrice": "1.5",
+        "packPrice": "151",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/33932/enyl-extend-665-mg-xr-tablet",
+      "liveMedexText": "Unit Price: ৳ 2.00 (10 x 10: ৳ 200.00) Strip Price: ৳ 20.00",
+      "proposedValues": {
+        "unitPrice": "2.00",
+        "packPrice": "200.00"
+      }
+    },
+    {
+      "packId": "6264b7a5-32d1-431d-9cf3-2e31972e56e1",
+      "brandId": "19dc2206-9e69-40f8-a2ee-45a349bf4952",
+      "brandName": "Neforex",
+      "strength": "20 mg/ml",
+      "dosageForm": "IM/IV Injection",
+      "currentValues": {
+        "packQuantity": "5's pack",
+        "packUnits": 5,
+        "stripUnits": null,
+        "unitPrice": null,
+        "packPrice": "75",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/33847/neforex-20-mg-imiv-injection",
+      "liveMedexText": "1 ml ampoule: ৳ 80.00 (1 x 5: ৳ 400.00)",
+      "proposedValues": {
+        "packPrice": "400.00"
+      }
+    },
+    {
+      "packId": "91680d88-a908-4c1a-a5c7-aa22205a9f4e",
+      "brandId": "25e40761-5d67-4db3-9f45-cfa7414b1bbc",
+      "brandName": "Clofenac",
+      "strength": "25 mg",
+      "dosageForm": "Suppository",
+      "currentValues": {
+        "packQuantity": "15's pack",
+        "packUnits": 15,
+        "stripUnits": 5,
+        "unitPrice": "12.09",
+        "packPrice": "181.35",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/10959/clofenac-25-mg-suppository",
+      "liveMedexText": "Unit Price: ৳ 16.00 (3 x 5: ৳ 240.00)",
+      "proposedValues": {
+        "unitPrice": "16.00",
+        "packPrice": "240.00"
+      }
+    },
+    {
+      "packId": "7cd53f7e-12cf-4bd0-8d45-657702592b46",
+      "brandId": "629fb73d-156b-4b3a-be56-21a2b03ea8df",
+      "brandName": "Reversair CT",
+      "strength": "10 mg",
+      "dosageForm": "Chewable Tablet",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 10,
+        "unitPrice": "8",
+        "packPrice": "180.9",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "medexUrl": "https://medex.com.bd/brands/34017/reversair-ct-10-mg-chewable-tablet",
+      "liveMedexText": "Unit Price: ৳ 18.00 (3 x 10: ৳ 540.00) Strip Price: ৳ 180.00",
+      "proposedValues": {
+        "unitPrice": "18.00",
+        "packPrice": "540.00"
+      }
+    },
+    {
+      "packId": "cb65faa8-610d-48de-adbb-3d2ff2431668",
+      "brandId": "65ed0833-93a4-437a-879c-9dbc276abd8f",
+      "brandName": "Gynomix",
+      "strength": null,
+      "dosageForm": "Vaginal Suppository",
+      "currentValues": {
+        "packQuantity": "6's pack",
+        "packUnits": 6,
+        "stripUnits": null,
+        "unitPrice": "25.1",
+        "packPrice": "150.6",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/22461/gynomix-vaginal-suppository",
+      "liveMedexText": "Unit Price: ৳ 26.00 (1 x 6: ৳ 156.00)",
+      "proposedValues": {
+        "unitPrice": "26.00",
+        "packPrice": "156.00"
+      }
+    },
+    {
+      "packId": "8bbc93b2-c12d-4f3b-8b91-fdae5599c814",
+      "brandId": "6b0fa1e9-f39f-49cf-ac97-5b8c32e0489d",
+      "brandName": "Bigatab",
+      "strength": "90 mg",
+      "dosageForm": "Tablet",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "1200",
+        "packPrice": "24500",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "medexUrl": "https://medex.com.bd/brands/35633/bigatab-90-mg-tablet",
+      "liveMedexText": "Unit Price: ৳ 350.00 (3 x 10: ৳ 10,500.00) Strip Price: ৳ 3,500.00",
+      "proposedValues": {
+        "unitPrice": "350.00",
+        "packPrice": "10500.00"
+      }
+    },
+    {
+      "packId": "436dd1a7-99dd-4b30-aba5-edc9aa8736dd",
+      "brandId": "6ef11e2a-4c31-418d-a153-7556c78c557a",
+      "brandName": "Hypen Max SR",
+      "strength": "1.5 mg+5 mg",
+      "dosageForm": "Tablet (Sustained Release)",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 10,
+        "unitPrice": "6",
+        "packPrice": "281.8",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "medexUrl": "https://medex.com.bd/brands/37325/hypen-max-sr-15-mg-sr-tablet",
+      "liveMedexText": "Unit Price: ৳ 15.00 (3 x 10: ৳ 450.00) Strip Price: ৳ 150.00",
+      "proposedValues": {
+        "unitPrice": "15.00",
+        "packPrice": "450.00"
+      }
+    },
+    {
+      "packId": "5fdb3c7e-0243-46b4-9e8b-17b17f77ec1b",
+      "brandId": "8fbccd5e-ef34-4b77-bfc9-7e38d1e5d50d",
+      "brandName": "Colasa",
+      "strength": "1 gm",
+      "dosageForm": "Suppository",
+      "currentValues": {
+        "packQuantity": "10's pack",
+        "packUnits": 10,
+        "stripUnits": 5,
+        "unitPrice": "9",
+        "packPrice": "150",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "medexUrl": "https://medex.com.bd/brands/36966/colasa-1-gm-suppository",
+      "liveMedexText": "Unit Price: ৳ 60.00 (2 x 5: ৳ 600.00)",
+      "proposedValues": {
+        "unitPrice": "60.00",
+        "packPrice": "600.00"
+      }
+    },
+    {
+      "packId": "481fcdac-5e79-4b38-a380-c279def459d6",
+      "brandId": "9208eb2e-e01f-4ef2-b89d-10bbb894a3b7",
+      "brandName": "Indula",
+      "strength": "25 mcg",
+      "dosageForm": "Tablet",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 10,
+        "unitPrice": "15",
+        "packPrice": "450",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/39306/indula-25-mcg-tablet",
+      "liveMedexText": "Unit Price: ৳ 4.00 (3 x 10: ৳ 120.00) Strip Price: ৳ 40.00",
+      "proposedValues": {
+        "unitPrice": "4.00",
+        "packPrice": "120.00"
+      }
+    },
+    {
+      "packId": "576912a2-c569-4484-b425-448af693392d",
+      "brandId": "9a29d7d8-e629-4ff1-bbf6-88d9c7020316",
+      "brandName": "Kidopia",
+      "strength": "0.01%",
+      "dosageForm": "Ophthalmic Solution",
+      "currentValues": {
+        "packQuantity": "5 ml drop",
+        "packUnits": null,
+        "stripUnits": null,
+        "unitPrice": null,
+        "packPrice": "27.98",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/35998/kidopia-001-eye-drop",
+      "liveMedexText": "5 ml drop: ৳ 280.00",
+      "proposedValues": {
+        "packPrice": "280.00"
+      }
+    },
+    {
+      "packId": "2d258873-fa66-4ea6-b3e8-5351440868b4",
+      "brandId": "aba73481-bfe4-4168-8f86-96b98f7b0faf",
+      "brandName": "Dewax",
+      "strength": "6.5%",
+      "dosageForm": "Ear Drop",
+      "currentValues": {
+        "packQuantity": "10 ml drop",
+        "packUnits": null,
+        "stripUnits": null,
+        "unitPrice": null,
+        "packPrice": "70.11",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/34921/dewax-65-ear-drop",
+      "liveMedexText": "10 ml drop: ৳ 300.00",
+      "proposedValues": {
+        "packPrice": "300.00"
+      }
+    },
+    {
+      "packId": "80212167-c3e8-4a8b-987b-179baaaa01ce",
+      "brandId": "b4568369-125b-4593-8528-12bcff2f0ea3",
+      "brandName": "Piloma OSD",
+      "strength": "2%",
+      "dosageForm": "Ophthalmic Solution",
+      "currentValues": {
+        "packQuantity": "10 ml drop",
+        "packUnits": null,
+        "stripUnits": null,
+        "unitPrice": null,
+        "packPrice": "186.12",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/36675/piloma-osd-2-eye-drop",
+      "liveMedexText": "10 ml drop: ৳ 580.00",
+      "proposedValues": {
+        "packPrice": "580.00"
+      }
+    },
+    {
+      "packId": "46bbe924-d43d-43d5-858b-942a62c8c2a0",
+      "brandId": "b9f476c8-94f9-4708-8660-6b84a0e0684b",
+      "brandName": "Electro-K",
+      "strength": "600 mg",
+      "dosageForm": "Tablet",
+      "currentValues": {
+        "packQuantity": "100's pack",
+        "packUnits": 100,
+        "stripUnits": 10,
+        "unitPrice": "0.6",
+        "packPrice": "60",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/14835/electro-k-600-mg-tablet",
+      "liveMedexText": "Unit Price: ৳ 2.00 (10 x 10: ৳ 200.00) Strip Price: ৳ 20.00",
+      "proposedValues": {
+        "unitPrice": "2.00",
+        "packPrice": "200.00"
+      }
+    },
+    {
+      "packId": "f8deb6f2-72f9-4d9b-8543-f578b3160486",
+      "brandId": "bbd06f69-89be-4eef-bed1-f008c7b8c5de",
+      "brandName": "Fertinatal",
+      "strength": "50 mg",
+      "dosageForm": "Tablet",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "15",
+        "packPrice": "450",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/33697/fertinatal-50-mg-tablet",
+      "liveMedexText": "Unit Price: ৳ 53.33 (3 x 10: ৳ 1,600.00) Strip Price: ৳ 533.33",
+      "proposedValues": {
+        "unitPrice": "53.33",
+        "packPrice": "1600.00"
+      }
+    }
+  ],
+  "subbatch3E_rem187PackAndPriceMigrations": [
+    {
+      "packId": "3b45ef30-ac31-4b25-8c3d-a2976c577de7",
+      "brandId": "05ff3037-fbc0-421d-9025-a13b7c418657",
+      "brandName": "Annova Plus",
+      "strength": "375 mg+20 mg",
+      "dosageForm": "Tablet (Delayed Release)",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 6,
+        "unitPrice": "8.02",
+        "packPrice": "241.2",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/36254/annova-plus-375-mg-dr-tablet",
+      "liveMedexText": "Unit Price: ৳ 17.00 (7 x 6: ৳ 714.00) Strip Price: ৳ 102.00",
+      "proposedValues": {
+        "packQuantity": "7 x 6",
+        "packUnits": 42,
+        "stripUnits": 6,
+        "unitPrice": "17.00",
+        "packPrice": "714.00"
+      }
+    },
+    {
+      "packId": "52daee05-4c67-4d78-b090-8ee3fe7091d1",
+      "brandId": "09cb8cc2-08f1-4ef5-be35-aa391e0e4228",
+      "brandName": "Dephos",
+      "strength": "500 mg",
+      "dosageForm": "Chewable Tablet",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "4",
+        "packPrice": "190",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "medexUrl": "https://medex.com.bd/brands/36669/dephos-500-mg-chewable-tablet",
+      "liveMedexText": "Unit Price: ৳ 45.00 (1 x 12: ৳ 540.00) Strip Price: ৳ 540.00",
+      "proposedValues": {
+        "packQuantity": "1 x 12",
+        "packUnits": 12,
+        "stripUnits": 12,
+        "unitPrice": "45.00",
+        "packPrice": "540.00"
+      }
+    },
+    {
+      "packId": "017952bf-134f-4888-96ad-74a67b8826a2",
+      "brandId": "19e67ae8-c383-476f-a0f6-4d40b211561a",
+      "brandName": "Aproxi EZY",
+      "strength": "125 mg+80 mg+80 mg",
+      "dosageForm": "Capsule",
+      "currentValues": {
+        "packQuantity": "4's pack",
+        "packUnits": 4,
+        "stripUnits": null,
+        "unitPrice": "50",
+        "packPrice": "350.65",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "medexUrl": "https://medex.com.bd/brands/38254/aproxi-ezy-125-mg-capsule",
+      "liveMedexText": "3 capsule pack: ৳ 350.00",
+      "proposedValues": {
+        "packQuantity": "3 capsule pack",
+        "packUnits": 3,
+        "stripUnits": null,
+        "unitPrice": null,
+        "packPrice": "350.00"
+      }
+    },
+    {
+      "packId": "1b97905b-3bf4-46ae-bf45-c1330565aa6a",
+      "brandId": "32885577-783f-4f53-8e89-6fbd2cb0fa6f",
+      "brandName": "Pancreon 10000",
+      "strength": "150 mg",
+      "dosageForm": "Capsule (Enteric Coated)",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 10,
+        "unitPrice": "7",
+        "packPrice": "350",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "medexUrl": "https://medex.com.bd/brands/36501/pancreon-10000-150-mg-ec-capsule",
+      "liveMedexText": "Unit Price: ৳ 60.00 (10 x 10: ৳ 6,000.00) Strip Price: ৳ 600.00",
+      "proposedValues": {
+        "packQuantity": "10 x 10",
+        "packUnits": 100,
+        "stripUnits": 10,
+        "unitPrice": "60.00",
+        "packPrice": "6000.00"
+      }
+    },
+    {
+      "packId": "b38372bd-7be1-4693-ac94-707a9bf63252",
+      "brandId": "33cec057-20af-4d01-aea3-adbd2672990a",
+      "brandName": "Biomolipon",
+      "strength": "600 mg/ampoule",
+      "dosageForm": "Injection",
+      "currentValues": {
+        "packQuantity": "5's pack",
+        "packUnits": 5,
+        "stripUnits": null,
+        "unitPrice": "10.2",
+        "packPrice": "65",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "medexUrl": "https://medex.com.bd/brands/33962/biomo-lipon-600-mg-injection",
+      "liveMedexText": "600 mg ampoule: ৳ 820.00",
+      "proposedValues": {
+        "packQuantity": "600 mg ampoule",
+        "packUnits": null,
+        "stripUnits": null,
+        "unitPrice": null,
+        "packPrice": "820.00"
+      }
+    },
+    {
+      "packId": "414d55b9-179f-4861-81b1-ef2ecf5fedfb",
+      "brandId": "3b436b84-31fa-4188-be90-7d55a120911c",
+      "brandName": "Prinagel",
+      "strength": "8%",
+      "dosageForm": "Vaginal Gel",
+      "currentValues": {
+        "packQuantity": "15's pack",
+        "packUnits": 15,
+        "stripUnits": null,
+        "unitPrice": "339",
+        "packPrice": "5085",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/36531/prinagel-8-vaginal-gel",
+      "liveMedexText": "15 gm tube & applicator: ৳ 335.00",
+      "proposedValues": {
+        "packQuantity": "15 gm tube & applicator",
+        "packUnits": null,
+        "stripUnits": null,
+        "unitPrice": null,
+        "packPrice": "335.00"
+      }
+    },
+    {
+      "packId": "c74d78af-fc5b-4d41-a3f3-cbdd5a8540d5",
+      "brandId": "3fceafc8-c4d9-4f42-8a2b-bbc7648520dd",
+      "brandName": "Avas EZ",
+      "strength": "40 mg+10 mg",
+      "dosageForm": "Tablet",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "14",
+        "packPrice": "420",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/36594/avas-ez-40-mg-tablet",
+      "liveMedexText": "Unit Price: ৳ 30.00 (1 x 14: ৳ 420.00) Strip Price: ৳ 420.00",
+      "proposedValues": {
+        "packQuantity": "1 x 14",
+        "packUnits": 14,
+        "stripUnits": 14,
+        "unitPrice": "30.00",
+        "packPrice": "420.00"
+      }
+    },
+    {
+      "packId": "59515bb4-6814-40e0-8809-162e95134e96",
+      "brandId": "489ed2c7-16b5-4ada-8d2e-3fa7319b4fec",
+      "brandName": "Mycept-S",
+      "strength": "180 mg",
+      "dosageForm": "Tablet (Enteric Coated)",
+      "currentValues": {
+        "packQuantity": "50's pack",
+        "packUnits": 50,
+        "stripUnits": 10,
+        "unitPrice": "5",
+        "packPrice": "250",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/39132/mycept-s-180-mg-ec-tablet",
+      "liveMedexText": "Unit Price: ৳ 50.00 (3 x 10: ৳ 1,500.00) Strip Price: ৳ 500.00",
+      "proposedValues": {
+        "packQuantity": "3 x 10",
+        "packUnits": 30,
+        "stripUnits": 10,
+        "unitPrice": "50.00",
+        "packPrice": "1500.00"
+      }
+    },
+    {
+      "packId": "8ec49af4-7b55-4b57-9ff3-3e2446951765",
+      "brandId": "5a8218a4-4252-4e5d-bfe8-9dcb3b6e8e15",
+      "brandName": "Mycept-S",
+      "strength": "360 mg",
+      "dosageForm": "Tablet (Enteric Coated)",
+      "currentValues": {
+        "packQuantity": "50's pack",
+        "packUnits": 50,
+        "stripUnits": 10,
+        "unitPrice": "5",
+        "packPrice": "250",
+        "warnings": []
+      },
+      "medexUrl": "https://medex.com.bd/brands/39133/mycept-s-360-mg-ec-tablet",
+      "liveMedexText": "Unit Price: ৳ 90.00 (3 x 10: ৳ 2,700.00) Strip Price: ৳ 900.00",
+      "proposedValues": {
+        "packQuantity": "3 x 10",
+        "packUnits": 30,
+        "stripUnits": 10,
+        "unitPrice": "90.00",
+        "packPrice": "2700.00"
+      }
+    },
+    {
+      "packId": "e9d540d7-0c55-4914-9084-5b34e36d29ef",
+      "brandId": "5d637a94-faf6-48d5-9611-7bf100cef947",
+      "brandName": "Enclot",
+      "strength": "650 mg",
+      "dosageForm": "Tablet (Controlled Release)",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 10,
+        "unitPrice": "8.02",
+        "packPrice": "300.5",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "medexUrl": "https://medex.com.bd/brands/37066/enclot-650-mg-cr-tablet",
+      "liveMedexText": "Unit Price: ৳ 25.00 (2 x 10: ৳ 500.00) Strip Price: ৳ 250.00",
+      "proposedValues": {
+        "packQuantity": "2 x 10",
+        "packUnits": 20,
+        "stripUnits": 10,
+        "unitPrice": "25.00",
+        "packPrice": "500.00"
+      }
+    },
+    {
+      "packId": "69bd7d63-b3b8-43c3-a697-26249d2b4ad5",
+      "brandId": "95868c47-be1f-4743-a23c-099bcf796d11",
+      "brandName": "Ceframax",
+      "strength": "500 mg",
+      "dosageForm": "Capsule",
+      "currentValues": {
+        "packQuantity": "20's pack",
+        "packUnits": 20,
+        "stripUnits": null,
+        "unitPrice": "12.5",
+        "packPrice": "300",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "medexUrl": "https://medex.com.bd/brands/37405/ceframax-500-mg-capsule",
+      "liveMedexText": "Unit Price: ৳ 12.00 (3 x 10: ৳ 360.00) Strip Price: ৳ 120.00",
+      "proposedValues": {
+        "packQuantity": "3 x 10",
+        "packUnits": 30,
+        "stripUnits": 10,
+        "unitPrice": "12.00",
+        "packPrice": "360.00"
+      }
+    },
+    {
+      "packId": "c6daeb88-5264-4e42-80c1-89b7ca01dc3c",
+      "brandId": "a79be656-793b-4be8-8eb4-2051f58807a5",
+      "brandName": "Elivier DT",
+      "strength": "1000 mg",
+      "dosageForm": "Dispersible Tablet",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 6,
+        "unitPrice": "8",
+        "packPrice": "270",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "medexUrl": "https://medex.com.bd/brands/36318/elivier-dt-1000-mg-dispersible-tablet",
+      "liveMedexText": "Unit Price: ৳ 30.00 (4 x 6: ৳ 720.00) Strip Price: ৳ 180.00",
+      "proposedValues": {
+        "packQuantity": "4 x 6",
+        "packUnits": 24,
+        "stripUnits": 6,
+        "unitPrice": "30.00",
+        "packPrice": "720.00"
+      }
+    }
+  ],
+  "excludedFalsePositivesAlreadyMatchingMedex": [
+    {
+      "packId": "edee7d44-35f7-4073-a4ab-b8af8fa7ea3c",
+      "brandName": "Napa 125 mg",
+      "db": "4/80",
+      "liveMedex": "Unit Price: ৳ 4.00 (4 x 5: ৳ 80.00)",
+      "aroggaBad": "20/20",
+      "reason": "DB_ALREADY_MATCHES_LIVE_MEDEX"
+    },
+    {
+      "packId": "ecf9057d-fb01-4564-9e7c-ad70963774f3",
+      "brandName": "Fluking 250 mg",
+      "db": "5.5/154",
+      "liveMedex": "Unit Price: ৳ 5.50 (7 x 4: ৳ 154.00) Strip Price: ৳ 22.00",
+      "aroggaBad": "1/1",
+      "reason": "DB_ALREADY_MATCHES_LIVE_MEDEX"
+    },
+    {
+      "packId": "009746d7-6afc-48ca-a3c8-6e71f2bfbed8",
+      "brandName": "Technofen 100 mg",
+      "db": "4.96/496.1",
+      "liveMedex": "Unit Price: ৳ 4.96 (10 x 10: ৳ 496.00) Strip Price: ৳ 49.60",
+      "aroggaBad": "0.4/0.4",
+      "reason": "DB_ALREADY_MATCHES_LIVE_MEDEX"
+    },
+    {
+      "packId": "7939c65c-a176-4567-93ae-f9915374d7ba",
+      "brandName": "Tranal 100 mg/2 ml",
+      "db": "null/100.4",
+      "liveMedex": "2 ml ampoule: ৳ 20.08 (1 x 5: ৳ 100.40)",
+      "aroggaBad": "100.7/100.7",
+      "reason": "DB_ALREADY_MATCHES_LIVE_MEDEX"
+    },
+    {
+      "packId": "b42cdc8a-4ba0-417e-9c50-a6e9481ed154",
+      "brandName": "Napa 250 mg",
+      "db": "5/100",
+      "liveMedex": "Unit Price: ৳ 5.00 (4 x 5: ৳ 100.00)",
+      "aroggaBad": "25/25",
+      "reason": "DB_ALREADY_MATCHES_LIVE_MEDEX"
+    },
+    {
+      "packId": "c9e8e2c7-cade-4f9e-b644-c2dce9757263",
+      "brandName": "Fast 125 mg",
+      "db": "4.03/40.3",
+      "liveMedex": "Unit Price: ৳ 4.03 (2 x 5: ৳ 40.30)",
+      "aroggaBad": "20.15/20.15",
+      "reason": "DB_ALREADY_MATCHES_LIVE_MEDEX"
+    },
+    {
+      "packId": "e162fe46-5150-4326-b772-56d909c32193",
+      "brandName": "Multical",
+      "db": "4/120",
+      "liveMedex": "Unit Price: ৳ 4.00 (1 x 30: ৳ 120.00)",
+      "aroggaBad": "48.33/1449.9",
+      "reason": "DB_ALREADY_MATCHES_LIVE_MEDEX"
+    }
+  ],
+  "heldPendingMedexCaptchaTail": [
+    {
+      "packId": "32905c0c-6092-4c3f-a267-2fdfd6e83462",
+      "brandName": "Laxadil",
+      "strength": "3.5 gm/sachet",
+      "packQuantity": "15's pack",
+      "dbUnit": null,
+      "dbPack": "105",
+      "arPvMrp": 150,
+      "arB2cMrp": 150,
+      "reason": "MEDEX_RATE_LIMIT_CAPTCHA_ENCOUNTERED_STOPPED_SAFELY"
+    },
+    {
+      "packId": "99d14317-7de9-4c44-a32b-2c3e570cb83c",
+      "brandName": "Apremig ODT",
+      "strength": "75 mg",
+      "packQuantity": "30's pack",
+      "dbUnit": "8",
+      "dbPack": "270",
+      "arPvMrp": 150,
+      "arB2cMrp": 1200,
+      "reason": "MEDEX_RATE_LIMIT_CAPTCHA_ENCOUNTERED_STOPPED_SAFELY"
+    },
+    {
+      "packId": "08a04776-3cf2-41fe-abdf-c082dbf3a472",
+      "brandName": "Renova",
+      "strength": "500 mg",
+      "packQuantity": "10's pack",
+      "dbUnit": "8.03",
+      "dbPack": "80.3",
+      "arPvMrp": 40.3,
+      "arB2cMrp": 80.6,
+      "reason": "MEDEX_RATE_LIMIT_CAPTCHA_ENCOUNTERED_STOPPED_SAFELY"
+    },
+    {
+      "packId": "dd4a3751-e2e0-42ea-88a4-63aa0a7dce6a",
+      "brandName": "Annova",
+      "strength": "500 mg",
+      "packQuantity": "30's pack",
+      "dbUnit": "7.52",
+      "dbPack": "255.06",
+      "arPvMrp": 16,
+      "arB2cMrp": 160,
+      "reason": "MEDEX_RATE_LIMIT_CAPTCHA_ENCOUNTERED_STOPPED_SAFELY"
+    },
+    {
+      "packId": "b58a18f0-4f1d-4662-b2aa-3fb2936ee9c0",
+      "brandName": "Atofix",
+      "strength": "0.3% w/w",
+      "packQuantity": "10 gm tube",
+      "dbUnit": null,
+      "dbPack": "50.19",
+      "arPvMrp": 350,
+      "arB2cMrp": 350,
+      "reason": "MEDEX_RATE_LIMIT_CAPTCHA_ENCOUNTERED_STOPPED_SAFELY"
+    },
+    {
+      "packId": "f8045f67-d604-406b-a12e-efa67fb1db26",
+      "brandName": "Renova",
+      "strength": "250 mg",
+      "packQuantity": "10's pack",
+      "dbUnit": "5.02",
+      "dbPack": "50.2",
+      "arPvMrp": 25.15,
+      "arB2cMrp": 25.15,
+      "reason": "MEDEX_RATE_LIMIT_CAPTCHA_ENCOUNTERED_STOPPED_SAFELY"
+    },
+    {
+      "packId": "1e48fd6c-7e57-44fd-8c7e-695c0779bce6",
+      "brandName": "Lura",
+      "strength": "80 mg",
+      "packQuantity": "30's pack",
+      "dbUnit": "27.5",
+      "dbPack": "600",
+      "arPvMrp": 70,
+      "arB2cMrp": 700,
+      "reason": "MEDEX_RATE_LIMIT_CAPTCHA_ENCOUNTERED_STOPPED_SAFELY"
+    },
+    {
+      "packId": "218da6dc-e2ff-4b10-ba0c-17a49dbc6e66",
+      "brandName": "Coxitor",
+      "strength": "30 mg",
+      "packQuantity": "30's pack",
+      "dbUnit": "12",
+      "dbPack": "280",
+      "arPvMrp": 4,
+      "arB2cMrp": 40,
+      "reason": "MEDEX_RATE_LIMIT_CAPTCHA_ENCOUNTERED_STOPPED_SAFELY"
+    },
+    {
+      "packId": "0f608bc6-c7c9-4ba5-a70d-be34ab3a4ebe",
+      "brandName": "Progel",
+      "strength": "8%",
+      "packQuantity": "15's pack",
+      "dbUnit": "339",
+      "dbPack": "5085",
+      "arPvMrp": 500,
+      "arB2cMrp": 500,
+      "reason": "MEDEX_RATE_LIMIT_CAPTCHA_ENCOUNTERED_STOPPED_SAFELY"
+    },
+    {
+      "packId": "cab20abf-09a2-4ca0-b3e7-a161f1b871f0",
+      "brandName": "Lura",
+      "strength": "120 mg",
+      "packQuantity": "30's pack",
+      "dbUnit": "27.5",
+      "dbPack": "600",
+      "arPvMrp": 95,
+      "arB2cMrp": 570,
+      "reason": "MEDEX_RATE_LIMIT_CAPTCHA_ENCOUNTERED_STOPPED_SAFELY"
+    },
+    {
+      "packId": "8e2bcc54-0236-4c01-907f-8edbcbf6cfb3",
+      "brandName": "Demelon",
+      "strength": "4.5 mg",
+      "packQuantity": "28's pack",
+      "dbUnit": "92.78",
+      "dbPack": "2237.68",
+      "arPvMrp": 40,
+      "arB2cMrp": 280,
+      "reason": "MEDEX_RATE_LIMIT_CAPTCHA_ENCOUNTERED_STOPPED_SAFELY"
+    },
+    {
+      "packId": "a7b3a3b4-836a-4c28-8ce3-f68648f58d3b",
+      "brandName": "Calfix Plus EF",
+      "strength": null,
+      "packQuantity": "10's pack",
+      "dbUnit": "20",
+      "dbPack": "200",
+      "arPvMrp": 210,
+      "arB2cMrp": 210,
+      "reason": "MEDEX_RATE_LIMIT_CAPTCHA_ENCOUNTERED_STOPPED_SAFELY"
+    },
+    {
+      "packId": "5215fcf7-ab62-4e03-a3bf-c9e97becd543",
+      "brandName": "Fast",
+      "strength": "250 mg",
+      "packQuantity": "10's pack",
+      "dbUnit": "5.03",
+      "dbPack": "50.3",
+      "arPvMrp": 25.15,
+      "arB2cMrp": 25.15,
+      "reason": "MEDEX_RATE_LIMIT_CAPTCHA_ENCOUNTERED_STOPPED_SAFELY"
+    }
+  ]
+}

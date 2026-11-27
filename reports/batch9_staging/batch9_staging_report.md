@@ -1,0 +1,249 @@
+# CareDose — Staged Batch 9 Wave Review (Read-Only Staging)
+
+Generated: 2026-11-25T15:49:43.321Z | Status: STAGED (0 PostgreSQL mutations)
+
+## Batch 9 Summary
+- **Sub-batch 9A — Non-Arithmetic (<=5% err) Warning Packs (16):** All verified warning packs excluding exact-rounding `Sac Sweet` and 5 dual-pack inhalers (`Leukenib 400`, `Imakin 400`, `Olatab 100`, `Ameloss M 7+10`, `Glipagen Plus`, `Folimax 15`, `Lexapro 10`, `B stop 500`, `Charm 25`, `Nemine 4`, `Cytacin 4`, `Hispasin 4`, `H-CIN 4`, `Calfix C`, `CX-C`, `Azithromycin 250 Pharmik`).
+- **Sub-batch 9B — Remaining 5%–25% Arithmetic Mismatches (209):** All verified 5%–25% mismatches across corrupted scraper templates and stale MRPs (incl. 22 Vit B1+B6+B12 / Fexofenadine 120 / `u=7/240`, 15 Pregabalin/Montelukast/Gefitinib `u=9/252` & `15/420`, 12 Oral Powders `u=4.59/100`, 8 Doxofylline 200 `u=6/250`, 7 Azithromycin 500 `u=35/360`, 7 A-Z Gold/Silver `u=7/180.25`, 7 Esomeprazole 40 `u=9.03/300`, 7 Fexofenadine 180 `u=9.03/247.5`, 7 Doxofylline 400/Mitazapine `u=9.5/300`, 6 Cefuroxime 250 `12's pack`, 6 Dispersible Tablets `u=8/270`, 6 Effervescent Calcium/Vitamin D `u=10/110`, 5 Ciprofloxacin 500 `u=14/361.2`, 5 Pantoprazole 40 `u=6.02/273`, 5 Paracetamol+Caffeine `u=2/220`, 4 Fluconazole 150 `u=22/252`, 4 Omeprazole 20 `u=5/400`, `Ibrucon 140`, `Eltropag 50`, `Olapag 50`, `Cortiment 9`, `Golixen 150`, `Linamet ER 2.5+1000` resolving held `VERIFY_REQ_55`, etc.).
+- **Total Verified Batch 9 Updates:** **225** (`135` same pack units + `90` pack migrations), clearing **225** pack warnings.
+- **Held From Batch 9 (9):** `Sac Sweet 12.5 mg` (legitimate 3.7% rounding on `৳0.09` unit), 5 dual-pack inhalers (`Salpium`, `Seroxyn 125`, `Seroxyn 250`, `Sulprex`, `Ticamet`), `Carmin 2.5 mg` & `Carmin 5 mg` (unpriced), `Helicon V` (triple kit unverified).
+
+## Sub-batch 9A (16)
+- **Leukenib 400 mg** [NON_ARITH_WARN]: `30's pack (pu=30, su=null, 335/9600)` -> `30's pack (pu=30, su=null, 210.00/6300.00)`
+- **Cytacin 4 mg** [NON_ARITH_WARN]: `500's pack (pu=500, su=null, 0.2/95)` -> `50 x 10 (pu=500, su=10, 0.30/150.00)`
+- **Ameloss M 7 mg+10 mg** [NON_ARITH_WARN]: `30's pack (pu=30, su=null, 30/935)` -> `2 x 10 (pu=20, su=10, 20.00/400.00)`
+- **Calfix C 1000 mg+327 mg (Conventional calcium)+500 mg** [NON_ARITH_WARN]: `10's pack (pu=10, su=null, 10/104.5)` -> `1 x 14 (pu=14, su=14, 10.00/140.00)`
+- **Charm 25 mg** [NON_ARITH_WARN]: `4's pack (pu=4, su=null, 20.06/76.24)` -> `1 x 4 (pu=4, su=4, 20.00/80.00)`
+- **CX-C 1000 mg+327 mg (Conventional calcium)+500 mg** [NON_ARITH_WARN]: `10's pack (pu=10, su=null, 10/104.5)` -> `1 x 10 (pu=10, su=10, 10.00/100.00)`
+- **Lexapro 10 mg** [NON_ARITH_WARN]: `30's pack (pu=30, su=null, 12/345.09)` -> `3 x 10 (pu=30, su=10, 11.00/330.00)`
+- **Imakin 400 mg** [NON_ARITH_WARN]: `30's pack (pu=30, su=null, 335/9600)` -> `3 x 10 (pu=30, su=10, 320.00/9600.00)`
+- **Hispasin 4 mg** [NON_ARITH_WARN]: `500's pack (pu=500, su=null, 0.2/95)` -> `50 x 10 (pu=500, su=10, 0.30/150.00)`
+- **Glipagen Plus 50 mg+850 mg** [NON_ARITH_WARN]: `30's pack (pu=30, su=null, 23/660)` -> `2 x 6 (pu=12, su=6, 22.00/264.00)`
+- **Nemine 4 mg** [NON_ARITH_WARN]: `500's pack (pu=500, su=null, 0.2/95)` -> `10 x 10 (pu=100, su=10, 0.18/18.00)`
+- **Folimax 15 mg** [NON_ARITH_WARN]: `30's pack (pu=30, su=null, 25/725)` -> `3 x 10 (pu=30, su=10, 25.00/750.00)`
+- **Olatab 100 mg** [NON_ARITH_WARN]: `24's pack (pu=24, su=null, 700/16300)` -> `3 x 10 (pu=30, su=10, 1150.00/34500.00)`
+- **Azithromycin 250 mg** [NON_ARITH_WARN]: `10's pack (pu=10, su=null, 25/240)` -> `2 x 6 (pu=12, su=6, 24.55/294.60)`
+- **H-CIN 4 mg** [NON_ARITH_WARN]: `500's pack (pu=500, su=null, 0.2/95)` -> `50 x 10 (pu=500, su=10, 0.29/145.00)`
+- **B stop 500 mg** [NON_ARITH_WARN]: `20's pack (pu=20, su=null, 15.05/310.6)` -> `2 x 10 (pu=20, su=10, 20.00/400.00)`
+
+## Sub-batch 9B (209)
+- **Intrax 650 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 8.02/300.5)` -> `2 x 8 (pu=16, su=8, 25.00/400.00)`
+- **G-Montelukast 5 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 8/185)` -> `3 x 10 (pu=30, su=10, 6.00/180.00)`
+- **Angirest 35 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 6.01/221.25)` -> `3 x 10 (pu=30, su=10, 10.00/300.00)`
+- **Oricox 30 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 12/280)` -> `2 x 10 (pu=20, su=10, 14.00/280.00)`
+- **Presart AM 10 mg+80 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 12.5/457.5)` -> `3 x 10 (pu=30, su=10, 14.00/420.00)`
+- **Alfol CI 50 mg+0.50 mg+61.80 mg** [MISMATCH_5_25]: `50's pack (pu=50, su=null, 3.01/180.89)` -> `6 x 10 (pu=60, su=10, 4.80/288.00)`
+- **Blood Plus 50 mg+0.50 mg+61.80 mg** [MISMATCH_5_25]: `50's pack (pu=50, su=null, 3.01/180.89)` -> `3 x 10 (pu=30, su=10, 3.00/90.00)`
+- **Derbicil 250 mg** [MISMATCH_5_25]: `10's pack (pu=10, su=null, 40/320)` -> `1 x 10 (pu=10, su=10, 40.00/400.00)`
+- **Omehil 20 mg** [MISMATCH_5_25]: `100's pack (pu=100, su=null, 5/400)` -> `10 x 10 (pu=100, su=10, 4.60/460.00)`
+- **Lomitin 250 mg** [MISMATCH_5_25]: `10's pack (pu=10, su=null, 40/320)` -> `1 x 10 (pu=10, su=10, 40.00/400.00)`
+- **Rabistar 20 mg** [MISMATCH_5_25]: `50's pack (pu=50, su=null, 5/300)` -> `30's pack (pu=30, su=null, 7.00/210.00)`
+- **Algecal C Plus 1000 mg+327 mg (Algae calcium)+500 mg+400 IU** [MISMATCH_5_25]: `10's pack (pu=10, su=null, 10/120)` -> `1 x 14 (pu=14, su=14, 13.00/182.00)`
+- **Lizolix 400 mg** [MISMATCH_5_25]: `20's pack (pu=20, su=null, 60/960)` -> `1 x 10 (pu=10, su=10, 60.00/600.00)`
+- **Cosmorab 20 mg** [MISMATCH_5_25]: `50's pack (pu=50, su=null, 5/300)` -> `3 x 10 (pu=30, su=10, 6.00/180.00)`
+- **Rabetol 20 mg** [MISMATCH_5_25]: `50's pack (pu=50, su=null, 5/300)` -> `5 x 14 (pu=70, su=14, 6.00/420.00)`
+- **Omimak 20 mg** [MISMATCH_5_25]: `100's pack (pu=100, su=null, 5/400)` -> `5 x 10 (pu=50, su=10, 6.00/300.00)`
+- **Diabest 850 mh** [MISMATCH_5_25]: `50's pack (pu=50, su=null, 4/240)` -> `3 x 10 (pu=30, su=10, 6.00/180.00)`
+- **Gastrocare 20 mg** [MISMATCH_5_25]: `100's pack (pu=100, su=null, 5/400)` -> `10 x 10 (pu=100, su=10, 6.00/600.00)`
+- **Cephrasic 500 mg** [MISMATCH_5_25]: `20's pack (pu=20, su=null, 12.5/300)` -> `4 x 7 (pu=28, su=7, 14.00/392.00)`
+- **Omesic 20 mg** [MISMATCH_5_25]: `100's pack (pu=100, su=null, 5/400)` -> `10 x 10 (pu=100, su=10, 5.50/550.00)`
+- **Linbid 400 mg** [MISMATCH_5_25]: `20's pack (pu=20, su=null, 60/960)` -> `1 x 10 (pu=10, su=10, 55.00/550.00)`
+- **Lizobest 400 mg** [MISMATCH_5_25]: `20's pack (pu=20, su=null, 60/960)` -> `1 x 10 (pu=10, su=10, 50.00/500.00)`
+- **DC-Vit C 250 mg** [MISMATCH_5_25]: `200's pack (pu=200, su=null, 1.42/228)` -> `20 x 10 (pu=200, su=10, 1.90/380.00)`
+- **Civitin 250 mg** [MISMATCH_5_25]: `200's pack (pu=200, su=null, 1.42/228)` -> `10 x 10 (pu=100, su=10, 1.90/190.00)`
+- **Onibest 50 mg** [MISMATCH_5_25]: `50's pack (pu=50, su=null, 5.02/300)` -> `5 x 10 (pu=50, su=10, 7.00/350.00)`
+- **Novispa 50 mg** [MISMATCH_5_25]: `50's pack (pu=50, su=null, 5.02/300)` -> `5 x 10 (pu=50, su=10, 7.50/375.00)`
+- **Joint Plus 250 mg+200 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 8/285)` -> `3 x 10 (pu=30, su=10, 12.00/360.00)`
+- **Citazar XR 750 mg** [MISMATCH_5_25]: `20's pack (pu=20, su=null, 37.5/610)` -> `3 x 10 (pu=30, su=10, 35.00/1050.00)`
+- **Olmefast 10 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 5.02/178.5)` -> `3 x 10 (pu=30, su=10, 5.00/150.00)`
+- **Olmemax 10 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 5.02/178.5)` -> `2 x 15 (pu=30, su=15, 5.00/150.00)`
+- **Ibrucon 140 mg** [MISMATCH_5_25]: `90's pack (pu=90, su=null, 575/42300)` -> `4 x 6 (pu=24, su=6, 600.00/14400.00)`
+- **Lamo 50 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 19.02/470)` -> `2 x 10 (pu=20, su=10, 20.00/400.00)`
+- **Radifylin 200 mg** [MISMATCH_5_25]: `50's pack (pu=50, su=null, 6/250)` -> `60's pack (pu=60, su=null, 5.00/300.00)`
+- **Novetor 200 mg** [MISMATCH_5_25]: `50's pack (pu=50, su=null, 6/250)` -> `3 x 10 (pu=30, su=10, 6.00/180.00)`
+- **Cefuxim-CV 250 mg+62.5 mg** [MISMATCH_5_25]: `12's pack (pu=12, su=null, 30/420)` -> `2 x 7 (pu=14, su=7, 38.40/537.60)`
+- **Clavimax-CV 250 mg+62.5 mg** [MISMATCH_5_25]: `12's pack (pu=12, su=null, 30/420)` -> `2 x 7 (pu=14, su=7, 30.00/420.00)`
+- **Copadox 200 mg** [MISMATCH_5_25]: `50's pack (pu=50, su=null, 6/250)` -> `5 x 10 (pu=50, su=10, 5.00/250.00)`
+- **Furoxim 250 mg** [MISMATCH_5_25]: `12's pack (pu=12, su=null, 25/350)` -> `4 x 4 (pu=16, su=4, 25.00/400.00)`
+- **Freeway 200 mg** [MISMATCH_5_25]: `50's pack (pu=50, su=null, 6/250)` -> `5 x 10 (pu=50, su=10, 6.00/300.00)`
+- **Asmadox 200 mg** [MISMATCH_5_25]: `50's pack (pu=50, su=null, 6/250)` -> `6 x 10 (pu=60, su=10, 5.00/300.00)`
+- **Ceroclav 250 mg+62.5 mg** [MISMATCH_5_25]: `12's pack (pu=12, su=null, 30/420)` -> `2 x 7 (pu=14, su=7, 30.00/420.00)`
+- **Doxofylline 200 mg** [MISMATCH_5_25]: `50's pack (pu=50, su=null, 6/250)` -> `5 x 10 (pu=50, su=10, 5.00/250.00)`
+- **Doctil 250 mg** [MISMATCH_5_25]: `12's pack (pu=12, su=null, 25/350)` -> `5 x 4 (pu=20, su=4, 30.00/600.00)`
+- **Doctil Plus 250 mg+62.5 mg** [MISMATCH_5_25]: `12's pack (pu=12, su=null, 30/420)` -> `2 x 10 (pu=20, su=10, 34.00/680.00)`
+- **Actical 1200 mg+0.25 mcg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 13/325)` -> `3 x 10 (pu=30, su=10, 13.00/390.00)`
+- **Mucodox 200 mg** [MISMATCH_5_25]: `50's pack (pu=50, su=null, 6/250)` -> `5 x 10 (pu=50, su=10, 5.00/250.00)`
+- **Linasec 5 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 18/450)` -> `2 x 10 (pu=20, su=10, 6.00/120.00)`
+- **Doxoair 200 mg** [MISMATCH_5_25]: `50's pack (pu=50, su=null, 6/250)` -> `10 x 10 (pu=100, su=10, 7.00/700.00)`
+- **Rabezol 20 mg** [MISMATCH_5_25]: `60's pack (pu=60, su=null, 8/400.2)` -> `50's pack (pu=50, su=null, 7.00/350.00)`
+- **Rabefour 20 mg** [MISMATCH_5_25]: `60's pack (pu=60, su=null, 8/400.2)` -> `5 x 10 (pu=50, su=10, 8.00/400.00)`
+- **Flukzol 150 mg** [MISMATCH_5_25]: `10's pack (pu=10, su=null, 22/252)` -> `2 x 10 (pu=20, su=10, 22.00/440.00)`
+- **Candiver 150 mg** [MISMATCH_5_25]: `10's pack (pu=10, su=null, 22/252)` -> `1 x 10 (pu=10, su=10, 20.00/200.00)`
+- **Fungicap 150 mg** [MISMATCH_5_25]: `10's pack (pu=10, su=null, 22/252)` -> `2 x 10 (pu=20, su=10, 20.00/400.00)`
+- **Flucovax 150 mg** [MISMATCH_5_25]: `10's pack (pu=10, su=null, 22/252)` -> `1 x 10 (pu=10, su=10, 20.00/200.00)`
+- **Alvita 100 mg+200 mg+200 mcg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 7/240)` -> `3 x 10 (pu=30, su=10, 7.00/210.00)`
+- **Azibact 500 mg** [MISMATCH_5_25]: `12's pack (pu=12, su=null, 35/360)` -> `4 x 3 (pu=12, su=3, 35.00/420.00)`
+- **Fexobest 120 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 7/240)` -> `3 x 10 (pu=30, su=10, 7.00/210.00)`
+- **Neovitan 100 mg+200 mg+200 mcg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 7/240)` -> `3 x 10 (pu=30, su=10, 8.00/240.00)`
+- **Fenafex 120 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 7/240)` -> `3 x 10 (pu=30, su=10, 9.00/270.00)`
+- **Bfill 100 mg+200 mg+200 mcg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 7/240)` -> `30's pack (pu=30, su=null, 9.00/270.00)`
+- **Neutos 100 mg+200 mg+200 mcg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 7/240)` -> `5 x 10 (pu=50, su=10, 8.00/400.00)`
+- **Centobion 100 mg+200 mg+200 mcg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 7/240)` -> `3 x 10 (pu=30, su=10, 8.00/240.00)`
+- **G-Azithromycin 500 mg** [MISMATCH_5_25]: `12's pack (pu=12, su=null, 35/360)` -> `2 x 6 (pu=12, su=6, 30.00/360.00)`
+- **G-Sofosbuvir 400 mg** [MISMATCH_5_25]: `7's pack (pu=7, su=null, 600/3600)` -> `1 x 6 (pu=6, su=6, 50.00/300.00)`
+- **Parazith 500 mg** [MISMATCH_5_25]: `12's pack (pu=12, su=null, 35/360)` -> `2 x 6 (pu=12, su=6, 30.00/360.00)`
+- **Pristibion 100 mg+200 mg+200 mcg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 7/240)` -> `5 x 10 (pu=50, su=10, 7.00/350.00)`
+- **Nervotil 100 mg+200 mg+200 mcg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 7/240)` -> `30's pack (pu=30, su=null, 10.00/300.00)`
+- **Makzit 500 mg** [MISMATCH_5_25]: `12's pack (pu=12, su=null, 35/360)` -> `3 x 4 (pu=12, su=4, 40.00/480.00)`
+- **Neto B 100 mg+200 mg+200 mcg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 7/240)` -> `3 x 10 (pu=30, su=10, 9.00/270.00)`
+- **Neucent 100 mg+200 mg+200 mcg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 7/240)` -> `30's pack (pu=30, su=null, 8.00/240.00)`
+- **Nurowel 100 mg+200 mg+200 mcg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 7/240)` -> `6 x 10 (pu=60, su=10, 7.50/450.00)`
+- **Renamycin 500 mg** [MISMATCH_5_25]: `60's pack (pu=60, su=null, 1.75/120)` -> `5 x 4 (pu=20, su=4, 4.25/85.00)`
+- **Azithromycin 500 mg** [MISMATCH_5_25]: `12's pack (pu=12, su=6, 35/360)` -> `2 x 6 (pu=12, su=6, 40.00/480.00)`
+- **Fexosic 120 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 7/240)` -> `3 x 10 (pu=30, su=10, 8.00/240.00)`
+- **Nexofen 120 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 7/240)` -> `3 x 10 (pu=30, su=10, 8.00/240.00)`
+- **Raicin 500 mg** [MISMATCH_5_25]: `12's pack (pu=12, su=null, 35/360)` -> `4 x 3 (pu=12, su=3, 40.00/480.00)`
+- **Ambfex 120 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 7/240)` -> `3 x 10 (pu=30, su=10, 8.00/240.00)`
+- **Fexen 120 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 7/240)` -> `3 x 10 (pu=30, su=10, 7.00/210.00)`
+- **Favozyth 500 mg** [MISMATCH_5_25]: `12's pack (pu=12, su=null, 35/360)` -> `2 x 6 (pu=12, su=6, 50.00/600.00)`
+- **Neuropa 100 mg+200 mg+200 mcg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 7/240)` -> `3 x 10 (pu=30, su=10, 7.00/210.00)`
+- **COS B126 100 mg+200 mg+200 mcg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 7/240)` -> `30's pack (pu=30, su=null, 10.00/300.00)`
+- **Lozide MR 30 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 7/240)` -> `6 x 10 (pu=60, su=10, 8.00/480.00)`
+- **Fexoton 120 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 7/240)` -> `5 x 10 (pu=50, su=10, 8.00/400.00)`
+- **Neuroton 100 mg+200 mg+200 mcg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 7/240)` -> `6 x 10 (pu=60, su=10, 10.00/600.00)`
+- **Fixasin 120 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 7/240)` -> `3 x 10 (pu=30, su=10, 8.00/240.00)`
+- **Radiplex ** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 7/180.25)` -> `5 x 10 (pu=50, su=10, 8.00/400.00)`
+- **Alvit Gold ** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 7/180.25)` -> `30's pack (pu=30, su=null, 9.60/288.00)`
+- **Astra Gold ** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 7/180.25)` -> `30's pack (pu=30, su=null, 7.00/210.00)`
+- **Astra Silver ** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 7/180.25)` -> `30's pack (pu=30, su=null, 7.00/210.00)`
+- **Centrium Gold ** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 7/180.25)` -> `30's pack (pu=30, su=null, 10.00/300.00)`
+- **Advance A to Z Gold ** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 7/180.25)` -> `30's pack (pu=30, su=null, 11.00/330.00)`
+- **A to Z Silver ** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 7/180.25)` -> `3 x 10 (pu=30, su=10, 12.00/360.00)`
+- **Cortiment 9 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 16.5/425)` -> `3 x 10 (pu=30, su=10, 430.00/12900.00)`
+- **Cipro-P 500 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 14/361.2)` -> `3 x 10 (pu=30, su=10, 14.00/420.00)`
+- **Cyrus 500 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 14/361.2)` -> `3 x 10 (pu=30, su=10, 12.00/360.00)`
+- **Ciprodyl 500 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 14/361.2)` -> `3 x 10 (pu=30, su=10, 12.00/360.00)`
+- **Ciprofloxacin 500 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=10, 14/361.2)` -> `3 x 10 (pu=30, su=10, 15.00/450.00)`
+- **Ciprosic 500 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 14/361.2)` -> `3 x 10 (pu=30, su=10, 14.50/435.00)`
+- **Paracal 500 mg** [MISMATCH_5_25]: `50's pack (pu=50, su=null, 2.64/150)` -> `5 x 10 (pu=50, su=10, 4.00/200.00)`
+- **Calcium DS 500 mg** [MISMATCH_5_25]: `50's pack (pu=50, su=10, 2.64/150)` -> `30's pack (pu=30, su=null, 4.00/120.00)`
+- **D-Glip 50 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 15.04/390)` -> `3 x 10 (pu=30, su=10, 13.00/390.00)`
+- **Novas 500 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 7.52/255.06)` -> `3 x 10 (pu=30, su=10, 10.00/300.00)`
+- **Naprofast 500 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 7.52/255.06)` -> `3 x 10 (pu=30, su=10, 8.50/255.00)`
+- **Reef-D Vita 600 mg+400 IU** [MISMATCH_5_25]: `10's pack (pu=10, su=null, 11.52/130.2)` -> `15's pack (pu=15, su=null, 17.00/255.00)`
+- **Prostacare-D 0.4 mg+0.5 mg** [MISMATCH_5_25]: `20's pack (pu=20, su=null, 20/452)` -> `4 x 4 (pu=16, su=4, 20.00/320.00)`
+- **Alkanon DT 1000 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 8/270)` -> `4 x 6 (pu=24, su=6, 22.00/528.00)`
+- **Desatrol ODT 2.5 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 8/270)` -> `3 x 10 (pu=30, su=10, 3.00/90.00)`
+- **Etorac MDT 10 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 8/270)` -> `3 x 10 (pu=30, su=10, 13.00/390.00)`
+- **Ramoset 2.5 mcg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 8/270)` -> `3 x 10 (pu=30, su=10, 13.00/390.00)`
+- **Ramoset 5 mcg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 8/270)` -> `2 x 10 (pu=20, su=10, 20.00/400.00)`
+- **Nabumax 1000 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 8/270)` -> `3 x 10 (pu=30, su=10, 15.00/450.00)`
+- **Olmefast 20 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 8.03/270)` -> `3 x 10 (pu=30, su=10, 8.00/240.00)`
+- **Oltan 20 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 8.03/270)` -> `3 x 10 (pu=30, su=10, 8.00/240.00)`
+- **Olmemax 20 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 8.03/270)` -> `2 x 15 (pu=30, su=15, 7.00/210.00)`
+- **Fecel TR 150 mg+0.5 mg+61.8 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 2.9/97.5)` -> `3 x 15 (pu=45, su=15, 3.02/136.00)`
+- **Alvit-B Gold ** [MISMATCH_5_25]: `96's pack (pu=96, su=null, 3/255.9)` -> `10 x 6 (pu=60, su=6, 3.62/217.20)`
+- **Eltropag 50 mg** [MISMATCH_5_25]: `7's pack (pu=7, su=null, 900/7000)` -> `1 x 7 (pu=7, su=7, 550.00/3850.00)`
+- **Olapag 50 mg** [MISMATCH_5_25]: `7's pack (pu=7, su=null, 900/7000)` -> `1 x 10 (pu=10, su=10, 900.00/9000.00)`
+- **Esozol 40 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 9.03/300)` -> `3 x 10 (pu=30, su=10, 9.00/270.00)`
+- **Esosic 40 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 9.03/300)` -> `5 x 10 (pu=50, su=10, 10.00/500.00)`
+- **Esosav 40 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 9.03/300)` -> `5 x 10 (pu=50, su=10, 10.00/500.00)`
+- **Esru 40 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 9.03/300)` -> `6 x 10 (pu=60, su=10, 8.00/480.00)`
+- **Esolam 40 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 9.03/300)` -> `5 x 10 (pu=50, su=10, 12.00/600.00)`
+- **Elena 40 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 9.03/300)` -> `3 x 10 (pu=30, su=10, 9.00/270.00)`
+- **Maxora 40 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 9.03/300)` -> `4 x 10 (pu=40, su=10, 11.00/440.00)`
+- **Lexotan 3 mg** [MISMATCH_5_25]: `50's pack (pu=50, su=null, 4.5/201)` -> `5 x 10 (pu=50, su=10, 5.00/250.00)`
+- **Bromazepam 3 mg** [MISMATCH_5_25]: `50's pack (pu=50, su=null, 4.5/201)` -> `5 x 10 (pu=50, su=10, 4.50/225.00)`
+- **Ezymilk 9000 IU** [MISMATCH_5_25]: `20's pack (pu=20, su=null, 14.5/320)` -> `24's pack (pu=24, su=null, 15.00/360.00)`
+- **Rifexa 200 mg** [MISMATCH_5_25]: `20's pack (pu=20, su=null, 20.06/360)` -> `1 x 10 (pu=10, su=10, 22.00/220.00)`
+- **Calfix C Plus 1000 mg+327 mg (Conventional calcium)+500 mg+400 IU** [MISMATCH_5_25]: `10's pack (pu=10, su=null, 10/110)` -> `1 x 14 (pu=14, su=14, 10.00/140.00)`
+- **CX-C Plus 1000 mg+327 mg (Conventional calcium)+500 mg+400 IU** [MISMATCH_5_25]: `10's pack (pu=10, su=null, 10/110)` -> `1 x 10 (pu=10, su=10, 10.00/100.00)`
+- **Delight 50000 IU** [MISMATCH_5_25]: `10's pack (pu=10, su=null, 40/440)` -> `2 x 6 (pu=12, su=6, 40.00/480.00)`
+- **Adol Plus 500 mg+65 mg** [MISMATCH_5_25]: `100's pack (pu=100, su=null, 2/220)` -> `12 x 10 (pu=120, su=10, 2.50/300.00)`
+- **Baclof 5 mg** [MISMATCH_5_25]: `50's pack (pu=50, su=null, 5/225)` -> `3 x 10 (pu=30, su=10, 5.00/150.00)`
+- **D-Rise 50000 IU** [MISMATCH_5_25]: `10's pack (pu=10, su=null, 40/440)` -> `1 x 10 (pu=10, su=10, 40.00/400.00)`
+- **Cetamex Plus 500 mg+65 mg** [MISMATCH_5_25]: `100's pack (pu=100, su=null, 2/220)` -> `9 x 10 (pu=90, su=10, 2.00/180.00)`
+- **Parafeine 500 mg+65 mg** [MISMATCH_5_25]: `100's pack (pu=100, su=null, 2/220)` -> `10 x 10 (pu=100, su=10, 2.00/200.00)`
+- **Golixen 150 mg** [MISMATCH_5_25]: `10's pack (pu=10, su=null, 170/1870)` -> `1 x 10 (pu=10, su=10, 180.00/1800.00)`
+- **Calcium Vitamin C & D 1000 mg+327 mg (Conventional calcium)+500 mg+400 IU** [MISMATCH_5_25]: `10's pack (pu=10, su=null, 10/110)` -> `1 x 12 (pu=12, su=12, 10.00/120.00)`
+- **Movibac 5 mg** [MISMATCH_5_25]: `50's pack (pu=50, su=null, 5/225)` -> `3 x 10 (pu=30, su=10, 4.50/135.00)`
+- **Alpa Extra 500 mg+65 mg** [MISMATCH_5_25]: `100's pack (pu=100, su=null, 2/220)` -> `10 x 10 (pu=100, su=10, 2.50/250.00)`
+- **Napton Plus 500 mg+65 mg** [MISMATCH_5_25]: `100's pack (pu=100, su=null, 2/220)` -> `10 x 10 (pu=100, su=10, 2.00/200.00)`
+- **Bioplex 5 mg+2 mg+2 mg+20 mg** [MISMATCH_5_25]: `45's pack (pu=45, su=null, 0.51/25.2)` -> `60's pack (pu=60, su=null, 0.50/30.00)`
+- **Asivit 5 mg+2 mg+2 mg+20 mg** [MISMATCH_5_25]: `45's pack (pu=45, su=null, 0.51/25.2)` -> `5 x 15 (pu=75, su=15, 0.41/31.00)`
+- **Pantohil 40 mg** [MISMATCH_5_25]: `50's pack (pu=50, su=null, 6.02/273)` -> `3 x 10 (pu=30, su=10, 7.00/210.00)`
+- **Panoz 40 mg** [MISMATCH_5_25]: `50's pack (pu=50, su=null, 6.02/273)` -> `5 x 10 (pu=50, su=10, 7.00/350.00)`
+- **Pantoprazole 40 mg** [MISMATCH_5_25]: `50's pack (pu=50, su=10, 6.02/273)` -> `5 x 10 (pu=50, su=10, 7.00/350.00)`
+- **Pantomak 40 mg** [MISMATCH_5_25]: `50's pack (pu=50, su=null, 6.02/273)` -> `3 x 10 (pu=30, su=10, 8.00/240.00)`
+- **Pantolam 40 mg** [MISMATCH_5_25]: `50's pack (pu=50, su=null, 6.02/273)` -> `5 x 10 (pu=50, su=10, 10.00/500.00)`
+- **CEE 1000 mg** [MISMATCH_5_25]: `10's pack (pu=10, su=null, 11.19/101.7)` -> `1 x 10 (pu=10, su=10, 10.00/100.00)`
+- **Ligotin 25 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 22/600)` -> `3 x 10 (pu=30, su=10, 22.00/660.00)`
+- **Algecal C 1000 mg+327 mg (Algae calcium)+500 mg** [MISMATCH_5_25]: `10's pack (pu=10, su=null, 10/109)` -> `1 x 14 (pu=14, su=14, 12.00/168.00)`
+- **Albion Oralsaline 10.25 gm** [MISMATCH_5_25]: `20's pack (pu=20, su=null, 4.59/100)` -> `20's pack (pu=20, su=null, 5.00/100.00)`
+- **Oral Saline-I 10.25 gm** [MISMATCH_5_25]: `20's pack (pu=20, su=null, 4.59/100)` -> `20's pack (pu=20, su=null, 5.00/100.00)`
+- **MoniMix Plus 1 gm/sachet** [MISMATCH_5_25]: `20's pack (pu=20, su=null, 4.59/100)` -> `30's pack (pu=30, su=null, 3.00/90.00)`
+- **Chemist OralSaline 10.25 gm** [MISMATCH_5_25]: `20's pack (pu=20, su=null, 4.59/100)` -> `20's pack (pu=20, su=null, 5.00/100.00)`
+- **Oralyte 10.25 gm** [MISMATCH_5_25]: `20's pack (pu=20, su=null, 4.59/100)` -> `20's pack (pu=20, su=null, 6.00/120.00)`
+- **Fast oralsaline-N 10.25 gm** [MISMATCH_5_25]: `20's pack (pu=20, su=null, 4.59/100)` -> `20's pack (pu=20, su=null, 5.00/100.00)`
+- **Fast Tasty Oral Saline ** [MISMATCH_5_25]: `20's pack (pu=20, su=null, 4.59/100)` -> `20's pack (pu=20, su=null, 5.00/100.00)`
+- **Ibnsina Tasty Saline ** [MISMATCH_5_25]: `20's pack (pu=20, su=null, 4.59/100)` -> `20's pack (pu=20, su=null, 5.00/100.00)`
+- **ACI Fruit Sal Tasty Saline ** [MISMATCH_5_25]: `20's pack (pu=20, su=null, 4.59/100)` -> `20's pack (pu=20, su=null, 7.00/140.00)`
+- **Ener-G Tasty Saline ** [MISMATCH_5_25]: `20's pack (pu=20, su=null, 4.59/100)` -> `20's pack (pu=20, su=null, 8.50/170.00)`
+- **Index Tasty Food Saline ** [MISMATCH_5_25]: `20's pack (pu=20, su=null, 4.59/100)` -> `20's pack (pu=20, su=null, 5.00/100.00)`
+- **Acme Tasty Saline ** [MISMATCH_5_25]: `20's pack (pu=20, su=null, 4.59/100)` -> `20's pack (pu=20, su=null, 7.00/140.00)`
+- **Goodmet 850 mg** [MISMATCH_5_25]: `50's pack (pu=50, su=null, 5.5/250.5)` -> `5 x 10 (pu=50, su=10, 5.00/250.00)`
+- **Fexobest 180 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 9.03/247.5)` -> `2 x 10 (pu=20, su=10, 10.00/200.00)`
+- **Alerfast 180 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 9.03/247.5)` -> `3 x 10 (pu=30, su=10, 10.00/300.00)`
+- **Fexocare 180 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 9.03/247.5)` -> `2 x 10 (pu=20, su=10, 9.00/180.00)`
+- **Fexonor 180 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 9.03/247.5)` -> `3 x 10 (pu=30, su=10, 10.00/300.00)`
+- **Fexosic 180 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 9.03/247.5)` -> `2 x 10 (pu=20, su=10, 9.00/180.00)`
+- **Ambfex 180 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 9.03/247.5)` -> `3 x 10 (pu=30, su=10, 9.00/270.00)`
+- **Fexen 180 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 9.03/247.5)` -> `3 x 10 (pu=30, su=10, 10.00/300.00)`
+- **Adora 1000 mg** [MISMATCH_5_25]: `20's pack (pu=20, su=null, 13.53/293.17)` -> `20's pack (pu=20, su=null, 12.04/240.80)`
+- **Esuvast 20 mg** [MISMATCH_5_25]: `20's pack (pu=20, su=null, 30/550)` -> `3 x 7 (pu=21, su=7, 50.00/1050.00)`
+- **Esompus 20 mg** [MISMATCH_5_25]: `60's pack (pu=60, su=null, 5/275.75)` -> `5 x 10 (pu=50, su=10, 7.00/350.00)`
+- **Esowell 20 mg** [MISMATCH_5_25]: `60's pack (pu=60, su=null, 5/275.75)` -> `6 x 10 (pu=60, su=10, 3.00/180.00)`
+- **Lexapro 5 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 6.5/210)` -> `3 x 10 (pu=30, su=10, 6.50/195.00)`
+- **Nozma ODT 4 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 6.51/210)` -> `3 x 10 (pu=30, su=10, 15.00/450.00)`
+- **Mimoxclav 500 mg+125 mg** [MISMATCH_5_25]: `18's pack (pu=18, su=null, 30/500)` -> `6 x 4 (pu=24, su=4, 30.00/720.00)`
+- **AmoxyClavulanic 500 mg+125 mg** [MISMATCH_5_25]: `18's pack (pu=18, su=null, 30/500)` -> `5 x 6 (pu=30, su=6, 35.00/1050.00)`
+- **Aristomox CV 500 mg+125 mg** [MISMATCH_5_25]: `18's pack (pu=18, su=null, 30/500)` -> `3 x 6 (pu=18, su=6, 32.00/576.00)`
+- **Cal Lactate 300 mg** [MISMATCH_5_25]: `100's pack (pu=100, su=null, 0.29/31)` -> `20 x 10 (pu=200, su=10, 0.30/60.00)`
+- **Pegaron 25 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 9/252)` -> `5 x 6 (pu=30, su=6, 10.00/300.00)`
+- **Gefikin 250 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 250/7000)` -> `4 x 7 (pu=28, su=7, 250.00/7000.00)`
+- **Pregan 25 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 9/252)` -> `3 x 10 (pu=30, su=10, 10.00/300.00)`
+- **Nerfid 25 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 9/252)` -> `3 x 10 (pu=30, su=10, 9.00/270.00)`
+- **Montium 10 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 15/420)` -> `3 x 10 (pu=30, su=10, 16.00/480.00)`
+- **G-Montelukast 10 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 15/420)` -> `3 x 10 (pu=30, su=10, 10.00/300.00)`
+- **Montison 10 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 15/420)` -> `2 x 10 (pu=20, su=10, 15.00/300.00)`
+- **M-K 10 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 15/420)` -> `3 x 10 (pu=30, su=10, 13.00/390.00)`
+- **Egaba 25 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 9/252)` -> `3 x 10 (pu=30, su=10, 8.00/240.00)`
+- **Gefitab 250 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 250/7000)` -> `5 x 6 (pu=30, su=6, 248.00/7440.00)`
+- **Molly 10 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 15/420)` -> `3 x 10 (pu=30, su=10, 14.00/420.00)`
+- **Monasic 10 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 15/420)` -> `3 x 10 (pu=30, su=10, 16.00/480.00)`
+- **Ambkust 10 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 15/420)` -> `3 x 10 (pu=30, su=10, 14.00/420.00)`
+- **Proximont 10 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 15/420)` -> `3 x 10 (pu=30, su=10, 15.00/450.00)`
+- **Lungair 10 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 15/420)` -> `3 x 10 (pu=30, su=10, 15.00/450.00)`
+- **Nerfid 150 mg** [MISMATCH_5_25]: `20's pack (pu=20, su=null, 30.1/642)` -> `2 x 10 (pu=20, su=10, 30.00/600.00)`
+- **Megecare 160 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 80/2250)` -> `5 x 6 (pu=30, su=6, 80.00/2400.00)`
+- **Gistol 160 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=10, 80/2250)` -> `3 x 10 (pu=30, su=10, 90.00/2700.00)`
+- **Linamet ER 2.5 mg+1000 mg** [MISMATCH_5_25]: `16's pack (pu=16, su=6, 16.5/280)` -> `3 x 6 (pu=18, su=6, 17.00/306.00)`
+- **Diobis 10 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 16/451.08)` -> `30's pack (pu=30, su=null, 16.05/481.50)`
+- **Novetor 400 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 9.5/300)` -> `3 x 10 (pu=30, su=10, 9.00/270.00)`
+- **Doxofast 400 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 9.5/300)` -> `5 x 10 (pu=50, su=10, 9.00/450.00)`
+- **Freeway 400 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 9.5/300)` -> `5 x 10 (pu=50, su=10, 6.00/300.00)`
+- **Asmadox 400 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 9.5/300)` -> `3 x 10 (pu=30, su=10, 10.00/300.00)`
+- **Doxofylline 400 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 9.5/300)` -> `5 x 10 (pu=50, su=10, 9.00/450.00)`
+- **Mitazapine 15 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 9.5/300)` -> `3 x 10 (pu=30, su=10, 9.00/270.00)`
+- **Doxoair 400 mg** [MISMATCH_5_25]: `30's pack (pu=30, su=null, 9.5/300)` -> `3 x 10 (pu=30, su=10, 12.00/360.00)`
+
+## Held From Batch 9 (9)
+- **Sac Sweet 12.5 mg Tablet (Sonear)**: Exact MedEx MRP rounding (Unit Price ৳0.09 vs 300s pack ৳28.00; 3.7% delta on ৳0.09/unit). Held unchanged.
+- **Salpium 100+20 Inhaler (ACME)**: Complete inhaler pack price ৳250.76 matches MedEx verbatim; price_text_not_fully_parsed reflects alternate Refill price (৳230.69). Held unchanged.
+- **Seroxyn 25+125 Inhaler (ACI)**: Complete inhaler pack price ৳596.79 matches MedEx verbatim; price_text_not_fully_parsed reflects alternate Refill price (৳500.00). Held unchanged.
+- **Seroxyn 25+250 Inhaler (ACI)**: Complete inhaler pack price ৳797.39 matches MedEx verbatim; price_text_not_fully_parsed reflects alternate Refill price (৳700.00). Held unchanged.
+- **Sulprex 100+20 Inhaler (Square)**: Complete inhaler pack price ৳250.75 matches MedEx verbatim; price_text_not_fully_parsed reflects alternate Refill price (৳230.69). Held unchanged.
+- **Ticamet 25+250 Inhaler (Square)**: Complete inhaler pack price ৳797.39 matches MedEx verbatim; price_text_not_fully_parsed reflects alternate Refill price (৳695.00). Held unchanged.
+- **Carmin 2.5 mg Capsule (Eskayef)**: No official MedEx/Arogga MRP published (held from Batch 7).
+- **Carmin 5 mg Capsule (Eskayef)**: No official MedEx/Arogga MRP published (held from Batch 7).
+- **Helicon V 20+1000+500 Tablet (General)**: Triple-therapy kit without published MedEx single/pack MRP (Arogga Box 4/14 unverified vs 30s template; held from Batch 6).

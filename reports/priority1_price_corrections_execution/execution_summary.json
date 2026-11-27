@@ -1,0 +1,50 @@
+{
+  "status": "EXECUTED_COMMITTED_SINGLE_TRANSACTION",
+  "startedAt": "2026-11-25T06:55:33.260Z",
+  "finishedAt": "2026-11-25T06:56:03.507Z",
+  "manifestPath": "F:\\My Projects\\CareDose\\backend\\reports\\priority1_price_conflict_audit\\proposed_price_corrections.json",
+  "backupPath": "F:\\My Projects\\CareDose\\care_dose_pre_p1_corrections_backup.dump",
+  "rollbackManifestPath": "F:\\My Projects\\CareDose\\backend\\reports\\priority1_price_corrections_execution\\rollback_manifest.json",
+  "approvedScope": {
+    "total": 104,
+    "buckets": {
+      "STALE_SYNTHETIC_BENCHMARK_280_300": 75,
+      "CORRUPT_DB_PRICE_1_BDT": 28,
+      "UNIT_PRICE_STORED_AS_STRIP_PRICE_SWAP": 1
+    }
+  },
+  "excludedPriority1Counts": {
+    "totalExcluded": 176,
+    "WRONG_PACKAGE_VARIANT": 166,
+    "SOURCE_CONFLICT": 6,
+    "EXISTING_VALUE_CORRECT": 4
+  },
+  "preconditionChecks": {
+    "matchedPreconditions": 104,
+    "mismatchesCount": 0
+  },
+  "executionResult": {
+    "transactionIsolationLevel": "Serializable",
+    "singleTransaction": true,
+    "totalUpdated": 104,
+    "fieldsModified": [
+      "unitPrice",
+      "packPrice"
+    ],
+    "fieldsPreserved": [
+      "packUnits",
+      "stripUnits",
+      "packQuantity",
+      "currency",
+      "brandId",
+      "verification",
+      "warnings",
+      "MedicineBrand",
+      "MedicineGeneric",
+      "PatientMedication",
+      "InventoryTransaction",
+      "Purchase",
+      "MedicationSchedule"
+    ]
+  }
+}

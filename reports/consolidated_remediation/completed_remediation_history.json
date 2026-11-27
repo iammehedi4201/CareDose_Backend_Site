@@ -1,0 +1,185 @@
+{
+  "generatedAt": "2026-11-25T08:05:53.976016+00:00",
+  "readOnlyVerified": true,
+  "cumulativeStatistics": {
+    "totalUniquePacksUpdatedAcrossAll4Waves": 4883,
+    "totalUniqueCsvModifiedPacksBaselineToPostBatch1": 4865,
+    "note": "4,746 (Arogga) + 104 (Priority-1) + 15 (Batch 1A-1C) = 4,865 CSV pack diffs since post-High-40 export; + 18 High-40-only pre-export strip clears = 4,883 unique packs across all 4 waves (all 70 Batch 1D warning cleanups were inside Priority-1 104)."
+  },
+  "completedWaves": [
+    {
+      "wave": 1,
+      "name": "High-40 Strip Units Cleanup",
+      "scope": "--scope=high40",
+      "recordsUpdated": 40,
+      "fieldsModified": [
+        "stripUnits"
+      ],
+      "manifestAndReports": [
+        "F:\\My Projects\\CareDose\\backend\\reports\\packaging_audit_post_fix\\reviewed_strip_cleanup_manifest.json"
+      ]
+    },
+    {
+      "wave": 2,
+      "name": "Arogga Live Catalogue Synchronization",
+      "recordsStaged": 4807,
+      "recordsUpdated": 4746,
+      "recordsExcludedRolledBack": 61,
+      "overlapWithWave1": 22,
+      "fieldsModified": [
+        "unitPrice",
+        "packPrice",
+        "stripUnits"
+      ],
+      "manifestAndReports": [
+        "F:\\My Projects\\CareDose\\backend\\reports\\catalogue_verification\\final_approved_updates.json",
+        "F:\\My Projects\\CareDose\\backend\\reports\\catalogue_verification\\excluded_updates_report.json",
+        "F:\\My Projects\\CareDose\\backend\\reports\\post_sync_final_audit\\master_post_sync_final_audit_summary.json"
+      ]
+    },
+    {
+      "wave": 3,
+      "name": "Priority-1 Price Corrections",
+      "recordsAudited": 280,
+      "recordsUpdated": 104,
+      "verifiedExistingCorrect": 4,
+      "overlapWithWave2": 0,
+      "fieldsModified": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "backupPath": "F:\\My Projects\\CareDose\\care_dose_pre_p1_corrections_backup.dump",
+      "manifestAndReports": [
+        "F:\\My Projects\\CareDose\\backend\\reports\\priority1_price_corrections_execution\\execution_summary.json",
+        "F:\\My Projects\\CareDose\\backend\\reports\\priority1_price_corrections_execution\\post_execution_validation.json",
+        "F:\\My Projects\\CareDose\\backend\\reports\\priority1_price_corrections_execution\\rollback_manifest.json"
+      ]
+    },
+    {
+      "wave": 4,
+      "name": "High-Confidence Remediation Batch 1 (1A-1D)",
+      "priceBatch_1A_1C": {
+        "recordsUpdated": 15,
+        "bySubBatch": {
+          "BATCH_1A_COMMA_TRUNCATED_WEB_VERIFIED": 9,
+          "BATCH_1B_WEB_VERIFIED_DELTA_2": 2,
+          "BATCH_1C_EXCLUDED_61_ROUNDING_VERIFIED_4": 4
+        },
+        "fieldsModified": [
+          "unitPrice",
+          "packPrice"
+        ],
+        "resolvedFrom": {
+          "REM_187": 11,
+          "EXCLUDED_61_ROUNDING": 4
+        },
+        "executionReport": "F:\\My Projects\\CareDose\\backend\\reports\\batch1_remediation_execution\\batch1_price_execution_report.json",
+        "rollbackManifest": "F:\\My Projects\\CareDose\\backend\\reports\\batch1_remediation_execution\\batch1_price_rollback_manifest.json"
+      },
+      "warningBatch_1D": {
+        "recordsUpdated": 70,
+        "overlapWithWave3_P1_104": 70,
+        "fieldsModified": [
+          "warnings"
+        ],
+        "warningRemoved": "pack_price_inconsistent_with_unit_price",
+        "executionReport": "F:\\My Projects\\CareDose\\backend\\reports\\batch1_remediation_execution\\batch1_warning_cleanup_report.json",
+        "rollbackManifest": "F:\\My Projects\\CareDose\\backend\\reports\\batch1_remediation_execution\\batch1_warning_rollback_manifest.json"
+      },
+      "backupPath": "F:\\My Projects\\CareDose\\care_dose_pre_batch1_remediation_backup.dump",
+      "postExecutionValidation": "F:\\My Projects\\CareDose\\backend\\reports\\batch1_remediation_execution\\batch1_post_execution_validation.json",
+      "combinedRollbackManifest": "F:\\My Projects\\CareDose\\backend\\reports\\batch1_remediation_execution\\batch1_rollback_manifest.json"
+    }
+  ],
+  "batch1ResolvedRecordIds": {
+    "priceUpdates15": [
+      "077fec2d-e5ca-4346-b06d-114c39da0701",
+      "4c764371-c736-41c1-a26d-0ed38e645eff",
+      "501f73eb-19fe-4ca7-8c29-7a66037b4068",
+      "52f60f70-bc36-4fce-81ae-5d5b0d1f4abc",
+      "566b57b1-6334-4031-a792-a376b437fbe5",
+      "7c07ae26-1fb5-40dc-965e-69954f080bdb",
+      "876caae1-bb35-4347-a061-3776a20c96e4",
+      "8cb3e37d-4d69-4684-91eb-1762f551b8df",
+      "8f74fef4-77f0-4789-8b20-4fe170790784",
+      "904352fc-917a-4e79-83f3-c242d901e444",
+      "a0c41d23-638d-4962-8b00-64d315251520",
+      "a5ba1abc-e01c-4545-9760-efd044bc76c0",
+      "c59cba3a-9d68-4469-add3-2e658f154328",
+      "e33765e9-d6ae-46d3-a2a7-8fe01f4d2d5c",
+      "f4e1b807-648e-4678-b08c-c510d076463f"
+    ],
+    "warningCleanups70": [
+      "00519ce4-ef59-4c7f-87c3-12582965948e",
+      "0075b21e-9e25-4854-90bc-7574b770f263",
+      "01954a22-16cf-4b92-8ed0-ac249d874acd",
+      "05f5bf33-3267-4e2a-9e17-b8cdefd07106",
+      "08a1dfba-cd5e-4578-8a05-5e89ca8b7e91",
+      "0a7117b1-558b-4ad9-9af9-4702a6e0da56",
+      "0eb9ca8c-c6a2-4964-b788-5b6b6823583f",
+      "136e2f50-89d0-4090-825b-5ad993d860e9",
+      "1ad19ecf-5046-4e71-9f38-a45171221eb2",
+      "1d8ecb94-d2b6-4305-88d3-5beab43a57c0",
+      "27cc17e8-0a89-46f8-88c3-f1f7b679cc4d",
+      "2a4d35c4-eec0-4311-bf0f-16a25c303a03",
+      "2a7858d7-abd6-4084-ae3d-0619723e0f7d",
+      "2ad28873-220d-47ac-8dac-4f46fe412018",
+      "2b3023f0-d796-4f11-80da-2ab1af9c2e8e",
+      "324397e4-01f2-4c2b-8a3a-6db62c09cc30",
+      "33d5f125-56f3-4e8c-aee0-a5d2f193fb9c",
+      "387b54ce-cb6a-4628-8879-52a662f8bd6d",
+      "38dbd468-a5af-411a-87a0-4edda71788ef",
+      "40660d41-a5d5-49c4-b75d-ba74d77e6276",
+      "40b7dc1b-b318-4805-aa04-538ac4716ba5",
+      "4259b105-eb26-4bef-95f5-379ce711191f",
+      "431cbf6c-5a1b-44a1-98b2-e6721004e68b",
+      "4a10c045-fdd7-4a11-a3f6-25959c7d2cf2",
+      "554c541c-21e8-426d-b289-3a816190e83f",
+      "5819c268-6747-4e60-b19d-62a72a057b1a",
+      "60a407e5-7179-407a-988b-07094bd3a6a7",
+      "62897991-5a9f-4cb0-b5f9-fcf7066e1a55",
+      "6597ac97-c9c3-41ba-8dc3-266fd33e778b",
+      "65c69dfa-57ed-4805-a290-49d7897620a3",
+      "6b26fdbf-4ca8-4f5b-86f4-41a98e5c2559",
+      "70b11695-36fe-4584-8e89-1e36b9c5b866",
+      "73101665-c511-4786-a8b4-479c98181ef8",
+      "74182632-7a7f-4780-9c79-bb6a6565fb95",
+      "7c8f089b-aa1d-4570-bd03-659b3f0040da",
+      "88a02757-ba0d-4703-b7b1-f6267edbbc0c",
+      "8bbc2eac-2176-4b9b-b7be-723409abc859",
+      "8bd6b103-0124-4889-9703-ad1183ade4bc",
+      "8c0144b0-d877-4e28-a925-33059d54f64a",
+      "9729414e-493a-4c41-a339-e1c22e8af8cd",
+      "9bfac8a2-2000-4f7d-8c38-c21fbe7a836a",
+      "a2e6ea87-9280-43c8-90f3-9de7a2e149ee",
+      "a6337787-e4b5-4e27-b421-1c38fcee0b2c",
+      "ae574f04-6717-45c2-afd1-76024edd1099",
+      "b048a7a6-6d36-408d-b3f7-74d663cd30ff",
+      "b36431af-9c9b-4abf-b0d7-a7315543ba25",
+      "b587b48d-c514-49c4-a0fb-1e9390f05c21",
+      "b5f6a18d-5ad0-49c2-892a-803aeda1e0f6",
+      "ba1c38a7-e69d-4213-aaef-e90014153135",
+      "bbc45cf7-fbf8-472c-a031-2c68bd784d09",
+      "bbc4c5f2-a126-41a9-bbb3-6a8ce555dd94",
+      "bc4454c5-6251-4649-adb5-91b6eb2189c1",
+      "bc73e2ec-28cf-4d69-a79a-570df2aaa3e6",
+      "be0f6ae9-56ad-4ece-a580-a6f177039d99",
+      "c42c4f30-0afa-48af-a0ba-337847030561",
+      "c5e1a580-cb4c-4d1f-b96d-416099e4fe28",
+      "c79e9c76-daff-426b-b017-d2c3e414f8f4",
+      "c7cb84b8-3b97-4b4c-91f4-ae19d0ecdf39",
+      "cd395d2c-fa82-4fbe-a4e7-953e329d1377",
+      "cfb0bd8f-6479-4a27-be89-dd8b8be258ab",
+      "d7598717-e791-4241-9bfe-de3ee28f908b",
+      "d8625a8c-80be-4a91-8255-13c71d620ec2",
+      "dc07de3c-b819-481c-8074-ee5804761bae",
+      "df8b2560-7688-40ba-b23c-396bea15a755",
+      "e86d2936-3938-4968-8407-1c3f3d0f9d1f",
+      "e88b011d-fd3d-46da-bf01-cd0d2d2a53ff",
+      "f2cbed7f-cd12-47ab-9302-af1c35bb2197",
+      "f8099f0a-9a9d-4d58-9a62-7142311dce0a",
+      "f9125d3d-ff92-4292-99e0-a0b0e72cccc3",
+      "fcb62d0c-d091-40ac-8e5b-556461b4b78e"
+    ]
+  }
+}

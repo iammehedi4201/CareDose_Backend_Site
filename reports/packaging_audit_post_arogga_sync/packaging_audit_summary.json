@@ -1,0 +1,67 @@
+{
+  "generatedAt": "2026-11-24T19:44:06.387Z",
+  "mode": "POST_AROGGA_QA_SYNC_AUDIT",
+  "catalogueCounts": {
+    "totalGenerics": 1846,
+    "totalBrandsAudited": 25208,
+    "totalPacksAudited": 27468,
+    "brandsWithPacks": 25171,
+    "brandsWithoutPacks": 37,
+    "packsWithNonNullStripUnits": 7462
+  },
+  "problemCategories": {
+    "A_validConversionPrimaryBrands": 24794,
+    "A_validConversionTotalPacks": 26952,
+    "B_and_D_missingPackageQuantitiesCount": 1736,
+    "C_missingStockMeasurementUnitsCount": 48,
+    "E_inconsistentMultiPackNestingBrandsCount": 61,
+    "F_inconsistentAcrossEquivalentBrandsGroupsCount": 356,
+    "G_invalidOrConflictingPackRecordsCount": 1076,
+    "H_frontendConversionMismatchPacksCount": 50,
+    "H_frontendConversionMismatchBrandsCount": 49,
+    "I_completelyMissingBrandOrPackCount": 37,
+    "J_unverifiedPacksCount": 27468,
+    "J_needsReviewPacksCount": 0,
+    "J_packsWithPriceOrParseWarningsCount": 733
+  },
+  "categoryGSubtypesPostSync": {
+    "unit_vs_pack_price_mismatch": 708,
+    "non_divisible_strip": 368
+  },
+  "categoryGSubtypesPostHigh40Cleanup": {
+    "unit_vs_pack_price_mismatch": 1055,
+    "non_divisible_strip": 369
+  },
+  "missingConversionRulesCount": 113,
+  "nonDivisibleStripRecordsRemaining": 368,
+  "section4ConversionVerificationSamples": [
+    {
+      "brand": "Reelife 12.5 mg+5 mg Tablet",
+      "packQuantity": "40's pack",
+      "packId": "9c21f478-0155-4f8e-91c6-8eca15aae495",
+      "dbPackUnits": 40,
+      "dbStripUnits": null,
+      "dbUnitPrice": "10",
+      "dbPackPrice": "400",
+      "frontendHasReliableDefaultPackaging": true,
+      "frontendDefaultMode": "packs",
+      "frontendPackTotalUnits": 40,
+      "frontendStripUnits": null,
+      "multiplyBy2Stock": 80
+    },
+    {
+      "brand": "Reelife 12.5 mg+5 mg Tablet",
+      "packQuantity": "56's pack",
+      "packId": "5879011c-3a81-4c4b-a811-2e8c1663bc16",
+      "dbPackUnits": 56,
+      "dbStripUnits": 14,
+      "dbUnitPrice": "10",
+      "dbPackPrice": "560",
+      "frontendHasReliableDefaultPackaging": true,
+      "frontendDefaultMode": "strips",
+      "frontendPackTotalUnits": 56,
+      "frontendStripUnits": 14,
+      "multiplyBy2Stock": 112
+    }
+  ]
+}

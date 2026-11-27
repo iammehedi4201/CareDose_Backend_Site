@@ -1,0 +1,3812 @@
+{
+  "generatedAt": "2026-11-24T16:09:28.711Z",
+  "baselineGeneratedAt": "2026-11-24T15:47:49.102Z",
+  "baselinePreservedAt": "F:/My Projects/CareDose/backend/reports/packaging_audit",
+  "postFixWrittenTo": "F:/My Projects/CareDose/backend/reports/packaging_audit_post_fix",
+  "metricDeltas": {
+    "A_validConversionPrimaryBrands": {
+      "baseline": 24313,
+      "postFix": 24792,
+      "delta": 479
+    },
+    "A_validConversionTotalPacks": {
+      "baseline": 26436,
+      "postFix": 26945,
+      "delta": 509
+    },
+    "B_and_D_missingPackageQuantitiesCount": {
+      "baseline": 1750,
+      "postFix": 1743,
+      "delta": -7
+    },
+    "C_missingStockMeasurementUnitsCount": {
+      "baseline": 71,
+      "postFix": 48,
+      "delta": -23
+    },
+    "E_inconsistentMultiPackNestingBrandsCount": {
+      "baseline": 57,
+      "postFix": 57,
+      "delta": 0
+    },
+    "F_inconsistentAcrossEquivalentBrandsGroupsCount": {
+      "baseline": 362,
+      "postFix": 362,
+      "delta": 0
+    },
+    "G_invalidOrConflictingPackRecordsCount": {
+      "baseline": 1464,
+      "postFix": 1464,
+      "delta": 0
+    },
+    "H_frontendConversionMismatchPacksCount": {
+      "baseline": 555,
+      "postFix": 50,
+      "delta": -505
+    },
+    "H_frontendConversionMismatchBrandsCount": {
+      "baseline": 539,
+      "postFix": 49,
+      "delta": -490
+    },
+    "I_completelyMissingBrandOrPackCount": {
+      "baseline": 37,
+      "postFix": 37,
+      "delta": 0
+    },
+    "J_unverifiedPacksCount": {
+      "baseline": 27468,
+      "postFix": 27468,
+      "delta": 0
+    },
+    "J_needsReviewPacksCount": {
+      "baseline": 0,
+      "postFix": 0,
+      "delta": 0
+    },
+    "J_packsWithPriceOrParseWarningsCount": {
+      "baseline": 1101,
+      "postFix": 1101,
+      "delta": 0
+    },
+    "missingConversionRulesCount": {
+      "baseline": 212,
+      "postFix": 113,
+      "delta": -99
+    }
+  },
+  "categoryHAnalysis": {
+    "baselineCount": 555,
+    "postFixCount": 50,
+    "resolvedCount": 505,
+    "remainingCount": 50,
+    "resolvedReasonSummary": {
+      "nonDivisibleStripUnlocked": 410,
+      "singleUnitPackUnlocked": 26,
+      "otherParserFixesUnlocked": 69
+    },
+    "remainingRecords": [
+      {
+        "medicineBrandId": "05530208-e3f2-4b37-8e8f-ae8032c45e27",
+        "sourceBrandId": "36872",
+        "brandName": "RapiMix",
+        "strength": "30%+70%",
+        "dosageForm": "SC Injection",
+        "packageId": "5f1f635b-3014-4bb5-b069-e6ed7b399ab1",
+        "packageDescription": "3's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "1100",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 3,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"3's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "0c7362a5-2cd4-4ed7-be0a-e3ebf6a9285e",
+        "sourceBrandId": "34108",
+        "brandName": "Camlor",
+        "strength": "8 mg/2 ml",
+        "dosageForm": "IM/IV Injection",
+        "packageId": "d2616fdb-33e0-447c-94a5-ae3b1d9f06ef",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "100",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"5's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "19dc2206-9e69-40f8-a2ee-45a349bf4952",
+        "sourceBrandId": "33847",
+        "brandName": "Neforex",
+        "strength": "20 mg/ml",
+        "dosageForm": "IM/IV Injection",
+        "packageId": "6264b7a5-32d1-431d-9cf3-2e31972e56e1",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "75",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"5's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "1df757c1-d0aa-4346-a52f-a06c74f00d6a",
+        "sourceBrandId": "38298",
+        "brandName": "Lipuro",
+        "strength": "200 mg/20 ml",
+        "dosageForm": "Emulsion for infusion",
+        "packageId": "1493aacc-b983-4d88-8362-f316b3120aaa",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "704.5",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"5's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "1e93e508-9f30-4993-814c-a2cec9d01b93",
+        "sourceBrandId": "9226",
+        "brandName": "Ciproxen",
+        "strength": "250 mg/5 ml",
+        "dosageForm": "Powder for Suspension",
+        "packageId": "d70f5548-f7d8-4c96-8467-4cadc29c11c4",
+        "packageDescription": "30's pack",
+        "price": {
+          "unitPrice": "7",
+          "packPrice": "210",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 30,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"30's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "2003346d-a64d-4cb6-a2f3-9c8ea707d241",
+        "sourceBrandId": "30014",
+        "brandName": "Glypressin",
+        "strength": "1 mg/8.5 ml",
+        "dosageForm": "IV Injection",
+        "packageId": "0048489d-d626-4271-bbd4-288b40d0bdb8",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "11545",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"5's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "2003346d-a64d-4cb6-a2f3-9c8ea707d241",
+        "sourceBrandId": "30014",
+        "brandName": "Glypressin",
+        "strength": "1 mg/8.5 ml",
+        "dosageForm": "IV Injection",
+        "packageId": "80124de9-6ac6-4b0f-8b97-bddcd3aa333e",
+        "packageDescription": "8.5 ml solution",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "2309",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"8.5 ml solution\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": false,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "2f51da55-cd06-4dcf-8fbb-475cbf2593b6",
+        "sourceBrandId": "36610",
+        "brandName": "Androjet",
+        "strength": "250 mg/ml",
+        "dosageForm": "IM Injection",
+        "packageId": "e64d7379-8f58-4ead-9f1d-77afde3314ef",
+        "packageDescription": "10's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "120",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 10,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"10's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "2f83f605-9a28-4dca-8c96-ff4f1349c7bb",
+        "sourceBrandId": "28956",
+        "brandName": "RotaTeq",
+        "strength": "1.5 ml/dose",
+        "dosageForm": "Oral Suspension",
+        "packageId": "2d741e3d-55ef-48f0-bfd7-a45fbed04feb",
+        "packageDescription": "10's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "21",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 10,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"10's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "33cec057-20af-4d01-aea3-adbd2672990a",
+        "sourceBrandId": "33962",
+        "brandName": "Biomolipon",
+        "strength": "600 mg/ampoule",
+        "dosageForm": "Injection",
+        "packageId": "b38372bd-7be1-4693-ac94-707a9bf63252",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": "10.2",
+          "packPrice": "65",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"5's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "35ba227d-029c-4958-9e5c-f2e2a2b5aa2c",
+        "sourceBrandId": "37446",
+        "brandName": "Lizox",
+        "strength": "2 mg/ml",
+        "dosageForm": "IV Infusion",
+        "packageId": "2a67f9b0-a0da-4a5d-b2ae-27dabe90a4a7",
+        "packageDescription": "300 ml solution",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "450",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"300 ml solution\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "361d3c47-9a19-4227-8325-cf611d04ab26",
+        "sourceBrandId": "35456",
+        "brandName": "Fulvestrant SDZ",
+        "strength": "250 mg/5 ml",
+        "dosageForm": "IM Injection",
+        "packageId": "6b295f43-4c99-43e8-8f56-1ce1392880eb",
+        "packageDescription": "10's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "120",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 10,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"10's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "3bba3950-6315-4b91-9ebe-7024adf07046",
+        "sourceBrandId": "32398",
+        "brandName": "Eclamag",
+        "strength": "2.5 gm/5 ml",
+        "dosageForm": "IM/IV Injection",
+        "packageId": "7a6e2526-ca81-412f-b108-48ebbade0462",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "46.53",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"5's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "418a78c9-b8ba-4c64-85a7-863e27e58374",
+        "sourceBrandId": "35194",
+        "brandName": "Faslodex",
+        "strength": "250 mg/5 ml",
+        "dosageForm": "IM Injection",
+        "packageId": "47fc7ca8-9cad-4266-869c-782bdeeb6cd7",
+        "packageDescription": "10's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "120",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 10,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"10's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "419f9a00-24cd-462f-a6d8-ddc80f0aed82",
+        "sourceBrandId": "10350",
+        "brandName": "Melphin",
+        "strength": "50 mg/ml",
+        "dosageForm": "Oral Suspension",
+        "packageId": "27461396-d47e-4816-821b-070530933e66",
+        "packageDescription": "12's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "193.22",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 12,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"12's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "4610afe6-f086-41c1-b6cc-bcfc2c8d3be1",
+        "sourceBrandId": "27430",
+        "brandName": "Water for injection",
+        "strength": "10 ml/ampoule",
+        "dosageForm": "Liquid",
+        "packageId": "f0143f90-85f3-4bd1-98c7-c157d12decdc",
+        "packageDescription": "100's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "802",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 100,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"100's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "50ae03fa-5496-4eb9-8884-91531149db50",
+        "sourceBrandId": "21741",
+        "brandName": "Arlin",
+        "strength": "2 mg/ml",
+        "dosageForm": "IV Infusion",
+        "packageId": "f600af00-188c-4d51-b5ad-9bcc3ecb8756",
+        "packageDescription": "300 ml solution",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "450",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"300 ml solution\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "59b5f2e5-42b5-432e-a8d8-67381968b150",
+        "sourceBrandId": "34367",
+        "brandName": "Dixanol",
+        "strength": "50 ml/vial",
+        "dosageForm": "Injection",
+        "packageId": "8389dcc0-e820-4a8b-88af-0b0b4b8d6195",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": "10.2",
+          "packPrice": "65",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"5's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "5a1d215b-0982-45a7-a2d3-da85ee97aa41",
+        "sourceBrandId": "27431",
+        "brandName": "G-Water for injection",
+        "strength": "5 ml/ampoule",
+        "dosageForm": "Liquid",
+        "packageId": "061fc44b-9e33-4d16-b498-ac0c05a14de5",
+        "packageDescription": "100's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "500.25",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 100,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"100's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "5a473126-23f4-4348-a9e3-ae1ca3d00f40",
+        "sourceBrandId": "34802",
+        "brandName": "Mytus",
+        "strength": "100 IU/ml",
+        "dosageForm": "SC Injection",
+        "packageId": "54b527cd-6ac2-408b-b535-162ea81672e3",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "895",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"5's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "5b78901d-2a90-485b-8b09-4722aa728b6a",
+        "sourceBrandId": "36812",
+        "brandName": "Ezolid",
+        "strength": "2 mg/ml",
+        "dosageForm": "IV Infusion",
+        "packageId": "4b8944cf-1b5c-4dc2-a07d-be175495c0d7",
+        "packageDescription": "300 ml solution",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "450",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"300 ml solution\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "6a0408f9-e415-4b3c-b33c-0d7c9dc01d03",
+        "sourceBrandId": "13502",
+        "brandName": "Debolin",
+        "strength": "200000 IU/ml",
+        "dosageForm": "Injectable Solution (Oral & IM)",
+        "packageId": "c53c439b-7bcd-4b77-8591-51e6e88591be",
+        "packageDescription": "4's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "440",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 4,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"4's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "6d6fca2e-039e-4a5b-9f5d-a6f5d53d166f",
+        "sourceBrandId": "33913",
+        "brandName": "Humalog 200",
+        "strength": "200 unit/ml",
+        "dosageForm": "SC Injection",
+        "packageId": "21807cb7-6342-4cc8-8197-fae3761b4523",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "2354.79",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"5's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "706b21e4-8469-4467-811a-f7957f156255",
+        "sourceBrandId": "8935",
+        "brandName": "Linzolid",
+        "strength": "2 mg/ml",
+        "dosageForm": "IV Infusion",
+        "packageId": "bc36c5d4-0691-4503-bc84-f47f3ad4351f",
+        "packageDescription": "300 ml solution",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "450",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"300 ml solution\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "774fcc44-4100-49ef-912d-635b56bf4725",
+        "sourceBrandId": "33424",
+        "brandName": "Dalatic",
+        "strength": "600 mg/4 ml",
+        "dosageForm": "IM/IV Injection",
+        "packageId": "7dc4815a-095f-4bae-994a-2d3909beebec",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "210.13",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"5's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "77ed91f3-e733-4e50-8111-dde30a563d4f",
+        "sourceBrandId": "37015",
+        "brandName": "Linvox",
+        "strength": "2 mg/ml",
+        "dosageForm": "IV Infusion",
+        "packageId": "ab2fb481-943e-4fa4-804f-4f043b526b00",
+        "packageDescription": "300 ml solution",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "450",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"300 ml solution\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "79bd19d9-f478-461b-be15-fed71b8e2bf1",
+        "sourceBrandId": "33991",
+        "brandName": "Fulvestrant",
+        "strength": "250 mg/5 ml",
+        "dosageForm": "IM Injection",
+        "packageId": "6bf752d7-b726-4776-bb4f-0a0f796fc51e",
+        "packageDescription": "10's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "120",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 10,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"10's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "7ac310dd-7e5e-42cd-8d23-359f4a0e7ea9",
+        "sourceBrandId": "31222",
+        "brandName": "Xylocon",
+        "strength": "0.05%",
+        "dosageForm": "Nasal Spray",
+        "packageId": "7bc3db32-6da5-4db3-89b9-5c43b7100f3c",
+        "packageDescription": "10 ml nasal spray",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "50",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"10 ml nasal spray\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "inhaler"
+      },
+      {
+        "medicineBrandId": "7b56961d-7f2f-4b4b-ae98-40f195992844",
+        "sourceBrandId": "15208",
+        "brandName": "D.P.T Vaccine",
+        "strength": "0.5 ml",
+        "dosageForm": "Injection",
+        "packageId": "aa6c1e70-e3e3-43f1-8d05-e2814761381f",
+        "packageDescription": "10's pack",
+        "price": {
+          "unitPrice": "17.95",
+          "packPrice": "179.5",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 10,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"10's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "7eeab175-bd0a-4d96-baec-c9ac2e0529a5",
+        "sourceBrandId": "37986",
+        "brandName": "Renamycin",
+        "strength": "50 mg/ml",
+        "dosageForm": "IM Injection",
+        "packageId": "61db344d-ae0e-4984-85c1-11bdea5dcee9",
+        "packageDescription": "10's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "120",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 10,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"10's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "8063611f-8912-4661-811c-f9951d622e2b",
+        "sourceBrandId": "38040",
+        "brandName": "Asiclin",
+        "strength": "300 mg/2 ml",
+        "dosageForm": "IM/IV Injection",
+        "packageId": "e789e0ee-f561-42a4-8f94-83504302766c",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "120.08",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"5's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "84af5bd0-7c24-4470-b79a-2b025f87b041",
+        "sourceBrandId": "27429",
+        "brandName": "Water for injection",
+        "strength": "5 ml/ampoule",
+        "dosageForm": "Liquid",
+        "packageId": "6ad07578-6f2b-43c9-a650-32ff56853555",
+        "packageDescription": "100's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "501",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 100,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"100's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "88af9310-dd80-41f7-bedf-60928ec33a7c",
+        "sourceBrandId": "38236",
+        "brandName": "Lizorex",
+        "strength": "2 mg/ml",
+        "dosageForm": "IV Infusion",
+        "packageId": "ac5b2b97-c19e-4ca8-b35f-d3bf665dad46",
+        "packageDescription": "300 ml solution",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "450",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"300 ml solution\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "94feb469-9c1a-47a7-abb5-c729ca59a396",
+        "sourceBrandId": "34410",
+        "brandName": "Provive MCT-LCT 1%",
+        "strength": "200 mg/20 ml",
+        "dosageForm": "Emulsion for infusion",
+        "packageId": "112aa993-4feb-42a4-9ea5-ed0c4a381a9c",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "704.5",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"5's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "a775853e-6b5d-4c50-aa4e-3346b306bf37",
+        "sourceBrandId": "27493",
+        "brandName": "Water for Inj.",
+        "strength": "5 ml/ampoule",
+        "dosageForm": "Liquid",
+        "packageId": "92af8fe3-cb38-4756-ab3d-7e46275af9a0",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "60",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"5's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "ab2459b0-ecc0-4814-be07-16a27e753a56",
+        "sourceBrandId": "38514",
+        "brandName": "Ornopain",
+        "strength": "8 mg/2 ml",
+        "dosageForm": "IM/IV Injection",
+        "packageId": "f8f34065-a6f8-4712-a03b-5370377f3d30",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "100",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"5's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "abed1da1-9012-4fe9-b2e2-26a07bbef930",
+        "sourceBrandId": "36880",
+        "brandName": "Gadosol",
+        "strength": "0.5 mmol/ml",
+        "dosageForm": "Injection",
+        "packageId": "9d806911-e487-49ca-998a-4999d9561749",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": "10.2",
+          "packPrice": "65",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"5's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "b0ee2928-2cad-4460-a2db-7b01b947a581",
+        "sourceBrandId": "34553",
+        "brandName": "Hybolin",
+        "strength": "25 mg/ml",
+        "dosageForm": "IM Injection",
+        "packageId": "9c9029a2-1bc1-4db2-9cae-a11af101fa6f",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "193.58",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"5's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "b770157b-9d62-4a94-8e74-ffad3a6f5fcf",
+        "sourceBrandId": "26850",
+        "brandName": "Enterogermina",
+        "strength": "2 billion/5 ml",
+        "dosageForm": "Oral Suspension",
+        "packageId": "79e575c3-f4c0-4f62-8a50-8daf4b9d2873",
+        "packageDescription": "10's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "550",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 10,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"10's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "b8751a54-e648-4e0e-aee0-464666007c16",
+        "sourceBrandId": "34045",
+        "brandName": "L-spar",
+        "strength": "10000 IU/vial",
+        "dosageForm": "IM/IV Injection",
+        "packageId": "71478d26-d2ed-4193-aee4-6b9946c3e0d8",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "100",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"5's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "cb341087-e515-4c2c-a52e-30eef4a899b0",
+        "sourceBrandId": "35250",
+        "brandName": "G-Suxamethonium",
+        "strength": "100 mg/2 ml",
+        "dosageForm": "IM/IV Injection",
+        "packageId": "5ff29afe-4753-4bfd-90f2-56eddb878ca3",
+        "packageDescription": "10's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "46.36",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 10,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"10's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "cc0f904d-eed7-404a-a37b-b7edb6e1e3f9",
+        "sourceBrandId": "36634",
+        "brandName": "Cetrolix",
+        "strength": "250 mcg/vial",
+        "dosageForm": "SC Injection",
+        "packageId": "fec5d8e1-7be4-46af-bbc5-2a5ad4e2d134",
+        "packageDescription": "7's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "14371.6",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 7,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"7's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "cf2ce3b4-8718-4e9c-ad94-4af398606cc3",
+        "sourceBrandId": "21750",
+        "brandName": "Linexil",
+        "strength": "2 mg/ml",
+        "dosageForm": "IV Infusion",
+        "packageId": "53f5df7f-6f01-4911-bb87-40e78109ed7f",
+        "packageDescription": "300 ml solution",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "451.36",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"300 ml solution\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "d09764e9-5832-429b-b52b-381d402ad8a9",
+        "sourceBrandId": "36354",
+        "brandName": "Fulvest",
+        "strength": "250 mg/5 ml",
+        "dosageForm": "IM Injection",
+        "packageId": "24727191-61eb-412b-8638-9c270653c933",
+        "packageDescription": "10's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "120",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 10,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"10's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "d9e05bc5-5f7c-4cfa-8c32-e2939ee95021",
+        "sourceBrandId": "36110",
+        "brandName": "Opocan",
+        "strength": "4 mg/4 ml",
+        "dosageForm": "Injection",
+        "packageId": "a84118ef-c904-4273-a831-f8a3e497fd6a",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": "10.2",
+          "packPrice": "65",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"5's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "db74d383-18bb-46e8-9471-4e7668fa3bdf",
+        "sourceBrandId": "33423",
+        "brandName": "Dalatic",
+        "strength": "300 mg/2 ml",
+        "dosageForm": "IM/IV Injection",
+        "packageId": "d014de59-f91b-44c5-8eff-f4f83798c1c0",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "120.08",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"5's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "e1989e90-e64d-4e83-a2e1-c53558e056b4",
+        "sourceBrandId": "34044",
+        "brandName": "L-spar",
+        "strength": "5000 IU/vial",
+        "dosageForm": "IM/IV Injection",
+        "packageId": "25c0fd3a-01d2-463e-824f-ad88780e8acc",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "100",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"5's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "e679ff3c-819c-4c2f-900e-0bae12038bb6",
+        "sourceBrandId": "35247",
+        "brandName": "G-Pethidine",
+        "strength": "50 mg/ml",
+        "dosageForm": "Injection",
+        "packageId": "b4497bd1-890f-4928-a12c-95df579f4cb9",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": "10.2",
+          "packPrice": "65",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"5's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "f48d62ed-1bc1-4ac0-8576-f5d0b1d621a9",
+        "sourceBrandId": "33951",
+        "brandName": "Amiodarone Hameln",
+        "strength": "150 mg/3 ml",
+        "dosageForm": "Injection",
+        "packageId": "1c9078d7-cd4a-4b76-96da-1f2debbf586b",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": "10.2",
+          "packPrice": "65",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"5's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "f90c36a2-5d18-4c33-99b1-df0c286b9d4c",
+        "sourceBrandId": "15205",
+        "brandName": "Dukoral",
+        "strength": "3 ml/vial",
+        "dosageForm": "Oral Suspension",
+        "packageId": "db348a85-fac7-45f4-902d-d858799b76be",
+        "packageDescription": "2's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "3",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 2,
+          "stripUnits": null
+        },
+        "reason": "Category H: Backend pack \"2's pack\" contains valid packaging info, but frontend conversion rule failed to match.",
+        "category": "H",
+        "isPrimaryPack": true,
+        "strategy": "liquid"
+      }
+    ]
+  },
+  "missingConversionRulesAnalysis": {
+    "baselineCount": 212,
+    "postFixCount": 113,
+    "resolvedCount": 99,
+    "remainingByStrategyAndForm": {
+      "injection | SC Injection | 3's pack": 1,
+      "injection | IM/IV Injection | 5's pack": 9,
+      "tablet_capsule | Tablet | tablet kit": 19,
+      "liquid | Powder for Suspension | 150 gm bag": 1,
+      "injection | Emulsion for infusion | 5's pack": 2,
+      "tablet_capsule | Tablet | 100 ml bottle": 3,
+      "liquid | Powder for Suspension | 30's pack": 1,
+      "injection | IV Injection | 5's pack": 1,
+      "injection | IV Injection | 8.5 ml solution": 1,
+      "injection | IM Injection | 10's pack": 6,
+      "liquid | Oral Suspension | 10's pack": 2,
+      "liquid | Oral Suspension | 1 pre-filled oral applicator": 2,
+      "injection | Injection | 5's pack": 6,
+      "tablet_capsule | Tablet | tablet": 13,
+      "injection | IV Infusion | 300 ml solution": 7,
+      "liquid | Topical Solution | 10 gm tube": 1,
+      "liquid | Topical Solution | 5 gm tube": 1,
+      "liquid | Oral Suspension | 12's pack": 1,
+      "liquid | Liquid | 100's pack": 3,
+      "tablet_capsule | Tablet | n": 1,
+      "injection | SC Injection | 5's pack": 2,
+      "liquid | Solution | 12's pack": 2,
+      "liquid | Lotion | 60 gm tube": 3,
+      "tablet_capsule | Tablet | 200 ml bottle": 1,
+      "liquid | Injectable Solution (Oral & IM) | 4's pack": 1,
+      "liquid | Powder for Suspension | 150 gm jar": 1,
+      "inhaler | Nasal Spray | 10 ml nasal spray": 1,
+      "injection | Injection | 10's pack": 1,
+      "liquid | Lotion | 117 gm tube": 1,
+      "liquid | Lotion | 100 gm tube": 1,
+      "injection | IV Infusion | 800 mg Mesna": 1,
+      "injection | IV Injection | 250 mg": 1,
+      "liquid | Liquid | 5's pack": 1,
+      "liquid | Lotion | 45 gm tube": 1,
+      "injection | IV Injection | 500 mg": 1,
+      "injection | IM Injection | 5's pack": 1,
+      "liquid | Powder for Solution | 85 gm bottle": 1,
+      "injection | IM Injection | 250 mg": 1,
+      "inhaler | Nasal Inhaler | 1 inhaler tube": 1,
+      "injection | IM/IV Injection | 10's pack": 1,
+      "tablet_capsule | Capsule | 30 green": 1,
+      "injection | SC Injection | 7's pack": 1,
+      "tablet_capsule | Dry Powder Inhalation Capsule (DPI) | 1 bexihaler device combipack": 1,
+      "liquid | Powder for Suspension | 14's pack": 1,
+      "liquid | Topical Solution | 6's pack": 1,
+      "injection | IV Infusion | 1600 mg Mesna": 1,
+      "liquid | Oral Suspension | 2's pack": 1,
+      "tablet_capsule | Tablet | 60 ml bottle": 1
+    },
+    "resolvedSamples": [
+      {
+        "medicineBrandId": "01ac06f9-03e9-4626-aacd-6f6b84381bda",
+        "sourceBrandId": "16781",
+        "brandName": "Humalog",
+        "strength": "100 unit/ml",
+        "dosageForm": "SC Injection",
+        "packageId": "3f2a443f-8953-4528-96d5-268ff6aa5be8",
+        "packageDescription": "3 ml KwikPen",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "869.82",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"SC Injection\", packQuantity=\"3 ml KwikPen\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "0341cb5d-3f01-4735-a92c-9f06ed78e5f8",
+        "sourceBrandId": "30286",
+        "brandName": "Jasocaine",
+        "strength": "10 mg/spray",
+        "dosageForm": "Topical Spray",
+        "packageId": "cefc9f92-f1e8-473e-bbad-a93ef9ccb4ca",
+        "packageDescription": "30 ml bottle",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "300",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"inhaler\", form=\"Topical Spray\", packQuantity=\"30 ml bottle\".",
+        "strategy": "inhaler"
+      },
+      {
+        "medicineBrandId": "0373012f-14d8-406b-8029-8ec654ad5065",
+        "sourceBrandId": "3947",
+        "brandName": "Seretide",
+        "strength": "50 mcg+100 mcg",
+        "dosageForm": "Inhalation Capsule",
+        "packageId": "c4613c20-d9a4-47a2-a0f0-0fcb19f98885",
+        "packageDescription": "60 doses unit",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "935",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Inhalation Capsule\", packQuantity=\"60 doses unit\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "07bc7bc4-5810-451e-a533-0c37e2bc19ce",
+        "sourceBrandId": "16771",
+        "brandName": "Actrapid",
+        "strength": "100 IU/ml",
+        "dosageForm": "SC Injection",
+        "packageId": "5c0e6d9d-9715-45a2-8ea4-3daf3d7afa10",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "2105",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"SC Injection\", packQuantity=\"5's pack\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "07bc7bc4-5810-451e-a533-0c37e2bc19ce",
+        "sourceBrandId": "16771",
+        "brandName": "Actrapid",
+        "strength": "100 IU/ml",
+        "dosageForm": "SC Injection",
+        "packageId": "0f739ae2-fd79-4c92-a04f-414df882e9e9",
+        "packageDescription": "3 ml flexpen",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "421",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"SC Injection\", packQuantity=\"3 ml flexpen\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "094b30ea-c90b-4123-b495-b55d0bf849ec",
+        "sourceBrandId": "31930",
+        "brandName": "Glyriva",
+        "strength": "25 mcg/ml",
+        "dosageForm": "Nebuliser Solution",
+        "packageId": "3ab65141-f4b4-438b-beed-da277b197b71",
+        "packageDescription": "10's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "400",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 10,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"liquid\", form=\"Nebuliser Solution\", packQuantity=\"10's pack\".",
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "11670193-ea75-4bcc-b82c-274952cfa146",
+        "sourceBrandId": "34621",
+        "brandName": "Athena",
+        "strength": "30 mg",
+        "dosageForm": "Tablet",
+        "packageId": "3517ab6f-145d-4cf5-80c5-8dcf97879d2e",
+        "packageDescription": "1 tablet pack",
+        "price": {
+          "unitPrice": "195",
+          "packPrice": "200",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 1,
+          "stripUnits": null
+        },
+        "reason": "Missing rule: Single-unit tablet/capsule pack (packUnits === 1, e.g. \"1 tablet kit\") treated as unreliable.",
+        "ruleGap": "SINGLE_UNIT_PACK_1"
+      },
+      {
+        "medicineBrandId": "1b14cd80-bb2a-485d-ab7c-6e2bb34f58f6",
+        "sourceBrandId": "27369",
+        "brandName": "SB-Iban",
+        "strength": "150 mg",
+        "dosageForm": "Tablet",
+        "packageId": "5d7ced3c-f14a-4b64-a998-84dfa279ee42",
+        "packageDescription": "1 tablet kit",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "510",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 1,
+          "stripUnits": null
+        },
+        "reason": "Missing rule: Single-unit tablet/capsule pack (packUnits === 1, e.g. \"1 tablet kit\") treated as unreliable.",
+        "ruleGap": "SINGLE_UNIT_PACK_1"
+      },
+      {
+        "medicineBrandId": "1b8e851e-3ae4-4ae3-84c0-97d1968fa48e",
+        "sourceBrandId": "28866",
+        "brandName": "Bexitrol F",
+        "strength": "50 mcg+250 mcg",
+        "dosageForm": "Multidose Dry Powder Inhaler (MDPI)",
+        "packageId": "281dadc8-0ef9-4eee-9687-476246eb306a",
+        "packageDescription": "60 doses maxhaler",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "1120",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"inhaler\", form=\"Multidose Dry Powder Inhaler (MDPI)\", packQuantity=\"60 doses maxhaler\".",
+        "strategy": "inhaler"
+      },
+      {
+        "medicineBrandId": "1e0dc392-62d5-4a23-b5d9-e41f47069b77",
+        "sourceBrandId": "3877",
+        "brandName": "Budicort",
+        "strength": "0.5 mg/2 ml",
+        "dosageForm": "Nebuliser Suspension",
+        "packageId": "196f6ff6-4c17-45a0-bae3-00e786a69376",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "200",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"liquid\", form=\"Nebuliser Suspension\", packQuantity=\"5's pack\".",
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "1e0dc392-62d5-4a23-b5d9-e41f47069b77",
+        "sourceBrandId": "3877",
+        "brandName": "Budicort",
+        "strength": "0.5 mg/2 ml",
+        "dosageForm": "Nebuliser Suspension",
+        "packageId": "69322cea-3296-457d-9879-e6b962e8dedb",
+        "packageDescription": "10's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "400",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 10,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"liquid\", form=\"Nebuliser Suspension\", packQuantity=\"10's pack\".",
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "1f1b71de-e41f-4509-971d-6119deaa43e6",
+        "sourceBrandId": "30104",
+        "brandName": "Saltide",
+        "strength": "2.5 mg/3 ml",
+        "dosageForm": "Respirator Solution",
+        "packageId": "c57f71d3-a7b0-4274-bc54-3055fa7c73de",
+        "packageDescription": "10's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "160",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 10,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"liquid\", form=\"Respirator Solution\", packQuantity=\"10's pack\".",
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "1f1c94bd-f044-4d98-bbf6-749a8e467595",
+        "sourceBrandId": "14929",
+        "brandName": "Bone-Guard",
+        "strength": "150 mg",
+        "dosageForm": "Tablet",
+        "packageId": "4cb56a71-f23f-417e-8a11-5578ce9bf3ab",
+        "packageDescription": "1 tablet kit",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "510",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 1,
+          "stripUnits": null
+        },
+        "reason": "Missing rule: Single-unit tablet/capsule pack (packUnits === 1, e.g. \"1 tablet kit\") treated as unreliable.",
+        "ruleGap": "SINGLE_UNIT_PACK_1"
+      },
+      {
+        "medicineBrandId": "20269f63-a2f3-4b26-8372-a46f180b4c4b",
+        "sourceBrandId": "20950",
+        "brandName": "Osteonil",
+        "strength": "150 mg",
+        "dosageForm": "Tablet",
+        "packageId": "ade5ffe4-b356-4141-8ca7-7757a1dea118",
+        "packageDescription": "1 tablet kit",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "1770",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 1,
+          "stripUnits": null
+        },
+        "reason": "Missing rule: Single-unit tablet/capsule pack (packUnits === 1, e.g. \"1 tablet kit\") treated as unreliable.",
+        "ruleGap": "SINGLE_UNIT_PACK_1"
+      },
+      {
+        "medicineBrandId": "223a601a-eb44-4331-b7fd-9a3198501b80",
+        "sourceBrandId": "16832",
+        "brandName": "Levemir Flexpen",
+        "strength": "100 IU/ml",
+        "dosageForm": "SC Injection",
+        "packageId": "30468fb7-1db2-4bff-8dac-5d867f1ae0ec",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "6915",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"SC Injection\", packQuantity=\"5's pack\".",
+        "strategy": "injection"
+      }
+    ],
+    "remainingRecords": [
+      {
+        "medicineBrandId": "05530208-e3f2-4b37-8e8f-ae8032c45e27",
+        "sourceBrandId": "36872",
+        "brandName": "RapiMix",
+        "strength": "30%+70%",
+        "dosageForm": "SC Injection",
+        "packageId": "5f1f635b-3014-4bb5-b069-e6ed7b399ab1",
+        "packageDescription": "3's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "1100",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 3,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"SC Injection\", packQuantity=\"3's pack\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "0c7362a5-2cd4-4ed7-be0a-e3ebf6a9285e",
+        "sourceBrandId": "34108",
+        "brandName": "Camlor",
+        "strength": "8 mg/2 ml",
+        "dosageForm": "IM/IV Injection",
+        "packageId": "d2616fdb-33e0-447c-94a5-ae3b1d9f06ef",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "100",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"IM/IV Injection\", packQuantity=\"5's pack\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "0d899d1f-5ccb-4275-a0d0-a03aaadb1a6c",
+        "sourceBrandId": "28147",
+        "brandName": "ABO Kit",
+        "strength": "200 mg+200 mcg",
+        "dosageForm": "Tablet",
+        "packageId": "5cf46ebe-6b75-42fd-8368-f4b585b7ee5b",
+        "packageDescription": "tablet kit",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "280",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"tablet kit\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "16e5a989-cead-4b29-a718-b0bd94ff4495",
+        "sourceBrandId": "16325",
+        "brandName": "Viewgut",
+        "strength": "150 gm",
+        "dosageForm": "Powder for Suspension",
+        "packageId": "d12d59d0-24f1-49a5-9814-fe523cb3b16e",
+        "packageDescription": "150 gm bag",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "200.75",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"liquid\" for form=\"Powder for Suspension\", packQuantity=\"150 gm bag\".",
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "19dc2206-9e69-40f8-a2ee-45a349bf4952",
+        "sourceBrandId": "33847",
+        "brandName": "Neforex",
+        "strength": "20 mg/ml",
+        "dosageForm": "IM/IV Injection",
+        "packageId": "6264b7a5-32d1-431d-9cf3-2e31972e56e1",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "75",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"IM/IV Injection\", packQuantity=\"5's pack\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "1df757c1-d0aa-4346-a52f-a06c74f00d6a",
+        "sourceBrandId": "38298",
+        "brandName": "Lipuro",
+        "strength": "200 mg/20 ml",
+        "dosageForm": "Emulsion for infusion",
+        "packageId": "1493aacc-b983-4d88-8362-f316b3120aaa",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "704.5",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"Emulsion for infusion\", packQuantity=\"5's pack\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "1e88fc1b-01a4-4c44-839c-d04e5a15fa06",
+        "sourceBrandId": "27893",
+        "brandName": "Tosma",
+        "strength": "1 mg/5 ml",
+        "dosageForm": "Tablet",
+        "packageId": "161259af-d229-46f8-b8c1-b23e3c682581",
+        "packageDescription": "100 ml bottle",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "55",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"100 ml bottle\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "1e93e508-9f30-4993-814c-a2cec9d01b93",
+        "sourceBrandId": "9226",
+        "brandName": "Ciproxen",
+        "strength": "250 mg/5 ml",
+        "dosageForm": "Powder for Suspension",
+        "packageId": "d70f5548-f7d8-4c96-8467-4cadc29c11c4",
+        "packageDescription": "30's pack",
+        "price": {
+          "unitPrice": "7",
+          "packPrice": "210",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 30,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"liquid\", form=\"Powder for Suspension\", packQuantity=\"30's pack\".",
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "2003346d-a64d-4cb6-a2f3-9c8ea707d241",
+        "sourceBrandId": "30014",
+        "brandName": "Glypressin",
+        "strength": "1 mg/8.5 ml",
+        "dosageForm": "IV Injection",
+        "packageId": "0048489d-d626-4271-bbd4-288b40d0bdb8",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "11545",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"IV Injection\", packQuantity=\"5's pack\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "2003346d-a64d-4cb6-a2f3-9c8ea707d241",
+        "sourceBrandId": "30014",
+        "brandName": "Glypressin",
+        "strength": "1 mg/8.5 ml",
+        "dosageForm": "IV Injection",
+        "packageId": "80124de9-6ac6-4b0f-8b97-bddcd3aa333e",
+        "packageDescription": "8.5 ml solution",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "2309",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"IV Injection\", packQuantity=\"8.5 ml solution\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "2f51da55-cd06-4dcf-8fbb-475cbf2593b6",
+        "sourceBrandId": "36610",
+        "brandName": "Androjet",
+        "strength": "250 mg/ml",
+        "dosageForm": "IM Injection",
+        "packageId": "e64d7379-8f58-4ead-9f1d-77afde3314ef",
+        "packageDescription": "10's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "120",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 10,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"IM Injection\", packQuantity=\"10's pack\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "2f83f605-9a28-4dca-8c96-ff4f1349c7bb",
+        "sourceBrandId": "28956",
+        "brandName": "RotaTeq",
+        "strength": "1.5 ml/dose",
+        "dosageForm": "Oral Suspension",
+        "packageId": "2d741e3d-55ef-48f0-bfd7-a45fbed04feb",
+        "packageDescription": "10's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "21",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 10,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"liquid\", form=\"Oral Suspension\", packQuantity=\"10's pack\".",
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "2f83f605-9a28-4dca-8c96-ff4f1349c7bb",
+        "sourceBrandId": "28956",
+        "brandName": "RotaTeq",
+        "strength": "1.5 ml/dose",
+        "dosageForm": "Oral Suspension",
+        "packageId": "4d3e8310-d197-4e32-97b4-93ec94ea4dad",
+        "packageDescription": "1 pre-filled oral applicator",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "2",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"liquid\" for form=\"Oral Suspension\", packQuantity=\"1 pre-filled oral applicator\".",
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "33cec057-20af-4d01-aea3-adbd2672990a",
+        "sourceBrandId": "33962",
+        "brandName": "Biomolipon",
+        "strength": "600 mg/ampoule",
+        "dosageForm": "Injection",
+        "packageId": "b38372bd-7be1-4693-ac94-707a9bf63252",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": "10.2",
+          "packPrice": "65",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"Injection\", packQuantity=\"5's pack\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "34497df1-e696-4960-bc9e-53f94715d0ec",
+        "sourceBrandId": "20084",
+        "brandName": "Noret 28",
+        "strength": "0.03 mg+0.15 mg+75 mg",
+        "dosageForm": "Tablet",
+        "packageId": "f19511ec-c420-4718-8014-7b7770dd97b8",
+        "packageDescription": "tablet",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "23",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"tablet\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "35b2dac0-f298-424b-b52f-6d4fe5251ac0",
+        "sourceBrandId": "33178",
+        "brandName": "BoneStar Kit",
+        "strength": "150 mg+400 mg",
+        "dosageForm": "Tablet",
+        "packageId": "fc9370e9-e250-41ac-b9fd-ae9bfbec616b",
+        "packageDescription": "tablet kit",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "990",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"tablet kit\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "35b71a0f-3677-4678-bb20-7236389a3a19",
+        "sourceBrandId": "26455",
+        "brandName": "MarinCal Kit",
+        "strength": "150 mg+500 mg+200 IU",
+        "dosageForm": "Tablet",
+        "packageId": "ec677b50-a657-470b-b27f-4bd65bf2d3a7",
+        "packageDescription": "tablet kit",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "990",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"tablet kit\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "35ba227d-029c-4958-9e5c-f2e2a2b5aa2c",
+        "sourceBrandId": "37446",
+        "brandName": "Lizox",
+        "strength": "2 mg/ml",
+        "dosageForm": "IV Infusion",
+        "packageId": "2a67f9b0-a0da-4a5d-b2ae-27dabe90a4a7",
+        "packageDescription": "300 ml solution",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "450",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"IV Infusion\", packQuantity=\"300 ml solution\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "361d3c47-9a19-4227-8325-cf611d04ab26",
+        "sourceBrandId": "35456",
+        "brandName": "Fulvestrant SDZ",
+        "strength": "250 mg/5 ml",
+        "dosageForm": "IM Injection",
+        "packageId": "6b295f43-4c99-43e8-8f56-1ce1392880eb",
+        "packageDescription": "10's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "120",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 10,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"IM Injection\", packQuantity=\"10's pack\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "37dfce7b-6285-4f6c-a520-0ca9ce479f79",
+        "sourceBrandId": "26635",
+        "brandName": "AB Kit",
+        "strength": "200 mg+200 mcg",
+        "dosageForm": "Tablet",
+        "packageId": "2f2aa91c-a817-47a2-bf39-7ef68d0602d8",
+        "packageDescription": "tablet kit",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "300",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"tablet kit\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "383bdd33-135c-4399-b3a0-879e6e3e6a27",
+        "sourceBrandId": "6107",
+        "brandName": "Novelon",
+        "strength": "3 mg+0.03 mg",
+        "dosageForm": "Tablet",
+        "packageId": "1396ca76-6050-4f78-97d4-c74b313b8601",
+        "packageDescription": "tablet",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "399",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"tablet\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "3bba3950-6315-4b91-9ebe-7024adf07046",
+        "sourceBrandId": "32398",
+        "brandName": "Eclamag",
+        "strength": "2.5 gm/5 ml",
+        "dosageForm": "IM/IV Injection",
+        "packageId": "7a6e2526-ca81-412f-b108-48ebbade0462",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "46.53",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"IM/IV Injection\", packQuantity=\"5's pack\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "3da35737-745f-4925-b269-8272e4f2c7f6",
+        "sourceBrandId": "32463",
+        "brandName": "Cylac",
+        "strength": "16.7%+16.7%",
+        "dosageForm": "Topical Solution",
+        "packageId": "19e00785-bd78-49de-b4d5-edaf2fc50ceb",
+        "packageDescription": "10 gm tube",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "180",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"liquid\" for form=\"Topical Solution\", packQuantity=\"10 gm tube\".",
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "3da35737-745f-4925-b269-8272e4f2c7f6",
+        "sourceBrandId": "32463",
+        "brandName": "Cylac",
+        "strength": "16.7%+16.7%",
+        "dosageForm": "Topical Solution",
+        "packageId": "d544c45f-d44d-4d7d-86fd-b31c3f0e8836",
+        "packageDescription": "5 gm tube",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "100",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"liquid\" for form=\"Topical Solution\", packQuantity=\"5 gm tube\".",
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "3ea423ea-511c-499f-be34-67ce0d583288",
+        "sourceBrandId": "37112",
+        "brandName": "Becoral Kit",
+        "strength": "150 mg+600 mg+400 IU",
+        "dosageForm": "Tablet",
+        "packageId": "2ecfa8ae-a985-4fbf-a1cc-249617e4028b",
+        "packageDescription": "tablet kit",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "2175",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"tablet kit\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "418a78c9-b8ba-4c64-85a7-863e27e58374",
+        "sourceBrandId": "35194",
+        "brandName": "Faslodex",
+        "strength": "250 mg/5 ml",
+        "dosageForm": "IM Injection",
+        "packageId": "47fc7ca8-9cad-4266-869c-782bdeeb6cd7",
+        "packageDescription": "10's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "120",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 10,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"IM Injection\", packQuantity=\"10's pack\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "419f9a00-24cd-462f-a6d8-ddc80f0aed82",
+        "sourceBrandId": "10350",
+        "brandName": "Melphin",
+        "strength": "50 mg/ml",
+        "dosageForm": "Oral Suspension",
+        "packageId": "27461396-d47e-4816-821b-070530933e66",
+        "packageDescription": "12's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "193.22",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 12,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"liquid\", form=\"Oral Suspension\", packQuantity=\"12's pack\".",
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "4610afe6-f086-41c1-b6cc-bcfc2c8d3be1",
+        "sourceBrandId": "27430",
+        "brandName": "Water for injection",
+        "strength": "10 ml/ampoule",
+        "dosageForm": "Liquid",
+        "packageId": "f0143f90-85f3-4bd1-98c7-c157d12decdc",
+        "packageDescription": "100's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "802",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 100,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"liquid\", form=\"Liquid\", packQuantity=\"100's pack\".",
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "47960fa2-bfd6-4e06-9b13-8fae0ff84434",
+        "sourceBrandId": "36785",
+        "brandName": "Cardisan",
+        "strength": "25 mg",
+        "dosageForm": "Tablet",
+        "packageId": "79b7a2d9-73d4-4078-aa6c-2f0f42f188e1",
+        "packageDescription": "n",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "240",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"n\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "4a90b9c5-4b93-4e7a-9bef-20f699ec2ad3",
+        "sourceBrandId": "31084",
+        "brandName": "Orocal Kit",
+        "strength": "150 mg & 740 mg",
+        "dosageForm": "Tablet",
+        "packageId": "cd64773b-76d7-44cf-aaaf-873c3c65d393",
+        "packageDescription": "tablet kit",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "990",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"tablet kit\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "4d2c4253-9df7-4609-ae3c-1632a985bcde",
+        "sourceBrandId": "28935",
+        "brandName": "Nordette 28",
+        "strength": "0.03 mg+0.15 mg+75 mg",
+        "dosageForm": "Tablet",
+        "packageId": "f41ca733-e35f-4320-97d3-ea27540052b8",
+        "packageDescription": "tablet",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "36",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"tablet\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "50ae03fa-5496-4eb9-8884-91531149db50",
+        "sourceBrandId": "21741",
+        "brandName": "Arlin",
+        "strength": "2 mg/ml",
+        "dosageForm": "IV Infusion",
+        "packageId": "f600af00-188c-4d51-b5ad-9bcc3ecb8756",
+        "packageDescription": "300 ml solution",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "450",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"IV Infusion\", packQuantity=\"300 ml solution\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "57c4a6bc-d9e6-428c-bd00-f82d00346e54",
+        "sourceBrandId": "30170",
+        "brandName": "Lyta 28",
+        "strength": "0.03 mg+0.15 mg+75 mg",
+        "dosageForm": "Tablet",
+        "packageId": "e870b51e-ac03-47fb-b60f-7535b36e2978",
+        "packageDescription": "tablet",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "23.52",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"tablet\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "57edb872-6fb0-4f48-a07d-775d5f0b2ca9",
+        "sourceBrandId": "15971",
+        "brandName": "Ticofen",
+        "strength": "1 mg/5 ml",
+        "dosageForm": "Tablet",
+        "packageId": "bfca8fc7-0dc9-432c-b353-78dcd76a4d68",
+        "packageDescription": "100 ml bottle",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "50",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"100 ml bottle\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "59377a7a-55f3-4674-8585-1a09b3dfa4f4",
+        "sourceBrandId": "6220",
+        "brandName": "Alphedin",
+        "strength": "120 mg",
+        "dosageForm": "Tablet",
+        "packageId": "eb4ba95e-fe0b-463d-a152-0254346593c5",
+        "packageDescription": "100 ml bottle",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "55.72",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"100 ml bottle\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "59b5f2e5-42b5-432e-a8d8-67381968b150",
+        "sourceBrandId": "34367",
+        "brandName": "Dixanol",
+        "strength": "50 ml/vial",
+        "dosageForm": "Injection",
+        "packageId": "8389dcc0-e820-4a8b-88af-0b0b4b8d6195",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": "10.2",
+          "packPrice": "65",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"Injection\", packQuantity=\"5's pack\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "5a1d215b-0982-45a7-a2d3-da85ee97aa41",
+        "sourceBrandId": "27431",
+        "brandName": "G-Water for injection",
+        "strength": "5 ml/ampoule",
+        "dosageForm": "Liquid",
+        "packageId": "061fc44b-9e33-4d16-b498-ac0c05a14de5",
+        "packageDescription": "100's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "500.25",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 100,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"liquid\", form=\"Liquid\", packQuantity=\"100's pack\".",
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "5a473126-23f4-4348-a9e3-ae1ca3d00f40",
+        "sourceBrandId": "34802",
+        "brandName": "Mytus",
+        "strength": "100 IU/ml",
+        "dosageForm": "SC Injection",
+        "packageId": "54b527cd-6ac2-408b-b535-162ea81672e3",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "895",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"SC Injection\", packQuantity=\"5's pack\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "5b78901d-2a90-485b-8b09-4722aa728b6a",
+        "sourceBrandId": "36812",
+        "brandName": "Ezolid",
+        "strength": "2 mg/ml",
+        "dosageForm": "IV Infusion",
+        "packageId": "4b8944cf-1b5c-4dc2-a07d-be175495c0d7",
+        "packageDescription": "300 ml solution",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "450",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"IV Infusion\", packQuantity=\"300 ml solution\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "682ed0e8-7ae0-4af1-8599-6e7f8dfa6bfc",
+        "sourceBrandId": "12855",
+        "brandName": "Viodin",
+        "strength": "10% w/v",
+        "dosageForm": "Solution",
+        "packageId": "2f46d90c-1661-4fcb-8cbc-44cb9d03cb57",
+        "packageDescription": "12's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "300.96",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 12,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"liquid\" for form=\"Solution\", packQuantity=\"12's pack\".",
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "69286c06-cf21-4511-a0d1-6bf55a9f4333",
+        "sourceBrandId": "26161",
+        "brandName": "Alice",
+        "strength": "0.5%",
+        "dosageForm": "Lotion",
+        "packageId": "883ca8fa-aa8f-4658-80a8-a6a5fb2b2be0",
+        "packageDescription": "60 gm tube",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "130",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"liquid\" for form=\"Lotion\", packQuantity=\"60 gm tube\".",
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "69a7575e-e5b0-41e3-8a57-3620b68d3ac4",
+        "sourceBrandId": "13121",
+        "brandName": "Ditrolac",
+        "strength": "10 mg",
+        "dosageForm": "Tablet",
+        "packageId": "50ca32db-3993-4d70-b4e8-2d0778f80828",
+        "packageDescription": "200 ml bottle",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "25",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"200 ml bottle\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "6a0408f9-e415-4b3c-b33c-0d7c9dc01d03",
+        "sourceBrandId": "13502",
+        "brandName": "Debolin",
+        "strength": "200000 IU/ml",
+        "dosageForm": "Injectable Solution (Oral & IM)",
+        "packageId": "c53c439b-7bcd-4b77-8591-51e6e88591be",
+        "packageDescription": "4's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "440",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 4,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"liquid\", form=\"Injectable Solution (Oral & IM)\", packQuantity=\"4's pack\".",
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "6d6fca2e-039e-4a5b-9f5d-a6f5d53d166f",
+        "sourceBrandId": "33913",
+        "brandName": "Humalog 200",
+        "strength": "200 unit/ml",
+        "dosageForm": "SC Injection",
+        "packageId": "21807cb7-6342-4cc8-8197-fae3761b4523",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "2354.79",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"SC Injection\", packQuantity=\"5's pack\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "706b21e4-8469-4467-811a-f7957f156255",
+        "sourceBrandId": "8935",
+        "brandName": "Linzolid",
+        "strength": "2 mg/ml",
+        "dosageForm": "IV Infusion",
+        "packageId": "bc36c5d4-0691-4503-bc84-f47f3ad4351f",
+        "packageDescription": "300 ml solution",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "450",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"IV Infusion\", packQuantity=\"300 ml solution\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "7441537c-13c7-42d3-9b92-a097473a6a3e",
+        "sourceBrandId": "28452",
+        "brandName": "K-Nor",
+        "strength": "99.934% w/w",
+        "dosageForm": "Powder for Suspension",
+        "packageId": "522e4d6f-7dd4-4811-94a3-f5c305dc4383",
+        "packageDescription": "150 gm jar",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "980",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"liquid\" for form=\"Powder for Suspension\", packQuantity=\"150 gm jar\".",
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "774fcc44-4100-49ef-912d-635b56bf4725",
+        "sourceBrandId": "33424",
+        "brandName": "Dalatic",
+        "strength": "600 mg/4 ml",
+        "dosageForm": "IM/IV Injection",
+        "packageId": "7dc4815a-095f-4bae-994a-2d3909beebec",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "210.13",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"IM/IV Injection\", packQuantity=\"5's pack\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "77ed91f3-e733-4e50-8111-dde30a563d4f",
+        "sourceBrandId": "37015",
+        "brandName": "Linvox",
+        "strength": "2 mg/ml",
+        "dosageForm": "IV Infusion",
+        "packageId": "ab2fb481-943e-4fa4-804f-4f043b526b00",
+        "packageDescription": "300 ml solution",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "450",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"IV Infusion\", packQuantity=\"300 ml solution\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "7922974f-43db-4ccf-9fab-15e27916bcbf",
+        "sourceBrandId": "39282",
+        "brandName": "Avemec",
+        "strength": "0.5%",
+        "dosageForm": "Lotion",
+        "packageId": "05d1484c-0ab9-4127-9733-4283a3432c97",
+        "packageDescription": "60 gm tube",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "130",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"liquid\" for form=\"Lotion\", packQuantity=\"60 gm tube\".",
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "79bd19d9-f478-461b-be15-fed71b8e2bf1",
+        "sourceBrandId": "33991",
+        "brandName": "Fulvestrant",
+        "strength": "250 mg/5 ml",
+        "dosageForm": "IM Injection",
+        "packageId": "6bf752d7-b726-4776-bb4f-0a0f796fc51e",
+        "packageDescription": "10's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "120",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 10,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"IM Injection\", packQuantity=\"10's pack\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "7ac310dd-7e5e-42cd-8d23-359f4a0e7ea9",
+        "sourceBrandId": "31222",
+        "brandName": "Xylocon",
+        "strength": "0.05%",
+        "dosageForm": "Nasal Spray",
+        "packageId": "7bc3db32-6da5-4db3-89b9-5c43b7100f3c",
+        "packageDescription": "10 ml nasal spray",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "50",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"inhaler\", form=\"Nasal Spray\", packQuantity=\"10 ml nasal spray\".",
+        "strategy": "inhaler"
+      },
+      {
+        "medicineBrandId": "7b56961d-7f2f-4b4b-ae98-40f195992844",
+        "sourceBrandId": "15208",
+        "brandName": "D.P.T Vaccine",
+        "strength": "0.5 ml",
+        "dosageForm": "Injection",
+        "packageId": "aa6c1e70-e3e3-43f1-8d05-e2814761381f",
+        "packageDescription": "10's pack",
+        "price": {
+          "unitPrice": "17.95",
+          "packPrice": "179.5",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 10,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"Injection\", packQuantity=\"10's pack\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "7bd207b6-65bf-489b-965a-7c775db30614",
+        "sourceBrandId": "36591",
+        "brandName": "Bondrova Pro",
+        "strength": "150 mg+600 mg+400 IU",
+        "dosageForm": "Tablet",
+        "packageId": "bab07079-80dc-4721-8469-3d6b7b83b1c2",
+        "packageDescription": "tablet kit",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "2175",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"tablet kit\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "7e12bdf7-ad13-41c3-b157-a3ccfb4b7212",
+        "sourceBrandId": "22913",
+        "brandName": "Norgest",
+        "strength": "0.03 mg+0.15 mg+75 mg",
+        "dosageForm": "Tablet",
+        "packageId": "62ede86d-f961-447f-b19a-b7808fd53872",
+        "packageDescription": "tablet",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "19.95",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"tablet\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "7eeab175-bd0a-4d96-baec-c9ac2e0529a5",
+        "sourceBrandId": "37986",
+        "brandName": "Renamycin",
+        "strength": "50 mg/ml",
+        "dosageForm": "IM Injection",
+        "packageId": "61db344d-ae0e-4984-85c1-11bdea5dcee9",
+        "packageDescription": "10's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "120",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 10,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"IM Injection\", packQuantity=\"10's pack\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "8063611f-8912-4661-811c-f9951d622e2b",
+        "sourceBrandId": "38040",
+        "brandName": "Asiclin",
+        "strength": "300 mg/2 ml",
+        "dosageForm": "IM/IV Injection",
+        "packageId": "e789e0ee-f561-42a4-8f94-83504302766c",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "120.08",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"IM/IV Injection\", packQuantity=\"5's pack\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "82d4ff45-df83-4f87-a393-9697a585137d",
+        "sourceBrandId": "26268",
+        "brandName": "Maxbon Kit",
+        "strength": "150 mg & 400 mg",
+        "dosageForm": "Tablet",
+        "packageId": "c5035e2a-7f34-4474-a727-fa0a6f5c10b9",
+        "packageDescription": "tablet kit",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "990",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"tablet kit\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "8321a86e-f41d-4b2f-bee3-e12b6b53dfcd",
+        "sourceBrandId": "30354",
+        "brandName": "Calcin-O Kit",
+        "strength": "150 mg & 400 mg",
+        "dosageForm": "Tablet",
+        "packageId": "30c0ba96-679f-4064-8082-d30ef94968c5",
+        "packageDescription": "tablet kit",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "990",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"tablet kit\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "84af5bd0-7c24-4470-b79a-2b025f87b041",
+        "sourceBrandId": "27429",
+        "brandName": "Water for injection",
+        "strength": "5 ml/ampoule",
+        "dosageForm": "Liquid",
+        "packageId": "6ad07578-6f2b-43c9-a650-32ff56853555",
+        "packageDescription": "100's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "501",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 100,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"liquid\", form=\"Liquid\", packQuantity=\"100's pack\".",
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "86b02e99-a311-45f5-b2db-4ce15aa0a224",
+        "sourceBrandId": "6109",
+        "brandName": "Gestop 28",
+        "strength": "0.03 mg+0.075 mg",
+        "dosageForm": "Tablet",
+        "packageId": "46e78dfb-907b-4c95-a18f-05d34bc0212f",
+        "packageDescription": "tablet",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "99.75",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"tablet\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "88af9310-dd80-41f7-bedf-60928ec33a7c",
+        "sourceBrandId": "38236",
+        "brandName": "Lizorex",
+        "strength": "2 mg/ml",
+        "dosageForm": "IV Infusion",
+        "packageId": "ac5b2b97-c19e-4ca8-b35f-d3bf665dad46",
+        "packageDescription": "300 ml solution",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "450",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"IV Infusion\", packQuantity=\"300 ml solution\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "8a83dcc5-4fff-4408-896c-1c7caac20034",
+        "sourceBrandId": "26813",
+        "brandName": "Licnil",
+        "strength": "0.5%",
+        "dosageForm": "Lotion",
+        "packageId": "1b1e3048-53c7-4bca-a93e-460d6e518103",
+        "packageDescription": "117 gm tube",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "210",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"liquid\" for form=\"Lotion\", packQuantity=\"117 gm tube\".",
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "8a83dcc5-4fff-4408-896c-1c7caac20034",
+        "sourceBrandId": "26813",
+        "brandName": "Licnil",
+        "strength": "0.5%",
+        "dosageForm": "Lotion",
+        "packageId": "b329cf1f-f763-4d71-901f-01201852a272",
+        "packageDescription": "60 gm tube",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "130",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"liquid\" for form=\"Lotion\", packQuantity=\"60 gm tube\".",
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "8ca056e7-d0dc-4e92-b606-aad776411f5a",
+        "sourceBrandId": "29067",
+        "brandName": "Elisa",
+        "strength": "3 mg+0.02 mg",
+        "dosageForm": "Tablet",
+        "packageId": "d6535db5-c4b3-41ce-ae84-101e5f299c2f",
+        "packageDescription": "tablet",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "425",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"tablet\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "8d5d67e7-fb5f-4e47-b83a-75a6f6a2d782",
+        "sourceBrandId": "29443",
+        "brandName": "Reefcal Kit",
+        "strength": "150 mg+600 mg+400 IU",
+        "dosageForm": "Tablet",
+        "packageId": "5c9ef455-d602-4254-bdf4-2d0b9d1e62a2",
+        "packageDescription": "tablet kit",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "1410",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"tablet kit\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "94feb469-9c1a-47a7-abb5-c729ca59a396",
+        "sourceBrandId": "34410",
+        "brandName": "Provive MCT-LCT 1%",
+        "strength": "200 mg/20 ml",
+        "dosageForm": "Emulsion for infusion",
+        "packageId": "112aa993-4feb-42a4-9ea5-ed0c4a381a9c",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "704.5",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"Emulsion for infusion\", packQuantity=\"5's pack\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "9627da26-5f26-4d91-9b53-168ab278c0cb",
+        "sourceBrandId": "12748",
+        "brandName": "Lacticare",
+        "strength": "5%+2.5%",
+        "dosageForm": "Lotion",
+        "packageId": "fe7c99c6-e417-4fc3-b0d3-367fef99e134",
+        "packageDescription": "100 gm tube",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "455",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"liquid\" for form=\"Lotion\", packQuantity=\"100 gm tube\".",
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "99e45287-bf3f-4cdb-83ca-145740664e20",
+        "sourceBrandId": "17321",
+        "brandName": "Ifamide & Mesna",
+        "strength": "1 gm & 800 mg",
+        "dosageForm": "IV Infusion",
+        "packageId": "c2a92856-985a-4597-a2ea-5eb3258fed1e",
+        "packageDescription": "800 mg Mesna",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "1850",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"injection\" for form=\"IV Infusion\", packQuantity=\"800 mg Mesna\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "9b7de1b2-dc12-4634-be63-c77f7d0fa52b",
+        "sourceBrandId": "15249",
+        "brandName": "Rotarix",
+        "strength": "1.5 ml/dose",
+        "dosageForm": "Oral Suspension",
+        "packageId": "1e8975d9-02b1-4a4a-8db2-772de110740e",
+        "packageDescription": "1 pre-filled oral applicator",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "1",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"liquid\" for form=\"Oral Suspension\", packQuantity=\"1 pre-filled oral applicator\".",
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "9c235d86-fb07-466b-83cd-347d9d98c732",
+        "sourceBrandId": "26565",
+        "brandName": "Ibancal kit",
+        "strength": "150 mg & 400 mg",
+        "dosageForm": "Tablet",
+        "packageId": "73f13e07-e18f-4350-96bc-1f31be6047ba",
+        "packageDescription": "tablet kit",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "990",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"tablet kit\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "9d490bd3-bd01-4c3c-93fb-d4c29ee25be9",
+        "sourceBrandId": "29176",
+        "brandName": "Mayapill",
+        "strength": "0.03 mg+0.15 mg+75 mg",
+        "dosageForm": "Tablet",
+        "packageId": "4b726a67-7c83-4beb-b9f8-cead5f28d129",
+        "packageDescription": "tablet",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "23.52",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"tablet\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "a0dbace3-0702-411b-9a34-db59c91da149",
+        "sourceBrandId": "8030",
+        "brandName": "Oricef",
+        "strength": "250 mg/vial",
+        "dosageForm": "IV Injection",
+        "packageId": "6107bde6-a7cc-4d51-b0c5-a97d4503f7b8",
+        "packageDescription": "250 mg",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "130",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"injection\" for form=\"IV Injection\", packQuantity=\"250 mg\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "a1a2f646-d6db-4d34-9079-f4748e3edecf",
+        "sourceBrandId": "14377",
+        "brandName": "Calorate Kit",
+        "strength": "150 mg & 400 mg",
+        "dosageForm": "Tablet",
+        "packageId": "c60241dc-cafd-4bf8-a0f2-1bd02536e970",
+        "packageDescription": "tablet kit",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "990",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"tablet kit\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "a775853e-6b5d-4c50-aa4e-3346b306bf37",
+        "sourceBrandId": "27493",
+        "brandName": "Water for Inj.",
+        "strength": "5 ml/ampoule",
+        "dosageForm": "Liquid",
+        "packageId": "92af8fe3-cb38-4756-ab3d-7e46275af9a0",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "60",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"liquid\", form=\"Liquid\", packQuantity=\"5's pack\".",
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "a7f60248-40c2-4c81-93c7-4c024936c7ac",
+        "sourceBrandId": "30951",
+        "brandName": "Coralcal-Kit",
+        "strength": "150 mg+600 mg+400 IU",
+        "dosageForm": "Tablet",
+        "packageId": "4af928fa-714e-4448-8596-2bf64117e992",
+        "packageDescription": "tablet kit",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "2950",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"tablet kit\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "a849c1a5-69c2-48e0-be0c-d86a5bbf2552",
+        "sourceBrandId": "29313",
+        "brandName": "Halotaz",
+        "strength": "0.01% + 0.045%",
+        "dosageForm": "Lotion",
+        "packageId": "228da0ee-eeef-4c48-aa72-589611cbcc07",
+        "packageDescription": "45 gm tube",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "600",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"liquid\" for form=\"Lotion\", packQuantity=\"45 gm tube\".",
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "ab2459b0-ecc0-4814-be07-16a27e753a56",
+        "sourceBrandId": "38514",
+        "brandName": "Ornopain",
+        "strength": "8 mg/2 ml",
+        "dosageForm": "IM/IV Injection",
+        "packageId": "f8f34065-a6f8-4712-a03b-5370377f3d30",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "100",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"IM/IV Injection\", packQuantity=\"5's pack\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "abed1da1-9012-4fe9-b2e2-26a07bbef930",
+        "sourceBrandId": "36880",
+        "brandName": "Gadosol",
+        "strength": "0.5 mmol/ml",
+        "dosageForm": "Injection",
+        "packageId": "9d806911-e487-49ca-998a-4999d9561749",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": "10.2",
+          "packPrice": "65",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"Injection\", packQuantity=\"5's pack\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "ac1f19c7-4f06-41c1-83e3-54d11abc9b73",
+        "sourceBrandId": "8031",
+        "brandName": "Oricef",
+        "strength": "500 mg/vial",
+        "dosageForm": "IV Injection",
+        "packageId": "df2da359-eb9a-467e-b65f-01550f2552d1",
+        "packageDescription": "500 mg",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "200",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"injection\" for form=\"IV Injection\", packQuantity=\"500 mg\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "b0ee2928-2cad-4460-a2db-7b01b947a581",
+        "sourceBrandId": "34553",
+        "brandName": "Hybolin",
+        "strength": "25 mg/ml",
+        "dosageForm": "IM Injection",
+        "packageId": "9c9029a2-1bc1-4db2-9cae-a11af101fa6f",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "193.58",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"IM Injection\", packQuantity=\"5's pack\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "b2ed20e3-c979-48f7-bd80-f341b3650622",
+        "sourceBrandId": "28227",
+        "brandName": "A-Kit",
+        "strength": "200 mg+200 mcg",
+        "dosageForm": "Tablet",
+        "packageId": "f4455264-9813-4ed1-8273-929f8393427c",
+        "packageDescription": "tablet kit",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "300",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"tablet kit\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "b5750cb8-9fb4-467b-b0d8-d1771e03c3f8",
+        "sourceBrandId": "2412",
+        "brandName": "Aqualax",
+        "strength": "100% w/w",
+        "dosageForm": "Powder for Solution",
+        "packageId": "66ad5429-c6b9-4edf-b2cb-5d70f2a31c5b",
+        "packageDescription": "85 gm bottle",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "120",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"liquid\" for form=\"Powder for Solution\", packQuantity=\"85 gm bottle\".",
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "b770157b-9d62-4a94-8e74-ffad3a6f5fcf",
+        "sourceBrandId": "26850",
+        "brandName": "Enterogermina",
+        "strength": "2 billion/5 ml",
+        "dosageForm": "Oral Suspension",
+        "packageId": "79e575c3-f4c0-4f62-8a50-8daf4b9d2873",
+        "packageDescription": "10's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "550",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 10,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"liquid\", form=\"Oral Suspension\", packQuantity=\"10's pack\".",
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "b8751a54-e648-4e0e-aee0-464666007c16",
+        "sourceBrandId": "34045",
+        "brandName": "L-spar",
+        "strength": "10000 IU/vial",
+        "dosageForm": "IM/IV Injection",
+        "packageId": "71478d26-d2ed-4193-aee4-6b9946c3e0d8",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "100",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"IM/IV Injection\", packQuantity=\"5's pack\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "bc9c64aa-c682-4310-8c68-6b973ba87f3c",
+        "sourceBrandId": "8027",
+        "brandName": "Oricef",
+        "strength": "250 mg/vial",
+        "dosageForm": "IM Injection",
+        "packageId": "7951303f-ec07-4ad9-8c11-065ddf384444",
+        "packageDescription": "250 mg",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "130",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"injection\" for form=\"IM Injection\", packQuantity=\"250 mg\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "bdffd00a-653c-40df-a7be-a763980e62f1",
+        "sourceBrandId": "26526",
+        "brandName": "O-Cal Kit",
+        "strength": "150 mg & 740 mg",
+        "dosageForm": "Tablet",
+        "packageId": "fea23584-ee6a-4c27-b620-d014318bf55a",
+        "packageDescription": "tablet kit",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "990",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"tablet kit\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "c293eb83-214d-4129-9c5f-ea8dc901f131",
+        "sourceBrandId": "29385",
+        "brandName": "Droscon",
+        "strength": "3 mg+0.03 mg",
+        "dosageForm": "Tablet",
+        "packageId": "c5e63e2f-0475-4f13-a508-dd399a8e12f5",
+        "packageDescription": "tablet",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "399",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"tablet\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "c87f9a41-0d83-49f8-8194-1451d18b906f",
+        "sourceBrandId": "35218",
+        "brandName": "Freezy",
+        "strength": "(122.70 mg+415.40 mg+415.40 mg)/gm",
+        "dosageForm": "Nasal Inhaler",
+        "packageId": "bc99b321-bff7-4fe4-a139-f65d60771f30",
+        "packageDescription": "1 inhaler tube",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "80",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"inhaler\" for form=\"Nasal Inhaler\", packQuantity=\"1 inhaler tube\".",
+        "strategy": "inhaler"
+      },
+      {
+        "medicineBrandId": "cb341087-e515-4c2c-a52e-30eef4a899b0",
+        "sourceBrandId": "35250",
+        "brandName": "G-Suxamethonium",
+        "strength": "100 mg/2 ml",
+        "dosageForm": "IM/IV Injection",
+        "packageId": "5ff29afe-4753-4bfd-90f2-56eddb878ca3",
+        "packageDescription": "10's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "46.36",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 10,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"IM/IV Injection\", packQuantity=\"10's pack\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "cbf1722f-f9c8-4dfc-9dab-1c37db17fddc",
+        "sourceBrandId": "29504",
+        "brandName": "Fertimax",
+        "strength": null,
+        "dosageForm": "Capsule",
+        "packageId": "91a6a8cd-9e61-4faf-ac63-ae3a1ddff7b0",
+        "packageDescription": "30 green",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "4",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Capsule\", packQuantity=\"30 green\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "cc0f904d-eed7-404a-a37b-b7edb6e1e3f9",
+        "sourceBrandId": "36634",
+        "brandName": "Cetrolix",
+        "strength": "250 mcg/vial",
+        "dosageForm": "SC Injection",
+        "packageId": "fec5d8e1-7be4-46af-bbc5-2a5ad4e2d134",
+        "packageDescription": "7's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "14371.6",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 7,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"SC Injection\", packQuantity=\"7's pack\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "cf2ce3b4-8718-4e9c-ad94-4af398606cc3",
+        "sourceBrandId": "21750",
+        "brandName": "Linexil",
+        "strength": "2 mg/ml",
+        "dosageForm": "IV Infusion",
+        "packageId": "53f5df7f-6f01-4911-bb87-40e78109ed7f",
+        "packageDescription": "300 ml solution",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "451.36",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"IV Infusion\", packQuantity=\"300 ml solution\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "d09764e9-5832-429b-b52b-381d402ad8a9",
+        "sourceBrandId": "36354",
+        "brandName": "Fulvest",
+        "strength": "250 mg/5 ml",
+        "dosageForm": "IM Injection",
+        "packageId": "24727191-61eb-412b-8638-9c270653c933",
+        "packageDescription": "10's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "120",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 10,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"IM Injection\", packQuantity=\"10's pack\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "d0efaa6d-ab2c-4ac4-9795-1f54277cd285",
+        "sourceBrandId": "32967",
+        "brandName": "Onriva Trio",
+        "strength": "150 mcg+50 mcg+160 mcg",
+        "dosageForm": "Dry Powder Inhalation Capsule (DPI)",
+        "packageId": "1b7b1b18-43d2-4f89-be4a-9ce4af6a8606",
+        "packageDescription": "1 bexihaler device combipack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "2300",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Dry Powder Inhalation Capsule (DPI)\", packQuantity=\"1 bexihaler device combipack\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "d5e1059f-96f6-446f-89e8-8c514191dc2a",
+        "sourceBrandId": "27102",
+        "brandName": "Nordette 28",
+        "strength": "0.03 mg+0.15 mg+75 mg",
+        "dosageForm": "Tablet",
+        "packageId": "f40dc18f-fc86-4bb8-b27c-5455d59d0e96",
+        "packageDescription": "tablet",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "13.64",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"tablet\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "d9e05bc5-5f7c-4cfa-8c32-e2939ee95021",
+        "sourceBrandId": "36110",
+        "brandName": "Opocan",
+        "strength": "4 mg/4 ml",
+        "dosageForm": "Injection",
+        "packageId": "a84118ef-c904-4273-a831-f8a3e497fd6a",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": "10.2",
+          "packPrice": "65",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"Injection\", packQuantity=\"5's pack\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "db74d383-18bb-46e8-9471-4e7668fa3bdf",
+        "sourceBrandId": "33423",
+        "brandName": "Dalatic",
+        "strength": "300 mg/2 ml",
+        "dosageForm": "IM/IV Injection",
+        "packageId": "d014de59-f91b-44c5-8eff-f4f83798c1c0",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "120.08",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"IM/IV Injection\", packQuantity=\"5's pack\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "ded3b0c7-98b3-474f-9017-1d358ce4cc33",
+        "sourceBrandId": "28444",
+        "brandName": "Kalcoral kit",
+        "strength": "150 mg+600 mg+400 IU",
+        "dosageForm": "Tablet",
+        "packageId": "3555528f-0eda-4830-81d8-ca1d520f18bb",
+        "packageDescription": "tablet kit",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "2150",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"tablet kit\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "e18d5d5f-f683-4ee5-9ae0-014205a71f01",
+        "sourceBrandId": "12849",
+        "brandName": "Polydin",
+        "strength": "10% w/v",
+        "dosageForm": "Solution",
+        "packageId": "315df6cc-5005-4164-b872-9422b3ff168a",
+        "packageDescription": "12's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "336",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 12,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"liquid\" for form=\"Solution\", packQuantity=\"12's pack\".",
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "e1989e90-e64d-4e83-a2e1-c53558e056b4",
+        "sourceBrandId": "34044",
+        "brandName": "L-spar",
+        "strength": "5000 IU/vial",
+        "dosageForm": "IM/IV Injection",
+        "packageId": "25c0fd3a-01d2-463e-824f-ad88780e8acc",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "100",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"IM/IV Injection\", packQuantity=\"5's pack\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "e216dceb-2ff0-493c-bd69-f98ed7da9449",
+        "sourceBrandId": "32436",
+        "brandName": "Rofuclav",
+        "strength": "(125 mg+31.25 mg)/sachet",
+        "dosageForm": "Powder for Suspension",
+        "packageId": "aec1c8df-6a53-458b-8c73-4457c4bb4593",
+        "packageDescription": "14's pack",
+        "price": {
+          "unitPrice": "25",
+          "packPrice": "350",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 14,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"liquid\" for form=\"Powder for Suspension\", packQuantity=\"14's pack\".",
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "e32fe2cc-8d99-4699-8a09-10cefb6574fe",
+        "sourceBrandId": "38143",
+        "brandName": "Mini 28",
+        "strength": "0.03 mg+0.15 mg+75 mg",
+        "dosageForm": "Tablet",
+        "packageId": "e25f5292-e18d-45a2-9e34-88b3e6a198a7",
+        "packageDescription": "tablet",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "23",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"tablet\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "e679ff3c-819c-4c2f-900e-0bae12038bb6",
+        "sourceBrandId": "35247",
+        "brandName": "G-Pethidine",
+        "strength": "50 mg/ml",
+        "dosageForm": "Injection",
+        "packageId": "b4497bd1-890f-4928-a12c-95df579f4cb9",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": "10.2",
+          "packPrice": "65",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"Injection\", packQuantity=\"5's pack\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "e79c08b8-99c1-40ec-b8a3-c50e88424015",
+        "sourceBrandId": "26734",
+        "brandName": "Orocal Kit",
+        "strength": "150 mg & 400 mg",
+        "dosageForm": "Tablet",
+        "packageId": "a7002654-34dc-4b96-9f77-8c8a4320ba1b",
+        "packageDescription": "tablet kit",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "800",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"tablet kit\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "e940220c-766f-4368-be49-2f8dd4b1c064",
+        "sourceBrandId": "27509",
+        "brandName": "Germicord",
+        "strength": "7.1%",
+        "dosageForm": "Topical Solution",
+        "packageId": "30557260-b7bf-4e34-8815-c0146d4936ba",
+        "packageDescription": "6's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "180",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 6,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"liquid\" for form=\"Topical Solution\", packQuantity=\"6's pack\".",
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "e95bc86e-706f-4bc4-9af0-cd238ad7f5c5",
+        "sourceBrandId": "32371",
+        "brandName": "Cora Kit",
+        "strength": "150 mg+600 mg+400 IU",
+        "dosageForm": "Tablet",
+        "packageId": "0dc04faa-4574-4c87-b939-739b2c620b99",
+        "packageDescription": "tablet kit",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "2200",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"tablet kit\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "eba80b86-801f-41ed-baeb-eeaf3210e146",
+        "sourceBrandId": "16494",
+        "brandName": "Femipil",
+        "strength": "0.03 mg+0.15 mg+75 mg",
+        "dosageForm": "Tablet",
+        "packageId": "dec54b9e-4305-43e5-b933-1d4e0547cd9f",
+        "packageDescription": "tablet",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "18",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"tablet\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "ed841b40-54d7-4692-afeb-b66b808f1397",
+        "sourceBrandId": "20080",
+        "brandName": "Novelon Lite",
+        "strength": "3 mg+0.02 mg",
+        "dosageForm": "Tablet",
+        "packageId": "acc55d03-a467-431e-9fbe-7655bf884f7c",
+        "packageDescription": "tablet",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "425",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"tablet\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "f220dfa4-1670-44d5-a3fa-d47b6b21b877",
+        "sourceBrandId": "27350",
+        "brandName": "Ifamide & Mesna",
+        "strength": "2 gm & 1600 mg",
+        "dosageForm": "IV Infusion",
+        "packageId": "b68b89c1-a9f6-4fd1-b8a2-f0d5498f646b",
+        "packageDescription": "1600 mg Mesna",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "3255",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"injection\" for form=\"IV Infusion\", packQuantity=\"1600 mg Mesna\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "f48d62ed-1bc1-4ac0-8576-f5d0b1d621a9",
+        "sourceBrandId": "33951",
+        "brandName": "Amiodarone Hameln",
+        "strength": "150 mg/3 ml",
+        "dosageForm": "Injection",
+        "packageId": "1c9078d7-cd4a-4b76-96da-1f2debbf586b",
+        "packageDescription": "5's pack",
+        "price": {
+          "unitPrice": "10.2",
+          "packPrice": "65",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 5,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"injection\", form=\"Injection\", packQuantity=\"5's pack\".",
+        "strategy": "injection"
+      },
+      {
+        "medicineBrandId": "f90c36a2-5d18-4c33-99b1-df0c286b9d4c",
+        "sourceBrandId": "15205",
+        "brandName": "Dukoral",
+        "strength": "3 ml/vial",
+        "dosageForm": "Oral Suspension",
+        "packageId": "db348a85-fac7-45f4-902d-d858799b76be",
+        "packageDescription": "2's pack",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "3",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": 2,
+          "stripUnits": null
+        },
+        "reason": "Missing conversion rule for strategy=\"liquid\", form=\"Oral Suspension\", packQuantity=\"2's pack\".",
+        "strategy": "liquid"
+      },
+      {
+        "medicineBrandId": "fa350a3f-3da0-4e8f-abd3-2a02a18b49ba",
+        "sourceBrandId": "14933",
+        "brandName": "Idrofos Kit",
+        "strength": "150 mg+500 mg+200 IU",
+        "dosageForm": "Tablet",
+        "packageId": "bb59b9dd-cb72-4e76-8622-b1b55d149c91",
+        "packageDescription": "tablet kit",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "645",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"tablet kit\".",
+        "strategy": "tablet_capsule"
+      },
+      {
+        "medicineBrandId": "fda0689d-271f-48b2-bb2e-9439367916cb",
+        "sourceBrandId": "9280",
+        "brandName": "Floxin DS",
+        "strength": "250 mg/5 ml",
+        "dosageForm": "Tablet",
+        "packageId": "c3d23498-5597-4b85-b94c-d62fb0b6a689",
+        "packageDescription": "60 ml bottle",
+        "price": {
+          "unitPrice": null,
+          "packPrice": "90",
+          "currency": "BDT"
+        },
+        "availableQuantity": {
+          "packUnits": null,
+          "stripUnits": null
+        },
+        "reason": "Unmatched pack format under strategy=\"tablet_capsule\" for form=\"Tablet\", packQuantity=\"60 ml bottle\".",
+        "strategy": "tablet_capsule"
+      }
+    ]
+  },
+  "newlyIntroducedFailuresCount": 0,
+  "newlyIntroducedFailures": []
+}

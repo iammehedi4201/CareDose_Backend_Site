@@ -1,0 +1,2058 @@
+{
+  "status": "EXECUTED_COMMITTED_SEPARATE_TRANSACTION",
+  "transactionIsolationLevel": "Serializable",
+  "startedAt": "2026-11-25T07:55:01.841Z",
+  "finishedAt": "2026-11-25T07:55:22.082Z",
+  "manifestPath": "F:\\My Projects\\CareDose\\backend\\reports\\consolidated_remediation\\proposed_next_batch.json",
+  "backupPath": "F:\\My Projects\\CareDose\\care_dose_pre_batch1_remediation_backup.dump",
+  "rollbackManifestPath": "F:\\My Projects\\CareDose\\backend\\reports\\batch1_remediation_execution\\batch1_warning_rollback_manifest.json",
+  "combinedRollbackManifestPath": "F:\\My Projects\\CareDose\\backend\\reports\\batch1_remediation_execution\\batch1_rollback_manifest.json",
+  "preconditionsMatched": 70,
+  "decimalArithmeticVerifiedExactCount": 70,
+  "totalUpdated": 70,
+  "warningRemoved": "pack_price_inconsistent_with_unit_price",
+  "fieldsPreserved": [
+    "unitPrice",
+    "packPrice",
+    "packQuantity",
+    "packUnits",
+    "stripUnits",
+    "currency",
+    "verification",
+    "brandId",
+    "MedicineBrand",
+    "MedicineGeneric"
+  ],
+  "records": [
+    {
+      "packId": "00519ce4-ef59-4c7f-87c3-12582965948e",
+      "brandId": "db86e704-49f0-406f-b988-78a55698fcf1",
+      "sourceId": "37596",
+      "brandName": "Daprotab",
+      "genericName": "Daprodustat",
+      "strength": "2 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "40",
+      "packPriceRaw": "1200",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "40.0 * 30 == 1200.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "0075b21e-9e25-4854-90bc-7574b770f263",
+      "brandId": "cd94372b-737a-462f-88b3-68922905001e",
+      "sourceId": "37144",
+      "brandName": "Neumir",
+      "genericName": "Mirogabalin Besylate",
+      "strength": "5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "20",
+      "packPriceRaw": "600",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "20.0 * 30 == 600.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "01954a22-16cf-4b92-8ed0-ac249d874acd",
+      "brandId": "11f9dedc-f508-4ded-a2ee-65f5e8761052",
+      "sourceId": "39123",
+      "brandName": "Frehepta",
+      "genericName": "Resmetirom",
+      "strength": "60 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "35",
+      "packPriceRaw": "1050",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "35.0 * 30 == 1050.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "05f5bf33-3267-4e2a-9e17-b8cdefd07106",
+      "brandId": "e76ad7b4-7bea-4f9e-94db-73330f9470b6",
+      "sourceId": "39127",
+      "brandName": "Fibrocon",
+      "genericName": "Resmetirom",
+      "strength": "60 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "35",
+      "packPriceRaw": "1050",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "35.0 * 30 == 1050.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "08a1dfba-cd5e-4578-8a05-5e89ca8b7e91",
+      "brandId": "de81e003-402c-4500-8f41-cd6d082778bd",
+      "sourceId": "35280",
+      "brandName": "Pidomod",
+      "genericName": "Pidotimod",
+      "strength": "400 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "35",
+      "packPriceRaw": "1050",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "35.0 * 30 == 1050.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "0a7117b1-558b-4ad9-9af9-4702a6e0da56",
+      "brandId": "4b480290-21c3-4a6d-a42f-cf7b9f34d4eb",
+      "sourceId": "37465",
+      "brandName": "Daprotab",
+      "genericName": "Daprodustat",
+      "strength": "1 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "25",
+      "packPriceRaw": "750",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "25.0 * 30 == 750.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "0eb9ca8c-c6a2-4964-b788-5b6b6823583f",
+      "brandId": "3b6e9ddf-f321-4931-8cac-88aee3e24fa0",
+      "sourceId": "39525",
+      "brandName": "Frehepta",
+      "genericName": "Resmetirom",
+      "strength": "100 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "55",
+      "packPriceRaw": "1650",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "55.0 * 30 == 1650.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "136e2f50-89d0-4090-825b-5ad993d860e9",
+      "brandId": "25914cf5-54f7-481a-a523-4010780060aa",
+      "sourceId": "39134",
+      "brandName": "Resmirom",
+      "genericName": "Resmetirom",
+      "strength": "80 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "45",
+      "packPriceRaw": "1350",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "45.0 * 30 == 1350.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "1ad19ecf-5046-4e71-9f38-a45171221eb2",
+      "brandId": "70918b40-2dec-40fa-af69-bc94f5491ff2",
+      "sourceId": "36870",
+      "brandName": "Ovocal-MOM",
+      "genericName": "Eggshell Calcium + Vitamin D3 + 19 Vitamin & Minerals",
+      "strength": "",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": null,
+      "unitPriceRaw": "20",
+      "packPriceRaw": "600",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "20.0 * 30 == 600.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "1d8ecb94-d2b6-4305-88d3-5beab43a57c0",
+      "brandId": "fad432cf-ba60-4097-9edb-81a8b220345b",
+      "sourceId": "35175",
+      "brandName": "Cravacin",
+      "genericName": "Deucravacitinib",
+      "strength": "6 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "80",
+      "packPriceRaw": "2400",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "80.0 * 30 == 2400.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "27cc17e8-0a89-46f8-88c3-f1f7b679cc4d",
+      "brandId": "11f33047-a1e5-4a3e-9841-29057c18d5f8",
+      "sourceId": "38134",
+      "brandName": "Daprogen",
+      "genericName": "Daprodustat",
+      "strength": "2 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "ACI Limited",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "60",
+      "packPriceRaw": "1800",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "60.0 * 30 == 1800.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "2a4d35c4-eec0-4311-bf0f-16a25c303a03",
+      "brandId": "befcc543-3d8c-4220-af2a-7460f4ba3a65",
+      "sourceId": "37024",
+      "brandName": "Imagin",
+      "genericName": "Imeglimin Hydrochloride",
+      "strength": "500 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "20",
+      "packPriceRaw": "600",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "20.0 * 30 == 600.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "2a7858d7-abd6-4084-ae3d-0619723e0f7d",
+      "brandId": "abd58d4a-a1f3-4643-a5ac-54f4b2fc819b",
+      "sourceId": "37159",
+      "brandName": "Nervion",
+      "genericName": "Mirogabalin Besylate",
+      "strength": "10 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "ACI Limited",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "35",
+      "packPriceRaw": "1050",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "35.0 * 30 == 1050.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "2ad28873-220d-47ac-8dac-4f46fe412018",
+      "brandId": "c94ea587-ba7f-4d95-94f4-175d774a530d",
+      "sourceId": "37378",
+      "brandName": "Faropen",
+      "genericName": "Faropenem",
+      "strength": "150 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 6,
+      "unitPriceRaw": "70",
+      "packPriceRaw": "2100",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "70.0 * 30 == 2100.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "2b3023f0-d796-4f11-80da-2ab1af9c2e8e",
+      "brandId": "c97de993-5e79-401e-b5e0-4347fa9ae6fb",
+      "sourceId": "37463",
+      "brandName": "Myochiro",
+      "genericName": "D-chiro-inositol + Myo-inositol",
+      "strength": "150 mg+550 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Opsonin Herbal & Nutraceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": null,
+      "unitPriceRaw": "50",
+      "packPriceRaw": "1500",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "50.0 * 30 == 1500.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "324397e4-01f2-4c2b-8a3a-6db62c09cc30",
+      "brandId": "b60df3d9-380d-4e54-937c-ba361f75246a",
+      "sourceId": "35061",
+      "brandName": "Mig",
+      "genericName": "Mirogabalin Besylate",
+      "strength": "5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "20",
+      "packPriceRaw": "600",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "20.0 * 30 == 600.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "33d5f125-56f3-4e8c-aee0-a5d2f193fb9c",
+      "brandId": "c0605897-fee4-4c66-a2e0-104cac8d7336",
+      "sourceId": "37453",
+      "brandName": "Laxibat",
+      "genericName": "Elobixibat",
+      "strength": "5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "25",
+      "packPriceRaw": "750",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "25.0 * 30 == 750.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "387b54ce-cb6a-4628-8879-52a662f8bd6d",
+      "brandId": "aab13b82-d031-41b0-b6ee-35a75cba54f2",
+      "sourceId": "35085",
+      "brandName": "Daprostat",
+      "genericName": "Daprodustat",
+      "strength": "2 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "60",
+      "packPriceRaw": "1800",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "60.0 * 30 == 1800.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "38dbd468-a5af-411a-87a0-4edda71788ef",
+      "brandId": "7d09f698-3727-4b05-a6d1-9f05554b132c",
+      "sourceId": "39403",
+      "brandName": "Felitan",
+      "genericName": "Fezolinetant",
+      "strength": "45 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "95",
+      "packPriceRaw": "2850",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "95.0 * 30 == 2850.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "40660d41-a5d5-49c4-b75d-ba74d77e6276",
+      "brandId": "d1fcca3d-206d-46e0-910c-752c9500469c",
+      "sourceId": "35914",
+      "brandName": "Mirotiv",
+      "genericName": "Mirogabalin Besylate",
+      "strength": "5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Renata PLC",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "20",
+      "packPriceRaw": "600",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "20.0 * 30 == 600.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "40b7dc1b-b318-4805-aa04-538ac4716ba5",
+      "brandId": "41da4130-cf2b-4dec-8953-caabd4545e9b",
+      "sourceId": "36969",
+      "brandName": "Flecard",
+      "genericName": "Flecainide Acetate",
+      "strength": "50 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "25",
+      "packPriceRaw": "750",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "25.0 * 30 == 750.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "4259b105-eb26-4bef-95f5-379ce711191f",
+      "brandId": "30f501a1-3caf-4740-98b2-3156f1017345",
+      "sourceId": "35108",
+      "brandName": "Deucrava",
+      "genericName": "Deucravacitinib",
+      "strength": "6 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "100",
+      "packPriceRaw": "3000",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "100.0 * 30 == 3000.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "431cbf6c-5a1b-44a1-98b2-e6721004e68b",
+      "brandId": "47c6af07-a53c-4dc1-9ea0-c0e0cdd7e664",
+      "sourceId": "35067",
+      "brandName": "Mirogab",
+      "genericName": "Mirogabalin Besylate",
+      "strength": "5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "20",
+      "packPriceRaw": "600",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "20.0 * 30 == 600.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "4a10c045-fdd7-4a11-a3f6-25959c7d2cf2",
+      "brandId": "96219636-adf4-4002-85d4-3c3284ffd6dc",
+      "sourceId": "33734",
+      "brandName": "Lefalin",
+      "genericName": "Lefamulin Acetate",
+      "strength": "600 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "850",
+      "packPriceRaw": "25500",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "850.0 * 30 == 25500.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "554c541c-21e8-426d-b289-3a816190e83f",
+      "brandId": "54d9fc82-ca39-40a6-af01-481aeaa53a7e",
+      "sourceId": "39559",
+      "brandName": "Avatech",
+      "genericName": "Avatrombopag",
+      "strength": "20 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Techno Drugs Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "280",
+      "packPriceRaw": "8400",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "280.0 * 30 == 8400.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "5819c268-6747-4e60-b19d-62a72a057b1a",
+      "brandId": "96b03a8d-955a-4218-b0b9-4fc53cfe9031",
+      "sourceId": "39142",
+      "brandName": "Brintexa",
+      "genericName": "Vortioxetine Hydrobromide",
+      "strength": "10 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "25",
+      "packPriceRaw": "750",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "25.0 * 30 == 750.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "60a407e5-7179-407a-988b-07094bd3a6a7",
+      "brandId": "be4328cb-df86-4f1c-a00a-bf5093895690",
+      "sourceId": "35069",
+      "brandName": "Mirogab",
+      "genericName": "Mirogabalin Besylate",
+      "strength": "15 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "45",
+      "packPriceRaw": "1350",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "45.0 * 30 == 1350.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "62897991-5a9f-4cb0-b5f9-fcf7066e1a55",
+      "brandId": "088dbb98-962d-4dcd-9c1c-0f094f80f8b4",
+      "sourceId": "34934",
+      "brandName": "Elpida",
+      "genericName": "Sotagliflozin",
+      "strength": "200 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "150",
+      "packPriceRaw": "4500",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "150.0 * 30 == 4500.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "6597ac97-c9c3-41ba-8dc3-266fd33e778b",
+      "brandId": "40353338-3816-45b1-ac20-21945910f9dc",
+      "sourceId": "33467",
+      "brandName": "Finapark",
+      "genericName": "Safinamide Mesylate",
+      "strength": "50 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "25",
+      "packPriceRaw": "750",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "25.0 * 30 == 750.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "65c69dfa-57ed-4805-a290-49d7897620a3",
+      "brandId": "e16a4b19-94c1-4934-a15f-20a39148242e",
+      "sourceId": "37266",
+      "brandName": "Liposem",
+      "genericName": "Saroglitazar Magnesium",
+      "strength": "2 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "70",
+      "packPriceRaw": "2100",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "70.0 * 30 == 2100.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "6b26fdbf-4ca8-4f5b-86f4-41a98e5c2559",
+      "brandId": "9daca0a8-fdc2-4a9f-b37a-2babf25dab9d",
+      "sourceId": "37343",
+      "brandName": "Myosit Plus",
+      "genericName": "D-chiro-inositol + Myo-inositol",
+      "strength": "150 mg+550 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Renata PLC",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 6,
+      "unitPriceRaw": "50",
+      "packPriceRaw": "1500",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "50.0 * 30 == 1500.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "70b11695-36fe-4584-8e89-1e36b9c5b866",
+      "brandId": "bcb508d9-c84a-4849-9273-c4882ce22a75",
+      "sourceId": "38622",
+      "brandName": "Glymira",
+      "genericName": "Imeglimin Hydrochloride",
+      "strength": "500 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "20",
+      "packPriceRaw": "600",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "20.0 * 30 == 600.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "73101665-c511-4786-a8b4-479c98181ef8",
+      "brandId": "ba98bd98-a2ad-4041-b12d-c63cf175d1ec",
+      "sourceId": "38985",
+      "brandName": "Ace Duo",
+      "genericName": "Ibuprofen + Paracetamol",
+      "strength": "200 mg+500 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "2.08",
+      "packPriceRaw": "62.4",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "2.08 * 30 == 62.4 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "74182632-7a7f-4780-9c79-bb6a6565fb95",
+      "brandId": "a3de651b-dbfb-4372-8daa-996b7d10ecd3",
+      "sourceId": "35274",
+      "brandName": "Imeglin",
+      "genericName": "Imeglimin Hydrochloride",
+      "strength": "500 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "20",
+      "packPriceRaw": "600",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "20.0 * 30 == 600.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "7c8f089b-aa1d-4570-bd03-659b3f0040da",
+      "brandId": "c20d199a-9d7c-42b4-b0e3-e94be8d2652b",
+      "sourceId": "39135",
+      "brandName": "Resmirom",
+      "genericName": "Resmetirom",
+      "strength": "60 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "35",
+      "packPriceRaw": "1050",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "35.0 * 30 == 1050.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "88a02757-ba0d-4703-b7b1-f6267edbbc0c",
+      "brandId": "22b99cd6-84c7-4538-ada1-23faf6dde6f7",
+      "sourceId": "35078",
+      "brandName": "Merolin",
+      "genericName": "Mirogabalin Besylate",
+      "strength": "5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "20",
+      "packPriceRaw": "600",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "20.0 * 30 == 600.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "8bbc2eac-2176-4b9b-b7be-723409abc859",
+      "brandId": "d5f6f624-4857-415f-a50b-3d4ed385bfd0",
+      "sourceId": "38136",
+      "brandName": "Daprogen",
+      "genericName": "Daprodustat",
+      "strength": "6 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "ACI Limited",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "140",
+      "packPriceRaw": "4200",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "140.0 * 30 == 4200.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "8bd6b103-0124-4889-9703-ad1183ade4bc",
+      "brandId": "9cb9dec7-f99b-4fe4-b125-8d5c688909b6",
+      "sourceId": "35279",
+      "brandName": "Dotin",
+      "genericName": "Dotinurad",
+      "strength": "2 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "24",
+      "packPriceRaw": "720",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "24.0 * 30 == 720.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "8c0144b0-d877-4e28-a925-33059d54f64a",
+      "brandId": "ba41f81e-1e88-4b5c-a891-99377e17d5fd",
+      "sourceId": "35146",
+      "brandName": "Imegli",
+      "genericName": "Imeglimin Hydrochloride",
+      "strength": "500 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "20",
+      "packPriceRaw": "600",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "20.0 * 30 == 600.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "9729414e-493a-4c41-a339-e1c22e8af8cd",
+      "brandId": "ae68859a-0e27-4c2c-ad48-5195b77682dc",
+      "sourceId": "35593",
+      "brandName": "Nytenso",
+      "genericName": "Vortioxetine Hydrobromide",
+      "strength": "10 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "20",
+      "packPriceRaw": "600",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "20.0 * 30 == 600.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "9bfac8a2-2000-4f7d-8c38-c21fbe7a836a",
+      "brandId": "d8531ba1-ef62-48e5-9f54-8df4c920a2e7",
+      "sourceId": "33680",
+      "brandName": "Lactobac",
+      "genericName": "Probiotic Combination HN019 [10 Billion]",
+      "strength": "10 billion",
+      "dosageForm": "Capsule",
+      "manufacturer": "Total Herbal & Nutraceuticals",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": null,
+      "unitPriceRaw": "25",
+      "packPriceRaw": "750",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "12.04",
+          "300.48"
+        ],
+        "livePriceCheck": "25.0 * 30 == 750.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "a2e6ea87-9280-43c8-90f3-9de7a2e149ee",
+      "brandId": "bd7b2b27-8cfe-41b9-994c-1ab48d09f844",
+      "sourceId": "38135",
+      "brandName": "Daprogen",
+      "genericName": "Daprodustat",
+      "strength": "4 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "ACI Limited",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "90",
+      "packPriceRaw": "2700",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "90.0 * 30 == 2700.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "a6337787-e4b5-4e27-b421-1c38fcee0b2c",
+      "brandId": "2477ab72-ec27-4645-916f-d21b54fa2c1f",
+      "sourceId": "35500",
+      "brandName": "Naclitab",
+      "genericName": "Sodium Chloride (Tablet)",
+      "strength": "300 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "3",
+      "packPriceRaw": "90",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "3.0 * 30 == 90.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "ae574f04-6717-45c2-afd1-76024edd1099",
+      "brandId": "04496687-958e-4aee-b7db-3004aa707c93",
+      "sourceId": "35068",
+      "brandName": "Mirogab",
+      "genericName": "Mirogabalin Besylate",
+      "strength": "10 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "35",
+      "packPriceRaw": "1050",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "35.0 * 30 == 1050.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "b048a7a6-6d36-408d-b3f7-74d663cd30ff",
+      "brandId": "6bb0ed6f-e7a5-42d7-ba3e-aa257f94ffa6",
+      "sourceId": "35915",
+      "brandName": "Mirotiv",
+      "genericName": "Mirogabalin Besylate",
+      "strength": "10 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Renata PLC",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "35",
+      "packPriceRaw": "1050",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "35.0 * 30 == 1050.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "b36431af-9c9b-4abf-b0d7-a7315543ba25",
+      "brandId": "0b566963-5ae3-4f29-9f68-a599fad609c3",
+      "sourceId": "33234",
+      "brandName": "Rimidon",
+      "genericName": "Primidone",
+      "strength": "250 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "30",
+      "packPriceRaw": "900",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "30.0 * 30 == 900.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "b587b48d-c514-49c4-a0fb-1e9390f05c21",
+      "brandId": "e9addea5-65c8-45ea-98c7-6851cd1fd57a",
+      "sourceId": "35086",
+      "brandName": "Daprostat",
+      "genericName": "Daprodustat",
+      "strength": "4 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "90",
+      "packPriceRaw": "2700",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "90.0 * 30 == 2700.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "b5f6a18d-5ad0-49c2-892a-803aeda1e0f6",
+      "brandId": "8d3bc840-be35-4176-8902-629e103807d6",
+      "sourceId": "33733",
+      "brandName": "Lemulin",
+      "genericName": "Lefamulin Acetate",
+      "strength": "600 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Renata PLC",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "850",
+      "packPriceRaw": "25500",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "850.0 * 30 == 25500.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "ba1c38a7-e69d-4213-aaef-e90014153135",
+      "brandId": "01d595d0-6847-4da0-b56f-fce6cd0a74a7",
+      "sourceId": "39124",
+      "brandName": "Frehepta",
+      "genericName": "Resmetirom",
+      "strength": "80 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "45",
+      "packPriceRaw": "1350",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "45.0 * 30 == 1350.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "bbc45cf7-fbf8-472c-a031-2c68bd784d09",
+      "brandId": "03b32149-856c-4cbc-ab60-81c5494216be",
+      "sourceId": "36631",
+      "brandName": "Minocin",
+      "genericName": "Minocycline Hydrochloride",
+      "strength": "50 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "25",
+      "packPriceRaw": "750",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "25.0 * 30 == 750.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "bbc4c5f2-a126-41a9-bbb3-6a8ce555dd94",
+      "brandId": "51bb3b36-ea1c-456d-822c-a325cb444cc4",
+      "sourceId": "35143",
+      "brandName": "Miraba",
+      "genericName": "Mirogabalin Besylate",
+      "strength": "10 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "35",
+      "packPriceRaw": "1050",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "35.0 * 30 == 1050.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "bc4454c5-6251-4649-adb5-91b6eb2189c1",
+      "brandId": "61fc54b3-9ccf-4c22-a259-eec000636d07",
+      "sourceId": "34248",
+      "brandName": "Imruza",
+      "genericName": "Azathioprine",
+      "strength": "50 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "20",
+      "packPriceRaw": "600",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "20.0 * 30 == 600.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "bc73e2ec-28cf-4d69-a79a-570df2aaa3e6",
+      "brandId": "cfc93e1d-b0ad-458f-88e5-41e73ca4a5d1",
+      "sourceId": "35916",
+      "brandName": "Mirotiv",
+      "genericName": "Mirogabalin Besylate",
+      "strength": "15 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Renata PLC",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "45",
+      "packPriceRaw": "1350",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "45.0 * 30 == 1350.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "be0f6ae9-56ad-4ece-a580-a6f177039d99",
+      "brandId": "121c7cda-95a6-4b36-b637-bcd94f12f2ea",
+      "sourceId": "36107",
+      "brandName": "Migalin",
+      "genericName": "Mirogabalin Besylate",
+      "strength": "5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Popular Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 15,
+      "unitPriceRaw": "20",
+      "packPriceRaw": "600",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "20.0 * 30 == 600.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "c42c4f30-0afa-48af-a0ba-337847030561",
+      "brandId": "385586d4-84d1-4c00-b0c1-6087ba48941f",
+      "sourceId": "34683",
+      "brandName": "Prostaxen",
+      "genericName": "Apalutamide",
+      "strength": "60 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": null,
+      "unitPriceRaw": "500",
+      "packPriceRaw": "15000",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "500.0 * 30 == 15000.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "c5e1a580-cb4c-4d1f-b96d-416099e4fe28",
+      "brandId": "330b5ba4-0617-4f8c-8459-2e876497c0b6",
+      "sourceId": "38937",
+      "brandName": "Cholcut EZ",
+      "genericName": "Rosuvastatin + Ezetimibe",
+      "strength": "10 mg+10 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "25",
+      "packPriceRaw": "750",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "25.0 * 30 == 750.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "c79e9c76-daff-426b-b017-d2c3e414f8f4",
+      "brandId": "dac7303a-2deb-4b25-baeb-423fd89422db",
+      "sourceId": "35906",
+      "brandName": "Adsalt",
+      "genericName": "Sodium Chloride (Tablet)",
+      "strength": "300 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "3",
+      "packPriceRaw": "90",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "3.0 * 30 == 90.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "c7cb84b8-3b97-4b4c-91f4-ae19d0ecdf39",
+      "brandId": "fd85e74a-cd26-4976-aab3-facc7cc00be3",
+      "sourceId": "35449",
+      "brandName": "Afalino",
+      "genericName": "Cenobamate",
+      "strength": "12.5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "25",
+      "packPriceRaw": "750",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "25.0 * 30 == 750.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "cd395d2c-fa82-4fbe-a4e7-953e329d1377",
+      "brandId": "3008083e-1e64-45c1-abf4-74961239845a",
+      "sourceId": "36427",
+      "brandName": "Ovario",
+      "genericName": "D-chiro-inositol + Myo-inositol",
+      "strength": "150 mg+550 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Radiant Nutraceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "50",
+      "packPriceRaw": "1500",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "50.0 * 30 == 1500.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "cfb0bd8f-6479-4a27-be89-dd8b8be258ab",
+      "brandId": "696fbdb0-ae6b-43d3-be2a-8f702098381b",
+      "sourceId": "39078",
+      "brandName": "Resiliva",
+      "genericName": "Resmetirom",
+      "strength": "80 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "45",
+      "packPriceRaw": "1350",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "45.0 * 30 == 1350.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "d7598717-e791-4241-9bfe-de3ee28f908b",
+      "brandId": "834b4505-ddc2-4107-833d-59e01331079f",
+      "sourceId": "35281",
+      "brandName": "Pidomod",
+      "genericName": "Pidotimod",
+      "strength": "800 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "General Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "60",
+      "packPriceRaw": "1800",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "60.0 * 30 == 1800.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "d8625a8c-80be-4a91-8255-13c71d620ec2",
+      "brandId": "b01309b5-d3ab-49fe-a028-c1aae116ffe7",
+      "sourceId": "33468",
+      "brandName": "Finapark",
+      "genericName": "Safinamide Mesylate",
+      "strength": "100 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "40",
+      "packPriceRaw": "1200",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "40.0 * 30 == 1200.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "dc07de3c-b819-481c-8074-ee5804761bae",
+      "brandId": "85971c89-267f-4ef9-a78b-5ea451b90b45",
+      "sourceId": "35622",
+      "brandName": "Bethacol",
+      "genericName": "Bethanechol Chloride",
+      "strength": "25 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "20",
+      "packPriceRaw": "600",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "20.0 * 30 == 600.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "df8b2560-7688-40ba-b23c-396bea15a755",
+      "brandId": "6bf9ea19-bc33-46de-a470-414c45532148",
+      "sourceId": "36823",
+      "brandName": "Numira",
+      "genericName": "Mirogabalin Besylate",
+      "strength": "5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "20",
+      "packPriceRaw": "600",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "20.0 * 30 == 600.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "e86d2936-3938-4968-8407-1c3f3d0f9d1f",
+      "brandId": "d2a73f4d-7336-419d-8e39-b3a3a930ac57",
+      "sourceId": "37161",
+      "brandName": "Nervion",
+      "genericName": "Mirogabalin Besylate",
+      "strength": "5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "ACI Limited",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "20",
+      "packPriceRaw": "600",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "20.0 * 30 == 600.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "e88b011d-fd3d-46da-bf01-cd0d2d2a53ff",
+      "brandId": "bfb309e5-d819-4b26-b27f-baff72e750ab",
+      "sourceId": "35142",
+      "brandName": "Miraba",
+      "genericName": "Mirogabalin Besylate",
+      "strength": "5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "20",
+      "packPriceRaw": "600",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "20.0 * 30 == 600.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "f2cbed7f-cd12-47ab-9302-af1c35bb2197",
+      "brandId": "5ee01489-e1ac-45f1-b922-bc11b2024f26",
+      "sourceId": "35087",
+      "brandName": "Daprostat",
+      "genericName": "Daprodustat",
+      "strength": "6 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Everest Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "140",
+      "packPriceRaw": "4200",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "140.0 * 30 == 4200.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "f8099f0a-9a9d-4d58-9a62-7142311dce0a",
+      "brandId": "58452952-68ce-478b-b859-2701f26efb4c",
+      "sourceId": "38705",
+      "brandName": "Miroflex",
+      "genericName": "Mirogabalin Besylate",
+      "strength": "5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "NIPRO JMI Pharma Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "20",
+      "packPriceRaw": "600",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "20.0 * 30 == 600.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "f9125d3d-ff92-4292-99e0-a0b0e72cccc3",
+      "brandId": "9757cae9-b06a-4dd3-a6dc-64b42448eb63",
+      "sourceId": "39154",
+      "brandName": "Mirotop",
+      "genericName": "Mirogabalin Besylate",
+      "strength": "5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Nuvista Pharma Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "20",
+      "packPriceRaw": "600",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "20.0 * 30 == 600.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    },
+    {
+      "packId": "fcb62d0c-d091-40ac-8e5b-556461b4b78e",
+      "brandId": "15bedc71-55e1-40ff-b1fc-ea3653e86ede",
+      "sourceId": "39299",
+      "brandName": "Ramogut",
+      "genericName": "Ramosetron Hydrochloride",
+      "strength": "5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1D_STALE_P1_WARNING_CLEANUP_70",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPriceRaw": "20",
+      "packPriceRaw": "600",
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "oldWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "newWarnings": [],
+      "evidence": {
+        "p1RollbackPrePrice": [
+          "8",
+          "280"
+        ],
+        "livePriceCheck": "20.0 * 30 == 600.0 (arithmetically exact after P1 104 execution; existing warning predates P1 correction)"
+      }
+    }
+  ]
+}

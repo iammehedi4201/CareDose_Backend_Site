@@ -1,0 +1,103 @@
+{
+  "verifiedAt": "2026-11-24T19:38:24.095Z",
+  "readOnlyTransactionVerified": true,
+  "tableCounts": {
+    "medicineGenerics": 1846,
+    "medicineBrands": 25208,
+    "medicinePacks": 27468,
+    "zeroPackBrands": 37
+  },
+  "verificationStatusDistributions": {
+    "medicineGeneric": [
+      {
+        "_count": 1846,
+        "verification": "UNVERIFIED"
+      }
+    ],
+    "medicineBrand": [
+      {
+        "_count": 25208,
+        "verification": "UNVERIFIED"
+      }
+    ],
+    "medicinePack": [
+      {
+        "_count": 27468,
+        "verification": "UNVERIFIED"
+      }
+    ],
+    "medicinePackCurrencies": [
+      {
+        "_count": 27468,
+        "currency": "BDT"
+      }
+    ]
+  },
+  "approvedExecutionCheck": {
+    "expectedApprovedCount": 4746,
+    "verifiedApprovedInDb": 4746,
+    "mismatchesCount": 0,
+    "mismatchesSample": []
+  },
+  "excludedRollbackCheck": {
+    "expectedExcludedCount": 61,
+    "verifiedRolledBackInDb": 61,
+    "mismatchesCount": 0,
+    "mismatchesSample": []
+  },
+  "untouchedIntegrityCheck": {
+    "baselineBrandsCount": 25208,
+    "brandMismatches": 0,
+    "baselinePacksCount": 27468,
+    "expectedNonApprovedPacks": 22722,
+    "verifiedIdenticalToBaselineCount": 22722,
+    "mismatchesCount": 0,
+    "conflicts792IdenticalCount": 792,
+    "conflicts792Diffs": 0,
+    "remainingNonApprovedIdenticalCount": 21930,
+    "remainingNonApprovedDiffs": 0,
+    "mismatchesSample": []
+  },
+  "safetyInvariants": {
+    "nonDivisibleStripPacksInDb": 368,
+    "nonPositiveUnitPricePacksInDb": 0,
+    "nonPositivePackPricePacksInDb": 0
+  },
+  "userAndClinicalTables": {
+    "users_cnt": 0,
+    "profiles_cnt": 0,
+    "pat_meds_cnt": 0,
+    "pat_meds_stock_sum": "0",
+    "inv_tx_cnt": 0,
+    "inv_tx_delta_sum": "0",
+    "inv_tx_with_pack_cnt": 0,
+    "purchases_cnt": 0,
+    "purchases_units_sum": "0",
+    "purchases_amount_sum": "0",
+    "schedules_cnt": 0,
+    "dose_events_cnt": 0,
+    "zero_pack_brands_cnt": 37,
+    "orphan_inv_pack_refs": 0,
+    "orphan_med_brand_refs": 0
+  },
+  "reelifeLiveState": [
+    {
+      "id": "5879011c-3a81-4c4b-a811-2e8c1663bc16",
+      "packQuantity": "56's pack",
+      "packUnits": 56,
+      "stripUnits": 14,
+      "unitPrice": "10",
+      "packPrice": "560",
+      "warnings": []
+    },
+    {
+      "id": "9c21f478-0155-4f8e-91c6-8eca15aae495",
+      "packQuantity": "40's pack",
+      "packUnits": 40,
+      "stripUnits": null,
+      "unitPrice": "10",
+      "packPrice": "400",
+      "warnings": []
+    }
+  ]
+}

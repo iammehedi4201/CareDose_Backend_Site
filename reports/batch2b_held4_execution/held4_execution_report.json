@@ -1,0 +1,96 @@
+{
+  "status": "EXECUTED",
+  "executedAt": "2026-11-25T11:20:09.855Z",
+  "backupPath": "F:\\My Projects\\CareDose\\care_dose_pre_batch2b_held4_backup.dump",
+  "tx1_a2Prices": 2,
+  "tx2_carvaOptionB": 1,
+  "tx3_sultolinRefillInsert": 1,
+  "a2Targets": [
+    {
+      "priorityRank": 60,
+      "packId": "b98aec67-7bc5-43cf-a79d-ab5b8d58e97c",
+      "brandId": "fc2444ca-9446-4c56-ba35-79806fe54cab",
+      "sourceId": "29458",
+      "brandName": "Actemra",
+      "genericName": "Tocilizumab",
+      "strength": "400 mg/20 ml",
+      "dosageForm": "IV Infusion",
+      "manufacturer": "Roche Bangladesh Ltd.",
+      "packQuantity": "20 ml vial",
+      "packUnits": null,
+      "stripUnits": null,
+      "currentValues": {
+        "unitPrice": null,
+        "packPrice": "43",
+        "currency": "BDT",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "proposedValues": {
+        "packPrice": "43500.00"
+      },
+      "confidence": "MEDIUM_HIGH_MULTI_PHARMACY_CONFIRMED_MEDEX_404",
+      "holdReason": "HTTP 404 on /brands/29458 (cold-chain distributor SKU unlisted on public MedEx)",
+      "confirmingSources": [
+        "Kaggle MedEx export: 20 ml vial: ৳ 43,500.00",
+        "Arogga #32383: 43,500",
+        "MedEasy: ৳ 43,500 MRP"
+      ]
+    },
+    {
+      "priorityRank": 62,
+      "packId": "c5cc6d1b-8059-49cf-9ce5-9094bf7125d2",
+      "brandId": "b444f9da-931b-44b7-8f07-734188aab9ec",
+      "sourceId": "26086",
+      "brandName": "Mabthera",
+      "genericName": "Rituximab",
+      "strength": "1400 mg/11.7 ml",
+      "dosageForm": "SC Injection",
+      "manufacturer": "Roche Bangladesh Ltd.",
+      "packQuantity": "1400 mg vial",
+      "packUnits": null,
+      "stripUnits": null,
+      "currentValues": {
+        "unitPrice": null,
+        "packPrice": "65",
+        "currency": "BDT",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "proposedValues": {
+        "packPrice": "65500.00"
+      },
+      "confidence": "MEDIUM_HIGH_MULTI_PHARMACY_CONFIRMED_MEDEX_404",
+      "holdReason": "HTTP 404 on /brands/26086 (cold-chain Radiant distributor SKU unlisted on public MedEx)",
+      "confirmingSources": [
+        "Kaggle MedEx export: 1400 mg vial: ৳ 65,500.00",
+        "Arogga #36110: 65,500",
+        "OsudPotro: ৳ 62,225 (exact 5% off 65,500)"
+      ]
+    }
+  ],
+  "carvaOptionB": {
+    "packId": "06e61d13-23c9-4c91-9a5b-1f23fc5d213d",
+    "before": {
+      "packQuantity": "200's pack",
+      "packUnits": 200,
+      "stripUnits": 15,
+      "unitPrice": "0.63",
+      "packPrice": "126",
+      "warnings": []
+    },
+    "after": {
+      "packQuantity": "13 x 15",
+      "packUnits": 195,
+      "stripUnits": 15,
+      "unitPrice": "0.80",
+      "packPrice": "156.00"
+    }
+  },
+  "insertedSultolin": {
+    "packId": "68f21b63-377b-408f-97a8-dbf6ce43e8ea",
+    "brandId": "d3186950-0749-4bd1-bec5-9bf554e59c65",
+    "packQuantity": "200 metered doses (Refill)",
+    "packPrice": "220"
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "generatedAt": "2026-11-25T07:41:14.228330+00:00",
+  "readOnlyVerified": true,
+  "liveCatalogueExportPath": "F:\\My Projects\\CareDose\\backend\\reports\\catalogue_export_post_p1_sync",
+  "liveCatalogueCounts": {
+    "MedicineGeneric": 1846,
+    "MedicineBrand": 25208,
+    "MedicinePack": 27468,
+    "zeroPackBrands": 37
+  },
+  "phase1_historicalComparisonAndDeltaReconciliation": {
+    "baselineSnapshotExportedPostHigh40": {
+      "path": "F:\\My Projects\\CareDose\\backend\\reports\\catalogue_export",
+      "note": "catalogue_export/ was exported right after the High-40 stripUnits cleanup (all 40 High-40 packs already have stripUnits=NULL in catalogue_export; pre-High-40 baseline is preserved in packaging_audit/invalid_package_records.json=1,464).",
+      "postCleanupInvalidRecords": 1424
+    },
+    "aroggaSyncExecution": {
+      "staged": 4807,
+      "applied": 4746,
+      "excludedRolledBack": 61,
+      "high40AppliedOverlapWith4746": 22,
+      "distinctPacksModifiedPreP1": 4764,
+      "verifiedDiffOrigVsPostAroggaCsv": 4746
+    },
+    "priority1Execution": {
+      "audited": 280,
+      "approvedAndApplied": 104,
+      "existingValueCorrectVerified": 4,
+      "remainingWrongPackageVariant": 166,
+      "remainingSourceConflict": 6,
+      "overlapBetween4746AndP1_104": 0,
+      "verifiedDiffPostAroggaVsLivePostP1Csv": 104
+    },
+    "cumulativePackChangesOrigToLivePostP1Csv": 4850,
+    "brandLevelModificationsOrigToLive": 0,
+    "full27468VerificationOutcomePartition": {
+      "appliedInAroggaSync": 4746,
+      "excludedInAroggaSync": 61,
+      "conflictsReport792_inclP1Resolved108": 792,
+      "unmatchedPackageVariants_866plus29": 895,
+      "aroggaOutOfStockDummyMrp": 738,
+      "noLiveAroggaMatch": 9110,
+      "matchedWithinTolerance_VerifiedNoChange": 11126,
+      "exactPartitionSum": 27468
+    }
+  },
+  "phase2_remediationLedgerSummary": {
+    "ledgerFile": "F:\\My Projects\\CareDose\\backend\\reports\\consolidated_remediation\\consolidated_remediation_ledger.csv",
+    "totalUniquePackRowsInLedger": 16755,
+    "zeroDuplicatePackIdsVerified": true,
+    "zeroPackBrandsTrackedSeparatelyByBrandId": 37,
+    "resolutionStatusCounts": {
+      "UNRESOLVED": 11822,
+      "ALREADY_CORRECTED": 4699,
+      "ALREADY_CORRECTED_OPEN_SECONDARY_ISSUE": 99,
+      "ALREADY_CORRECTED_STALE_WARNING": 70,
+      "EXCLUDED_REQUIRES_REVIEW": 61,
+      "EXISTING_VERIFIED_CORRECT": 2,
+      "EXISTING_VERIFIED_CORRECT_OPEN_SECONDARY_ISSUE": 2
+    },
+    "multiCategoryMembershipCount": 1957,
+    "cleanUntouchedVerifiedNoChangePacksExcludedFromLedger": 10713
+  },
+  "phase3_separateIssueGroups": {
+    "group1_nonDivisibleStripConflicts": {
+      "primaryLiveTotal": {
+        "groupName": "Live Strip & Calculation Conflicts (total)",
+        "uniquePacks": 376,
+        "uniqueBrands": 372,
+        "note": "368 non_divisible_strip (pu % su != 0) + 7 antiparasitic Nx1 rows with su=1 + 1 B-Vit 4 row with su=200 (>100 cap)."
+      },
+      "subScopes": [
+        {
+          "groupName": "Non-divisible strip (pu % su != 0) post-Arogga/live",
+          "uniquePacks": 368,
+          "uniqueBrands": 364,
+          "note": ""
+        },
+        {
+          "groupName": "Subset flagged in conflicts_792 (NON_DIVISIBLE_STRIP_CONFLICT)",
+          "uniquePacks": 325,
+          "uniqueBrands": 321,
+          "note": ""
+        },
+        {
+          "groupName": "Historical MED-314 still unresolved live",
+          "uniquePacks": 313,
+          "uniqueBrands": 309,
+          "note": ""
+        },
+        {
+          "groupName": "Historical VER-55 still unresolved live",
+          "uniquePacks": 55,
+          "uniqueBrands": 55,
+          "note": ""
+        },
+        {
+          "groupName": "Extra live anomalies (7 su=1 + 1 B-Vit 4 su=200)",
+          "uniquePacks": 8,
+          "uniqueBrands": 8,
+          "note": ""
+        }
+      ]
+    },
+    "group2_largePriceDifferences": {
+      "combinedDistinctPacksAndBrands": {
+        "groupName": "Combined Price Conflict & Arithmetic Mismatch (union of 187 + 638)",
+        "uniquePacks": 805,
+        "uniqueBrands": 796,
+        "note": "20 packs appear in both REM_187 and Live_Arith_638, so union is 187 + 638 - 20 = 805 unique packs."
+      },
+      "subScopes": [
+        {
+          "groupName": "Remaining conf792 large price delta (178 LARGE_PRICE_DELTA + 9 OTHER_CONFLICT)",
+          "uniquePacks": 187,
+          "uniqueBrands": 178,
+          "note": ""
+        },
+        {
+          "groupName": "Live >5% unitPrice*packUnits != packPrice mismatches (708 - 70 fixed by P1)",
+          "uniquePacks": 638,
+          "uniqueBrands": 638,
+          "note": ""
+        },
+        {
+          "groupName": "Minor 2%-5% legacy arithmetic rounding deltas (not >5% Category G)",
+          "uniquePacks": 37,
+          "uniqueBrands": 37,
+          "note": ""
+        }
+      ]
+    },
+    "group3_remainingP1PackageVariants": {
+      "groupName": "Priority-1 WRONG_PACKAGE_VARIANT (excluded from P1 execution)",
+      "uniquePacks": 166,
+      "uniqueBrands": 166,
+      "note": "165 artificial 280/300 benchmarks matched to non-matching Arogga box variants + 1 legacy 1-BDT 100's pack."
+    },
+    "group4_sourceConflicts": {
+      "strictSourceAndQaConflicts": {
+        "groupName": "Priority-1 SOURCE_CONFLICT (6) + Excluded QA Updates (61)",
+        "uniquePacks": 67,
+        "uniqueBrands": 65,
+        "note": "0 overlap between P1 6 and Excluded 61. Within Excluded 61: 47 UNVERIFIED_MANUFACTURER_MISMATCH, 5 UNRESOLVED_GENERIC_CONFLICT, 2 WRONG_STRENGTH_CATALOG_MATCH, 2 KIT_UNIT_SCALING_ERROR, 5 NEW_CAT_G_PARTIAL_PRICE_MISMATCH."
+      },
+      "subScopes": [
+        {
+          "groupName": "Priority-1 SOURCE_CONFLICT",
+          "uniquePacks": 6,
+          "uniqueBrands": 6,
+          "note": ""
+        },
+        {
+          "groupName": "Arogga sync excluded_updates_report (all 61)",
+          "uniquePacks": 61,
+          "uniqueBrands": 59,
+          "note": ""
+        },
+        {
+          "groupName": "Arogga sync excluded true entity/generic/strength/kit conflicts (56, excl 5 rounding)",
+          "uniquePacks": 56,
+          "uniqueBrands": 55,
+          "note": ""
+        }
+      ]
+    },
+    "group5_zeroPackageBrands": {
+      "groupName": "Brands with zero MedicinePack records",
+      "uniquePacks": 0,
+      "uniqueBrands": 37,
+      "brandsWithLiveAroggaCandidateNames": 15,
+      "note": "Trackable by brandId only (0 packId rows in MedicinePack)."
+    },
+    "group6_frontendConversionMismatches": {
+      "groupName": "Category H Frontend vs Backend Stock Conversion Mismatches",
+      "uniquePacks": 50,
+      "uniqueBrands": 49,
+      "note": "31 injection pack count without container noun + 10 liquid pack count without ml + 8 injection volume solution without noun + 1 nasal spray without metered doses."
+    },
+    "group7_unmatchedPackageVariants": {
+      "total": {
+        "groupName": "Unmatched Arogga Package Variants (866 logged + 29 recovered DPI)",
+        "uniquePacks": 895,
+        "uniqueBrands": 850,
+        "note": "Matched at brand/strength/form level to live Arogga product, but DB pack size/volume/weight differs or Arogga lacks container MRP."
+      },
+      "subScopes": [
+        {
+          "groupName": "Explicitly logged in unmatched_variants_895_post_sync_report.json",
+          "uniquePacks": 866,
+          "uniqueBrands": 821,
+          "note": ""
+        },
+        {
+          "groupName": "Recovered unlogged DPI / Inhalation Capsule packs (container_mrp is None)",
+          "uniquePacks": 29,
+          "uniqueBrands": 29,
+          "note": ""
+        }
+      ]
+    },
+    "group8_brandsWithoutLiveSourceMatch": {
+      "groupName": "No Live Arogga Match (legacy MedEx/Kaggle brands unmatched on Arogga)",
+      "uniquePacks": 9110,
+      "uniqueBrands": 8202,
+      "note": "4,993 NO_STEM_CANDIDATE + 4,080 FORM_OR_STRENGTH_MISMATCH + 37 AMBIGUOUS_MFR_CONFLICT."
+    },
+    "supplementaryLiveHygieneGroups": {
+      "aroggaOutOfStockDummyMrp": {
+        "groupName": "Matched Arogga product has pv_stock_status=0 / dummy MRP",
+        "uniquePacks": 738,
+        "uniqueBrands": 711,
+        "note": ""
+      },
+      "stalePriceWarningsOnP1CorrectedPacks": {
+        "groupName": "P1-corrected packs still carrying stale 'pack_price_inconsistent_with_unit_price' warning",
+        "uniquePacks": 70,
+        "uniqueBrands": 70,
+        "note": ""
+      },
+      "liveMissingPackageQuantities_CatBD": {
+        "groupName": "Category B/D Missing parseable pack/volume/weight/dose quantities",
+        "uniquePacks": 1736,
+        "uniqueBrands": 1665,
+        "note": ""
+      },
+      "liveMissingStockMeasurementUnits_CatC": {
+        "groupName": "Category C Injection packs missing container noun",
+        "uniquePacks": 48,
+        "uniqueBrands": 47,
+        "note": ""
+      },
+      "liveInconsistentMultiPackNesting_CatE": {
+        "groupName": "Category E Brands with multi-pack non-divisible strip nesting",
+        "uniquePacks": 126,
+        "uniqueBrands": 61
+      },
+      "liveEquivalentGenericStripGroups_CatF": {
+        "groupName": "Category F Equivalent (generic+strength+form+packQty) groups with >1 stripUnits (informational manufacturer variance)",
+        "groupCount": 356
+      }
+    }
+  },
+  "phase4_prioritizedRemediationPlan": [
+    {
+      "priority": "P1_IMMEDIATE",
+      "title": "Apply High-Confidence Web+Arogga+MedEx Verified Price Corrections (15 packs) & Optional P1 Stale Warning Cleanup (70 packs)",
+      "uniquePacks": 85,
+      "scopeDetails": "9 comma-truncated >=1,000 BDT oncology/biologic vials/tablets + 2 REM_187 benchmarks/deltas (Upanib 15, Renesis 150) + 4 excluded_61 rounding threshold fixes (Folate 5, GastroLax, Neosaline 20's/50's), plus clearing stale P1 warning tags on 70 already-fixed packs."
+    },
+    {
+      "priority": "P2_HIGH",
+      "title": "Direct MedEx Verification of Remaining 18 Comma-Truncated High-Cost Packs + Priority-1 6 Source Conflicts + Excluded 57 Remaining Records",
+      "uniquePacks": 81,
+      "scopeDetails": "Comma-truncated DB values (2..103 BDT) are 100% proven corrupt, but several biologics/TKIs changed MRP materially (e.g. Tasigna, Simulect, Sandostatin, Zavicefta, Trastunix, Solu-Medrol). Resolve R-Pag 25 packUnits/packPrice, Cytomis Kit, Triokit, 47 MFR mismatches, and 5 generic conflicts directly via MedEx."
+    },
+    {
+      "priority": "P3_HIGH",
+      "title": "Packaging & Strip Normalization (376 Live Strip Anomalies + 50 Category H Mismatches + 48 Category C + 1,736 Category B/D)",
+      "uniquePacks": 2162,
+      "scopeDetails": "Confirm 69 MFR-matched Arogga product-specific strip candidates & 8 single-blister/200-strip anomalies (77 staged in Batch 2B) directly on MedEx; fix 50 Category H conversion mismatches (no unsafe inference) and populate 48 Category C injection nouns + 1,736 Category B/D quantities."
+    },
+    {
+      "priority": "P4_MEDIUM",
+      "title": "Live Price & Arithmetic Verification Across 166 Priority-1 Variants, Remaining REM_187 Deltas, Remaining Live Arith Mismatches, and 37 Zero-Pack Brands",
+      "uniquePacks": 822,
+      "uniqueZeroPackBrands": 37,
+      "scopeDetails": "Caution: Arogga suppository strips (Napa/Renova 5-unit strips) require direct MedEx unit confirmation; inspect 166 synthetic 280/300 box variants and backfill 15 Arogga-matched zero-pack brands."
+    },
+    {
+      "priority": "P5_LONG_TAIL",
+      "title": "External MedEx / DGDA / Manufacturer Verification for Unmatched Variants (895), Stock=0 Dummy Items (738), and No-Live-Match Catalogue (9,110)",
+      "uniquePacks": 10743,
+      "uniqueBrands": 9763,
+      "scopeDetails": "Systematic MedEx direct scrape + manufacturer price list cross-check for items missing or differently sized on Arogga."
+    }
+  ]
+}

@@ -1,0 +1,6014 @@
+{
+  "generatedAt": "2026-11-24T07:34:16.256Z",
+  "summary": {
+    "dbTotalGenerics": 1793,
+    "internalDbDuplicateGenericGroups": 77,
+    "csvTotalGenerics": 1711,
+    "csvExactMatches": 1386,
+    "csvPotentialVariantsRequiringReview": 19,
+    "csvMissingAllopathicSingle": 154,
+    "csvMissingCombinations": 44,
+    "csvMissingHerbalUnaniAyurvedic": 108,
+    "dimsTotalGenerics": 1435,
+    "dimsNotExactMatchInDb": 926
+  },
+  "internalDbDuplicateGenericGroups": [
+    {
+      "normalizedName": "tetracycline hydrochloride",
+      "count": 2,
+      "records": [
+        {
+          "id": "b1a11661-f623-480d-b0a2-9819dbf43ffa",
+          "sourceId": "1060",
+          "idSource": "site",
+          "name": "Tetracycline Hydrochloride"
+        },
+        {
+          "id": "1f74bf14-2681-4402-a17d-64567ca1d3e8",
+          "sourceId": "listing:tetracycline-hydrochloride",
+          "idSource": "listing_text",
+          "name": "Tetracycline Hydrochloride"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "thiamine hydrochloride",
+      "count": 2,
+      "records": [
+        {
+          "id": "21436077-ba05-4d72-95ad-547bda552c71",
+          "sourceId": "1063",
+          "idSource": "site",
+          "name": "Thiamine Hydrochloride"
+        },
+        {
+          "id": "c845bece-bfbd-4638-872c-26481a6eba08",
+          "sourceId": "listing:thiamine-hydrochloride",
+          "idSource": "listing_text",
+          "name": "Thiamine Hydrochloride"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "tolperisone hydrochloride",
+      "count": 2,
+      "records": [
+        {
+          "id": "8cb5dae7-0a0a-4d94-a88a-75336dce407e",
+          "sourceId": "1094",
+          "idSource": "site",
+          "name": "Tolperisone Hydrochloride"
+        },
+        {
+          "id": "484a2a92-34e9-4616-a9ba-7dfa15ba28d3",
+          "sourceId": "listing:tolperisone-hydrochloride",
+          "idSource": "listing_text",
+          "name": "Tolperisone Hydrochloride"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "adapalene + benzoyl peroxide",
+      "count": 2,
+      "records": [
+        {
+          "id": "592e96fe-2948-4bb6-b033-2541a6afbe34",
+          "sourceId": "11",
+          "idSource": "site",
+          "name": "Adapalene + Benzoyl peroxide"
+        },
+        {
+          "id": "814d838d-1c27-4da2-b925-332fb2a8b87d",
+          "sourceId": "listing:adapalene-benzoyl-peroxide",
+          "idSource": "listing_text",
+          "name": "Adapalene + Benzoyl peroxide"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "vitamin b1, b6 & b12",
+      "count": 2,
+      "records": [
+        {
+          "id": "9e692bb6-76d4-4b0d-b61f-d9d7fa27ede6",
+          "sourceId": "1135",
+          "idSource": "site",
+          "name": "Vitamin B1, B6 & B12"
+        },
+        {
+          "id": "81fdfe0d-4137-4977-ae63-939b1ee11151",
+          "sourceId": "listing:vitamin-b1-b6-b12",
+          "idSource": "listing_text",
+          "name": "Vitamin B1, B6 & B12"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "ulipristal acetate [for emergency contraception]",
+      "count": 2,
+      "records": [
+        {
+          "id": "1fc3a784-8ffe-48cb-9ec1-ed52a9fe01a0",
+          "sourceId": "1154",
+          "idSource": "site",
+          "name": "Ulipristal Acetate [For emergency contraception]"
+        },
+        {
+          "id": "6a85d564-c3f8-4b2a-955b-0e0bfe459687",
+          "sourceId": "listing:ulipristal-acetate-for-emergency-contraception",
+          "idSource": "listing_text",
+          "name": "Ulipristal Acetate [For emergency contraception]"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "vitamin a",
+      "count": 2,
+      "records": [
+        {
+          "id": "97f028ed-6c5c-439f-a49f-cb3bc2ff9d61",
+          "sourceId": "1156",
+          "idSource": "site",
+          "name": "Vitamin A"
+        },
+        {
+          "id": "d023457e-70e7-4e35-a2cb-9d74a1f70230",
+          "sourceId": "listing:vitamin-a",
+          "idSource": "listing_text",
+          "name": "Vitamin A"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "diclofenac potassium",
+      "count": 2,
+      "records": [
+        {
+          "id": "8ca9a925-487e-489f-946f-e2778ed7d7a0",
+          "sourceId": "1184",
+          "idSource": "site",
+          "name": "Diclofenac Potassium"
+        },
+        {
+          "id": "c608ce8a-a0d0-4454-8de2-4c9603eb76cd",
+          "sourceId": "listing:diclofenac-potassium",
+          "idSource": "listing_text",
+          "name": "Diclofenac Potassium"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "acyclovir",
+      "count": 4,
+      "records": [
+        {
+          "id": "504ec9ed-ae84-4300-8699-a46f5d3d64f9",
+          "sourceId": "12",
+          "idSource": "site",
+          "name": "Acyclovir"
+        },
+        {
+          "id": "a062ed55-d37f-4d59-af0d-432ab46cc884",
+          "sourceId": "13",
+          "idSource": "site",
+          "name": "Acyclovir"
+        },
+        {
+          "id": "5cbad6c6-151e-459c-9679-1ffb0f1ae624",
+          "sourceId": "7",
+          "idSource": "site",
+          "name": "Acyclovir"
+        },
+        {
+          "id": "28ef04ca-6001-46f8-8992-68f221e02153",
+          "sourceId": "9",
+          "idSource": "site",
+          "name": "Acyclovir"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "beta carotene + vitamin c + vitamin e",
+      "count": 2,
+      "records": [
+        {
+          "id": "260fce6c-44dd-4f0c-8ef8-4913c0473ecb",
+          "sourceId": "120",
+          "idSource": "site",
+          "name": "Beta carotene + Vitamin C + Vitamin E"
+        },
+        {
+          "id": "96bf924c-8f60-4103-b53e-b1590e09d236",
+          "sourceId": "listing:beta-carotene-vitamin-c-vitamin-e",
+          "idSource": "listing_text",
+          "name": "Beta carotene + Vitamin C + Vitamin E"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "allylestrenol",
+      "count": 2,
+      "records": [
+        {
+          "id": "e98411c5-e242-448a-9ebc-4860da4daeec",
+          "sourceId": "1369",
+          "idSource": "site",
+          "name": "Allylestrenol"
+        },
+        {
+          "id": "9c06b096-d2d0-433c-84c6-592431eb0293",
+          "sourceId": "listing:allylestrenol",
+          "idSource": "listing_text",
+          "name": "Allylestrenol"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "adapalene",
+      "count": 2,
+      "records": [
+        {
+          "id": "158a61dc-9410-4bf9-98e3-3140a87de33f",
+          "sourceId": "14",
+          "idSource": "site",
+          "name": "Adapalene"
+        },
+        {
+          "id": "e9827b30-802c-4e43-9621-850acee90016",
+          "sourceId": "listing:adapalene",
+          "idSource": "listing_text",
+          "name": "Adapalene"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "brimonidine tartrate + timolol maleate",
+      "count": 2,
+      "records": [
+        {
+          "id": "93afe926-c337-4aa1-8277-949ec205fe94",
+          "sourceId": "140",
+          "idSource": "site",
+          "name": "Brimonidine Tartrate + Timolol Maleate"
+        },
+        {
+          "id": "a644542d-45a8-43f4-875d-bd145f9df913",
+          "sourceId": "listing:brimonidine-tartrate-timolol-maleate",
+          "idSource": "listing_text",
+          "name": "Brimonidine Tartrate + Timolol Maleate"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "bromhexine hydrochloride",
+      "count": 2,
+      "records": [
+        {
+          "id": "4f05db46-14ec-4c05-9380-6ebdc179d749",
+          "sourceId": "145",
+          "idSource": "site",
+          "name": "Bromhexine Hydrochloride"
+        },
+        {
+          "id": "96b0c495-6324-4a06-b1dc-b3f1a238dee1",
+          "sourceId": "listing:bromhexine-hydrochloride",
+          "idSource": "listing_text",
+          "name": "Bromhexine Hydrochloride"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "albendazole",
+      "count": 2,
+      "records": [
+        {
+          "id": "e7d8ecde-438c-4eee-b52a-f6338e2ddb83",
+          "sourceId": "16",
+          "idSource": "site",
+          "name": "Albendazole"
+        },
+        {
+          "id": "b1d9d249-dedc-437f-8881-6d13a6e2cc9e",
+          "sourceId": "listing:albendazole",
+          "idSource": "listing_text",
+          "name": "Albendazole"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "conventional calcium + vitamin d3",
+      "count": 2,
+      "records": [
+        {
+          "id": "dc80a126-3bed-4810-a8c1-c1de3ca5f0c1",
+          "sourceId": "169",
+          "idSource": "site",
+          "name": "Conventional Calcium + Vitamin D3"
+        },
+        {
+          "id": "7ad3605d-8d3b-4758-8d79-0e902c7ce11c",
+          "sourceId": "listing:conventional-calcium-vitamin-d3",
+          "idSource": "listing_text",
+          "name": "Conventional Calcium + Vitamin D3"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "allopurinol",
+      "count": 2,
+      "records": [
+        {
+          "id": "7ae9d036-76f3-4d8b-86be-6dc3140374aa",
+          "sourceId": "17",
+          "idSource": "site",
+          "name": "Allopurinol"
+        },
+        {
+          "id": "fd22874e-67e3-487f-868e-719f1974f82c",
+          "sourceId": "listing:allopurinol",
+          "idSource": "listing_text",
+          "name": "Allopurinol"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "calcium carbonate",
+      "count": 2,
+      "records": [
+        {
+          "id": "a4b5ff0e-8619-4ea2-a21d-a750621693bc",
+          "sourceId": "173",
+          "idSource": "site",
+          "name": "Calcium Carbonate"
+        },
+        {
+          "id": "a672a3cb-a876-481d-ac41-f053887f1dda",
+          "sourceId": "listing:calcium-carbonate",
+          "idSource": "listing_text",
+          "name": "Calcium Carbonate"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "alprazolam",
+      "count": 2,
+      "records": [
+        {
+          "id": "3f1fc109-3035-4735-9790-19ff75ae61a1",
+          "sourceId": "18",
+          "idSource": "site",
+          "name": "Alprazolam"
+        },
+        {
+          "id": "c24b9199-5d40-4c11-86c3-b2919fee271b",
+          "sourceId": "listing:alprazolam",
+          "idSource": "listing_text",
+          "name": "Alprazolam"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "aluminium hydroxide + magnesium hydroxide",
+      "count": 2,
+      "records": [
+        {
+          "id": "ec27c9ad-b045-4d87-b106-d84588007f9e",
+          "sourceId": "19",
+          "idSource": "site",
+          "name": "Aluminium Hydroxide + Magnesium Hydroxide"
+        },
+        {
+          "id": "13160fdf-2047-48b7-82ae-24b9858d974c",
+          "sourceId": "listing:aluminium-hydroxide-magnesium-hydroxide",
+          "idSource": "listing_text",
+          "name": "Aluminium Hydroxide + Magnesium Hydroxide"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "aluminium hydroxide + magnesium hydroxide + simethicone",
+      "count": 2,
+      "records": [
+        {
+          "id": "d1fa6b90-ef48-4c5e-ab9b-f8ff3103e7c9",
+          "sourceId": "20",
+          "idSource": "site",
+          "name": "Aluminium Hydroxide + Magnesium Hydroxide + Simethicone"
+        },
+        {
+          "id": "d0c3cee4-6339-494d-9643-c7ebac5a2e84",
+          "sourceId": "listing:aluminium-hydroxide-magnesium-hydroxide-simethicone",
+          "idSource": "listing_text",
+          "name": "Aluminium Hydroxide + Magnesium Hydroxide + Simethicone"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "atorvastatin + ezetimibe",
+      "count": 2,
+      "records": [
+        {
+          "id": "22731ae6-3fe8-4a2c-b27c-9c50fb3a9d9f",
+          "sourceId": "2049",
+          "idSource": "site",
+          "name": "Atorvastatin + Ezetimibe"
+        },
+        {
+          "id": "35c7d367-9dec-484b-9cbc-dc64bfc5e96e",
+          "sourceId": "listing:atorvastatin-ezetimibe",
+          "idSource": "listing_text",
+          "name": "Atorvastatin + Ezetimibe"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "cefaclor monohydrate",
+      "count": 2,
+      "records": [
+        {
+          "id": "3f010bd2-587e-4ede-b2d1-0e4235e53382",
+          "sourceId": "209",
+          "idSource": "site",
+          "name": "Cefaclor Monohydrate"
+        },
+        {
+          "id": "283555c8-6c7d-4f0d-8cea-4deb4b2d849e",
+          "sourceId": "listing:cefaclor-monohydrate",
+          "idSource": "listing_text",
+          "name": "Cefaclor Monohydrate"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "cefixime trihydrate",
+      "count": 2,
+      "records": [
+        {
+          "id": "af929c49-6a11-48c6-be37-59de22e3f77a",
+          "sourceId": "217",
+          "idSource": "site",
+          "name": "Cefixime Trihydrate"
+        },
+        {
+          "id": "7286a561-96a9-4c4c-bfd8-6e2815d4a711",
+          "sourceId": "listing:cefixime-trihydrate",
+          "idSource": "listing_text",
+          "name": "Cefixime Trihydrate"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "cephradine",
+      "count": 2,
+      "records": [
+        {
+          "id": "c703bd7f-a613-455f-8c60-efc3655bf349",
+          "sourceId": "232",
+          "idSource": "site",
+          "name": "Cephradine"
+        },
+        {
+          "id": "58cdf30a-9a6a-4d0c-8ef2-9283eafd91d9",
+          "sourceId": "listing:cephradine",
+          "idSource": "listing_text",
+          "name": "Cephradine"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "dexamethasone + chloramphenicol",
+      "count": 2,
+      "records": [
+        {
+          "id": "2b99e234-9456-4929-bea6-3d3d201317bf",
+          "sourceId": "238",
+          "idSource": "site",
+          "name": "Dexamethasone + Chloramphenicol"
+        },
+        {
+          "id": "2a18ae0c-4631-476f-83e1-6eaeb2bc8e9b",
+          "sourceId": "listing:dexamethasone-chloramphenicol",
+          "idSource": "listing_text",
+          "name": "Dexamethasone + Chloramphenicol"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "acarbose",
+      "count": 2,
+      "records": [
+        {
+          "id": "de599320-0422-466a-bc8e-7bd762b412dd",
+          "sourceId": "27",
+          "idSource": "site",
+          "name": "Acarbose"
+        },
+        {
+          "id": "7043258c-4200-44f7-a831-1efa60737986",
+          "sourceId": "listing:acarbose",
+          "idSource": "listing_text",
+          "name": "Acarbose"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "adrenaline",
+      "count": 2,
+      "records": [
+        {
+          "id": "86dfd889-d2c7-46c1-8285-e7999023e682",
+          "sourceId": "28",
+          "idSource": "site",
+          "name": "Adrenaline"
+        },
+        {
+          "id": "4a560236-ea1a-4c52-8328-0a745ecc2353",
+          "sourceId": "listing:adrenaline",
+          "idSource": "listing_text",
+          "name": "Adrenaline"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "alcaftadine",
+      "count": 2,
+      "records": [
+        {
+          "id": "3d33aeff-28ef-4a6c-9463-e36c9ee2fb35",
+          "sourceId": "29",
+          "idSource": "site",
+          "name": "Alcaftadine"
+        },
+        {
+          "id": "ece9431b-083f-4fee-8236-f8a33ee69c85",
+          "sourceId": "listing:alcaftadine",
+          "idSource": "listing_text",
+          "name": "Alcaftadine"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "cloxacillin sodium",
+      "count": 2,
+      "records": [
+        {
+          "id": "01d252f7-9088-48e2-8f0d-678329da2a07",
+          "sourceId": "292",
+          "idSource": "site",
+          "name": "Cloxacillin Sodium"
+        },
+        {
+          "id": "3d4193d0-6f68-41f6-bec8-dabe65508823",
+          "sourceId": "listing:cloxacillin-sodium",
+          "idSource": "listing_text",
+          "name": "Cloxacillin Sodium"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "aceclofenac",
+      "count": 2,
+      "records": [
+        {
+          "id": "d927bbbf-8674-477d-b4f4-801722368351",
+          "sourceId": "3",
+          "idSource": "site",
+          "name": "Aceclofenac"
+        },
+        {
+          "id": "ccab8b00-7d97-4e52-9d12-4494203be77b",
+          "sourceId": "listing:aceclofenac",
+          "idSource": "listing_text",
+          "name": "Aceclofenac"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "permethrin + crotamiton",
+      "count": 2,
+      "records": [
+        {
+          "id": "c909845b-93b7-4df0-973b-cc293e8dc0d8",
+          "sourceId": "305",
+          "idSource": "site",
+          "name": "Permethrin + Crotamiton"
+        },
+        {
+          "id": "dc56b330-d7c7-478e-b10e-85e9b61f14f0",
+          "sourceId": "listing:permethrin-crotamiton",
+          "idSource": "listing_text",
+          "name": "Permethrin + Crotamiton"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "dextromethorphan + pseudoephedrine + triprolidine",
+      "count": 2,
+      "records": [
+        {
+          "id": "ac080d96-696a-4d53-823e-669ae324b21a",
+          "sourceId": "346",
+          "idSource": "site",
+          "name": "Dextromethorphan + Pseudoephedrine + Triprolidine"
+        },
+        {
+          "id": "281594f9-c426-41db-a6d1-200b34c1ef24",
+          "sourceId": "listing:dextromethorphan-pseudoephedrine-triprolidine",
+          "idSource": "listing_text",
+          "name": "Dextromethorphan + Pseudoephedrine + Triprolidine"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "agomelatine",
+      "count": 2,
+      "records": [
+        {
+          "id": "0378831e-8c2f-4ea3-ab7e-49b801785667",
+          "sourceId": "35",
+          "idSource": "site",
+          "name": "Agomelatine"
+        },
+        {
+          "id": "cf8a990a-9425-4c24-9c71-2e2e2b766f3f",
+          "sourceId": "listing:agomelatine",
+          "idSource": "listing_text",
+          "name": "Agomelatine"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "sodium chloride + dextrose",
+      "count": 2,
+      "records": [
+        {
+          "id": "609c0b4e-4d66-4e83-a883-ff6beb0878eb",
+          "sourceId": "351",
+          "idSource": "site",
+          "name": "Sodium Chloride + Dextrose"
+        },
+        {
+          "id": "2c6f641a-2a41-4a08-9943-def3704ae24c",
+          "sourceId": "listing:sodium-chloride-dextrose",
+          "idSource": "listing_text",
+          "name": "Sodium Chloride + Dextrose"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "diclofenac sodium + lidocaine hydrochloride",
+      "count": 2,
+      "records": [
+        {
+          "id": "7b31a3b3-05d1-4236-80aa-1be56b834abd",
+          "sourceId": "356",
+          "idSource": "site",
+          "name": "Diclofenac Sodium + Lidocaine Hydrochloride"
+        },
+        {
+          "id": "c6560d49-54bb-4f71-9e19-95a98e1deabf",
+          "sourceId": "listing:diclofenac-sodium-lidocaine-hydrochloride",
+          "idSource": "listing_text",
+          "name": "Diclofenac Sodium + Lidocaine Hydrochloride"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "diclofenac sodium",
+      "count": 2,
+      "records": [
+        {
+          "id": "ce209e10-a11e-4820-8576-545abe6fa4b5",
+          "sourceId": "357",
+          "idSource": "site",
+          "name": "Diclofenac Sodium"
+        },
+        {
+          "id": "31b9bc3a-4d36-4825-a70a-9a780cca6de4",
+          "sourceId": "listing:diclofenac-sodium",
+          "idSource": "listing_text",
+          "name": "Diclofenac Sodium"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "dicycloverine hydrochloride",
+      "count": 2,
+      "records": [
+        {
+          "id": "47b34041-67a6-42a0-8f4b-b95825a543bf",
+          "sourceId": "361",
+          "idSource": "site",
+          "name": "Dicycloverine Hydrochloride"
+        },
+        {
+          "id": "32896619-29b6-42e2-8125-e90519b37fa9",
+          "sourceId": "listing:dicycloverine-hydrochloride",
+          "idSource": "listing_text",
+          "name": "Dicycloverine Hydrochloride"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "mesalazine [5-aminosalicylic acid]",
+      "count": 2,
+      "records": [
+        {
+          "id": "5105c344-6eae-4e21-b4fd-43032ae12d68",
+          "sourceId": "4",
+          "idSource": "site",
+          "name": "Mesalazine [5-aminosalicylic acid]"
+        },
+        {
+          "id": "15940630-4cdc-431e-bb6d-53a576dcd124",
+          "sourceId": "listing:mesalazine-5-aminosalicylic-acid",
+          "idSource": "listing_text",
+          "name": "Mesalazine [5-aminosalicylic acid]"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "alfuzosin hydrochloride",
+      "count": 2,
+      "records": [
+        {
+          "id": "d0e7115c-e361-41c9-9992-f4b5faa13744",
+          "sourceId": "41",
+          "idSource": "site",
+          "name": "Alfuzosin Hydrochloride"
+        },
+        {
+          "id": "970ec7f2-da56-4b4a-9fd6-4ecec63e8059",
+          "sourceId": "listing:alfuzosin-hydrochloride",
+          "idSource": "listing_text",
+          "name": "Alfuzosin Hydrochloride"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "erythromycin",
+      "count": 2,
+      "records": [
+        {
+          "id": "31d8d6b0-547d-407f-83b7-4255c44166d0",
+          "sourceId": "427",
+          "idSource": "site",
+          "name": "Erythromycin"
+        },
+        {
+          "id": "0c984a34-34f7-4d61-9ff4-93d1de41c750",
+          "sourceId": "428",
+          "idSource": "site",
+          "name": "Erythromycin"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "aluminium chloride hexahydrate",
+      "count": 2,
+      "records": [
+        {
+          "id": "364f6b1f-d11d-4446-aa5e-b736331bdfe9",
+          "sourceId": "45",
+          "idSource": "site",
+          "name": "Aluminium Chloride Hexahydrate"
+        },
+        {
+          "id": "68892d67-f8e3-4703-a618-3a1a1b783772",
+          "sourceId": "listing:aluminium-chloride-hexahydrate",
+          "idSource": "listing_text",
+          "name": "Aluminium Chloride Hexahydrate"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "flucloxacillin sodium",
+      "count": 2,
+      "records": [
+        {
+          "id": "329fa7ed-b93a-4f97-819b-8e7d4540d513",
+          "sourceId": "473",
+          "idSource": "site",
+          "name": "Flucloxacillin Sodium"
+        },
+        {
+          "id": "c20e759b-52cb-468a-86dc-cf1d8fa72e7f",
+          "sourceId": "listing:flucloxacillin-sodium",
+          "idSource": "listing_text",
+          "name": "Flucloxacillin Sodium"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "alverine citrate",
+      "count": 2,
+      "records": [
+        {
+          "id": "e4ab64fa-4064-4660-b921-7306ee19ff62",
+          "sourceId": "49",
+          "idSource": "site",
+          "name": "Alverine Citrate"
+        },
+        {
+          "id": "b4295934-b843-4403-afb3-e150aa8450d0",
+          "sourceId": "listing:alverine-citrate",
+          "idSource": "listing_text",
+          "name": "Alverine Citrate"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "fluorouracil",
+      "count": 2,
+      "records": [
+        {
+          "id": "de22fc28-78f7-40c6-aa27-9661950d0ec9",
+          "sourceId": "5",
+          "idSource": "site",
+          "name": "Fluorouracil"
+        },
+        {
+          "id": "e248b327-92ad-4fef-8bc3-50d0b328c7c3",
+          "sourceId": "listing:fluorouracil",
+          "idSource": "listing_text",
+          "name": "Fluorouracil"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "amantadine hydrochloride",
+      "count": 2,
+      "records": [
+        {
+          "id": "bfebfb2b-68d3-4783-a137-99540e3a8a40",
+          "sourceId": "50",
+          "idSource": "site",
+          "name": "Amantadine Hydrochloride"
+        },
+        {
+          "id": "47dabf16-6530-4603-8e5d-584629fdba5d",
+          "sourceId": "listing:amantadine-hydrochloride",
+          "idSource": "listing_text",
+          "name": "Amantadine Hydrochloride"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "ambrisentan",
+      "count": 2,
+      "records": [
+        {
+          "id": "2f938fcf-2cf0-4778-88f1-b25ca30693d0",
+          "sourceId": "51",
+          "idSource": "site",
+          "name": "Ambrisentan"
+        },
+        {
+          "id": "2c9a7ceb-7400-449a-899f-2d8df4e56849",
+          "sourceId": "listing:ambrisentan",
+          "idSource": "listing_text",
+          "name": "Ambrisentan"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "ambroxol hydrochloride",
+      "count": 2,
+      "records": [
+        {
+          "id": "985f7ffe-867a-4cf5-b168-c5df361d9102",
+          "sourceId": "53",
+          "idSource": "site",
+          "name": "Ambroxol Hydrochloride"
+        },
+        {
+          "id": "9df434cb-6e05-475a-91c9-3be0ce8a6b64",
+          "sourceId": "listing:ambroxol-hydrochloride",
+          "idSource": "listing_text",
+          "name": "Ambroxol Hydrochloride"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "glycerin",
+      "count": 2,
+      "records": [
+        {
+          "id": "bc273439-ef15-4730-be5d-94951ff5fa4e",
+          "sourceId": "531",
+          "idSource": "site",
+          "name": "Glycerin"
+        },
+        {
+          "id": "a5ef1e88-09e4-4589-b7e8-311f114c89d7",
+          "sourceId": "listing:glycerin",
+          "idSource": "listing_text",
+          "name": "Glycerin"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "pseudoephedrine + guaiphenasine + triprolidine",
+      "count": 2,
+      "records": [
+        {
+          "id": "70b08d0b-a843-4c5b-8ca7-e25f3feeb303",
+          "sourceId": "536",
+          "idSource": "site",
+          "name": "Pseudoephedrine + Guaiphenasine + Triprolidine"
+        },
+        {
+          "id": "000991c7-1267-4cab-a399-746c3cdb2fa6",
+          "sourceId": "listing:pseudoephedrine-guaiphenasine-triprolidine",
+          "idSource": "listing_text",
+          "name": "Pseudoephedrine + Guaiphenasine + Triprolidine"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "amikacin",
+      "count": 2,
+      "records": [
+        {
+          "id": "46a722dc-11e9-4513-af52-621c496ed62e",
+          "sourceId": "54",
+          "idSource": "site",
+          "name": "Amikacin"
+        },
+        {
+          "id": "5dfb0883-3667-4845-a512-bec83f45a912",
+          "sourceId": "listing:amikacin",
+          "idSource": "listing_text",
+          "name": "Amikacin"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "amino acid, d-sorbitol & electrolytes",
+      "count": 2,
+      "records": [
+        {
+          "id": "5db1167f-2eed-4f0b-ac26-455bb2849822",
+          "sourceId": "55",
+          "idSource": "site",
+          "name": "Amino Acid, D-Sorbitol & Electrolytes"
+        },
+        {
+          "id": "2f524edd-d096-4b49-bcea-21546ef6ffde",
+          "sourceId": "listing:amino-acid-d-sorbitol-electrolytes",
+          "idSource": "listing_text",
+          "name": "Amino Acid, D-Sorbitol & Electrolytes"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "amino acids, glucose & electrolytes",
+      "count": 2,
+      "records": [
+        {
+          "id": "e98c0162-71c1-43c8-b9f6-07e93184bbb4",
+          "sourceId": "57",
+          "idSource": "site",
+          "name": "Amino acids, Glucose & Electrolytes"
+        },
+        {
+          "id": "94fde04d-5324-4d8f-a56c-432e16e8108e",
+          "sourceId": "listing:amino-acids-glucose-electrolytes",
+          "idSource": "listing_text",
+          "name": "Amino acids, Glucose & Electrolytes"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "olmesartan medoxomil + hydrochlorothiazide",
+      "count": 2,
+      "records": [
+        {
+          "id": "a4d52726-5c50-407a-b7f5-9311bd740d3d",
+          "sourceId": "570",
+          "idSource": "site",
+          "name": "Olmesartan Medoxomil + Hydrochlorothiazide"
+        },
+        {
+          "id": "e5b1c912-6ebc-42c0-989a-da2fd8a355b1",
+          "sourceId": "listing:olmesartan-medoxomil-hydrochlorothiazide",
+          "idSource": "listing_text",
+          "name": "Olmesartan Medoxomil + Hydrochlorothiazide"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "aminophylline",
+      "count": 2,
+      "records": [
+        {
+          "id": "353d1d77-3efe-449a-9eda-1d9fe3dcae40",
+          "sourceId": "58",
+          "idSource": "site",
+          "name": "Aminophylline"
+        },
+        {
+          "id": "7f122669-7152-4709-b53d-9bf13cf1ca3b",
+          "sourceId": "listing:aminophylline",
+          "idSource": "listing_text",
+          "name": "Aminophylline"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "amiodarone hydrochloride",
+      "count": 2,
+      "records": [
+        {
+          "id": "4783b50f-8610-41e6-872a-60db00d599fa",
+          "sourceId": "59",
+          "idSource": "site",
+          "name": "Amiodarone Hydrochloride"
+        },
+        {
+          "id": "e7dbf65c-3192-4fbd-a7ee-4c32c05e813d",
+          "sourceId": "listing:amiodarone-hydrochloride",
+          "idSource": "listing_text",
+          "name": "Amiodarone Hydrochloride"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "acetylcysteine",
+      "count": 2,
+      "records": [
+        {
+          "id": "e615c58d-c15d-4523-803c-16d9101a7cd6",
+          "sourceId": "6",
+          "idSource": "site",
+          "name": "Acetylcysteine"
+        },
+        {
+          "id": "f0e57422-7536-4844-89f0-f62ae21c95f6",
+          "sourceId": "listing:acetylcysteine",
+          "idSource": "listing_text",
+          "name": "Acetylcysteine"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "amitriptyline hydrochloride",
+      "count": 2,
+      "records": [
+        {
+          "id": "3a9748af-48ea-4773-8a35-2fc576964a94",
+          "sourceId": "60",
+          "idSource": "site",
+          "name": "Amitriptyline Hydrochloride"
+        },
+        {
+          "id": "fc09298d-9063-4187-ab81-6256c79c94ce",
+          "sourceId": "listing:amitriptyline-hydrochloride",
+          "idSource": "listing_text",
+          "name": "Amitriptyline Hydrochloride"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "insulin glargine",
+      "count": 2,
+      "records": [
+        {
+          "id": "9940482d-e6b5-4bc3-bafa-0f366b9ee036",
+          "sourceId": "614",
+          "idSource": "site",
+          "name": "Insulin Glargine"
+        },
+        {
+          "id": "52bd62eb-143a-4909-9866-9ccc44d72061",
+          "sourceId": "listing:insulin-glargine",
+          "idSource": "listing_text",
+          "name": "Insulin Glargine"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "amlodipine besilate",
+      "count": 2,
+      "records": [
+        {
+          "id": "e903527f-0212-4e5e-a71c-37ebc11667b3",
+          "sourceId": "62",
+          "idSource": "site",
+          "name": "Amlodipine Besilate"
+        },
+        {
+          "id": "84c349fd-e61d-4a83-a015-2d57628182c6",
+          "sourceId": "listing:amlodipine-besilate",
+          "idSource": "listing_text",
+          "name": "Amlodipine Besilate"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "amlodipine besilate + atenolol",
+      "count": 2,
+      "records": [
+        {
+          "id": "7b39a847-c403-4e75-9362-6543babcc4f9",
+          "sourceId": "63",
+          "idSource": "site",
+          "name": "Amlodipine Besilate + Atenolol"
+        },
+        {
+          "id": "473d9ec8-a0e7-41d5-b060-a5fa63a40905",
+          "sourceId": "listing:amlodipine-besilate-atenolol",
+          "idSource": "listing_text",
+          "name": "Amlodipine Besilate + Atenolol"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "iron polymaltose complex + vitamin b complex + zinc",
+      "count": 2,
+      "records": [
+        {
+          "id": "77aa19f9-8179-466b-933f-5f36bfe3eb87",
+          "sourceId": "631",
+          "idSource": "site",
+          "name": "Iron Polymaltose Complex + Vitamin B Complex + Zinc"
+        },
+        {
+          "id": "86e984b4-6207-4fc5-af0a-d8ba91013199",
+          "sourceId": "listing:iron-polymaltose-complex-vitamin-b-complex-zinc",
+          "idSource": "listing_text",
+          "name": "Iron Polymaltose Complex + Vitamin B Complex + Zinc"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "isosorbide mononitrate",
+      "count": 2,
+      "records": [
+        {
+          "id": "4a21d8e9-5081-4d5d-a459-a0127518b2ae",
+          "sourceId": "639",
+          "idSource": "site",
+          "name": "Isosorbide Mononitrate"
+        },
+        {
+          "id": "a4b7046b-3b73-4c9f-9647-fde7de6c1b08",
+          "sourceId": "listing:isosorbide-mononitrate",
+          "idSource": "listing_text",
+          "name": "Isosorbide Mononitrate"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "amlodipine besilate + olmesartan medoxomil",
+      "count": 2,
+      "records": [
+        {
+          "id": "d1990526-0e8a-4992-8349-d52cc5909899",
+          "sourceId": "65",
+          "idSource": "site",
+          "name": "Amlodipine Besilate + Olmesartan Medoxomil"
+        },
+        {
+          "id": "bcd463c2-986e-4f95-bfa6-09140b43a31f",
+          "sourceId": "listing:amlodipine-besilate-olmesartan-medoxomil",
+          "idSource": "listing_text",
+          "name": "Amlodipine Besilate + Olmesartan Medoxomil"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "amlodipine besilate + telmisartan",
+      "count": 2,
+      "records": [
+        {
+          "id": "54725209-362b-468a-9fe5-c3426e1d79a9",
+          "sourceId": "66",
+          "idSource": "site",
+          "name": "Amlodipine Besilate + Telmisartan"
+        },
+        {
+          "id": "9bf6e330-ad53-43e7-8ee2-068471a29446",
+          "sourceId": "listing:amlodipine-besilate-telmisartan",
+          "idSource": "listing_text",
+          "name": "Amlodipine Besilate + Telmisartan"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "amlodipine besilate + atorvastatin",
+      "count": 2,
+      "records": [
+        {
+          "id": "e18e80b6-9464-4c6e-b3ec-e6a24ede109c",
+          "sourceId": "68",
+          "idSource": "site",
+          "name": "Amlodipine Besilate + Atorvastatin"
+        },
+        {
+          "id": "40f5fdd3-f561-40c7-9362-62686e4d07b7",
+          "sourceId": "listing:amlodipine-besilate-atorvastatin",
+          "idSource": "listing_text",
+          "name": "Amlodipine Besilate + Atorvastatin"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "levofloxacin hemihydrate",
+      "count": 2,
+      "records": [
+        {
+          "id": "d814c2a0-5f89-4778-8624-b902fe1af2a1",
+          "sourceId": "680",
+          "idSource": "site",
+          "name": "Levofloxacin Hemihydrate"
+        },
+        {
+          "id": "e99d23ef-70bd-40d9-9965-f911e6d8c3bd",
+          "sourceId": "listing:levofloxacin-hemihydrate",
+          "idSource": "listing_text",
+          "name": "Levofloxacin Hemihydrate"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "mebeverine hydrochloride",
+      "count": 2,
+      "records": [
+        {
+          "id": "8a881e5e-1d12-4a73-9a56-ed0d79ee5fe5",
+          "sourceId": "715",
+          "idSource": "site",
+          "name": "Mebeverine Hydrochloride"
+        },
+        {
+          "id": "f1051c62-661a-48f8-85e9-988dab2fb1cb",
+          "sourceId": "listing:mebeverine-hydrochloride",
+          "idSource": "listing_text",
+          "name": "Mebeverine Hydrochloride"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "miconazole nitrate",
+      "count": 2,
+      "records": [
+        {
+          "id": "15d09942-a1e8-4c9f-8880-633cad196fa1",
+          "sourceId": "754",
+          "idSource": "site",
+          "name": "Miconazole Nitrate"
+        },
+        {
+          "id": "d20f5764-fca9-409a-ba66-b4c01eebe2bd",
+          "sourceId": "listing:miconazole-nitrate",
+          "idSource": "listing_text",
+          "name": "Miconazole Nitrate"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "mifepristone + misoprostol",
+      "count": 2,
+      "records": [
+        {
+          "id": "5ad0c9c4-1fea-41d6-8c0b-7a376f7dafaf",
+          "sourceId": "758",
+          "idSource": "site",
+          "name": "Mifepristone + Misoprostol"
+        },
+        {
+          "id": "48dbbe02-c24e-4d14-bb91-f13f0c5f309a",
+          "sourceId": "listing:mifepristone-misoprostol",
+          "idSource": "listing_text",
+          "name": "Mifepristone + Misoprostol"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "olmesartan medoxomil",
+      "count": 2,
+      "records": [
+        {
+          "id": "ffc2210a-fe4c-48f5-8b28-f41815a174e3",
+          "sourceId": "822",
+          "idSource": "site",
+          "name": "Olmesartan Medoxomil"
+        },
+        {
+          "id": "4079cd0a-e801-46f6-8683-a12b6e06051d",
+          "sourceId": "listing:olmesartan-medoxomil",
+          "idSource": "listing_text",
+          "name": "Olmesartan Medoxomil"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "oxyphenonium bromide",
+      "count": 2,
+      "records": [
+        {
+          "id": "604721bd-770c-4df7-9562-1e723c651f88",
+          "sourceId": "849",
+          "idSource": "site",
+          "name": "Oxyphenonium Bromide"
+        },
+        {
+          "id": "7ac191d0-6ca3-4205-a28d-a3290a33856d",
+          "sourceId": "listing:oxyphenonium-bromide",
+          "idSource": "listing_text",
+          "name": "Oxyphenonium Bromide"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "pancreatin",
+      "count": 2,
+      "records": [
+        {
+          "id": "9ba1fba0-0a71-4ad1-ad02-23fb769ad102",
+          "sourceId": "857",
+          "idSource": "site",
+          "name": "Pancreatin"
+        },
+        {
+          "id": "8cd858cc-eb24-48f8-b4b0-9cdcbef75f07",
+          "sourceId": "listing:pancreatin",
+          "idSource": "listing_text",
+          "name": "Pancreatin"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "paracetamol",
+      "count": 2,
+      "records": [
+        {
+          "id": "be9048fe-0ede-483a-82c3-90e88b80c4dd",
+          "sourceId": "860",
+          "idSource": "site",
+          "name": "Paracetamol"
+        },
+        {
+          "id": "3cfc39a8-cd07-435d-8f2b-0f7649a397e3",
+          "sourceId": "listing:paracetamol",
+          "idSource": "listing_text",
+          "name": "Paracetamol"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "paracetamol + caffeine",
+      "count": 2,
+      "records": [
+        {
+          "id": "dc70e1c2-46d9-4a08-bc46-465cfe580cb8",
+          "sourceId": "861",
+          "idSource": "site",
+          "name": "Paracetamol + Caffeine"
+        },
+        {
+          "id": "c5578674-cfcd-40bf-9205-59a15eef7b63",
+          "sourceId": "listing:paracetamol-caffeine",
+          "idSource": "listing_text",
+          "name": "Paracetamol + Caffeine"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "ramipril",
+      "count": 2,
+      "records": [
+        {
+          "id": "cea2a68d-08d1-44c8-9e6c-57564a4bac0e",
+          "sourceId": "947",
+          "idSource": "site",
+          "name": "Ramipril"
+        },
+        {
+          "id": "556dc921-e6a8-4423-b1c7-11b4a7b3ca14",
+          "sourceId": "listing:ramipril",
+          "idSource": "listing_text",
+          "name": "Ramipril"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    },
+    {
+      "normalizedName": "roxithromycin",
+      "count": 2,
+      "records": [
+        {
+          "id": "a94bbe56-24fc-4f86-b31e-5514b8516e4e",
+          "sourceId": "971",
+          "idSource": "site",
+          "name": "Roxithromycin"
+        },
+        {
+          "id": "a7f018eb-e64f-4ac5-b141-b132dbef648b",
+          "sourceId": "listing:roxithromycin",
+          "idSource": "listing_text",
+          "name": "Roxithromycin"
+        }
+      ],
+      "recommendedAction": "MANUAL_REVIEW_INTERNAL_GENERIC_DUPLICATE"
+    }
+  ],
+  "potentialSpellingOrFormatVariants": [
+    {
+      "csvGenericId": "1887",
+      "csvName": "Probiotic Combination [3.2 Billion]",
+      "dbCandidates": [
+        {
+          "name": "Probiotic Combination [4 Billion]",
+          "sourceId": "listing:probiotic-combination-4-billion",
+          "similarity": 0.9090909090909091
+        }
+      ],
+      "isCombination": false,
+      "reason": "High-similarity spelling candidate (90.9%); must verify active ingredient identity before linking",
+      "recommendedAction": "MANUAL_REVIEW_GENERIC_SPELLING"
+    },
+    {
+      "csvGenericId": "2069",
+      "csvName": "Probiotic Combination [2.3 Billion]",
+      "dbCandidates": [
+        {
+          "name": "Probiotic Combination [20 Billion]",
+          "sourceId": "listing:probiotic-combination-20-billion",
+          "similarity": 0.9393939393939394
+        }
+      ],
+      "isCombination": false,
+      "reason": "High-similarity spelling candidate (93.9%); must verify active ingredient identity before linking",
+      "recommendedAction": "MANUAL_REVIEW_GENERIC_SPELLING"
+    },
+    {
+      "csvGenericId": "2070",
+      "csvName": "Probiotic Combination [2 Billion]",
+      "dbCandidates": [
+        {
+          "name": "Probiotic Combination [20 Billion]",
+          "sourceId": "listing:probiotic-combination-20-billion",
+          "similarity": 0.96875
+        }
+      ],
+      "isCombination": false,
+      "reason": "High-similarity spelling candidate (96.9%); must verify active ingredient identity before linking",
+      "recommendedAction": "MANUAL_REVIEW_GENERIC_SPELLING"
+    },
+    {
+      "csvGenericId": "1592",
+      "csvName": "Beclometasone Dipropionate + Formoterol Fumarate",
+      "dbCandidates": [
+        {
+          "name": "Beclomethasone Dipropionate + Formoterol Fumarate",
+          "sourceId": "listing:beclomethasone-dipropionate-formoterol-fumarate",
+          "similarity": 0.9795918367346939
+        }
+      ],
+      "isCombination": true,
+      "reason": "High-similarity spelling candidate (98.0%); must verify active ingredient identity before linking",
+      "recommendedAction": "MANUAL_REVIEW_GENERIC_SPELLING"
+    },
+    {
+      "csvGenericId": "1761",
+      "csvName": "Saw palmetto (500 mg)",
+      "dbCandidates": [
+        {
+          "name": "Saw Palmetto (160 mg)",
+          "sourceId": "listing:saw-palmetto-160-mg",
+          "similarity": 0.8947368421052632
+        }
+      ],
+      "isCombination": false,
+      "reason": "High-similarity spelling candidate (89.5%); must verify active ingredient identity before linking",
+      "recommendedAction": "MANUAL_REVIEW_GENERIC_SPELLING"
+    },
+    {
+      "csvGenericId": "1772",
+      "csvName": "Calcium Carbonate [Algae source] + Vitamin D3",
+      "dbCandidates": [
+        {
+          "name": "Calcium Carbonate [Coral source] + Vitamin D3",
+          "sourceId": "listing:calcium-carbonate-coral-source-vitamin-d3",
+          "similarity": 0.9069767441860466
+        }
+      ],
+      "isCombination": true,
+      "reason": "High-similarity spelling candidate (90.7%); must verify active ingredient identity before linking",
+      "recommendedAction": "MANUAL_REVIEW_GENERIC_SPELLING"
+    },
+    {
+      "csvGenericId": "1662",
+      "csvName": "Amino Acid Keto Analogues",
+      "dbCandidates": [
+        {
+          "name": "Amino Acid Ketoanalogues",
+          "sourceId": "listing:amino-acid-ketoanalogues",
+          "similarity": 0.96
+        }
+      ],
+      "isCombination": false,
+      "reason": "High-similarity spelling candidate (96.0%); must verify active ingredient identity before linking",
+      "recommendedAction": "MANUAL_REVIEW_GENERIC_SPELLING"
+    },
+    {
+      "csvGenericId": "2054",
+      "csvName": "Alpha Lipoic Acid",
+      "dbCandidates": [
+        {
+          "sourceId": "listing:alpha-lipoic-acid",
+          "name": "Alpha-Lipoic Acid"
+        }
+      ],
+      "isCombination": false,
+      "reason": "Punctuation or parenthetical formatting variant of existing generic",
+      "recommendedAction": "MANUAL_REVIEW_GENERIC_VARIANT"
+    },
+    {
+      "csvGenericId": "1839",
+      "csvName": "Diltiazem Hydrochloride (SR tablet)",
+      "dbCandidates": [
+        {
+          "name": "Diltiazem Hydrochloride (FC tablet)",
+          "sourceId": "listing:diltiazem-hydrochloride-fc-tablet",
+          "similarity": 0.9393939393939394
+        }
+      ],
+      "isCombination": false,
+      "reason": "High-similarity spelling candidate (93.9%); must verify active ingredient identity before linking",
+      "recommendedAction": "MANUAL_REVIEW_GENERIC_SPELLING"
+    },
+    {
+      "csvGenericId": "1669",
+      "csvName": "Esomeprazole (MUPS tablet)",
+      "dbCandidates": [
+        {
+          "name": "Omeprazole (MUPS tablet)",
+          "sourceId": "listing:omeprazole-mups-tablet",
+          "similarity": 0.9166666666666666
+        }
+      ],
+      "isCombination": false,
+      "reason": "High-similarity spelling candidate (91.7%); must verify active ingredient identity before linking",
+      "recommendedAction": "MANUAL_REVIEW_GENERIC_SPELLING"
+    },
+    {
+      "csvGenericId": "1807",
+      "csvName": "Ethinyl Estradiol + Desogestrel + Ferrous Fumarate",
+      "dbCandidates": [
+        {
+          "name": "Ethinyl Estradiol + Levonorgestrel + Ferrous Fumarate",
+          "sourceId": "listing:ethinyl-estradiol-levonorgestrel-ferrous-fumarate",
+          "similarity": 0.9056603773584906
+        }
+      ],
+      "isCombination": true,
+      "reason": "High-similarity spelling candidate (90.6%); must verify active ingredient identity before linking",
+      "recommendedAction": "MANUAL_REVIEW_GENERIC_SPELLING"
+    },
+    {
+      "csvGenericId": "1322",
+      "csvName": "Eucalyptol+ Menthol + Thymol",
+      "dbCandidates": [
+        {
+          "sourceId": "listing:eucalyptol-menthol-thymol",
+          "name": "Eucalyptol + Menthol + Thymol"
+        }
+      ],
+      "isCombination": true,
+      "reason": "Punctuation or parenthetical formatting variant of existing generic",
+      "recommendedAction": "MANUAL_REVIEW_GENERIC_VARIANT"
+    },
+    {
+      "csvGenericId": "1430",
+      "csvName": "Hepatitis b immune globulin",
+      "dbCandidates": [
+        {
+          "name": "Hepatitis B Immuneglobulin",
+          "sourceId": "listing:hepatitis-b-immuneglobulin",
+          "similarity": 0.962962962962963
+        }
+      ],
+      "isCombination": false,
+      "reason": "High-similarity spelling candidate (96.3%); must verify active ingredient identity before linking",
+      "recommendedAction": "MANUAL_REVIEW_GENERIC_SPELLING"
+    },
+    {
+      "csvGenericId": "1811",
+      "csvName": "Lyophilized Bacterial Lysate",
+      "dbCandidates": [
+        {
+          "name": "Lyophilized Bacterial Lysates",
+          "sourceId": "listing:lyophilized-bacterial-lysates",
+          "similarity": 0.9655172413793104
+        }
+      ],
+      "isCombination": false,
+      "reason": "High-similarity spelling candidate (96.6%); must verify active ingredient identity before linking",
+      "recommendedAction": "MANUAL_REVIEW_GENERIC_SPELLING"
+    },
+    {
+      "csvGenericId": "1203",
+      "csvName": "Multivitamin & Multimineral [A-Z for infanrs & childrens]",
+      "dbCandidates": [
+        {
+          "name": "Multivitamin & Multimineral [A-Z for infant & children]",
+          "sourceId": "listing:multivitamin-multimineral-a-z-for-infant-children",
+          "similarity": 0.9411764705882353
+        }
+      ],
+      "isCombination": false,
+      "reason": "High-similarity spelling candidate (94.1%); must verify active ingredient identity before linking",
+      "recommendedAction": "MANUAL_REVIEW_GENERIC_SPELLING"
+    },
+    {
+      "csvGenericId": "1824",
+      "csvName": "Probiotic Combination [9 Billion]",
+      "dbCandidates": [
+        {
+          "name": "Probiotic Combination [4 Billion]",
+          "sourceId": "listing:probiotic-combination-4-billion",
+          "similarity": 0.967741935483871
+        }
+      ],
+      "isCombination": false,
+      "reason": "High-similarity spelling candidate (96.8%); must verify active ingredient identity before linking",
+      "recommendedAction": "MANUAL_REVIEW_GENERIC_SPELLING"
+    },
+    {
+      "csvGenericId": "2042",
+      "csvName": "Probiotic Combination [10 Billion]",
+      "dbCandidates": [
+        {
+          "name": "Probiotic Combination [20 Billion]",
+          "sourceId": "listing:probiotic-combination-20-billion",
+          "similarity": 0.96875
+        }
+      ],
+      "isCombination": false,
+      "reason": "High-similarity spelling candidate (96.9%); must verify active ingredient identity before linking",
+      "recommendedAction": "MANUAL_REVIEW_GENERIC_SPELLING"
+    },
+    {
+      "csvGenericId": "736",
+      "csvName": "Rosiglitazone + Metformin Hydrochloride",
+      "dbCandidates": [
+        {
+          "name": "Pioglitazone + Metformin Hydrochloride",
+          "sourceId": "listing:pioglitazone-metformin-hydrochloride",
+          "similarity": 0.8974358974358975
+        }
+      ],
+      "isCombination": true,
+      "reason": "High-similarity spelling candidate (89.7%); must verify active ingredient identity before linking",
+      "recommendedAction": "MANUAL_REVIEW_GENERIC_SPELLING"
+    },
+    {
+      "csvGenericId": "1481",
+      "csvName": "Tetracycline Hydrochloride (Topical)",
+      "dbCandidates": [
+        {
+          "name": "Tetracycline Hydrochloride (Oral)",
+          "sourceId": "listing:tetracycline-hydrochloride-oral",
+          "similarity": 0.8823529411764706
+        }
+      ],
+      "isCombination": false,
+      "reason": "High-similarity spelling candidate (88.2%); must verify active ingredient identity before linking",
+      "recommendedAction": "MANUAL_REVIEW_GENERIC_SPELLING"
+    }
+  ],
+  "missingAllopathicSingleGenerics": [
+    {
+      "csvGenericId": "40",
+      "name": "Alfacalcidol",
+      "drugClass": "Vitamin in bone formation",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1412",
+      "name": "Garlic Oil",
+      "drugClass": "Supplements & adjuvant therapy",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1491",
+      "name": "Flaxseed oil [Linum Usitatissimum]",
+      "drugClass": "Prostaglandin analogues",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "80",
+      "name": "Artemether",
+      "drugClass": "Anti-malarial drugs",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "1666",
+      "name": "Antioxidants and Micronutrients",
+      "drugClass": "Anti-oxidant Multivitamin Multimineral preparations",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "2062",
+      "name": "Marine Collagen",
+      "drugClass": "Specific mineral preparations",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "94",
+      "name": "Atropine Sulfate",
+      "drugClass": "Mydriatic and Cycloplegic agents",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "874",
+      "name": "Peppermint Oil",
+      "drugClass": "Anticholinergics (antimuscarinics)/ Anti-spasmodics",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "116",
+      "name": "Benzyl Penicillin",
+      "drugClass": "Benzylpenicillin & Phenoxymethyl penicillin",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1276",
+      "name": "Benzyl Alcohol",
+      "drugClass": "Other scalp preparations",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "111",
+      "name": "Benzocaine",
+      "drugClass": "Local & Surface anesthesia",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "110",
+      "name": "Benzathine Penicillin",
+      "drugClass": "Long acting penicillin",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "611",
+      "name": "Biphasic Insulin Aspart [rDNA]",
+      "drugClass": "Combination Insulin",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1397",
+      "name": "Butoconazole Nitrate",
+      "drugClass": "Drugs used in Vaginal and Vulval condition",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "157",
+      "name": "Busulfan",
+      "drugClass": "Cytotoxic Chemotherapy",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "499",
+      "name": "Calcium Folinate [Folinic Acid]",
+      "drugClass": "Supportive Care Therapy",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "219",
+      "name": "Cefpirome Sulphate",
+      "drugClass": "Fourth generation Cephalosporins",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "1274",
+      "name": "Cefoxitin",
+      "drugClass": "Second generation Cephalosporins",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "228",
+      "name": "Celecoxib",
+      "drugClass": "Drugs for Osteoarthritis",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "260",
+      "name": "Cinchocaine Hydrochloride",
+      "drugClass": "Local & Surface anesthesia",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "258",
+      "name": "Cinacalcet",
+      "drugClass": "Calcium Regulator",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "1785",
+      "name": "Clotrimazole (Vaginal suppository)",
+      "drugClass": "Topical Antifungal preparations",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1656",
+      "name": "COVID Vaccine",
+      "drugClass": "Vaccines, Anti-sera & Immunoglobulin",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1403",
+      "name": "Dexmedetomidine Hydrochloride",
+      "drugClass": "Miscellaneous sedatives & hypnotics",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "334",
+      "name": "Desvenlafaxine",
+      "drugClass": "Serotonin-norepinephrine reuptake inhibitor (SNRI)",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1854",
+      "name": "Diflorasone Diacetate",
+      "drugClass": "Other Topical corticosteroids",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "375",
+      "name": "Dobutamine",
+      "drugClass": "Inotropic-sympathomimetics",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "373",
+      "name": "Disopyramide Phosphate",
+      "drugClass": "Membrane stabilizing agent (Sodium channel blockers)",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1973",
+      "name": "Diphtheria, Tetanus, Pertussis, Hepatitis B, Poliomyelitis, Influenzae Vaccine",
+      "drugClass": "Vaccines, Anti-sera & Immunoglobulin",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "395",
+      "name": "Doxylamine Succinate",
+      "drugClass": "Sedating Anti-histamine",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "423",
+      "name": "Epoetin Beta",
+      "drugClass": "Drugs for Haemolytic Hypoplastic & Renal Anemia",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "412",
+      "name": "Entacapone",
+      "drugClass": "Antiparkinson drugs",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "1647",
+      "name": "Elagolix",
+      "drugClass": "Gonadotropin-releasing hormone (GnRH) antagonist",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "431",
+      "name": "Eslicarbazepine Acetate",
+      "drugClass": "Adjunct anti-epileptic drugs",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "429",
+      "name": "Erythropoietin",
+      "drugClass": "Drugs for Haemolytic Hypoplastic & Renal Anemia",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "460",
+      "name": "Ferrous Ascorbate",
+      "drugClass": "Oral Iron preparations",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1584",
+      "name": "Fenticonazole Nitrate [Vaginal Tablet]",
+      "drugClass": "Topical Antifungal preparations",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "458",
+      "name": "Fenticonazole Nitrate [Vaginal Cream]",
+      "drugClass": "Topical Antifungal preparations",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "451",
+      "name": "Famciclovir",
+      "drugClass": "Herpes simplex & Varicella-zoster virus infections",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "464",
+      "name": "Ferrous Gluconate",
+      "drugClass": "Oral Iron preparations",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "462",
+      "name": "Ferrous Fumarate",
+      "drugClass": "Oral Iron preparations",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "481",
+      "name": "Fluorescein Sodium",
+      "drugClass": "Preparations for Ophthalmic diagnosis",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "508",
+      "name": "Fusidic Acid (Ophthalmic)",
+      "drugClass": "Macrolides",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "502",
+      "name": "Formoterol Fumarate",
+      "drugClass": "Long-acting selective β-adrenoceptor stimulants",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "1410",
+      "name": "Follicle Stimulating Hormone [Urofollitropin]",
+      "drugClass": "Drugs for Infertility",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1342",
+      "name": "Fluticasone Propionate (Nebuliser Suspension)",
+      "drugClass": "Fluocinolone & Combined Preparations",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "515",
+      "name": "Gatifloxacin (Oral)",
+      "drugClass": "4-Quinolone preparations",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1414",
+      "name": "Gadoversetamide",
+      "drugClass": "Contrast medium for diagnostic procedures",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "542",
+      "name": "Hepatitis A Vaccine",
+      "drugClass": "Vaccines, Anti-sera & Immunoglobulin",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "535",
+      "name": "Griseofulvin [Microsize]",
+      "drugClass": "Other Antifungal preparations",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1603",
+      "name": "Human Papillomavirus Quadrivalent (Types 6, 11, 16, and 18)",
+      "drugClass": "Vaccines, Anti-sera & Immunoglobulin",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "563",
+      "name": "Human Papillomavirus Bivalent (Types 16 & 18)",
+      "drugClass": "Vaccines, Anti-sera & Immunoglobulin",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1789",
+      "name": "Human Milk based Amino Acid",
+      "drugClass": "Parenteral nutritional preparations",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "548",
+      "name": "Human Immunoglobulin-G [IgG]",
+      "drugClass": "Vaccines, Anti-sera & Immunoglobulin",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "607",
+      "name": "Inositol Nicotinate",
+      "drugClass": "Nicotinic acid group",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1210",
+      "name": "Inactivated Polio Vaccine",
+      "drugClass": "Vaccines, Anti-sera & Immunoglobulin",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "594",
+      "name": "Idoxuridine",
+      "drugClass": "Ophthalmic Anti-viral Products",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1309",
+      "name": "Ipratropium Bromide (Nebuliser Solution)",
+      "drugClass": "Anticholinergic bronchodilators",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "624",
+      "name": "Ipratropium Bromide (Inhaler)",
+      "drugClass": "Anticholinergic bronchodilators",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "608",
+      "name": "Insulin Human [Long-Acting]",
+      "drugClass": "Long Acting Insulin",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1563",
+      "name": "Insulin Human [Fast-Acting]",
+      "drugClass": "Rapid Acting Insulin",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "634",
+      "name": "Isoniazid",
+      "drugClass": "Anti-Tubercular Chemotherapeutics",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "646",
+      "name": "Ketoconazole (Tablet)",
+      "drugClass": "Drugs for subcutaneous and mycoses",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1628",
+      "name": "Ketoconazole (Cream)",
+      "drugClass": "Drugs for subcutaneous and mycoses",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "645",
+      "name": "Ketamine",
+      "drugClass": "General (Intravenous) anesthetics",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "642",
+      "name": "Isradipine",
+      "drugClass": "Calcium-channel blockers",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1502",
+      "name": "Ispaghula [Psyllium] Husk",
+      "drugClass": "Bulk-forming laxatives",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "651",
+      "name": "Labetalol Hydrochloride (Tablet)",
+      "drugClass": "Alpha adrenoceptor blocking drugs",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1821",
+      "name": "Labetalol Hydrochloride (Injection)",
+      "drugClass": "Alpha adrenoceptor blocking drugs",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "676",
+      "name": "Levobupivacaine Hydrochloride",
+      "drugClass": "Regional anesthesia",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "1259",
+      "name": "Levobunolol",
+      "drugClass": "Drugs for miotics and glaucoma",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1319",
+      "name": "Levosalbutamol",
+      "drugClass": "Short-acting selective & β2-adrenoceptor stimulants",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1313",
+      "name": "Levofloxacin (Ophthalmic)",
+      "drugClass": "4-Quinolone preparations",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1320",
+      "name": "Lomefloxacin (Oral)",
+      "drugClass": "Aural Anti-bacterial preparations",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "693",
+      "name": "Lomefloxacin (Ophthalmic)",
+      "drugClass": "Ophthalmic antibacterial drugs",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1551",
+      "name": "Magnesium Sulfate Heptahydrate",
+      "drugClass": "Specific mineral preparations",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1855",
+      "name": "Mepyramine Maleate",
+      "drugClass": "Miscellaneous topical agents",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "728",
+      "name": "Meningococcal Polysaccharide Vaccine",
+      "drugClass": "Vaccines, Anti-sera & Immunoglobulin",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1799",
+      "name": "Meningococcal Conjugate Vaccine",
+      "drugClass": "Vaccines, Anti-sera & Immunoglobulin",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1868",
+      "name": "Menaquinone-7",
+      "drugClass": "Drugs for Osteoarthritis",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "765",
+      "name": "Mitomycin C",
+      "drugClass": "Cytotoxic Chemotherapy",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1413",
+      "name": "Moxonidine",
+      "drugClass": "Anti-hypertensive",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "767",
+      "name": "Mometasone Furoate (Inhalation Capsule)",
+      "drugClass": "Corticosteroid",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "840",
+      "name": "Multivitamin with L-Lysine",
+      "drugClass": "Specific combined vitamin preparations",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1198",
+      "name": "Multivitamin & Multimineral Essentials [For nursing mother]",
+      "drugClass": "Multi-vitamin & Multi-mineral combined preparations",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1130",
+      "name": "Multivitamin & Cod Liver Oil",
+      "drugClass": "Specific combined vitamin preparations",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "792",
+      "name": "Naltrexone",
+      "drugClass": "Antidote preparations",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "1267",
+      "name": "Naloxone Hydrochloride",
+      "drugClass": "Antidote preparations",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "790",
+      "name": "Nalbuphine",
+      "drugClass": "Opioid analgesics",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "810",
+      "name": "Nimesulide",
+      "drugClass": "Non-steroidal Anti-inflammatory Drugs (NSAIDs)",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1228",
+      "name": "Nevirapine",
+      "drugClass": "Drugs for HIV / Anti-retroviral drugs",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "1486",
+      "name": "Neratinib",
+      "drugClass": "Tyrosine Kinase Inhibitor",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1332",
+      "name": "Nystatin (Topical)",
+      "drugClass": "Drugs for subcutaneous and mycoses",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "1806",
+      "name": "Norgestrel",
+      "drugClass": "Oral Contraceptive preparations",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "816",
+      "name": "Norepinephrine",
+      "drugClass": "Alpha and Beta-adrenergic agonist",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1271",
+      "name": "Nizatidine",
+      "drugClass": "H2 receptor antagonist",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "1590",
+      "name": "Nitroglycerin (Sublingual Tablet)",
+      "drugClass": "Nitrates: Coronary vasodilators",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "815",
+      "name": "Nitrofurazone",
+      "drugClass": "Topical Antibiotic preparations",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1209",
+      "name": "Oral Polio Vaccine",
+      "drugClass": "Vaccines, Anti-sera & Immunoglobulin",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "823",
+      "name": "Olopatadine Hydrochloride (Ophthalmic)",
+      "drugClass": "Ophthalmic Non-Steroid drugs",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1334",
+      "name": "Olopatadine Hydrochloride (Nasal Spray)",
+      "drugClass": "Nasal Anti-histamine preparations",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "836",
+      "name": "Ofloxacin (Oral & Injection)",
+      "drugClass": "Aural Anti-bacterial preparations",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "848",
+      "name": "Oxyphencyclimine Hydrochloride",
+      "drugClass": "Anticholinergics (antimuscarinics)/ Anti-spasmodics",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "1444",
+      "name": "Oxymetazoline Hydrochloride (Cream)",
+      "drugClass": "Vasoconstrictor/Venotonic",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "845",
+      "name": "Oxybutynin Chloride",
+      "drugClass": "Anticholinergics (antimuscarinics)/ Anti-spasmodics",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "833",
+      "name": "Oxaprozin",
+      "drugClass": "Drugs for Osteoarthritis",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "872",
+      "name": "Pentazocine Hydrochloride",
+      "drugClass": "Opioid analgesics",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1235",
+      "name": "Podophyllotoxin",
+      "drugClass": "Anti neoplastic preparations",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "889",
+      "name": "Pipecuronium Bromide",
+      "drugClass": "Non depolarizing muscle relaxants",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1268",
+      "name": "Pholcodine",
+      "drugClass": "Cough suppressant",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "1557",
+      "name": "Polysaccharide Diphtheria Toxoid Conjugate Vaccine",
+      "drugClass": "Vaccines, Anti-sera & Immunoglobulin",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "900",
+      "name": "Polyethylene Glycol",
+      "drugClass": "Osmotic purgatives",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "926",
+      "name": "Propafenone Hydrochloride",
+      "drugClass": "Membrane stabilizing agent (Sodium channel blockers)",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1170",
+      "name": "Promethazine Hydrochloride (Injection)",
+      "drugClass": "Sedating Anti-histamine",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1637",
+      "name": "Progesterone (Vaginal Pessary)",
+      "drugClass": "Corticosteroid",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1597",
+      "name": "Progesterone (Vaginal Gel)",
+      "drugClass": "Drugs for Infertility",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1876",
+      "name": "Probiotic Combination [14 strains]",
+      "drugClass": null,
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "937",
+      "name": "Pyrimethamine",
+      "drugClass": "Anti-malarial drugs",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "934",
+      "name": "Pyrazinamide",
+      "drugClass": "Anti-Tubercular Chemotherapeutics",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "1504",
+      "name": "Protamine Crystallised Insulin Aspart",
+      "drugClass": "Rapid Acting Insulin",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1381",
+      "name": "Regorafenib",
+      "drugClass": "Targeted Cancer Therapy",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "968",
+      "name": "Roflumilast",
+      "drugClass": "Antihistamines anti-allergies & hypo-sensitisation",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "965",
+      "name": "Rizatriptan Benzoate",
+      "drugClass": "5-HT Agonists",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1553",
+      "name": "Risperidone (Injection)",
+      "drugClass": "Atypical neuroleptic drugs",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1270",
+      "name": "Rimexolone",
+      "drugClass": "Ophthalmic Steroid preparations",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "1828",
+      "name": "S-Amlodipine Besilate (Levamlodipine)",
+      "drugClass": "Calcium-channel blockers",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1467",
+      "name": "Ruxolitinib",
+      "drugClass": "Pyrrolopyrimidines",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1272",
+      "name": "Roxatidine",
+      "drugClass": "H2 receptor antagonist",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "568",
+      "name": "Rotavirus Vaccine",
+      "drugClass": "Vaccines, Anti-sera & Immunoglobulin",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "980",
+      "name": "Sennosides",
+      "drugClass": "Osmotic purgatives",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1969",
+      "name": "Semaglutide (Injection)",
+      "drugClass": "GLP-1 receptor agonists",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1422",
+      "name": "Selegiline Hydrochloride",
+      "drugClass": "Antiparkinson drugs",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "1394",
+      "name": "Saquinavir Mesylate",
+      "drugClass": "Anti-viral drugs",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "1283",
+      "name": "Salsalate",
+      "drugClass": "Drugs for Osteoarthritis",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "999",
+      "name": "Sodium Dichloroisocyanurate",
+      "drugClass": "Water purifying agent",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "1545",
+      "name": "Sodium Chloride (Ophthalmic Solution)",
+      "drugClass": "Other ophthalmic preparations",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1281",
+      "name": "Sodium Stibogluconate",
+      "drugClass": "Leishmaniacides",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "1278",
+      "name": "Sodium Nitroprusside Dihydrate",
+      "drugClass": "Vasodilator antihypertensive drugs",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "1000",
+      "name": "Sodium Fluoride (Mouthwash)",
+      "drugClass": "Anticavity Mouthwash",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1021",
+      "name": "Sulfinpyrazone",
+      "drugClass": "Drugs used in Gout",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "1018",
+      "name": "Strontium Ranelate",
+      "drugClass": "Inhibiting bone resorption",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "1017",
+      "name": "Streptomycin",
+      "drugClass": "Aminoglycosides",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "1014",
+      "name": "Spiramycin",
+      "drugClass": "Macrolides",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1356",
+      "name": "Tacrolimus (Oral)",
+      "drugClass": "Drugs affecting the immune response",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1047",
+      "name": "Sulphonated Surfactant",
+      "drugClass": "Benzoyl peroxide, Azelaic acid & other preparations",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1054",
+      "name": "Terfenadine",
+      "drugClass": "Non-sedating antihistamines",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "1256",
+      "name": "Terconazole",
+      "drugClass": "Drugs used in Vaginal and Vulval condition",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "1065",
+      "name": "Thioridazine",
+      "drugClass": "Phenothiazine drugs",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "1076",
+      "name": "Tetracycline Hydrochloride (Ophthalmic)",
+      "drugClass": "Ophthalmic antibacterial drugs",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1265",
+      "name": "Trimipramine",
+      "drugClass": "Tricyclic & related anti-depressant drugs",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "1129",
+      "name": "Vitamin A, Vitamin B complex, Vitamin C , Vitamin D and Vitamin E",
+      "drugClass": "Specific combined vitamin preparations",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1136",
+      "name": "Vitamin C, Vitamin E, Lutein, Copper & Zinc",
+      "drugClass": "Anti-oxidant Multivitamin Multimineral preparations",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1143",
+      "name": "Zinc Oxide",
+      "drugClass": "Drugs used in diaper rash",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1229",
+      "name": "Zidovudine",
+      "drugClass": "Drugs for HIV / Anti-retroviral drugs",
+      "isCombination": false,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    }
+  ],
+  "missingCombinationGenerics": [
+    {
+      "csvGenericId": "1646",
+      "name": "Ispaghula Husk + Sonapata",
+      "drugClass": "Bulk-forming laxatives",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1310",
+      "name": "Ispaghula Husk + Mebeverine Hydrochloride",
+      "drugClass": "Bulk-forming laxatives",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1503",
+      "name": "Psyllium [Ispaghula Husk] + Senna Extract",
+      "drugClass": "Bulk-forming laxatives",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1254",
+      "name": "Benzocaine + Camphor + Methanol + Phenol",
+      "drugClass": "Topical Local Anesthetics",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "124",
+      "name": "Betamethasone + Neomycin Sulphate (E/E)",
+      "drugClass": "Ophthalmic steroid - antibiotic combined preparations",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1242",
+      "name": "Betamethasone + Gentamicin",
+      "drugClass": "Other Topical corticosteroids",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "148",
+      "name": "Bromelain + Trypsin",
+      "drugClass": "Enzymes",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "83",
+      "name": "Articaine Hydrochloride + Epinephrine",
+      "drugClass": "Local & Surface anesthesia",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "2044",
+      "name": "Calcium Lactate Gluconate + Coral Calcium + Vitamin C + Vitamin D3",
+      "drugClass": "Specific mineral & vitamin combined preparations",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1548",
+      "name": "Calcium Carbonate [Eggshell Source] + Vitamin D3",
+      "drugClass": "Specific mineral & vitamin combined preparations",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "167",
+      "name": "Calcium + Vitamin D3 + Vitamin C + Vitamin E + Multimineral",
+      "drugClass": "Specific mineral & vitamin combined preparations",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "166",
+      "name": "Calcitriol + Calcium Citrate",
+      "drugClass": "Specific mineral & vitamin combined preparations",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1788",
+      "name": "Amino Acid + Dextrose + Eloctrolytes",
+      "drugClass": "Parenteral nutritional preparations",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "247",
+      "name": "Caprylic + Capric Triglyceride",
+      "drugClass": "Emollients & combined preparations",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "55",
+      "name": "Amino Acid + D-Sorbitol + Electrolytes",
+      "drugClass": "Parenteral nutritional preparations",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "2033",
+      "name": "Casirivimab + Imdevimab",
+      "drugClass": null,
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "348",
+      "name": "Dextran + Sodium Chloride",
+      "drugClass": "Plasma expanders",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "349",
+      "name": "Dextran + Dextrose",
+      "drugClass": "Plasma expanders",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1260",
+      "name": "Diabasic Sodium Phosphate + Monobasic Sodium Phosphate",
+      "drugClass": "Enema & bowel cleansing solution",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1206",
+      "name": "Diphtheria + Pertussis + Tetanus [DPT]",
+      "drugClass": "Vaccines, Anti-sera & Immunoglobulin",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "415",
+      "name": "Emollient [Cepalin+Allantoin]",
+      "drugClass": "Emollients & combined preparations",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "162",
+      "name": "Ergotamine Tartrate + Caffeine",
+      "drugClass": "Ergot Alkaloids",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1888",
+      "name": "Ethinyl Estradiol + Drospirenone + Levomefolate",
+      "drugClass": "Oral Contraceptive preparations",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1635",
+      "name": "Ethinyl Estradiol + Drospirenone (HRT)",
+      "drugClass": "Drugs for menopausal symptoms: Hormone replacement therapy",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "396",
+      "name": "Ethinyl Estradiol + Drospirenone (24 tablet)",
+      "drugClass": "Oral Contraceptive preparations",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1804",
+      "name": "Ethinyl Estradiol + Drospirenone (21 tablet)",
+      "drugClass": "Oral Contraceptive preparations",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1822",
+      "name": "Fluocinolone Acetonide + Clioquinol",
+      "drugClass": "Topical Antifungal preparations",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1613",
+      "name": "Glucosamine Sulfate + Chondroitin + Camphor + Peppermint oil",
+      "drugClass": "Topical Analgesics",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "573",
+      "name": "Hydrochlorothiazide + Triamterene",
+      "drugClass": "Combined antihypertensive preparations",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1571",
+      "name": "Ibandronic Acid + Calcium Carbonate + Vitamin D3",
+      "drugClass": "Bisphosphonate preparations",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "604",
+      "name": "Indapamide + Perindopril Arginine",
+      "drugClass": "Combined antihypertensive preparations",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1225",
+      "name": "Insulin Human [rDNA] + Isophane Insulin Human",
+      "drugClass": "Medium Acting Insulin",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "618",
+      "name": "Insulin Degludec + Insulin Aspart Premixed",
+      "drugClass": "Combination Insulin",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1673",
+      "name": "Iron Hydroxide Polymaltose + Folic acid + Zinc Sulfate Monohydrate",
+      "drugClass": "Iron, Vitamin & Mineral Combined preparation",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1816",
+      "name": "Ispaghula Husk + Ispaghula Seed + Tinnevelly Senna Pods",
+      "drugClass": "Bulk-forming laxatives",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "660",
+      "name": "Lactic acid + Sodium PCA",
+      "drugClass": "Emollients & combined preparations",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "722",
+      "name": "Macrogol [Polypropylene glycol] + Electrolytes",
+      "drugClass": "Osmotic purgatives",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1263",
+      "name": "Menthol + Pramoxine Hydrochloride",
+      "drugClass": "Topical Analgesics",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "1247",
+      "name": "Naphazoline + Pheniramine",
+      "drugClass": "Ophthalmic Non-Steroid Combined preparations",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1243",
+      "name": "Neomycin Sulfate + Bacitracin Zinc + Polymyxin B Sulfate (Ophthalmic)",
+      "drugClass": "Aural Anti-bacterial preparations",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": false
+    },
+    {
+      "csvGenericId": "1831",
+      "name": "Polygeline + Electrolytes",
+      "drugClass": "Intravenous fluid preparations",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "117",
+      "name": "Procaine Penicillin + Benzyl Penicillin",
+      "drugClass": "Benzylpenicillin & Phenoxymethyl penicillin",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1450",
+      "name": "Risedronate Sodium + Calcium",
+      "drugClass": "Bisphosphonate preparations",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "635",
+      "name": "Rifampicin + Isoniazid + Pyrazinamide",
+      "drugClass": "Combined anti- Tubercular Preparations",
+      "isCombination": true,
+      "isHerbalOrTraditional": false,
+      "referencedByMedicineCsv": true
+    }
+  ],
+  "missingHerbalUnaniAyurvedicGenerics": [
+    {
+      "csvGenericId": "1723",
+      "name": "Bandish [Oak Galls, Tannic acid]",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1619",
+      "name": "Balarista",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1524",
+      "name": "Bacopa extract [Natural memory enhancer]",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1519",
+      "name": "Aushokarist [Saraca Indica]",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1758",
+      "name": "Aswagandharista",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1757",
+      "name": "Ashokarista",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1744",
+      "name": "Arjunarista",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1745",
+      "name": "Aravindasav",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1695",
+      "name": "Antacid [Unani]",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1719",
+      "name": "Aniseed + Indian dill + Black cardamom + Peppermint",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": true,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1523",
+      "name": "Andrographis paniculata",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1699",
+      "name": "Ambar Momiyaee",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1743",
+      "name": "Amalaki Rasayana",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1742",
+      "name": "Aloe indica+ Hyoscyamus niger + Piper nigrum",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": true,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1534",
+      "name": "Curcuminoids [Curcuma Longa]",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1746",
+      "name": "Compound Asparagus",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1549",
+      "name": "Collagen II & GAGs",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1612",
+      "name": "Chirata [Swertia Chirata]",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1702",
+      "name": "Chebulic Myrobalan + Barberry",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": true,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1611",
+      "name": "Carica Papaya Leaf Extract",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "189",
+      "name": "Camphor + Thymol + Menthol + Eucalyptus oil",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": true,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1756",
+      "name": "Calendula Officinalis [Marigold]",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1684",
+      "name": "Buzuri",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1747",
+      "name": "Brahmi Rasayan",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1538",
+      "name": "Black Cohosh [Cimicifuga Racemosa]",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1511",
+      "name": "Ginkgo Biloba",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1683",
+      "name": "Garlitab",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1722",
+      "name": "Fishar [Snake root, Potassium, Magnesium]",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1536",
+      "name": "Fermented soy [Lactobacillus Delbrueckii]",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "921",
+      "name": "Evening primrose oil",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1709",
+      "name": "Espand",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1517",
+      "name": "Emblica officinalis + Piper longum",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": true,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1700",
+      "name": "Emblic Myrobalan + Sesame",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": true,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1738",
+      "name": "Emblic Myrobalan + Aswagandha + Grape",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": true,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1685",
+      "name": "Ejaz",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1512",
+      "name": "Echinacea",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1706",
+      "name": "Kabid Nawshadri",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1521",
+      "name": "Jogaraj Guggulu",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1755",
+      "name": "Jirakaddarista",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1711",
+      "name": "Jinsin",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1527",
+      "name": "Jeerakaddarishta Carminative",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1749",
+      "name": "Jamani Arka",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1720",
+      "name": "Jadwar [Denudatum, Saffron, Henbane]",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1690",
+      "name": "Herbal Multivitamin",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1688",
+      "name": "Herbal gastric preparation",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1740",
+      "name": "Herbal cough syrup [Vasakarista]",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1518",
+      "name": "Nabayas Louha Herbal Haematinic",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1741",
+      "name": "Mustakarista [Cyperus, Zingiber, Piper nigrum]",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1696",
+      "name": "Mumshik",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1725",
+      "name": "Mudir [Aloe, Saffron, Ferrus sulphate]",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1750",
+      "name": "Monjistha [Rubia cordifolia]",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1529",
+      "name": "Menthol + Camphor + Eucalyptus Oil + Mint Oil",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": true,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1748",
+      "name": "Mentha + Cinnamomum + Gaultheria + Capsicum",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": true,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1687",
+      "name": "Marwareedi",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1692",
+      "name": "Marham Kharish",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1846",
+      "name": "Malus sylvestris",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1530",
+      "name": "Mahadrakkharist [Grape extract]",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1537",
+      "name": "Lutein + Zeaxanthin",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": true,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1710",
+      "name": "Liquorice + Cascara Sagrada + Belladona",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": true,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1528",
+      "name": "Red Clover Isoflavones",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1988",
+      "name": "Pumpkin [Cucurbita pepo]",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1539",
+      "name": "Proanthocyanidins",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1762",
+      "name": "Prasarani Sandhan",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1689",
+      "name": "Penitab",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1694",
+      "name": "Pechish",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1522",
+      "name": "Patrangasav",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1516",
+      "name": "St. John’s Wort",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1770",
+      "name": "Sharbat Musaffi",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1825",
+      "name": "Sharbat Amla",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1691",
+      "name": "Sanoon Babla",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1714",
+      "name": "Salep + Coconut + Poppy Seeds + Almond",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": true,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1721",
+      "name": "Saffron + Sand Lizard + Nutmeg fruit",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": true,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1671",
+      "name": "β-Sitosterol",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1704",
+      "name": "White Damar + Acacia + Bole Rubra",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": true,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1672",
+      "name": "Vitamin D3 + Vitamin K1 + Vitamin K2",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": true,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1751",
+      "name": "Vaskar Laban [Piper + Zingiber + Cinnamomum]",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": true,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1724",
+      "name": "Tila Jadeed [Madar, Mace arillus, Nutmeg nut]",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1682",
+      "name": "Tabkheer",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1713",
+      "name": "Saffron + Mace arillus + Nutmeg fruit",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": true,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1787",
+      "name": "Saccharomyces Boulardii",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1753",
+      "name": "Rohitakarista",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1726",
+      "name": "Rhubarb + Ginger",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": true,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1707",
+      "name": "Rehmin",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1727",
+      "name": "Nux-vomica + Black Pepper + Long Pepper",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": true,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1760",
+      "name": "Nimbadi Churna",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1525",
+      "name": "Nigella Sativa [Black Seed Oil]",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1759",
+      "name": "Neem",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1693",
+      "name": "Natural medicine for diabetes",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1732",
+      "name": "Licorice + Yellow Silk Cotton + Mastic tree",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": true,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1697",
+      "name": "Lavendar [Lavendula stoechas]",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1698",
+      "name": "Khakshi",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1712",
+      "name": "Herbal cough syrup [Glycyrrhiza Glabra]",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "2065",
+      "name": "Hazmina",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1771",
+      "name": "Habb-e-Nishat",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1703",
+      "name": "Guggul + Barberry + Chebulic Myrobalan",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": true,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1708",
+      "name": "Dinar",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1718",
+      "name": "Devil’s Cotton + Ashoka bark + Aswagandha",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": true,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1786",
+      "name": "Devil's Claw",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1701",
+      "name": "Datura + Rhubarb + Ginger",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": true,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1966",
+      "name": "Bitter Melon [Korola]",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1535",
+      "name": "Biotin",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1717",
+      "name": "Belgiri [Bael fruit + Connessi bark]",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": true,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1686",
+      "name": "Barsina",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1705",
+      "name": "Aloe + Black Pepper + Henbane",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": true,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1716",
+      "name": "Almond + Coconut + Edible Pine + Salep",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": true,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1715",
+      "name": "Acacia + Dates + Asparagus + Edible Pine",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": true,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1752",
+      "name": "Abhayarista",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    },
+    {
+      "csvGenericId": "1833",
+      "name": "23 herb formula to increase breast milk",
+      "drugClass": "Herbal and Nutraceuticals",
+      "isCombination": false,
+      "isHerbalOrTraditional": true,
+      "referencedByMedicineCsv": true
+    }
+  ],
+  "dimsUnmatchedGenericsSample": [
+    {
+      "dimsGenericId": "1",
+      "name": "5 Aminosalicylic Acid (Mesalamine)",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "9",
+      "name": "Acetic Acid .469% + Calcium Chloride 1.008% + Magnessium Chloride .754% + Potassium Chloride .554% + Sodium Chloride 21.968%",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "15",
+      "name": "Acyclovir 3%",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "16",
+      "name": "Acyclovir 5%",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "17",
+      "name": "Adapalene 0.1%",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "18",
+      "name": "Adapalene 0.1% + Benzoyl Peroxide 2.5%",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "19",
+      "name": "Adapalene 0.3%",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "21",
+      "name": "Adenine .0275 % + Citric Acid Anhydrous .3 % + Dextrose",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "23",
+      "name": "Adenosine 0.2% + Cytochrome C 0.05% + Nicotinamide eye prep",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "24",
+      "name": "Adrenaline (Epinephrine)",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "25",
+      "name": "Adrenaline + Lidocaine Hydrochloride",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "26",
+      "name": "Adrenochrome Monosemicarbazone",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "31",
+      "name": "Alfuzosin",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "32",
+      "name": "Aliskiren",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "35",
+      "name": "Allystrenol",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "39",
+      "name": "Aluminium Chloride Hexahydrate 20%",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "41",
+      "name": "Aluminium Hydroxide + Magnesium Hydroxide + Simethicon",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "42",
+      "name": "Aluminium Hydroxide + Magnesium Trisilicate",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "43",
+      "name": "Aluminium Oxide + Magnesium Hydroxide",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "44",
+      "name": "Aluminium Oxide + Magnesium Hydroxide + Simethicon",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "48",
+      "name": "Ambroxol",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "52",
+      "name": "Amiloride Hydrochloride + Hydrochlorothiazide",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "53",
+      "name": "Amino Acids 5 % & 10%",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "54",
+      "name": "Amino Acids 7 % + Glucose & Electrolytes 10 %",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "60",
+      "name": "Amlodipine",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "61",
+      "name": "Amlodipine  +  Atenolol",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "62",
+      "name": "Amlodipine 5mg + Atorvastatin 10mg",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "63",
+      "name": "Amlodipine + Benazepril Hydrochloride",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "64",
+      "name": "Amlodipine + Olmesartan Medoxomil",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "65",
+      "name": "Amlodipine + Telmisartan",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "66",
+      "name": "Amlodipine + Valsartan",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "71",
+      "name": "Amoxicillin",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "72",
+      "name": "Amoxicillin + Clarithromycin + Lansoprazole Kit",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "73",
+      "name": "Amoxicillin + Clarithromycin + Rabeprazole Sodium kit",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "83",
+      "name": "Amoxicillin Pedriatric",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "90",
+      "name": "Ampicillin",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "100",
+      "name": "Anhydrous Glucose + Citric Acid + Potassium Chloride",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "102",
+      "name": "Anhydrous Glucose + Potassium Chloride + Sodium Chloride + Sodium Bicarbonate",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "103",
+      "name": "Antazoline Hydrochloride 0.05% + Tetryzoline Hydrochloride 0.04%",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "107",
+      "name": "Artemether",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "110",
+      "name": "Articaine Hydrochloride + Epinephrine",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "112",
+      "name": "Multivitamin and Multimineral A-Z Gold preparations",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "113",
+      "name": "Multivitamin and Multimineral A-Z Silver preparations",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "114",
+      "name": "Multivitamin and Multimineral A-Z Syrup preparations",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "115",
+      "name": "Ascorbic Acid + Biotin + Cholecalciferol (Vit. D3)",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "117",
+      "name": "Calcium  +  Vitamin  (D3  +  C +  E)  +  Minerals",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "118",
+      "name": "Calcium Carbonate + Calcium Gluconate + Vitamin-C",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "121",
+      "name": "Multivitamins + Multiminerals",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "122",
+      "name": "Multivitamins",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "123",
+      "name": "Multivitamin & Multimineral Prenatal (Ascorbic Acid + Chromium + Copper + Elemental Iron)",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "124",
+      "name": "Vitamin A, D, B1, B2, B6, C, E, Nicotinamide, Cod liver oil (Multivitamin with Cod Liver Oil)",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "125",
+      "name": "Vitamin C   +  Vitamin E  +  Zinc  +  Copper  + Lutein (Antioxidant and Anti Cataract Preparations)",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "126",
+      "name": "Super Antioxidant Vitamins & Multimineral (Vitamin A + C + E + K ) + Copper  + Zinc + Manganese + Selenium",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "128",
+      "name": "Iron + Folic acid + B Complex + Vitamin C + Zinc",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "130",
+      "name": "Iron + Folic Acid + Zinc + Vitamin A + Vitamin C",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "135",
+      "name": "Aspirin + Clopidogrel",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "139",
+      "name": "Atenolol + Nifedipine",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "140",
+      "name": "Atomoxetine",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "141",
+      "name": "Atorvastatin",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "142",
+      "name": "Atracurium Besylate",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "143",
+      "name": "Atropine Sulphate",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "145",
+      "name": "Atropine Sulphate 1%",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "146",
+      "name": "Avobenzone 2% + Oxybenzone 3% + Padimate O 8% + Titanium dioxide",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "147",
+      "name": "Azelaic Acid 20%",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "148",
+      "name": "Azelastin Hydrochloride Nasal prep",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "149",
+      "name": "Azithromycin",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "151",
+      "name": "Azithromycin 1%  Eye drop",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "153",
+      "name": "Bacitracin Zinc + Neomycin Sulphate Topical",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "154",
+      "name": "Bacitracin Zinc + Neomycin Sulphate + Polymixin B",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "155",
+      "name": "Bacitracin Zinc + Neomycin Sulphate Eye prep",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "156",
+      "name": "Bacitracin Zinc + Polymixin B Sulphate Eye prep",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "159",
+      "name": "Barium Sulphate",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "160",
+      "name": "Beclomethasone Dipropionate",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "162",
+      "name": "Beclomethasone Dipropionate Nasal prep",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "165",
+      "name": "Benzathine Penicillin",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "167",
+      "name": "Benzocaine",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "168",
+      "name": "Benzocaine 0.065% + Camphor 0.25% + Methanol 0.25%",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "169",
+      "name": "Benzocaine 0.20% + Camphor 0.25% + Methanol 0.25%",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "170",
+      "name": "Benzocaine + Oxytetracycline + Polymiyxin B Eye prep",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "172",
+      "name": "Benzoic Acid 6% + Salicylic Acid 3%",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "174",
+      "name": "Benzoyl Peroxide 5%",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "175",
+      "name": "Benzoyl Peroxide 5% + Erythromycin 3%",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "176",
+      "name": "Benzyl Alcohol",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "177",
+      "name": "Benzyl Benzoate 25%",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "178",
+      "name": "Benzyl Penicillin",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "179",
+      "name": "Benzyl Penicillin + Procaine Penicillin",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "182",
+      "name": "Bepotastine Besilate 1.5%  Eye prep",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "183",
+      "name": "Besifloxacin 0.6%  Eye prep",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "184",
+      "name": "Beta Carotene + Calcium + Cholecalciferol (Vit D3)",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "185",
+      "name": "Beta Carotene + Copper + Manganese + Selenium + Vit C",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "186",
+      "name": "Betacarotene + Vitamin C + Vitamin E  (Anti-Oxidant Vitamins and Minerals)",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "188",
+      "name": "Betahistine Mesilate",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "190",
+      "name": "Betamethasone valerate 0.01% Topical",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "191",
+      "name": "Betamethasone 0.05% + Calcipotriol 0.005%",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "192",
+      "name": "Betamethasone 0.05% + Clotrimazole 1% Topical",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "193",
+      "name": "Betamethasone 0.05% + Gentamicin 0.1%",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "194",
+      "name": "Betamethasone 0.05% + Lidocaine Hydrochloride 2.5%+ Phenylephrine Hydrochloride 0.1% (Rectal prep)",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "195",
+      "name": "Betamethasone 0.05% + Salicylic Acid 2%",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "196",
+      "name": "Betamethasone 0.1%  E/E & Nasal prep",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "197",
+      "name": "Betamethasone 0.1% + Clotrimazole 1% Topical",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "198",
+      "name": "Betamethasone 0.1% + Fusidic Acid 2% Topical",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "199",
+      "name": "Betamethasone 0.1% + Neomycin Sulphate 0.5% Topical",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "200",
+      "name": "Betamethasone  0.1% + Neomycin Sulphate 0.5 E/E prep",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "201",
+      "name": "Betaxolol 0.25%  Eye prep",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "202",
+      "name": "Betaxolol 0.5%  Eye prep",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "203",
+      "name": "Bimatoprost 0.03% Eye prep",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "204",
+      "name": "Multivitamin-Multimineral A-Z preparations for Teen Girls",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "205",
+      "name": "Multivitamin-Multimineral A-Z preparations for Teen Boys",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "211",
+      "name": "Bismuth Subcitrate",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "213",
+      "name": "Bisoprolol  + Hydrochlorothiazide",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "214",
+      "name": "Black Seed Oil",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "217",
+      "name": "Boric Acid 2% + Dithranol 0.1% + Salicylic Acid 1%",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "219",
+      "name": "Calcium + Vitamin D + Minerals",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "220",
+      "name": "Bosentan",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "221",
+      "name": "Brimonidine Tartrate (0.2 %, 0.15%)  Eye prep",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "222",
+      "name": "Brimonidine Tartrate 0.2% + Timolol Maleate 0.5%  Eye prep",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "225",
+      "name": "Bromfenac Sodium 0 .09 %  eye prep",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "232",
+      "name": "Budesonide",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "235",
+      "name": "Budesonide 0.1%  Nasal spray",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "238",
+      "name": "Bupivacaine",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "239",
+      "name": "Bupivacaine + Dextrose",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "240",
+      "name": "Buprenorphine",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "241",
+      "name": "Buspirone",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "244",
+      "name": "Butenafine 1 %",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "246",
+      "name": "Caffeine + Ergotamine Tartrate",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "248",
+      "name": "Calamine 15% + Zinc Oxide 5%",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "252",
+      "name": "Calcitriol + Calcium",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "256",
+      "name": "Calcium + Vitamin D3",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "259",
+      "name": "Calcium Carbonate + Calcium Lactate Gluconate +  Vitamin-C + Vitamin D3",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "261",
+      "name": "Calcium Carbonate Chewable",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "265",
+      "name": "Calcium Chloride + Dextrose Anhydrous + Potassium",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "266",
+      "name": "Calcium Chloride + Magnessium Chloride + Potassium chloride + Sodium chloride + Sodium acetate + Sodium citrate",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "267",
+      "name": "Calcium Chloride + Potassium Chloride + Sodium Chloride + Sodium Lactate",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "270",
+      "name": "Calcium Chloride .514 % + Magnessium Chloride .356 + Potassium Chloride .521 % + Sodium Acetate 18.088 % + Sodium Chloride 19.84 % (Hemodialysis solutions)",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "271",
+      "name": "Calcium Chloride  + Potassium Chloride + Sodium Chloride",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "273",
+      "name": "Calcium Chloride  + Dextrose Anhydrous + Magnessium Chloride  + Sodium Acetate + Sodium Chloride  (Peritoneal Dialysis solutions)",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "274",
+      "name": "Calcium Chloride  + Glacial Acetic Acid  + Magnessium Chloride  + Potassium Chloride  +  Sodium Chloride (Hemodialysis solutions)",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "288",
+      "name": "Camphor 2.5% + Menthol 2% + Oil Clove 2.5% + Oil Eucalyptus",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "289",
+      "name": "Camphor  + Menthol + Oil Eucalyptus + Thymol",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "294",
+      "name": "Capsaicin 0.025%",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "297",
+      "name": "Carbidopa + Entacapone + Levodopa",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "298",
+      "name": "Carbidopa + Levodopa",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "301",
+      "name": "Carbonyl Iron",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "303",
+      "name": "Carbonyl Iron + Folic Acid + Zinc",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "306",
+      "name": "Carboxymethylcellulose Sodium +  Glycerine  Eye prep",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "307",
+      "name": "Carboxypolymethylene  + Hydroxy Ethyl Cellulose",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "310",
+      "name": "Cefaclor",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "311",
+      "name": "Cefadroxil",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "314",
+      "name": "Cefepime",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "315",
+      "name": "Cefetamet Pivoxil Hydrochloride",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "316",
+      "name": "Cefixime",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "319",
+      "name": "Cefoxitin",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "320",
+      "name": "Cefpirome",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "321",
+      "name": "Cefpodoxime",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "322",
+      "name": "Cefpodoxime + Clavulanic Acid",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "324",
+      "name": "Ceftazidime",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "326",
+      "name": "Ceftriaxone",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "327",
+      "name": "Cefuroxime",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "328",
+      "name": "Cefuroxime + Clavulanic Acid",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "330",
+      "name": "Celecoxib",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "339",
+      "name": "Cetirizine Dihydrochloride",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "341",
+      "name": "Cetrimide 0.5% + Chlorhexidine Hydrochloride 0.1%",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "343",
+      "name": "Cetrimide  + Chlorhexidine Gluconate",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "346",
+      "name": "Chloramphenicol 0.5%  Eye drops",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "347",
+      "name": "Chloramphenicol 0.5% + Dexamethasone 0.1%  Eye/Ear drop",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "348",
+      "name": "Chloramphenicol 5% + Lidocaine Hydrochloride 1%  Ear drops",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "349",
+      "name": "Chloramphenicol 1%  Eye prep",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "350",
+      "name": "Chloramphenicol  Ear drops",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "351",
+      "name": "Chlorhexidine Gluconate 0.2% Gargle",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "352",
+      "name": "Chlorhexidine Gluconate 0.25% + Lidocaine Hydrochloride",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "353",
+      "name": "Chlorhexidine Gluconate",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "354",
+      "name": "Chlorhexidine Gluconate 1 %  Oral prep",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "361",
+      "name": "Chloroxylenol 0.3% + Triclosan 0.3%",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "362",
+      "name": "Chloroxylenol 4.8%",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "365",
+      "name": "Chlorpheniramine Maleate 0.5% + Dexamethasone 0.1%",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "370",
+      "name": "Cholecalciferol (Vit. D3)",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "375",
+      "name": "Chondroitin + Glucosamine",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "376",
+      "name": "Ciclesonide",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "377",
+      "name": "Cilastatin + Imipenem",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "379",
+      "name": "Cimetidine",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "380",
+      "name": "Cinacalcet",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "383",
+      "name": "Cinchocaine Hydrochloride 0.5% + Esculin 1% + Hydrocortisone + Neomycin Sulphate (Rectal prep)",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "388",
+      "name": "Ciprofloxacin 0.3% E/E prep",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "389",
+      "name": "Ciprofloxacin 0.3% + Dexamethasone 0.1% E/E prep",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "390",
+      "name": "Ciprofloxacin 0.3% + Hydrocortisone Acetate 1% E/E prep",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "398",
+      "name": "Citicoline",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "400",
+      "name": "Citric Acid Monohydrate 5% + Potassium Citrate 30%",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "403",
+      "name": "Clindamycin 1%",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "404",
+      "name": "Clindamycin 2% Vaginal prep",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "405",
+      "name": "Clindamycin Phosphate 1.2% + Tretinoin 0.025% Topical",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "406",
+      "name": "Clioquinol 1% + Flumetasone Pivalate 0.02% Ear prep",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "408",
+      "name": "Clobetasol Propionate 0.05%",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "409",
+      "name": "Clobetasol Propionate 0.05% + Neomycin Sulphate 0.5% + Nystatin BP 1,00,000 IU.",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "410",
+      "name": "Clobetasol Propionate 0.05% + Salicylic Acid 3%",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "411",
+      "name": "Clobetasone butyrate 0.05% Topical",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "416",
+      "name": "Clopidogrel",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "420",
+      "name": "Clotrimazole VT",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "422",
+      "name": "Clotrimazole 1% + Hydrocortisone 1%",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "423",
+      "name": "Cloxacillin",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "426",
+      "name": "Coal Tar + Precipitated Sulpher + Salicylic Acid",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "431",
+      "name": "Cod Liver Oil (Vitamin A + D)",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "433",
+      "name": "Cod Liver Oil 30.5%",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "442",
+      "name": "Conjugated Oestrogens",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "443",
+      "name": "Copper + Folic Acid + Iodine + Iron + Niacin + Pyridoxine Hydrochloride",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "445",
+      "name": "Crotamiton 10%",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "446",
+      "name": "Crotamiton  + Permethrin",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "449",
+      "name": "Cyanocobalamin + Elemental Iron + Folic Acid",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "450",
+      "name": "Folic Acid + Vitamin B6 + Vitamin B12",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "455",
+      "name": "Vitamin B1 + Vitamin B6 + Vitamin B12",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "458",
+      "name": "Cyclopentolate Hydrochloride 1% Eye prep",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "461",
+      "name": "Cyclosporine 0.05% Eye prep",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "464",
+      "name": "Cyproterone Acetate + Ethinylestradiol",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "466",
+      "name": "Vitamin B Complex Inj",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "473",
+      "name": "Demeclocycline Hydrochloride",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "474",
+      "name": "Desferrioxamine Mesilate",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "476",
+      "name": "Desloratadine + Pseudoephedrine Sulphate",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "478",
+      "name": "Desogestrel + Ethinylestradiol",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "479",
+      "name": "Desonide 0.05%",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "484",
+      "name": "Dexamethasone 0.05%  Eye prep",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "485",
+      "name": "Dexamethasone 0.1%  E/E prep",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "486",
+      "name": "Dexamethasone 0.1% + Gatifloxacin 0.3%",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "488",
+      "name": "Dexamethasone 0.1% + Neomycin 0.35% + Polymixin B (Eye prep)",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "489",
+      "name": "Dexamethasone 0.1% + Tobramycin 0.3% Eye prep",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "490",
+      "name": "Dexamethasone Sodium Phosphate",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "495",
+      "name": "Dextran 40 10% + Dextrose 5%",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "496",
+      "name": "Dextran 40 10% + Sodium Chloride 0.9%",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "497",
+      "name": "Dextran 70 + Sodium Chloride",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "498",
+      "name": "Dextran 70 0.1% + Hypromellose 0.3% Eye prep",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "499",
+      "name": "Dextran 70 0.2% + Hypromellose 0.2% Eye prep",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "500",
+      "name": "Dextran 70 6% + Dextrose 5%",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "501",
+      "name": "Dextromethorphan + Pseudoephedrine Hydrochloride +Triprolidine Hydrochloride",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "504",
+      "name": "Dextrose + Lidocaine Hydrochloride",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "505",
+      "name": "Dextrose 10%",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "506",
+      "name": "Dextrose 10% + Sodium Chloride 0.9%",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "507",
+      "name": "Dextrose 10% + Sodium Chloride 0.225%",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "509",
+      "name": "Dextrose 100 %",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "510",
+      "name": "Dextrose 20%",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "511",
+      "name": "Dextrose 25%",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "512",
+      "name": "Dextrose 30%",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "513",
+      "name": "Dextrose 4.3% + Sodium Chloride 0.18%",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "514",
+      "name": "Dextrose 5%",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "516",
+      "name": "Dextrose 5% + Sodium Chloride 0.18%",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "517",
+      "name": "Dextrose 5% + Sodium Chloride 0.225%",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "518",
+      "name": "Dextrose 5% + Sodium Chloride 0.25%",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "519",
+      "name": "Dextrose 5% + Sodium Chloride 0.45%",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "520",
+      "name": "Dextrose 5% + Sodium Chloride 0.9%",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "521",
+      "name": "Dextrose 50%",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "522",
+      "name": "Dextrose Anhydrous + Fructose + Potassium Chloride + Sodium Bicarbonate + Sodium Chloride + Sucrose (Fruity/Tasty ORS)",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "524",
+      "name": "Dextrose Anhydrous + Potassium Chloride + Sodium citrate +  Sodium chloride (ORS)",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "528",
+      "name": "Diabasic Sodium Phosphate  +  Monobasic Sodium Phosphate",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "529",
+      "name": "Diacerein + Glucosamine Sulphate",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "532",
+      "name": "Dibromopropamidine Isethionate 0.15%",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "534",
+      "name": "Diclofenac + Lidocaine Hydrochloride",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "540",
+      "name": "Diclofenac Sodium 0.1% Eye prep",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "541",
+      "name": "Diclofenac Sodium 1% Topical",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "544",
+      "name": "Dicloxacillin",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "548",
+      "name": "Diflorasone Diacetate 0.05% Topical",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "549",
+      "name": "Difluprednate Eye prep",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "555",
+      "name": "Dimethothiazine Mesylate",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "559",
+      "name": "Dioxybenzone 0.3% + Hydroquinone 0.4% + Octyldimet p-aminobenzoate 0.8% + Oxybenzone 0.2%",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "561",
+      "name": "Diphenhydramine Hydrochloride 2% + Zinc Acetate 0.1% Topical",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "563",
+      "name": "Disodium Hydrogen Phosphate Dodecahydrate 24% + Sodium Dihydrogen Phosphate Dihydrate 54.22%",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "564",
+      "name": "Disopyramide",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "566",
+      "name": "Dithranol 1% Topical",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "568",
+      "name": "Dobutamine",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "569",
+      "name": "Docetaxel",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "570",
+      "name": "Docosanol 10%",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "571",
+      "name": "Domperidone",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "575",
+      "name": "Dorzolamide 2% + Timolol 0.5% Eye prep",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "576",
+      "name": "Doxepin",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "577",
+      "name": "Doxepin 5% Topical",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "579",
+      "name": "Doxycycline",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "588",
+      "name": "Doxylamine Succinate",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "589",
+      "name": "Drospirenone + Ethinylestradiol",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "591",
+      "name": "Duloxetine",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "595",
+      "name": "Econazole Nitrate (Vaginal prep)",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "596",
+      "name": "Econazole Nitrate 1%",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "597",
+      "name": "Econazole Nitrate 1% + Triamcinolone Acetonide 0.1 Topical",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "600",
+      "name": "Elemental Iron (carbonyl iron) + Folic Acid",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "601",
+      "name": "Elemental Iron (Iron Polymaltose Complex) + Folic Acid + Zinc + Vitamin B-Complex",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "602",
+      "name": "Elemental Iron + Folic Acid + Vitamin C + Zinc",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "603",
+      "name": "Ferrous Ascorbate + Folic Acid + Zinc",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "604",
+      "name": "Iron Polymaltose  +  Vitamin B Complex  +  Zinc",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "611",
+      "name": "Enoxaprin",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "614",
+      "name": "Entacapone",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "616",
+      "name": "Entecavir 0.005%",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "620",
+      "name": "Ephedrine Hydrochloride 0.5%",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "621",
+      "name": "Epinastine Hydrochloride 0.05% Eye prep",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "631",
+      "name": "Erythromycin solution",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "633",
+      "name": "Erythropoietin",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "634",
+      "name": "Escitalopram",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "635",
+      "name": "Esomeprazole Magnesium Trihydrate BP",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "636",
+      "name": "Esomeprazole + Naproxen",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "637",
+      "name": "Estradiol 0.06%",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "638",
+      "name": "Estriol",
+      "isCombination": false,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "641",
+      "name": "Ethambutol + Isoniazid + Pyrazinamide + Rifampicin",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "642",
+      "name": "Ethinylestradiol + Ferrous Fumarate + Norgestrel",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "643",
+      "name": "Ethinylestradiol + Gestodene",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "644",
+      "name": "Ethinylestradiol + Levonorgestrel",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    },
+    {
+      "dimsGenericId": "645",
+      "name": "Ethinylestradiol + Lynestrenol",
+      "isCombination": true,
+      "canonicalMatchInDb": []
+    }
+  ]
+}

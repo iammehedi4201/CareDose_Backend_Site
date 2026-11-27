@@ -1,0 +1,50 @@
+{
+  "generatedAt": "2026-11-25T11:20:04.949Z",
+  "backupPath": "F:\\My Projects\\CareDose\\care_dose_pre_batch2b_held4_backup.dump",
+  "a2PriceUpdates": [
+    {
+      "packId": "b98aec67-7bc5-43cf-a79d-ab5b8d58e97c",
+      "restoreUnitPrice": null,
+      "restorePackPrice": "43",
+      "applied": {
+        "packPrice": "43500.00"
+      }
+    },
+    {
+      "packId": "c5cc6d1b-8059-49cf-9ce5-9094bf7125d2",
+      "restoreUnitPrice": null,
+      "restorePackPrice": "65",
+      "applied": {
+        "packPrice": "65500.00"
+      }
+    }
+  ],
+  "carvaOptionBRefresh": {
+    "packId": "06e61d13-23c9-4c91-9a5b-1f23fc5d213d",
+    "restore": {
+      "packQuantity": "200's pack",
+      "packUnits": 200,
+      "stripUnits": 15,
+      "unitPrice": "0.63",
+      "packPrice": "126",
+      "warnings": []
+    },
+    "applied": {
+      "packQuantity": "13 x 15",
+      "packUnits": 195,
+      "stripUnits": 15,
+      "unitPrice": "0.80",
+      "packPrice": "156.00"
+    }
+  },
+  "sultolin3514InsertToDeleteOnRollback": {
+    "brandId": "d3186950-0749-4bd1-bec5-9bf554e59c65",
+    "brandName": "Sultolin 100 mcg/puff"
+  },
+  "insertedSultolinPack": {
+    "packId": "68f21b63-377b-408f-97a8-dbf6ce43e8ea",
+    "brandId": "d3186950-0749-4bd1-bec5-9bf554e59c65",
+    "packQuantity": "200 metered doses (Refill)",
+    "packPrice": "220"
+  }
+}

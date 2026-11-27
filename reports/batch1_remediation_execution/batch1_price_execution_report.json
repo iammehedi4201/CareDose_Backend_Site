@@ -1,0 +1,483 @@
+{
+  "status": "EXECUTED_COMMITTED_SINGLE_TRANSACTION",
+  "transactionIsolationLevel": "Serializable",
+  "startedAt": "2026-11-25T07:54:55.497Z",
+  "finishedAt": "2026-11-25T07:55:01.840Z",
+  "manifestPath": "F:\\My Projects\\CareDose\\backend\\reports\\consolidated_remediation\\proposed_next_batch.json",
+  "backupPath": "F:\\My Projects\\CareDose\\care_dose_pre_batch1_remediation_backup.dump",
+  "rollbackManifestPath": "F:\\My Projects\\CareDose\\backend\\reports\\batch1_remediation_execution\\batch1_price_rollback_manifest.json",
+  "combinedRollbackManifestPath": "F:\\My Projects\\CareDose\\backend\\reports\\batch1_remediation_execution\\batch1_rollback_manifest.json",
+  "preconditionsMatched": 15,
+  "totalUpdated": 15,
+  "byBatchGroup": {
+    "BATCH_1A_COMMA_TRUNCATED_WEB_VERIFIED": 9,
+    "BATCH_1B_WEB_VERIFIED_DELTA_2": 2,
+    "BATCH_1C_EXCLUDED_61_ROUNDING_VERIFIED_4": 4
+  },
+  "fieldsAllowedToModify": [
+    "unitPrice",
+    "packPrice"
+  ],
+  "fieldsPreserved": [
+    "packQuantity",
+    "packUnits",
+    "stripUnits",
+    "currency",
+    "verification",
+    "warnings",
+    "brandId",
+    "MedicineBrand",
+    "MedicineGeneric"
+  ],
+  "records": [
+    {
+      "packId": "077fec2d-e5ca-4346-b06d-114c39da0701",
+      "brandId": "2bc8e0d8-f9d8-494d-9428-f90ea4632125",
+      "sourceId": "17299",
+      "brandName": "Zoclast",
+      "genericName": "Zoledronic Acid [For hypercalcemia]",
+      "strength": "4 mg/5 ml",
+      "dosageForm": "IV Infusion",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1A_COMMA_TRUNCATED_WEB_VERIFIED",
+      "packQuantity": "4 mg vial",
+      "packUnits": null,
+      "stripUnits": null,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": null,
+      "oldPackPriceRaw": "6",
+      "fieldsToUpdate": [
+        "packPrice"
+      ],
+      "newUnitPrice": null,
+      "newPackPrice": "6500.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/17299/zoclastiv-infusion4-mg5-ml",
+        "aroggaId": 20957,
+        "kaggleContainerString": "4 mg vial: ৳ 6,500.00",
+        "verificationNote": "Live MedEx + Arogga #18649 (stock=1) + Kaggle comma-string '৳ 6,500.00' all confirm Zoclast 4 mg/5 ml vial = BDT 6,500.00."
+      }
+    },
+    {
+      "packId": "8f74fef4-77f0-4789-8b20-4fe170790784",
+      "brandId": "c4c186e9-fac6-4f93-bcd8-9c36833cf74f",
+      "sourceId": "14948",
+      "brandName": "Zolenic",
+      "genericName": "Zoledronic Acid [For osteoporosis]",
+      "strength": "5 mg/100 ml",
+      "dosageForm": "IV Infusion",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1A_COMMA_TRUNCATED_WEB_VERIFIED",
+      "packQuantity": "100 ml bottle",
+      "packUnits": null,
+      "stripUnits": null,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": null,
+      "oldPackPriceRaw": "6",
+      "fieldsToUpdate": [
+        "packPrice"
+      ],
+      "newUnitPrice": null,
+      "newPackPrice": "6000.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/14948/zoleniciv-infusion5-mg100-ml",
+        "aroggaId": 26496,
+        "kaggleContainerString": "100 ml bottle: ৳ 6,000.00",
+        "verificationNote": "Live MedEx + Arogga #86827 (stock=1) + Kaggle comma-string '৳ 6,000.00' all confirm Zolenic 5 mg/100 ml bottle = BDT 6,000.00."
+      }
+    },
+    {
+      "packId": "501f73eb-19fe-4ca7-8c29-7a66037b4068",
+      "brandId": "a5b74f72-9f02-4a15-9cdf-2413f1177e1c",
+      "sourceId": "28948",
+      "brandName": "Trulicity",
+      "genericName": "Dulaglutide",
+      "strength": "0.75 mg/0.5 ml",
+      "dosageForm": "SC Injection",
+      "manufacturer": "Eli Lilly and Company",
+      "batchGroup": "BATCH_1A_COMMA_TRUNCATED_WEB_VERIFIED",
+      "packQuantity": "0.75 mg pre-filled syringe",
+      "packUnits": null,
+      "stripUnits": null,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": null,
+      "oldPackPriceRaw": "3",
+      "fieldsToUpdate": [
+        "packPrice"
+      ],
+      "newUnitPrice": null,
+      "newPackPrice": "4000.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/28948/trulicitysc-injection075-mg05-ml",
+        "aroggaId": 30618,
+        "kaggleContainerString": "0.75 mg pre-filled syringe: ৳ 3,395.00,(4's pack: ৳ 13,580.00),",
+        "verificationNote": "Live MedEx (ePharma/MedEasy MRP 4,000.00) + Arogga #48531 (stock=1, pv_mrp=4000) confirm Trulicity 0.75 mg pen revised from Kaggle 3,395.00 to BDT 4,000.00 (DB '3' was comma-truncated)."
+      }
+    },
+    {
+      "packId": "7c07ae26-1fb5-40dc-965e-69954f080bdb",
+      "brandId": "a5b74f72-9f02-4a15-9cdf-2413f1177e1c",
+      "sourceId": "28948",
+      "brandName": "Trulicity",
+      "genericName": "Dulaglutide",
+      "strength": "0.75 mg/0.5 ml",
+      "dosageForm": "SC Injection",
+      "manufacturer": "Eli Lilly and Company",
+      "batchGroup": "BATCH_1A_COMMA_TRUNCATED_WEB_VERIFIED",
+      "packQuantity": "4's pack",
+      "packUnits": 4,
+      "stripUnits": null,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": null,
+      "oldPackPriceRaw": "13",
+      "fieldsToUpdate": [
+        "packPrice"
+      ],
+      "newUnitPrice": null,
+      "newPackPrice": "16000.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/28948/trulicitysc-injection075-mg05-ml",
+        "aroggaId": 30618,
+        "kaggleContainerString": "0.75 mg pre-filled syringe: ৳ 3,395.00,(4's pack: ৳ 13,580.00),",
+        "verificationNote": "Live MedEx (4 x 4,000.00 = 16,000.00) + Arogga #48531 (stock=1, pu_multiplier=4 @ 4,000) confirm Trulicity 0.75 mg 4's pack = BDT 16,000.00 (DB '13' was comma-truncated from 13,580)."
+      }
+    },
+    {
+      "packId": "e33765e9-d6ae-46d3-a2a7-8fe01f4d2d5c",
+      "brandId": "fbfe371b-89c5-4aaa-992a-9bfa3b03327e",
+      "sourceId": "19652",
+      "brandName": "Sporium",
+      "genericName": "Cyclosporine",
+      "strength": "100 mg/ml",
+      "dosageForm": "Syrup",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1A_COMMA_TRUNCATED_WEB_VERIFIED",
+      "packQuantity": "50 ml bottle",
+      "packUnits": null,
+      "stripUnits": null,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": null,
+      "oldPackPriceRaw": "2",
+      "fieldsToUpdate": [
+        "packPrice"
+      ],
+      "newUnitPrice": null,
+      "newPackPrice": "2385.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/19652/sporiumsyrup100-mgml",
+        "aroggaId": 17916,
+        "kaggleContainerString": "50 ml bottle: ৳ 2,385.00",
+        "verificationNote": "Live MedEx + Remedive + Arogga #54877 (stock=1) + Kaggle '৳ 2,385.00' all confirm Sporium 100 mg/ml 50 ml bottle = BDT 2,385.00."
+      }
+    },
+    {
+      "packId": "904352fc-917a-4e79-83f3-c242d901e444",
+      "brandId": "fcd144c9-adb5-4ce4-9fc8-a99dc3bedd3a",
+      "sourceId": "16906",
+      "brandName": "Tericin",
+      "genericName": "Amphotericin B",
+      "strength": "50 mg/vial",
+      "dosageForm": "IV Infusion",
+      "manufacturer": "Beacon Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1A_COMMA_TRUNCATED_WEB_VERIFIED",
+      "packQuantity": "50 mg vial",
+      "packUnits": null,
+      "stripUnits": null,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": null,
+      "oldPackPriceRaw": "15",
+      "fieldsToUpdate": [
+        "packPrice"
+      ],
+      "newUnitPrice": null,
+      "newPackPrice": "15045.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/16906/tericiniv-infusion50-mgvial",
+        "aroggaId": 25905,
+        "kaggleContainerString": "50 mg vial: ৳ 15,045.10",
+        "verificationNote": "Live MedEx / ePharma MRP + Arogga #74288 + Kaggle '৳ 15,045.10' confirm Tericin 50 mg/vial = BDT 15,045.00."
+      }
+    },
+    {
+      "packId": "4c764371-c736-41c1-a26d-0ed38e645eff",
+      "brandId": "bb711244-a638-4247-99d4-d3c5fe968273",
+      "sourceId": "31169",
+      "brandName": "Tazumab",
+      "genericName": "Trastuzumab",
+      "strength": "440 mg/20 ml",
+      "dosageForm": "IV Infusion",
+      "manufacturer": "Drug International Ltd.",
+      "batchGroup": "BATCH_1A_COMMA_TRUNCATED_WEB_VERIFIED",
+      "packQuantity": "440 mg vial",
+      "packUnits": null,
+      "stripUnits": null,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": null,
+      "oldPackPriceRaw": "80",
+      "fieldsToUpdate": [
+        "packPrice"
+      ],
+      "newUnitPrice": null,
+      "newPackPrice": "80000.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/31169/tazumabiv-infusion440-mg20-ml",
+        "aroggaId": 22945,
+        "kaggleContainerString": "440 mg vial: ৳ 80,000.00",
+        "verificationNote": "Live MedEx MRP 80,000.00 + Arogga #49386 + Kaggle '৳ 80,000.00' confirm Tazumab 440 mg/20 ml vial = BDT 80,000.00."
+      }
+    },
+    {
+      "packId": "876caae1-bb35-4347-a061-3776a20c96e4",
+      "brandId": "f67601ec-cbc7-45da-9382-402c69a639cc",
+      "sourceId": "15114",
+      "brandName": "Tarceva",
+      "genericName": "Erlotinib",
+      "strength": "150 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Roche Bangladesh Ltd.",
+      "batchGroup": "BATCH_1A_COMMA_TRUNCATED_WEB_VERIFIED",
+      "packQuantity": null,
+      "packUnits": null,
+      "stripUnits": null,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": "3",
+      "oldPackPriceRaw": null,
+      "fieldsToUpdate": [
+        "unitPrice"
+      ],
+      "newUnitPrice": "3599.76",
+      "newPackPrice": null,
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/15114/tarcevatablet150-mg",
+        "aroggaId": 21282,
+        "kaggleContainerString": "Unit Price: ৳ 3,180.00",
+        "verificationNote": "Live MedEx explicitly confirms Roche Tarceva 150 mg tablet unit price = BDT 3,599.76, matching Arogga #27585 (Radiant distributor); DB '3' was comma-truncated from Kaggle '3,180.00'."
+      }
+    },
+    {
+      "packId": "52f60f70-bc36-4fce-81ae-5d5b0d1f4abc",
+      "brandId": "6a0d4f24-91b5-4a38-8b13-f7ed26062c89",
+      "sourceId": "29331",
+      "brandName": "Trepmac",
+      "genericName": "Brigatinib",
+      "strength": "90 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Genvio Pharma Ltd.",
+      "batchGroup": "BATCH_1A_COMMA_TRUNCATED_WEB_VERIFIED",
+      "packQuantity": null,
+      "packUnits": null,
+      "stripUnits": null,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": "3",
+      "oldPackPriceRaw": null,
+      "fieldsToUpdate": [
+        "unitPrice"
+      ],
+      "newUnitPrice": "1400.00",
+      "newPackPrice": null,
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/29331/trepmactablet90-mg",
+        "aroggaId": 42326,
+        "kaggleContainerString": "Unit Price: ৳ 3,000.00,(30's pack: ৳ 90,000.00),",
+        "verificationNote": "Live MedEx explicitly confirms Genvio Trepmac 90 mg tablet unit price = BDT 1,400.00 (10's strip 14,000, 30's box 42,000), matching Arogga #52572; DB '3' was comma-truncated from Kaggle '3,000.00'."
+      }
+    },
+    {
+      "packId": "f4e1b807-648e-4678-b08c-c510d076463f",
+      "brandId": "05f2361d-b34f-4ff8-88b4-0defe51b6312",
+      "sourceId": "31087",
+      "brandName": "Upanib",
+      "genericName": "Upadacitinib",
+      "strength": "15 mg",
+      "dosageForm": "Tablet (Extended Release)",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1B_WEB_VERIFIED_DELTA_2",
+      "packQuantity": null,
+      "packUnits": null,
+      "stripUnits": null,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": "280",
+      "oldPackPriceRaw": null,
+      "fieldsToUpdate": [
+        "unitPrice"
+      ],
+      "newUnitPrice": "120.00",
+      "newPackPrice": null,
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/31087/upanibtablet-extended-release15-mg",
+        "aroggaId": 33899,
+        "verificationNote": "Live MedEx confirms Ziska Upanib XR 15 mg = BDT 120.00/tab (1x10 = 1,200), matching Arogga #65414 (stock=1); DB '280' was artificial benchmark missed by P1 due to empty packQuantity."
+      }
+    },
+    {
+      "packId": "a5ba1abc-e01c-4545-9760-efd044bc76c0",
+      "brandId": "29775499-821b-49a5-9668-b4e3878390fe",
+      "sourceId": "36792",
+      "brandName": "Renesis",
+      "genericName": "Roxadustat",
+      "strength": "150 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "batchGroup": "BATCH_1B_WEB_VERIFIED_DELTA_2",
+      "packQuantity": "3's pack",
+      "packUnits": 3,
+      "stripUnits": 3,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": "350",
+      "oldPackPriceRaw": "1050",
+      "fieldsToUpdate": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "newUnitPrice": "800.00",
+      "newPackPrice": "2400.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/36792/renesis-150-mg-tablet",
+        "aroggaId": 83013,
+        "verificationNote": "Live MedEx confirms Beacon Renesis 150 mg = BDT 800.00/tab (strip/3's pack = BDT 2,400.00), matching Arogga #63628 (stock=1, pv_mrp=800); DB had stale 350/1050."
+      }
+    },
+    {
+      "packId": "c59cba3a-9d68-4469-add3-2e658f154328",
+      "brandId": "7a7855ba-bc82-43c5-9ed5-2d10551e76ff",
+      "sourceId": "13457",
+      "brandName": "Folate",
+      "genericName": "Folic Acid",
+      "strength": "5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1C_EXCLUDED_61_ROUNDING_VERIFIED_4",
+      "packQuantity": "100's pack",
+      "packUnits": 100,
+      "stripUnits": 10,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": "0.3",
+      "oldPackPriceRaw": "30",
+      "fieldsToUpdate": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "newUnitPrice": "0.34",
+      "newPackPrice": "34.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/13457/folate-5-mg-tablet",
+        "aroggaId": 79235,
+        "verificationNote": "Live MedEx Ad-din Folate 5 mg = BDT 0.34/tab (100's = 34.00), matching Arogga #79235 (stock=1). Fix excluded partial sync 0.30/34.00."
+      }
+    },
+    {
+      "packId": "a0c41d23-638d-4962-8b00-64d315251520",
+      "brandId": "a1fe43d1-119e-47a0-858a-a045a22527a8",
+      "sourceId": "30165",
+      "brandName": "GastroLax",
+      "genericName": "Ispaghula Husk + Ispaghula Seed + Tinnevelly Senna Pods",
+      "strength": "",
+      "dosageForm": "Effervescent Granules",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1C_EXCLUDED_61_ROUNDING_VERIFIED_4",
+      "packQuantity": "20's pack",
+      "packUnits": 20,
+      "stripUnits": null,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": "20",
+      "oldPackPriceRaw": "400",
+      "fieldsToUpdate": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "newUnitPrice": "25.00",
+      "newPackPrice": "500.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/30165/gastrolaxeffervescent-granules",
+        "aroggaId": 78911,
+        "verificationNote": "Live MedEx Incepta GastroLax = BDT 25.00/sachet (20's = 500.00), matching Arogga #78911. Fix excluded partial sync 20.00/500.00."
+      }
+    },
+    {
+      "packId": "566b57b1-6334-4031-a792-a376b437fbe5",
+      "brandId": "c2337ef1-c756-46c1-895a-aec4c51001e0",
+      "sourceId": "14802",
+      "brandName": "Neosaline",
+      "genericName": "Oral rehydration salt [glucose based]",
+      "strength": "10.25 gm",
+      "dosageForm": "Oral Powder",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1C_EXCLUDED_61_ROUNDING_VERIFIED_4",
+      "packQuantity": "20's pack",
+      "packUnits": 20,
+      "stripUnits": null,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": "5",
+      "oldPackPriceRaw": "100",
+      "fieldsToUpdate": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "newUnitPrice": "6.00",
+      "newPackPrice": "120.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/14802/neosaline-1025-gm-powder",
+        "aroggaId": 12759,
+        "verificationNote": "Live MedEx Neosaline 10.25 gm = BDT 6.00/sachet (20's = 120.00), matching Arogga #12759 (stock=1). Fix excluded partial sync 5.00/120.00."
+      }
+    },
+    {
+      "packId": "8cb3e37d-4d69-4684-91eb-1762f551b8df",
+      "brandId": "c2337ef1-c756-46c1-895a-aec4c51001e0",
+      "sourceId": "14802",
+      "brandName": "Neosaline",
+      "genericName": "Oral rehydration salt [glucose based]",
+      "strength": "10.25 gm",
+      "dosageForm": "Oral Powder",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "batchGroup": "BATCH_1C_EXCLUDED_61_ROUNDING_VERIFIED_4",
+      "packQuantity": "50's pack",
+      "packUnits": 50,
+      "stripUnits": null,
+      "currency": "BDT",
+      "verification": "UNVERIFIED",
+      "warnings": [],
+      "oldUnitPriceRaw": "5",
+      "oldPackPriceRaw": "250",
+      "fieldsToUpdate": [
+        "unitPrice",
+        "packPrice"
+      ],
+      "newUnitPrice": "6.00",
+      "newPackPrice": "300.00",
+      "evidence": {
+        "medexUrl": "https://medex.com.bd/brands/14802/neosaline-1025-gm-powder",
+        "aroggaId": 12759,
+        "verificationNote": "Live MedEx Neosaline 10.25 gm = BDT 6.00/sachet (50's = 300.00), matching Arogga #12759 (stock=1). Fix excluded partial sync 5.00/300.00."
+      }
+    }
+  ]
+}

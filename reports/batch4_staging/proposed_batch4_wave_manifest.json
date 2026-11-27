@@ -1,0 +1,1901 @@
+{
+  "generatedAt": "2026-11-25T11:49:45.673Z",
+  "status": "STAGED_READ_ONLY_NOT_EXECUTED",
+  "summary": {
+    "subbatch4A_zeroPackInserts_count": 4,
+    "subbatch4A_optionalDuplicateSibling_count": 1,
+    "heldZeroPack_count": 3,
+    "subbatch4B_unblockedRem187_count": 9,
+    "excluded4B_falsePositives_count": 4,
+    "subbatch4C_verifyReq55Repairs_count": 48,
+    "heldVerifyReq55_count": 6,
+    "totalCoreWritesStaged": 61,
+    "totalWithOptionalSalmolin": 62,
+    "staleWarningsClearedAlongsideFixes": 49
+  },
+  "subbatch4A_zeroPackInserts": [
+    {
+      "brandId": "7e49331f-af2b-4612-945d-1dd6b7299306",
+      "sourceId": "32382",
+      "brandName": "Serivan",
+      "strength": "34 mg",
+      "dosageForm": "Capsule",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "sourceUrl": "https://medex.com.bd/brands/32382/serivancapsule34-mg",
+      "proposedInsert": {
+        "packQuantity": "3 x 6",
+        "packUnits": 18,
+        "stripUnits": 6,
+        "unitPrice": "40.00",
+        "packPrice": "720.00",
+        "currency": "BDT",
+        "unitPriceLabel": null,
+        "priceSource": "brand_page",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "evidence": "MedEx search: Unit Price ৳40.00 (3 x 6 capsules: ৳720.00) == Arogga #75914 (pv_mrp=40, Strip 6, Box 18)"
+    },
+    {
+      "brandId": "778cbd03-96cc-4ce6-88e6-a1a1225e879e",
+      "sourceId": "33171",
+      "brandName": "Twincard",
+      "strength": "50 mg+25 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "sourceUrl": "https://medex.com.bd/brands/33171/twincardtablet50-mg25-mg",
+      "proposedInsert": {
+        "packQuantity": "5 x 10",
+        "packUnits": 50,
+        "stripUnits": 10,
+        "unitPrice": "5.00",
+        "packPrice": "250.00",
+        "currency": "BDT",
+        "unitPriceLabel": null,
+        "priceSource": "brand_page",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "evidence": "MedEx search: Unit Price ৳5.00 (5 x 10: ৳250.00) == Arogga #38460 (pv_mrp=5, Strip 10, Box 50)"
+    },
+    {
+      "brandId": "7154e9e3-20f7-40d0-aa6b-dfb0c70c6a6b",
+      "sourceId": "32469",
+      "brandName": "Uroblock",
+      "strength": "25 mg",
+      "dosageForm": "Tablet (Extended Release)",
+      "manufacturer": "Nuvista Pharma Ltd.",
+      "sourceUrl": "https://medex.com.bd/brands/32469/uroblocktablet-extended-release25-mg",
+      "proposedInsert": {
+        "packQuantity": "2 x 10",
+        "packUnits": 20,
+        "stripUnits": 10,
+        "unitPrice": "30.00",
+        "packPrice": "600.00",
+        "currency": "BDT",
+        "unitPriceLabel": null,
+        "priceSource": "brand_page",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "evidence": "MedEx search: Unit Price ৳30.00 (2 x 10: ৳600.00) == Arogga #67878 (pv_mrp=30, Strip 10, Box 20)"
+    },
+    {
+      "brandId": "3f0715f5-9ff0-4b69-b2b7-c5cb6b080c1e",
+      "sourceId": "32470",
+      "brandName": "Uroblock",
+      "strength": "50 mg",
+      "dosageForm": "Tablet (Extended Release)",
+      "manufacturer": "Nuvista Pharma Ltd.",
+      "sourceUrl": "https://medex.com.bd/brands/32470/uroblocktablet-extended-release50-mg",
+      "proposedInsert": {
+        "packQuantity": "1 x 10",
+        "packUnits": 10,
+        "stripUnits": 10,
+        "unitPrice": "55.00",
+        "packPrice": "550.00",
+        "currency": "BDT",
+        "unitPriceLabel": null,
+        "priceSource": "brand_page",
+        "verification": "UNVERIFIED",
+        "warnings": []
+      },
+      "evidence": "MedEx search: Unit Price ৳55.00 / Strip Price ৳550.00 (1 x 10) == Arogga #67885 (pv_mrp=55, Box 10)"
+    }
+  ],
+  "optional4A_duplicateSiblingInhaler": {
+    "brandId": "97b8bf53-48f7-47fa-9696-7085419dbeb8",
+    "sourceId": "32420",
+    "duplicateSiblingBrandId": "b002bbcd-5e82-4755-9b6d-36a5cfdf809c",
+    "duplicateSiblingSourceId": "3505",
+    "brandName": "Salmolin",
+    "strength": "100 mcg/puff",
+    "dosageForm": "Inhaler",
+    "manufacturer": "ACME Laboratories Ltd.",
+    "proposedInsert": {
+      "packQuantity": "200 metered doses (Refill)",
+      "packUnits": null,
+      "stripUnits": null,
+      "unitPrice": null,
+      "packPrice": "200.00"
+    },
+    "note": "Sibling sid=3505 already holds 200 metered doses @ ৳230.00; sid=32420 corresponds to Kaggle/MedEx Refill @ ৳200.00 (exact twin pattern of Sultolin #3514).",
+    "sourceUrl": "https://medex.com.bd/brands/32420/salmolininhaler100-mcgpuff",
+    "duplicateSiblingExistingPacks": [
+      {
+        "id": "c81711ba-7a02-4c6e-9371-af398a8aeff9",
+        "packQuantity": "200 metered doses",
+        "packPrice": "230"
+      }
+    ]
+  },
+  "heldZeroPack": [
+    {
+      "brandId": "e1d1a2d9-3231-4949-8fcf-e5731ae8a8a3",
+      "sourceId": "33089",
+      "brandName": "Nilonib 200 mg Capsule",
+      "manufacturer": "Drug International Ltd.",
+      "reason": "Arogga #39689 (stock=0, pv_mrp=800, Box=30) agrees on ৳800/cap, but exact live MedEx Nilonib box format (e.g. 3 x 10 vs 1 x 10) was not directly confirmed in search snippets."
+    },
+    {
+      "brandId": "05a01101-1caf-43b9-9af1-c5078f11fb28",
+      "sourceId": "15433",
+      "brandName": "Ketoseem 10 mg Tablet",
+      "manufacturer": "Seema Pharmaceuticals Ltd.",
+      "reason": "Discontinued/inactive Seema SKU (Arogga #9954 stock=0, retail ~৳9.09-10.00) with no confirmed live MedEx pricing snippet."
+    },
+    {
+      "brandId": "3b9ec6d6-1481-49e0-be02-cd7f09e4cdd1",
+      "sourceId": "33091",
+      "brandName": "Prostalex 250 mg Tablet",
+      "manufacturer": "Beacon Pharmaceuticals Ltd.",
+      "reason": "MedEx has no fixed MRP; Arogga #15574 has dummy pv_mrp=1 (stock=0). Held permanently unless fixed MRP is published."
+    }
+  ],
+  "subbatch4B_unblockedRem187Fixes": [
+    {
+      "packId": "b58a18f0-4f1d-4662-b2aa-3fb2936ee9c0",
+      "brandId": "d229a1bd-e059-45e1-b6d8-050b51e8f1f0",
+      "sourceId": "38961",
+      "brandName": "Atofix",
+      "strength": "0.3% w/w",
+      "dosageForm": "Ointment",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "subKind": "SAME_BOX",
+      "evidence": "MedEx search & Arogga #87411: 10 gm tube = ৳350.00 (was 50.19).",
+      "currentValues": {
+        "packQuantity": "10 gm tube",
+        "packUnits": null,
+        "stripUnits": null,
+        "unitPrice": null,
+        "packPrice": "50.19",
+        "warnings": []
+      },
+      "proposedValues": {
+        "packPrice": "350.00"
+      },
+      "clearsStaleInconsistentWarning": false
+    },
+    {
+      "packId": "8e2bcc54-0236-4c01-907f-8edbcbf6cfb3",
+      "brandId": "f77cc0b8-be6c-4d04-8b07-9d0767b61afb",
+      "sourceId": "37896",
+      "brandName": "Demelon",
+      "strength": "4.5 mg",
+      "dosageForm": "Capsule",
+      "manufacturer": "UniMed UniHealth Pharmaceuticals Ltd.",
+      "subKind": "SAME_BOX",
+      "evidence": "MedEx search & Arogga #80148: Unit Price ৳40.00 (4 x 7: ৳1,120.00, strip ৳280.00); was 92.78/2237.68.",
+      "currentValues": {
+        "packQuantity": "28's pack",
+        "packUnits": 28,
+        "stripUnits": 7,
+        "unitPrice": "92.78",
+        "packPrice": "2237.68",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "4 x 7",
+        "packUnits": 28,
+        "stripUnits": 7,
+        "unitPrice": "40.00",
+        "packPrice": "1120.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "99d14317-7de9-4c44-a32b-2c3e570cb83c",
+      "brandId": "c46fb02c-bab2-4daf-8407-b86ef77ef616",
+      "sourceId": "35623",
+      "brandName": "Apremig ODT",
+      "strength": "75 mg",
+      "dosageForm": "Dispersible Tablet",
+      "manufacturer": "ACI Limited",
+      "subKind": "PACK_MIGRATION",
+      "evidence": "MedEx search & Arogga #53345: Unit Price ৳150.00 (2 x 4: ৳1,200.00); was 30s 8.00/270.00.",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "8",
+        "packPrice": "270",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "2 x 4",
+        "packUnits": 8,
+        "stripUnits": 4,
+        "unitPrice": "150.00",
+        "packPrice": "1200.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "dd4a3751-e2e0-42ea-88a4-63aa0a7dce6a",
+      "brandId": "cdd0065a-3bdf-495f-a960-931114b8f6f6",
+      "sourceId": "36257",
+      "brandName": "Annova",
+      "strength": "500 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "subKind": "PACK_MIGRATION",
+      "evidence": "MedEx search & Arogga #60666: Unit Price ৳16.00 (5 x 10: ৳800.00); was 30s 7.52/255.06.",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 10,
+        "unitPrice": "7.52",
+        "packPrice": "255.06",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "5 x 10",
+        "packUnits": 50,
+        "stripUnits": 10,
+        "unitPrice": "16.00",
+        "packPrice": "800.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "1e48fd6c-7e57-44fd-8c7e-695c0779bce6",
+      "brandId": "ebf0ecb7-902c-4442-b3e6-599b3e15a5e4",
+      "sourceId": "34738",
+      "brandName": "Lura",
+      "strength": "80 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Renata PLC",
+      "subKind": "PACK_MIGRATION",
+      "evidence": "MedEx search & Arogga #40285: Unit Price ৳70.00 (1 x 10: ৳700.00); was 30s 27.50/600.00.",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": null,
+        "unitPrice": "27.5",
+        "packPrice": "600",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "1 x 10",
+        "packUnits": 10,
+        "stripUnits": 10,
+        "unitPrice": "70.00",
+        "packPrice": "700.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "cab20abf-09a2-4ca0-b3e7-a161f1b871f0",
+      "brandId": "f77b33ae-75cf-4b16-8322-8d501e1977e3",
+      "sourceId": "34739",
+      "brandName": "Lura",
+      "strength": "120 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Renata PLC",
+      "subKind": "PACK_MIGRATION",
+      "evidence": "MedEx search & Arogga #40286: Unit Price ৳95.00 (2 x 6: ৳1,140.00); was 30s 27.50/600.00.",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 6,
+        "unitPrice": "27.5",
+        "packPrice": "600",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "2 x 6",
+        "packUnits": 12,
+        "stripUnits": 6,
+        "unitPrice": "95.00",
+        "packPrice": "1140.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "218da6dc-e2ff-4b10-ba0c-17a49dbc6e66",
+      "brandId": "ecbba1bc-5e6f-4cc4-bf72-e204ca81c059",
+      "sourceId": "39391",
+      "brandName": "Coxitor",
+      "strength": "30 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "subKind": "PACK_MIGRATION",
+      "evidence": "MedEx search & Arogga #91778: Unit Price ৳4.00 (5 x 10: ৳200.00); was 30s 12.00/280.00.",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 10,
+        "unitPrice": "12",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "5 x 10",
+        "packUnits": 50,
+        "stripUnits": 10,
+        "unitPrice": "4.00",
+        "packPrice": "200.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "0f608bc6-c7c9-4ba5-a70d-be34ab3a4ebe",
+      "brandId": "f005e7be-ed8f-419d-9fcc-71c2c360f008",
+      "sourceId": "34202",
+      "brandName": "Progel",
+      "strength": "8%",
+      "dosageForm": "Vaginal Gel",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "subKind": "PACK_MIGRATION",
+      "evidence": "MedEx search & Arogga #44421: 22.5 gm tube & applicator = ৳500.00; replaces bogus 15s pack 339.00/5085.00.",
+      "currentValues": {
+        "packQuantity": "15's pack",
+        "packUnits": 15,
+        "stripUnits": null,
+        "unitPrice": "339",
+        "packPrice": "5085",
+        "warnings": []
+      },
+      "proposedValues": {
+        "packQuantity": "22.5 gm tube & applicator",
+        "packUnits": null,
+        "stripUnits": null,
+        "unitPrice": null,
+        "packPrice": "500.00"
+      },
+      "clearsStaleInconsistentWarning": false
+    },
+    {
+      "packId": "a7b3a3b4-836a-4c28-8ce3-f68648f58d3b",
+      "brandId": "f8296524-4848-4b67-958c-3de7522f95b1",
+      "sourceId": "39514",
+      "brandName": "Calfix Plus EF",
+      "strength": null,
+      "dosageForm": "Effervescent Tablet",
+      "manufacturer": "OSL Pharma Limited",
+      "subKind": "PACK_MIGRATION",
+      "evidence": "MedEx search & Arogga #98322: Unit Price ৳15.00 (1 x 14: ৳210.00); was 10s 20.00/200.00.",
+      "currentValues": {
+        "packQuantity": "10's pack",
+        "packUnits": 10,
+        "stripUnits": null,
+        "unitPrice": "20",
+        "packPrice": "200",
+        "warnings": []
+      },
+      "proposedValues": {
+        "packQuantity": "1 x 14",
+        "packUnits": 14,
+        "stripUnits": 14,
+        "unitPrice": "15.00",
+        "packPrice": "210.00"
+      },
+      "clearsStaleInconsistentWarning": false
+    }
+  ],
+  "excludedRem187FalsePositives": [
+    {
+      "packId": "32905c0c-6092-4c3f-a267-2fdfd6e83462",
+      "name": "Laxadil 3.5 gm/sachet",
+      "reason": "DB (15s pack, 105.00) already matches MedEx (3.5 gm sachet: ৳7.00, 15s pack: ৳105.00)."
+    },
+    {
+      "packId": "08a04776-3cf2-41fe-abdf-c082dbf3a472",
+      "name": "Renova 500 mg",
+      "reason": "DB (8.03/80.30) already matches MedEx (2 x 5: ৳80.30); Arogga had strip=5 b2c_mrp=80.6."
+    },
+    {
+      "packId": "f8045f67-d604-406b-a12e-efa67fb1db26",
+      "name": "Renova 250 mg",
+      "reason": "DB (5.02/50.20) already matches MedEx (2 x 5: ৳50.20)."
+    },
+    {
+      "packId": "5215fcf7-ab62-4e03-a3bf-c9e97becd543",
+      "name": "Fast 250 mg",
+      "reason": "DB (5.03/50.30) already matches MedEx (2 x 5: ৳50.30)."
+    }
+  ],
+  "subbatch4C_verifyReq55StripAndPriceRepairs": [
+    {
+      "packId": "087c47ac-1575-4761-9e66-730ceb7c0986",
+      "brandId": "4db00012-3a5a-44f8-96d4-ead1fdf58ba2",
+      "sourceId": "1668",
+      "brandName": "Famotid",
+      "strength": "40 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Drug International Ltd.",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳5.00 (4 x 14: ৳280.00)",
+      "currentValues": {
+        "packQuantity": "100's pack",
+        "packUnits": 100,
+        "stripUnits": 14,
+        "unitPrice": null,
+        "packPrice": "400",
+        "warnings": []
+      },
+      "proposedValues": {
+        "packQuantity": "4 x 14",
+        "packUnits": 56,
+        "stripUnits": 14,
+        "unitPrice": "5.00",
+        "packPrice": "280.00"
+      },
+      "clearsStaleInconsistentWarning": false
+    },
+    {
+      "packId": "d5e4d403-a00c-42ca-adea-cec447f77197",
+      "brandId": "64297628-9f8b-4b3b-a32d-6518d3ed29ff",
+      "sourceId": "2041",
+      "brandName": "Esoprol",
+      "strength": "20 mg",
+      "dosageForm": "Capsule (Enteric Coated)",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳5.00 (6 x 10: ৳300.00)",
+      "currentValues": {
+        "packQuantity": "56's pack",
+        "packUnits": 56,
+        "stripUnits": 10,
+        "unitPrice": null,
+        "packPrice": "280",
+        "warnings": []
+      },
+      "proposedValues": {
+        "packQuantity": "6 x 10",
+        "packUnits": 60,
+        "stripUnits": 10,
+        "unitPrice": "5.00",
+        "packPrice": "300.00"
+      },
+      "clearsStaleInconsistentWarning": false
+    },
+    {
+      "packId": "32827cef-d04e-451b-9d23-335afb6f1184",
+      "brandId": "1502ad42-9255-451d-ab14-2e8a89a9e141",
+      "sourceId": "3097",
+      "brandName": "Exforge",
+      "strength": "5 mg+80 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Nevian Lifescience PLC",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳50.50 (2 x 14: ৳1414.00)",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 14,
+        "unitPrice": "8",
+        "packPrice": "270.45",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "2 x 14",
+        "packUnits": 28,
+        "stripUnits": 14,
+        "unitPrice": "50.50",
+        "packPrice": "1414.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "db345387-0a04-4bee-95be-6b6c8af3b151",
+      "brandId": "8d1bf2a3-958f-4cbc-bf68-7f469b06c07d",
+      "sourceId": "33738",
+      "brandName": "Renolina",
+      "strength": "5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳22.00 (3 x 7: ৳462.00)",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 7,
+        "unitPrice": "18",
+        "packPrice": "450",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "3 x 7",
+        "packUnits": 21,
+        "stripUnits": 7,
+        "unitPrice": "22.00",
+        "packPrice": "462.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "967d03b7-39b1-4734-8675-df86f14348f4",
+      "brandId": "432dd454-dc43-4540-8865-393e11ec9103",
+      "sourceId": "33785",
+      "brandName": "Cefix",
+      "strength": "200 mg",
+      "dosageForm": "Capsule",
+      "manufacturer": "Globe Pharmaceuticals Ltd.",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳35.00 (2 x 6: ৳420.00)",
+      "currentValues": {
+        "packQuantity": "8's pack",
+        "packUnits": 8,
+        "stripUnits": 6,
+        "unitPrice": null,
+        "packPrice": "200",
+        "warnings": []
+      },
+      "proposedValues": {
+        "packQuantity": "2 x 6",
+        "packUnits": 12,
+        "stripUnits": 6,
+        "unitPrice": "35.00",
+        "packPrice": "420.00"
+      },
+      "clearsStaleInconsistentWarning": false
+    },
+    {
+      "packId": "e23069c1-be0a-4951-b8ab-9140e78fd487",
+      "brandId": "54482c0a-f752-4696-9c3d-76972953e21b",
+      "sourceId": "34453",
+      "brandName": "Orili",
+      "strength": "150 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Square Pharmaceuticals PLC",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳170.00 (2 x 6: ৳2040.00)",
+      "currentValues": {
+        "packQuantity": "10's pack",
+        "packUnits": 10,
+        "stripUnits": 6,
+        "unitPrice": "170",
+        "packPrice": "1870",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "2 x 6",
+        "packUnits": 12,
+        "stripUnits": 6,
+        "unitPrice": "170.00",
+        "packPrice": "2040.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "19a862ed-aa3c-424e-bc96-5641885862ad",
+      "brandId": "00de180b-3d2a-4790-be03-d8c3ef94cb5f",
+      "sourceId": "34719",
+      "brandName": "Nictoris",
+      "strength": "5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳3.50 (3 x 14: ৳147.00)",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 14,
+        "unitPrice": "6",
+        "packPrice": "216",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "3 x 14",
+        "packUnits": 42,
+        "stripUnits": 14,
+        "unitPrice": "3.50",
+        "packPrice": "147.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "32b4b4f2-d990-4b77-88c8-c5efaaac6173",
+      "brandId": "a0cee3f4-0696-4b1c-aa33-a99e572ca20a",
+      "sourceId": "34751",
+      "brandName": "Presnor",
+      "strength": "20 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "DBL Pharmaceuticals Ltd.",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳9.00 (5 x 7: ৳315.00)",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 7,
+        "unitPrice": "8.03",
+        "packPrice": "270",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "5 x 7",
+        "packUnits": 35,
+        "stripUnits": 7,
+        "unitPrice": "9.00",
+        "packPrice": "315.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "10ea2d92-e32a-4a54-b6d0-6f36384643da",
+      "brandId": "e4af3866-dc0c-46d1-a7e6-b357d4572d3c",
+      "sourceId": "35017",
+      "brandName": "Exelon",
+      "strength": "6 mg",
+      "dosageForm": "Capsule",
+      "manufacturer": "Nevian Lifescience PLC",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳150.00 (2 x 14: ৳4200.00)",
+      "currentValues": {
+        "packQuantity": "60's pack",
+        "packUnits": 60,
+        "stripUnits": 14,
+        "unitPrice": null,
+        "packPrice": "6420",
+        "warnings": []
+      },
+      "proposedValues": {
+        "packQuantity": "2 x 14",
+        "packUnits": 28,
+        "stripUnits": 14,
+        "unitPrice": "150.00",
+        "packPrice": "4200.00"
+      },
+      "clearsStaleInconsistentWarning": false
+    },
+    {
+      "packId": "416c46d1-cdf2-4189-95cc-f7d5d2e1929f",
+      "brandId": "2f4c3427-fd56-4303-bc81-65f58df29d41",
+      "sourceId": "35149",
+      "brandName": "Ferromax",
+      "strength": "30 mg",
+      "dosageForm": "Capsule",
+      "manufacturer": "ACI Limited",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳11.00 (4 x 8: ৳352.00)",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 8,
+        "unitPrice": "12.04",
+        "packPrice": "300.48",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "4 x 8",
+        "packUnits": 32,
+        "stripUnits": 8,
+        "unitPrice": "11.00",
+        "packPrice": "352.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "1595651b-8556-48cd-ad5e-35c8c1d1d81d",
+      "brandId": "70c660f6-4017-4107-b04c-d75ff8fc6d34",
+      "sourceId": "35524",
+      "brandName": "Prelica CR",
+      "strength": "165 mg",
+      "dosageForm": "Tablet (Controlled Release)",
+      "manufacturer": "Radiant Pharmaceuticals Ltd.",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳35.00 (5 x 6: ৳1050.00)",
+      "currentValues": {
+        "packQuantity": "20's pack",
+        "packUnits": 20,
+        "stripUnits": 6,
+        "unitPrice": "35",
+        "packPrice": "875",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "5 x 6",
+        "packUnits": 30,
+        "stripUnits": 6,
+        "unitPrice": "35.00",
+        "packPrice": "1050.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "e0af96ec-cf5c-41ea-8b23-5112afa9af03",
+      "brandId": "edbf0644-d2c4-4dff-8796-51771ca9f462",
+      "sourceId": "35558",
+      "brandName": "Dementa XR",
+      "strength": "14 mg",
+      "dosageForm": "Capsule (Extended Release)",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳20.00 (4 x 8: ৳640.00)",
+      "currentValues": {
+        "packQuantity": "20's pack",
+        "packUnits": 20,
+        "stripUnits": 8,
+        "unitPrice": "18",
+        "packPrice": "480",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "4 x 8",
+        "packUnits": 32,
+        "stripUnits": 8,
+        "unitPrice": "20.00",
+        "packPrice": "640.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "cffbe689-2d26-42d7-996c-3aea2572046c",
+      "brandId": "67064b06-bc1d-4e44-8a09-e08d7c3ef14a",
+      "sourceId": "35646",
+      "brandName": "Disoral",
+      "strength": "300 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Drug International Ltd.",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳3.00 (3 x 14: ৳126.00)",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 14,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "3 x 14",
+        "packUnits": 42,
+        "stripUnits": 14,
+        "unitPrice": "3.00",
+        "packPrice": "126.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "b57aec03-22c7-4850-8649-70c31cfbc601",
+      "brandId": "c2201304-d0a7-4ef0-a0d0-5bca30475c69",
+      "sourceId": "36259",
+      "brandName": "Neopem",
+      "strength": "200 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳95.00 (5 x 4: ৳1900.00)",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 4,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "5 x 4",
+        "packUnits": 20,
+        "stripUnits": 4,
+        "unitPrice": "95.00",
+        "packPrice": "1900.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "18215358-eef4-470f-b807-1ceb95bb7dde",
+      "brandId": "98f376b4-06ca-4388-ae14-3e209741108a",
+      "sourceId": "36258",
+      "brandName": "Neopem",
+      "strength": "150 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beximco Pharmaceuticals Ltd.",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳75.00 (5 x 4: ৳1500.00)",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 4,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "5 x 4",
+        "packUnits": 20,
+        "stripUnits": 4,
+        "unitPrice": "75.00",
+        "packPrice": "1500.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "88e52ba0-0409-499e-996d-cda81b6b9892",
+      "brandId": "585634a2-0c61-4397-b5fa-1e8fc02f15aa",
+      "sourceId": "36361",
+      "brandName": "Fortimox",
+      "strength": "500 mg+125 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Kumudini Pharma Ltd.",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳32.00 (5 x 4: ৳640.00)",
+      "currentValues": {
+        "packQuantity": "18's pack",
+        "packUnits": 18,
+        "stripUnits": 4,
+        "unitPrice": "30",
+        "packPrice": "500",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "5 x 4",
+        "packUnits": 20,
+        "stripUnits": 4,
+        "unitPrice": "32.00",
+        "packPrice": "640.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "7f68d2e7-8167-4843-9101-3194f5882441",
+      "brandId": "e24a2f95-f4cd-4a5d-be44-66882dbec497",
+      "sourceId": "36569",
+      "brandName": "Neurolife",
+      "strength": "10 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Pharmasia Limited",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳32.00 (1 x 14: ৳448.00)",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 14,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "1 x 14",
+        "packUnits": 14,
+        "stripUnits": 14,
+        "unitPrice": "32.00",
+        "packPrice": "448.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "85ca35bb-2a33-4889-b9e0-f39e5f27cd2f",
+      "brandId": "a4212087-a058-4aa5-abee-8e00f568ccf9",
+      "sourceId": "36568",
+      "brandName": "Neurolife",
+      "strength": "5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Pharmasia Limited",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳18.00 (2 x 14: ৳504.00)",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 14,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "2 x 14",
+        "packUnits": 28,
+        "stripUnits": 14,
+        "unitPrice": "18.00",
+        "packPrice": "504.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "1953e1ac-5356-4072-bc93-9024a22ad50e",
+      "brandId": "1b1740c6-e4b0-4580-a4ec-04cfb6f8a1ba",
+      "sourceId": "37075",
+      "brandName": "Leveron XR",
+      "strength": "750 mg",
+      "dosageForm": "Tablet (Extended Release)",
+      "manufacturer": "Synovia Pharma PLC.",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳38.00 (2 x 6: ৳456.00)",
+      "currentValues": {
+        "packQuantity": "20's pack",
+        "packUnits": 20,
+        "stripUnits": 6,
+        "unitPrice": "37.5",
+        "packPrice": "610",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "2 x 6",
+        "packUnits": 12,
+        "stripUnits": 6,
+        "unitPrice": "38.00",
+        "packPrice": "456.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "0b09e6a7-77c6-4410-bd40-cffab1d7a4eb",
+      "brandId": "ab73b57b-0cf0-49e4-a965-5b7f1892454a",
+      "sourceId": "37107",
+      "brandName": "Farpem",
+      "strength": "150 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Synovia Pharma PLC.",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳75.00 (3 x 4: ৳900.00)",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 4,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "3 x 4",
+        "packUnits": 12,
+        "stripUnits": 4,
+        "unitPrice": "75.00",
+        "packPrice": "900.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "f921f67e-0348-42b7-a9e1-fdd9c9b30c73",
+      "brandId": "9cc838c4-3a14-499d-a7d4-b5b075441616",
+      "sourceId": "37287",
+      "brandName": "Rivadem",
+      "strength": "3 mg",
+      "dosageForm": "Capsule",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳40.00 (2 x 10: ৳800.00)",
+      "currentValues": {
+        "packQuantity": "28's pack",
+        "packUnits": 28,
+        "stripUnits": 10,
+        "unitPrice": "40",
+        "packPrice": "840",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "2 x 10",
+        "packUnits": 20,
+        "stripUnits": 10,
+        "unitPrice": "40.00",
+        "packPrice": "800.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "628c2a86-6724-415b-a857-ce244bc49ad0",
+      "brandId": "7fd1349b-1791-470e-899d-6973c7e266a3",
+      "sourceId": "37427",
+      "brandName": "Othera",
+      "strength": "20 mg",
+      "dosageForm": "Capsule (Delayed Release)",
+      "manufacturer": "ACI Limited",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳11.00 (6 x 10: ৳660.00)",
+      "currentValues": {
+        "packQuantity": "18's pack",
+        "packUnits": 18,
+        "stripUnits": 10,
+        "unitPrice": "7.07",
+        "packPrice": "288",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "6 x 10",
+        "packUnits": 60,
+        "stripUnits": 10,
+        "unitPrice": "11.00",
+        "packPrice": "660.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "d38f32bd-9fa8-4ec3-8504-187d723af744",
+      "brandId": "6ababe4a-9246-444e-bb69-1f8305f006d9",
+      "sourceId": "37592",
+      "brandName": "Bislol",
+      "strength": "7.5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳16.00 (3 x 14: ৳672.00)",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 14,
+        "unitPrice": "9",
+        "packPrice": "290",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "3 x 14",
+        "packUnits": 42,
+        "stripUnits": 14,
+        "unitPrice": "16.00",
+        "packPrice": "672.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "540d3d6a-1b1d-4398-9f19-c59b1c2d1ba9",
+      "brandId": "98d2a946-fc36-4c69-8bda-aa0d11c3bff9",
+      "sourceId": "37603",
+      "brandName": "Lyric CR",
+      "strength": "165 mg",
+      "dosageForm": "Tablet (Controlled Release)",
+      "manufacturer": "Healthcare Pharmaceuticals Ltd.",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳35.00 (3 x 6: ৳630.00)",
+      "currentValues": {
+        "packQuantity": "20's pack",
+        "packUnits": 20,
+        "stripUnits": 6,
+        "unitPrice": "35",
+        "packPrice": "875",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "3 x 6",
+        "packUnits": 18,
+        "stripUnits": 6,
+        "unitPrice": "35.00",
+        "packPrice": "630.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "28c24c78-27b4-4b9c-aeac-6cd5b05bb12e",
+      "brandId": "5e5cf2fc-1e4c-4161-ae80-bd7f4482f7d6",
+      "sourceId": "38258",
+      "brandName": "Orfanem",
+      "strength": "200 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳95.00 (2 x 7: ৳1330.00)",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 7,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "2 x 7",
+        "packUnits": 14,
+        "stripUnits": 7,
+        "unitPrice": "95.00",
+        "packPrice": "1330.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "62918224-3d5f-4033-86bf-32cdf65e3b11",
+      "brandId": "d347bff0-066c-4186-8a3f-a6155f33124a",
+      "sourceId": "39160",
+      "brandName": "Itored",
+      "strength": "50 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳6.00 (3 x 14: ৳252.00)",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 14,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "3 x 14",
+        "packUnits": 42,
+        "stripUnits": 14,
+        "unitPrice": "6.00",
+        "packPrice": "252.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "d19d9984-1d2f-4e24-9e39-7bd0e447cd00",
+      "brandId": "bb350345-cf97-4156-9baf-6cd250efa718",
+      "sourceId": "39176",
+      "brandName": "Miragaba",
+      "strength": "2.5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "OSL Pharma Limited",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳12.00 (2 x 14: ৳336.00)",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 14,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "2 x 14",
+        "packUnits": 28,
+        "stripUnits": 14,
+        "unitPrice": "12.00",
+        "packPrice": "336.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "a5a8ad5c-e878-4149-be76-bf862110ead2",
+      "brandId": "76b92073-460f-4ff6-9bec-59bb4fc7e53b",
+      "sourceId": "39177",
+      "brandName": "Miragaba",
+      "strength": "5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "OSL Pharma Limited",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳20.00 (2 x 14: ৳560.00)",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 14,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "2 x 14",
+        "packUnits": 28,
+        "stripUnits": 14,
+        "unitPrice": "20.00",
+        "packPrice": "560.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "a13cfd18-c8f9-4fd3-b233-62411d8a8941",
+      "brandId": "460e5478-1745-4eb6-ab3f-8dd93fa15d2e",
+      "sourceId": "39303",
+      "brandName": "Nemotis",
+      "strength": "200 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "ACI Limited",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳95.00 (3 x 4: ৳1140.00)",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 4,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "3 x 4",
+        "packUnits": 12,
+        "stripUnits": 4,
+        "unitPrice": "95.00",
+        "packPrice": "1140.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "8cb0caab-3a8d-4a3c-baad-56b9bd62ebfe",
+      "brandId": "2bbfdd8c-7b62-4a02-bfcc-b2c5fb1b9b4c",
+      "sourceId": "39302",
+      "brandName": "Nemotis",
+      "strength": "150 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "ACI Limited",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳75.00 (3 x 4: ৳900.00)",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 4,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "3 x 4",
+        "packUnits": 12,
+        "stripUnits": 4,
+        "unitPrice": "75.00",
+        "packPrice": "900.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "9de01de7-2a47-46e2-9cb0-32f275c272e8",
+      "brandId": "cecc48e6-020e-4e70-b1df-f08c672a373a",
+      "sourceId": "33531",
+      "brandName": "Belsar",
+      "strength": "10 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳6.00 (4 x 7: ৳168.00)",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 7,
+        "unitPrice": "5.02",
+        "packPrice": "178.5",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "4 x 7",
+        "packUnits": 28,
+        "stripUnits": 7,
+        "unitPrice": "6.00",
+        "packPrice": "168.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "ccf1e970-e480-42c6-a7d4-bfedf71d11ca",
+      "brandId": "abfcfd91-c9c0-450e-ac7e-fadf5e85c262",
+      "sourceId": "34511",
+      "brandName": "Denbac",
+      "strength": "50 mg",
+      "dosageForm": "Capsule",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳15.00 (3 x 10: ৳450.00)",
+      "currentValues": {
+        "packQuantity": "24's pack",
+        "packUnits": 24,
+        "stripUnits": 10,
+        "unitPrice": "15",
+        "packPrice": "330",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "3 x 10",
+        "packUnits": 30,
+        "stripUnits": 10,
+        "unitPrice": "15.00",
+        "packPrice": "450.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "fa256ddb-68ed-404f-8abd-59eed2c95376",
+      "brandId": "a4882dc8-33b1-4b94-9235-f7d9fcd3b912",
+      "sourceId": "34380",
+      "brandName": "Merol-A",
+      "strength": "160 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Jenphar Bangladesh Ltd.",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳90.00 (3 x 8: ৳2160.00)",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 8,
+        "unitPrice": "80",
+        "packPrice": "2250",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "3 x 8",
+        "packUnits": 24,
+        "stripUnits": 8,
+        "unitPrice": "90.00",
+        "packPrice": "2160.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "ba4c3ff6-3fe4-475e-b66e-5b8e6e54e638",
+      "brandId": "273924ad-4352-4183-877f-c8912e8ac56e",
+      "sourceId": "34836",
+      "brandName": "Glipxen-M",
+      "strength": "2.5 mg+850 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳14.00 (4 x 7: ৳392.00)",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 7,
+        "unitPrice": "14",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "4 x 7",
+        "packUnits": 28,
+        "stripUnits": 7,
+        "unitPrice": "14.00",
+        "packPrice": "392.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "d41ec141-ea52-4e70-bbb2-c9702adffbf9",
+      "brandId": "2b76e096-91f0-4983-b334-cc641321b75e",
+      "sourceId": "35348",
+      "brandName": "Daprosis",
+      "strength": "6 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beacon Pharmaceuticals PLC",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳200.00 (2 x 7: ৳2800.00)",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 7,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "2 x 7",
+        "packUnits": 14,
+        "stripUnits": 7,
+        "unitPrice": "200.00",
+        "packPrice": "2800.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "9caf3757-cbdf-4aa0-bba8-d966911e5e63",
+      "brandId": "813c1d23-eafb-4be7-adc1-5d05bc976f93",
+      "sourceId": "36128",
+      "brandName": "Evoxil CV",
+      "strength": "500 mg+125 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Pharmasia Limited",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳32.00 (4 x 5: ৳640.00)",
+      "currentValues": {
+        "packQuantity": "18's pack",
+        "packUnits": 18,
+        "stripUnits": 5,
+        "unitPrice": "30",
+        "packPrice": "500",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "4 x 5",
+        "packUnits": 20,
+        "stripUnits": 5,
+        "unitPrice": "32.00",
+        "packPrice": "640.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "356673b7-d109-4ead-ad83-0ccd2a44f8dd",
+      "brandId": "8883ca88-b8a3-426d-9dc0-5e15845d9840",
+      "sourceId": "36570",
+      "brandName": "Co-Clav",
+      "strength": "500 mg+125 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳32.00 (5 x 4: ৳640.00)",
+      "currentValues": {
+        "packQuantity": "18's pack",
+        "packUnits": 18,
+        "stripUnits": 4,
+        "unitPrice": "30",
+        "packPrice": "500",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "5 x 4",
+        "packUnits": 20,
+        "stripUnits": 4,
+        "unitPrice": "32.00",
+        "packPrice": "640.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "280438c9-e326-4391-a5a4-85ce10bab5eb",
+      "brandId": "51d5eaf6-a323-449c-9282-1cd609435fa1",
+      "sourceId": "36956",
+      "brandName": "Febuxit",
+      "strength": "80 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳22.00 (2 x 14: ৳616.00)",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 14,
+        "unitPrice": "22",
+        "packPrice": "440",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "2 x 14",
+        "packUnits": 28,
+        "stripUnits": 14,
+        "unitPrice": "22.00",
+        "packPrice": "616.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "6714b984-ac6f-4829-b8f3-26b9add4ebfc",
+      "brandId": "e4ecf010-16a4-4cd2-8b99-503a63379642",
+      "sourceId": "37579",
+      "brandName": "Moxilin-CV",
+      "strength": "500 mg+125 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳32.00 (3 x 7: ৳672.00)",
+      "currentValues": {
+        "packQuantity": "18's pack",
+        "packUnits": 18,
+        "stripUnits": 7,
+        "unitPrice": "30",
+        "packPrice": "500",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "3 x 7",
+        "packUnits": 21,
+        "stripUnits": 7,
+        "unitPrice": "32.00",
+        "packPrice": "672.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "c96ba392-bc54-49dc-bcf6-f3186dd5b96d",
+      "brandId": "a4379b35-e831-4f74-9851-9f8efb635083",
+      "sourceId": "37074",
+      "brandName": "Leveron XR",
+      "strength": "500 mg",
+      "dosageForm": "Tablet (Extended Release)",
+      "manufacturer": "Synovia Pharma PLC.",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳30.00 (2 x 10: ৳600.00)",
+      "currentValues": {
+        "packQuantity": "12's pack",
+        "packUnits": 12,
+        "stripUnits": 10,
+        "unitPrice": "30",
+        "packPrice": "480",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "2 x 10",
+        "packUnits": 20,
+        "stripUnits": 10,
+        "unitPrice": "30.00",
+        "packPrice": "600.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "2afb7489-4c3d-48e7-9433-6e43ed858710",
+      "brandId": "3ab38c72-2d9f-47b7-823d-676e9f31d9b9",
+      "sourceId": "37108",
+      "brandName": "Farpem",
+      "strength": "200 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Synovia Pharma PLC.",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳95.00 (3 x 4: ৳1140.00)",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 4,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "3 x 4",
+        "packUnits": 12,
+        "stripUnits": 4,
+        "unitPrice": "95.00",
+        "packPrice": "1140.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "75aeb5bb-0b39-4a7a-b7c8-5bdf142d0f20",
+      "brandId": "ac53bedf-7ccd-4105-916f-4e2e0bfc8f5b",
+      "sourceId": "37428",
+      "brandName": "Othera",
+      "strength": "40 mg",
+      "dosageForm": "Capsule (Delayed Release)",
+      "manufacturer": "ACI Limited",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳17.00 (3 x 10: ৳510.00)",
+      "currentValues": {
+        "packQuantity": "18's pack",
+        "packUnits": 18,
+        "stripUnits": 10,
+        "unitPrice": "7.07",
+        "packPrice": "288",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "3 x 10",
+        "packUnits": 30,
+        "stripUnits": 10,
+        "unitPrice": "17.00",
+        "packPrice": "510.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "68ed9306-4579-44b7-b6e7-511526f1cf35",
+      "brandId": "f509a408-a230-40c8-8621-d55191b51d37",
+      "sourceId": "39460",
+      "brandName": "Provigor",
+      "strength": "10 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳35.00 (1 x 4: ৳140.00)",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 4,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "1 x 4",
+        "packUnits": 4,
+        "stripUnits": 4,
+        "unitPrice": "35.00",
+        "packPrice": "140.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "de6e854a-73ea-41ae-a99f-011b4f7414a4",
+      "brandId": "7863787a-5fbd-490d-878e-1be4c6bda292",
+      "sourceId": "38461",
+      "brandName": "Adrox CV",
+      "strength": "250 mg+62.5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳55.00 (2 x 7: ৳770.00)",
+      "currentValues": {
+        "packQuantity": "12's pack",
+        "packUnits": 12,
+        "stripUnits": 7,
+        "unitPrice": "30",
+        "packPrice": "420",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "2 x 7",
+        "packUnits": 14,
+        "stripUnits": 7,
+        "unitPrice": "55.00",
+        "packPrice": "770.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "db6e9b4c-77b0-4426-9b26-efbfb76b3a56",
+      "brandId": "ddf13be3-8078-48d0-8e43-fb009c0b7038",
+      "sourceId": "38894",
+      "brandName": "Novaclav",
+      "strength": "500 mg+125 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Popular Pharmaceuticals Ltd.",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳32.00 (5 x 4: ৳640.00)",
+      "currentValues": {
+        "packQuantity": "18's pack",
+        "packUnits": 18,
+        "stripUnits": 4,
+        "unitPrice": "30",
+        "packPrice": "500",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "5 x 4",
+        "packUnits": 20,
+        "stripUnits": 4,
+        "unitPrice": "32.00",
+        "packPrice": "640.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "78ee9ffe-671a-44fc-bf72-0be6ebd86814",
+      "brandId": "f8c80811-e369-46e4-9ce3-3e371b4cb0da",
+      "sourceId": "39170",
+      "brandName": "Farospec",
+      "strength": "150 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳75.00 (2 x 4: ৳600.00)",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 4,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "2 x 4",
+        "packUnits": 8,
+        "stripUnits": 4,
+        "unitPrice": "75.00",
+        "packPrice": "600.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "1bb194dd-00be-4719-95a4-bd0f61cb5ae4",
+      "brandId": "05afcd37-816f-4f27-88c2-fbc6699d3ee1",
+      "sourceId": "39171",
+      "brandName": "Farospec",
+      "strength": "200 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "ACME Laboratories Ltd.",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳95.00 (2 x 4: ৳760.00)",
+      "currentValues": {
+        "packQuantity": "30's pack",
+        "packUnits": 30,
+        "stripUnits": 4,
+        "unitPrice": "8",
+        "packPrice": "280",
+        "warnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "proposedValues": {
+        "packQuantity": "2 x 4",
+        "packUnits": 8,
+        "stripUnits": 4,
+        "unitPrice": "95.00",
+        "packPrice": "760.00",
+        "warnings": []
+      },
+      "clearsStaleInconsistentWarning": true
+    },
+    {
+      "packId": "5cd397dc-6ae5-4272-9676-bdd3c15b89c8",
+      "brandId": "d8b4cc82-ea6f-477a-b69e-fea30baab226",
+      "sourceId": "26558",
+      "brandName": "Utrogestan",
+      "strength": "200 mg",
+      "dosageForm": "Capsule",
+      "manufacturer": "ZAS Corporation",
+      "subKind": "VERIFY_REQ_55_AXB_AND_PRICE",
+      "evidence": "MedEx search + Arogga verified: ৳77.14 (2 x 7: ৳1080.00)",
+      "currentValues": {
+        "packQuantity": "15's pack",
+        "packUnits": 15,
+        "stripUnits": 7,
+        "unitPrice": null,
+        "packPrice": "1",
+        "warnings": []
+      },
+      "proposedValues": {
+        "packQuantity": "2 x 7",
+        "packUnits": 14,
+        "stripUnits": 7,
+        "unitPrice": "77.14",
+        "packPrice": "1080.00"
+      },
+      "clearsStaleInconsistentWarning": false
+    }
+  ],
+  "heldVerifyReq55": [
+    {
+      "packId": "e0b971d8-07fb-460c-b7b8-12c83a6c22fe",
+      "name": "Helicon Kit 30 mg+1000 mg+500 mg",
+      "kind": "H_PYLORI_KIT",
+      "reason": "Already has 4-tab strip pack; 14s pack (৳775.17 = 14 strips) represents 14 regimen pouches rather than single-tablet divisibility. Decide whether to clear stripUnits=null (like Triokit) or convert to 14 x 4 (pu=56)."
+    },
+    {
+      "packId": "47b12ecc-9380-40eb-8a36-a23d086f95bd",
+      "name": "Finix HP 20 mg+1000 mg+500 mg",
+      "kind": "H_PYLORI_KIT",
+      "reason": "Already has 4-tab strip (13.84/55.36); 7s pack (৳387.52 = 7 strips) represents 7 regimen pouches."
+    },
+    {
+      "packId": "f91dea84-8355-47bc-b53a-9d46cbf36e48",
+      "name": "Pylotrip 30 mg+1000 mg+500 mg",
+      "kind": "H_PYLORI_KIT",
+      "reason": "Already has 4-tab strip (13.79/55.16); 14s pack (৳772.24 = 14 strips) represents 14 regimen pouches."
+    },
+    {
+      "packId": "857a001e-dbad-45a1-82c9-a8e927a276d2",
+      "name": "Pylotrip R 20 mg+1000 mg+500 mg",
+      "kind": "H_PYLORI_KIT",
+      "reason": "Already has 4-tab strip (13.75/55.00); 14s pack (৳770.00 = 14 strips) represents 14 regimen pouches."
+    },
+    {
+      "packId": "fdcf99b2-a190-4ccf-8e13-c90a82964353",
+      "name": "Rabnil 20 mg EC Tablet (Benham)",
+      "kind": "UNCONFIRMED_BOX",
+      "reason": "Arogga #71246 has Strip=14, Box=70 (pv_mrp=6, stock=0), while MedEx search snippet mentioned 7 x 10 (৳420.00) alongside EC Capsule (৳7). Hold until exact 5 x 14 vs 7 x 10 verified."
+    },
+    {
+      "packId": "ede14c58-b5e1-49d2-864a-b25b28dd539a",
+      "name": "Linamet ER 2.5 mg+1000 mg",
+      "kind": "UNCONFIRMED_MRP",
+      "reason": "Arogga #59270 shows pv_mrp=17 (Strip=6, Box=18) and discounted ৳15.30 online, but MedEx ER MRP snippet was not retrieved without login/direct hit."
+    }
+  ]
+}

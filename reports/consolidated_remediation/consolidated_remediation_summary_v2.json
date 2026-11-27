@@ -1,0 +1,264 @@
+{
+  "generatedAt": "2026-11-25T08:05:53.997020+00:00",
+  "readOnlyVerified": true,
+  "liveCatalogueExportPath": "F:\\My Projects\\CareDose\\backend\\reports\\catalogue_export_post_batch1",
+  "liveCatalogueCounts": {
+    "MedicineGeneric": 1846,
+    "MedicineBrand": 25208,
+    "MedicinePack": 27468,
+    "zeroPackBrands": 37,
+    "countsUnchangedVsBaseline": true,
+    "allVerificationStatusesPreservedUnverified": true
+  },
+  "postBatch1Reconciliation": {
+    "diffsPostP1ToPostBatch1Packs": 85,
+    "batch1PriceCorrectedPacks": 15,
+    "batch1WarningCleanedPacks": 70,
+    "cumulativeCsvModifiedPacksSincePostHigh40Export": 4865,
+    "cumulativeUniquePacksAcrossAll4Waves": 4883,
+    "nonEmptyWarningsAcrossCatalogue": {
+      "beforeBatch1": 733,
+      "afterBatch1": 663,
+      "removed": 70
+    },
+    "staleP1WarningsRemaining": 0
+  },
+  "ledgerV2Summary": {
+    "ledgerFile": "F:\\My Projects\\CareDose\\backend\\reports\\consolidated_remediation\\consolidated_remediation_ledger_v2.csv",
+    "totalUniquePackRows": 16755,
+    "zeroDuplicatePackIdsVerified": true,
+    "resolutionStatusCountsV2": {
+      "UNRESOLVED": 11811,
+      "ALREADY_CORRECTED": 4777,
+      "ALREADY_CORRECTED_OPEN_SECONDARY_ISSUE": 106,
+      "EXCLUDED_REQUIRES_REVIEW": 57,
+      "EXISTING_VERIFIED_CORRECT": 2,
+      "EXISTING_VERIFIED_CORRECT_OPEN_SECONDARY_ISSUE": 2
+    },
+    "v1ToV2StatusDeltas": {
+      "ALREADY_CORRECTED": {
+        "v1": 4699,
+        "v2": 4777,
+        "delta": 78
+      },
+      "ALREADY_CORRECTED_STALE_WARNING": {
+        "v1": 70,
+        "v2": 0,
+        "delta": -70
+      },
+      "ALREADY_CORRECTED_OPEN_SECONDARY_ISSUE": {
+        "v1": 99,
+        "v2": 106,
+        "delta": 7
+      },
+      "EXCLUDED_REQUIRES_REVIEW": {
+        "v1": 61,
+        "v2": 57,
+        "delta": -4
+      },
+      "UNRESOLVED": {
+        "v1": 11822,
+        "v2": 11811,
+        "delta": -11
+      }
+    },
+    "multiGroupOpenPacksV2": 1950
+  },
+  "remainingIssuesSummaryV2": {
+    "group1_nonDivisibleStripConflicts": {
+      "primaryLiveTotal": {
+        "groupName": "Live Strip & Calculation Conflicts",
+        "uniquePacks": 376,
+        "uniqueBrands": 372,
+        "note": "368 pu % su != 0 (325 in conf792) + 8 live anomalies (7 su=1 + 1 B-Vit 4 su=200)."
+      },
+      "v1Count": 376,
+      "v2Count": 376,
+      "deltaFromBatch1": 0,
+      "subScopes": [
+        {
+          "groupName": "Non-divisible strip (pu % su != 0)",
+          "uniquePacks": 368,
+          "uniqueBrands": 364,
+          "note": ""
+        },
+        {
+          "groupName": "Subset flagged in conflicts_792",
+          "uniquePacks": 325,
+          "uniqueBrands": 321,
+          "note": ""
+        },
+        {
+          "groupName": "Extra live anomalies (7 su=1 + 1 B-Vit 4 su=200)",
+          "uniquePacks": 8,
+          "uniqueBrands": 8,
+          "note": ""
+        }
+      ]
+    },
+    "group2_largePriceDifferences": {
+      "combinedDistinctPacksAndBrands": {
+        "groupName": "Remaining Price Conflict & Arithmetic Mismatch (176 | 638)",
+        "uniquePacks": 794,
+        "uniqueBrands": 786,
+        "note": "Reduced from 805 in v1 to 794: Batch 1A-1B resolved 11 from REM_187 (187 -> 176), while Batch 1C's 4 rolled-back rounding updates were already arithmetically consistent pre-Batch-1 (leaving Live_Arith at 638; 20 packs overlap 176 & 638)."
+      },
+      "v1Count": 805,
+      "v2Count": 794,
+      "deltaFromBatch1": -11,
+      "subScopes": [
+        {
+          "groupName": "Remaining conf792 large price delta (167 LARGE_PRICE_DELTA + 9 OTHER_CONFLICT minus 2 resolved OTHER_CONFLICT = Upanib & Tarceva)",
+          "uniquePacks": 176,
+          "uniqueBrands": 168,
+          "note": ""
+        },
+        {
+          "groupName": "Remaining live >5% unitPrice*packUnits != packPrice mismatches",
+          "uniquePacks": 638,
+          "uniqueBrands": 638,
+          "note": ""
+        },
+        {
+          "groupName": "Minor 2%-5% legacy rounding deltas (outside >5% Cat G)",
+          "uniquePacks": 37,
+          "uniqueBrands": 37,
+          "note": ""
+        }
+      ]
+    },
+    "group3_remainingP1PackageVariants": {
+      "groupName": "Priority-1 WRONG_PACKAGE_VARIANT",
+      "uniquePacks": 166,
+      "uniqueBrands": 166,
+      "note": "",
+      "v1Count": 166,
+      "v2Count": 166,
+      "deltaFromBatch1": 0
+    },
+    "group4_sourceConflicts": {
+      "combinedRemaining": {
+        "groupName": "Priority-1 SOURCE_CONFLICT (6) + Remaining Excluded QA (57)",
+        "uniquePacks": 63,
+        "uniqueBrands": 62,
+        "note": "Reduced from 67 in v1: 4 rounding exclusions resolved in Batch 1C. Note Brodil 2 mg confirmed DB-correct (56 true entity/generic/strength/kit conflicts remain in excluded + 6 P1 = 62)."
+      },
+      "v1Count": 67,
+      "v2Count": 63,
+      "deltaFromBatch1": -4,
+      "subScopes": [
+        {
+          "groupName": "Priority-1 SOURCE_CONFLICT",
+          "uniquePacks": 6,
+          "uniqueBrands": 6,
+          "note": ""
+        },
+        {
+          "groupName": "Remaining excluded_updates_report (57 = 61 - 4 Batch 1C)",
+          "uniquePacks": 57,
+          "uniqueBrands": 56,
+          "note": ""
+        },
+        {
+          "groupName": "Remaining true entity/generic/strength/kit conflicts in excluded (56)",
+          "uniquePacks": 56,
+          "uniqueBrands": 55,
+          "note": ""
+        }
+      ]
+    },
+    "group5_zeroPackageBrands": {
+      "groupName": "Brands with zero MedicinePack records",
+      "uniquePacks": 0,
+      "uniqueBrands": 37,
+      "brandsWithLiveAroggaCandidateNames": 15,
+      "deltaFromBatch1": 0
+    },
+    "group6_frontendConversionMismatches": {
+      "groupName": "Category H Frontend vs Backend Stock Conversion Mismatches",
+      "uniquePacks": 50,
+      "uniqueBrands": 49,
+      "note": "",
+      "v1Count": 50,
+      "v2Count": 50,
+      "deltaFromBatch1": 0
+    },
+    "group7_unmatchedPackageVariants": {
+      "groupName": "Unmatched Arogga Package Variants (866 logged + 29 DPI recovered)",
+      "uniquePacks": 895,
+      "uniqueBrands": 850,
+      "note": "",
+      "v1Count": 895,
+      "v2Count": 895,
+      "deltaFromBatch1": 0
+    },
+    "group8_brandsWithoutLiveSourceMatch": {
+      "groupName": "No Live Arogga Match",
+      "uniquePacks": 9110,
+      "uniqueBrands": 8202,
+      "note": "",
+      "v1Count": 9110,
+      "v2Count": 9110,
+      "deltaFromBatch1": 0
+    },
+    "supplementaryLiveHygieneGroups": {
+      "aroggaOutOfStockDummyMrp": {
+        "groupName": "Arogga stock=0 dummy MRP",
+        "uniquePacks": 738,
+        "uniqueBrands": 711,
+        "note": ""
+      },
+      "stalePriceWarningsRemainingAfterBatch1": {
+        "groupName": "Stale P1 price warnings left after Batch 1D",
+        "uniquePacks": 0,
+        "uniqueBrands": 0,
+        "deltaFromBatch1": -70
+      },
+      "allLiveNonEmptyWarningsRemaining": {
+        "groupName": "All MedicinePack records with non-empty warnings (733 - 70)",
+        "uniquePacks": 663,
+        "uniqueBrands": 663,
+        "note": ""
+      },
+      "liveMissingPackageQuantities_CatBD": {
+        "groupName": "Category B/D Missing parseable quantities",
+        "uniquePacks": 1736,
+        "uniqueBrands": 1665,
+        "note": ""
+      },
+      "liveMissingStockMeasurementUnits_CatC": {
+        "groupName": "Category C Injection missing container noun",
+        "uniquePacks": 48,
+        "uniqueBrands": 47,
+        "note": ""
+      },
+      "liveInconsistentMultiPackNesting_CatE": {
+        "groupName": "Category E Brands with multi-pack strip nesting conflict",
+        "uniquePacks": 126,
+        "uniqueBrands": 61
+      },
+      "liveEquivalentGenericStripGroups_CatF": {
+        "groupName": "Category F Equivalent generic-pack strip variance groups (informational)",
+        "groupCount": 356
+      }
+    }
+  },
+  "nextReviewQueue": {
+    "file": "F:\\My Projects\\CareDose\\backend\\reports\\consolidated_remediation\\proposed_batch2a_review.json",
+    "nextHighestConfidenceCount": 100,
+    "tierCounts": {
+      "TIER1_WEB_AROGGA_MFR_3WAY_CONFIRMED_PRICE": 42,
+      "TIER2_LIVE_MEDEX_MRP_OVERRIDE_PRICE": 4,
+      "TIER3_COMMA_TRUNCATED_DIRECT_MEDEX_REQUIRED": 18,
+      "TIER4_STRUCTURAL_STRIP_ANOMALIES_AND_WEB_VERIFIED_STRIPS": 10,
+      "TIER5_DIRECT_AROGGA_PRODUCT_STRIP_CANDIDATES": 26
+    },
+    "confidenceCounts": {
+      "HIGH_STAGED_FOR_REVIEW": 48,
+      "MEDIUM_CORRUPT_DB_PROVEN_BY_KAGGLE": 18,
+      "HIGH_STRUCTURAL_RULE_STAGED": 7,
+      "MEDIUM_VERIFY_200_BOX": 1,
+      "MEDIUM_NEEDS_DIRECT_MEDEX_CONFIRMATION": 26
+    }
+  }
+}

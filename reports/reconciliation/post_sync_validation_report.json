@@ -1,0 +1,65 @@
+{
+  "generatedAt": "2026-11-24T07:35:28.064Z",
+  "importBatchId": "a10beeb7-aac9-4efe-8ce1-af5568e41ddd",
+  "batchRecord": {
+    "id": "a10beeb7-aac9-4efe-8ce1-af5568e41ddd",
+    "sourceName": "CareDose Verified Reconciliation (kaggle)",
+    "sourceBaseUrl": "https://medex.com.bd",
+    "schemaVersion": "2.0",
+    "generatedAt": null,
+    "importedAt": "2026-11-24T07:34:18.181Z",
+    "genericsCount": 53,
+    "brandsCount": 1327,
+    "packsCount": 1476,
+    "groupsCount": 0,
+    "status": "COMPLETED",
+    "notes": "Verified manifest sync: +53 generics, +1327 brands, +1476 packs"
+  },
+  "beforeCounts": {
+    "generics": 1793,
+    "brands": 23881,
+    "packs": 25992,
+    "alternativeGroups": 2241,
+    "alternativeGroupBrands": 21696,
+    "images": 52,
+    "patientMedications": 0
+  },
+  "afterCounts": {
+    "total_generics": 1846,
+    "total_brands": 25208,
+    "total_packs": 27468,
+    "batch_generics": 53,
+    "batch_brands": 1327,
+    "batch_packs": 1476
+  },
+  "deltas": {
+    "generics": 53,
+    "brands": 1327,
+    "packs": 1476
+  },
+  "fkIntegrity": {
+    "brands_null_generic": 0,
+    "brands_orphan_generic": 0,
+    "packs_orphan_brand": 0,
+    "batch_empty_names": 0,
+    "batch_empty_forms": 0
+  },
+  "duplicateChecks": {
+    "dup_brand_source_ids": 0,
+    "dup_generic_source_ids": 0,
+    "dup_pack_fingerprints": 0
+  },
+  "existingRecordsUnchanged": {
+    "preExistingBrandsPresent": true,
+    "preExistingGenericsPresent": true,
+    "preExistingPacksPresent": true,
+    "pre_existing_updated_after_backup": 0,
+    "pre_existing_generics_updated_after_backup": 0
+  },
+  "duplicateGroupSiteLinksVerification": {
+    "expectedCount": 187,
+    "verifiedInDbCount": 187,
+    "mismatchesCount": 0
+  },
+  "allValidationsPassed": true
+}

@@ -1,0 +1,102 @@
+# CareDose — Staged Batch 8 Wave Review (Read-Only Staging)
+
+Generated: 2026-11-25T14:34:28.000Z | Status: STAGED (0 PostgreSQL mutations)
+
+## Batch 8 Summary
+- **Corrupted `u=8.00 / pp=280.00` Wave 3 (89 / 90):** All `89` remaining unmatched Tablet template packs verified via grounded web search (leaving only previously held `Helicon V` combikit among all `u=8/280` rows).
+- **Breakdown:** `22` same pack units + `67` pack migrations, clearing **89** `pack_price_inconsistent_with_unit_price` warnings.
+- **Held From Batch 8 (1):** `Helicon V` (*H. pylori* combikit).
+
+## Staged Batch 8 Updates (89)
+- **Rehanzil 40 mg+1 mg+0.5 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `1 x 10 (pu=10, su=10, 100.00/1000.00)`
+- **Preneu 50 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `3 x 10 (pu=30, su=10, 10.00/300.00)`
+- **Preneu 75 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `3 x 10 (pu=30, su=10, 15.00/450.00)`
+- **Mulina 600 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `1 x 10 (pu=10, su=10, 850.00/8500.00)`
+- **Ribolib 200 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `21's pack (pu=21, su=null, 952.00/19992.00)`
+- **HER-2N 200 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `21's pack (pu=21, su=null, 750.00/15750.00)`
+- **FullCare ** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `3 x 10 (pu=30, su=10, 6.00/180.00)`
+- **Champix 0.5 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `11 & 14 tablet pack (pu=25, su=null, null/2050.00)`
+- **Champix 1 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `14 & 14 tablet pack (pu=28, su=14, null/2044.00)`
+- **Apaluda 60 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `3 x 10 (pu=30, su=10, 500.00/15000.00)`
+- **Kisqali 200 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `3 x 21 (pu=63, su=21, 1060.00/66780.00)`
+- **Daprosis 2 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `2 x 7 (pu=14, su=7, 100.00/1400.00)`
+- **Omarol 12.5 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `1 x 4 (pu=4, su=4, 75.00/300.00)`
+- **Omarol 25 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `1 x 4 (pu=4, su=4, 135.00/540.00)`
+- **Enurex 200 mcg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `1 x 10 (pu=10, su=10, 45.00/450.00)`
+- **Nytenso 20 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `3 x 10 (pu=30, su=10, 35.00/1050.00)`
+- **Pidonex 800 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `1 x 10 (pu=10, su=10, 85.00/850.00)`
+- **Migalin 15 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `1 x 15 (pu=15, su=15, 45.00/675.00)`
+- **Omariglip 12.5 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `1 x 4 (pu=4, su=4, 75.00/300.00)`
+- **Omariglip 25 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `1 x 4 (pu=4, su=4, 135.00/540.00)`
+- **Hercent 40 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `3 x 10 (pu=30, su=10, 120.00/3600.00)`
+- **Loncil 15 mg + 6.14 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `2 x 10 (pu=20, su=10, 670.00/13400.00)`
+- **Loncil 20 mg + 8.19 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `4 x 10 (pu=40, su=10, 800.00/32000.00)`
+- **Azacitid 300 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `4 x 4 (pu=16, su=4, 1400.00/22400.00)`
+- **Damid 300 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `3 x 10 (pu=30, su=10, 1400.00/42000.00)`
+- **Nadox 100 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `10 x 10 (pu=100, su=10, 2.50/250.00)`
+- **Farobest 150 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `3 x 7 (pu=21, su=7, 70.00/1470.00)`
+- **Farobest 200 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `3 x 7 (pu=21, su=7, 70.00/1470.00)`
+- **Gestcare ** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `3 x 10 (pu=30, su=10, 4.00/120.00)`
+- **Maxgalin 10 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `1 x 10 (pu=10, su=10, 35.00/350.00)`
+- **Maxgalin 5 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `2 x 10 (pu=20, su=10, 20.00/400.00)`
+- **Marcus 10 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `1 x 10 (pu=10, su=10, 35.00/350.00)`
+- **Isozine 20 mg + 37.5 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `3 x 10 (pu=30, su=10, 15.00/450.00)`
+- **Avatrom 20 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `1 x 10 (pu=10, su=10, 260.00/2600.00)`
+- **Cazar FCT 60 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `1 x 7 (pu=7, su=7, 700.00/4900.00)`
+- **Alpesib 150 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `28's pack (pu=28, su=null, 1500.00/42000.00)`
+- **Ascimib 40 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `30's pack (pu=30, su=null, 1200.00/36000.00)`
+- **Capmaxen 200 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `28's pack (pu=28, su=null, 1500.00/42000.00)`
+- **Erdafixen 4 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `28's pack (pu=28, su=null, 700.00/19600.00)`
+- **Gilternib 40 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `30's pack (pu=30, su=null, 670.00/20100.00)`
+- **Ivosenib 250 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `30's pack (pu=30, su=null, 1500.00/45000.00)`
+- **Darota 300 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `7 x 4 (pu=28, su=4, 1400.00/39200.00)`
+- **Provon 10 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `2 x 10 (pu=20, su=10, 5.00/100.00)`
+- **Nytenso 5 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `3 x 10 (pu=30, su=10, 12.00/360.00)`
+- **Lefenta 600 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `1 x 10 (pu=10, su=10, 850.00/8500.00)`
+- **Makario 12.5 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `2 x 4 (pu=8, su=4, 80.00/640.00)`
+- **Makario 25 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `2 x 4 (pu=8, su=4, 140.00/1120.00)`
+- **Riboxen 200 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `3 x 7 (pu=21, su=7, 700.00/14700.00)`
+- **Magolin 2.5 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `2 x 14 (pu=28, su=14, 12.00/336.00)`
+- **Herlyn 40 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `30's pack (pu=30, su=null, 120.00/3600.00)`
+- **Migaba 2.5 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `2 x 15 (pu=30, su=15, 11.00/330.00)`
+- **Migaba 5 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `2 x 15 (pu=30, su=15, 18.00/540.00)`
+- **Combogic 200 mg+500 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=10, 8/280)` -> `12 x 10 (pu=120, su=10, 2.08/249.60)`
+- **Metafen 200 mg+500 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `5 x 10 (pu=50, su=10, 2.08/104.00)`
+- **Exipid 50 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `5 x 10 (pu=50, su=10, 4.50/225.00)`
+- **Pemafate 0.1 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `5 x 10 (pu=50, su=10, 10.00/500.00)`
+- **Resiliva 60 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `3 x 10 (pu=30, su=10, 35.00/1050.00)`
+- **Resiliva 100 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `3 x 10 (pu=30, su=10, 55.00/1650.00)`
+- **Renash 100 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `1 x 10 (pu=10, su=10, 55.00/550.00)`
+- **Rezim 60 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `1 x 10 (pu=10, su=10, 35.00/350.00)`
+- **Fibrocon 80 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `3 x 10 (pu=30, su=10, 45.00/1350.00)`
+- **Methiroid 10 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `3 x 20 (pu=60, su=20, 10.00/600.00)`
+- **Methiroid 5 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `5 x 20 (pu=100, su=20, 6.00/600.00)`
+- **Orfanem 150 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `2 x 7 (pu=14, su=7, 75.00/1050.00)`
+- **Prozenza 40 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `28's pack (pu=28, su=null, 600.00/16800.00)`
+- **Paltab 125 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `1 x 7 (pu=7, su=7, 400.00/2800.00)`
+- **Cabotab 20 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `2 x 5 (pu=10, su=5, 450.00/4500.00)`
+- **Cabotab 40 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `2 x 5 (pu=10, su=5, 900.00/9000.00)`
+- **Cabotab 60 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `2 x 5 (pu=10, su=5, 1400.00/14000.00)`
+- **Knito 50 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `6 x 10 (pu=60, su=10, 5.00/300.00)`
+- **Itogest 50 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `6 x 10 (pu=60, su=10, 5.00/300.00)`
+- **Avanix 20 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `1 x 5 (pu=5, su=5, 260.00/1300.00)`
+- **Elacentra 345 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `4 x 7 (pu=28, su=7, 1600.00/44800.00)`
+- **Elacentra 345 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `4 x 7 (pu=28, su=7, 1600.00/44800.00)`
+- **Elacentra 345 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `4 x 7 (pu=28, su=7, 1600.00/44800.00)`
+- **Ipride 50 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `6 x 10 (pu=60, su=10, 5.00/300.00)`
+- **Glucofast 4 gm** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `1 x 10 (pu=10, su=10, 7.00/70.00)`
+- **Gefomag 97 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `3 x 10 (pu=30, su=10, 10.00/300.00)`
+- **Lopera-S 2 mg+125 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `3 x 10 (pu=30, su=10, 5.00/150.00)`
+- **Danemia 4 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `1 x 10 (pu=10, su=10, 90.00/900.00)`
+- **Danemia 6 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `1 x 10 (pu=10, su=10, 150.00/1500.00)`
+- **Duport 200 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `1 x 10 (pu=10, su=10, 150.00/1500.00)`
+- **Livora 80 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `2 x 10 (pu=20, su=10, 45.00/900.00)`
+- **Livora 100 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `2 x 10 (pu=20, su=10, 55.00/1100.00)`
+- **Ricofix 45 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `1 x 14 (pu=14, su=14, 35.00/490.00)`
+- **Cofixa 45 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `2 x 10 (pu=20, su=10, 35.00/700.00)`
+- **Clexta 100 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `30's pack (pu=30, su=null, 590.00/17700.00)`
+- **Giltela 40 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=null, 8/280)` -> `21's pack (pu=21, su=null, 500.00/10500.00)`
+- **Marcus 5 mg** [U8_PP280_WAVE3]: `30's pack (pu=30, su=10, 8/280)` -> `2 x 10 (pu=20, su=10, 20.00/400.00)`
+
+## Held From Batch 8 (1)
+- **Helicon V 20 mg+1000 mg+500 mg (General)**: Vonoprazan + Amoxicillin + Clarithromycin multi-drug H. pylori combikit (held since Batch 6 pending pouch representation).

@@ -1,0 +1,3842 @@
+{
+  "exportTimestamp": "2026-11-24T19:39:55.217Z",
+  "readOnlyModeVerified": true,
+  "databaseModified": false,
+  "csvEncodingConventions": {
+    "encoding": "UTF-8",
+    "nullRepresentation": "Empty unquoted CSV cell",
+    "arrayRepresentation": "JSON array string"
+  },
+  "outputFiles": {
+    "brandsCsv": "F:\\My Projects\\CareDose\\backend\\reports\\catalogue_export_post_arogga_sync\\medicine_brands_export.csv",
+    "packsCsv": "F:\\My Projects\\CareDose\\backend\\reports\\catalogue_export_post_arogga_sync\\medicine_packs_export.csv",
+    "summaryJson": "F:\\My Projects\\CareDose\\backend\\reports\\catalogue_export_post_arogga_sync\\medicine_catalogue_export_summary.json"
+  },
+  "counts": {
+    "totalGenericCount": 1846,
+    "totalBrandCount": 25208,
+    "totalPackCount": 27468,
+    "brandsWithoutPackagesCount": 37,
+    "packsMissingAnyPriceCount": 0,
+    "packsMissingUnitPriceCount": 11088,
+    "packsMissingPackPriceCount": 481,
+    "packsMissingPackQuantityTextCount": 481,
+    "packsMissingPackUnitsCount": 10655,
+    "packsMissingBothPackQuantityAndUnitsCount": 481,
+    "packsMissingStripUnitsCount": 20006,
+    "packsMissingStripUnitsSolidFormsCount": 8948,
+    "brandsWithWarningsCount": 21,
+    "packsWithWarningsCount": 733,
+    "brandsMissingGenericCount": 0,
+    "brandsMissingStrengthCount": 872,
+    "brandsMissingDosageFormCount": 0
+  },
+  "brandsWithoutPackages": [
+    {
+      "brandId": "05a01101-1caf-43b9-9af1-c5078f11fb28",
+      "sourceId": "15433",
+      "brandName": "Ketoseem",
+      "genericName": "Ketorolac Tromethamine",
+      "strength": "10 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Seema Pharmaceuticals Ltd."
+    },
+    {
+      "brandId": "3001bb35-c55e-49e3-aa3c-a9c05885b691",
+      "sourceId": "23531",
+      "brandName": "Paramol",
+      "genericName": "Paracetamol",
+      "strength": "500 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Seema Pharmaceuticals Ltd."
+    },
+    {
+      "brandId": "3b9ec6d6-1481-49e0-be02-cd7f09e4cdd1",
+      "sourceId": "33091",
+      "brandName": "Prostalex",
+      "genericName": "Flutamide",
+      "strength": "250 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beacon Pharmaceuticals Ltd."
+    },
+    {
+      "brandId": "3f0715f5-9ff0-4b69-b2b7-c5cb6b080c1e",
+      "sourceId": "32470",
+      "brandName": "Uroblock",
+      "genericName": "Mirabegron",
+      "strength": "50 mg",
+      "dosageForm": "Tablet (Extended Release)",
+      "manufacturer": "Nuvista Pharma Ltd."
+    },
+    {
+      "brandId": "4945af15-c202-42e2-b411-b53c3dc79c0b",
+      "sourceId": "14906",
+      "brandName": "Dextran 70",
+      "genericName": "Dextran + Sodium Chloride",
+      "strength": "6%+0.9%",
+      "dosageForm": "IV Infusion",
+      "manufacturer": "Institute of Public Health (IPH)"
+    },
+    {
+      "brandId": "4ca26482-0a4c-4451-9aad-705de25c1554",
+      "sourceId": "25624",
+      "brandName": "Soto",
+      "genericName": "Azithromycin Dihydrate",
+      "strength": "250 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Hudson Pharmaceuticals Ltd."
+    },
+    {
+      "brandId": "56d750b2-a6c3-4add-a86d-9556bcc9a25b",
+      "sourceId": "14905",
+      "brandName": "Dextran 40",
+      "genericName": "Dextran + Sodium Chloride",
+      "strength": "10%+0.9%",
+      "dosageForm": "IV Infusion",
+      "manufacturer": "Institute of Public Health (IPH)"
+    },
+    {
+      "brandId": "58787748-7fe7-49ed-963f-7da65aec6afa",
+      "sourceId": "17050",
+      "brandName": "Seematrin DS",
+      "genericName": "Sulphamethoxazole + Trimethoprim",
+      "strength": "800 mg+160 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Seema Pharmaceuticals Ltd."
+    },
+    {
+      "brandId": "656f5857-2b5d-4ffa-b8cf-4efc8eb2b150",
+      "sourceId": "25382",
+      "brandName": "Seema-C",
+      "genericName": "Vitamin C [Ascorbic acid]",
+      "strength": "250 mg",
+      "dosageForm": "Chewable Tablet",
+      "manufacturer": "Seema Pharmaceuticals Ltd."
+    },
+    {
+      "brandId": "6d37b544-d880-4a77-9741-0512b488eb09",
+      "sourceId": "28858",
+      "brandName": "Sanityza Clear",
+      "genericName": "Chlorhexidine Gluconate + Isopropyl alcohol",
+      "strength": "0.5%+70%",
+      "dosageForm": "Hand Rub",
+      "manufacturer": "Incepta Pharmaceuticals Ltd."
+    },
+    {
+      "brandId": "6ec63e2f-a2ff-4c4e-a0dc-21dea43fc406",
+      "sourceId": "32529",
+      "brandName": "Semaglut",
+      "genericName": "Semaglutide (Tablet)",
+      "strength": "7 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "NIPRO JMI Pharma Ltd."
+    },
+    {
+      "brandId": "7154e9e3-20f7-40d0-aa6b-dfb0c70c6a6b",
+      "sourceId": "32469",
+      "brandName": "Uroblock",
+      "genericName": "Mirabegron",
+      "strength": "25 mg",
+      "dosageForm": "Tablet (Extended Release)",
+      "manufacturer": "Nuvista Pharma Ltd."
+    },
+    {
+      "brandId": "728e212b-d88b-438a-b92d-b90ff84e753e",
+      "sourceId": "33126",
+      "brandName": "Hertinib",
+      "genericName": "Neratinib",
+      "strength": "40 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Drug International Ltd."
+    },
+    {
+      "brandId": "75aa1890-ec4b-43d4-820f-6291d94c1074",
+      "sourceId": "22437",
+      "brandName": "Seemagyl",
+      "genericName": "Metronidazole",
+      "strength": "400 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Seema Pharmaceuticals Ltd."
+    },
+    {
+      "brandId": "75f5e741-a439-487e-b4cc-0cf8416eadf2",
+      "sourceId": "33106",
+      "brandName": "Turmeric",
+      "genericName": "Curcuma Longa [Turmeric Extract]",
+      "strength": "1000 mg",
+      "dosageForm": "Capsule",
+      "manufacturer": "Drug International Ltd."
+    },
+    {
+      "brandId": "769a9604-1366-4727-8a51-f7da1fde7bda",
+      "sourceId": "24243",
+      "brandName": "Riboseem",
+      "genericName": "Riboflavin",
+      "strength": "5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Seema Pharmaceuticals Ltd."
+    },
+    {
+      "brandId": "778cbd03-96cc-4ce6-88e6-a1a1225e879e",
+      "sourceId": "33171",
+      "brandName": "Twincard",
+      "genericName": "Atenolol + Chlorthalidone",
+      "strength": "50 mg+25 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Incepta Pharmaceuticals Ltd."
+    },
+    {
+      "brandId": "7e49331f-af2b-4612-945d-1dd6b7299306",
+      "sourceId": "32382",
+      "brandName": "Serivan",
+      "genericName": "Pimavanserin",
+      "strength": "34 mg",
+      "dosageForm": "Capsule",
+      "manufacturer": "Incepta Pharmaceuticals Ltd."
+    },
+    {
+      "brandId": "818fbf6a-9033-4df5-adce-37d837647b48",
+      "sourceId": "32783",
+      "brandName": "Viera",
+      "genericName": "Voriconazole",
+      "strength": "50 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beacon Pharmaceuticals Ltd."
+    },
+    {
+      "brandId": "8329eab9-4f9d-4435-81c3-65627590a03a",
+      "sourceId": "14883",
+      "brandName": "Glucose Saline",
+      "genericName": "Sodium Chloride + Dextrose",
+      "strength": "0.9%+5%",
+      "dosageForm": "IV Infusion",
+      "manufacturer": "Institute of Public Health (IPH)"
+    },
+    {
+      "brandId": "84e97c0c-4064-4a6c-a2ee-7da0004b966b",
+      "sourceId": "33022",
+      "brandName": "Baloflu",
+      "genericName": "Baloxavir Marboxil",
+      "strength": "20 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Navana Pharmaceuticals Ltd."
+    },
+    {
+      "brandId": "8df1cbda-bcbe-4808-8884-368c43b59e3b",
+      "sourceId": "33023",
+      "brandName": "Baloflu",
+      "genericName": "Baloxavir Marboxil",
+      "strength": "40 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Navana Pharmaceuticals Ltd."
+    },
+    {
+      "brandId": "97b8bf53-48f7-47fa-9696-7085419dbeb8",
+      "sourceId": "32420",
+      "brandName": "Salmolin",
+      "genericName": "Salbutamol (Inhaler)",
+      "strength": "100 mcg/puff",
+      "dosageForm": "Inhaler",
+      "manufacturer": "ACME Laboratories Ltd."
+    },
+    {
+      "brandId": "9a6db8d7-f7a5-4274-a4eb-0552892160c4",
+      "sourceId": "14904",
+      "brandName": "Dextran",
+      "genericName": "Dextran + Dextrose",
+      "strength": "10%+5%",
+      "dosageForm": "IV Infusion",
+      "manufacturer": "Institute of Public Health (IPH)"
+    },
+    {
+      "brandId": "9b57365f-805f-4381-8c7d-3782d5bad057",
+      "sourceId": "29433",
+      "brandName": "Covishield",
+      "genericName": "COVID Vaccine",
+      "strength": null,
+      "dosageForm": "IM Injection",
+      "manufacturer": "Serum Institute of India"
+    },
+    {
+      "brandId": "9f02bd88-2f65-4ff0-aaf6-7a48ef3a9a3c",
+      "sourceId": "33129",
+      "brandName": "Urican",
+      "genericName": "Cranberry [Vaccinium macrocarpon]",
+      "strength": "400 mg",
+      "dosageForm": "Capsule",
+      "manufacturer": "Drug International Ltd."
+    },
+    {
+      "brandId": "bc440e25-6c8b-4a0b-b136-a7aa1223a04f",
+      "sourceId": "21938",
+      "brandName": "Seemaldrat",
+      "genericName": "Magaldrate",
+      "strength": "400 mg/5 ml",
+      "dosageForm": "Oral Suspension",
+      "manufacturer": "Seema Pharmaceuticals Ltd."
+    },
+    {
+      "brandId": "bf72b62b-44f9-4c71-88a2-6487431e8f28",
+      "sourceId": "14885",
+      "brandName": "Cholera Fluid",
+      "genericName": "Cholera Saline",
+      "strength": null,
+      "dosageForm": "IV Infusion",
+      "manufacturer": "Institute of Public Health (IPH)"
+    },
+    {
+      "brandId": "c691811c-bc5a-48a6-a758-151e67217a19",
+      "sourceId": "19759",
+      "brandName": "Dextran",
+      "genericName": "Dextran + Dextrose",
+      "strength": "6%+5%",
+      "dosageForm": "IV Infusion",
+      "manufacturer": "Institute of Public Health (IPH)"
+    },
+    {
+      "brandId": "d3186950-0749-4bd1-bec5-9bf554e59c65",
+      "sourceId": "3514",
+      "brandName": "Sultolin",
+      "genericName": "Salbutamol (Inhaler)",
+      "strength": "100 mcg/puff",
+      "dosageForm": "Inhaler",
+      "manufacturer": "Square Pharmaceuticals Ltd."
+    },
+    {
+      "brandId": "d346b71d-af9d-4d22-8dda-5c02183a41b5",
+      "sourceId": "32894",
+      "brandName": "Tamsulin",
+      "genericName": "Tamsulosin Hydrochloride",
+      "strength": "0.4 mg",
+      "dosageForm": "Capsule (Modified Release)",
+      "manufacturer": "Team Pharmaceuticals Ltd."
+    },
+    {
+      "brandId": "d88018a3-a58e-4a86-aca5-a566aa7e62d3",
+      "sourceId": "23361",
+      "brandName": "Panto SP",
+      "genericName": "Pantoprazole Sodium Sesquihydrate",
+      "strength": "40 mg",
+      "dosageForm": "Tablet (Enteric Coated)",
+      "manufacturer": "Seema Pharmaceuticals Ltd."
+    },
+    {
+      "brandId": "de4a18a0-374b-49a8-a3fd-ae6b2bd0a4ce",
+      "sourceId": "32782",
+      "brandName": "Viera",
+      "genericName": "Voriconazole",
+      "strength": "200 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beacon Pharmaceuticals Ltd."
+    },
+    {
+      "brandId": "df58acdc-48f3-4e2f-bd08-4e577542b1fd",
+      "sourceId": "33102",
+      "brandName": "Veneta",
+      "genericName": "Venetoclax",
+      "strength": "100 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Drug International Ltd."
+    },
+    {
+      "brandId": "e1d1a2d9-3231-4949-8fcf-e5731ae8a8a3",
+      "sourceId": "33089",
+      "brandName": "Nilonib",
+      "genericName": "Nilotinib",
+      "strength": "200 mg",
+      "dosageForm": "Capsule",
+      "manufacturer": "Drug International Ltd."
+    },
+    {
+      "brandId": "e8b0421a-d11e-42c2-9016-3c0c80837a13",
+      "sourceId": "32530",
+      "brandName": "Semaglut",
+      "genericName": "Semaglutide (Tablet)",
+      "strength": "3 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "NIPRO JMI Pharma Ltd."
+    },
+    {
+      "brandId": "f476f611-d8e2-4fb9-aa34-ebdc0633c3e9",
+      "sourceId": "33103",
+      "brandName": "Veneta",
+      "genericName": "Venetoclax",
+      "strength": "50 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Drug International Ltd."
+    }
+  ],
+  "duplicateOrSuspiciousIdentityGroups": {
+    "duplicateGenericNormalizedNamesCount": 77,
+    "duplicateGenericNormalizedNames": [
+      {
+        "normalizedName": "pseudoephedrine + guaiphenasine + triprolidine",
+        "count": 2,
+        "generics": [
+          {
+            "id": "000991c7-1267-4cab-a399-746c3cdb2fa6",
+            "sourceId": "listing:pseudoephedrine-guaiphenasine-triprolidine",
+            "name": "Pseudoephedrine + Guaiphenasine + Triprolidine"
+          },
+          {
+            "id": "70b08d0b-a843-4c5b-8ca7-e25f3feeb303",
+            "sourceId": "536",
+            "name": "Pseudoephedrine + Guaiphenasine + Triprolidine"
+          }
+        ]
+      },
+      {
+        "normalizedName": "cloxacillin sodium",
+        "count": 2,
+        "generics": [
+          {
+            "id": "01d252f7-9088-48e2-8f0d-678329da2a07",
+            "sourceId": "292",
+            "name": "Cloxacillin Sodium"
+          },
+          {
+            "id": "3d4193d0-6f68-41f6-bec8-dabe65508823",
+            "sourceId": "listing:cloxacillin-sodium",
+            "name": "Cloxacillin Sodium"
+          }
+        ]
+      },
+      {
+        "normalizedName": "agomelatine",
+        "count": 2,
+        "generics": [
+          {
+            "id": "0378831e-8c2f-4ea3-ab7e-49b801785667",
+            "sourceId": "35",
+            "name": "Agomelatine"
+          },
+          {
+            "id": "cf8a990a-9425-4c24-9c71-2e2e2b766f3f",
+            "sourceId": "listing:agomelatine",
+            "name": "Agomelatine"
+          }
+        ]
+      },
+      {
+        "normalizedName": "erythromycin",
+        "count": 2,
+        "generics": [
+          {
+            "id": "0c984a34-34f7-4d61-9ff4-93d1de41c750",
+            "sourceId": "428",
+            "name": "Erythromycin"
+          },
+          {
+            "id": "31d8d6b0-547d-407f-83b7-4255c44166d0",
+            "sourceId": "427",
+            "name": "Erythromycin"
+          }
+        ]
+      },
+      {
+        "normalizedName": "aluminium hydroxide + magnesium hydroxide",
+        "count": 2,
+        "generics": [
+          {
+            "id": "13160fdf-2047-48b7-82ae-24b9858d974c",
+            "sourceId": "listing:aluminium-hydroxide-magnesium-hydroxide",
+            "name": "Aluminium Hydroxide + Magnesium Hydroxide"
+          },
+          {
+            "id": "ec27c9ad-b045-4d87-b106-d84588007f9e",
+            "sourceId": "19",
+            "name": "Aluminium Hydroxide + Magnesium Hydroxide"
+          }
+        ]
+      },
+      {
+        "normalizedName": "adapalene",
+        "count": 2,
+        "generics": [
+          {
+            "id": "158a61dc-9410-4bf9-98e3-3140a87de33f",
+            "sourceId": "14",
+            "name": "Adapalene"
+          },
+          {
+            "id": "e9827b30-802c-4e43-9621-850acee90016",
+            "sourceId": "listing:adapalene",
+            "name": "Adapalene"
+          }
+        ]
+      },
+      {
+        "normalizedName": "mesalazine [5-aminosalicylic acid]",
+        "count": 2,
+        "generics": [
+          {
+            "id": "15940630-4cdc-431e-bb6d-53a576dcd124",
+            "sourceId": "listing:mesalazine-5-aminosalicylic-acid",
+            "name": "Mesalazine [5-aminosalicylic acid]"
+          },
+          {
+            "id": "5105c344-6eae-4e21-b4fd-43032ae12d68",
+            "sourceId": "4",
+            "name": "Mesalazine [5-aminosalicylic acid]"
+          }
+        ]
+      },
+      {
+        "normalizedName": "miconazole nitrate",
+        "count": 2,
+        "generics": [
+          {
+            "id": "15d09942-a1e8-4c9f-8880-633cad196fa1",
+            "sourceId": "754",
+            "name": "Miconazole Nitrate"
+          },
+          {
+            "id": "d20f5764-fca9-409a-ba66-b4c01eebe2bd",
+            "sourceId": "listing:miconazole-nitrate",
+            "name": "Miconazole Nitrate"
+          }
+        ]
+      },
+      {
+        "normalizedName": "tetracycline hydrochloride",
+        "count": 2,
+        "generics": [
+          {
+            "id": "1f74bf14-2681-4402-a17d-64567ca1d3e8",
+            "sourceId": "listing:tetracycline-hydrochloride",
+            "name": "Tetracycline Hydrochloride"
+          },
+          {
+            "id": "b1a11661-f623-480d-b0a2-9819dbf43ffa",
+            "sourceId": "1060",
+            "name": "Tetracycline Hydrochloride"
+          }
+        ]
+      },
+      {
+        "normalizedName": "ulipristal acetate [for emergency contraception]",
+        "count": 2,
+        "generics": [
+          {
+            "id": "1fc3a784-8ffe-48cb-9ec1-ed52a9fe01a0",
+            "sourceId": "1154",
+            "name": "Ulipristal Acetate [For emergency contraception]"
+          },
+          {
+            "id": "6a85d564-c3f8-4b2a-955b-0e0bfe459687",
+            "sourceId": "listing:ulipristal-acetate-for-emergency-contraception",
+            "name": "Ulipristal Acetate [For emergency contraception]"
+          }
+        ]
+      },
+      {
+        "normalizedName": "thiamine hydrochloride",
+        "count": 2,
+        "generics": [
+          {
+            "id": "21436077-ba05-4d72-95ad-547bda552c71",
+            "sourceId": "1063",
+            "name": "Thiamine Hydrochloride"
+          },
+          {
+            "id": "c845bece-bfbd-4638-872c-26481a6eba08",
+            "sourceId": "listing:thiamine-hydrochloride",
+            "name": "Thiamine Hydrochloride"
+          }
+        ]
+      },
+      {
+        "normalizedName": "atorvastatin + ezetimibe",
+        "count": 2,
+        "generics": [
+          {
+            "id": "22731ae6-3fe8-4a2c-b27c-9c50fb3a9d9f",
+            "sourceId": "2049",
+            "name": "Atorvastatin + Ezetimibe"
+          },
+          {
+            "id": "35c7d367-9dec-484b-9cbc-dc64bfc5e96e",
+            "sourceId": "listing:atorvastatin-ezetimibe",
+            "name": "Atorvastatin + Ezetimibe"
+          }
+        ]
+      },
+      {
+        "normalizedName": "beta carotene + vitamin c + vitamin e",
+        "count": 2,
+        "generics": [
+          {
+            "id": "260fce6c-44dd-4f0c-8ef8-4913c0473ecb",
+            "sourceId": "120",
+            "name": "Beta carotene + Vitamin C + Vitamin E"
+          },
+          {
+            "id": "96bf924c-8f60-4103-b53e-b1590e09d236",
+            "sourceId": "listing:beta-carotene-vitamin-c-vitamin-e",
+            "name": "Beta carotene + Vitamin C + Vitamin E"
+          }
+        ]
+      },
+      {
+        "normalizedName": "dextromethorphan + pseudoephedrine + triprolidine",
+        "count": 2,
+        "generics": [
+          {
+            "id": "281594f9-c426-41db-a6d1-200b34c1ef24",
+            "sourceId": "listing:dextromethorphan-pseudoephedrine-triprolidine",
+            "name": "Dextromethorphan + Pseudoephedrine + Triprolidine"
+          },
+          {
+            "id": "ac080d96-696a-4d53-823e-669ae324b21a",
+            "sourceId": "346",
+            "name": "Dextromethorphan + Pseudoephedrine + Triprolidine"
+          }
+        ]
+      },
+      {
+        "normalizedName": "cefaclor monohydrate",
+        "count": 2,
+        "generics": [
+          {
+            "id": "283555c8-6c7d-4f0d-8cea-4deb4b2d849e",
+            "sourceId": "listing:cefaclor-monohydrate",
+            "name": "Cefaclor Monohydrate"
+          },
+          {
+            "id": "3f010bd2-587e-4ede-b2d1-0e4235e53382",
+            "sourceId": "209",
+            "name": "Cefaclor Monohydrate"
+          }
+        ]
+      },
+      {
+        "normalizedName": "acyclovir",
+        "count": 4,
+        "generics": [
+          {
+            "id": "28ef04ca-6001-46f8-8992-68f221e02153",
+            "sourceId": "9",
+            "name": "Acyclovir"
+          },
+          {
+            "id": "504ec9ed-ae84-4300-8699-a46f5d3d64f9",
+            "sourceId": "12",
+            "name": "Acyclovir"
+          },
+          {
+            "id": "5cbad6c6-151e-459c-9679-1ffb0f1ae624",
+            "sourceId": "7",
+            "name": "Acyclovir"
+          },
+          {
+            "id": "a062ed55-d37f-4d59-af0d-432ab46cc884",
+            "sourceId": "13",
+            "name": "Acyclovir"
+          }
+        ]
+      },
+      {
+        "normalizedName": "dexamethasone + chloramphenicol",
+        "count": 2,
+        "generics": [
+          {
+            "id": "2a18ae0c-4631-476f-83e1-6eaeb2bc8e9b",
+            "sourceId": "listing:dexamethasone-chloramphenicol",
+            "name": "Dexamethasone + Chloramphenicol"
+          },
+          {
+            "id": "2b99e234-9456-4929-bea6-3d3d201317bf",
+            "sourceId": "238",
+            "name": "Dexamethasone + Chloramphenicol"
+          }
+        ]
+      },
+      {
+        "normalizedName": "sodium chloride + dextrose",
+        "count": 2,
+        "generics": [
+          {
+            "id": "2c6f641a-2a41-4a08-9943-def3704ae24c",
+            "sourceId": "listing:sodium-chloride-dextrose",
+            "name": "Sodium Chloride + Dextrose"
+          },
+          {
+            "id": "609c0b4e-4d66-4e83-a883-ff6beb0878eb",
+            "sourceId": "351",
+            "name": "Sodium Chloride + Dextrose"
+          }
+        ]
+      },
+      {
+        "normalizedName": "ambrisentan",
+        "count": 2,
+        "generics": [
+          {
+            "id": "2c9a7ceb-7400-449a-899f-2d8df4e56849",
+            "sourceId": "listing:ambrisentan",
+            "name": "Ambrisentan"
+          },
+          {
+            "id": "2f938fcf-2cf0-4778-88f1-b25ca30693d0",
+            "sourceId": "51",
+            "name": "Ambrisentan"
+          }
+        ]
+      },
+      {
+        "normalizedName": "amino acid, d-sorbitol & electrolytes",
+        "count": 2,
+        "generics": [
+          {
+            "id": "2f524edd-d096-4b49-bcea-21546ef6ffde",
+            "sourceId": "listing:amino-acid-d-sorbitol-electrolytes",
+            "name": "Amino Acid, D-Sorbitol & Electrolytes"
+          },
+          {
+            "id": "5db1167f-2eed-4f0b-ac26-455bb2849822",
+            "sourceId": "55",
+            "name": "Amino Acid, D-Sorbitol & Electrolytes"
+          }
+        ]
+      },
+      {
+        "normalizedName": "diclofenac sodium",
+        "count": 2,
+        "generics": [
+          {
+            "id": "31b9bc3a-4d36-4825-a70a-9a780cca6de4",
+            "sourceId": "listing:diclofenac-sodium",
+            "name": "Diclofenac Sodium"
+          },
+          {
+            "id": "ce209e10-a11e-4820-8576-545abe6fa4b5",
+            "sourceId": "357",
+            "name": "Diclofenac Sodium"
+          }
+        ]
+      },
+      {
+        "normalizedName": "dicycloverine hydrochloride",
+        "count": 2,
+        "generics": [
+          {
+            "id": "32896619-29b6-42e2-8125-e90519b37fa9",
+            "sourceId": "listing:dicycloverine-hydrochloride",
+            "name": "Dicycloverine Hydrochloride"
+          },
+          {
+            "id": "47b34041-67a6-42a0-8f4b-b95825a543bf",
+            "sourceId": "361",
+            "name": "Dicycloverine Hydrochloride"
+          }
+        ]
+      },
+      {
+        "normalizedName": "flucloxacillin sodium",
+        "count": 2,
+        "generics": [
+          {
+            "id": "329fa7ed-b93a-4f97-819b-8e7d4540d513",
+            "sourceId": "473",
+            "name": "Flucloxacillin Sodium"
+          },
+          {
+            "id": "c20e759b-52cb-468a-86dc-cf1d8fa72e7f",
+            "sourceId": "listing:flucloxacillin-sodium",
+            "name": "Flucloxacillin Sodium"
+          }
+        ]
+      },
+      {
+        "normalizedName": "aminophylline",
+        "count": 2,
+        "generics": [
+          {
+            "id": "353d1d77-3efe-449a-9eda-1d9fe3dcae40",
+            "sourceId": "58",
+            "name": "Aminophylline"
+          },
+          {
+            "id": "7f122669-7152-4709-b53d-9bf13cf1ca3b",
+            "sourceId": "listing:aminophylline",
+            "name": "Aminophylline"
+          }
+        ]
+      },
+      {
+        "normalizedName": "aluminium chloride hexahydrate",
+        "count": 2,
+        "generics": [
+          {
+            "id": "364f6b1f-d11d-4446-aa5e-b736331bdfe9",
+            "sourceId": "45",
+            "name": "Aluminium Chloride Hexahydrate"
+          },
+          {
+            "id": "68892d67-f8e3-4703-a618-3a1a1b783772",
+            "sourceId": "listing:aluminium-chloride-hexahydrate",
+            "name": "Aluminium Chloride Hexahydrate"
+          }
+        ]
+      },
+      {
+        "normalizedName": "amitriptyline hydrochloride",
+        "count": 2,
+        "generics": [
+          {
+            "id": "3a9748af-48ea-4773-8a35-2fc576964a94",
+            "sourceId": "60",
+            "name": "Amitriptyline Hydrochloride"
+          },
+          {
+            "id": "fc09298d-9063-4187-ab81-6256c79c94ce",
+            "sourceId": "listing:amitriptyline-hydrochloride",
+            "name": "Amitriptyline Hydrochloride"
+          }
+        ]
+      },
+      {
+        "normalizedName": "paracetamol",
+        "count": 2,
+        "generics": [
+          {
+            "id": "3cfc39a8-cd07-435d-8f2b-0f7649a397e3",
+            "sourceId": "listing:paracetamol",
+            "name": "Paracetamol"
+          },
+          {
+            "id": "be9048fe-0ede-483a-82c3-90e88b80c4dd",
+            "sourceId": "860",
+            "name": "Paracetamol"
+          }
+        ]
+      },
+      {
+        "normalizedName": "alcaftadine",
+        "count": 2,
+        "generics": [
+          {
+            "id": "3d33aeff-28ef-4a6c-9463-e36c9ee2fb35",
+            "sourceId": "29",
+            "name": "Alcaftadine"
+          },
+          {
+            "id": "ece9431b-083f-4fee-8236-f8a33ee69c85",
+            "sourceId": "listing:alcaftadine",
+            "name": "Alcaftadine"
+          }
+        ]
+      },
+      {
+        "normalizedName": "alprazolam",
+        "count": 2,
+        "generics": [
+          {
+            "id": "3f1fc109-3035-4735-9790-19ff75ae61a1",
+            "sourceId": "18",
+            "name": "Alprazolam"
+          },
+          {
+            "id": "c24b9199-5d40-4c11-86c3-b2919fee271b",
+            "sourceId": "listing:alprazolam",
+            "name": "Alprazolam"
+          }
+        ]
+      },
+      {
+        "normalizedName": "olmesartan medoxomil",
+        "count": 2,
+        "generics": [
+          {
+            "id": "4079cd0a-e801-46f6-8683-a12b6e06051d",
+            "sourceId": "listing:olmesartan-medoxomil",
+            "name": "Olmesartan Medoxomil"
+          },
+          {
+            "id": "ffc2210a-fe4c-48f5-8b28-f41815a174e3",
+            "sourceId": "822",
+            "name": "Olmesartan Medoxomil"
+          }
+        ]
+      },
+      {
+        "normalizedName": "amlodipine besilate + atorvastatin",
+        "count": 2,
+        "generics": [
+          {
+            "id": "40f5fdd3-f561-40c7-9362-62686e4d07b7",
+            "sourceId": "listing:amlodipine-besilate-atorvastatin",
+            "name": "Amlodipine Besilate + Atorvastatin"
+          },
+          {
+            "id": "e18e80b6-9464-4c6e-b3ec-e6a24ede109c",
+            "sourceId": "68",
+            "name": "Amlodipine Besilate + Atorvastatin"
+          }
+        ]
+      },
+      {
+        "normalizedName": "amikacin",
+        "count": 2,
+        "generics": [
+          {
+            "id": "46a722dc-11e9-4513-af52-621c496ed62e",
+            "sourceId": "54",
+            "name": "Amikacin"
+          },
+          {
+            "id": "5dfb0883-3667-4845-a512-bec83f45a912",
+            "sourceId": "listing:amikacin",
+            "name": "Amikacin"
+          }
+        ]
+      },
+      {
+        "normalizedName": "amlodipine besilate + atenolol",
+        "count": 2,
+        "generics": [
+          {
+            "id": "473d9ec8-a0e7-41d5-b060-a5fa63a40905",
+            "sourceId": "listing:amlodipine-besilate-atenolol",
+            "name": "Amlodipine Besilate + Atenolol"
+          },
+          {
+            "id": "7b39a847-c403-4e75-9362-6543babcc4f9",
+            "sourceId": "63",
+            "name": "Amlodipine Besilate + Atenolol"
+          }
+        ]
+      },
+      {
+        "normalizedName": "amiodarone hydrochloride",
+        "count": 2,
+        "generics": [
+          {
+            "id": "4783b50f-8610-41e6-872a-60db00d599fa",
+            "sourceId": "59",
+            "name": "Amiodarone Hydrochloride"
+          },
+          {
+            "id": "e7dbf65c-3192-4fbd-a7ee-4c32c05e813d",
+            "sourceId": "listing:amiodarone-hydrochloride",
+            "name": "Amiodarone Hydrochloride"
+          }
+        ]
+      },
+      {
+        "normalizedName": "amantadine hydrochloride",
+        "count": 2,
+        "generics": [
+          {
+            "id": "47dabf16-6530-4603-8e5d-584629fdba5d",
+            "sourceId": "listing:amantadine-hydrochloride",
+            "name": "Amantadine Hydrochloride"
+          },
+          {
+            "id": "bfebfb2b-68d3-4783-a137-99540e3a8a40",
+            "sourceId": "50",
+            "name": "Amantadine Hydrochloride"
+          }
+        ]
+      },
+      {
+        "normalizedName": "tolperisone hydrochloride",
+        "count": 2,
+        "generics": [
+          {
+            "id": "484a2a92-34e9-4616-a9ba-7dfa15ba28d3",
+            "sourceId": "listing:tolperisone-hydrochloride",
+            "name": "Tolperisone Hydrochloride"
+          },
+          {
+            "id": "8cb5dae7-0a0a-4d94-a88a-75336dce407e",
+            "sourceId": "1094",
+            "name": "Tolperisone Hydrochloride"
+          }
+        ]
+      },
+      {
+        "normalizedName": "mifepristone + misoprostol",
+        "count": 2,
+        "generics": [
+          {
+            "id": "48dbbe02-c24e-4d14-bb91-f13f0c5f309a",
+            "sourceId": "listing:mifepristone-misoprostol",
+            "name": "Mifepristone + Misoprostol"
+          },
+          {
+            "id": "5ad0c9c4-1fea-41d6-8c0b-7a376f7dafaf",
+            "sourceId": "758",
+            "name": "Mifepristone + Misoprostol"
+          }
+        ]
+      },
+      {
+        "normalizedName": "isosorbide mononitrate",
+        "count": 2,
+        "generics": [
+          {
+            "id": "4a21d8e9-5081-4d5d-a459-a0127518b2ae",
+            "sourceId": "639",
+            "name": "Isosorbide Mononitrate"
+          },
+          {
+            "id": "a4b7046b-3b73-4c9f-9647-fde7de6c1b08",
+            "sourceId": "listing:isosorbide-mononitrate",
+            "name": "Isosorbide Mononitrate"
+          }
+        ]
+      },
+      {
+        "normalizedName": "adrenaline",
+        "count": 2,
+        "generics": [
+          {
+            "id": "4a560236-ea1a-4c52-8328-0a745ecc2353",
+            "sourceId": "listing:adrenaline",
+            "name": "Adrenaline"
+          },
+          {
+            "id": "86dfd889-d2c7-46c1-8285-e7999023e682",
+            "sourceId": "28",
+            "name": "Adrenaline"
+          }
+        ]
+      },
+      {
+        "normalizedName": "bromhexine hydrochloride",
+        "count": 2,
+        "generics": [
+          {
+            "id": "4f05db46-14ec-4c05-9380-6ebdc179d749",
+            "sourceId": "145",
+            "name": "Bromhexine Hydrochloride"
+          },
+          {
+            "id": "96b0c495-6324-4a06-b1dc-b3f1a238dee1",
+            "sourceId": "listing:bromhexine-hydrochloride",
+            "name": "Bromhexine Hydrochloride"
+          }
+        ]
+      },
+      {
+        "normalizedName": "insulin glargine",
+        "count": 2,
+        "generics": [
+          {
+            "id": "52bd62eb-143a-4909-9866-9ccc44d72061",
+            "sourceId": "listing:insulin-glargine",
+            "name": "Insulin Glargine"
+          },
+          {
+            "id": "9940482d-e6b5-4bc3-bafa-0f366b9ee036",
+            "sourceId": "614",
+            "name": "Insulin Glargine"
+          }
+        ]
+      },
+      {
+        "normalizedName": "amlodipine besilate + telmisartan",
+        "count": 2,
+        "generics": [
+          {
+            "id": "54725209-362b-468a-9fe5-c3426e1d79a9",
+            "sourceId": "66",
+            "name": "Amlodipine Besilate + Telmisartan"
+          },
+          {
+            "id": "9bf6e330-ad53-43e7-8ee2-068471a29446",
+            "sourceId": "listing:amlodipine-besilate-telmisartan",
+            "name": "Amlodipine Besilate + Telmisartan"
+          }
+        ]
+      },
+      {
+        "normalizedName": "ramipril",
+        "count": 2,
+        "generics": [
+          {
+            "id": "556dc921-e6a8-4423-b1c7-11b4a7b3ca14",
+            "sourceId": "listing:ramipril",
+            "name": "Ramipril"
+          },
+          {
+            "id": "cea2a68d-08d1-44c8-9e6c-57564a4bac0e",
+            "sourceId": "947",
+            "name": "Ramipril"
+          }
+        ]
+      },
+      {
+        "normalizedName": "cephradine",
+        "count": 2,
+        "generics": [
+          {
+            "id": "58cdf30a-9a6a-4d0c-8ef2-9283eafd91d9",
+            "sourceId": "listing:cephradine",
+            "name": "Cephradine"
+          },
+          {
+            "id": "c703bd7f-a613-455f-8c60-efc3655bf349",
+            "sourceId": "232",
+            "name": "Cephradine"
+          }
+        ]
+      },
+      {
+        "normalizedName": "adapalene + benzoyl peroxide",
+        "count": 2,
+        "generics": [
+          {
+            "id": "592e96fe-2948-4bb6-b033-2541a6afbe34",
+            "sourceId": "11",
+            "name": "Adapalene + Benzoyl peroxide"
+          },
+          {
+            "id": "814d838d-1c27-4da2-b925-332fb2a8b87d",
+            "sourceId": "listing:adapalene-benzoyl-peroxide",
+            "name": "Adapalene + Benzoyl peroxide"
+          }
+        ]
+      },
+      {
+        "normalizedName": "oxyphenonium bromide",
+        "count": 2,
+        "generics": [
+          {
+            "id": "604721bd-770c-4df7-9562-1e723c651f88",
+            "sourceId": "849",
+            "name": "Oxyphenonium Bromide"
+          },
+          {
+            "id": "7ac191d0-6ca3-4205-a28d-a3290a33856d",
+            "sourceId": "listing:oxyphenonium-bromide",
+            "name": "Oxyphenonium Bromide"
+          }
+        ]
+      },
+      {
+        "normalizedName": "acarbose",
+        "count": 2,
+        "generics": [
+          {
+            "id": "7043258c-4200-44f7-a831-1efa60737986",
+            "sourceId": "listing:acarbose",
+            "name": "Acarbose"
+          },
+          {
+            "id": "de599320-0422-466a-bc8e-7bd762b412dd",
+            "sourceId": "27",
+            "name": "Acarbose"
+          }
+        ]
+      },
+      {
+        "normalizedName": "cefixime trihydrate",
+        "count": 2,
+        "generics": [
+          {
+            "id": "7286a561-96a9-4c4c-bfd8-6e2815d4a711",
+            "sourceId": "listing:cefixime-trihydrate",
+            "name": "Cefixime Trihydrate"
+          },
+          {
+            "id": "af929c49-6a11-48c6-be37-59de22e3f77a",
+            "sourceId": "217",
+            "name": "Cefixime Trihydrate"
+          }
+        ]
+      },
+      {
+        "normalizedName": "iron polymaltose complex + vitamin b complex + zinc",
+        "count": 2,
+        "generics": [
+          {
+            "id": "77aa19f9-8179-466b-933f-5f36bfe3eb87",
+            "sourceId": "631",
+            "name": "Iron Polymaltose Complex + Vitamin B Complex + Zinc"
+          },
+          {
+            "id": "86e984b4-6207-4fc5-af0a-d8ba91013199",
+            "sourceId": "listing:iron-polymaltose-complex-vitamin-b-complex-zinc",
+            "name": "Iron Polymaltose Complex + Vitamin B Complex + Zinc"
+          }
+        ]
+      },
+      {
+        "normalizedName": "conventional calcium + vitamin d3",
+        "count": 2,
+        "generics": [
+          {
+            "id": "7ad3605d-8d3b-4758-8d79-0e902c7ce11c",
+            "sourceId": "listing:conventional-calcium-vitamin-d3",
+            "name": "Conventional Calcium + Vitamin D3"
+          },
+          {
+            "id": "dc80a126-3bed-4810-a8c1-c1de3ca5f0c1",
+            "sourceId": "169",
+            "name": "Conventional Calcium + Vitamin D3"
+          }
+        ]
+      },
+      {
+        "normalizedName": "allopurinol",
+        "count": 2,
+        "generics": [
+          {
+            "id": "7ae9d036-76f3-4d8b-86be-6dc3140374aa",
+            "sourceId": "17",
+            "name": "Allopurinol"
+          },
+          {
+            "id": "fd22874e-67e3-487f-868e-719f1974f82c",
+            "sourceId": "listing:allopurinol",
+            "name": "Allopurinol"
+          }
+        ]
+      },
+      {
+        "normalizedName": "diclofenac sodium + lidocaine hydrochloride",
+        "count": 2,
+        "generics": [
+          {
+            "id": "7b31a3b3-05d1-4236-80aa-1be56b834abd",
+            "sourceId": "356",
+            "name": "Diclofenac Sodium + Lidocaine Hydrochloride"
+          },
+          {
+            "id": "c6560d49-54bb-4f71-9e19-95a98e1deabf",
+            "sourceId": "listing:diclofenac-sodium-lidocaine-hydrochloride",
+            "name": "Diclofenac Sodium + Lidocaine Hydrochloride"
+          }
+        ]
+      },
+      {
+        "normalizedName": "vitamin b1, b6 & b12",
+        "count": 2,
+        "generics": [
+          {
+            "id": "81fdfe0d-4137-4977-ae63-939b1ee11151",
+            "sourceId": "listing:vitamin-b1-b6-b12",
+            "name": "Vitamin B1, B6 & B12"
+          },
+          {
+            "id": "9e692bb6-76d4-4b0d-b61f-d9d7fa27ede6",
+            "sourceId": "1135",
+            "name": "Vitamin B1, B6 & B12"
+          }
+        ]
+      },
+      {
+        "normalizedName": "amlodipine besilate",
+        "count": 2,
+        "generics": [
+          {
+            "id": "84c349fd-e61d-4a83-a015-2d57628182c6",
+            "sourceId": "listing:amlodipine-besilate",
+            "name": "Amlodipine Besilate"
+          },
+          {
+            "id": "e903527f-0212-4e5e-a71c-37ebc11667b3",
+            "sourceId": "62",
+            "name": "Amlodipine Besilate"
+          }
+        ]
+      },
+      {
+        "normalizedName": "mebeverine hydrochloride",
+        "count": 2,
+        "generics": [
+          {
+            "id": "8a881e5e-1d12-4a73-9a56-ed0d79ee5fe5",
+            "sourceId": "715",
+            "name": "Mebeverine Hydrochloride"
+          },
+          {
+            "id": "f1051c62-661a-48f8-85e9-988dab2fb1cb",
+            "sourceId": "listing:mebeverine-hydrochloride",
+            "name": "Mebeverine Hydrochloride"
+          }
+        ]
+      },
+      {
+        "normalizedName": "diclofenac potassium",
+        "count": 2,
+        "generics": [
+          {
+            "id": "8ca9a925-487e-489f-946f-e2778ed7d7a0",
+            "sourceId": "1184",
+            "name": "Diclofenac Potassium"
+          },
+          {
+            "id": "c608ce8a-a0d0-4454-8de2-4c9603eb76cd",
+            "sourceId": "listing:diclofenac-potassium",
+            "name": "Diclofenac Potassium"
+          }
+        ]
+      },
+      {
+        "normalizedName": "pancreatin",
+        "count": 2,
+        "generics": [
+          {
+            "id": "8cd858cc-eb24-48f8-b4b0-9cdcbef75f07",
+            "sourceId": "listing:pancreatin",
+            "name": "Pancreatin"
+          },
+          {
+            "id": "9ba1fba0-0a71-4ad1-ad02-23fb769ad102",
+            "sourceId": "857",
+            "name": "Pancreatin"
+          }
+        ]
+      },
+      {
+        "normalizedName": "brimonidine tartrate + timolol maleate",
+        "count": 2,
+        "generics": [
+          {
+            "id": "93afe926-c337-4aa1-8277-949ec205fe94",
+            "sourceId": "140",
+            "name": "Brimonidine Tartrate + Timolol Maleate"
+          },
+          {
+            "id": "a644542d-45a8-43f4-875d-bd145f9df913",
+            "sourceId": "listing:brimonidine-tartrate-timolol-maleate",
+            "name": "Brimonidine Tartrate + Timolol Maleate"
+          }
+        ]
+      },
+      {
+        "normalizedName": "amino acids, glucose & electrolytes",
+        "count": 2,
+        "generics": [
+          {
+            "id": "94fde04d-5324-4d8f-a56c-432e16e8108e",
+            "sourceId": "listing:amino-acids-glucose-electrolytes",
+            "name": "Amino acids, Glucose & Electrolytes"
+          },
+          {
+            "id": "e98c0162-71c1-43c8-b9f6-07e93184bbb4",
+            "sourceId": "57",
+            "name": "Amino acids, Glucose & Electrolytes"
+          }
+        ]
+      },
+      {
+        "normalizedName": "alfuzosin hydrochloride",
+        "count": 2,
+        "generics": [
+          {
+            "id": "970ec7f2-da56-4b4a-9fd6-4ecec63e8059",
+            "sourceId": "listing:alfuzosin-hydrochloride",
+            "name": "Alfuzosin Hydrochloride"
+          },
+          {
+            "id": "d0e7115c-e361-41c9-9992-f4b5faa13744",
+            "sourceId": "41",
+            "name": "Alfuzosin Hydrochloride"
+          }
+        ]
+      },
+      {
+        "normalizedName": "vitamin a",
+        "count": 2,
+        "generics": [
+          {
+            "id": "97f028ed-6c5c-439f-a49f-cb3bc2ff9d61",
+            "sourceId": "1156",
+            "name": "Vitamin A"
+          },
+          {
+            "id": "d023457e-70e7-4e35-a2cb-9d74a1f70230",
+            "sourceId": "listing:vitamin-a",
+            "name": "Vitamin A"
+          }
+        ]
+      },
+      {
+        "normalizedName": "ambroxol hydrochloride",
+        "count": 2,
+        "generics": [
+          {
+            "id": "985f7ffe-867a-4cf5-b168-c5df361d9102",
+            "sourceId": "53",
+            "name": "Ambroxol Hydrochloride"
+          },
+          {
+            "id": "9df434cb-6e05-475a-91c9-3be0ce8a6b64",
+            "sourceId": "listing:ambroxol-hydrochloride",
+            "name": "Ambroxol Hydrochloride"
+          }
+        ]
+      },
+      {
+        "normalizedName": "allylestrenol",
+        "count": 2,
+        "generics": [
+          {
+            "id": "9c06b096-d2d0-433c-84c6-592431eb0293",
+            "sourceId": "listing:allylestrenol",
+            "name": "Allylestrenol"
+          },
+          {
+            "id": "e98411c5-e242-448a-9ebc-4860da4daeec",
+            "sourceId": "1369",
+            "name": "Allylestrenol"
+          }
+        ]
+      },
+      {
+        "normalizedName": "calcium carbonate",
+        "count": 2,
+        "generics": [
+          {
+            "id": "a4b5ff0e-8619-4ea2-a21d-a750621693bc",
+            "sourceId": "173",
+            "name": "Calcium Carbonate"
+          },
+          {
+            "id": "a672a3cb-a876-481d-ac41-f053887f1dda",
+            "sourceId": "listing:calcium-carbonate",
+            "name": "Calcium Carbonate"
+          }
+        ]
+      },
+      {
+        "normalizedName": "olmesartan medoxomil + hydrochlorothiazide",
+        "count": 2,
+        "generics": [
+          {
+            "id": "a4d52726-5c50-407a-b7f5-9311bd740d3d",
+            "sourceId": "570",
+            "name": "Olmesartan Medoxomil + Hydrochlorothiazide"
+          },
+          {
+            "id": "e5b1c912-6ebc-42c0-989a-da2fd8a355b1",
+            "sourceId": "listing:olmesartan-medoxomil-hydrochlorothiazide",
+            "name": "Olmesartan Medoxomil + Hydrochlorothiazide"
+          }
+        ]
+      },
+      {
+        "normalizedName": "glycerin",
+        "count": 2,
+        "generics": [
+          {
+            "id": "a5ef1e88-09e4-4589-b7e8-311f114c89d7",
+            "sourceId": "listing:glycerin",
+            "name": "Glycerin"
+          },
+          {
+            "id": "bc273439-ef15-4730-be5d-94951ff5fa4e",
+            "sourceId": "531",
+            "name": "Glycerin"
+          }
+        ]
+      },
+      {
+        "normalizedName": "roxithromycin",
+        "count": 2,
+        "generics": [
+          {
+            "id": "a7f018eb-e64f-4ac5-b141-b132dbef648b",
+            "sourceId": "listing:roxithromycin",
+            "name": "Roxithromycin"
+          },
+          {
+            "id": "a94bbe56-24fc-4f86-b31e-5514b8516e4e",
+            "sourceId": "971",
+            "name": "Roxithromycin"
+          }
+        ]
+      },
+      {
+        "normalizedName": "albendazole",
+        "count": 2,
+        "generics": [
+          {
+            "id": "b1d9d249-dedc-437f-8881-6d13a6e2cc9e",
+            "sourceId": "listing:albendazole",
+            "name": "Albendazole"
+          },
+          {
+            "id": "e7d8ecde-438c-4eee-b52a-f6338e2ddb83",
+            "sourceId": "16",
+            "name": "Albendazole"
+          }
+        ]
+      },
+      {
+        "normalizedName": "alverine citrate",
+        "count": 2,
+        "generics": [
+          {
+            "id": "b4295934-b843-4403-afb3-e150aa8450d0",
+            "sourceId": "listing:alverine-citrate",
+            "name": "Alverine Citrate"
+          },
+          {
+            "id": "e4ab64fa-4064-4660-b921-7306ee19ff62",
+            "sourceId": "49",
+            "name": "Alverine Citrate"
+          }
+        ]
+      },
+      {
+        "normalizedName": "amlodipine besilate + olmesartan medoxomil",
+        "count": 2,
+        "generics": [
+          {
+            "id": "bcd463c2-986e-4f95-bfa6-09140b43a31f",
+            "sourceId": "listing:amlodipine-besilate-olmesartan-medoxomil",
+            "name": "Amlodipine Besilate + Olmesartan Medoxomil"
+          },
+          {
+            "id": "d1990526-0e8a-4992-8349-d52cc5909899",
+            "sourceId": "65",
+            "name": "Amlodipine Besilate + Olmesartan Medoxomil"
+          }
+        ]
+      },
+      {
+        "normalizedName": "paracetamol + caffeine",
+        "count": 2,
+        "generics": [
+          {
+            "id": "c5578674-cfcd-40bf-9205-59a15eef7b63",
+            "sourceId": "listing:paracetamol-caffeine",
+            "name": "Paracetamol + Caffeine"
+          },
+          {
+            "id": "dc70e1c2-46d9-4a08-bc46-465cfe580cb8",
+            "sourceId": "861",
+            "name": "Paracetamol + Caffeine"
+          }
+        ]
+      },
+      {
+        "normalizedName": "permethrin + crotamiton",
+        "count": 2,
+        "generics": [
+          {
+            "id": "c909845b-93b7-4df0-973b-cc293e8dc0d8",
+            "sourceId": "305",
+            "name": "Permethrin + Crotamiton"
+          },
+          {
+            "id": "dc56b330-d7c7-478e-b10e-85e9b61f14f0",
+            "sourceId": "listing:permethrin-crotamiton",
+            "name": "Permethrin + Crotamiton"
+          }
+        ]
+      },
+      {
+        "normalizedName": "aceclofenac",
+        "count": 2,
+        "generics": [
+          {
+            "id": "ccab8b00-7d97-4e52-9d12-4494203be77b",
+            "sourceId": "listing:aceclofenac",
+            "name": "Aceclofenac"
+          },
+          {
+            "id": "d927bbbf-8674-477d-b4f4-801722368351",
+            "sourceId": "3",
+            "name": "Aceclofenac"
+          }
+        ]
+      },
+      {
+        "normalizedName": "aluminium hydroxide + magnesium hydroxide + simethicone",
+        "count": 2,
+        "generics": [
+          {
+            "id": "d0c3cee4-6339-494d-9643-c7ebac5a2e84",
+            "sourceId": "listing:aluminium-hydroxide-magnesium-hydroxide-simethicone",
+            "name": "Aluminium Hydroxide + Magnesium Hydroxide + Simethicone"
+          },
+          {
+            "id": "d1fa6b90-ef48-4c5e-ab9b-f8ff3103e7c9",
+            "sourceId": "20",
+            "name": "Aluminium Hydroxide + Magnesium Hydroxide + Simethicone"
+          }
+        ]
+      },
+      {
+        "normalizedName": "levofloxacin hemihydrate",
+        "count": 2,
+        "generics": [
+          {
+            "id": "d814c2a0-5f89-4778-8624-b902fe1af2a1",
+            "sourceId": "680",
+            "name": "Levofloxacin Hemihydrate"
+          },
+          {
+            "id": "e99d23ef-70bd-40d9-9965-f911e6d8c3bd",
+            "sourceId": "listing:levofloxacin-hemihydrate",
+            "name": "Levofloxacin Hemihydrate"
+          }
+        ]
+      },
+      {
+        "normalizedName": "fluorouracil",
+        "count": 2,
+        "generics": [
+          {
+            "id": "de22fc28-78f7-40c6-aa27-9661950d0ec9",
+            "sourceId": "5",
+            "name": "Fluorouracil"
+          },
+          {
+            "id": "e248b327-92ad-4fef-8bc3-50d0b328c7c3",
+            "sourceId": "listing:fluorouracil",
+            "name": "Fluorouracil"
+          }
+        ]
+      },
+      {
+        "normalizedName": "acetylcysteine",
+        "count": 2,
+        "generics": [
+          {
+            "id": "e615c58d-c15d-4523-803c-16d9101a7cd6",
+            "sourceId": "6",
+            "name": "Acetylcysteine"
+          },
+          {
+            "id": "f0e57422-7536-4844-89f0-f62ae21c95f6",
+            "sourceId": "listing:acetylcysteine",
+            "name": "Acetylcysteine"
+          }
+        ]
+      }
+    ],
+    "duplicateExactBrandIdentityGroupsCount": 13,
+    "duplicateExactBrandIdentityGroups": [
+      {
+        "identityKey": "prednol|a5796ea9-fb60-4d12-93dd-057435262966|1%|ophthalmic suspension|reman drug laboratories ltd.",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "02aa7fcf-fa18-45e9-9c06-46300e1a8b59",
+            "sourceId": "15919",
+            "brandName": "Prednol",
+            "genericId": "a5796ea9-fb60-4d12-93dd-057435262966",
+            "genericName": "Prednisolone Acetate",
+            "strength": "1%",
+            "dosageForm": "Ophthalmic Suspension",
+            "manufacturer": "Reman Drug Laboratories Ltd."
+          },
+          {
+            "brandId": "b4cfcc69-4474-4869-84fe-61b16755e59b",
+            "sourceId": "22275",
+            "brandName": "Prednol",
+            "genericId": "a5796ea9-fb60-4d12-93dd-057435262966",
+            "genericName": "Prednisolone Acetate",
+            "strength": "1%",
+            "dosageForm": "Ophthalmic Suspension",
+            "manufacturer": "Reman Drug Laboratories Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "apnac|31b9bc3a-4d36-4825-a70a-9a780cca6de4|50mg|tablet|supreme pharmaceutical ltd.",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "067678a5-680a-4176-8a34-b0b6879582fc",
+            "sourceId": "28129",
+            "brandName": "Apnac",
+            "genericId": "31b9bc3a-4d36-4825-a70a-9a780cca6de4",
+            "genericName": "Diclofenac Sodium",
+            "strength": "50 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Supreme Pharmaceutical Ltd."
+          },
+          {
+            "brandId": "15800199-9eab-49eb-a0d4-7e6674ed080d",
+            "sourceId": "28130",
+            "brandName": "Apnac",
+            "genericId": "31b9bc3a-4d36-4825-a70a-9a780cca6de4",
+            "genericName": "Diclofenac Sodium",
+            "strength": "50 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Supreme Pharmaceutical Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "sultolin|34631cbf-65bf-4b11-b8a9-c7e2f27bfd74|100mcg/puff|inhaler|square pharmaceuticals ltd.",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "0804bf0f-69bb-43b1-9197-a2cf6089c6bb",
+            "sourceId": "3513",
+            "brandName": "Sultolin",
+            "genericId": "34631cbf-65bf-4b11-b8a9-c7e2f27bfd74",
+            "genericName": "Salbutamol (Inhaler)",
+            "strength": "100 mcg/puff",
+            "dosageForm": "Inhaler",
+            "manufacturer": "Square Pharmaceuticals Ltd."
+          },
+          {
+            "brandId": "d3186950-0749-4bd1-bec5-9bf554e59c65",
+            "sourceId": "3514",
+            "brandName": "Sultolin",
+            "genericId": "34631cbf-65bf-4b11-b8a9-c7e2f27bfd74",
+            "genericName": "Salbutamol (Inhaler)",
+            "strength": "100 mcg/puff",
+            "dosageForm": "Inhaler",
+            "manufacturer": "Square Pharmaceuticals Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "omnitrope|6e784473-5118-4521-8b83-b4dcdca61e21|5mg/1.5ml|sc injection|sandoz (a novartis division)",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "0df59609-1579-451b-8641-3e09bfb72e79",
+            "sourceId": "5971",
+            "brandName": "Omnitrope",
+            "genericId": "6e784473-5118-4521-8b83-b4dcdca61e21",
+            "genericName": "Somatropin",
+            "strength": "5 mg/1.5 ml",
+            "dosageForm": "SC Injection",
+            "manufacturer": "SANDOZ (A Novartis Division)"
+          },
+          {
+            "brandId": "f890721f-9bc9-4efe-a6ee-29c8a4726323",
+            "sourceId": "5972",
+            "brandName": "Omnitrope",
+            "genericId": "6e784473-5118-4521-8b83-b4dcdca61e21",
+            "genericName": "Somatropin",
+            "strength": "5 mg/1.5 ml",
+            "dosageForm": "SC Injection",
+            "manufacturer": "SANDOZ (A Novartis Division)"
+          }
+        ]
+      },
+      {
+        "identityKey": "motodon|b64e4566-8e5a-4a4e-b9ec-ffa74fabbb90|10mg|tablet|medimet pharmaceuticals ltd.",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "1dad3459-7e7f-4b0a-ad2a-a795c96a74b1",
+            "sourceId": "1602",
+            "brandName": "Motodon",
+            "genericId": "b64e4566-8e5a-4a4e-b9ec-ffa74fabbb90",
+            "genericName": "Domperidone Maleate",
+            "strength": "10 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Medimet Pharmaceuticals Ltd."
+          },
+          {
+            "brandId": "729a3f56-9c82-4c52-8027-d008c7127d54",
+            "sourceId": "1601",
+            "brandName": "Motodon",
+            "genericId": "b64e4566-8e5a-4a4e-b9ec-ffa74fabbb90",
+            "genericName": "Domperidone Maleate",
+            "strength": "10 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Medimet Pharmaceuticals Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "thiason|c845bece-bfbd-4638-872c-26481a6eba08|100mg/ml|im/iv injection|jayson pharmaceuticals ltd.",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "4468e71e-e69c-4218-b79f-6c9e0f752071",
+            "sourceId": "13596",
+            "brandName": "Thiason",
+            "genericId": "c845bece-bfbd-4638-872c-26481a6eba08",
+            "genericName": "Thiamine Hydrochloride",
+            "strength": "100 mg/ml",
+            "dosageForm": "IM/IV Injection",
+            "manufacturer": "Jayson Pharmaceuticals Ltd."
+          },
+          {
+            "brandId": "a31b360f-1a1a-4acb-9971-95e556399bc7",
+            "sourceId": "13595",
+            "brandName": "Thiason",
+            "genericId": "c845bece-bfbd-4638-872c-26481a6eba08",
+            "genericName": "Thiamine Hydrochloride",
+            "strength": "100 mg/ml",
+            "dosageForm": "IM/IV Injection",
+            "manufacturer": "Jayson Pharmaceuticals Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "cosmoxim|7286a561-96a9-4c4c-bfd8-6e2815d4a711|200mg|capsule|cosmo pharma laboratories ltd.",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "44fcc04d-d8ea-465b-a6a7-447dfa6f9da0",
+            "sourceId": "35561",
+            "brandName": "Cosmoxim",
+            "genericId": "7286a561-96a9-4c4c-bfd8-6e2815d4a711",
+            "genericName": "Cefixime Trihydrate",
+            "strength": "200 mg",
+            "dosageForm": "Capsule",
+            "manufacturer": "Cosmo Pharma Laboratories Ltd."
+          },
+          {
+            "brandId": "f77e28c0-970c-49c8-8e3c-40e613b6029d",
+            "sourceId": "35562",
+            "brandName": "Cosmoxim",
+            "genericId": "7286a561-96a9-4c4c-bfd8-6e2815d4a711",
+            "genericName": "Cefixime Trihydrate",
+            "strength": "200 mg",
+            "dosageForm": "Capsule",
+            "manufacturer": "Cosmo Pharma Laboratories Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "elacentra|a67e3db9-1d06-4b46-8713-d320fbde02e8|345mg|tablet|beacon pharmaceuticals plc",
+        "count": 3,
+        "brands": [
+          {
+            "brandId": "64165ca2-cce5-4049-9b95-d00d604ef8e2",
+            "sourceId": "39294",
+            "brandName": "Elacentra",
+            "genericId": "a67e3db9-1d06-4b46-8713-d320fbde02e8",
+            "genericName": "Elacestrant",
+            "strength": "345 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Beacon Pharmaceuticals PLC"
+          },
+          {
+            "brandId": "7eadfec8-3949-467f-8d65-502a59e25fa0",
+            "sourceId": "39295",
+            "brandName": "Elacentra",
+            "genericId": "a67e3db9-1d06-4b46-8713-d320fbde02e8",
+            "genericName": "Elacestrant",
+            "strength": "345 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Beacon Pharmaceuticals PLC"
+          },
+          {
+            "brandId": "e663a598-91f7-482e-a2d1-b5d270f57312",
+            "sourceId": "39296",
+            "brandName": "Elacentra",
+            "genericId": "a67e3db9-1d06-4b46-8713-d320fbde02e8",
+            "genericName": "Elacestrant",
+            "strength": "345 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Beacon Pharmaceuticals PLC"
+          }
+        ]
+      },
+      {
+        "identityKey": "vibrenta|96133a67-c361-401c-bb3a-904bae3a0585|100iu/ml|sc injection|incepta pharmaceuticals ltd.",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "715fe61d-cb26-439c-b817-68f7b6231c84",
+            "sourceId": "16839",
+            "brandName": "Vibrenta",
+            "genericId": "96133a67-c361-401c-bb3a-904bae3a0585",
+            "genericName": "Insulin Glargine [rDNA]",
+            "strength": "100 IU/ml",
+            "dosageForm": "SC Injection",
+            "manufacturer": "Incepta Pharmaceuticals Ltd."
+          },
+          {
+            "brandId": "e7a04489-f996-4e32-a48f-4c4cc4471f26",
+            "sourceId": "27645",
+            "brandName": "Vibrenta",
+            "genericId": "96133a67-c361-401c-bb3a-904bae3a0585",
+            "genericName": "Insulin Glargine [rDNA]",
+            "strength": "100 IU/ml",
+            "dosageForm": "SC Injection",
+            "manufacturer": "Incepta Pharmaceuticals Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "allbeevit|528ae12d-f932-4a16-ab2c-47a44b70e23a|5mg+2mg+2mg+20mg|tablet|medimet pharmaceuticals ltd.",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "73a02d6f-3a40-4f13-a069-ab0e765e51a9",
+            "sourceId": "13739",
+            "brandName": "Allbeevit",
+            "genericId": "528ae12d-f932-4a16-ab2c-47a44b70e23a",
+            "genericName": "Vitamin B complex",
+            "strength": "5 mg+2 mg+2 mg+20 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Medimet Pharmaceuticals Ltd."
+          },
+          {
+            "brandId": "759df770-caee-4ee2-9219-5526283c549d",
+            "sourceId": "13737",
+            "brandName": "Allbeevit",
+            "genericId": "528ae12d-f932-4a16-ab2c-47a44b70e23a",
+            "genericName": "Vitamin B complex",
+            "strength": "5 mg+2 mg+2 mg+20 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Medimet Pharmaceuticals Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "maxsulin n|707f77b1-9afd-431e-9d91-0a6d2ffbf3f3|100iu/ml|sc injection|incepta pharmaceuticals ltd.",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "7d39f79c-7f3d-44bd-805b-403abfac0c04",
+            "sourceId": "26227",
+            "brandName": "Maxsulin N",
+            "genericId": "707f77b1-9afd-431e-9d91-0a6d2ffbf3f3",
+            "genericName": "Insulin Human [rDNA]",
+            "strength": "100 IU/ml",
+            "dosageForm": "SC Injection",
+            "manufacturer": "Incepta Pharmaceuticals Ltd."
+          },
+          {
+            "brandId": "c231a4dc-f051-494c-a427-a02ed8b83848",
+            "sourceId": "16801",
+            "brandName": "Maxsulin N",
+            "genericId": "707f77b1-9afd-431e-9d91-0a6d2ffbf3f3",
+            "genericName": "Insulin Human [rDNA]",
+            "strength": "100 IU/ml",
+            "dosageForm": "SC Injection",
+            "manufacturer": "Incepta Pharmaceuticals Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "salmolin|34631cbf-65bf-4b11-b8a9-c7e2f27bfd74|100mcg/puff|inhaler|acme laboratories ltd.",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "97b8bf53-48f7-47fa-9696-7085419dbeb8",
+            "sourceId": "32420",
+            "brandName": "Salmolin",
+            "genericId": "34631cbf-65bf-4b11-b8a9-c7e2f27bfd74",
+            "genericName": "Salbutamol (Inhaler)",
+            "strength": "100 mcg/puff",
+            "dosageForm": "Inhaler",
+            "manufacturer": "ACME Laboratories Ltd."
+          },
+          {
+            "brandId": "b002bbcd-5e82-4755-9b6d-36a5cfdf809c",
+            "sourceId": "3505",
+            "brandName": "Salmolin",
+            "genericId": "34631cbf-65bf-4b11-b8a9-c7e2f27bfd74",
+            "genericName": "Salbutamol (Inhaler)",
+            "strength": "100 mcg/puff",
+            "dosageForm": "Inhaler",
+            "manufacturer": "ACME Laboratories Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "asthmolin|c7fb9276-8f41-4f3e-8220-d18386f13b9f|2mg|tablet|pharmadesh laboratories ltd.",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "aa410bde-c639-4b87-bd0a-f240f28b3fb2",
+            "sourceId": "21638",
+            "brandName": "Asthmolin",
+            "genericId": "c7fb9276-8f41-4f3e-8220-d18386f13b9f",
+            "genericName": "Salbutamol",
+            "strength": "2 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Pharmadesh Laboratories Ltd."
+          },
+          {
+            "brandId": "d5a0c457-49e4-4f85-ae25-323fbf36dd5e",
+            "sourceId": "3432",
+            "brandName": "Asthmolin",
+            "genericId": "c7fb9276-8f41-4f3e-8220-d18386f13b9f",
+            "genericName": "Salbutamol",
+            "strength": "2 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Pharmadesh Laboratories Ltd."
+          }
+        ]
+      }
+    ],
+    "duplicateBrandNameStrengthFormGroupsCount": 64,
+    "duplicateBrandNameStrengthFormGroups": [
+      {
+        "identityKey": "riboflavine|5mg|tablet",
+        "count": 3,
+        "brands": [
+          {
+            "brandId": "01407f8f-22f1-4323-8d53-95184256ee4f",
+            "sourceId": "13617",
+            "brandName": "Riboflavine",
+            "genericId": "6ed8a214-d695-45eb-9511-53399920d5b7",
+            "genericName": "Riboflavin",
+            "strength": "5 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Indo Bangla Pharmaceutical"
+          },
+          {
+            "brandId": "a86f5b8b-194f-4fb1-9b6f-94b0cbf28b1c",
+            "sourceId": "13611",
+            "brandName": "Riboflavine",
+            "genericId": "6ed8a214-d695-45eb-9511-53399920d5b7",
+            "genericName": "Riboflavin",
+            "strength": "5 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Pharmadesh Laboratories Ltd."
+          },
+          {
+            "brandId": "ac2a70bb-ab6c-4535-8eed-3f172c7b8c17",
+            "sourceId": "13610",
+            "brandName": "Riboflavine",
+            "genericId": "6ed8a214-d695-45eb-9511-53399920d5b7",
+            "genericName": "Riboflavin",
+            "strength": "5 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Bristol Pharmaceuticals Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "prednol|1%|ophthalmic suspension",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "02aa7fcf-fa18-45e9-9c06-46300e1a8b59",
+            "sourceId": "15919",
+            "brandName": "Prednol",
+            "genericId": "a5796ea9-fb60-4d12-93dd-057435262966",
+            "genericName": "Prednisolone Acetate",
+            "strength": "1%",
+            "dosageForm": "Ophthalmic Suspension",
+            "manufacturer": "Reman Drug Laboratories Ltd."
+          },
+          {
+            "brandId": "b4cfcc69-4474-4869-84fe-61b16755e59b",
+            "sourceId": "22275",
+            "brandName": "Prednol",
+            "genericId": "a5796ea9-fb60-4d12-93dd-057435262966",
+            "genericName": "Prednisolone Acetate",
+            "strength": "1%",
+            "dosageForm": "Ophthalmic Suspension",
+            "manufacturer": "Reman Drug Laboratories Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "apnac|50mg|tablet",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "067678a5-680a-4176-8a34-b0b6879582fc",
+            "sourceId": "28129",
+            "brandName": "Apnac",
+            "genericId": "31b9bc3a-4d36-4825-a70a-9a780cca6de4",
+            "genericName": "Diclofenac Sodium",
+            "strength": "50 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Supreme Pharmaceutical Ltd."
+          },
+          {
+            "brandId": "15800199-9eab-49eb-a0d4-7e6674ed080d",
+            "sourceId": "28130",
+            "brandName": "Apnac",
+            "genericId": "31b9bc3a-4d36-4825-a70a-9a780cca6de4",
+            "genericName": "Diclofenac Sodium",
+            "strength": "50 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Supreme Pharmaceutical Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "metro|400mg|tablet",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "07c74cb6-9060-407b-9f0b-b6ee8424fa32",
+            "sourceId": "33891",
+            "brandName": "Metro",
+            "genericId": "90b7d3d9-05b6-4fcd-bc89-4f39b02f2271",
+            "genericName": "Metronidazole",
+            "strength": "400 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "OSL Pharma Limited"
+          },
+          {
+            "brandId": "f7bbab3e-9cf3-4ad7-be35-a35d58255fea",
+            "sourceId": "10206",
+            "brandName": "Metro",
+            "genericId": "90b7d3d9-05b6-4fcd-bc89-4f39b02f2271",
+            "genericName": "Metronidazole",
+            "strength": "400 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Ziska Pharmaceuticals Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "sultolin|100mcg/puff|inhaler",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "0804bf0f-69bb-43b1-9197-a2cf6089c6bb",
+            "sourceId": "3513",
+            "brandName": "Sultolin",
+            "genericId": "34631cbf-65bf-4b11-b8a9-c7e2f27bfd74",
+            "genericName": "Salbutamol (Inhaler)",
+            "strength": "100 mcg/puff",
+            "dosageForm": "Inhaler",
+            "manufacturer": "Square Pharmaceuticals Ltd."
+          },
+          {
+            "brandId": "d3186950-0749-4bd1-bec5-9bf554e59c65",
+            "sourceId": "3514",
+            "brandName": "Sultolin",
+            "genericId": "34631cbf-65bf-4b11-b8a9-c7e2f27bfd74",
+            "genericName": "Salbutamol (Inhaler)",
+            "strength": "100 mcg/puff",
+            "dosageForm": "Inhaler",
+            "manufacturer": "Square Pharmaceuticals Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "atropine|0.6mg/ml|injection",
+        "count": 3,
+        "brands": [
+          {
+            "brandId": "0c7b5280-3073-4c75-8b06-db6b3ef2fb16",
+            "sourceId": "1312",
+            "brandName": "Atropine",
+            "genericId": "7f71f7bf-1082-45bf-a3e6-33c398958fb6",
+            "genericName": "Atropine Sulfate (Injection)",
+            "strength": "0.6 mg/ml",
+            "dosageForm": "Injection",
+            "manufacturer": "Jayson Pharmaceutical Ltd."
+          },
+          {
+            "brandId": "1c63b63c-4d05-4ca9-a64a-3e8b8693c62c",
+            "sourceId": "1311",
+            "brandName": "Atropine",
+            "genericId": "7f71f7bf-1082-45bf-a3e6-33c398958fb6",
+            "genericName": "Atropine Sulfate (Injection)",
+            "strength": "0.6 mg/ml",
+            "dosageForm": "Injection",
+            "manufacturer": "Chemist Laboratories Ltd."
+          },
+          {
+            "brandId": "9fd036d5-ca31-4ead-b481-cbd0c60269cf",
+            "sourceId": "1313",
+            "brandName": "Atropine",
+            "genericId": "7f71f7bf-1082-45bf-a3e6-33c398958fb6",
+            "genericName": "Atropine Sulfate (Injection)",
+            "strength": "0.6 mg/ml",
+            "dosageForm": "Injection",
+            "manufacturer": "Edruc Limited"
+          }
+        ]
+      },
+      {
+        "identityKey": "whitfield|6%+3%|ointment",
+        "count": 4,
+        "brands": [
+          {
+            "brandId": "0d80a033-ef86-492f-87a5-6110134fbc32",
+            "sourceId": "12459",
+            "brandName": "Whitfield",
+            "genericId": "b5c52ac4-9dd4-49c3-a44b-67d0b69f0c06",
+            "genericName": "Benzoic Acid + Salicylic Acid",
+            "strength": "6%+3%",
+            "dosageForm": "Ointment",
+            "manufacturer": "Millat Pharmaceuticals Ltd."
+          },
+          {
+            "brandId": "2e3b19f7-5028-49eb-8079-66288c0ae65a",
+            "sourceId": "30640",
+            "brandName": "Whitfield",
+            "genericId": "b5c52ac4-9dd4-49c3-a44b-67d0b69f0c06",
+            "genericName": "Benzoic Acid + Salicylic Acid",
+            "strength": "6%+3%",
+            "dosageForm": "Ointment",
+            "manufacturer": "Asiatic Laboratories Ltd."
+          },
+          {
+            "brandId": "7e062d26-27d9-4952-91ad-55813b83d0d3",
+            "sourceId": "12462",
+            "brandName": "Whitfield",
+            "genericId": "b5c52ac4-9dd4-49c3-a44b-67d0b69f0c06",
+            "genericName": "Benzoic Acid + Salicylic Acid",
+            "strength": "6%+3%",
+            "dosageForm": "Ointment",
+            "manufacturer": "Seema Pharmaceuticals Ltd."
+          },
+          {
+            "brandId": "96cb07bc-cced-4b85-8299-e6df16f58c71",
+            "sourceId": "12463",
+            "brandName": "Whitfield",
+            "genericId": "b5c52ac4-9dd4-49c3-a44b-67d0b69f0c06",
+            "genericName": "Benzoic Acid + Salicylic Acid",
+            "strength": "6%+3%",
+            "dosageForm": "Ointment",
+            "manufacturer": "Unique Pharmaceuticals Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "vastin|10mg|tablet",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "0d8f76cd-e26c-4205-9e9c-6631ccecc3a1",
+            "sourceId": "24501",
+            "brandName": "Vastin",
+            "genericId": "3686e1a3-2b8e-4e4a-96de-2ae21305190a",
+            "genericName": "Atorvastatin Calcium",
+            "strength": "10 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Amico Laboratories Ltd."
+          },
+          {
+            "brandId": "a8074f14-ecd1-4662-81ab-8e849c519754",
+            "sourceId": "1249",
+            "brandName": "Vastin",
+            "genericId": "3686e1a3-2b8e-4e4a-96de-2ae21305190a",
+            "genericName": "Atorvastatin Calcium",
+            "strength": "10 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Pharmadesh Laboratories Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "cholera saline|NULL|iv infusion",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "0db83416-fe17-4258-8f76-bd39e1551b49",
+            "sourceId": "14884",
+            "brandName": "Cholera Saline",
+            "genericId": "adf6cd46-fd2c-4950-9aab-68b5321ec5d0",
+            "genericName": "Cholera Saline",
+            "strength": null,
+            "dosageForm": "IV Infusion",
+            "manufacturer": "OSL Pharma Limited"
+          },
+          {
+            "brandId": "d1311cd9-4e87-4981-a3ac-59da76390345",
+            "sourceId": "14890",
+            "brandName": "Cholera Saline",
+            "genericId": "adf6cd46-fd2c-4950-9aab-68b5321ec5d0",
+            "genericName": "Cholera Saline",
+            "strength": null,
+            "dosageForm": "IV Infusion",
+            "manufacturer": "ACME Laboratories Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "omnitrope|5mg/1.5ml|sc injection",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "0df59609-1579-451b-8641-3e09bfb72e79",
+            "sourceId": "5971",
+            "brandName": "Omnitrope",
+            "genericId": "6e784473-5118-4521-8b83-b4dcdca61e21",
+            "genericName": "Somatropin",
+            "strength": "5 mg/1.5 ml",
+            "dosageForm": "SC Injection",
+            "manufacturer": "SANDOZ (A Novartis Division)"
+          },
+          {
+            "brandId": "f890721f-9bc9-4efe-a6ee-29c8a4726323",
+            "sourceId": "5972",
+            "brandName": "Omnitrope",
+            "genericId": "6e784473-5118-4521-8b83-b4dcdca61e21",
+            "genericName": "Somatropin",
+            "strength": "5 mg/1.5 ml",
+            "dosageForm": "SC Injection",
+            "manufacturer": "SANDOZ (A Novartis Division)"
+          }
+        ]
+      },
+      {
+        "identityKey": "etoricoxib|120mg|tablet",
+        "count": 3,
+        "brands": [
+          {
+            "brandId": "0f4e02ec-ed56-4650-8443-40d6cc1bd995",
+            "sourceId": "28753",
+            "brandName": "Etoricoxib",
+            "genericId": "4297d4a2-7f05-4084-ad88-a7719876e600",
+            "genericName": "Etoricoxib",
+            "strength": "120 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Zenith Pharmaceuticals Ltd."
+          },
+          {
+            "brandId": "3328981d-a488-48a6-b48d-3a44270848bd",
+            "sourceId": "35685",
+            "brandName": "Etoricoxib",
+            "genericId": "4297d4a2-7f05-4084-ad88-a7719876e600",
+            "genericName": "Etoricoxib",
+            "strength": "120 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Pristine Pharmaceuticals Ltd"
+          },
+          {
+            "brandId": "bbb5df18-a9c7-4bb5-81e1-4ed6507fe0dd",
+            "sourceId": "20104",
+            "brandName": "Etoricoxib",
+            "genericId": "4297d4a2-7f05-4084-ad88-a7719876e600",
+            "genericName": "Etoricoxib",
+            "strength": "120 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Bristol Pharmaceuticals Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "orlev|500mg|tablet",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "1241dbfe-857c-4097-80c0-57d3607f4307",
+            "sourceId": "27754",
+            "brandName": "Orlev",
+            "genericId": "e99d23ef-70bd-40d9-9965-f911e6d8c3bd",
+            "genericName": "Levofloxacin Hemihydrate",
+            "strength": "500 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Orion Pharma Ltd."
+          },
+          {
+            "brandId": "aa4995fc-8fcf-48c2-814e-ae3394b62692",
+            "sourceId": "26898",
+            "brandName": "Orlev",
+            "genericId": "e99d23ef-70bd-40d9-9965-f911e6d8c3bd",
+            "genericName": "Levofloxacin Hemihydrate",
+            "strength": "500 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Orion Infusion Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "prednisolone|5mg|tablet",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "131072cf-6d06-490c-b0f9-76afa692a038",
+            "sourceId": "28049",
+            "brandName": "Prednisolone",
+            "genericId": "71aa52eb-5b42-4fd1-968b-4ce008da8ca1",
+            "genericName": "Prednisolone",
+            "strength": "5 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Ambee Pharmaceuticals Ltd."
+          },
+          {
+            "brandId": "41a2cb23-af2a-4e9e-bb9a-32f152789e41",
+            "sourceId": "37398",
+            "brandName": "Prednisolone",
+            "genericId": "71aa52eb-5b42-4fd1-968b-4ce008da8ca1",
+            "genericName": "Prednisolone",
+            "strength": "5 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Pristine Pharmaceuticals Ltd"
+          }
+        ]
+      },
+      {
+        "identityKey": "hydrogen peroxide|6%w/v|solution",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "1985187f-035a-4d0c-8489-10307460a07a",
+            "sourceId": "37722",
+            "brandName": "Hydrogen Peroxide",
+            "genericId": "83d5318f-04ad-4af6-b6b2-a324529d47fd",
+            "genericName": "Hydrogen peroxide",
+            "strength": "6% w/v",
+            "dosageForm": "Solution",
+            "manufacturer": "Pharmik Laboratories Ltd."
+          },
+          {
+            "brandId": "b4cd95b7-7889-44c9-b5c5-6202aa3494d5",
+            "sourceId": "37723",
+            "brandName": "Hydrogen Peroxide",
+            "genericId": "83d5318f-04ad-4af6-b6b2-a324529d47fd",
+            "genericName": "Hydrogen peroxide",
+            "strength": "6% w/v",
+            "dosageForm": "Solution",
+            "manufacturer": "Real & Co"
+          }
+        ]
+      },
+      {
+        "identityKey": "vitaplus|NULL|tablet",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "1d41d307-ea56-417d-872f-6891a66f1509",
+            "sourceId": "14235",
+            "brandName": "Vitaplus",
+            "genericId": "149873c8-d9a6-4829-8af6-0a4e52056863",
+            "genericName": "Multivitamin & Multimineral",
+            "strength": null,
+            "dosageForm": "Tablet",
+            "manufacturer": "Pharmadesh Laboratories Ltd."
+          },
+          {
+            "brandId": "28890e71-27e1-4ff4-922b-04b2af4d9bb5",
+            "sourceId": "14066",
+            "brandName": "Vitaplus",
+            "genericId": "9ef4130c-70d5-4ec9-acaa-64f31748e657",
+            "genericName": "Multivitamin [Adult preparation]",
+            "strength": null,
+            "dosageForm": "Tablet",
+            "manufacturer": "Pharmadesh Laboratories Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "motodon|10mg|tablet",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "1dad3459-7e7f-4b0a-ad2a-a795c96a74b1",
+            "sourceId": "1602",
+            "brandName": "Motodon",
+            "genericId": "b64e4566-8e5a-4a4e-b9ec-ffa74fabbb90",
+            "genericName": "Domperidone Maleate",
+            "strength": "10 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Medimet Pharmaceuticals Ltd."
+          },
+          {
+            "brandId": "729a3f56-9c82-4c52-8027-d008c7127d54",
+            "sourceId": "1601",
+            "brandName": "Motodon",
+            "genericId": "b64e4566-8e5a-4a4e-b9ec-ffa74fabbb90",
+            "genericName": "Domperidone Maleate",
+            "strength": "10 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Medimet Pharmaceuticals Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "fluconazole|50mg|capsule",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "1fa21196-5532-48a7-b8dd-d325ce407397",
+            "sourceId": "9864",
+            "brandName": "Fluconazole",
+            "genericId": "663cf5c7-30be-49d2-a6a6-64a9bebdba40",
+            "genericName": "Fluconazole",
+            "strength": "50 mg",
+            "dosageForm": "Capsule",
+            "manufacturer": "Bristol Pharmaceuticals Ltd."
+          },
+          {
+            "brandId": "fe00768c-884d-4479-9654-a3375bdab2c7",
+            "sourceId": "30320",
+            "brandName": "Fluconazole",
+            "genericId": "663cf5c7-30be-49d2-a6a6-64a9bebdba40",
+            "genericName": "Fluconazole",
+            "strength": "50 mg",
+            "dosageForm": "Capsule",
+            "manufacturer": "Biogen Pharmaceuticals Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "easyhaler|NULL|metered-dose inhaler (mdi)",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "205ada67-bb85-471f-9181-c0b56ff1aed1",
+            "sourceId": "35209",
+            "brandName": "Easyhaler",
+            "genericId": "69e99593-a70d-4149-b39e-039189e1bca8",
+            "genericName": "Inhaler device",
+            "strength": null,
+            "dosageForm": "Metered-Dose Inhaler (MDI)",
+            "manufacturer": "ACME Laboratories Ltd."
+          },
+          {
+            "brandId": "46eb1715-6b27-4300-9ec2-9b421812b249",
+            "sourceId": "33909",
+            "brandName": "Easyhaler",
+            "genericId": "69e99593-a70d-4149-b39e-039189e1bca8",
+            "genericName": "Inhaler device",
+            "strength": null,
+            "dosageForm": "Metered-Dose Inhaler (MDI)",
+            "manufacturer": "Healthcare Pharmaceuticals Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "diacon|80mg|tablet",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "28cf768a-4fc8-4925-931d-a7914fa98d60",
+            "sourceId": "5220",
+            "brandName": "Diacon",
+            "genericId": "1a99e633-ab48-4af4-bb23-5f289be35f46",
+            "genericName": "Gliclazide",
+            "strength": "80 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Credence Pharmaceuticals Ltd."
+          },
+          {
+            "brandId": "8ba33b47-0773-4e2a-97d5-401191085d13",
+            "sourceId": "5221",
+            "brandName": "Diacon",
+            "genericId": "1a99e633-ab48-4af4-bb23-5f289be35f46",
+            "genericName": "Gliclazide",
+            "strength": "80 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Millat Pharmaceuticals Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "naproxen|500mg|tablet",
+        "count": 3,
+        "brands": [
+          {
+            "brandId": "2b6c6ea4-256c-4d8a-84d0-761fe12abc24",
+            "sourceId": "11453",
+            "brandName": "Naproxen",
+            "genericId": "c3a84447-2b9b-4563-aa6d-c2f8c9f4fbcc",
+            "genericName": "Naproxen Sodium",
+            "strength": "500 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Amico Laboratories Ltd."
+          },
+          {
+            "brandId": "e3659019-34e6-49e9-8cf4-8e74ddceef42",
+            "sourceId": "22746",
+            "brandName": "Naproxen",
+            "genericId": "c3a84447-2b9b-4563-aa6d-c2f8c9f4fbcc",
+            "genericName": "Naproxen Sodium",
+            "strength": "500 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Guardian Healthcare Ltd."
+          },
+          {
+            "brandId": "f6a5f553-9c81-4c28-8fd2-529d6b2ad0e1",
+            "sourceId": "11454",
+            "brandName": "Naproxen",
+            "genericId": "c3a84447-2b9b-4563-aa6d-c2f8c9f4fbcc",
+            "genericName": "Naproxen Sodium",
+            "strength": "500 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Novatek Pharmaceuticals Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "ketorolac|10mg|tablet",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "2ee6c177-8e4d-4158-a89c-8a3dce0ee8bd",
+            "sourceId": "35667",
+            "brandName": "Ketorolac",
+            "genericId": "65bb1c18-ccbc-44d2-8e36-eab81c3889b7",
+            "genericName": "Ketorolac Tromethamine",
+            "strength": "10 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Pristine Pharmaceuticals Ltd"
+          },
+          {
+            "brandId": "a9dd7e85-ba27-48c4-a82b-cad4b614677a",
+            "sourceId": "15339",
+            "brandName": "Ketorolac",
+            "genericId": "65bb1c18-ccbc-44d2-8e36-eab81c3889b7",
+            "genericName": "Ketorolac Tromethamine",
+            "strength": "10 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Bristol Pharmaceuticals Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "aceclofenac|100mg|tablet",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "326554a4-f684-4369-a245-ba91e4c7379a",
+            "sourceId": "35665",
+            "brandName": "Aceclofenac",
+            "genericId": "ccab8b00-7d97-4e52-9d12-4494203be77b",
+            "genericName": "Aceclofenac",
+            "strength": "100 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Pristine Pharmaceuticals Ltd"
+          },
+          {
+            "brandId": "7b41beca-887c-4613-921c-4954998ce34d",
+            "sourceId": "37627",
+            "brandName": "Aceclofenac",
+            "genericId": "ccab8b00-7d97-4e52-9d12-4494203be77b",
+            "genericName": "Aceclofenac",
+            "strength": "100 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Pharmik Laboratories Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "diclon|0.1%|ophthalmic solution",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "32b378d9-9dc9-4823-a172-86e5ffe7a5a1",
+            "sourceId": "11123",
+            "brandName": "Diclon",
+            "genericId": "488bd486-a630-4f30-ba00-4a22096aa9e1",
+            "genericName": "Diclofenac Sodium (Ophthalmic)",
+            "strength": "0.1%",
+            "dosageForm": "Ophthalmic Solution",
+            "manufacturer": "Reman Drug Laboratories Ltd."
+          },
+          {
+            "brandId": "b2f77d5c-789b-4dd0-a58b-3af627e68116",
+            "sourceId": "10979",
+            "brandName": "Diclon",
+            "genericId": "488bd486-a630-4f30-ba00-4a22096aa9e1",
+            "genericName": "Diclofenac Sodium (Ophthalmic)",
+            "strength": "0.1%",
+            "dosageForm": "Ophthalmic Solution",
+            "manufacturer": "Central Pharmaceuticals Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "fenimex|45.5mg/2ml|im/iv injection",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "36e82b25-d34d-492a-a5bf-befba18c1712",
+            "sourceId": "30425",
+            "brandName": "Fenimex",
+            "genericId": "d98d5d5c-cbe6-4c8c-9975-817884918499",
+            "genericName": "Pheniramine Maleate",
+            "strength": "45.5 mg/2 ml",
+            "dosageForm": "IM/IV Injection",
+            "manufacturer": "Techno Drugs Ltd."
+          },
+          {
+            "brandId": "a463b645-1549-429b-9608-42170cd6fd82",
+            "sourceId": "38055",
+            "brandName": "Fenimex",
+            "genericId": "d98d5d5c-cbe6-4c8c-9975-817884918499",
+            "genericName": "Pheniramine Maleate",
+            "strength": "45.5 mg/2 ml",
+            "dosageForm": "IM/IV Injection",
+            "manufacturer": "Asiatic Laboratories Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "cetirizine|10mg|tablet",
+        "count": 3,
+        "brands": [
+          {
+            "brandId": "3ab80d84-54bc-4317-a861-e0699228e23c",
+            "sourceId": "35666",
+            "brandName": "Cetirizine",
+            "genericId": "78577ae6-3fd2-4b29-aec5-fcbe5d0e3722",
+            "genericName": "Cetirizine Hydrochloride",
+            "strength": "10 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Pristine Pharmaceuticals Ltd"
+          },
+          {
+            "brandId": "5ac05bdb-b07d-47f8-9bdf-d427fd581ead",
+            "sourceId": "11933",
+            "brandName": "Cetirizine",
+            "genericId": "78577ae6-3fd2-4b29-aec5-fcbe5d0e3722",
+            "genericName": "Cetirizine Hydrochloride",
+            "strength": "10 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "APC Pharma Ltd."
+          },
+          {
+            "brandId": "6377a746-3a8e-4ad7-a41c-5a15fb992cf7",
+            "sourceId": "37642",
+            "brandName": "Cetirizine",
+            "genericId": "78577ae6-3fd2-4b29-aec5-fcbe5d0e3722",
+            "genericName": "Cetirizine Hydrochloride",
+            "strength": "10 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Pharmik Laboratories Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "fibi plus|500mg+65mg|tablet",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "3e28d3c9-e510-4e66-b28f-f55c1ab14734",
+            "sourceId": "10587",
+            "brandName": "Fibi Plus",
+            "genericId": "c5578674-cfcd-40bf-9205-59a15eef7b63",
+            "genericName": "Paracetamol + Caffeine",
+            "strength": "500 mg+65 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "MST Pharma"
+          },
+          {
+            "brandId": "927946f5-a89b-4772-92be-43ed5f3a8609",
+            "sourceId": "10641",
+            "brandName": "Fibi Plus",
+            "genericId": "c5578674-cfcd-40bf-9205-59a15eef7b63",
+            "genericName": "Paracetamol + Caffeine",
+            "strength": "500 mg+65 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Syntho Laboratories Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "milk of magnesia|400mg/5ml|oral suspension",
+        "count": 4,
+        "brands": [
+          {
+            "brandId": "3fdd6c73-2a56-44b2-a3cc-936600fc2b2a",
+            "sourceId": "21944",
+            "brandName": "Milk of Magnesia",
+            "genericId": "cd900926-7172-4e47-aeaf-414cefd3b48b",
+            "genericName": "Magnesium Hydroxide",
+            "strength": "400 mg/5 ml",
+            "dosageForm": "Oral Suspension",
+            "manufacturer": "ACME Laboratories Ltd."
+          },
+          {
+            "brandId": "ab1b0ceb-95a4-46e3-b18a-c20ec1ee3fdf",
+            "sourceId": "21946",
+            "brandName": "Milk of Magnesia",
+            "genericId": "cd900926-7172-4e47-aeaf-414cefd3b48b",
+            "genericName": "Magnesium Hydroxide",
+            "strength": "400 mg/5 ml",
+            "dosageForm": "Oral Suspension",
+            "manufacturer": "Alkad Laboratories"
+          },
+          {
+            "brandId": "b1e06e49-f376-4cb9-ae80-2283fcbb6aa8",
+            "sourceId": "21954",
+            "brandName": "Milk of Magnesia",
+            "genericId": "cd900926-7172-4e47-aeaf-414cefd3b48b",
+            "genericName": "Magnesium Hydroxide",
+            "strength": "400 mg/5 ml",
+            "dosageForm": "Oral Suspension",
+            "manufacturer": "Orion Pharma Ltd."
+          },
+          {
+            "brandId": "d88eaa7b-b14f-42b1-ba31-76c1486e3c9a",
+            "sourceId": "37685",
+            "brandName": "Milk of Magnesia",
+            "genericId": "cd900926-7172-4e47-aeaf-414cefd3b48b",
+            "genericName": "Magnesium Hydroxide",
+            "strength": "400 mg/5 ml",
+            "dosageForm": "Oral Suspension",
+            "manufacturer": "Pharmik Laboratories Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "leevotin|500mg|tablet",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "43004fc9-75ce-440b-aa6a-35865f7168bd",
+            "sourceId": "9435",
+            "brandName": "Leevotin",
+            "genericId": "e99d23ef-70bd-40d9-9965-f911e6d8c3bd",
+            "genericName": "Levofloxacin Hemihydrate",
+            "strength": "500 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "MST Pharma"
+          },
+          {
+            "brandId": "c6c021ff-c2d7-4829-81af-15afb7118444",
+            "sourceId": "9547",
+            "brandName": "Leevotin",
+            "genericId": "e99d23ef-70bd-40d9-9965-f911e6d8c3bd",
+            "genericName": "Levofloxacin Hemihydrate",
+            "strength": "500 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Syntho Laboratories Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "thiason|100mg/ml|im/iv injection",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "4468e71e-e69c-4218-b79f-6c9e0f752071",
+            "sourceId": "13596",
+            "brandName": "Thiason",
+            "genericId": "c845bece-bfbd-4638-872c-26481a6eba08",
+            "genericName": "Thiamine Hydrochloride",
+            "strength": "100 mg/ml",
+            "dosageForm": "IM/IV Injection",
+            "manufacturer": "Jayson Pharmaceuticals Ltd."
+          },
+          {
+            "brandId": "a31b360f-1a1a-4acb-9971-95e556399bc7",
+            "sourceId": "13595",
+            "brandName": "Thiason",
+            "genericId": "c845bece-bfbd-4638-872c-26481a6eba08",
+            "genericName": "Thiamine Hydrochloride",
+            "strength": "100 mg/ml",
+            "dosageForm": "IM/IV Injection",
+            "manufacturer": "Jayson Pharmaceuticals Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "cosmoxim|200mg|capsule",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "44fcc04d-d8ea-465b-a6a7-447dfa6f9da0",
+            "sourceId": "35561",
+            "brandName": "Cosmoxim",
+            "genericId": "7286a561-96a9-4c4c-bfd8-6e2815d4a711",
+            "genericName": "Cefixime Trihydrate",
+            "strength": "200 mg",
+            "dosageForm": "Capsule",
+            "manufacturer": "Cosmo Pharma Laboratories Ltd."
+          },
+          {
+            "brandId": "f77e28c0-970c-49c8-8e3c-40e613b6029d",
+            "sourceId": "35562",
+            "brandName": "Cosmoxim",
+            "genericId": "7286a561-96a9-4c4c-bfd8-6e2815d4a711",
+            "genericName": "Cefixime Trihydrate",
+            "strength": "200 mg",
+            "dosageForm": "Capsule",
+            "manufacturer": "Cosmo Pharma Laboratories Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "water for injection|10ml/ampoule|liquid",
+        "count": 3,
+        "brands": [
+          {
+            "brandId": "4610afe6-f086-41c1-b6cc-bcfc2c8d3be1",
+            "sourceId": "27430",
+            "brandName": "Water for injection",
+            "genericId": "128d0108-f7b4-4702-b69c-939b09fac3a7",
+            "genericName": "Water for injection",
+            "strength": "10 ml/ampoule",
+            "dosageForm": "Liquid",
+            "manufacturer": "Jayson Pharmaceuticals Ltd."
+          },
+          {
+            "brandId": "58d3ed26-1dcb-4624-971b-25dc09e1f66e",
+            "sourceId": "27749",
+            "brandName": "Water for injection",
+            "genericId": "128d0108-f7b4-4702-b69c-939b09fac3a7",
+            "genericName": "Water for injection",
+            "strength": "10 ml/ampoule",
+            "dosageForm": "Liquid",
+            "manufacturer": "Opso Saline Ltd."
+          },
+          {
+            "brandId": "91875d59-eaf5-4796-a27b-4e9c963e7973",
+            "sourceId": "33021",
+            "brandName": "Water for injection",
+            "genericId": "128d0108-f7b4-4702-b69c-939b09fac3a7",
+            "genericName": "Water for injection",
+            "strength": "10 ml/ampoule",
+            "dosageForm": "Liquid",
+            "manufacturer": "Aristopharma Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "sofomax|400mg|tablet",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "4912e20b-8f82-41b1-a239-46bceb22639b",
+            "sourceId": "24643",
+            "brandName": "Sofomax",
+            "genericId": "df062361-45e4-4777-8b79-bbf67def6756",
+            "genericName": "Sofosbuvir",
+            "strength": "400 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "ACI Limited"
+          },
+          {
+            "brandId": "80d93e26-9118-45c6-8293-a778f4f969b1",
+            "sourceId": "24644",
+            "brandName": "Sofomax",
+            "genericId": "df062361-45e4-4777-8b79-bbf67def6756",
+            "genericName": "Sofosbuvir",
+            "strength": "400 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Aristopharma Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "votrient|200mg|tablet",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "4c264621-0e8a-4c6b-a3e9-8dc44274b7a2",
+            "sourceId": "26676",
+            "brandName": "Votrient",
+            "genericId": "e1f1851b-e6eb-448d-9d54-5da86cf76eed",
+            "genericName": "Pazopanib Hydrochloride",
+            "strength": "200 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Novartis (Bangladesh) Ltd."
+          },
+          {
+            "brandId": "b42a936e-cd73-4559-8c5a-f8761c1cf5d9",
+            "sourceId": "15145",
+            "brandName": "Votrient",
+            "genericId": "e1f1851b-e6eb-448d-9d54-5da86cf76eed",
+            "genericName": "Pazopanib Hydrochloride",
+            "strength": "200 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "GlaxoSmithKline"
+          }
+        ]
+      },
+      {
+        "identityKey": "neofenac|50mg|tablet",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "4c789211-542d-47de-a261-dbba6887248b",
+            "sourceId": "11046",
+            "brandName": "Neofenac",
+            "genericId": "ce209e10-a11e-4820-8576-545abe6fa4b5",
+            "genericName": "Diclofenac Sodium",
+            "strength": "50 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Ad-din Pharmaceuticals Ltd."
+          },
+          {
+            "brandId": "8fb43b87-d599-4d5b-8c4b-fdf4ad2c390b",
+            "sourceId": "28619",
+            "brandName": "Neofenac",
+            "genericId": "ce209e10-a11e-4820-8576-545abe6fa4b5",
+            "genericName": "Diclofenac Sodium",
+            "strength": "50 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Modern Pharmaceuticals Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "nordette 28|0.03mg+0.15mg+75mg|tablet",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "4d2c4253-9df7-4609-ae3c-1632a985bcde",
+            "sourceId": "28935",
+            "brandName": "Nordette 28",
+            "genericId": "7d217b18-33b4-4429-a904-a6a57f7390e7",
+            "genericName": "Ethinyl Estradiol + Levonorgestrel + Ferrous Fumarate",
+            "strength": "0.03 mg+0.15 mg+75 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Janata Traders"
+          },
+          {
+            "brandId": "d5e1059f-96f6-446f-89e8-8c514191dc2a",
+            "sourceId": "27102",
+            "brandName": "Nordette 28",
+            "genericId": "7d217b18-33b4-4429-a904-a6a57f7390e7",
+            "genericName": "Ethinyl Estradiol + Levonorgestrel + Ferrous Fumarate",
+            "strength": "0.03 mg+0.15 mg+75 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "SMC Enterprise Ltd"
+          }
+        ]
+      },
+      {
+        "identityKey": "fructose|10%w/v|iv infusion",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "4dfaf3ec-6e44-4a26-a880-f5285f7ba4ca",
+            "sourceId": "27724",
+            "brandName": "Fructose",
+            "genericId": "12458dfc-b2fe-4479-9ff1-4b692e649dae",
+            "genericName": "Fructose",
+            "strength": "10%w/v",
+            "dosageForm": "IV Infusion",
+            "manufacturer": "OSL Pharma Limited"
+          },
+          {
+            "brandId": "9089fb47-fb16-4eac-bee8-b2a678b675eb",
+            "sourceId": "14863",
+            "brandName": "Fructose",
+            "genericId": "12458dfc-b2fe-4479-9ff1-4b692e649dae",
+            "genericName": "Fructose",
+            "strength": "10%w/v",
+            "dosageForm": "IV Infusion",
+            "manufacturer": "Orion Infusion Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "nozee|500mg|tablet",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "4e26fa99-03e9-4cd0-b30f-9d6553484e6b",
+            "sourceId": "11473",
+            "brandName": "Nozee",
+            "genericId": "c3a84447-2b9b-4563-aa6d-c2f8c9f4fbcc",
+            "genericName": "Naproxen Sodium",
+            "strength": "500 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "MST Pharma"
+          },
+          {
+            "brandId": "c2bd2278-6d84-44da-8b61-234c8a3fba29",
+            "sourceId": "11530",
+            "brandName": "Nozee",
+            "genericId": "c3a84447-2b9b-4563-aa6d-c2f8c9f4fbcc",
+            "genericName": "Naproxen Sodium",
+            "strength": "500 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Syntho Laboratories Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "metro|200mg/5ml|oral suspension",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "4ffc588a-0843-4ce1-80aa-5de4c1fe6f5f",
+            "sourceId": "33892",
+            "brandName": "Metro",
+            "genericId": "90b7d3d9-05b6-4fcd-bc89-4f39b02f2271",
+            "genericName": "Metronidazole",
+            "strength": "200 mg/5 ml",
+            "dosageForm": "Oral Suspension",
+            "manufacturer": "OSL Pharma Limited"
+          },
+          {
+            "brandId": "658065be-dd85-4531-aadf-68c5377e403e",
+            "sourceId": "10207",
+            "brandName": "Metro",
+            "genericId": "90b7d3d9-05b6-4fcd-bc89-4f39b02f2271",
+            "genericName": "Metronidazole",
+            "strength": "200 mg/5 ml",
+            "dosageForm": "Oral Suspension",
+            "manufacturer": "Ziska Pharmaceuticals Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "etoricoxib|90mg|tablet",
+        "count": 4,
+        "brands": [
+          {
+            "brandId": "53b24679-50a7-414f-8e57-2746dc57fbdd",
+            "sourceId": "20126",
+            "brandName": "Etoricoxib",
+            "genericId": "4297d4a2-7f05-4084-ad88-a7719876e600",
+            "genericName": "Etoricoxib",
+            "strength": "90 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Premier Pharmaceuticals Ltd."
+          },
+          {
+            "brandId": "60a95692-fd37-43be-8337-7a05f32d7c67",
+            "sourceId": "28755",
+            "brandName": "Etoricoxib",
+            "genericId": "4297d4a2-7f05-4084-ad88-a7719876e600",
+            "genericName": "Etoricoxib",
+            "strength": "90 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Zenith Pharmaceuticals Ltd."
+          },
+          {
+            "brandId": "86ab990a-b57e-41e4-bc2b-97c1212c0bf8",
+            "sourceId": "20103",
+            "brandName": "Etoricoxib",
+            "genericId": "4297d4a2-7f05-4084-ad88-a7719876e600",
+            "genericName": "Etoricoxib",
+            "strength": "90 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Bristol Pharmaceuticals Ltd."
+          },
+          {
+            "brandId": "dee6a3a7-01c5-4885-8488-baa40da5a5d5",
+            "sourceId": "35684",
+            "brandName": "Etoricoxib",
+            "genericId": "4297d4a2-7f05-4084-ad88-a7719876e600",
+            "genericName": "Etoricoxib",
+            "strength": "90 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Pristine Pharmaceuticals Ltd"
+          }
+        ]
+      },
+      {
+        "identityKey": "tibilon|2.5mg|tablet",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "5d13d85a-0d22-4f0b-b5d3-da9dfd056c9a",
+            "sourceId": "29070",
+            "brandName": "Tibilon",
+            "genericId": "bed72250-dab3-4618-942c-d869c632c211",
+            "genericName": "Tibolone",
+            "strength": "2.5 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Nuvista Pharma Ltd."
+          },
+          {
+            "brandId": "7b26d914-4acc-4027-87d8-8af3a11c6bec",
+            "sourceId": "5935",
+            "brandName": "Tibilon",
+            "genericId": "bed72250-dab3-4618-942c-d869c632c211",
+            "genericName": "Tibolone",
+            "strength": "2.5 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Beximco Pharmaceuticals Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "aminophylline|100mg|tablet",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "618f5128-9960-4188-bc8d-b53dac49a156",
+            "sourceId": "597",
+            "brandName": "Aminophylline",
+            "genericId": "353d1d77-3efe-449a-9eda-1d9fe3dcae40",
+            "genericName": "Aminophylline",
+            "strength": "100 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Bristol Pharmaceuticals Ltd."
+          },
+          {
+            "brandId": "8394a9a0-6e61-4a08-a37b-f51d60a6e896",
+            "sourceId": "595",
+            "brandName": "Aminophylline",
+            "genericId": "353d1d77-3efe-449a-9eda-1d9fe3dcae40",
+            "genericName": "Aminophylline",
+            "strength": "100 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Ambee Pharmaceuticals Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "elacentra|345mg|tablet",
+        "count": 3,
+        "brands": [
+          {
+            "brandId": "64165ca2-cce5-4049-9b95-d00d604ef8e2",
+            "sourceId": "39294",
+            "brandName": "Elacentra",
+            "genericId": "a67e3db9-1d06-4b46-8713-d320fbde02e8",
+            "genericName": "Elacestrant",
+            "strength": "345 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Beacon Pharmaceuticals PLC"
+          },
+          {
+            "brandId": "7eadfec8-3949-467f-8d65-502a59e25fa0",
+            "sourceId": "39295",
+            "brandName": "Elacentra",
+            "genericId": "a67e3db9-1d06-4b46-8713-d320fbde02e8",
+            "genericName": "Elacestrant",
+            "strength": "345 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Beacon Pharmaceuticals PLC"
+          },
+          {
+            "brandId": "e663a598-91f7-482e-a2d1-b5d270f57312",
+            "sourceId": "39296",
+            "brandName": "Elacentra",
+            "genericId": "a67e3db9-1d06-4b46-8713-d320fbde02e8",
+            "genericName": "Elacestrant",
+            "strength": "345 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Beacon Pharmaceuticals PLC"
+          }
+        ]
+      },
+      {
+        "identityKey": "folic acid|5mg|tablet",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "666e0bcd-8477-4357-8f78-8395eaa37b0b",
+            "sourceId": "20529",
+            "brandName": "Folic Acid",
+            "genericId": "b2a6e388-b7a9-4c9d-a456-e00b4b2615b3",
+            "genericName": "Folic Acid",
+            "strength": "5 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Amico Laboratories Ltd."
+          },
+          {
+            "brandId": "91879165-9de5-4fda-aee0-ab25321f72e6",
+            "sourceId": "20530",
+            "brandName": "Folic Acid",
+            "genericId": "b2a6e388-b7a9-4c9d-a456-e00b4b2615b3",
+            "genericName": "Folic Acid",
+            "strength": "5 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Belsen Pharmaceuticals Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "vibrenta|100iu/ml|sc injection",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "715fe61d-cb26-439c-b817-68f7b6231c84",
+            "sourceId": "16839",
+            "brandName": "Vibrenta",
+            "genericId": "96133a67-c361-401c-bb3a-904bae3a0585",
+            "genericName": "Insulin Glargine [rDNA]",
+            "strength": "100 IU/ml",
+            "dosageForm": "SC Injection",
+            "manufacturer": "Incepta Pharmaceuticals Ltd."
+          },
+          {
+            "brandId": "e7a04489-f996-4e32-a48f-4c4cc4471f26",
+            "sourceId": "27645",
+            "brandName": "Vibrenta",
+            "genericId": "96133a67-c361-401c-bb3a-904bae3a0585",
+            "genericName": "Insulin Glargine [rDNA]",
+            "strength": "100 IU/ml",
+            "dosageForm": "SC Injection",
+            "manufacturer": "Incepta Pharmaceuticals Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "allbeevit|5mg+2mg+2mg+20mg|tablet",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "73a02d6f-3a40-4f13-a069-ab0e765e51a9",
+            "sourceId": "13739",
+            "brandName": "Allbeevit",
+            "genericId": "528ae12d-f932-4a16-ab2c-47a44b70e23a",
+            "genericName": "Vitamin B complex",
+            "strength": "5 mg+2 mg+2 mg+20 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Medimet Pharmaceuticals Ltd."
+          },
+          {
+            "brandId": "759df770-caee-4ee2-9219-5526283c549d",
+            "sourceId": "13737",
+            "brandName": "Allbeevit",
+            "genericId": "528ae12d-f932-4a16-ab2c-47a44b70e23a",
+            "genericName": "Vitamin B complex",
+            "strength": "5 mg+2 mg+2 mg+20 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Medimet Pharmaceuticals Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "etoricoxib|60mg|tablet",
+        "count": 3,
+        "brands": [
+          {
+            "brandId": "73d17ef3-9263-49eb-9656-928362200165",
+            "sourceId": "35683",
+            "brandName": "Etoricoxib",
+            "genericId": "4297d4a2-7f05-4084-ad88-a7719876e600",
+            "genericName": "Etoricoxib",
+            "strength": "60 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Pristine Pharmaceuticals Ltd"
+          },
+          {
+            "brandId": "a0f763a4-1104-4e6c-a730-2c3ef66f7ba2",
+            "sourceId": "28754",
+            "brandName": "Etoricoxib",
+            "genericId": "4297d4a2-7f05-4084-ad88-a7719876e600",
+            "genericName": "Etoricoxib",
+            "strength": "60 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Zenith Pharmaceuticals Ltd."
+          },
+          {
+            "brandId": "e2657dae-7b5c-4742-b68b-0670ffbf6583",
+            "sourceId": "20102",
+            "brandName": "Etoricoxib",
+            "genericId": "4297d4a2-7f05-4084-ad88-a7719876e600",
+            "genericName": "Etoricoxib",
+            "strength": "60 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Bristol Pharmaceuticals Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "maxsulin n|100iu/ml|sc injection",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "7d39f79c-7f3d-44bd-805b-403abfac0c04",
+            "sourceId": "26227",
+            "brandName": "Maxsulin N",
+            "genericId": "707f77b1-9afd-431e-9d91-0a6d2ffbf3f3",
+            "genericName": "Insulin Human [rDNA]",
+            "strength": "100 IU/ml",
+            "dosageForm": "SC Injection",
+            "manufacturer": "Incepta Pharmaceuticals Ltd."
+          },
+          {
+            "brandId": "c231a4dc-f051-494c-a427-a02ed8b83848",
+            "sourceId": "16801",
+            "brandName": "Maxsulin N",
+            "genericId": "707f77b1-9afd-431e-9d91-0a6d2ffbf3f3",
+            "genericName": "Insulin Human [rDNA]",
+            "strength": "100 IU/ml",
+            "dosageForm": "SC Injection",
+            "manufacturer": "Incepta Pharmaceuticals Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "human albumin|20%|iv infusion",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "810585e2-f374-422b-b501-efa8f5ae8c7c",
+            "sourceId": "14910",
+            "brandName": "Human Albumin",
+            "genericId": "f9304c29-9289-45b7-936d-938f4171e169",
+            "genericName": "Albumin (Human)",
+            "strength": "20%",
+            "dosageForm": "IV Infusion",
+            "manufacturer": "International Agencies (Bd.) Limited"
+          },
+          {
+            "brandId": "9d93112f-92fe-4672-8b14-7716a7d1bf72",
+            "sourceId": "14911",
+            "brandName": "Human Albumin",
+            "genericId": "f9304c29-9289-45b7-936d-938f4171e169",
+            "genericName": "Albumin (Human)",
+            "strength": "20%",
+            "dosageForm": "IV Infusion",
+            "manufacturer": "City Overseas Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "water for injection|5ml/ampoule|liquid",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "84af5bd0-7c24-4470-b79a-2b025f87b041",
+            "sourceId": "27429",
+            "brandName": "Water for injection",
+            "genericId": "128d0108-f7b4-4702-b69c-939b09fac3a7",
+            "genericName": "Water for injection",
+            "strength": "5 ml/ampoule",
+            "dosageForm": "Liquid",
+            "manufacturer": "Jayson Pharmaceuticals Ltd."
+          },
+          {
+            "brandId": "c39d5e83-f90f-46ca-bfc1-9dd9a746a795",
+            "sourceId": "33020",
+            "brandName": "Water for injection",
+            "genericId": "128d0108-f7b4-4702-b69c-939b09fac3a7",
+            "genericName": "Water for injection",
+            "strength": "5 ml/ampoule",
+            "dosageForm": "Liquid",
+            "manufacturer": "Aristopharma Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "rani|150mg|tablet",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "86bbdee8-5a51-498f-b50c-5832f7e12e6e",
+            "sourceId": "1745",
+            "brandName": "Rani",
+            "genericId": "89799a5b-06a7-4860-97f9-7ceb5a232566",
+            "genericName": "Ranitidine Hydrochloride",
+            "strength": "150 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Alco Pharma Ltd."
+          },
+          {
+            "brandId": "d7403298-bb75-42cd-98ce-4a3c554758c1",
+            "sourceId": "1744",
+            "brandName": "Rani",
+            "genericId": "89799a5b-06a7-4860-97f9-7ceb5a232566",
+            "genericName": "Ranitidine Hydrochloride",
+            "strength": "150 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Cosmo Pharma Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "neobac|(5mg+500iu)/gm|ointment",
+        "count": 3,
+        "brands": [
+          {
+            "brandId": "8b88d171-d1b1-4419-a47a-4cb868f287a7",
+            "sourceId": "12969",
+            "brandName": "Neobac",
+            "genericId": "a2871ae2-51ea-408c-9256-839fe9061be5",
+            "genericName": "Neomycin Sulfate + Bacitracin Zinc",
+            "strength": "(5 mg+500 IU)/gm",
+            "dosageForm": "Ointment",
+            "manufacturer": "Rephco Pharmaceuticals Ltd."
+          },
+          {
+            "brandId": "bb3b89a6-01f3-4876-b94b-bd396bfd62de",
+            "sourceId": "37737",
+            "brandName": "Neobac",
+            "genericId": "a2871ae2-51ea-408c-9256-839fe9061be5",
+            "genericName": "Neomycin Sulfate + Bacitracin Zinc",
+            "strength": "(5 mg+500 IU)/gm",
+            "dosageForm": "Ointment",
+            "manufacturer": "Pharmik Laboratories Ltd."
+          },
+          {
+            "brandId": "c0ffbf80-25e7-4aaf-8a9b-7e9627c9be2f",
+            "sourceId": "27736",
+            "brandName": "Neobac",
+            "genericId": "a2871ae2-51ea-408c-9256-839fe9061be5",
+            "genericName": "Neomycin Sulfate + Bacitracin Zinc",
+            "strength": "(5 mg+500 IU)/gm",
+            "dosageForm": "Ointment",
+            "manufacturer": "OSL Pharma Limited"
+          }
+        ]
+      },
+      {
+        "identityKey": "dexamethason|0.5mg|tablet",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "8e61fda6-ade2-4652-9085-027045f24d3d",
+            "sourceId": "35670",
+            "brandName": "Dexamethason",
+            "genericId": "6a47b58a-6f49-4b00-a900-416fcf90d8f8",
+            "genericName": "Dexamethasone",
+            "strength": "0.5 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Pristine Pharmaceuticals Ltd"
+          },
+          {
+            "brandId": "c9435a48-1af7-4ecc-9b96-5bd61a44caf0",
+            "sourceId": "5753",
+            "brandName": "Dexamethason",
+            "genericId": "6a47b58a-6f49-4b00-a900-416fcf90d8f8",
+            "genericName": "Dexamethasone",
+            "strength": "0.5 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Bristol Pharmaceuticals Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "diclofen|0.1%|ophthalmic solution",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "8eea2fc8-7e7e-4282-a7cc-2f16cf75e4ba",
+            "sourceId": "27717",
+            "brandName": "Diclofen",
+            "genericId": "488bd486-a630-4f30-ba00-4a22096aa9e1",
+            "genericName": "Diclofenac Sodium (Ophthalmic)",
+            "strength": "0.1%",
+            "dosageForm": "Ophthalmic Solution",
+            "manufacturer": "OSL Pharma Limited"
+          },
+          {
+            "brandId": "c2136ce2-1612-44cf-a6a4-71f1ee1fbeb3",
+            "sourceId": "19861",
+            "brandName": "Diclofen",
+            "genericId": "488bd486-a630-4f30-ba00-4a22096aa9e1",
+            "genericName": "Diclofenac Sodium (Ophthalmic)",
+            "strength": "0.1%",
+            "dosageForm": "Ophthalmic Solution",
+            "manufacturer": "Opsonin Pharma Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "seemaplex|NULL|syrup",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "8f740be4-41c3-46b2-bc19-27d401fa1441",
+            "sourceId": "13381",
+            "brandName": "Seemaplex",
+            "genericId": "86e984b4-6207-4fc5-af0a-d8ba91013199",
+            "genericName": "Iron Polymaltose Complex + Vitamin B Complex + Zinc",
+            "strength": null,
+            "dosageForm": "Syrup",
+            "manufacturer": "Seema Pharmaceuticals Ltd."
+          },
+          {
+            "brandId": "c5d17e1e-8c0a-46e3-83ff-ac0cd7342fa7",
+            "sourceId": "13831",
+            "brandName": "Seemaplex",
+            "genericId": "528ae12d-f932-4a16-ab2c-47a44b70e23a",
+            "genericName": "Vitamin B complex",
+            "strength": null,
+            "dosageForm": "Syrup",
+            "manufacturer": "Seema Pharmaceuticals Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "dextromethorphan|10mg/5ml|syrup",
+        "count": 3,
+        "brands": [
+          {
+            "brandId": "9083bbc9-6e5e-426a-b41b-823a333b8e4b",
+            "sourceId": "19763",
+            "brandName": "Dextromethorphan",
+            "genericId": "21a68c0c-eb92-49d5-8e6a-0815a5a4357f",
+            "genericName": "Dextromethorphan Hydrobromide",
+            "strength": "10 mg/5 ml",
+            "dosageForm": "Syrup",
+            "manufacturer": "Ambee Pharmaceuticals Ltd."
+          },
+          {
+            "brandId": "a2664f2f-19fb-4937-9c59-a63b91e8f49f",
+            "sourceId": "34951",
+            "brandName": "Dextromethorphan",
+            "genericId": "21a68c0c-eb92-49d5-8e6a-0815a5a4357f",
+            "genericName": "Dextromethorphan Hydrobromide",
+            "strength": "10 mg/5 ml",
+            "dosageForm": "Syrup",
+            "manufacturer": "Union Pharmaceuticals Ltd"
+          },
+          {
+            "brandId": "a48ab74d-266f-4fa8-9855-1b5d8c9f7004",
+            "sourceId": "3993",
+            "brandName": "Dextromethorphan",
+            "genericId": "21a68c0c-eb92-49d5-8e6a-0815a5a4357f",
+            "genericName": "Dextromethorphan Hydrobromide",
+            "strength": "10 mg/5 ml",
+            "dosageForm": "Syrup",
+            "manufacturer": "Beximco Pharmaceuticals Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "fluconazole|150mg|capsule",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "95407313-24c2-421e-946a-f42b77b04096",
+            "sourceId": "35878",
+            "brandName": "Fluconazole",
+            "genericId": "663cf5c7-30be-49d2-a6a6-64a9bebdba40",
+            "genericName": "Fluconazole",
+            "strength": "150 mg",
+            "dosageForm": "Capsule",
+            "manufacturer": "Biogen Pharmaceuticals Ltd."
+          },
+          {
+            "brandId": "fbbf0304-353f-4a3e-8593-9e744c516a44",
+            "sourceId": "9865",
+            "brandName": "Fluconazole",
+            "genericId": "663cf5c7-30be-49d2-a6a6-64a9bebdba40",
+            "genericName": "Fluconazole",
+            "strength": "150 mg",
+            "dosageForm": "Capsule",
+            "manufacturer": "Bristol Pharmaceuticals Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "salmolin|100mcg/puff|inhaler",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "97b8bf53-48f7-47fa-9696-7085419dbeb8",
+            "sourceId": "32420",
+            "brandName": "Salmolin",
+            "genericId": "34631cbf-65bf-4b11-b8a9-c7e2f27bfd74",
+            "genericName": "Salbutamol (Inhaler)",
+            "strength": "100 mcg/puff",
+            "dosageForm": "Inhaler",
+            "manufacturer": "ACME Laboratories Ltd."
+          },
+          {
+            "brandId": "b002bbcd-5e82-4755-9b6d-36a5cfdf809c",
+            "sourceId": "3505",
+            "brandName": "Salmolin",
+            "genericId": "34631cbf-65bf-4b11-b8a9-c7e2f27bfd74",
+            "genericName": "Salbutamol (Inhaler)",
+            "strength": "100 mcg/puff",
+            "dosageForm": "Inhaler",
+            "manufacturer": "ACME Laboratories Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "ketotifen|1mg|tablet",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "9bba5dd6-2c4e-4c0c-a164-657beac88c66",
+            "sourceId": "21300",
+            "brandName": "Ketotifen",
+            "genericId": "7e79f2da-270a-4083-8c5a-bed379036b96",
+            "genericName": "Ketotifen Fumarate (Oral)",
+            "strength": "1 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Amico Laboratories Ltd."
+          },
+          {
+            "brandId": "f53bd301-5656-4af6-8623-61bb8bd23bb4",
+            "sourceId": "37394",
+            "brandName": "Ketotifen",
+            "genericId": "7e79f2da-270a-4083-8c5a-bed379036b96",
+            "genericName": "Ketotifen Fumarate (Oral)",
+            "strength": "1 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Pristine Pharmaceuticals Ltd"
+          }
+        ]
+      },
+      {
+        "identityKey": "iben|400mg|tablet",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "a6c72694-937d-477b-ab4f-daf5832ce905",
+            "sourceId": "11276",
+            "brandName": "Iben",
+            "genericId": "8cef0ae4-e764-43e5-a105-dcead7520e1c",
+            "genericName": "Ibuprofen (Oral)",
+            "strength": "400 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Zenith Pharmaceuticals Ltd."
+          },
+          {
+            "brandId": "d9e89883-17c4-4162-845a-7a3167e570d6",
+            "sourceId": "11306",
+            "brandName": "Iben",
+            "genericId": "8cef0ae4-e764-43e5-a105-dcead7520e1c",
+            "genericName": "Ibuprofen (Oral)",
+            "strength": "400 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Central Pharmaceuticals Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "asthmolin|2mg|tablet",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "aa410bde-c639-4b87-bd0a-f240f28b3fb2",
+            "sourceId": "21638",
+            "brandName": "Asthmolin",
+            "genericId": "c7fb9276-8f41-4f3e-8220-d18386f13b9f",
+            "genericName": "Salbutamol",
+            "strength": "2 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Pharmadesh Laboratories Ltd."
+          },
+          {
+            "brandId": "d5a0c457-49e4-4f85-ae25-323fbf36dd5e",
+            "sourceId": "3432",
+            "brandName": "Asthmolin",
+            "genericId": "c7fb9276-8f41-4f3e-8220-d18386f13b9f",
+            "genericName": "Salbutamol",
+            "strength": "2 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Pharmadesh Laboratories Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "anol|50mg|tablet",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "ab00318e-006a-4919-aebe-af92833d3253",
+            "sourceId": "2469",
+            "brandName": "Anol",
+            "genericId": "c8ddf9d5-6bdb-4af7-a1f0-1c10dd08641d",
+            "genericName": "Atenolol",
+            "strength": "50 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Medicon Pharmaceuticals Ltd."
+          },
+          {
+            "brandId": "bf32c13b-6f25-4a19-ab78-a64d04eb4f53",
+            "sourceId": "17973",
+            "brandName": "Anol",
+            "genericId": "c8ddf9d5-6bdb-4af7-a1f0-1c10dd08641d",
+            "genericName": "Atenolol",
+            "strength": "50 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Modern Pharmaceuticals Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "riboflavin|5mg|tablet",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "d0415f0d-a69e-4b70-847a-7b36a4626033",
+            "sourceId": "35694",
+            "brandName": "Riboflavin",
+            "genericId": "6ed8a214-d695-45eb-9511-53399920d5b7",
+            "genericName": "Riboflavin",
+            "strength": "5 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Pristine Pharmaceuticals Ltd"
+          },
+          {
+            "brandId": "fdfef7ed-0c2d-4d7a-ae64-b56c92bbe485",
+            "sourceId": "34783",
+            "brandName": "Riboflavin",
+            "genericId": "6ed8a214-d695-45eb-9511-53399920d5b7",
+            "genericName": "Riboflavin",
+            "strength": "5 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Desh Pharmaceuticals Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "calock plus|5mg+50mg|tablet",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "df3dec88-2d49-4c54-9282-d268afc93ecd",
+            "sourceId": "818",
+            "brandName": "Calock Plus",
+            "genericId": "7b39a847-c403-4e75-9362-6543babcc4f9",
+            "genericName": "Amlodipine Besilate + Atenolol",
+            "strength": "5 mg+50 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Medimet Pharmaceuticals Ltd."
+          },
+          {
+            "brandId": "ee496116-1e25-4a64-9915-1846d14cf0ee",
+            "sourceId": "819",
+            "brandName": "Calock Plus",
+            "genericId": "473d9ec8-a0e7-41d5-b060-a5fa63a40905",
+            "genericName": "Amlodipine Besilate + Atenolol",
+            "strength": "5 mg+50 mg",
+            "dosageForm": "Tablet",
+            "manufacturer": "Medimet Pharmaceuticals Ltd."
+          }
+        ]
+      },
+      {
+        "identityKey": "calamine|15%+5%+5%|lotion",
+        "count": 2,
+        "brands": [
+          {
+            "brandId": "ee6915f3-6997-4dbc-9e8d-8c29c729ed64",
+            "sourceId": "12308",
+            "brandName": "Calamine",
+            "genericId": "d7e7774c-6dd1-4837-834a-3a5015f5c6ef",
+            "genericName": "Calamine + Zinc Oxide + Glycerine",
+            "strength": "15%+5%+5%",
+            "dosageForm": "Lotion",
+            "manufacturer": "Amico Laboratories Ltd."
+          },
+          {
+            "brandId": "facd8bdb-c034-470c-b7bd-1c8a6c2c868d",
+            "sourceId": "37728",
+            "brandName": "Calamine",
+            "genericId": "d7e7774c-6dd1-4837-834a-3a5015f5c6ef",
+            "genericName": "Calamine + Zinc Oxide + Glycerine",
+            "strength": "15%+5%+5%",
+            "dosageForm": "Lotion",
+            "manufacturer": "Pharmik Laboratories Ltd."
+          }
+        ]
+      }
+    ],
+    "duplicatePackFingerprintsSameBrandCount": 0,
+    "duplicatePackFingerprintsSameBrand": []
+  },
+  "validation": {
+    "pgCountsMatchBeforeAndAfter": true,
+    "brandsCsvHeader": [
+      "brandId",
+      "sourceId",
+      "brandName",
+      "genericId",
+      "genericName",
+      "strength",
+      "dosageForm",
+      "manufacturer",
+      "verification",
+      "warnings",
+      "productUrl"
+    ],
+    "packsCsvHeader": [
+      "packId",
+      "brandId",
+      "packQuantity",
+      "packUnits",
+      "stripUnits",
+      "unitPrice",
+      "packPrice",
+      "currency",
+      "priceSource",
+      "sourceUrl",
+      "verification",
+      "warnings"
+    ],
+    "exportedBrandCsvRowCount": 25208,
+    "postgresqlBrandCount": 25208,
+    "brandCountMatches": true,
+    "exportedPackCsvRowCount": 27468,
+    "postgresqlPackCount": 27468,
+    "packCountMatches": true,
+    "uniqueBrandIdCount": 25208,
+    "duplicateExportedBrandIds": 0,
+    "uniquePackIdCount": 27468,
+    "duplicateExportedPackIds": 0,
+    "packsReferencingExistingBrandCount": 27468,
+    "packsWithInvalidBrandRef": 0,
+    "malformedBrandColumnRows": 0,
+    "malformedPackColumnRows": 0,
+    "brandsCsvSizeBytes": 5705587,
+    "packsCsvSizeBytes": 5015724
+  }
+}

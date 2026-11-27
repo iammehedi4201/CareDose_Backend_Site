@@ -1,0 +1,42 @@
+{
+  "validatedAt": "2026-11-25T12:01:39.886Z",
+  "readOnlyTransaction": true,
+  "isolationLevel": "RepeatableRead",
+  "overallValidationPassed": true,
+  "baselineCounts": {
+    "MedicineGeneric": 1846,
+    "MedicineBrand": 25208,
+    "MedicinePack": 27476,
+    "PatientMedication": 0,
+    "InventoryTransaction": 0,
+    "Purchase": 0,
+    "MedicationSchedule": 0,
+    "DoseEvent": 0
+  },
+  "postExecutionCounts": {
+    "MedicineGeneric": 1846,
+    "MedicineBrand": 25208,
+    "MedicinePack": 27481,
+    "PatientMedication": 0,
+    "InventoryTransaction": 0,
+    "Purchase": 0,
+    "MedicationSchedule": 0,
+    "DoseEvent": 0
+  },
+  "matchedCounts": {
+    "batch4ZeroPackInserted": 5,
+    "batch4PacksUpdated": 57,
+    "hpyloriKitsStripCleared": 4,
+    "untouchedBaselinePacks": 27415
+  },
+  "postBatch4Hygiene": {
+    "zeroPackBrandsRemaining": 24,
+    "nonDivisibleStripRemaining": 288,
+    "stripUnitsLte1OrGt100Remaining": 0,
+    "packsWithWarningsRemaining": 600,
+    "arithMismatchGt5PctRemaining": 577
+  },
+  "brandViolationsCount": 0,
+  "violationsCount": 0,
+  "violations": []
+}

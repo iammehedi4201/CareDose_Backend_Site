@@ -11,6 +11,36 @@ export interface AccessTokenPayload {
 
 const DEFAULT_EXPIRES_IN_SECONDS = 60 * 60 * 24 * 7; // 7 days
 const MIN_SECRET_LENGTH = 16;
+const PROD_MIN_SECRET_LENGTH = 32;
+const DISALLOWED_PROD_SECRET_SNIPPETS = [
+  'replace-with-',
+  'changeme',
+  'dev-secret',
+  'test-secret',
+];
+
+export function validateJwtSecretStrength(
+  rawSecret: string | undefined,
+  nodeEnv: string | undefined = process.env.NODE_ENV,
+): string {
+  const secret = rawSecret?.trim();
+  const isProd = nodeEnv === 'production';
+  const minLen = isProd ? PROD_MIN_SECRET_LENGTH : MIN_SECRET_LENGTH;
+  if (!secret || secret.length < minLen) {
+    throw new InternalServerErrorException(
+      `JWT_SECRET is missing or too short (minimum ${minLen} characters required)`,
+    );
+  }
+  if (
+    isProd &&
+    DISALLOWED_PROD_SECRET_SNIPPETS.some((s) => secret.toLowerCase().includes(s))
+  ) {
+    throw new InternalServerErrorException(
+      'JWT_SECRET uses an insecure placeholder value in production',
+    );
+  }
+  return secret;
+}
 
 function toBase64Url(input: string | Buffer): string {
   return Buffer.from(input).toString('base64url');
@@ -25,13 +55,10 @@ export class TokenService {
   constructor(private readonly configService: ConfigService) {}
 
   private getSigningSecret(): string {
-    const secret = this.configService.get<string>('JWT_SECRET')?.trim();
-    if (!secret || secret.length < MIN_SECRET_LENGTH) {
-      throw new InternalServerErrorException(
-        'JWT_SECRET is missing or too short (minimum 16 characters required)',
-      );
-    }
-    return secret;
+    return validateJwtSecretStrength(
+      this.configService.get<string>('JWT_SECRET'),
+      this.configService.get<string>('NODE_ENV') ?? process.env.NODE_ENV,
+    );
   }
 
   getExpiresInSeconds(): number {

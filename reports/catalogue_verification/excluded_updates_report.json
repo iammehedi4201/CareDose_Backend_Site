@@ -1,0 +1,2230 @@
+{
+  "generatedAt": "2026-11-25T01:35:00+06:00",
+  "originalStagedCount": 4807,
+  "excludedAndRolledBackCount": 61,
+  "finalApprovedExecutedCount": 4746,
+  "exclusionCountsByPrimaryReason": {
+    "WRONG_STRENGTH_CATALOG_MATCH": 2,
+    "UNVERIFIED_MANUFACTURER_MISMATCH": 47,
+    "UNRESOLVED_GENERIC_CONFLICT": 5,
+    "NEW_CAT_G_PARTIAL_PRICE_MISMATCH": 5,
+    "KIT_UNIT_SCALING_ERROR": 2
+  },
+  "excludedByCategory": {
+    "PRICE": 46,
+    "CONTAINER_PRICE": 13,
+    "STRIP": 2
+  },
+  "excludedRecords": [
+    {
+      "packId": "e5ed897c-36a9-4823-96fd-d4cb95f6b712",
+      "brandId": "03b7969b-a434-472f-8856-36044df202e1",
+      "sourceId": "33201",
+      "brandName": "R-Pag",
+      "genericName": "Eltrombopag Olamine",
+      "strength": "25 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Renata PLC",
+      "packQuantity": "7's pack",
+      "packUnits": 7,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "WRONG_STRENGTH_CATALOG_MATCH"
+      ],
+      "exclusionReasons": [
+        "DB R-Pag 25 mg falsely matched Arogga id=42658 'R-Pag 12.5' (Arogga p_strength typo 25mg; true R-Pag 25 is id=42655)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/33201/r-pag-25-mg-tablet",
+      "aroggaId": 42658,
+      "aroggaName": "R-Pag 12.5",
+      "aroggaStrength": "25mg",
+      "aroggaGeneric": "Eltrombopag Olamine",
+      "aroggaManufacturer": "Renata Limited",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": "500",
+        "oldPackPrice": "4600",
+        "oldWarnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": "250.00",
+        "newPackPrice": "1750.00"
+      }
+    },
+    {
+      "packId": "c7875275-670c-4c38-86a5-7fc392b2aac6",
+      "brandId": "0aa86028-ab32-44e6-ac17-15317cea4882",
+      "sourceId": "1266",
+      "brandName": "Atropin",
+      "genericName": "Atropine Sulfate (Injection)",
+      "strength": "0.6 mg/ml",
+      "dosageForm": "Injection",
+      "manufacturer": "S.N. Pharmaceutical Ltd.",
+      "packQuantity": "50's pack",
+      "packUnits": 50,
+      "updateCategory": "CONTAINER_PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'S.N. Pharmaceutical Ltd.' vs Arogga 'Edruc Ltd.' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/1266/atropin-06-mg-injection",
+      "aroggaId": 1819,
+      "aroggaName": "Atropin",
+      "aroggaStrength": "0.6mg/ml",
+      "aroggaGeneric": "Atropine Sulphate",
+      "aroggaManufacturer": "Edruc Ltd.",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": null,
+        "oldPackPrice": "126",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": null,
+        "newPackPrice": "250.00"
+      }
+    },
+    {
+      "packId": "189533d2-b203-4fff-8428-e69f0b253c64",
+      "brandId": "0bb0951d-5e45-4335-832b-703082ab1c86",
+      "sourceId": "11560",
+      "brandName": "Naproxen Plus",
+      "genericName": "Naproxen Sodium + Esomeprazole Magnesium",
+      "strength": "500 mg+20 mg",
+      "dosageForm": "Tablet (Delayed Release)",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Zenith Pharmaceuticals Ltd.' vs Arogga 'Albion Laboratories Ltd.' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/11560/naproxen-plus-500-mg-tablet",
+      "aroggaId": 22278,
+      "aroggaName": "Naproxen Plus 500",
+      "aroggaStrength": "20mg+500mg",
+      "aroggaGeneric": "Esomeprazole + Naproxen",
+      "aroggaManufacturer": "Albion Laboratories Ltd.",
+      "rollbackTargetValues": {
+        "oldStripUnits": 10,
+        "oldUnitPrice": "10",
+        "oldPackPrice": "300",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": 10,
+        "newUnitPrice": "10.67",
+        "newPackPrice": "320.10"
+      }
+    },
+    {
+      "packId": "1d921488-ab6a-4f82-b9f7-76ce543fd108",
+      "brandId": "10f4c8cd-25ba-4ec5-861d-6c5ab7daa54e",
+      "sourceId": "5310",
+      "brandName": "Glutim",
+      "genericName": "Glimepiride",
+      "strength": "1 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Techno Drugs Ltd.",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Techno Drugs Ltd.' vs Arogga 'EDCL' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/5310/glutim-1-mg-tablet",
+      "aroggaId": 8865,
+      "aroggaName": "Glutim",
+      "aroggaStrength": "1mg",
+      "aroggaGeneric": "Glimepiride",
+      "aroggaManufacturer": "EDCL",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": "6",
+        "oldPackPrice": "180",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": "3.00",
+        "newPackPrice": "90.00"
+      }
+    },
+    {
+      "packId": "dd0f3e13-4481-400f-8052-49dea8ed23b4",
+      "brandId": "1212beaa-9667-4578-9689-fbec56fea80e",
+      "sourceId": "22721",
+      "brandName": "Anabolin",
+      "genericName": "Nandrolone Phenylpropionate",
+      "strength": "25 mg/ml",
+      "dosageForm": "IM Injection",
+      "manufacturer": "Techno Drugs Ltd.",
+      "packQuantity": "5's pack",
+      "packUnits": 5,
+      "updateCategory": "CONTAINER_PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Techno Drugs Ltd.' vs Arogga 'EDCL' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/22721/anabolin-25-mg-injection",
+      "aroggaId": 1062,
+      "aroggaName": "Anabolin",
+      "aroggaStrength": "25mg/ml",
+      "aroggaGeneric": "Nandrolone",
+      "aroggaManufacturer": "EDCL",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": null,
+        "oldPackPrice": "300",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": null,
+        "newPackPrice": "200.00"
+      }
+    },
+    {
+      "packId": "6998cf2b-d787-4fcf-9728-be6f51d20705",
+      "brandId": "26b43fc8-fa6a-487c-add2-ebbb8482d6e1",
+      "sourceId": "36825",
+      "brandName": "Gistol",
+      "genericName": "Megestrol Acetate",
+      "strength": "160 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "One Pharma Ltd.",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'One Pharma Ltd.' vs Arogga 'BioHealth' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/36825/gistol-160-mg-tablet",
+      "aroggaId": 68070,
+      "aroggaName": "Gistol 160",
+      "aroggaStrength": "160mg",
+      "aroggaGeneric": "Megestrol Acetate",
+      "aroggaManufacturer": "BioHealth",
+      "rollbackTargetValues": {
+        "oldStripUnits": 10,
+        "oldUnitPrice": "80",
+        "oldPackPrice": "2250",
+        "oldWarnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": 10,
+        "newUnitPrice": "90.00",
+        "newPackPrice": "2700.00"
+      }
+    },
+    {
+      "packId": "b9590e93-1be4-40f0-abf7-a8f346959167",
+      "brandId": "271ff49d-f7ee-4fc1-82e8-d71033a22a51",
+      "sourceId": "6753",
+      "brandName": "Sefadol",
+      "genericName": "Cefadroxil Monohydrate",
+      "strength": "125 mg/5 ml",
+      "dosageForm": "Powder for Suspension",
+      "manufacturer": "Techno Drugs Ltd.",
+      "packQuantity": "100 ml bottle",
+      "packUnits": null,
+      "updateCategory": "CONTAINER_PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Techno Drugs Ltd.' vs Arogga 'EDCL' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/6753/sefadolpowder-for-suspension125-mg5-ml",
+      "aroggaId": 17213,
+      "aroggaName": "Sefadol",
+      "aroggaStrength": "125mg/5ml",
+      "aroggaGeneric": "Cefadroxil",
+      "aroggaManufacturer": "EDCL",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": null,
+        "oldPackPrice": "68.47",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": null,
+        "newPackPrice": "70.00"
+      }
+    },
+    {
+      "packId": "b669624a-4057-4340-94d9-de21b1d86031",
+      "brandId": "326554a4-f684-4369-a245-ba91e4c7379a",
+      "sourceId": "35665",
+      "brandName": "Aceclofenac",
+      "genericName": "Aceclofenac",
+      "strength": "100 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Pristine Pharmaceuticals Ltd",
+      "packQuantity": "100's pack",
+      "packUnits": 100,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Pristine Pharmaceuticals Ltd' vs Arogga 'Albion Laboratories Ltd.' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/35665/aceclofenac-100-mg-tablet",
+      "aroggaId": 111,
+      "aroggaName": "Aceclofenac 100",
+      "aroggaStrength": "100mg",
+      "aroggaGeneric": "Aceclofenac",
+      "aroggaManufacturer": "Albion Laboratories Ltd.",
+      "rollbackTargetValues": {
+        "oldStripUnits": 10,
+        "oldUnitPrice": "4",
+        "oldPackPrice": "300",
+        "oldWarnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": 10,
+        "newUnitPrice": "2.50",
+        "newPackPrice": "250.00"
+      }
+    },
+    {
+      "packId": "fa2b48ed-602a-411d-a333-7970cf43075e",
+      "brandId": "3a2f4801-43e1-4741-aa64-0c1859fe0b36",
+      "sourceId": "27351",
+      "brandName": "Eposide",
+      "genericName": "Etoposide",
+      "strength": "50 mg",
+      "dosageForm": "Capsule",
+      "manufacturer": "Techno Drugs Ltd.",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Techno Drugs Ltd.' vs Arogga 'EDCL' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/27351/eposide-50-mg-capsule",
+      "aroggaId": 6626,
+      "aroggaName": "Eposide",
+      "aroggaStrength": "50mg",
+      "aroggaGeneric": "Etoposide",
+      "aroggaManufacturer": "EDCL",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": "75",
+        "oldPackPrice": "2250",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": "80.00",
+        "newPackPrice": "2400.00"
+      }
+    },
+    {
+      "packId": "f188ef22-8362-4c84-8655-fa3d9c3aa8ec",
+      "brandId": "40219f70-5e10-441c-8f4d-df98c2e5c766",
+      "sourceId": "1207",
+      "brandName": "Livas",
+      "genericName": "Atorvastatin Calcium",
+      "strength": "20 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Techno Drugs Ltd.",
+      "packQuantity": "20's pack",
+      "packUnits": 20,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Techno Drugs Ltd.' vs Arogga 'EDCL' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/1207/livas-20-mg-tablet",
+      "aroggaId": 10687,
+      "aroggaName": "Livas",
+      "aroggaStrength": "20mg",
+      "aroggaGeneric": "Atorvastatin",
+      "aroggaManufacturer": "EDCL",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": "15",
+        "oldPackPrice": "300",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": "18.00",
+        "newPackPrice": "360.00"
+      }
+    },
+    {
+      "packId": "8d1879ac-2412-4277-8951-c01b4c4cbaab",
+      "brandId": "4e1136c8-ee46-4811-8a6d-67295a1dfe32",
+      "sourceId": "30954",
+      "brandName": "Metirox",
+      "genericName": "Methimazole",
+      "strength": "5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Renata Limited",
+      "packQuantity": "90's pack",
+      "packUnits": 90,
+      "updateCategory": "STRIP",
+      "exclusionCodes": [
+        "UNRESOLVED_GENERIC_CONFLICT"
+      ],
+      "exclusionReasons": [
+        "DB Methimazole vs Arogga Metamizol (active molecule conflict in 290-strip set)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/30954/metiroxtablet5-mg",
+      "aroggaId": 34352,
+      "aroggaName": "Metirox 5",
+      "aroggaStrength": "5mg",
+      "aroggaGeneric": "Metamizol",
+      "aroggaManufacturer": "Renata Limited",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": "6",
+        "oldPackPrice": "540",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": 30,
+        "newUnitPrice": "6.00",
+        "newPackPrice": "540.00"
+      }
+    },
+    {
+      "packId": "108dc9ba-c9b1-4da9-8589-a2532c4775f4",
+      "brandId": "53b24679-50a7-414f-8e57-2746dc57fbdd",
+      "sourceId": "20126",
+      "brandName": "Etoricoxib",
+      "genericName": "Etoricoxib",
+      "strength": "90 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Premier Pharmaceuticals Ltd.",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Premier Pharmaceuticals Ltd.' vs Arogga 'Albion Laboratories Ltd.' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/20126/etoricoxib-90-mg-tablet",
+      "aroggaId": 7003,
+      "aroggaName": "Etoricoxib 90",
+      "aroggaStrength": "90mg",
+      "aroggaGeneric": "Etoricoxib",
+      "aroggaManufacturer": "Albion Laboratories Ltd.",
+      "rollbackTargetValues": {
+        "oldStripUnits": 10,
+        "oldUnitPrice": "11.5",
+        "oldPackPrice": "345",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": 10,
+        "newUnitPrice": "12.00",
+        "newPackPrice": "360.00"
+      }
+    },
+    {
+      "packId": "1ac5eed6-b473-40fd-947e-8f812b400bb9",
+      "brandId": "594f503f-1734-43f8-9a5a-87431aa053c8",
+      "sourceId": "30321",
+      "brandName": "Geofenac TR",
+      "genericName": "Diclofenac Sodium",
+      "strength": "100 mg",
+      "dosageForm": "Capsule (Timed Release)",
+      "manufacturer": "Biogen Pharmaceuticals Ltd.",
+      "packQuantity": "50's pack",
+      "packUnits": 50,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Biogen Pharmaceuticals Ltd.' vs Arogga 'Bristol Pharma Ltd.' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/30321/geofenac-tr-100-mg-capsule",
+      "aroggaId": 8696,
+      "aroggaName": "Geofenac 100 TR",
+      "aroggaStrength": "100mg",
+      "aroggaGeneric": "Diclofenac Sodium",
+      "aroggaManufacturer": "Bristol Pharma Ltd.",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": "5.5",
+        "oldPackPrice": "275",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": "3.00",
+        "newPackPrice": "150.00"
+      }
+    },
+    {
+      "packId": "6f000d47-c115-4d1b-a875-9cc3f0fad233",
+      "brandId": "594f503f-1734-43f8-9a5a-87431aa053c8",
+      "sourceId": "30321",
+      "brandName": "Geofenac TR",
+      "genericName": "Diclofenac Sodium",
+      "strength": "100 mg",
+      "dosageForm": "Capsule (Timed Release)",
+      "manufacturer": "Biogen Pharmaceuticals Ltd.",
+      "packQuantity": "100's pack",
+      "packUnits": 100,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Biogen Pharmaceuticals Ltd.' vs Arogga 'Bristol Pharma Ltd.' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/30321/geofenac-tr-100-mg-capsule",
+      "aroggaId": 8696,
+      "aroggaName": "Geofenac 100 TR",
+      "aroggaStrength": "100mg",
+      "aroggaGeneric": "Diclofenac Sodium",
+      "aroggaManufacturer": "Bristol Pharma Ltd.",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": "5.5",
+        "oldPackPrice": "550",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": "3.00",
+        "newPackPrice": "300.00"
+      }
+    },
+    {
+      "packId": "5875a5db-5b8b-434a-a7bc-0b7495cad94b",
+      "brandId": "5b94c27f-2506-47ef-bffc-9802f3c69523",
+      "sourceId": "8393",
+      "brandName": "Gentasol",
+      "genericName": "Gentamicin Sulfate (Injection)",
+      "strength": "80 mg/2 ml",
+      "dosageForm": "IM/IV Injection",
+      "manufacturer": "Techno Drugs Ltd.",
+      "packQuantity": "10's pack",
+      "packUnits": 10,
+      "updateCategory": "CONTAINER_PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Techno Drugs Ltd.' vs Arogga 'EDCL' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/8393/gentasol-80-mg-injection",
+      "aroggaId": 24367,
+      "aroggaName": "Gentasol",
+      "aroggaStrength": "80mg/2ml",
+      "aroggaGeneric": "Gentamicin",
+      "aroggaManufacturer": "EDCL",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": null,
+        "oldPackPrice": "109.48",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": null,
+        "newPackPrice": "150.00"
+      }
+    },
+    {
+      "packId": "0a49c2ed-922b-4eb8-9a95-3fee5b44a177",
+      "brandId": "63e4d716-6b45-4a5c-8dd2-cc9c2b0a72b7",
+      "sourceId": "37641",
+      "brandName": "Calcium DS",
+      "genericName": "Calcium Carbonate",
+      "strength": "500 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Pharmik Laboratories Ltd.",
+      "packQuantity": "50's pack",
+      "packUnits": 50,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Pharmik Laboratories Ltd.' vs Arogga 'Albion Laboratories Ltd.' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/37641/calcium-ds-500-mg-tablet",
+      "aroggaId": 25625,
+      "aroggaName": "Calcium DS 500",
+      "aroggaStrength": "500mg",
+      "aroggaGeneric": "Calcium Carbonate",
+      "aroggaManufacturer": "Albion Laboratories Ltd.",
+      "rollbackTargetValues": {
+        "oldStripUnits": 10,
+        "oldUnitPrice": "2.64",
+        "oldPackPrice": "150",
+        "oldWarnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": 10,
+        "newUnitPrice": "3.50",
+        "newPackPrice": "175.00"
+      }
+    },
+    {
+      "packId": "fa391aaf-370b-4f7e-b75b-4ffef4d775ee",
+      "brandId": "6c2d1350-fd84-4e26-94ec-b2ca2d7687a6",
+      "sourceId": "37646",
+      "brandName": "Ciprofloxacin",
+      "genericName": "Ciprofloxacin",
+      "strength": "500 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Pharmik Laboratories Ltd.",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Pharmik Laboratories Ltd.' vs Arogga 'Albion Laboratories Ltd.' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/37646/ciprofloxacin-500-mg-tablet",
+      "aroggaId": 38673,
+      "aroggaName": "Ciprofloxacin 500",
+      "aroggaStrength": "500mg",
+      "aroggaGeneric": "Ciprofloxacin",
+      "aroggaManufacturer": "Albion Laboratories Ltd.",
+      "rollbackTargetValues": {
+        "oldStripUnits": 10,
+        "oldUnitPrice": "14",
+        "oldPackPrice": "361.2",
+        "oldWarnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": 10,
+        "newUnitPrice": "14.00",
+        "newPackPrice": "420.00"
+      }
+    },
+    {
+      "packId": "d12a1dfb-6774-4bf0-aee5-e5c9ec4bc3d5",
+      "brandId": "6fa4527c-8edc-4a18-86f6-dd01465625fe",
+      "sourceId": "23315",
+      "brandName": "Pantobio",
+      "genericName": "Pantoprazole Sodium",
+      "strength": "20 mg",
+      "dosageForm": "Tablet (Enteric Coated)",
+      "manufacturer": "Biogen Pharmaceuticals Ltd.",
+      "packQuantity": "100's pack",
+      "packUnits": 100,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Biogen Pharmaceuticals Ltd.' vs Arogga 'Bristol Pharma Ltd.' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/23315/pantobio-20-mg-tablet",
+      "aroggaId": 14483,
+      "aroggaName": "Pantobio 20",
+      "aroggaStrength": "20mg",
+      "aroggaGeneric": "Pantoprazole Sodium Sesquihydrate",
+      "aroggaManufacturer": "Bristol Pharma Ltd.",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": "4.75",
+        "oldPackPrice": "475",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": "5.00",
+        "newPackPrice": "500.00"
+      }
+    },
+    {
+      "packId": "fa68f17d-84e1-4fdd-a5c0-b8178131edc7",
+      "brandId": "728d233d-cc0c-49b1-b112-efed6c8b9f89",
+      "sourceId": "7026",
+      "brandName": "Sefro",
+      "genericName": "Cephradine",
+      "strength": "500 mg",
+      "dosageForm": "Capsule",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "packQuantity": "24's pack",
+      "packUnits": 24,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNRESOLVED_GENERIC_CONFLICT"
+      ],
+      "exclusionReasons": [
+        "DB Cephradine vs Arogga Cephalexin (different cephalosporin molecule)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/7026/sefrocapsule500-mg",
+      "aroggaId": 17256,
+      "aroggaName": "Sefro",
+      "aroggaStrength": "500mg",
+      "aroggaGeneric": "Cephalexin",
+      "aroggaManufacturer": "Navana Pharmaceuticals Ltd.",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": "15",
+        "oldPackPrice": "360",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": "12.50",
+        "newPackPrice": "300.00"
+      }
+    },
+    {
+      "packId": "edc48cd5-bb23-4a61-b068-4c484d3d19a8",
+      "brandId": "755ab202-7ee8-4877-8dd6-f1cfe6301b4b",
+      "sourceId": "9795",
+      "brandName": "Griseofulvin",
+      "genericName": "Griseofulvin [Ultra Microsize]",
+      "strength": "500 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "APC Pharma Ltd.",
+      "packQuantity": "100's pack",
+      "packUnits": 100,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'APC Pharma Ltd.' vs Arogga 'Albion Laboratories Ltd.' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/9795/griseofulvin-500-mg-tablet",
+      "aroggaId": 8912,
+      "aroggaName": "Griseofulvin",
+      "aroggaStrength": "500mg",
+      "aroggaGeneric": "Griseofulvin",
+      "aroggaManufacturer": "Albion Laboratories Ltd.",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": "5.5",
+        "oldPackPrice": "550",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": "6.50",
+        "newPackPrice": "650.00"
+      }
+    },
+    {
+      "packId": "c59cba3a-9d68-4469-add3-2e658f154328",
+      "brandId": "7a7855ba-bc82-43c5-9ed5-2d10551e76ff",
+      "sourceId": "13457",
+      "brandName": "Folate",
+      "genericName": "Folic Acid",
+      "strength": "5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "packQuantity": "100's pack",
+      "packUnits": 100,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "NEW_CAT_G_PARTIAL_PRICE_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "Folate 5 mg 100's pack: packPrice updated 30->34 while unitPrice stayed 0.30 (<0.05 threshold), introducing 11.76% unit*pack vs packPrice mismatch"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/13457/folate-5-mg-tablet",
+      "aroggaId": 79235,
+      "aroggaName": "Folate 5",
+      "aroggaStrength": "5mg",
+      "aroggaGeneric": "Folic Acid",
+      "aroggaManufacturer": "Ad-din Pharmaceuticals Ltd.",
+      "rollbackTargetValues": {
+        "oldStripUnits": 10,
+        "oldUnitPrice": "0.3",
+        "oldPackPrice": "30",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": 10,
+        "newUnitPrice": "0.30",
+        "newPackPrice": "34.00"
+      }
+    },
+    {
+      "packId": "7e64dad5-c6e0-4bff-96de-1d39724e30f3",
+      "brandId": "7b41beca-887c-4613-921c-4954998ce34d",
+      "sourceId": "37627",
+      "brandName": "Aceclofenac",
+      "genericName": "Aceclofenac",
+      "strength": "100 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Pharmik Laboratories Ltd.",
+      "packQuantity": "100's pack",
+      "packUnits": 100,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Pharmik Laboratories Ltd.' vs Arogga 'Albion Laboratories Ltd.' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/37627/aceclofenac-100-mg-tablet",
+      "aroggaId": 111,
+      "aroggaName": "Aceclofenac 100",
+      "aroggaStrength": "100mg",
+      "aroggaGeneric": "Aceclofenac",
+      "aroggaManufacturer": "Albion Laboratories Ltd.",
+      "rollbackTargetValues": {
+        "oldStripUnits": 10,
+        "oldUnitPrice": "4",
+        "oldPackPrice": "300",
+        "oldWarnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": 10,
+        "newUnitPrice": "2.50",
+        "newPackPrice": "250.00"
+      }
+    },
+    {
+      "packId": "01928687-c889-46c6-8536-24435151efc3",
+      "brandId": "7b8b4088-826b-4236-8d6e-e6f84ec0082d",
+      "sourceId": "28153",
+      "brandName": "Lox",
+      "genericName": "Ciprofloxacin",
+      "strength": "500 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Credence Pharmaceuticals Ltd.",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Credence Pharmaceuticals Ltd.' vs Arogga 'Apex Pharma Ltd.' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/28153/lox-500-mg-tablet",
+      "aroggaId": 10959,
+      "aroggaName": "Lox 500",
+      "aroggaStrength": "500mg",
+      "aroggaGeneric": "Ciprofloxacin",
+      "aroggaManufacturer": "Apex Pharma Ltd.",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": "14",
+        "oldPackPrice": "420",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": "12.00",
+        "newPackPrice": "360.00"
+      }
+    },
+    {
+      "packId": "76f0c82c-08df-42a0-9b83-55607d195c9e",
+      "brandId": "7dbc606c-77dd-421b-a17c-3732ed238e93",
+      "sourceId": "2209",
+      "brandName": "Pantrol",
+      "genericName": "Pantoprazole Sodium",
+      "strength": "20 mg",
+      "dosageForm": "Tablet (Enteric Coated)",
+      "manufacturer": "Credence Pharmaceuticals Ltd.",
+      "packQuantity": "60's pack",
+      "packUnits": 60,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Credence Pharmaceuticals Ltd.' vs Arogga 'Apex Pharma Ltd.' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/2209/pantrol-20-mg-tablet",
+      "aroggaId": 14518,
+      "aroggaName": "Pantrol",
+      "aroggaStrength": "20mg",
+      "aroggaGeneric": "Pantoprazole Sodium Sesquihydrate",
+      "aroggaManufacturer": "Apex Pharma Ltd.",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": "4.5",
+        "oldPackPrice": "270",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": "4.00",
+        "newPackPrice": "240.00"
+      }
+    },
+    {
+      "packId": "64166a26-323c-47cd-8175-4fea5fe1a561",
+      "brandId": "7e8cbee2-98b1-4ce6-bf97-7bfeabb9b924",
+      "sourceId": "37656",
+      "brandName": "Griseofulvin-FP",
+      "genericName": "Griseofulvin [Ultra Microsize]",
+      "strength": "500 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Pharmik Laboratories Ltd.",
+      "packQuantity": "100's pack",
+      "packUnits": 100,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Pharmik Laboratories Ltd.' vs Arogga 'Bristol Pharma Ltd.' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/37656/griseofulvin-fp-500-mg-tablet",
+      "aroggaId": 8913,
+      "aroggaName": "Griseofulvin FP",
+      "aroggaStrength": "500mg",
+      "aroggaGeneric": "Griseofulvin",
+      "aroggaManufacturer": "Bristol Pharma Ltd.",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": null,
+        "oldPackPrice": "500",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": "5.00",
+        "newPackPrice": "500.00"
+      }
+    },
+    {
+      "packId": "53ae3a2c-5b02-4d0d-9451-7f87f54dd107",
+      "brandId": "80ce0066-d56d-4c9e-8d19-21cc96adca88",
+      "sourceId": "5779",
+      "brandName": "Anacort",
+      "genericName": "Hydrocortisone",
+      "strength": "100 mg/2 ml",
+      "dosageForm": "IM/IV Injection",
+      "manufacturer": "Techno Drugs Ltd.",
+      "packQuantity": "100 mg vial",
+      "packUnits": null,
+      "updateCategory": "CONTAINER_PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Techno Drugs Ltd.' vs Arogga 'EDCL' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/5779/anacort-100-mg-injection",
+      "aroggaId": 22014,
+      "aroggaName": "Anacort",
+      "aroggaStrength": "100mg/2ml",
+      "aroggaGeneric": "Hydrocortisone",
+      "aroggaManufacturer": "EDCL",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": null,
+        "oldPackPrice": "50",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": null,
+        "newPackPrice": "60.00"
+      }
+    },
+    {
+      "packId": "b680bc9a-5ee1-400f-b417-cdb57fcc4032",
+      "brandId": "80d93e26-9118-45c6-8293-a778f4f969b1",
+      "sourceId": "24644",
+      "brandName": "Sofomax",
+      "genericName": "Sofosbuvir",
+      "strength": "400 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Aristopharma Ltd.",
+      "packQuantity": "7's pack",
+      "packUnits": 7,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Aristopharma Ltd.' vs Arogga 'ACI Limited' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/24644/sofomaxtablet400-mg",
+      "aroggaId": 17727,
+      "aroggaName": "Sofomax",
+      "aroggaStrength": "400mg",
+      "aroggaGeneric": "Sofosbuvir",
+      "aroggaManufacturer": "ACI Limited",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": null,
+        "oldPackPrice": "4",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": "700.00",
+        "newPackPrice": "4900.00"
+      }
+    },
+    {
+      "packId": "5d42c8f7-875d-4497-a0bf-89569e01ad92",
+      "brandId": "80de8c38-f568-4e20-aa4d-30a5811e4f0e",
+      "sourceId": "26198",
+      "brandName": "Cytomis Kit",
+      "genericName": "Mifepristone + Misoprostol",
+      "strength": "200 mg+200 mcg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "packQuantity": "5 tablet kit",
+      "packUnits": 5,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "KIT_UNIT_SCALING_ERROR"
+      ],
+      "exclusionReasons": [
+        "Cytomis Kit 5 tablet kit wrongly scaled from Arogga mis-indexed pv_mrp 150 (Box=2 -> 300) x 5 = 750.00 (2.5x overprice vs 300 BDT MRP)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/26198/cytomis-kit-200-mg-tablet",
+      "aroggaId": 4869,
+      "aroggaName": "Cytomis Kit",
+      "aroggaStrength": "200mg+200mcg",
+      "aroggaGeneric": "Mifepristone + Misoprostol",
+      "aroggaManufacturer": "Incepta Pharmaceuticals Ltd.",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": null,
+        "oldPackPrice": "300",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": "150.00",
+        "newPackPrice": "750.00"
+      }
+    },
+    {
+      "packId": "a61b1a58-fc39-4c77-8ffe-c6ec18fb7c95",
+      "brandId": "83c9fecf-2852-467c-a77e-5e981b38d0c9",
+      "sourceId": "35682",
+      "brandName": "Levofloxacin",
+      "genericName": "Levofloxacin Hemihydrate",
+      "strength": "500 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Pristine Pharmaceuticals Ltd",
+      "packQuantity": "20's pack",
+      "packUnits": 20,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Pristine Pharmaceuticals Ltd' vs Arogga 'Albion Laboratories Ltd.' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/35682/levofloxacin-500-mg-tablet",
+      "aroggaId": 10387,
+      "aroggaName": "Levofloxacin 500",
+      "aroggaStrength": "500mg",
+      "aroggaGeneric": "Levofloxacin",
+      "aroggaManufacturer": "Albion Laboratories Ltd.",
+      "rollbackTargetValues": {
+        "oldStripUnits": 10,
+        "oldUnitPrice": "15",
+        "oldPackPrice": "301",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": 10,
+        "newUnitPrice": "10.73",
+        "newPackPrice": "214.60"
+      }
+    },
+    {
+      "packId": "9efb8bcd-f0bb-49d8-9b08-46257976a4e4",
+      "brandId": "86ab990a-b57e-41e4-bc2b-97c1212c0bf8",
+      "sourceId": "20103",
+      "brandName": "Etoricoxib",
+      "genericName": "Etoricoxib",
+      "strength": "90 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "packQuantity": "",
+      "packUnits": null,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Bristol Pharmaceuticals Ltd.' vs Arogga 'Albion Laboratories Ltd.' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/20103/etoricoxib-90-mg-tablet",
+      "aroggaId": 7003,
+      "aroggaName": "Etoricoxib 90",
+      "aroggaStrength": "90mg",
+      "aroggaGeneric": "Etoricoxib",
+      "aroggaManufacturer": "Albion Laboratories Ltd.",
+      "rollbackTargetValues": {
+        "oldStripUnits": 10,
+        "oldUnitPrice": "11",
+        "oldPackPrice": null,
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": 10,
+        "newUnitPrice": "12.00",
+        "newPackPrice": null
+      }
+    },
+    {
+      "packId": "9c8cde12-7d1b-4f34-96a8-882d401e107e",
+      "brandId": "8779d50c-e2db-44fe-bab5-2bb2088a4b63",
+      "sourceId": "15509",
+      "brandName": "Stigmin",
+      "genericName": "Neostigmine Methyl Sulphate",
+      "strength": "0.5 mg/ml",
+      "dosageForm": "Injection",
+      "manufacturer": "Techno Drugs Ltd.",
+      "packQuantity": "10's pack",
+      "packUnits": 10,
+      "updateCategory": "CONTAINER_PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Techno Drugs Ltd.' vs Arogga 'EDCL' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/15509/stigmininjection05-mgml",
+      "aroggaId": 17997,
+      "aroggaName": "Stigmin",
+      "aroggaStrength": "500mcg/ml",
+      "aroggaGeneric": "Neostigmine Methyl Sulphate",
+      "aroggaManufacturer": "EDCL",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": null,
+        "oldPackPrice": "70",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": null,
+        "newPackPrice": "60.00"
+      }
+    },
+    {
+      "packId": "0370b2e9-40d6-4c2d-949f-bb785d9ff0a2",
+      "brandId": "88c6bc3a-c125-46b0-9147-7badad562a6a",
+      "sourceId": "37404",
+      "brandName": "Ciprodyl",
+      "genericName": "Ciprofloxacin",
+      "strength": "500 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "SMC Enterprise Ltd",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'SMC Enterprise Ltd' vs Arogga 'Rainbow Traders' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/37404/ciprodyl-500-mg-tablet",
+      "aroggaId": 4054,
+      "aroggaName": "Ciprodyl",
+      "aroggaStrength": "500mg",
+      "aroggaGeneric": "Ciprofloxacin",
+      "aroggaManufacturer": "Rainbow Traders",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": "14",
+        "oldPackPrice": "361.2",
+        "oldWarnings": [
+          "pack_price_inconsistent_with_unit_price"
+        ]
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": "15.00",
+        "newPackPrice": "450.00"
+      }
+    },
+    {
+      "packId": "3966cb67-0e5c-47b0-8a5d-07a9eb165bf9",
+      "brandId": "88e4f83d-eeea-4b36-927e-3a8b67ea618c",
+      "sourceId": "33696",
+      "brandName": "Fertinatal",
+      "genericName": "Dehydroepiandrosterone",
+      "strength": "25 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Total Herbal & Nutraceuticals",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Total Herbal & Nutraceuticals' vs Arogga 'BioHealth' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/33696/fertinatal-25-mg-tablet",
+      "aroggaId": 40182,
+      "aroggaName": "Fertinatal",
+      "aroggaStrength": "25mg",
+      "aroggaGeneric": "Dehydroepiandrosterone",
+      "aroggaManufacturer": "BioHealth",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": "15",
+        "oldPackPrice": "450",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": "30.00",
+        "newPackPrice": "900.00"
+      }
+    },
+    {
+      "packId": "958886e6-f9b6-414b-b02e-7c5fad541040",
+      "brandId": "8d0151ca-cb35-4b4f-9ec2-b00abe6cd070",
+      "sourceId": "27390",
+      "brandName": "Mefin",
+      "genericName": "Metformin Hydrochloride",
+      "strength": "850 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "United Pharmaceuticals Ltd.",
+      "packQuantity": "50's pack",
+      "packUnits": 50,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'United Pharmaceuticals Ltd.' vs Arogga 'Unimed Unihealth Pharmaceuticals Ltd.' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/27390/mefin-850-mg-tablet",
+      "aroggaId": 11396,
+      "aroggaName": "Mefin 850",
+      "aroggaStrength": "850mg",
+      "aroggaGeneric": "Metformin Hydrochloride",
+      "aroggaManufacturer": "Unimed Unihealth Pharmaceuticals Ltd.",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": "4",
+        "oldPackPrice": "200",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": "6.00",
+        "newPackPrice": "300.00"
+      }
+    },
+    {
+      "packId": "3cad9eb2-c979-4316-8a05-fceab106a346",
+      "brandId": "8e61fda6-ade2-4652-9085-027045f24d3d",
+      "sourceId": "35670",
+      "brandName": "Dexamethason",
+      "genericName": "Dexamethasone",
+      "strength": "0.5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Pristine Pharmaceuticals Ltd",
+      "packQuantity": "100's pack",
+      "packUnits": 100,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Pristine Pharmaceuticals Ltd' vs Arogga 'Albion Laboratories Ltd.' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/35670/dexamethason-05-mg-tablet",
+      "aroggaId": 5327,
+      "aroggaName": "Dexamethason 0.5",
+      "aroggaStrength": "0.5mg",
+      "aroggaGeneric": "Dexamethasone",
+      "aroggaManufacturer": "Albion Laboratories Ltd.",
+      "rollbackTargetValues": {
+        "oldStripUnits": 10,
+        "oldUnitPrice": null,
+        "oldPackPrice": "42",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": 10,
+        "newUnitPrice": "1.00",
+        "newPackPrice": "100.00"
+      }
+    },
+    {
+      "packId": "8fd9ad2e-6eac-48c6-a111-11d3e8c764d3",
+      "brandId": "919a1191-f523-4f19-9ba4-096645931f1b",
+      "sourceId": "30955",
+      "brandName": "Metirox",
+      "genericName": "Methimazole",
+      "strength": "10 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Renata Limited",
+      "packQuantity": "70's pack",
+      "packUnits": 70,
+      "updateCategory": "STRIP",
+      "exclusionCodes": [
+        "UNRESOLVED_GENERIC_CONFLICT"
+      ],
+      "exclusionReasons": [
+        "DB Methimazole vs Arogga Metamizol (active molecule conflict in 290-strip set)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/30955/metiroxtablet10-mg",
+      "aroggaId": 34104,
+      "aroggaName": "Metirox 10",
+      "aroggaStrength": "10mg",
+      "aroggaGeneric": "Metamizol",
+      "aroggaManufacturer": "Renata Limited",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": "11",
+        "oldPackPrice": "770",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": 14,
+        "newUnitPrice": "11.00",
+        "newPackPrice": "770.00"
+      }
+    },
+    {
+      "packId": "254b444e-7f65-4a94-971a-f7a9583c3315",
+      "brandId": "93933961-6e0d-4b54-8a2f-db8ce33f8261",
+      "sourceId": "32124",
+      "brandName": "Triokit",
+      "genericName": "Lansoprazole + Amoxicillin + Clarithromycin",
+      "strength": "30 mg+1000 mg+500 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Opsonin Pharma Ltd.",
+      "packQuantity": "7's pack",
+      "packUnits": 7,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "KIT_UNIT_SCALING_ERROR"
+      ],
+      "exclusionReasons": [
+        "Triokit 7's pack (7 daily eradication cards @ ~55 BDT = 385 BDT) wrongly scaled from single-tablet pv_mrp 13.84 -> 96.88 (4x underprice)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/32124/triokittablet30-mg1000-mg500-mg",
+      "aroggaId": 36986,
+      "aroggaName": "Triokit",
+      "aroggaStrength": "30mg+500mg+1gm",
+      "aroggaGeneric": "Amoxicillin + Clarithromycin + Lansoprazole Kit",
+      "aroggaManufacturer": "Opsonin Pharma Limited",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": null,
+        "oldPackPrice": "385",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": "13.84",
+        "newPackPrice": "96.88"
+      }
+    },
+    {
+      "packId": "e8e50ea6-b2ea-4bf8-bf45-3dc3631d914b",
+      "brandId": "951c2826-2ab2-4dfe-a2e8-3a9eeae2df78",
+      "sourceId": "9206",
+      "brandName": "Cipro-M",
+      "genericName": "Ciprofloxacin",
+      "strength": "500 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Modern Pharmaceuticals Ltd.",
+      "packQuantity": "40's pack",
+      "packUnits": 40,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Modern Pharmaceuticals Ltd.' vs Arogga 'Millat Pharmaceuticals Ltd.' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/9206/cipro-m-500-mg-tablet",
+      "aroggaId": 4066,
+      "aroggaName": "Ciprom",
+      "aroggaStrength": "500mg",
+      "aroggaGeneric": "Ciprofloxacin",
+      "aroggaManufacturer": "Millat Pharmaceuticals Ltd.",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": "14.06",
+        "oldPackPrice": "562.4",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": "12.00",
+        "newPackPrice": "480.00"
+      }
+    },
+    {
+      "packId": "07a33de0-5e65-4050-9f58-84c60e29d901",
+      "brandId": "95407313-24c2-421e-946a-f42b77b04096",
+      "sourceId": "35878",
+      "brandName": "Fluconazole",
+      "genericName": "Fluconazole",
+      "strength": "150 mg",
+      "dosageForm": "Capsule",
+      "manufacturer": "Biogen Pharmaceuticals Ltd.",
+      "packQuantity": "10's pack",
+      "packUnits": 10,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Biogen Pharmaceuticals Ltd.' vs Arogga 'Albion Laboratories Ltd.' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/35878/fluconazole-150-mg-capsule",
+      "aroggaId": 7928,
+      "aroggaName": "Fluconazole 150",
+      "aroggaStrength": "150mg",
+      "aroggaGeneric": "Fluconazole",
+      "aroggaManufacturer": "Albion Laboratories Ltd.",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": null,
+        "oldPackPrice": "220",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": "22.00",
+        "newPackPrice": "220.00"
+      }
+    },
+    {
+      "packId": "4fa17455-a421-40f2-acfc-51777a4f5b78",
+      "brandId": "9e13968f-8d4a-4f08-b65a-4145b7e7193f",
+      "sourceId": "6752",
+      "brandName": "Sefadol",
+      "genericName": "Cefadroxil Monohydrate",
+      "strength": "500 mg",
+      "dosageForm": "Capsule",
+      "manufacturer": "Techno Drugs Ltd.",
+      "packQuantity": "18's pack",
+      "packUnits": 18,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Techno Drugs Ltd.' vs Arogga 'EDCL' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/6752/sefadolcapsule500-mg",
+      "aroggaId": 17214,
+      "aroggaName": "Sefadol 500",
+      "aroggaStrength": "500mg",
+      "aroggaGeneric": "Cefadroxil",
+      "aroggaManufacturer": "EDCL",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": "11.74",
+        "oldPackPrice": "211.3",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": "12.50",
+        "newPackPrice": "225.00"
+      }
+    },
+    {
+      "packId": "a649623f-1ce2-4786-8686-f7501724e6aa",
+      "brandId": "a0e60788-ff81-4c99-b7a7-e7c2e73caecf",
+      "sourceId": "7132",
+      "brandName": "Sefalor",
+      "genericName": "Cefaclor Monohydrate",
+      "strength": "500 mg",
+      "dosageForm": "Capsule",
+      "manufacturer": "Techno Drugs Ltd.",
+      "packQuantity": "12's pack",
+      "packUnits": 12,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Techno Drugs Ltd.' vs Arogga 'EDCL' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/7132/sefalorcapsule500-mg",
+      "aroggaId": 17216,
+      "aroggaName": "Sefalor 500",
+      "aroggaStrength": "500mg",
+      "aroggaGeneric": "Cefaclor",
+      "aroggaManufacturer": "EDCL",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": "37.17",
+        "oldPackPrice": "446.07",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": "38.00",
+        "newPackPrice": "456.00"
+      }
+    },
+    {
+      "packId": "a0c41d23-638d-4962-8b00-64d315251520",
+      "brandId": "a1fe43d1-119e-47a0-858a-a045a22527a8",
+      "sourceId": "30165",
+      "brandName": "GastroLax",
+      "genericName": "Ispaghula Husk + Ispaghula Seed + Tinnevelly Senna Pods",
+      "strength": "",
+      "dosageForm": "Effervescent Granules",
+      "manufacturer": "Incepta Pharmaceuticals Ltd.",
+      "packQuantity": "20's pack",
+      "packUnits": 20,
+      "updateCategory": "CONTAINER_PRICE",
+      "exclusionCodes": [
+        "NEW_CAT_G_PARTIAL_PRICE_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "GastroLax 20's pack: CONTAINER_PRICE updated packPrice 400->500 while leaving stale unitPrice 20.0 (20.0% mismatch vs 25/sachet)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/30165/gastrolaxeffervescent-granules",
+      "aroggaId": 78911,
+      "aroggaName": "GastroLax",
+      "aroggaStrength": "0.11gm+2.6gm+0.62gm",
+      "aroggaGeneric": "Ispaghula Husk+Ispaghula Seed+Tinnevelly Senna Pods",
+      "aroggaManufacturer": "Incepta Pharmaceuticals Ltd.",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": "20",
+        "oldPackPrice": "400",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": "20.00",
+        "newPackPrice": "500.00"
+      }
+    },
+    {
+      "packId": "50193704-f69d-4e3a-81de-a351e80d3dc6",
+      "brandId": "a394ca9e-f722-471a-b92e-44833c0b2f0a",
+      "sourceId": "33388",
+      "brandName": "Folicare",
+      "genericName": "Folic Acid",
+      "strength": "2.5 mg/5 ml",
+      "dosageForm": "Oral Solution",
+      "manufacturer": "Concord Pharmaceuticals Ltd.",
+      "packQuantity": "100 ml bottle",
+      "packUnits": null,
+      "updateCategory": "CONTAINER_PRICE",
+      "exclusionCodes": [
+        "UNRESOLVED_GENERIC_CONFLICT"
+      ],
+      "exclusionReasons": [
+        "DB Folic Acid vs Arogga Folinic Acid / Calcium folinate (different molecule)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/33388/folicare-25-mg-oral-solution",
+      "aroggaId": 71868,
+      "aroggaName": "Folicare",
+      "aroggaStrength": "2.5mg/5ml",
+      "aroggaGeneric": "Folinic Acid (Calcium folinate)",
+      "aroggaManufacturer": "Concord Pharmaceuticals Ltd.",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": null,
+        "oldPackPrice": "100",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": null,
+        "newPackPrice": "50.00"
+      }
+    },
+    {
+      "packId": "5d4e8ecd-b261-4cd6-83a2-c6be41386c2e",
+      "brandId": "ab93c7ae-32a0-4653-aa0c-316253f095da",
+      "sourceId": "12190",
+      "brandName": "Analor",
+      "genericName": "Loratadine",
+      "strength": "10 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Techno Drugs Ltd.",
+      "packQuantity": "50's pack",
+      "packUnits": 50,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Techno Drugs Ltd.' vs Arogga 'EDCL' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/12190/analor-10-mg-tablet",
+      "aroggaId": 26660,
+      "aroggaName": "Analor",
+      "aroggaStrength": "10mg",
+      "aroggaGeneric": "Loratadine",
+      "aroggaManufacturer": "EDCL",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": "2.99",
+        "oldPackPrice": "149.3",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": "1.50",
+        "newPackPrice": "75.00"
+      }
+    },
+    {
+      "packId": "3b9531d2-4ee9-48b8-9614-dae5a8d4f475",
+      "brandId": "ab9f4145-3ede-446a-8de4-d37f30faa0d9",
+      "sourceId": "11559",
+      "brandName": "Naproxen Plus",
+      "genericName": "Naproxen Sodium + Esomeprazole Magnesium",
+      "strength": "375 mg+20 mg",
+      "dosageForm": "Tablet (Delayed Release)",
+      "manufacturer": "Zenith Pharmaceuticals Ltd.",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Zenith Pharmaceuticals Ltd.' vs Arogga 'Albion Laboratories Ltd.' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/11559/naproxen-plus-375-mg-tablet",
+      "aroggaId": 12542,
+      "aroggaName": "Naproxen Plus 375",
+      "aroggaStrength": "20mg+375mg",
+      "aroggaGeneric": "Esomeprazole + Naproxen",
+      "aroggaManufacturer": "Albion Laboratories Ltd.",
+      "rollbackTargetValues": {
+        "oldStripUnits": 10,
+        "oldUnitPrice": "8",
+        "oldPackPrice": "240",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": 10,
+        "newUnitPrice": "10.00",
+        "newPackPrice": "300.00"
+      }
+    },
+    {
+      "packId": "22abe074-0006-4c09-be6b-096e664b97e9",
+      "brandId": "bb3b89a6-01f3-4876-b94b-bd396bfd62de",
+      "sourceId": "37737",
+      "brandName": "Neobac",
+      "genericName": "Neomycin Sulfate + Bacitracin Zinc",
+      "strength": "(5 mg+500 IU)/gm",
+      "dosageForm": "Ointment",
+      "manufacturer": "Pharmik Laboratories Ltd.",
+      "packQuantity": "10 gm tube",
+      "packUnits": null,
+      "updateCategory": "CONTAINER_PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Pharmik Laboratories Ltd.' vs Arogga 'Rephco Pharmaceuticals Ltd.' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/37737/neobac-5-mg-ointment",
+      "aroggaId": 24523,
+      "aroggaName": "Neobac",
+      "aroggaStrength": "500IU+5mg/gm",
+      "aroggaGeneric": "Bacitracin Zinc + Neomycin Sulphate Topical",
+      "aroggaManufacturer": "Rephco Pharmaceuticals Ltd.",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": null,
+        "oldPackPrice": "25",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": null,
+        "newPackPrice": "23.60"
+      }
+    },
+    {
+      "packId": "900a79f4-62b8-4bd6-9a72-c3a5ba96846a",
+      "brandId": "bbb5df18-a9c7-4bb5-81e1-4ed6507fe0dd",
+      "sourceId": "20104",
+      "brandName": "Etoricoxib",
+      "genericName": "Etoricoxib",
+      "strength": "120 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "packQuantity": "",
+      "packUnits": null,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Bristol Pharmaceuticals Ltd.' vs Arogga 'Albion Laboratories Ltd.' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/20104/etoricoxib-120-mg-tablet",
+      "aroggaId": 7001,
+      "aroggaName": "Etoricoxib 120",
+      "aroggaStrength": "120mg",
+      "aroggaGeneric": "Etoricoxib",
+      "aroggaManufacturer": "Albion Laboratories Ltd.",
+      "rollbackTargetValues": {
+        "oldStripUnits": 10,
+        "oldUnitPrice": "13",
+        "oldPackPrice": null,
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": 10,
+        "newUnitPrice": "14.00",
+        "newPackPrice": null
+      }
+    },
+    {
+      "packId": "566b57b1-6334-4031-a792-a376b437fbe5",
+      "brandId": "c2337ef1-c756-46c1-895a-aec4c51001e0",
+      "sourceId": "14802",
+      "brandName": "Neosaline",
+      "genericName": "Oral rehydration salt [glucose based]",
+      "strength": "10.25 gm",
+      "dosageForm": "Oral Powder",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "packQuantity": "20's pack",
+      "packUnits": 20,
+      "updateCategory": "CONTAINER_PRICE",
+      "exclusionCodes": [
+        "NEW_CAT_G_PARTIAL_PRICE_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "Neosaline 10.25 gm 20's pack: CONTAINER_PRICE updated packPrice 100->120 while leaving stale unitPrice 5.0 (16.67% mismatch vs 6/sachet)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/14802/neosaline-1025-gm-powder",
+      "aroggaId": 12759,
+      "aroggaName": "Neosaline",
+      "aroggaStrength": "10.25gm",
+      "aroggaGeneric": "Glucose (Dextrose) Anhydrous + Potassium Chloride + Tri-sodium citrate + Sodium chloride (ORS)",
+      "aroggaManufacturer": "Eskayef",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": "5",
+        "oldPackPrice": "100",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": "5.00",
+        "newPackPrice": "120.00"
+      }
+    },
+    {
+      "packId": "8cb3e37d-4d69-4684-91eb-1762f551b8df",
+      "brandId": "c2337ef1-c756-46c1-895a-aec4c51001e0",
+      "sourceId": "14802",
+      "brandName": "Neosaline",
+      "genericName": "Oral rehydration salt [glucose based]",
+      "strength": "10.25 gm",
+      "dosageForm": "Oral Powder",
+      "manufacturer": "Eskayef Pharmaceuticals Ltd.",
+      "packQuantity": "50's pack",
+      "packUnits": 50,
+      "updateCategory": "CONTAINER_PRICE",
+      "exclusionCodes": [
+        "NEW_CAT_G_PARTIAL_PRICE_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "Neosaline 10.25 gm 50's pack: CONTAINER_PRICE updated packPrice 250->300 while leaving stale unitPrice 5.0 (16.67% mismatch vs 6/sachet)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/14802/neosaline-1025-gm-powder",
+      "aroggaId": 12759,
+      "aroggaName": "Neosaline",
+      "aroggaStrength": "10.25gm",
+      "aroggaGeneric": "Glucose (Dextrose) Anhydrous + Potassium Chloride + Tri-sodium citrate + Sodium chloride (ORS)",
+      "aroggaManufacturer": "Eskayef",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": "5",
+        "oldPackPrice": "250",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": "5.00",
+        "newPackPrice": "300.00"
+      }
+    },
+    {
+      "packId": "e7ef98ce-7110-415a-8e4b-2e314059a3df",
+      "brandId": "c8c616c1-11b1-4763-a49a-8ef72bf7b2e7",
+      "sourceId": "6776",
+      "brandName": "Abac",
+      "genericName": "Cephradine",
+      "strength": "500 mg",
+      "dosageForm": "Capsule",
+      "manufacturer": "Chemist Laboratories Ltd.",
+      "packQuantity": "10 x 4",
+      "packUnits": 40,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNRESOLVED_GENERIC_CONFLICT"
+      ],
+      "exclusionReasons": [
+        "DB Cephradine vs Arogga Cephalexin (different cephalosporin molecule)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/6776/abac-500-mg-capsule",
+      "aroggaId": 23372,
+      "aroggaName": "Abac",
+      "aroggaStrength": "500mg",
+      "aroggaGeneric": "Cephalexin",
+      "aroggaManufacturer": "Chemist Laboratories Ltd.",
+      "rollbackTargetValues": {
+        "oldStripUnits": 4,
+        "oldUnitPrice": "15",
+        "oldPackPrice": "600",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": 4,
+        "newUnitPrice": "12.64",
+        "newPackPrice": "505.60"
+      }
+    },
+    {
+      "packId": "1d34798a-63ba-4510-9807-49464ef565b8",
+      "brandId": "cc401cbc-3053-441a-9d6c-ed6f424eb3a7",
+      "sourceId": "7133",
+      "brandName": "Sefalor",
+      "genericName": "Cefaclor Monohydrate",
+      "strength": "125 mg/5 ml",
+      "dosageForm": "Powder for Suspension",
+      "manufacturer": "Techno Drugs Ltd.",
+      "packQuantity": "100 ml bottle",
+      "packUnits": null,
+      "updateCategory": "CONTAINER_PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Techno Drugs Ltd.' vs Arogga 'EDCL' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/7133/sefalorpowder-for-suspension125-mg5-ml",
+      "aroggaId": 17215,
+      "aroggaName": "Sefalor",
+      "aroggaStrength": "125mg/5ml",
+      "aroggaGeneric": "Cefaclor",
+      "aroggaManufacturer": "EDCL",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": null,
+        "oldPackPrice": "185.86",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": null,
+        "newPackPrice": "190.00"
+      }
+    },
+    {
+      "packId": "c461649c-a84f-4f4c-a5f2-ced40687d51e",
+      "brandId": "d5ea7b19-ee6b-4065-9121-752448045234",
+      "sourceId": "35699",
+      "brandName": "Desloratadine",
+      "genericName": "Desloratadine",
+      "strength": "5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Pristine Pharmaceuticals Ltd",
+      "packQuantity": "100's pack",
+      "packUnits": 100,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Pristine Pharmaceuticals Ltd' vs Arogga 'Albion Laboratories Ltd.' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/35699/desloratadine-5-mg-tablet",
+      "aroggaId": 5266,
+      "aroggaName": "Desloratadine 5",
+      "aroggaStrength": "5mg",
+      "aroggaGeneric": "Desloratadine",
+      "aroggaManufacturer": "Albion Laboratories Ltd.",
+      "rollbackTargetValues": {
+        "oldStripUnits": 10,
+        "oldUnitPrice": "2.5",
+        "oldPackPrice": "245",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": 10,
+        "newUnitPrice": "2.50",
+        "newPackPrice": "250.00"
+      }
+    },
+    {
+      "packId": "bd810197-2571-46de-9010-aa759cd032a6",
+      "brandId": "d68d4145-8fc1-4749-8224-a6000a0fc4a7",
+      "sourceId": "16630",
+      "brandName": "Starlix",
+      "genericName": "Nateglinide",
+      "strength": "120 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Novartis (Bangladesh) Ltd.",
+      "packQuantity": "84's pack",
+      "packUnits": 84,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Novartis (Bangladesh) Ltd.' vs Arogga 'Rainbow Traders' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/16630/starlixtablet120-mg",
+      "aroggaId": 17968,
+      "aroggaName": "Starlix",
+      "aroggaStrength": "120mg",
+      "aroggaGeneric": "Nateglinide",
+      "aroggaManufacturer": "Rainbow Traders",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": null,
+        "oldPackPrice": "2",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": "28.00",
+        "newPackPrice": "2352.00"
+      }
+    },
+    {
+      "packId": "6550c327-2019-4467-8364-837afeb7d174",
+      "brandId": "e09ea04e-ef64-4729-a935-20dc24b9cbfb",
+      "sourceId": "3452",
+      "brandName": "Brodil",
+      "genericName": "Salbutamol",
+      "strength": "2 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "ACI Limited",
+      "packQuantity": "500's pack",
+      "packUnits": 500,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "NEW_CAT_G_PARTIAL_PRICE_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "Brodil 2 mg 500's pack: packPrice updated 130->150 while unitPrice stayed 0.26 (<0.05 threshold), introducing 13.33% mismatch"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/3452/brodil-2-mg-tablet",
+      "aroggaId": 2803,
+      "aroggaName": "Brodil 2",
+      "aroggaStrength": "2mg",
+      "aroggaGeneric": "Salbutamol",
+      "aroggaManufacturer": "ACI Limited",
+      "rollbackTargetValues": {
+        "oldStripUnits": 20,
+        "oldUnitPrice": "0.26",
+        "oldPackPrice": "130",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": 20,
+        "newUnitPrice": "0.26",
+        "newPackPrice": "150.00"
+      }
+    },
+    {
+      "packId": "0cc2ceab-e4e3-4689-88b0-51396386d131",
+      "brandId": "e1dce0be-5321-4ef4-aeea-1549b926f125",
+      "sourceId": "28136",
+      "brandName": "Histosin",
+      "genericName": "Chlorpheniramine Maleate",
+      "strength": "2 mg/5 ml",
+      "dosageForm": "Syrup",
+      "manufacturer": "Aexim Pharmaceuticals Ltd.",
+      "packQuantity": "100 ml bottle",
+      "packUnits": null,
+      "updateCategory": "CONTAINER_PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Aexim Pharmaceuticals Ltd.' vs Arogga 'Gaco Pharmaceuticals(G.A Company Ltd)' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/28136/histosin-2-mg-syrup",
+      "aroggaId": 9154,
+      "aroggaName": "Histosin",
+      "aroggaStrength": "2mg/5ml",
+      "aroggaGeneric": "Chlorpheniramine Maleate",
+      "aroggaManufacturer": "Gaco Pharmaceuticals(G.A Company Ltd)",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": null,
+        "oldPackPrice": "12",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": null,
+        "newPackPrice": "15.00"
+      }
+    },
+    {
+      "packId": "170f817e-e51a-479e-a00f-cf82075fa2dc",
+      "brandId": "e2657dae-7b5c-4742-b68b-0670ffbf6583",
+      "sourceId": "20102",
+      "brandName": "Etoricoxib",
+      "genericName": "Etoricoxib",
+      "strength": "60 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Bristol Pharmaceuticals Ltd.",
+      "packQuantity": "",
+      "packUnits": null,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Bristol Pharmaceuticals Ltd.' vs Arogga 'Albion Laboratories Ltd.' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/20102/etoricoxib-60-mg-tablet",
+      "aroggaId": 7002,
+      "aroggaName": "Etoricoxib 60",
+      "aroggaStrength": "60mg",
+      "aroggaGeneric": "Etoricoxib",
+      "aroggaManufacturer": "Albion Laboratories Ltd.",
+      "rollbackTargetValues": {
+        "oldStripUnits": 10,
+        "oldUnitPrice": "6",
+        "oldPackPrice": null,
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": 10,
+        "newUnitPrice": "7.00",
+        "newPackPrice": null
+      }
+    },
+    {
+      "packId": "038d4726-6009-447d-96a1-d0b6337662d8",
+      "brandId": "ecf3d181-7c80-45af-a281-1ded211a92de",
+      "sourceId": "37845",
+      "brandName": "Mepred",
+      "genericName": "Methylprednisolone",
+      "strength": "8 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Ziska Pharmaceuticals Ltd.",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Ziska Pharmaceuticals Ltd.' vs Arogga 'Albion Laboratories Ltd.' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/37845/mepred-8-mg-tablet",
+      "aroggaId": 76405,
+      "aroggaName": "Mepred 8",
+      "aroggaStrength": "8mg",
+      "aroggaGeneric": "Methylprednisolone",
+      "aroggaManufacturer": "Albion Laboratories Ltd.",
+      "rollbackTargetValues": {
+        "oldStripUnits": 10,
+        "oldUnitPrice": "10",
+        "oldPackPrice": "300",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": 10,
+        "newUnitPrice": "10.50",
+        "newPackPrice": "315.00"
+      }
+    },
+    {
+      "packId": "76c4182d-68ca-41ae-9f83-f3cddd7004e6",
+      "brandId": "f53bd301-5656-4af6-8623-61bb8bd23bb4",
+      "sourceId": "37394",
+      "brandName": "Ketotifen",
+      "genericName": "Ketotifen Fumarate (Oral)",
+      "strength": "1 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Pristine Pharmaceuticals Ltd",
+      "packQuantity": "100's pack",
+      "packUnits": 100,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Pristine Pharmaceuticals Ltd' vs Arogga 'Amico Laboratories Ltd.' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/37394/ketotifen-1-mg-tablet",
+      "aroggaId": 9963,
+      "aroggaName": "Ketotifen",
+      "aroggaStrength": "1mg",
+      "aroggaGeneric": "Ketotifen",
+      "aroggaManufacturer": "Amico Laboratories Ltd.",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": "2",
+        "oldPackPrice": "200",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": "2.50",
+        "newPackPrice": "250.00"
+      }
+    },
+    {
+      "packId": "98956e7d-1025-4ff5-9920-e12daa2d6a8a",
+      "brandId": "f6b77b11-277e-4911-81db-cbdaf3cc9f49",
+      "sourceId": "7299",
+      "brandName": "Orextil",
+      "genericName": "Cefuroxime Axetil",
+      "strength": "250 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Monicopharma Ltd.",
+      "packQuantity": "12's pack",
+      "packUnits": 12,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "WRONG_STRENGTH_CATALOG_MATCH"
+      ],
+      "exclusionReasons": [
+        "DB Orextil 250 mg falsely matched Arogga id=13977 'Orextil 500' (Arogga p_strength typo 250mg; swapped with id=13976)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/7299/orextil-250-mg-tablet",
+      "aroggaId": 13977,
+      "aroggaName": "Orextil 500",
+      "aroggaStrength": "250mg",
+      "aroggaGeneric": "Cefuroxime",
+      "aroggaManufacturer": "Monicopharma Limited",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": "25",
+        "oldPackPrice": "300",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": "45.00",
+        "newPackPrice": "540.00"
+      }
+    },
+    {
+      "packId": "5baee9dc-2f4d-4434-80fe-1ccf346a789e",
+      "brandId": "fe00768c-884d-4479-9654-a3375bdab2c7",
+      "sourceId": "30320",
+      "brandName": "Fluconazole",
+      "genericName": "Fluconazole",
+      "strength": "50 mg",
+      "dosageForm": "Capsule",
+      "manufacturer": "Biogen Pharmaceuticals Ltd.",
+      "packQuantity": "30's pack",
+      "packUnits": 30,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Biogen Pharmaceuticals Ltd.' vs Arogga 'Albion Laboratories Ltd.' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/30320/fluconazole-50-mg-capsule",
+      "aroggaId": 7929,
+      "aroggaName": "Fluconazole 50",
+      "aroggaStrength": "50mg",
+      "aroggaGeneric": "Fluconazole",
+      "aroggaManufacturer": "Albion Laboratories Ltd.",
+      "rollbackTargetValues": {
+        "oldStripUnits": 10,
+        "oldUnitPrice": "7",
+        "oldPackPrice": "210",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": 10,
+        "newUnitPrice": "8.00",
+        "newPackPrice": "240.00"
+      }
+    },
+    {
+      "packId": "c988f540-6aa2-4a42-b74b-b3e6e038ae14",
+      "brandId": "feef24c6-d9bf-40e3-a141-d246e10c5cb8",
+      "sourceId": "37640",
+      "brandName": "Clonazepam",
+      "genericName": "Clonazepam",
+      "strength": "0.5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Pharmik Laboratories Ltd.",
+      "packQuantity": "50's pack",
+      "packUnits": 50,
+      "updateCategory": "PRICE",
+      "exclusionCodes": [
+        "UNVERIFIED_MANUFACTURER_MISMATCH"
+      ],
+      "exclusionReasons": [
+        "DB manufacturer 'Pharmik Laboratories Ltd.' vs Arogga 'Albion Laboratories Ltd.' (unconfirmed competing or unrelated entity)"
+      ],
+      "medexUrl": "https://medex.com.bd/brands/37640/clonazepam-05-mg-tablet",
+      "aroggaId": 4358,
+      "aroggaName": "Clonazepam",
+      "aroggaStrength": "0.5mg",
+      "aroggaGeneric": "Clonazepam",
+      "aroggaManufacturer": "Albion Laboratories Ltd.",
+      "rollbackTargetValues": {
+        "oldStripUnits": null,
+        "oldUnitPrice": "6",
+        "oldPackPrice": "300",
+        "oldWarnings": []
+      },
+      "rejectedStagedValues": {
+        "newStripUnits": null,
+        "newUnitPrice": "4.00",
+        "newPackPrice": "200.00"
+      }
+    }
+  ]
+}

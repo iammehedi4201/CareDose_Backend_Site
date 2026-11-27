@@ -1,0 +1,66 @@
+{
+  "generatedAt": "2026-11-24T18:46:57.094Z",
+  "mode": "POST_AROGGA_LIVE_SYNC_AUDIT",
+  "catalogueCounts": {
+    "totalGenerics": 1846,
+    "totalBrandsAudited": 25208,
+    "totalPacksAudited": 27468,
+    "packsWithNonNullStripUnits": 7464,
+    "prevPacksWithNonNullStripUnits": 7175,
+    "stripUnitsNetChange": 289
+  },
+  "verifiedSnapshotCheck": {
+    "totalUpdatesInSnapshot": 4807,
+    "verifiedAppliedInPostgresCount": 4807,
+    "mismatchesCount": 0
+  },
+  "postSyncComparisonVsPostHigh40Cleanup": {
+    "A_validConversionPrimaryBrands": {
+      "before": 24792,
+      "after": 24794
+    },
+    "A_validConversionTotalPacks": {
+      "before": 26945,
+      "after": 26952
+    },
+    "E_inconsistentMultiPackNestingBrands": {
+      "before": 57,
+      "after": 61
+    },
+    "F_inconsistentAcrossEquivalentBrandsGroups": {
+      "before": 349,
+      "after": 356
+    },
+    "G_invalidOrConflictingPackRecords": {
+      "before": 1424,
+      "after": 1074
+    },
+    "G_subPriceMismatches": 706,
+    "nonDivisibleStripRecordsRemaining": {
+      "before": 369,
+      "after": 368
+    },
+    "J_packsWithPriceOrParseWarnings": {
+      "before": 1101,
+      "after": 726
+    }
+  },
+  "reelifeLiveState": [
+    {
+      "packId": "9c21f478-0155-4f8e-91c6-8eca15aae495",
+      "packQuantity": "40's pack",
+      "packUnits": 40,
+      "stripUnits": null,
+      "unitPrice": "10",
+      "packPrice": "400"
+    },
+    {
+      "packId": "5879011c-3a81-4c4b-a811-2e8c1663bc16",
+      "packQuantity": "56's pack",
+      "packUnits": 56,
+      "stripUnits": 14,
+      "unitPrice": "10",
+      "packPrice": "560"
+    }
+  ]
+}

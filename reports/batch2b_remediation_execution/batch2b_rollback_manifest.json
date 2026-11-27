@@ -1,0 +1,314 @@
+{
+  "generatedAt": "2026-11-25T10:48:35.709Z",
+  "backupPath": "F:\\My Projects\\CareDose\\care_dose_pre_batch2b_backup.dump",
+  "includeRocheA2": false,
+  "priceUpdates": [
+    {
+      "packId": "1d05c010-8033-4f39-a85b-c1fbcda41328",
+      "restoreUnitPrice": null,
+      "restorePackPrice": "80",
+      "applied": {
+        "packPrice": "58005.00"
+      }
+    },
+    {
+      "packId": "235c06ac-1b2c-49aa-98b1-9bd53b27b36b",
+      "restoreUnitPrice": null,
+      "restorePackPrice": "2",
+      "applied": {
+        "packPrice": "3028.00"
+      }
+    },
+    {
+      "packId": "3f8c8c05-5006-4b78-9fdb-d93df9ca99ef",
+      "restoreUnitPrice": null,
+      "restorePackPrice": "5",
+      "applied": {
+        "packPrice": "5950.00"
+      }
+    },
+    {
+      "packId": "57f1158b-1641-4ada-8882-0307fbfdfb7e",
+      "restoreUnitPrice": null,
+      "restorePackPrice": "2",
+      "applied": {
+        "packPrice": "2500.00"
+      }
+    },
+    {
+      "packId": "5d0ea507-c469-40a4-ba6d-9c2b231421ba",
+      "restoreUnitPrice": null,
+      "restorePackPrice": "6",
+      "applied": {
+        "packPrice": "9285.00"
+      }
+    },
+    {
+      "packId": "75285c7a-6a23-4499-995e-3e443108da58",
+      "restoreUnitPrice": null,
+      "restorePackPrice": "64",
+      "applied": {
+        "packPrice": "92850.00"
+      }
+    },
+    {
+      "packId": "79d09fdd-067f-4bbf-9597-0a92625574f1",
+      "restoreUnitPrice": null,
+      "restorePackPrice": "2",
+      "applied": {
+        "packPrice": "2410.00"
+      }
+    },
+    {
+      "packId": "7a3c76f4-da30-4919-9a14-79122dc972b4",
+      "restoreUnitPrice": null,
+      "restorePackPrice": "8",
+      "applied": {
+        "packPrice": "8500.00"
+      }
+    },
+    {
+      "packId": "882b6259-a0a4-44a5-ad62-664b6bc6034e",
+      "restoreUnitPrice": null,
+      "restorePackPrice": "7",
+      "applied": {
+        "packPrice": "1810.00"
+      }
+    },
+    {
+      "packId": "8fb9f807-eae5-4515-afe0-7b2373d2b130",
+      "restoreUnitPrice": null,
+      "restorePackPrice": "7",
+      "applied": {
+        "packPrice": "7800.00"
+      }
+    },
+    {
+      "packId": "a8d1816e-e81c-45fa-9634-2f603c5757d4",
+      "restoreUnitPrice": null,
+      "restorePackPrice": "103",
+      "applied": {
+        "packPrice": "143195.00"
+      }
+    },
+    {
+      "packId": "ac2fd04a-f109-486f-9bc2-cb314a05d226",
+      "restoreUnitPrice": "3",
+      "restorePackPrice": null,
+      "applied": {
+        "unitPrice": "475.00"
+      }
+    },
+    {
+      "packId": "ac84743b-ac1c-4821-a276-7d1d62c75b72",
+      "restoreUnitPrice": null,
+      "restorePackPrice": "2",
+      "applied": {
+        "packPrice": "2636.00"
+      }
+    },
+    {
+      "packId": "c4d0923b-d557-4108-a69c-772c84dfd4bf",
+      "restoreUnitPrice": null,
+      "restorePackPrice": "7",
+      "applied": {
+        "packPrice": "7000.00"
+      }
+    },
+    {
+      "packId": "d1499929-fedf-4f25-bc31-0f300c5c8236",
+      "restoreUnitPrice": null,
+      "restorePackPrice": "5",
+      "applied": {
+        "packPrice": "6000.00"
+      }
+    },
+    {
+      "packId": "fa72a730-3016-406a-8ee2-50e2df6ad9a7",
+      "restoreUnitPrice": null,
+      "restorePackPrice": "30",
+      "applied": {
+        "packPrice": "10182.92"
+      }
+    }
+  ],
+  "warningCleanups": [
+    {
+      "packId": "fb327448-4c41-48c1-ad9e-7107bdc70ac4",
+      "restoreWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "appliedWarnings": []
+    },
+    {
+      "packId": "f8eea2b6-fd7a-4f7e-a824-6c8863517fd6",
+      "restoreWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "appliedWarnings": []
+    },
+    {
+      "packId": "bf305547-224d-43e0-afa3-0756f3b23b74",
+      "restoreWarnings": [
+        "pack_price_inconsistent_with_unit_price"
+      ],
+      "appliedWarnings": []
+    }
+  ],
+  "stripCleanups": [
+    {
+      "packId": "0493326d-ce7d-4dbe-8791-25733fd79657",
+      "restoreStripUnits": 7,
+      "appliedStripUnits": 6
+    },
+    {
+      "packId": "46e2b822-87fb-4bdc-88c5-df93de4a11bd",
+      "restoreStripUnits": 1,
+      "appliedStripUnits": null
+    },
+    {
+      "packId": "496da6df-df74-461f-afca-949fba59393e",
+      "restoreStripUnits": 1,
+      "appliedStripUnits": null
+    },
+    {
+      "packId": "8af3d2d8-dfa5-4ccb-894d-a4d061a74d85",
+      "restoreStripUnits": 1,
+      "appliedStripUnits": null
+    },
+    {
+      "packId": "991def77-b06d-443b-9628-538030ae8d01",
+      "restoreStripUnits": 1,
+      "appliedStripUnits": null
+    },
+    {
+      "packId": "d2c195bf-7144-43d4-8dbf-9c37989c77df",
+      "restoreStripUnits": 1,
+      "appliedStripUnits": null
+    },
+    {
+      "packId": "d7b6f44a-4688-4aca-8d3a-0c46641de22f",
+      "restoreStripUnits": 1,
+      "appliedStripUnits": null
+    },
+    {
+      "packId": "e847ab4a-22c4-4a83-a179-f1c56abe43a1",
+      "restoreStripUnits": 1,
+      "appliedStripUnits": null
+    },
+    {
+      "packId": "d0ce48a4-9c0a-485e-94b3-6fbfeb419fcb",
+      "restoreStripUnits": 200,
+      "appliedStripUnits": null
+    }
+  ],
+  "zeroPackInsertsToDeleteOnRollback": [
+    {
+      "brandId": "6d37b544-d880-4a77-9741-0512b488eb09",
+      "brandName": "Sanityza Clear 0.5%+70%"
+    },
+    {
+      "brandId": "75f5e741-a439-487e-b4cc-0cf8416eadf2",
+      "brandName": "Turmeric 1000 mg"
+    },
+    {
+      "brandId": "9f02bd88-2f65-4ff0-aaf6-7a48ef3a9a3c",
+      "brandName": "Urican 400 mg"
+    },
+    {
+      "brandId": "f476f611-d8e2-4fb9-aa34-ebdc0633c3e9",
+      "brandName": "Veneta 50 mg"
+    },
+    {
+      "brandId": "df58acdc-48f3-4e2f-bd08-4e577542b1fd",
+      "brandName": "Veneta 100 mg"
+    },
+    {
+      "brandId": "818fbf6a-9033-4df5-adce-37d837647b48",
+      "brandName": "Viera 50 mg"
+    },
+    {
+      "brandId": "de4a18a0-374b-49a8-a3fd-ae6b2bd0a4ce",
+      "brandName": "Viera 200 mg"
+    }
+  ],
+  "insertedPackIds": [
+    {
+      "packId": "ee634826-4230-4cb1-8ba9-442a75a164a8",
+      "brandId": "6d37b544-d880-4a77-9741-0512b488eb09",
+      "brandName": "Sanityza Clear",
+      "strength": "0.5%+70%",
+      "packQuantity": "250 ml bottle (with dispenser)",
+      "packUnits": null,
+      "stripUnits": null,
+      "unitPrice": null,
+      "packPrice": "150.00"
+    },
+    {
+      "packId": "eb7795f4-474d-4f6b-bd23-2fe5b09095c5",
+      "brandId": "75f5e741-a439-487e-b4cc-0cf8416eadf2",
+      "brandName": "Turmeric",
+      "strength": "1000 mg",
+      "packQuantity": "3 x 10",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPrice": "20.00",
+      "packPrice": "600.00"
+    },
+    {
+      "packId": "b4cf8048-3c8b-401b-bba4-55158b952560",
+      "brandId": "9f02bd88-2f65-4ff0-aaf6-7a48ef3a9a3c",
+      "brandName": "Urican",
+      "strength": "400 mg",
+      "packQuantity": "8 x 4",
+      "packUnits": 32,
+      "stripUnits": 4,
+      "unitPrice": "18.00",
+      "packPrice": "576.00"
+    },
+    {
+      "packId": "e85d3e0f-820b-4a9b-a7fc-12d6e9b609a3",
+      "brandId": "f476f611-d8e2-4fb9-aa34-ebdc0633c3e9",
+      "brandName": "Veneta",
+      "strength": "50 mg",
+      "packQuantity": "3 x 10",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPrice": "210.00",
+      "packPrice": "6300.00"
+    },
+    {
+      "packId": "5f8a943c-9607-46bf-b427-ed0a10cac829",
+      "brandId": "df58acdc-48f3-4e2f-bd08-4e577542b1fd",
+      "brandName": "Veneta",
+      "strength": "100 mg",
+      "packQuantity": "3 x 10",
+      "packUnits": 30,
+      "stripUnits": 10,
+      "unitPrice": "410.00",
+      "packPrice": "12300.00"
+    },
+    {
+      "packId": "f95be307-aee1-45c2-9bc8-025b8627629d",
+      "brandId": "818fbf6a-9033-4df5-adce-37d837647b48",
+      "brandName": "Viera",
+      "strength": "50 mg",
+      "packQuantity": "1 x 10",
+      "packUnits": 10,
+      "stripUnits": 10,
+      "unitPrice": "50.00",
+      "packPrice": "500.00"
+    },
+    {
+      "packId": "28ecd9bc-120b-4969-93f1-52683b667326",
+      "brandId": "de4a18a0-374b-49a8-a3fd-ae6b2bd0a4ce",
+      "brandName": "Viera",
+      "strength": "200 mg",
+      "packQuantity": "1 x 8",
+      "packUnits": 8,
+      "stripUnits": 8,
+      "unitPrice": "130.00",
+      "packPrice": "1040.00"
+    }
+  ]
+}
