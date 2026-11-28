@@ -1,6 +1,6 @@
-# CareDose — Post-Batch-11 Consolidated Catalogue Audit Report
+# CareDose — Consolidated Catalogue Audit Report (Post-Batch-11 + Zero-Pack Status Sync)
 
-Generated: 2026-11-26T05:45:20.171Z | Mode: Strictly Read-Only (`RepeatableRead`)
+Generated: 2026-11-27T18:48:07.090Z | Mode: Strictly Read-Only (`RepeatableRead`)
 
 ## Live Catalogue Inventory & Health
 - **Generics:** `1846`
@@ -78,22 +78,22 @@ Generated: 2026-11-26T05:45:20.171Z | Mode: Strictly Read-Only (`RepeatableRead`
 - **Zinon 20 mg** (`30's pack`, `pu=30`, `u=1.48`, `pp=45`, `err=1.35%`)
 
 ## Documented Excluded Zero-Pack Brands (21)
-- **Baloflu 20 mg** (Navana Pharmaceuticals Ltd., `PRESENT`, `OFFICIALLY_UNPRICED`): MedEx/retail listings show Price Unavailable (unpriced specialty antiviral).
-- **Baloflu 40 mg** (Navana Pharmaceuticals Ltd., `PRESENT`, `OFFICIALLY_UNPRICED`): MedEx lists Price Unavailable.
-- **Cholera Fluid** (Institute of Public Health (IPH), `PRESENT`, `GOVERNMENT_IPH_NOT_FOR_SALE`): Government Institute of Public Health supply (Not for sale / unpriced on MedEx).
-- **Covishield** (Serum Institute of India, `PRESENT`, `GOVERNMENT_INSTITUTIONAL_VACCINE`): Public immunization vaccine (Price Unavailable on MedEx).
-- **Dextran 10%+5%** (Institute of Public Health (IPH), `PRESENT`, `GOVERNMENT_IPH_NOT_FOR_SALE`): Government IPH institutional IV infusion (Not for sale / unpriced).
-- **Dextran 6%+5%** (Institute of Public Health (IPH), `PRESENT`, `GOVERNMENT_IPH_NOT_FOR_SALE`): Government IPH institutional IV infusion (Not for sale / unpriced).
-- **Dextran 40 10%+0.9%** (Institute of Public Health (IPH), `PRESENT`, `GOVERNMENT_IPH_NOT_FOR_SALE`): Government IPH institutional IV infusion (Not for sale / unpriced).
-- **Dextran 70 6%+0.9%** (Institute of Public Health (IPH), `PRESENT`, `GOVERNMENT_IPH_NOT_FOR_SALE`): Government IPH institutional IV infusion (Not for sale / unpriced).
-- **Glucose Saline 0.9%+5%** (Institute of Public Health (IPH), `PRESENT`, `GOVERNMENT_IPH_NOT_FOR_SALE`): Government IPH institutional IV infusion (Not for sale / unpriced).
-- **Hertinib 40 mg** (Drug International Ltd., `PRESENT`, `OFFICIALLY_UNPRICED`): MedEx lists Price Unavailable (specialist oncology).
-- **Ketoseem 10 mg** (Seema Pharmaceuticals Ltd., `PRESENT`, `SEEMA_PHARMA_UNPRICED`): Discontinued/inactive Seema SKU; MedEx lists Price Unavailable.
-- **Nilonib 200 mg** (Drug International Ltd., `PRESENT`, `OFFICIALLY_UNPRICED_ON_MEDEX`): MedEx lists Price Unavailable for Nilonib 200 mg (Arogga #39689 stock=0 lists ৳800 Box=30; kept held pending official MedEx MRP).
-- **Panto SP 40 mg** (Seema Pharmaceuticals Ltd., `PRESENT`, `SEEMA_PHARMA_UNPRICED`): MedEx only prices 20 mg; 40 mg SKU has no published MRP.
-- **Paramol 500 mg** (Seema Pharmaceuticals Ltd., `PRESENT`, `SEEMA_PHARMA_UNPRICED`): MedEx only prices Oral Suspension; 500 mg tablet is Price Unavailable.
-- **Prostalex 250 mg** (Beacon Pharmaceuticals Ltd., `PRESENT`, `OFFICIALLY_UNPRICED`): MedEx lists Price Unavailable (Arogga #15574 dummy pv_mrp=1).
-- **Riboseem 5 mg** (Seema Pharmaceuticals Ltd., `PRESENT`, `SEEMA_PHARMA_UNPRICED`): MedEx lists Price Unavailable.
+- **Baloflu 20 mg** (Navana Pharmaceuticals Ltd., `UNAVAILABLE`, `OFFICIALLY_UNPRICED`): MedEx/retail listings show Price Unavailable (unpriced specialty antiviral).
+- **Baloflu 40 mg** (Navana Pharmaceuticals Ltd., `UNAVAILABLE`, `OFFICIALLY_UNPRICED`): MedEx lists Price Unavailable.
+- **Cholera Fluid** (Institute of Public Health (IPH), `UNAVAILABLE`, `GOVERNMENT_IPH_NOT_FOR_SALE`): Government Institute of Public Health supply (Not for sale / unpriced on MedEx).
+- **Covishield** (Serum Institute of India, `UNAVAILABLE`, `GOVERNMENT_INSTITUTIONAL_VACCINE`): Public immunization vaccine (Price Unavailable on MedEx).
+- **Dextran 10%+5%** (Institute of Public Health (IPH), `UNAVAILABLE`, `GOVERNMENT_IPH_NOT_FOR_SALE`): Government IPH institutional IV infusion (Not for sale / unpriced).
+- **Dextran 6%+5%** (Institute of Public Health (IPH), `UNAVAILABLE`, `GOVERNMENT_IPH_NOT_FOR_SALE`): Government IPH institutional IV infusion (Not for sale / unpriced).
+- **Dextran 40 10%+0.9%** (Institute of Public Health (IPH), `UNAVAILABLE`, `GOVERNMENT_IPH_NOT_FOR_SALE`): Government IPH institutional IV infusion (Not for sale / unpriced).
+- **Dextran 70 6%+0.9%** (Institute of Public Health (IPH), `UNAVAILABLE`, `GOVERNMENT_IPH_NOT_FOR_SALE`): Government IPH institutional IV infusion (Not for sale / unpriced).
+- **Glucose Saline 0.9%+5%** (Institute of Public Health (IPH), `UNAVAILABLE`, `GOVERNMENT_IPH_NOT_FOR_SALE`): Government IPH institutional IV infusion (Not for sale / unpriced).
+- **Hertinib 40 mg** (Drug International Ltd., `UNAVAILABLE`, `OFFICIALLY_UNPRICED`): MedEx lists Price Unavailable (specialist oncology).
+- **Ketoseem 10 mg** (Seema Pharmaceuticals Ltd., `UNAVAILABLE`, `SEEMA_PHARMA_UNPRICED`): Discontinued/inactive Seema SKU; MedEx lists Price Unavailable.
+- **Nilonib 200 mg** (Drug International Ltd., `UNAVAILABLE`, `OFFICIALLY_UNPRICED_ON_MEDEX`): MedEx lists Price Unavailable for Nilonib 200 mg (Arogga #39689 stock=0 lists ৳800 Box=30; kept held pending official MedEx MRP).
+- **Panto SP 40 mg** (Seema Pharmaceuticals Ltd., `UNAVAILABLE`, `SEEMA_PHARMA_UNPRICED`): MedEx only prices 20 mg; 40 mg SKU has no published MRP.
+- **Paramol 500 mg** (Seema Pharmaceuticals Ltd., `UNAVAILABLE`, `SEEMA_PHARMA_UNPRICED`): MedEx only prices Oral Suspension; 500 mg tablet is Price Unavailable.
+- **Prostalex 250 mg** (Beacon Pharmaceuticals Ltd., `UNAVAILABLE`, `OFFICIALLY_UNPRICED`): MedEx lists Price Unavailable (Arogga #15574 dummy pv_mrp=1).
+- **Riboseem 5 mg** (Seema Pharmaceuticals Ltd., `UNAVAILABLE`, `SEEMA_PHARMA_UNPRICED`): MedEx lists Price Unavailable.
 - **Seema-C 250 mg** (Seema Pharmaceuticals Ltd., `UNAVAILABLE`, `SEEMA_PHARMA_UNPRICED`): MedEx lists Price Unavailable.
 - **Seemagyl 400 mg** (Seema Pharmaceuticals Ltd., `UNAVAILABLE`, `SEEMA_PHARMA_UNPRICED`): MedEx only prices Suspension; 400 mg tablet is Price Unavailable.
 - **Seemaldrat 400 mg/5 ml** (Seema Pharmaceuticals Ltd., `UNAVAILABLE`, `SEEMA_PHARMA_UNPRICED`): MedEx lists Price Unavailable.
@@ -114,3 +114,4 @@ Generated: 2026-11-26T05:45:20.171Z | Mode: Strictly Read-Only (`RepeatableRead`
 - **Batch 9**: `passed=true` | `matchedCounts={"batch9UpdatedPacks":225,"untouchedPacks":27256}`
 - **Batch 10**: `passed=true` | `matchedCounts={"batch10UpdatedPacks":128,"batch10InsertedPacks":3,"batch10InsertedBrandPriceStatusUpdated":3,"batch10DeletedObsoletePacks":2,"untouchedPacks":27351}`
 - **Batch 11**: `passed=true` | `matchedCounts={"batch11UpdatedPacks":155,"batch11DeletedObsoletePacks":1,"untouchedPacks":27326}`
+- **Zero-Pack Status Sync**: `passed=true` | `matchedCounts={"updatedBrands":16,"untouchedBrands":25192,"untouchedPacks":27481}`

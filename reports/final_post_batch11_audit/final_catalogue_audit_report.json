@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T05:45:20.171Z",
+  "generatedAt": "2026-11-27T18:48:07.090Z",
   "readOnlyTransaction": true,
   "isolationLevel": "RepeatableRead",
   "liveCounts": {
@@ -19,7 +19,7 @@
   "brandPriceFieldStatusDistribution": [
     {
       "_count": {
-        "_all": 10
+        "_all": 26
       },
       "priceFieldStatus": "UNAVAILABLE"
     },
@@ -31,7 +31,7 @@
     },
     {
       "_count": {
-        "_all": 24089
+        "_all": 24073
       },
       "priceFieldStatus": "PRESENT"
     },
@@ -77,7 +77,7 @@
         "name": "Baloflu 20 mg",
         "dosageForm": "Tablet",
         "manufacturer": "Navana Pharmaceuticals Ltd.",
-        "priceFieldStatus": "PRESENT",
+        "priceFieldStatus": "UNAVAILABLE",
         "exclusionCategory": "OFFICIALLY_UNPRICED",
         "reason": "MedEx/retail listings show Price Unavailable (unpriced specialty antiviral)."
       },
@@ -87,7 +87,7 @@
         "name": "Baloflu 40 mg",
         "dosageForm": "Tablet",
         "manufacturer": "Navana Pharmaceuticals Ltd.",
-        "priceFieldStatus": "PRESENT",
+        "priceFieldStatus": "UNAVAILABLE",
         "exclusionCategory": "OFFICIALLY_UNPRICED",
         "reason": "MedEx lists Price Unavailable."
       },
@@ -97,7 +97,7 @@
         "name": "Cholera Fluid",
         "dosageForm": "IV Infusion",
         "manufacturer": "Institute of Public Health (IPH)",
-        "priceFieldStatus": "PRESENT",
+        "priceFieldStatus": "UNAVAILABLE",
         "exclusionCategory": "GOVERNMENT_IPH_NOT_FOR_SALE",
         "reason": "Government Institute of Public Health supply (Not for sale / unpriced on MedEx)."
       },
@@ -107,7 +107,7 @@
         "name": "Covishield",
         "dosageForm": "IM Injection",
         "manufacturer": "Serum Institute of India",
-        "priceFieldStatus": "PRESENT",
+        "priceFieldStatus": "UNAVAILABLE",
         "exclusionCategory": "GOVERNMENT_INSTITUTIONAL_VACCINE",
         "reason": "Public immunization vaccine (Price Unavailable on MedEx)."
       },
@@ -117,7 +117,7 @@
         "name": "Dextran 10%+5%",
         "dosageForm": "IV Infusion",
         "manufacturer": "Institute of Public Health (IPH)",
-        "priceFieldStatus": "PRESENT",
+        "priceFieldStatus": "UNAVAILABLE",
         "exclusionCategory": "GOVERNMENT_IPH_NOT_FOR_SALE",
         "reason": "Government IPH institutional IV infusion (Not for sale / unpriced)."
       },
@@ -127,7 +127,7 @@
         "name": "Dextran 6%+5%",
         "dosageForm": "IV Infusion",
         "manufacturer": "Institute of Public Health (IPH)",
-        "priceFieldStatus": "PRESENT",
+        "priceFieldStatus": "UNAVAILABLE",
         "exclusionCategory": "GOVERNMENT_IPH_NOT_FOR_SALE",
         "reason": "Government IPH institutional IV infusion (Not for sale / unpriced)."
       },
@@ -137,7 +137,7 @@
         "name": "Dextran 40 10%+0.9%",
         "dosageForm": "IV Infusion",
         "manufacturer": "Institute of Public Health (IPH)",
-        "priceFieldStatus": "PRESENT",
+        "priceFieldStatus": "UNAVAILABLE",
         "exclusionCategory": "GOVERNMENT_IPH_NOT_FOR_SALE",
         "reason": "Government IPH institutional IV infusion (Not for sale / unpriced)."
       },
@@ -147,7 +147,7 @@
         "name": "Dextran 70 6%+0.9%",
         "dosageForm": "IV Infusion",
         "manufacturer": "Institute of Public Health (IPH)",
-        "priceFieldStatus": "PRESENT",
+        "priceFieldStatus": "UNAVAILABLE",
         "exclusionCategory": "GOVERNMENT_IPH_NOT_FOR_SALE",
         "reason": "Government IPH institutional IV infusion (Not for sale / unpriced)."
       },
@@ -157,7 +157,7 @@
         "name": "Glucose Saline 0.9%+5%",
         "dosageForm": "IV Infusion",
         "manufacturer": "Institute of Public Health (IPH)",
-        "priceFieldStatus": "PRESENT",
+        "priceFieldStatus": "UNAVAILABLE",
         "exclusionCategory": "GOVERNMENT_IPH_NOT_FOR_SALE",
         "reason": "Government IPH institutional IV infusion (Not for sale / unpriced)."
       },
@@ -167,7 +167,7 @@
         "name": "Hertinib 40 mg",
         "dosageForm": "Tablet",
         "manufacturer": "Drug International Ltd.",
-        "priceFieldStatus": "PRESENT",
+        "priceFieldStatus": "UNAVAILABLE",
         "exclusionCategory": "OFFICIALLY_UNPRICED",
         "reason": "MedEx lists Price Unavailable (specialist oncology)."
       },
@@ -177,7 +177,7 @@
         "name": "Ketoseem 10 mg",
         "dosageForm": "Tablet",
         "manufacturer": "Seema Pharmaceuticals Ltd.",
-        "priceFieldStatus": "PRESENT",
+        "priceFieldStatus": "UNAVAILABLE",
         "exclusionCategory": "SEEMA_PHARMA_UNPRICED",
         "reason": "Discontinued/inactive Seema SKU; MedEx lists Price Unavailable."
       },
@@ -187,7 +187,7 @@
         "name": "Nilonib 200 mg",
         "dosageForm": "Capsule",
         "manufacturer": "Drug International Ltd.",
-        "priceFieldStatus": "PRESENT",
+        "priceFieldStatus": "UNAVAILABLE",
         "exclusionCategory": "OFFICIALLY_UNPRICED_ON_MEDEX",
         "reason": "MedEx lists Price Unavailable for Nilonib 200 mg (Arogga #39689 stock=0 lists ৳800 Box=30; kept held pending official MedEx MRP)."
       },
@@ -197,7 +197,7 @@
         "name": "Panto SP 40 mg",
         "dosageForm": "Tablet (Enteric Coated)",
         "manufacturer": "Seema Pharmaceuticals Ltd.",
-        "priceFieldStatus": "PRESENT",
+        "priceFieldStatus": "UNAVAILABLE",
         "exclusionCategory": "SEEMA_PHARMA_UNPRICED",
         "reason": "MedEx only prices 20 mg; 40 mg SKU has no published MRP."
       },
@@ -207,7 +207,7 @@
         "name": "Paramol 500 mg",
         "dosageForm": "Tablet",
         "manufacturer": "Seema Pharmaceuticals Ltd.",
-        "priceFieldStatus": "PRESENT",
+        "priceFieldStatus": "UNAVAILABLE",
         "exclusionCategory": "SEEMA_PHARMA_UNPRICED",
         "reason": "MedEx only prices Oral Suspension; 500 mg tablet is Price Unavailable."
       },
@@ -217,7 +217,7 @@
         "name": "Prostalex 250 mg",
         "dosageForm": "Tablet",
         "manufacturer": "Beacon Pharmaceuticals Ltd.",
-        "priceFieldStatus": "PRESENT",
+        "priceFieldStatus": "UNAVAILABLE",
         "exclusionCategory": "OFFICIALLY_UNPRICED",
         "reason": "MedEx lists Price Unavailable (Arogga #15574 dummy pv_mrp=1)."
       },
@@ -227,7 +227,7 @@
         "name": "Riboseem 5 mg",
         "dosageForm": "Tablet",
         "manufacturer": "Seema Pharmaceuticals Ltd.",
-        "priceFieldStatus": "PRESENT",
+        "priceFieldStatus": "UNAVAILABLE",
         "exclusionCategory": "SEEMA_PHARMA_UNPRICED",
         "reason": "MedEx lists Price Unavailable."
       },
@@ -1364,6 +1364,26 @@
         "zeroPackBrandsRemaining": 21,
         "nonDivisibleStripRemaining": 0,
         "stripUnitsLte1OrGt100Remaining": 0,
+        "packsWithWarningsRemaining": 9,
+        "arithMismatchGt5PctRemaining": 3
+      }
+    },
+    {
+      "batch": "Zero-Pack Status Sync",
+      "reportPath": "zero_pack_status_sync/zero_pack_status_post_execution_validation.json",
+      "validatedAt": "2026-11-27T18:47:15.126Z",
+      "overallValidationPassed": true,
+      "matchedCounts": {
+        "updatedBrands": 16,
+        "untouchedBrands": 25192,
+        "untouchedPacks": 27481
+      },
+      "postHygiene": {
+        "nonDivisibleStripRemaining": 0,
+        "stripUnitsLte1OrGt100Remaining": 0,
+        "zeroPackBrandsRemaining": 21,
+        "zeroPackPresentRemaining": 0,
+        "zeroPackUnavailableCount": 21,
         "packsWithWarningsRemaining": 9,
         "arithMismatchGt5PctRemaining": 3
       }

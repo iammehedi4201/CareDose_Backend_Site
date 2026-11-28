@@ -1,0 +1,280 @@
+{
+  "executedAt": "2026-11-27T18:46:01.832Z",
+  "backupPath": "F:\\My Projects\\CareDose\\care_dose_pre_zero_pack_status_backup.dump",
+  "updatedCount": 16,
+  "alreadyUnavailableCount": 5,
+  "updates": [
+    {
+      "brandId": "84e97c0c-4064-4a6c-a2ee-7da0004b966b",
+      "sourceId": "33022",
+      "brandName": "Baloflu",
+      "strength": "20 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "verification": "UNVERIFIED",
+      "exclusionCategory": "OFFICIALLY_UNPRICED",
+      "reason": "MedEx/retail listings show Price Unavailable (unpriced specialty antiviral).",
+      "currentValues": {
+        "priceFieldStatus": "PRESENT"
+      },
+      "proposedValues": {
+        "priceFieldStatus": "UNAVAILABLE"
+      }
+    },
+    {
+      "brandId": "8df1cbda-bcbe-4808-8884-368c43b59e3b",
+      "sourceId": "33023",
+      "brandName": "Baloflu",
+      "strength": "40 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Navana Pharmaceuticals Ltd.",
+      "verification": "UNVERIFIED",
+      "exclusionCategory": "OFFICIALLY_UNPRICED",
+      "reason": "MedEx lists Price Unavailable.",
+      "currentValues": {
+        "priceFieldStatus": "PRESENT"
+      },
+      "proposedValues": {
+        "priceFieldStatus": "UNAVAILABLE"
+      }
+    },
+    {
+      "brandId": "bf72b62b-44f9-4c71-88a2-6487431e8f28",
+      "sourceId": "14885",
+      "brandName": "Cholera Fluid",
+      "strength": null,
+      "dosageForm": "IV Infusion",
+      "manufacturer": "Institute of Public Health (IPH)",
+      "verification": "UNVERIFIED",
+      "exclusionCategory": "GOVERNMENT_IPH_NOT_FOR_SALE",
+      "reason": "Government Institute of Public Health supply (Not for sale / unpriced on MedEx).",
+      "currentValues": {
+        "priceFieldStatus": "PRESENT"
+      },
+      "proposedValues": {
+        "priceFieldStatus": "UNAVAILABLE"
+      }
+    },
+    {
+      "brandId": "9b57365f-805f-4381-8c7d-3782d5bad057",
+      "sourceId": "29433",
+      "brandName": "Covishield",
+      "strength": null,
+      "dosageForm": "IM Injection",
+      "manufacturer": "Serum Institute of India",
+      "verification": "UNVERIFIED",
+      "exclusionCategory": "GOVERNMENT_INSTITUTIONAL_VACCINE",
+      "reason": "Public immunization vaccine (Price Unavailable on MedEx).",
+      "currentValues": {
+        "priceFieldStatus": "PRESENT"
+      },
+      "proposedValues": {
+        "priceFieldStatus": "UNAVAILABLE"
+      }
+    },
+    {
+      "brandId": "9a6db8d7-f7a5-4274-a4eb-0552892160c4",
+      "sourceId": "14904",
+      "brandName": "Dextran",
+      "strength": "10%+5%",
+      "dosageForm": "IV Infusion",
+      "manufacturer": "Institute of Public Health (IPH)",
+      "verification": "UNVERIFIED",
+      "exclusionCategory": "GOVERNMENT_IPH_NOT_FOR_SALE",
+      "reason": "Government IPH institutional IV infusion (Not for sale / unpriced).",
+      "currentValues": {
+        "priceFieldStatus": "PRESENT"
+      },
+      "proposedValues": {
+        "priceFieldStatus": "UNAVAILABLE"
+      }
+    },
+    {
+      "brandId": "c691811c-bc5a-48a6-a758-151e67217a19",
+      "sourceId": "19759",
+      "brandName": "Dextran",
+      "strength": "6%+5%",
+      "dosageForm": "IV Infusion",
+      "manufacturer": "Institute of Public Health (IPH)",
+      "verification": "UNVERIFIED",
+      "exclusionCategory": "GOVERNMENT_IPH_NOT_FOR_SALE",
+      "reason": "Government IPH institutional IV infusion (Not for sale / unpriced).",
+      "currentValues": {
+        "priceFieldStatus": "PRESENT"
+      },
+      "proposedValues": {
+        "priceFieldStatus": "UNAVAILABLE"
+      }
+    },
+    {
+      "brandId": "56d750b2-a6c3-4add-a86d-9556bcc9a25b",
+      "sourceId": "14905",
+      "brandName": "Dextran 40",
+      "strength": "10%+0.9%",
+      "dosageForm": "IV Infusion",
+      "manufacturer": "Institute of Public Health (IPH)",
+      "verification": "UNVERIFIED",
+      "exclusionCategory": "GOVERNMENT_IPH_NOT_FOR_SALE",
+      "reason": "Government IPH institutional IV infusion (Not for sale / unpriced).",
+      "currentValues": {
+        "priceFieldStatus": "PRESENT"
+      },
+      "proposedValues": {
+        "priceFieldStatus": "UNAVAILABLE"
+      }
+    },
+    {
+      "brandId": "4945af15-c202-42e2-b411-b53c3dc79c0b",
+      "sourceId": "14906",
+      "brandName": "Dextran 70",
+      "strength": "6%+0.9%",
+      "dosageForm": "IV Infusion",
+      "manufacturer": "Institute of Public Health (IPH)",
+      "verification": "UNVERIFIED",
+      "exclusionCategory": "GOVERNMENT_IPH_NOT_FOR_SALE",
+      "reason": "Government IPH institutional IV infusion (Not for sale / unpriced).",
+      "currentValues": {
+        "priceFieldStatus": "PRESENT"
+      },
+      "proposedValues": {
+        "priceFieldStatus": "UNAVAILABLE"
+      }
+    },
+    {
+      "brandId": "8329eab9-4f9d-4435-81c3-65627590a03a",
+      "sourceId": "14883",
+      "brandName": "Glucose Saline",
+      "strength": "0.9%+5%",
+      "dosageForm": "IV Infusion",
+      "manufacturer": "Institute of Public Health (IPH)",
+      "verification": "UNVERIFIED",
+      "exclusionCategory": "GOVERNMENT_IPH_NOT_FOR_SALE",
+      "reason": "Government IPH institutional IV infusion (Not for sale / unpriced).",
+      "currentValues": {
+        "priceFieldStatus": "PRESENT"
+      },
+      "proposedValues": {
+        "priceFieldStatus": "UNAVAILABLE"
+      }
+    },
+    {
+      "brandId": "728e212b-d88b-438a-b92d-b90ff84e753e",
+      "sourceId": "33126",
+      "brandName": "Hertinib",
+      "strength": "40 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Drug International Ltd.",
+      "verification": "UNVERIFIED",
+      "exclusionCategory": "OFFICIALLY_UNPRICED",
+      "reason": "MedEx lists Price Unavailable (specialist oncology).",
+      "currentValues": {
+        "priceFieldStatus": "PRESENT"
+      },
+      "proposedValues": {
+        "priceFieldStatus": "UNAVAILABLE"
+      }
+    },
+    {
+      "brandId": "05a01101-1caf-43b9-9af1-c5078f11fb28",
+      "sourceId": "15433",
+      "brandName": "Ketoseem",
+      "strength": "10 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Seema Pharmaceuticals Ltd.",
+      "verification": "UNVERIFIED",
+      "exclusionCategory": "SEEMA_PHARMA_UNPRICED",
+      "reason": "Discontinued/inactive Seema SKU; MedEx lists Price Unavailable.",
+      "currentValues": {
+        "priceFieldStatus": "PRESENT"
+      },
+      "proposedValues": {
+        "priceFieldStatus": "UNAVAILABLE"
+      }
+    },
+    {
+      "brandId": "e1d1a2d9-3231-4949-8fcf-e5731ae8a8a3",
+      "sourceId": "33089",
+      "brandName": "Nilonib",
+      "strength": "200 mg",
+      "dosageForm": "Capsule",
+      "manufacturer": "Drug International Ltd.",
+      "verification": "UNVERIFIED",
+      "exclusionCategory": "OFFICIALLY_UNPRICED_ON_MEDEX",
+      "reason": "MedEx lists Price Unavailable for Nilonib 200 mg (Arogga #39689 stock=0 lists ৳800 Box=30; kept held pending official MedEx MRP).",
+      "currentValues": {
+        "priceFieldStatus": "PRESENT"
+      },
+      "proposedValues": {
+        "priceFieldStatus": "UNAVAILABLE"
+      }
+    },
+    {
+      "brandId": "d88018a3-a58e-4a86-aca5-a566aa7e62d3",
+      "sourceId": "23361",
+      "brandName": "Panto SP",
+      "strength": "40 mg",
+      "dosageForm": "Tablet (Enteric Coated)",
+      "manufacturer": "Seema Pharmaceuticals Ltd.",
+      "verification": "UNVERIFIED",
+      "exclusionCategory": "SEEMA_PHARMA_UNPRICED",
+      "reason": "MedEx only prices 20 mg; 40 mg SKU has no published MRP.",
+      "currentValues": {
+        "priceFieldStatus": "PRESENT"
+      },
+      "proposedValues": {
+        "priceFieldStatus": "UNAVAILABLE"
+      }
+    },
+    {
+      "brandId": "3001bb35-c55e-49e3-aa3c-a9c05885b691",
+      "sourceId": "23531",
+      "brandName": "Paramol",
+      "strength": "500 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Seema Pharmaceuticals Ltd.",
+      "verification": "UNVERIFIED",
+      "exclusionCategory": "SEEMA_PHARMA_UNPRICED",
+      "reason": "MedEx only prices Oral Suspension; 500 mg tablet is Price Unavailable.",
+      "currentValues": {
+        "priceFieldStatus": "PRESENT"
+      },
+      "proposedValues": {
+        "priceFieldStatus": "UNAVAILABLE"
+      }
+    },
+    {
+      "brandId": "3b9ec6d6-1481-49e0-be02-cd7f09e4cdd1",
+      "sourceId": "33091",
+      "brandName": "Prostalex",
+      "strength": "250 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Beacon Pharmaceuticals Ltd.",
+      "verification": "UNVERIFIED",
+      "exclusionCategory": "OFFICIALLY_UNPRICED",
+      "reason": "MedEx lists Price Unavailable (Arogga #15574 dummy pv_mrp=1).",
+      "currentValues": {
+        "priceFieldStatus": "PRESENT"
+      },
+      "proposedValues": {
+        "priceFieldStatus": "UNAVAILABLE"
+      }
+    },
+    {
+      "brandId": "769a9604-1366-4727-8a51-f7da1fde7bda",
+      "sourceId": "24243",
+      "brandName": "Riboseem",
+      "strength": "5 mg",
+      "dosageForm": "Tablet",
+      "manufacturer": "Seema Pharmaceuticals Ltd.",
+      "verification": "UNVERIFIED",
+      "exclusionCategory": "SEEMA_PHARMA_UNPRICED",
+      "reason": "MedEx lists Price Unavailable.",
+      "currentValues": {
+        "priceFieldStatus": "PRESENT"
+      },
+      "proposedValues": {
+        "priceFieldStatus": "UNAVAILABLE"
+      }
+    }
+  ]
+}
